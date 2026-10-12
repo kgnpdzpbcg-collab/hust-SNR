@@ -69,7 +69,11 @@ class FourthHarmonicShaping(nn.Module):
         with torch.no_grad():
             p = spectrum.abs().square().mean(dim=1)  # [B, 2049], phases pooled
             p4 = p[:, 4]
-            floor = p[:, NOISE_START:NOISE_END + 1].median(dim=-1).values
+            # CUDA median(dim=...) 同时产生索引，不能在严格确定性模式运行。
+            # 本协议固定取12–30阶共19个功率值；稳定排序后第10个值就是
+            # 原中位数。仅替换取值算子，不改变噪声底公式或梯度隔离规则。
+            band = p[:, NOISE_START:NOISE_END + 1]
+            floor = band.sort(dim=-1, stable=True).values[:, (band.shape[-1] - 1) // 2]
             tiny = torch.finfo(p4.dtype).eps
             return ((p4 - floor) / p4.clamp_min(tiny)).clamp(0.0, 1.0)
 

@@ -109,6 +109,38 @@ def test_median_noise_floor_matches_explicit_harmonic_band():
     assert torch.allclose(r,torch.full((2,),.75))
 
 
+def test_noise_floor_matches_median_values_with_repeated_powers():
+    """重复功率及零功率情况下，排序取中值仍与原CPU中位数完全一致。"""
+    torch.manual_seed(17)
+    spectrum = torch.randn(8, 5, RAW_POINTS//2+1, dtype=torch.complex64)
+    spectrum[0, :, 12:31] = 0
+    spectrum[1, :, 12:31] = 2 + 0j
+    power = spectrum.abs().square().mean(dim=1)
+    floor = power[:, 12:31].median(dim=-1).values
+    expected = ((power[:, 4] - floor) /
+                power[:, 4].clamp_min(torch.finfo(power.dtype).eps)).clamp(0, 1)
+    assert torch.equal(FourthHarmonicShaping.noise_reliability(spectrum), expected)
+
+
+@pytest.mark.skipif(not torch.cuda.is_available(), reason="需要CUDA检查严格确定性算子")
+def test_cuda_noise_floor_is_deterministic_and_matches_cpu_median_values():
+    """防止原CUDA median异常回归；用相同GPU功率数据在CPU求原中值。"""
+    previous = torch.are_deterministic_algorithms_enabled()
+    try:
+        torch.use_deterministic_algorithms(True)
+        torch.manual_seed(23)
+        spectrum = torch.randn(32, 5, RAW_POINTS//2+1, dtype=torch.complex64, device="cuda")
+        power = spectrum.abs().square().mean(dim=1)
+        floor = power[:, 12:31].cpu().median(dim=-1).values.to("cuda")
+        expected = ((power[:, 4] - floor) /
+                    power[:, 4].clamp_min(torch.finfo(power.dtype).eps)).clamp(0, 1)
+        actual = FourthHarmonicShaping.noise_reliability(spectrum)
+        assert torch.equal(actual, expected)
+        assert torch.equal(actual, FourthHarmonicShaping.noise_reliability(spectrum))
+    finally:
+        torch.use_deterministic_algorithms(previous)
+
+
 def test_invalid_inputs_rejected():
     with pytest.raises(ValueError):
         HPASFCNN("unknown")
