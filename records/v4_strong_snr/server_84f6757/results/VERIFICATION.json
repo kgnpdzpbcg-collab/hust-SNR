@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "prediction_vectors_exactly_reproduced": 36,
+  "metric_sets_independently_recomputed_with_sklearn": 36,
+  "original_10db_predictions_exactly_reproduced": 12,
+  "new_target_5_0_mat_files_verified": 176,
+  "max_full_record_per_phase_snr_error_db": 3.730349362740526e-14,
+  "model_state_dicts_unchanged": 12,
+  "protected_files_unchanged": 496,
+  "aggregate_groups_verified": 12,
+  "per_class_groups_verified": 72,
+  "paired_method_groups_verified": 18,
+  "degradation_groups_verified": 8,
+  "final_holdout_evaluated": false,
+  "training_updates": 0,
+  "verification_seconds": 3.5598386880010366,
+  "verifier_sha256": "5ee64e891de004c713ff44a64fb4a716af12e40dd3e2646a49ba1b7d1a5c17f7"
+}

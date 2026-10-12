@@ -102,3 +102,12 @@ python scripts/v4_experiment.py summarize
 - [独立生成脚本](scripts/generate_strong_snr.py) · [扩展数据配置](configs/strong_snr_data_v1.json)
 
 服务器已生成998个新MAT：仿真59个编号×两档、实测440个编号×两档。实测由作者10 dB噪声放大派生；旧V4未重训，实测最终保留集没有进行模型评估。
+
+## V4固定权重5/0 dB实测压力测试
+
+运行入口提交`84f6757`，固定原12份最佳权重，复用原服务器环境；同一88个实测编号、每档2474个周期。完成24组新5/0 dB评估及12组10 dB重放；没有训练或更新模型。36组预测和指标独立核查通过，347个最终保留编号未评估。
+
+- [完整客观结果、六类F1/Recall、漏报和配对差](records/v4_strong_snr/server_84f6757/SERVER_RESULTS.md)
+- [实际使用的88个数据文件及周期数量](records/v4_strong_snr/server_84f6757/EVALUATED_RECORDS.csv)
+- [独立推理入口](scripts/evaluate_v4_strong_snr.py) · [统计和数据池测试](tests/test_evaluate_v4_strong_snr.py)
+- [逐种子结果](records/v4_strong_snr/server_84f6757/results/PER_SEED_RESULTS.csv) · [独立核查](records/v4_strong_snr/server_84f6757/results/VERIFICATION.json)
