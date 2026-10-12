@@ -1,0 +1,21 @@
+cae_prior seed=42 epoch=1/50 source_Clean_F1=0.8159 noisy_F1=0.8099
+cae_prior seed=42 epoch=10/50 source_Clean_F1=1.0000 noisy_F1=0.9989
+cae_prior seed=42 epoch=20/50 source_Clean_F1=0.9577 noisy_F1=0.9566
+cae_prior seed=42 epoch=30/50 source_Clean_F1=0.9577 noisy_F1=0.9698
+cae_prior seed=42 epoch=40/50 source_Clean_F1=0.9160 noisy_F1=0.9150
+cae_prior seed=42 epoch=50/50 source_Clean_F1=0.9257 noisy_F1=0.9279
+SAVED /home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/models/cae_prior/seed42/best.pt
+cae_prior seed=43 epoch=1/50 source_Clean_F1=0.5301 noisy_F1=0.5428
+cae_prior seed=43 epoch=10/50 source_Clean_F1=0.7596 noisy_F1=0.7527
+cae_prior seed=43 epoch=20/50 source_Clean_F1=0.8920 noisy_F1=0.8773
+cae_prior seed=43 epoch=30/50 source_Clean_F1=0.8359 noisy_F1=0.8430
+cae_prior seed=43 epoch=40/50 source_Clean_F1=0.7519 noisy_F1=0.7511
+cae_prior seed=43 epoch=50/50 source_Clean_F1=0.8209 noisy_F1=0.8142
+SAVED /home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/models/cae_prior/seed43/best.pt
+cae_prior seed=44 epoch=1/50 source_Clean_F1=0.7854 noisy_F1=0.7728
+cae_prior seed=44 epoch=10/50 source_Clean_F1=1.0000 noisy_F1=0.9902
+cae_prior seed=44 epoch=20/50 source_Clean_F1=1.0000 noisy_F1=0.9988
+cae_prior seed=44 epoch=30/50 source_Clean_F1=1.0000 noisy_F1=1.0000
+cae_prior seed=44 epoch=40/50 source_Clean_F1=1.0000 noisy_F1=0.9951
+cae_prior seed=44 epoch=50/50 source_Clean_F1=1.0000 noisy_F1=0.9942
+SAVED /home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/models/cae_prior/seed44/best.pt

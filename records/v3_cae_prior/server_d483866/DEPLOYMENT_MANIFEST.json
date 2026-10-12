@@ -1,0 +1,45 @@
+{
+  "code_commit": "d48386699ce0dca2d39d6c0dfabaa75ad064ac6a",
+  "branch": "research/cae-lowpass-prior-v3",
+  "archive_sha256": "472099828472f5d28c2f4830048ea66aca77c9ebb5f5c0040f435c5b4cefa6de",
+  "code_sha256": {
+    "scripts/v3_cae_prior.py": "0fc38aa4e39a958163e7e72a9f471762128431a5aba58176ca94df439e18d622",
+    "scripts/v3_experiment.py": "6408e06434e71754e01b7d8a9aba625b0f87e1ca17595f83e1ef9de1b3d6a8bd",
+    "scripts/v2_paifilter.py": "2f3f40461b420d7e6ebf16241576fc10ee11087bf837c5549493d0dc84ce04fc",
+    "scripts/v2_experiment.py": "ab3a7733c46df6d5785b740ffd4afbb625b2ce7de26bf3c50b606d7d3c66a112",
+    "scripts/v1_noise_consistency.py": "3eab3d4bf8b2b569f423fbff8b59e85be3419de6ad09f0c4f57e4475b067da9e",
+    "scripts/prepare.py": "857b6758413f1ba23c78cce9b8ebf46043f53d6e850b5836321a3301f5f2c077",
+    "configs/splits_gate0_v1.json": "5fccf11264d097aaa704030c16e9007323baaa57e613b1fa13f652a1a7b43707"
+  },
+  "methods": [
+    "cae_identity",
+    "cae_lowpass3",
+    "cae_prior",
+    "cae_prior_no_rec"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "lambda_rec": 1.0,
+  "parallel_workers": 4,
+  "threads_per_worker": 4,
+  "evaluation_input": "original_MAT",
+  "conditions": [
+    "clean",
+    "snr10",
+    "snr15",
+    "snr20",
+    "snr25",
+    "snr30",
+    "snr35",
+    "snr40"
+  ],
+  "environment_reused": true,
+  "new_packages_installed": false,
+  "final_holdout_evaluated": false
+}

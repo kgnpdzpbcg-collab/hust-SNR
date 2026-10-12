@@ -1,6 +1,6 @@
 # HUST-SNR V3：原论文 CAE-Classification + 低通先验可学习滤波
 
-**状态：模型、GPU实验入口和测试已提交；正式多种子训练及目标Dev评估尚未执行。Final-Holdout未使用。**
+**状态（2026-10-12）：运行提交`d483866`已完成四方法×三种子×50轮GPU训练，以及Clean＋七档SNR共96次Dev评估。29项测试通过，48组源Val分数与96组Dev预测复现一致。Final-Holdout未使用。** [完整服务器记录](../records/v3_cae_prior/server_d483866/SERVER_RESULTS.md)。
 
 ## 1. 原论文结构核对与重要区别
 
@@ -83,6 +83,8 @@ python scripts/v3_experiment.py summarize
 或提供先前导出的88条Dev资料：`evaluate --dev-export-root /path/to/dev_snr_export`；报告正式指标优先使用原MAT。
 
 全部结果存于 `outputs/v3_cae_prior/`，不修改Gate0/V1/V2既有模型与预测；模型、历史、选模JSON按方法/种子分开保存，目标Dev逐周期预测/混淆矩阵保留，汇总见`SUMMARY.json`及`PER_SEED_RESULTS.csv`。重复运行同一训练输出会被V2原代码拒绝覆盖。
+
+本轮实际使用独立目录`/home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/`，四组并发。正式训练、测评及汇总墙钟为56.02秒，不含部署、预检和独立核验；未修改模型代码、超参数或原环境。训练history继承V2，只保存总损失；最佳权重Source-Val eval模式下的CE/MSE分量另存核验JSON。best.pt的train_protocol字符串继承V2而写为paired-source-CE，实际V3目标以本文件和代码为准：CE＋自身重构MSE，no_rec组MSE为0。
 
 ## 7. 不应过度解读的事项
 

@@ -1,0 +1,34 @@
+{
+  "mode": "cae_lowpass3",
+  "seed": 43,
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "first_epoch_clean_noise_identical_across_modes": true,
+  "selection": {
+    "epoch": 5,
+    "train_loss_mean": 0.11253781399379174,
+    "clean_f1": 0.9967945754353522,
+    "noisy_f1": {
+      "10": 0.9838708531565823,
+      "20": 0.9935873720557405,
+      "30": 0.9967945754353522
+    },
+    "noise_mean_f1": 0.9914176002158918
+  },
+  "checkpoint_rule": "source 10/20/30 dB noisy-val mean Macro-F1, clean within 1pp",
+  "source_split": "frozen Gate0/V1",
+  "initial_cnn_sha256": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+  "train_or_select_on_target": false,
+  "final_holdout_evaluated": false,
+  "parameter_counts": {
+    "cnn": 25620,
+    "decoder": 9845,
+    "spectral": 0,
+    "total": 35465
+  },
+  "experiment": "V3_CAE_LOW_PASS_PRIOR",
+  "lambda_rec": 1.0,
+  "decoder_training_only": true,
+  "source_only": true
+}

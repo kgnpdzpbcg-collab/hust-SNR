@@ -1,0 +1,14 @@
+cae_identity {'encoder_classifier': 25620, 'decoder': 9845, 'spectral': 0, 'total': 35465} {'ce': 1.8042657375335693, 'reconstruction_mse': 0.2762419581413269}
+cae_lowpass3 {'encoder_classifier': 25620, 'decoder': 9845, 'spectral': 0, 'total': 35465} {'ce': 1.9054317474365234, 'reconstruction_mse': 0.14723294973373413}
+cae_prior {'encoder_classifier': 25620, 'decoder': 9845, 'spectral': 128, 'total': 35593} {'ce': 1.9541362524032593, 'reconstruction_mse': 0.1763247549533844}
+cae_prior_no_rec {'encoder_classifier': 25620, 'decoder': 0, 'spectral': 128, 'total': 25748} {'ce': 1.9635334014892578, 'reconstruction_mse': 0.0}
+V3 architecture smoke PASSED
+cae_identity {'encoder_classifier': 25620, 'decoder': 9845, 'spectral': 0, 'total': 35465} {'ce': 1.8042657375335693, 'reconstruction_mse': 0.2762419581413269}
+cae_lowpass3 {'encoder_classifier': 25620, 'decoder': 9845, 'spectral': 0, 'total': 35465} {'ce': 1.9054317474365234, 'reconstruction_mse': 0.14723294973373413}
+cae_prior {'encoder_classifier': 25620, 'decoder': 9845, 'spectral': 128, 'total': 35593} {'ce': 1.9541362524032593, 'reconstruction_mse': 0.1763247549533844}
+cae_prior_no_rec {'encoder_classifier': 25620, 'decoder': 0, 'spectral': 128, 'total': 25748} {'ce': 1.9635334014892578, 'reconstruction_mse': 0.0}
+V3 architecture smoke PASSED
+V2 TRAIN/RAW-CYCLE SMOKE PASSED
+V3 end-to-end smoke PASSED
+.............................                                            [100%]
+29 passed in 1.79s

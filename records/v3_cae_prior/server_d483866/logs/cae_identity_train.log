@@ -1,0 +1,21 @@
+cae_identity seed=42 epoch=1/50 source_Clean_F1=0.8097 noisy_F1=0.7144
+cae_identity seed=42 epoch=10/50 source_Clean_F1=0.9469 noisy_F1=0.9461
+cae_identity seed=42 epoch=20/50 source_Clean_F1=0.9577 noisy_F1=0.9516
+cae_identity seed=42 epoch=30/50 source_Clean_F1=0.8610 noisy_F1=0.8646
+cae_identity seed=42 epoch=40/50 source_Clean_F1=0.8853 noisy_F1=0.8754
+cae_identity seed=42 epoch=50/50 source_Clean_F1=0.8610 noisy_F1=0.8729
+SAVED /home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/models/cae_identity/seed42/best.pt
+cae_identity seed=43 epoch=1/50 source_Clean_F1=0.6941 noisy_F1=0.6245
+cae_identity seed=43 epoch=10/50 source_Clean_F1=0.7653 noisy_F1=0.7693
+cae_identity seed=43 epoch=20/50 source_Clean_F1=0.7288 noisy_F1=0.7598
+cae_identity seed=43 epoch=30/50 source_Clean_F1=0.7146 noisy_F1=0.7428
+cae_identity seed=43 epoch=40/50 source_Clean_F1=0.7443 noisy_F1=0.7623
+cae_identity seed=43 epoch=50/50 source_Clean_F1=0.7441 noisy_F1=0.7605
+SAVED /home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/models/cae_identity/seed43/best.pt
+cae_identity seed=44 epoch=1/50 source_Clean_F1=0.7776 noisy_F1=0.7115
+cae_identity seed=44 epoch=10/50 source_Clean_F1=0.7776 noisy_F1=0.7894
+cae_identity seed=44 epoch=20/50 source_Clean_F1=0.9022 noisy_F1=0.8998
+cae_identity seed=44 epoch=30/50 source_Clean_F1=0.8903 noisy_F1=0.8822
+cae_identity seed=44 epoch=40/50 source_Clean_F1=0.8228 noisy_F1=0.8216
+cae_identity seed=44 epoch=50/50 source_Clean_F1=0.8228 noisy_F1=0.8983
+SAVED /home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/models/cae_identity/seed44/best.pt

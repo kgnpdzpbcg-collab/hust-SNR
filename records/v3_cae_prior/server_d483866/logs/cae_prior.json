@@ -1,0 +1,73 @@
+{
+  "method": "cae_prior",
+  "status": "completed",
+  "stages": [
+    {
+      "stage": "train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/v3_experiment.py",
+        "train",
+        "--methods",
+        "cae_prior",
+        "--seeds",
+        "42",
+        "43",
+        "44",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results",
+        "--epochs",
+        "50",
+        "--batch",
+        "32",
+        "--lr",
+        "0.001"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 41.6732791410177
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/v3_experiment.py",
+        "evaluate",
+        "--methods",
+        "cae_prior",
+        "--seeds",
+        "42",
+        "43",
+        "44",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results",
+        "--snr-root",
+        "/home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/target_snr"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 13.58200219500577
+    }
+  ],
+  "started_at_utc": "2026-10-12T08:34:21.074482+00:00",
+  "stage": "evaluate",
+  "pid": 114478,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/v3_experiment.py",
+    "evaluate",
+    "--methods",
+    "cae_prior",
+    "--seeds",
+    "42",
+    "43",
+    "44",
+    "--output",
+    "/home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results",
+    "--snr-root",
+    "/home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/target_snr"
+  ],
+  "log": "/home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/logs/cae_prior_evaluate.log",
+  "finished_at_utc": "2026-10-12T08:35:16.330168+00:00"
+}

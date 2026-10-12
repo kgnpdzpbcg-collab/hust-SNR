@@ -1,0 +1,21 @@
+cae_lowpass3 seed=42 epoch=1/50 source_Clean_F1=0.8159 noisy_F1=0.8141
+cae_lowpass3 seed=42 epoch=10/50 source_Clean_F1=0.8971 noisy_F1=0.8971
+cae_lowpass3 seed=42 epoch=20/50 source_Clean_F1=1.0000 noisy_F1=0.9952
+cae_lowpass3 seed=42 epoch=30/50 source_Clean_F1=0.9589 noisy_F1=0.9518
+cae_lowpass3 seed=42 epoch=40/50 source_Clean_F1=0.9046 noisy_F1=0.9070
+cae_lowpass3 seed=42 epoch=50/50 source_Clean_F1=0.8971 noisy_F1=0.8987
+SAVED /home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/models/cae_lowpass3/seed42/best.pt
+cae_lowpass3 seed=43 epoch=1/50 source_Clean_F1=0.5301 noisy_F1=0.5384
+cae_lowpass3 seed=43 epoch=10/50 source_Clean_F1=0.9469 noisy_F1=0.9449
+cae_lowpass3 seed=43 epoch=20/50 source_Clean_F1=0.8208 noisy_F1=0.8205
+cae_lowpass3 seed=43 epoch=30/50 source_Clean_F1=0.9577 noisy_F1=0.9418
+cae_lowpass3 seed=43 epoch=40/50 source_Clean_F1=0.8292 noisy_F1=0.8292
+cae_lowpass3 seed=43 epoch=50/50 source_Clean_F1=0.8336 noisy_F1=0.8335
+SAVED /home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/models/cae_lowpass3/seed43/best.pt
+cae_lowpass3 seed=44 epoch=1/50 source_Clean_F1=0.7791 noisy_F1=0.7763
+cae_lowpass3 seed=44 epoch=10/50 source_Clean_F1=0.9343 noisy_F1=0.9293
+cae_lowpass3 seed=44 epoch=20/50 source_Clean_F1=1.0000 noisy_F1=0.9988
+cae_lowpass3 seed=44 epoch=30/50 source_Clean_F1=0.9469 noisy_F1=0.9472
+cae_lowpass3 seed=44 epoch=40/50 source_Clean_F1=0.8971 noisy_F1=0.8918
+cae_lowpass3 seed=44 epoch=50/50 source_Clean_F1=0.8593 noisy_F1=0.8761
+SAVED /home/wang/projects/会议论文/hust/experiments/v3_cae_prior/d483866/results/models/cae_lowpass3/seed44/best.pt

@@ -81,4 +81,8 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [V3实验协议、论文Table III对齐说明](docs/V3_CAE_PRIOR_PROTOCOL.md)
 - [V3模型测试](tests/test_v3_cae_prior.py)；[V3运行入口测试](tests/test_v3_experiment.py)
 
-在服务器执行 `python scripts/v3_experiment.py smoke`，随后 `python scripts/v3_experiment.py train`、`python scripts/v3_experiment.py evaluate --snr-root /PATH/TO/SNR_PARENT`、`python scripts/v3_experiment.py summarize`。正式V3 GPU训练和目标Dev结果尚未执行，Final-Holdout没有使用。V1/V2输出不改动。
+运行提交`d483866`已在原GPU服务器完成四方法×三种子的50轮训练，以及Clean＋七档SNR的96次Dev评估。29项测试、48组源Val分数及96组Dev逐周期预测复现通过；原Gate0/V1/V2的332个文件哈希未改变，347条Final-Holdout未使用。
+
+- [V3服务器完整实验记录](records/v3_cae_prior/server_d483866/SERVER_RESULTS.md)
+- [V3逐种子96行结果](records/v3_cae_prior/server_d483866/results/PER_SEED_RESULTS.csv)
+- [V3独立核验、权重哈希与损失快照](records/v3_cae_prior/server_d483866/results/VERIFICATION.json)
