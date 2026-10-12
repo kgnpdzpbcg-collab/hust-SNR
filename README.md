@@ -71,3 +71,23 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [V2服务器实验完整记录](records/v2_paifilter/server_4df46a3/SERVER_RESULTS.md)
 - [V2逐种子72行结果](records/v2_paifilter/server_4df46a3/results/PER_SEED_RESULTS.csv)
 - [V2独立核验与权重哈希](records/v2_paifilter/server_4df46a3/results/VERIFICATION.json)
+
+## V4 HPASF V0（四组公平频域对照）
+
+已实现轻量 A′＋HPASF V0 的模型和正式训练、Dev评估入口（当前状态：**未运行正式GPU对照实验**）。冻结 V2 原 CNN、整记录噪声增强、源域 checkpoint 选模与 88 条 Dev；不接触 347 条 Final-Holdout。
+
+- [V4 模型：第4阶静态／噪声感知补偿](scripts/v4_hpasf.py)
+- [V4 训练、Dev评估、汇总](scripts/v4_experiment.py)
+- [V4 完整设计与实验协议](docs/V4_HPASF_PROTOCOL.md)
+- [模型测试](tests/test_v4_hpasf.py) · [训练流程和汇总测试](tests/test_v4_experiment.py)
+
+```bash
+python scripts/v4_hpasf.py
+python scripts/v4_experiment.py smoke
+python -m pytest -q tests/test_v4_hpasf.py tests/test_v4_experiment.py
+python scripts/v4_experiment.py train
+python scripts/v4_experiment.py evaluate --snr-root /path/to/SNR_parent
+python scripts/v4_experiment.py summarize
+```
+
+四组：`lowpass3`、`lowpass4`、`static4`、`hpasf`；后三组均以 V2 的固定前三阶低通为对照，只有第4阶的增益处理不同。V4 需重新训练 `lowpass3`，才能与其他三组公平比较。
