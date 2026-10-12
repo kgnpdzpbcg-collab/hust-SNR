@@ -21,7 +21,7 @@ def test_consistency_same_view_zero_and_grad():
     m = CNN()
     x = torch.randn(6, 5, 128)
     clean, noisy = x, x + 0.3 * torch.randn_like(x)
-    assert abs(float(consistency_loss(m(clean, True)[1], m(clean, True)[1]))) < 1e-6
+    assert abs(float(consistency_loss(m(clean, True)[1], m(clean, True)[1]).detach())) < 1e-6
     for method in ("baseline", "augmentation", "consistency"):
         m.zero_grad(set_to_none=True)
         loss, stats = train_objective(m, clean, torch.arange(6), None if method == "baseline" else noisy, method, .1)
@@ -39,7 +39,7 @@ def test_consistency_objective_exact_difference_in_eval_mode():
     y = torch.arange(6)
     a, _ = train_objective(m, x, y, xx, "augmentation", .1)
     b, aux = train_objective(m, x, y, xx, "consistency", .1)
-    assert float(b) == pytest.approx(float(a) + 0.1 * aux["cons"], abs=1e-6)
+    assert float(b.detach()) == pytest.approx(float(a.detach()) + 0.1 * aux["cons"], abs=1e-6)
 
 
 def test_checkpoint_selection_clean_guard_then_noisy():
