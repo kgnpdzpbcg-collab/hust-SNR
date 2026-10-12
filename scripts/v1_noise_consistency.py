@@ -9,6 +9,7 @@ Run from the repository root; see docs/V1_NOISE_CONSISTENCY_PROTOCOL.md.
 """
 from __future__ import annotations
 import argparse
+import csv
 import hashlib
 import json
 import random
@@ -314,9 +315,58 @@ def smoke():
     print("SMOKE PASSED", json.dumps(losses))
 
 
+def summarize(outdir, methods=METHODS, seeds=(42, 43, 44), conditions=None):
+    """Aggregate frozen Dev scores and paired M2-M1 deltas; no model retraining."""
+    conditions = conditions or ["clean", *[f"snr{s}" for s in NOISE_LEVELS]]
+    root = Path(outdir)
+    rows, aggregates, contrasts = [], [], []
+    cache = {}
+    for method in methods:
+        for seed in seeds:
+            for cond in conditions:
+                source = root / "evaluations" / method / f"seed{seed}" / f"target_dev_{cond}.json"
+                if not source.is_file():
+                    raise FileNotFoundError(f"Missing official target Dev result: {source}")
+                data = json.loads(source.read_text())
+                if data.get("final_holdout_evaluated") is not False or data.get("condition") != cond:
+                    raise ValueError(f"Invalid evaluation provenance: {source}")
+                scores = data["metrics"]
+                row = {"method": method, "seed": seed, "condition": cond,
+                       **{k: 100 * float(scores[k]) for k in
+                          ("macro_f1", "accuracy", "balanced_accuracy", "normal_false_alarm_rate")}}
+                rows.append(row)
+                cache[method, seed, cond] = row
+    for method in methods:
+        for cond in conditions:
+            sample = [cache[method, seed, cond] for seed in seeds]
+            summary = {"method": method, "condition": cond, "n_seeds": len(seeds)}
+            for k in ("macro_f1", "accuracy", "balanced_accuracy", "normal_false_alarm_rate"):
+                z = np.array([row[k] for row in sample])
+                summary[k+"_mean_percent"] = float(z.mean())
+                summary[k+"_sd_percent"] = float(z.std(ddof=1)) if len(z)>1 else 0.0
+            aggregates.append(summary)
+    if "augmentation" in methods and "consistency" in methods:
+        for cond in conditions:
+            diffs = [cache["consistency", seed, cond]["macro_f1"]-
+                     cache["augmentation", seed, cond]["macro_f1"] for seed in seeds]
+            contrasts.append({"condition": cond, "m2_minus_m1_macro_f1_pp": diffs,
+                              "mean_pp": float(np.mean(diffs)),
+                              "sd_pp": float(np.std(diffs, ddof=1)) if len(diffs)>1 else 0.0,
+                              "positive_seeds": int(sum(x>0 for x in diffs))})
+    root.mkdir(parents=True, exist_ok=True)
+    with (root / "PER_SEED_RESULTS.csv").open("w", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+    out = {"status": "V1_target_dev_only", "final_holdout_evaluated": False,
+           "methods": list(methods), "seeds": list(seeds), "conditions": list(conditions),
+           "aggregates": aggregates, "paired_consistency_minus_augmentation": contrasts}
+    (root / "SUMMARY.json").write_text(json.dumps(out, indent=2))
+    print(f"SAVED {root/'SUMMARY.json'} and PER_SEED_RESULTS.csv", flush=True)
+    return out
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("stage", choices=("smoke", "train", "evaluate"))
+    parser.add_argument("stage", choices=("smoke", "train", "evaluate", "summarize"))
     parser.add_argument("--methods", nargs="+", choices=METHODS, default=list(METHODS))
     parser.add_argument("--seeds", nargs="+", type=int, default=[42, 43, 44])
     parser.add_argument("--output", default="outputs/v1_noise_consistency")
@@ -332,6 +382,9 @@ def main():
         for m in a.methods:
             for seed in a.seeds:
                 train(m, seed, a.output, a.lam, a.epochs, a.batch)
+    elif a.stage == "summarize":
+        names = ["clean" if x == "clean" else f"snr{int(x)}" for x in a.conditions]
+        summarize(a.output, a.methods, a.seeds, names)
     elif a.stage == "evaluate":
         c = [None if x == "clean" else int(x) for x in a.conditions]
         if any(x is not None and x not in NOISE_LEVELS for x in c):
@@ -342,4 +395,5 @@ def main():
 
 
 if __name__ == "__main__":
+    main()
     main()
