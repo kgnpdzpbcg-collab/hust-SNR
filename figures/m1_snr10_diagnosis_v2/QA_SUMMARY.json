@@ -1,0 +1,25 @@
+{
+  "source_validation_exit": 0,
+  "reports": [
+    {
+      "figure": "case_1_to_3",
+      "font_exit": 0,
+      "collision_exit": 0
+    },
+    {
+      "figure": "case_2_to_0",
+      "font_exit": 0,
+      "collision_exit": 0
+    },
+    {
+      "figure": "case_3_to_3",
+      "font_exit": 0,
+      "collision_exit": 0
+    },
+    {
+      "figure": "case_4_to_1",
+      "font_exit": 0,
+      "collision_exit": 0
+    }
+  ]
+}

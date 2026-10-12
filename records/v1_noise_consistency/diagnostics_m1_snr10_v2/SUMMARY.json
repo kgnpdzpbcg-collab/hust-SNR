@@ -1,0 +1,399 @@
+{
+  "status": "completed_and_verified",
+  "run_code_commit": "69e2926ebd09f0a9b8fe8dfdebfd15aa5a7a5481",
+  "diagnostic_script_sha256": "b42b779d203196e146c2c746e9dd3bb1d7caaa41420cac77b40ab8410a1b3360",
+  "weights_sha256": {
+    "42": "205e7614676f91a12fe1ee106f764f9788770d4805e6343bc28331f8df70feb8",
+    "43": "cb3bd51861ed615007404dcb39c1e1b3e102de847dde98442d5f78f45cc504b1",
+    "44": "61dc54cd694ef89aef864f5d1e4fe475d3bd833f22acc188e4719fb2d97669f2"
+  },
+  "record_families": 88,
+  "windows": 2474,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "control_definitions": {
+    "CC": "Clean signal, Clean-derived center/divisor",
+    "NN": "Noisy signal, Noisy-derived center/divisor",
+    "CN": "Clean signal, Noisy-derived center/divisor (diagnostic only)",
+    "NC": "Noisy signal, Clean-derived center/divisor (Clean-paired oracle diagnostic only)"
+  },
+  "controls": {
+    "CC": {
+      "macro_f1_mean_percent": 96.6700422398999,
+      "macro_f1_sample_sd_percent": 0.5824701615502106,
+      "per_seed_f1": {
+        "42": 97.17154145553165,
+        "43": 96.03116199475056,
+        "44": 96.8074232694175
+      },
+      "windows_any_abs_gt1": 0
+    },
+    "NN": {
+      "macro_f1_mean_percent": 89.95520846434101,
+      "macro_f1_sample_sd_percent": 0.3451559752711001,
+      "per_seed_f1": {
+        "42": 89.99182479253577,
+        "43": 89.59320409623857,
+        "44": 90.2805965042487
+      },
+      "windows_any_abs_gt1": 0
+    },
+    "CN": {
+      "macro_f1_mean_percent": 88.71333606619551,
+      "macro_f1_sample_sd_percent": 1.9520325975506507,
+      "per_seed_f1": {
+        "42": 86.55881073164971,
+        "43": 90.36413748455729,
+        "44": 89.21705998237951
+      },
+      "windows_any_abs_gt1": 0
+    },
+    "NC": {
+      "macro_f1_mean_percent": 86.35538986178727,
+      "macro_f1_sample_sd_percent": 3.9469070717679116,
+      "per_seed_f1": {
+        "42": 86.06429011029455,
+        "43": 82.56209204637037,
+        "44": 90.4397874286969
+      },
+      "windows_any_abs_gt1": 2474
+    }
+  },
+  "macro_f1_drop_pp": 6.714833775558887,
+  "per_class": [
+    {
+      "label": 0,
+      "name": "Healthy",
+      "windows_per_seed": 1106,
+      "clean_f1_mean": 99.59736586388861,
+      "noise_f1_mean": 96.03909295765543,
+      "drop_pp": 3.558272906233185,
+      "contribution_to_macro_drop_pp": 0.5930454843721975
+    },
+    {
+      "label": 1,
+      "name": "OUS(A)",
+      "windows_per_seed": 307,
+      "clean_f1_mean": 93.13556145844642,
+      "noise_f1_mean": 76.50989072757604,
+      "drop_pp": 16.625670730870382,
+      "contribution_to_macro_drop_pp": 2.7709451218117302
+    },
+    {
+      "label": 2,
+      "name": "OLS(A)",
+      "windows_per_seed": 297,
+      "clean_f1_mean": 96.16813706490466,
+      "noise_f1_mean": 86.99611292927598,
+      "drop_pp": 9.172024135628675,
+      "contribution_to_macro_drop_pp": 1.528670689271446
+    },
+    {
+      "label": 3,
+      "name": "OP(A)",
+      "windows_per_seed": 298,
+      "clean_f1_mean": 98.0538503293394,
+      "noise_f1_mean": 93.96268121058189,
+      "drop_pp": 4.091169118757506,
+      "contribution_to_macro_drop_pp": 0.6818615197929176
+    },
+    {
+      "label": 4,
+      "name": "OUS(A)&OUS(B)",
+      "windows_per_seed": 237,
+      "clean_f1_mean": 95.11451905068925,
+      "noise_f1_mean": 87.8387247521015,
+      "drop_pp": 7.275794298587755,
+      "contribution_to_macro_drop_pp": 1.212632383097959
+    },
+    {
+      "label": 5,
+      "name": "OLS(A)&OP(C)",
+      "windows_per_seed": 229,
+      "clean_f1_mean": 97.95081967213115,
+      "noise_f1_mean": 98.38474820885521,
+      "drop_pp": -0.4339285367240677,
+      "contribution_to_macro_drop_pp": -0.07232142278734462
+    }
+  ],
+  "phase_summary": [
+    {
+      "label": 0,
+      "name": "Healthy",
+      "phase_window_count": 5530,
+      "low_phase_windows": 0,
+      "branch_changes": 0,
+      "active_divisor_ratio": {
+        "n_defined": 5530,
+        "q25": 1.3931835132037846,
+        "median": 1.4430719234434601,
+        "q75": 1.4960933349828958
+      },
+      "active_center_shift_abs": {
+        "n_defined": 5530,
+        "q25": 0.021978246037890142,
+        "median": 0.04789577195343651,
+        "q75": 0.08261693263271548
+      },
+      "active_raw_correlation": {
+        "n_defined": 5530,
+        "q25": 0.9659644472909703,
+        "median": 0.968797596057415,
+        "q75": 0.971468520110185
+      },
+      "active_raw_cycle_phase_snr_db": {
+        "n_defined": 5530,
+        "q25": 9.76472519762811,
+        "median": 10.029278753770495,
+        "q75": 10.270248941799725
+      }
+    },
+    {
+      "label": 1,
+      "name": "OUS(A)",
+      "phase_window_count": 1535,
+      "low_phase_windows": 0,
+      "branch_changes": 0,
+      "active_divisor_ratio": {
+        "n_defined": 1535,
+        "q25": 1.4025417601580554,
+        "median": 1.464666738233511,
+        "q75": 1.5573169654292436
+      },
+      "active_center_shift_abs": {
+        "n_defined": 1535,
+        "q25": 0.02649879012725293,
+        "median": 0.05603590832353049,
+        "q75": 0.09900420863074405
+      },
+      "active_raw_correlation": {
+        "n_defined": 1535,
+        "q25": 0.9586215301188277,
+        "median": 0.9653413226552249,
+        "q75": 0.9690367063893419
+      },
+      "active_raw_cycle_phase_snr_db": {
+        "n_defined": 1535,
+        "q25": 9.75867378868648,
+        "median": 10.048332246106785,
+        "q75": 10.377420885904531
+      }
+    },
+    {
+      "label": 2,
+      "name": "OLS(A)",
+      "phase_window_count": 1485,
+      "low_phase_windows": 0,
+      "branch_changes": 0,
+      "active_divisor_ratio": {
+        "n_defined": 1485,
+        "q25": 1.4013003859347544,
+        "median": 1.4614197316690931,
+        "q75": 1.5491303009831778
+      },
+      "active_center_shift_abs": {
+        "n_defined": 1485,
+        "q25": 0.027266816295729867,
+        "median": 0.0554701225400551,
+        "q75": 0.09990812487316908
+      },
+      "active_raw_correlation": {
+        "n_defined": 1485,
+        "q25": 0.9597604579222945,
+        "median": 0.9653211658698794,
+        "q75": 0.9690608715961683
+      },
+      "active_raw_cycle_phase_snr_db": {
+        "n_defined": 1485,
+        "q25": 9.760905904285146,
+        "median": 10.056999622476514,
+        "q75": 10.36845756724362
+      }
+    },
+    {
+      "label": 3,
+      "name": "OP(A)",
+      "phase_window_count": 1490,
+      "low_phase_windows": 298,
+      "branch_changes": 0,
+      "active_divisor_ratio": {
+        "n_defined": 1192,
+        "q25": 1.384069877866449,
+        "median": 1.4384016158709314,
+        "q75": 1.4915146484093849
+      },
+      "active_center_shift_abs": {
+        "n_defined": 1192,
+        "q25": 0.02228043615437702,
+        "median": 0.046518629055636904,
+        "q75": 0.08339790309485169
+      },
+      "active_raw_correlation": {
+        "n_defined": 1192,
+        "q25": 0.9659049275980476,
+        "median": 0.969260119808389,
+        "q75": 0.9721070300153761
+      },
+      "active_raw_cycle_phase_snr_db": {
+        "n_defined": 1192,
+        "q25": 9.741325844237743,
+        "median": 10.07222529857776,
+        "q75": 10.442883318454252
+      }
+    },
+    {
+      "label": 4,
+      "name": "OUS(A)&OUS(B)",
+      "phase_window_count": 1185,
+      "low_phase_windows": 0,
+      "branch_changes": 0,
+      "active_divisor_ratio": {
+        "n_defined": 1185,
+        "q25": 1.4372721171196496,
+        "median": 1.5195501985774404,
+        "q75": 1.6101429450031357
+      },
+      "active_center_shift_abs": {
+        "n_defined": 1185,
+        "q25": 0.028167777677645202,
+        "median": 0.06019348867516295,
+        "q75": 0.11167532574133315
+      },
+      "active_raw_correlation": {
+        "n_defined": 1185,
+        "q25": 0.9526612683473918,
+        "median": 0.9596615262578274,
+        "q75": 0.9644984607994938
+      },
+      "active_raw_cycle_phase_snr_db": {
+        "n_defined": 1185,
+        "q25": 9.811274364798125,
+        "median": 10.103897759880327,
+        "q75": 10.360390590464245
+      }
+    },
+    {
+      "label": 5,
+      "name": "OLS(A)&OP(C)",
+      "phase_window_count": 1145,
+      "low_phase_windows": 229,
+      "branch_changes": 0,
+      "active_divisor_ratio": {
+        "n_defined": 916,
+        "q25": 1.442048285774018,
+        "median": 1.5240716596087491,
+        "q75": 1.6564770777241418
+      },
+      "active_center_shift_abs": {
+        "n_defined": 916,
+        "q25": 0.030640264231535038,
+        "median": 0.06206161138244452,
+        "q75": 0.10928390527736845
+      },
+      "active_raw_correlation": {
+        "n_defined": 916,
+        "q25": 0.947257597562928,
+        "median": 0.9571121819131002,
+        "q75": 0.9638954560209837
+      },
+      "active_raw_cycle_phase_snr_db": {
+        "n_defined": 916,
+        "q25": 9.816855826704392,
+        "median": 10.06084326531861,
+        "q75": 10.333568927555119
+      }
+    }
+  ],
+  "error_signatures": {
+    "new_errors": {
+      "window_seed_decisions": 512,
+      "clean_classifier_margin": {
+        "n_defined": 512,
+        "q25": 0.9478039145469666,
+        "median": 1.55231511592865,
+        "q75": 2.4527461528778076
+      },
+      "feature_cosine_change": {
+        "n_defined": 512,
+        "q25": 0.027978718280792236,
+        "median": 0.04184672236442566,
+        "q75": 0.06835149228572845
+      },
+      "joint_raw_cycle_snr_db": {
+        "n_defined": 512,
+        "q25": 9.882851361011204,
+        "median": 10.049226399831372,
+        "q75": 10.183952142303307
+      },
+      "max_active_divisor_ratio": {
+        "n_defined": 512,
+        "q25": 1.5495871257355878,
+        "median": 1.6283711489739583,
+        "q75": 1.720758064746938
+      },
+      "max_active_center_shift": {
+        "n_defined": 512,
+        "q25": 0.11247009749491174,
+        "median": 0.15110047086178774,
+        "q75": 0.19474768434283862
+      },
+      "active_phase_correlation_mean": {
+        "n_defined": 512,
+        "q25": 0.9599992659685015,
+        "median": 0.9641104395431418,
+        "q75": 0.9677651617503245
+      }
+    },
+    "stable_correct": {
+      "window_seed_decisions": 6734,
+      "clean_classifier_margin": {
+        "n_defined": 6734,
+        "q25": 3.0939563512802124,
+        "median": 4.944955825805664,
+        "q75": 6.629984140396118
+      },
+      "feature_cosine_change": {
+        "n_defined": 6734,
+        "q25": 0.00906991958618164,
+        "median": 0.01602870225906372,
+        "q75": 0.026561066508293152
+      },
+      "joint_raw_cycle_snr_db": {
+        "n_defined": 6734,
+        "q25": 9.904338827755986,
+        "median": 10.034921087156288,
+        "q75": 10.190583456767484
+      },
+      "max_active_divisor_ratio": {
+        "n_defined": 6734,
+        "q25": 1.5154631958188869,
+        "median": 1.5747174304757392,
+        "q75": 1.6682245001496376
+      },
+      "max_active_center_shift": {
+        "n_defined": 6734,
+        "q25": 0.08893801129842945,
+        "median": 0.1198679330571992,
+        "q75": 0.15794263911058654
+      },
+      "active_phase_correlation_mean": {
+        "n_defined": 6734,
+        "q25": 0.9618844676846413,
+        "median": 0.9669316797767232,
+        "q75": 0.9690842774731814
+      }
+    }
+  },
+  "noisy_error_decisions": 613,
+  "new_error_decisions": 512,
+  "noisy_error_unique_windows": 483,
+  "noisy_error_record_families": 69,
+  "branch_changed_windows": 0,
+  "final_holdout_evaluated": false,
+  "training_or_model_parameters_changed": false,
+  "original_predictions_reproduced": true,
+  "scope": "paired fixed-Dev sensitivity analysis; no causal attribution or deployable normalization claim"
+}

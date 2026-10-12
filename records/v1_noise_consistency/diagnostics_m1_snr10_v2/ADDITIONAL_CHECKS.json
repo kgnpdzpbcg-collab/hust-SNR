@@ -1,0 +1,160 @@
+{
+  "script_sha256": "1bd7c278e79d7dc9a5c0b4951db545d6a413b6094495b814654c5a8e17b15b01",
+  "source_sha256": {
+    "CYCLE_ERRORS.csv": "9a204f24a6c185a9c999fccf73bb1db095717196bae534f7fc756748a8abeddd",
+    "PHASE_PREPROCESSING.csv": "ef6e08b93fb3f0cd5ee9bfda63aa6ffda3f794ecda24607297214c68c12612ce",
+    "dev_clean.npz": "9850daf364bb460fa7d5908f8a0aea7576f6ec6274f494e3b6848906387e0c3f",
+    "dev_snr10.npz": "829f509fdb31b148be84f1763240ac27daec723bbd3d43dcd8531d4d822a11d7"
+  },
+  "new_error_decisions": 512,
+  "sensitivity_patterns": {
+    "CN_wrong=True,NC_wrong=False": 263,
+    "CN_wrong=True,NC_wrong=True": 80,
+    "CN_wrong=False,NC_wrong=False": 91,
+    "CN_wrong=False,NC_wrong=True": 78
+  },
+  "per_class_sensitivity_patterns": {
+    "2": {
+      "CN_wrong=True,NC_wrong=False": 71,
+      "CN_wrong=True,NC_wrong=True": 4,
+      "CN_wrong=False,NC_wrong=False": 5,
+      "CN_wrong=False,NC_wrong=True": 2
+    },
+    "0": {
+      "CN_wrong=False,NC_wrong=False": 61,
+      "CN_wrong=True,NC_wrong=True": 27,
+      "CN_wrong=False,NC_wrong=True": 42,
+      "CN_wrong=True,NC_wrong=False": 38
+    },
+    "3": {
+      "CN_wrong=True,NC_wrong=False": 13,
+      "CN_wrong=False,NC_wrong=False": 5,
+      "CN_wrong=True,NC_wrong=True": 1,
+      "CN_wrong=False,NC_wrong=True": 1
+    },
+    "1": {
+      "CN_wrong=True,NC_wrong=True": 45,
+      "CN_wrong=False,NC_wrong=True": 33,
+      "CN_wrong=True,NC_wrong=False": 45,
+      "CN_wrong=False,NC_wrong=False": 15
+    },
+    "4": {
+      "CN_wrong=True,NC_wrong=False": 84,
+      "CN_wrong=False,NC_wrong=False": 3,
+      "CN_wrong=True,NC_wrong=True": 3
+    },
+    "5": {
+      "CN_wrong=True,NC_wrong=False": 12,
+      "CN_wrong=False,NC_wrong=False": 2
+    }
+  },
+  "resampling_peaks": {
+    "active_phase_windows": 11843,
+    "clean_input_abs_peak": {
+      "n": 11843,
+      "q25": 0.9998329281806946,
+      "median": 1.0,
+      "q75": 1.0
+    },
+    "noise_input_abs_peak": {
+      "n": 11843,
+      "q25": 0.9126070141792297,
+      "median": 0.9476576447486877,
+      "q75": 0.9753459692001343
+    },
+    "noise_peak_below_0_9": 2164,
+    "per_class": [
+      {
+        "label": 0,
+        "clean_peak": {
+          "n": 5530,
+          "q25": 0.9998113512992859,
+          "median": 1.0,
+          "q75": 1.0
+        },
+        "noise_peak": {
+          "n": 5530,
+          "q25": 0.9136705994606018,
+          "median": 0.9486541748046875,
+          "q75": 0.9759024977684021
+        }
+      },
+      {
+        "label": 1,
+        "clean_peak": {
+          "n": 1535,
+          "q25": 1.0,
+          "median": 1.0,
+          "q75": 1.0
+        },
+        "noise_peak": {
+          "n": 1535,
+          "q25": 0.920634388923645,
+          "median": 0.9532567858695984,
+          "q75": 0.9780356884002686
+        }
+      },
+      {
+        "label": 2,
+        "clean_peak": {
+          "n": 1485,
+          "q25": 0.9998807907104492,
+          "median": 1.0,
+          "q75": 1.0
+        },
+        "noise_peak": {
+          "n": 1485,
+          "q25": 0.9151941537857056,
+          "median": 0.9475572109222412,
+          "q75": 0.974346935749054
+        }
+      },
+      {
+        "label": 3,
+        "clean_peak": {
+          "n": 1192,
+          "q25": 0.9999700784683228,
+          "median": 1.0,
+          "q75": 1.0
+        },
+        "noise_peak": {
+          "n": 1192,
+          "q25": 0.9169696569442749,
+          "median": 0.9506181478500366,
+          "q75": 0.9774110913276672
+        }
+      },
+      {
+        "label": 4,
+        "clean_peak": {
+          "n": 1185,
+          "q25": 0.9995494484901428,
+          "median": 1.0,
+          "q75": 1.0
+        },
+        "noise_peak": {
+          "n": 1185,
+          "q25": 0.9030449390411377,
+          "median": 0.9407280683517456,
+          "q75": 0.9722811579704285
+        }
+      },
+      {
+        "label": 5,
+        "clean_peak": {
+          "n": 916,
+          "q25": 0.9994174242019653,
+          "median": 1.0,
+          "q75": 1.0
+        },
+        "noise_peak": {
+          "n": 916,
+          "q25": 0.8962228894233704,
+          "median": 0.9353500008583069,
+          "q75": 0.9691669940948486
+        }
+      }
+    ]
+  },
+  "scope": "Fixed-Dev sensitivity patterns, not causal shares. NC uses oracle Clean parameters and exceeds original input range."
+}

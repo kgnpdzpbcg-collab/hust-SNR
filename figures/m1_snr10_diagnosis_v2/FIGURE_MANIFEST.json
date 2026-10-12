@@ -1,0 +1,270 @@
+[
+  {
+    "stem": "case_4_to_1",
+    "example": {
+      "index": 1643,
+      "truth": 4,
+      "noisy_example_prediction": 1,
+      "paired_seed_support": 3,
+      "record_id": "4-1000-10",
+      "source_metadata": {
+        "speed": 1000.0,
+        "torque": 10.0,
+        "fault_label": 4,
+        "fault_name": "OUS(A)&OUS(B)"
+      },
+      "window": {
+        "record_id": "4-1000-10",
+        "label": 4,
+        "start": 0.5972762645914712,
+        "end": 0.6167315175097655,
+        "clean_low_phase_flags": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "snr10_low_phase_flags": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "seed_predictions": {
+        "42": {
+          "CC": 4,
+          "NN": 1,
+          "CN": 1,
+          "NC": 4
+        },
+        "43": {
+          "CC": 4,
+          "NN": 1,
+          "CN": 1,
+          "NC": 4
+        },
+        "44": {
+          "CC": 4,
+          "NN": 1,
+          "CN": 1,
+          "NC": 4
+        }
+      }
+    },
+    "phases_shown": [
+      "A",
+      "B"
+    ],
+    "phase_scope_reason": "A single-switch/phase faults and A+B compound-fault comparison; all five phases included in numerical diagnostics",
+    "raw_columns": "Clean and 10dB before centering/scaling; same averaged time axis and period",
+    "normalized_columns": "original CC and NN float32 inputs; diagnostic CN green dashed",
+    "width_mm": 183,
+    "height_mm": 125,
+    "png_dpi": 600,
+    "illustrative_only": true
+  },
+  {
+    "stem": "case_1_to_3",
+    "example": {
+      "index": 338,
+      "truth": 1,
+      "noisy_example_prediction": 3,
+      "paired_seed_support": 2,
+      "record_id": "0144",
+      "source_metadata": {
+        "speed": 500.0,
+        "torque": 7.2,
+        "fault_label": 1,
+        "fault_name": "OUS(A)"
+      },
+      "window": {
+        "record_id": "0144",
+        "label": 1,
+        "start": 0.5889534332367966,
+        "end": 0.6185472930035699,
+        "clean_low_phase_flags": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "snr10_low_phase_flags": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "seed_predictions": {
+        "42": {
+          "CC": 1,
+          "NN": 1,
+          "CN": 0,
+          "NC": 3
+        },
+        "43": {
+          "CC": 1,
+          "NN": 3,
+          "CN": 3,
+          "NC": 4
+        },
+        "44": {
+          "CC": 1,
+          "NN": 3,
+          "CN": 1,
+          "NC": 3
+        }
+      }
+    },
+    "phases_shown": [
+      "A",
+      "B"
+    ],
+    "phase_scope_reason": "A single-switch/phase faults and A+B compound-fault comparison; all five phases included in numerical diagnostics",
+    "raw_columns": "Clean and 10dB before centering/scaling; same averaged time axis and period",
+    "normalized_columns": "original CC and NN float32 inputs; diagnostic CN green dashed",
+    "width_mm": 183,
+    "height_mm": 125,
+    "png_dpi": 600,
+    "illustrative_only": true
+  },
+  {
+    "stem": "case_2_to_0",
+    "example": {
+      "index": 155,
+      "truth": 2,
+      "noisy_example_prediction": 0,
+      "paired_seed_support": 2,
+      "record_id": "0109",
+      "source_metadata": {
+        "speed": 400.0,
+        "torque": 6.0,
+        "fault_label": 2,
+        "fault_name": "OLS(A)"
+      },
+      "window": {
+        "record_id": "0109",
+        "label": 2,
+        "start": 0.6176006677162935,
+        "end": 0.6567264757590642,
+        "clean_low_phase_flags": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "snr10_low_phase_flags": [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "seed_predictions": {
+        "42": {
+          "CC": 2,
+          "NN": 0,
+          "CN": 0,
+          "NC": 2
+        },
+        "43": {
+          "CC": 2,
+          "NN": 2,
+          "CN": 2,
+          "NC": 2
+        },
+        "44": {
+          "CC": 2,
+          "NN": 0,
+          "CN": 0,
+          "NC": 2
+        }
+      }
+    },
+    "phases_shown": [
+      "A",
+      "B"
+    ],
+    "phase_scope_reason": "A single-switch/phase faults and A+B compound-fault comparison; all five phases included in numerical diagnostics",
+    "raw_columns": "Clean and 10dB before centering/scaling; same averaged time axis and period",
+    "normalized_columns": "original CC and NN float32 inputs; diagnostic CN green dashed",
+    "width_mm": 183,
+    "height_mm": 125,
+    "png_dpi": 600,
+    "illustrative_only": true
+  },
+  {
+    "stem": "case_3_to_3",
+    "example": {
+      "index": 61,
+      "truth": 3,
+      "noisy_example_prediction": 3,
+      "paired_seed_support": 3,
+      "record_id": "0089",
+      "source_metadata": {
+        "speed": 300.0,
+        "torque": 36.0,
+        "fault_label": 3,
+        "fault_name": "OP(A)"
+      },
+      "window": {
+        "record_id": "0089",
+        "label": 3,
+        "start": 0.5707485404810081,
+        "end": 0.6057707994777014,
+        "clean_low_phase_flags": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "snr10_low_phase_flags": [
+          true,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "seed_predictions": {
+        "42": {
+          "CC": 3,
+          "NN": 3,
+          "CN": 3,
+          "NC": 3
+        },
+        "43": {
+          "CC": 3,
+          "NN": 3,
+          "CN": 3,
+          "NC": 3
+        },
+        "44": {
+          "CC": 3,
+          "NN": 3,
+          "CN": 3,
+          "NC": 3
+        }
+      }
+    },
+    "phases_shown": [
+      "A",
+      "B"
+    ],
+    "phase_scope_reason": "A single-switch/phase faults and A+B compound-fault comparison; all five phases included in numerical diagnostics",
+    "raw_columns": "Clean and 10dB before centering/scaling; same averaged time axis and period",
+    "normalized_columns": "original CC and NN float32 inputs; diagnostic CN green dashed",
+    "width_mm": 183,
+    "height_mm": 125,
+    "png_dpi": 600,
+    "illustrative_only": true
+  }
+]

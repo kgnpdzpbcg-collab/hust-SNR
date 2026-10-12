@@ -1,0 +1,1005 @@
+{
+  "status": "passed",
+  "training_prefix_epochs": {
+    "42": 18,
+    "43": 6,
+    "44": 6
+  },
+  "source_low_phase_windows": 254,
+  "first_epoch_inputs_match_original_hashes": {
+    "42": "6fb00eb1d7e4fe52d2f2694d8c79a597e165eb35df77d81937d8d83cf302c361",
+    "43": "239ca8b05f2afac5652645e1d75a265b1c0093a127fb3fce0b28318d46fbb6d6",
+    "44": "57e6efef0dbfcfa5ed1d0549f23473144719736de2b933fac58f700345493b74"
+  },
+  "source_training_views": [
+    {
+      "snr": 10,
+      "label": 3,
+      "phase": "A",
+      "views": 627,
+      "low_to_active_views": 627,
+      "low_to_active_percent": 100.0,
+      "normalized_phase_rms": {
+        "n": 627,
+        "q25": 0.2910725921392441,
+        "median": 0.3122290074825287,
+        "q75": 0.33846694231033325
+      }
+    },
+    {
+      "snr": 10,
+      "label": 5,
+      "phase": "C",
+      "views": 572,
+      "low_to_active_views": 572,
+      "low_to_active_percent": 100.0,
+      "normalized_phase_rms": {
+        "n": 572,
+        "q25": 0.28890231996774673,
+        "median": 0.30734024941921234,
+        "q75": 0.33067864179611206
+      }
+    },
+    {
+      "snr": 15,
+      "label": 3,
+      "phase": "A",
+      "views": 453,
+      "low_to_active_views": 453,
+      "low_to_active_percent": 100.0,
+      "normalized_phase_rms": {
+        "n": 453,
+        "q25": 0.2872539162635803,
+        "median": 0.30728182196617126,
+        "q75": 0.32557931542396545
+      }
+    },
+    {
+      "snr": 15,
+      "label": 5,
+      "phase": "C",
+      "views": 687,
+      "low_to_active_views": 687,
+      "low_to_active_percent": 100.0,
+      "normalized_phase_rms": {
+        "n": 687,
+        "q25": 0.28694480657577515,
+        "median": 0.3103640377521515,
+        "q75": 0.33143599331378937
+      }
+    },
+    {
+      "snr": 20,
+      "label": 3,
+      "phase": "A",
+      "views": 317,
+      "low_to_active_views": 216,
+      "low_to_active_percent": 68.13880126182966,
+      "normalized_phase_rms": {
+        "n": 317,
+        "q25": 0.002074209740385413,
+        "median": 0.30034947395324707,
+        "q75": 0.32824620604515076
+      }
+    },
+    {
+      "snr": 20,
+      "label": 5,
+      "phase": "C",
+      "views": 648,
+      "low_to_active_views": 570,
+      "low_to_active_percent": 87.96296296296296,
+      "normalized_phase_rms": {
+        "n": 648,
+        "q25": 0.2834874764084816,
+        "median": 0.3128998875617981,
+        "q75": 0.33747848868370056
+      }
+    },
+    {
+      "snr": 25,
+      "label": 3,
+      "phase": "A",
+      "views": 656,
+      "low_to_active_views": 0,
+      "low_to_active_percent": 0.0,
+      "normalized_phase_rms": {
+        "n": 656,
+        "q25": 0.0013133547035977244,
+        "median": 0.0014755736337974668,
+        "q75": 0.0016234937938861549
+      }
+    },
+    {
+      "snr": 25,
+      "label": 5,
+      "phase": "C",
+      "views": 760,
+      "low_to_active_views": 9,
+      "low_to_active_percent": 1.1842105263157894,
+      "normalized_phase_rms": {
+        "n": 760,
+        "q25": 0.0013111918233335018,
+        "median": 0.0015136891743168235,
+        "q75": 0.0017160356510430574
+      }
+    },
+    {
+      "snr": 30,
+      "label": 3,
+      "phase": "A",
+      "views": 760,
+      "low_to_active_views": 0,
+      "low_to_active_percent": 0.0,
+      "normalized_phase_rms": {
+        "n": 760,
+        "q25": 0.0010073113953694701,
+        "median": 0.0011438876390457153,
+        "q75": 0.0012805945589207113
+      }
+    },
+    {
+      "snr": 30,
+      "label": 5,
+      "phase": "C",
+      "views": 503,
+      "low_to_active_views": 0,
+      "low_to_active_percent": 0.0,
+      "normalized_phase_rms": {
+        "n": 503,
+        "q25": 0.0009745970892254263,
+        "median": 0.0011364055098965764,
+        "q75": 0.0013106214464642107
+      }
+    },
+    {
+      "snr": 35,
+      "label": 3,
+      "phase": "A",
+      "views": 477,
+      "low_to_active_views": 0,
+      "low_to_active_percent": 0.0,
+      "normalized_phase_rms": {
+        "n": 477,
+        "q25": 0.000940397207159549,
+        "median": 0.0011036747600883245,
+        "q75": 0.0012048123171553016
+      }
+    },
+    {
+      "snr": 35,
+      "label": 5,
+      "phase": "C",
+      "views": 380,
+      "low_to_active_views": 0,
+      "low_to_active_percent": 0.0,
+      "normalized_phase_rms": {
+        "n": 380,
+        "q25": 0.0009065569465747103,
+        "median": 0.0010704499436542392,
+        "q75": 0.0012165466323494911
+      }
+    },
+    {
+      "snr": 40,
+      "label": 3,
+      "phase": "A",
+      "views": 520,
+      "low_to_active_views": 0,
+      "low_to_active_percent": 0.0,
+      "normalized_phase_rms": {
+        "n": 520,
+        "q25": 0.0009178665350191295,
+        "median": 0.0010438989265821874,
+        "q75": 0.0011195874540135264
+      }
+    },
+    {
+      "snr": 40,
+      "label": 5,
+      "phase": "C",
+      "views": 260,
+      "low_to_active_views": 0,
+      "low_to_active_percent": 0.0,
+      "normalized_phase_rms": {
+        "n": 260,
+        "q25": 0.0009113521664403379,
+        "median": 0.00102989433798939,
+        "q75": 0.0011278660967946053
+      }
+    }
+  ],
+  "source_10db_segments": [
+    {
+      "seed": 42,
+      "epoch": 1,
+      "record_id": "S-1000-9-3-O",
+      "healthy_noise_rms": 0.9980535380390185,
+      "fault_noise_rms": 1.0025455435369712,
+      "fault_over_healthy_noise_rms": 1.004500766067899
+    },
+    {
+      "seed": 42,
+      "epoch": 2,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.7137854471845293,
+      "fault_noise_rms": 0.7302022604465298,
+      "fault_over_healthy_noise_rms": 1.022999646920171
+    },
+    {
+      "seed": 42,
+      "epoch": 3,
+      "record_id": "S-1000-0-5-O",
+      "healthy_noise_rms": 0.7128660728429206,
+      "fault_noise_rms": 0.7249930675530288,
+      "fault_over_healthy_noise_rms": 1.0170116031216714
+    },
+    {
+      "seed": 42,
+      "epoch": 3,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.7212992387524063,
+      "fault_noise_rms": 0.71536784166666,
+      "fault_over_healthy_noise_rms": 0.9917767872651502
+    },
+    {
+      "seed": 42,
+      "epoch": 4,
+      "record_id": "S-1000-0-5-O",
+      "healthy_noise_rms": 0.7206589043573179,
+      "fault_noise_rms": 0.7210187882215988,
+      "fault_over_healthy_noise_rms": 1.0004993816937595
+    },
+    {
+      "seed": 42,
+      "epoch": 4,
+      "record_id": "S-1000-9-5-O",
+      "healthy_noise_rms": 1.0038758275694217,
+      "fault_noise_rms": 0.9986290246171,
+      "fault_over_healthy_noise_rms": 0.9947734542378361
+    },
+    {
+      "seed": 42,
+      "epoch": 4,
+      "record_id": "S-800-0-5-O",
+      "healthy_noise_rms": 0.7272373168744328,
+      "fault_noise_rms": 0.7107432520388114,
+      "fault_over_healthy_noise_rms": 0.9773195565561588
+    },
+    {
+      "seed": 42,
+      "epoch": 4,
+      "record_id": "S-800-6-3-O",
+      "healthy_noise_rms": 0.8548448891841877,
+      "fault_noise_rms": 0.8642944901267832,
+      "fault_over_healthy_noise_rms": 1.011054170250247
+    },
+    {
+      "seed": 42,
+      "epoch": 5,
+      "record_id": "S-1000-9-3-O",
+      "healthy_noise_rms": 0.9939873060289887,
+      "fault_noise_rms": 1.002292059843997,
+      "fault_over_healthy_noise_rms": 1.0083549898118782
+    },
+    {
+      "seed": 42,
+      "epoch": 6,
+      "record_id": "S-1000-6-3-O",
+      "healthy_noise_rms": 0.8602029429203939,
+      "fault_noise_rms": 0.8563456828913198,
+      "fault_over_healthy_noise_rms": 0.9955158720848145
+    },
+    {
+      "seed": 42,
+      "epoch": 6,
+      "record_id": "S-1000-9-3-O",
+      "healthy_noise_rms": 0.9939359834441595,
+      "fault_noise_rms": 1.00413341609336,
+      "fault_over_healthy_noise_rms": 1.0102596473204086
+    },
+    {
+      "seed": 42,
+      "epoch": 6,
+      "record_id": "S-800-0-3-O",
+      "healthy_noise_rms": 0.7278437618494218,
+      "fault_noise_rms": 0.7211670011734239,
+      "fault_over_healthy_noise_rms": 0.9908266567277674
+    },
+    {
+      "seed": 42,
+      "epoch": 7,
+      "record_id": "S-1000-0-5-O",
+      "healthy_noise_rms": 0.7140705724608976,
+      "fault_noise_rms": 0.7282398251376954,
+      "fault_over_healthy_noise_rms": 1.019842930409478
+    },
+    {
+      "seed": 42,
+      "epoch": 7,
+      "record_id": "S-600-0-3-O",
+      "healthy_noise_rms": 0.7215111852943165,
+      "fault_noise_rms": 0.7172147527291305,
+      "fault_over_healthy_noise_rms": 0.9940452308255854
+    },
+    {
+      "seed": 42,
+      "epoch": 7,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.7256133173082518,
+      "fault_noise_rms": 0.7074353348336824,
+      "fault_over_healthy_noise_rms": 0.974948113491077
+    },
+    {
+      "seed": 42,
+      "epoch": 7,
+      "record_id": "S-800-6-5-O",
+      "healthy_noise_rms": 0.8447604471901796,
+      "fault_noise_rms": 0.8626302892962168,
+      "fault_over_healthy_noise_rms": 1.0211537391049443
+    },
+    {
+      "seed": 42,
+      "epoch": 8,
+      "record_id": "S-1000-9-3-O",
+      "healthy_noise_rms": 0.9926760634070503,
+      "fault_noise_rms": 1.0022995711446852,
+      "fault_over_healthy_noise_rms": 1.0096945097120658
+    },
+    {
+      "seed": 42,
+      "epoch": 8,
+      "record_id": "S-800-6-3-O",
+      "healthy_noise_rms": 0.8442386264393149,
+      "fault_noise_rms": 0.8665786361399914,
+      "fault_over_healthy_noise_rms": 1.0264617242104859
+    },
+    {
+      "seed": 42,
+      "epoch": 9,
+      "record_id": "S-600-0-3-O",
+      "healthy_noise_rms": 0.7270927435918738,
+      "fault_noise_rms": 0.7101405809432755,
+      "fault_over_healthy_noise_rms": 0.9766850064204274
+    },
+    {
+      "seed": 42,
+      "epoch": 9,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.7151293201152552,
+      "fault_noise_rms": 0.7205227412208575,
+      "fault_over_healthy_noise_rms": 1.007541882221712
+    },
+    {
+      "seed": 42,
+      "epoch": 11,
+      "record_id": "S-1000-6-5-O",
+      "healthy_noise_rms": 0.8552947298867529,
+      "fault_noise_rms": 0.856030880536108,
+      "fault_over_healthy_noise_rms": 1.0008606982173882
+    },
+    {
+      "seed": 42,
+      "epoch": 11,
+      "record_id": "S-1000-9-5-O",
+      "healthy_noise_rms": 0.9999569473705415,
+      "fault_noise_rms": 0.9961292588433637,
+      "fault_over_healthy_noise_rms": 0.9961721466736713
+    },
+    {
+      "seed": 42,
+      "epoch": 11,
+      "record_id": "S-800-6-3-O",
+      "healthy_noise_rms": 0.8551845599288085,
+      "fault_noise_rms": 0.8495612517560952,
+      "fault_over_healthy_noise_rms": 0.9934244507721451
+    },
+    {
+      "seed": 42,
+      "epoch": 12,
+      "record_id": "S-600-0-3-O",
+      "healthy_noise_rms": 0.7252937715059661,
+      "fault_noise_rms": 0.7174530850556629,
+      "fault_over_healthy_noise_rms": 0.9891896404486927
+    },
+    {
+      "seed": 42,
+      "epoch": 12,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.726646419250618,
+      "fault_noise_rms": 0.718379985580453,
+      "fault_over_healthy_noise_rms": 0.9886238568701817
+    },
+    {
+      "seed": 42,
+      "epoch": 14,
+      "record_id": "S-600-9-5-O",
+      "healthy_noise_rms": 1.0236618112661457,
+      "fault_noise_rms": 0.9923053683880312,
+      "fault_over_healthy_noise_rms": 0.9693683572709131
+    },
+    {
+      "seed": 42,
+      "epoch": 15,
+      "record_id": "S-1000-6-3-O",
+      "healthy_noise_rms": 0.8415649396203869,
+      "fault_noise_rms": 0.8673106494698534,
+      "fault_over_healthy_noise_rms": 1.0305926597430257
+    },
+    {
+      "seed": 42,
+      "epoch": 15,
+      "record_id": "S-1000-6-5-O",
+      "healthy_noise_rms": 0.8613597799660435,
+      "fault_noise_rms": 0.8618148323854725,
+      "fault_over_healthy_noise_rms": 1.0005282954115258
+    },
+    {
+      "seed": 42,
+      "epoch": 15,
+      "record_id": "S-800-0-3-O",
+      "healthy_noise_rms": 0.7292206145651127,
+      "fault_noise_rms": 0.7155078608084987,
+      "fault_over_healthy_noise_rms": 0.9811953289817624
+    },
+    {
+      "seed": 42,
+      "epoch": 16,
+      "record_id": "S-600-0-3-O",
+      "healthy_noise_rms": 0.7249138197731586,
+      "fault_noise_rms": 0.7155664085058815,
+      "fault_over_healthy_noise_rms": 0.9871054861801336
+    },
+    {
+      "seed": 42,
+      "epoch": 16,
+      "record_id": "S-800-6-3-O",
+      "healthy_noise_rms": 0.8478971610099542,
+      "fault_noise_rms": 0.8527030987236732,
+      "fault_over_healthy_noise_rms": 1.0056680667594105
+    },
+    {
+      "seed": 42,
+      "epoch": 17,
+      "record_id": "S-600-9-3-O",
+      "healthy_noise_rms": 0.9871260894444628,
+      "fault_noise_rms": 1.0056683042609704,
+      "fault_over_healthy_noise_rms": 1.0187840388525673
+    },
+    {
+      "seed": 42,
+      "epoch": 17,
+      "record_id": "S-800-0-3-O",
+      "healthy_noise_rms": 0.7128572254364464,
+      "fault_noise_rms": 0.7227084894855185,
+      "fault_over_healthy_noise_rms": 1.0138194068847948
+    },
+    {
+      "seed": 42,
+      "epoch": 17,
+      "record_id": "S-800-6-3-O",
+      "healthy_noise_rms": 0.8552575348343047,
+      "fault_noise_rms": 0.8525451117879078,
+      "fault_over_healthy_noise_rms": 0.9968285306636645
+    },
+    {
+      "seed": 42,
+      "epoch": 18,
+      "record_id": "S-800-6-3-O",
+      "healthy_noise_rms": 0.8452724207022497,
+      "fault_noise_rms": 0.8648066131873806,
+      "fault_over_healthy_noise_rms": 1.0231099371122294
+    },
+    {
+      "seed": 43,
+      "epoch": 1,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.7137854471845293,
+      "fault_noise_rms": 0.7302022604465298,
+      "fault_over_healthy_noise_rms": 1.022999646920171
+    },
+    {
+      "seed": 43,
+      "epoch": 2,
+      "record_id": "S-1000-0-5-O",
+      "healthy_noise_rms": 0.7128660728429206,
+      "fault_noise_rms": 0.7249930675530288,
+      "fault_over_healthy_noise_rms": 1.0170116031216714
+    },
+    {
+      "seed": 43,
+      "epoch": 2,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.7212992387524063,
+      "fault_noise_rms": 0.71536784166666,
+      "fault_over_healthy_noise_rms": 0.9917767872651502
+    },
+    {
+      "seed": 43,
+      "epoch": 3,
+      "record_id": "S-1000-0-5-O",
+      "healthy_noise_rms": 0.7206589043573179,
+      "fault_noise_rms": 0.7210187882215988,
+      "fault_over_healthy_noise_rms": 1.0004993816937595
+    },
+    {
+      "seed": 43,
+      "epoch": 3,
+      "record_id": "S-1000-9-5-O",
+      "healthy_noise_rms": 1.0038758275694217,
+      "fault_noise_rms": 0.9986290246171,
+      "fault_over_healthy_noise_rms": 0.9947734542378361
+    },
+    {
+      "seed": 43,
+      "epoch": 3,
+      "record_id": "S-800-0-5-O",
+      "healthy_noise_rms": 0.7272373168744328,
+      "fault_noise_rms": 0.7107432520388114,
+      "fault_over_healthy_noise_rms": 0.9773195565561588
+    },
+    {
+      "seed": 43,
+      "epoch": 3,
+      "record_id": "S-800-6-3-O",
+      "healthy_noise_rms": 0.8548448891841877,
+      "fault_noise_rms": 0.8642944901267832,
+      "fault_over_healthy_noise_rms": 1.011054170250247
+    },
+    {
+      "seed": 43,
+      "epoch": 4,
+      "record_id": "S-1000-9-3-O",
+      "healthy_noise_rms": 0.9939873060289887,
+      "fault_noise_rms": 1.002292059843997,
+      "fault_over_healthy_noise_rms": 1.0083549898118782
+    },
+    {
+      "seed": 43,
+      "epoch": 5,
+      "record_id": "S-1000-6-3-O",
+      "healthy_noise_rms": 0.8602029429203939,
+      "fault_noise_rms": 0.8563456828913198,
+      "fault_over_healthy_noise_rms": 0.9955158720848145
+    },
+    {
+      "seed": 43,
+      "epoch": 5,
+      "record_id": "S-1000-9-3-O",
+      "healthy_noise_rms": 0.9939359834441595,
+      "fault_noise_rms": 1.00413341609336,
+      "fault_over_healthy_noise_rms": 1.0102596473204086
+    },
+    {
+      "seed": 43,
+      "epoch": 5,
+      "record_id": "S-800-0-3-O",
+      "healthy_noise_rms": 0.7278437618494218,
+      "fault_noise_rms": 0.7211670011734239,
+      "fault_over_healthy_noise_rms": 0.9908266567277674
+    },
+    {
+      "seed": 43,
+      "epoch": 6,
+      "record_id": "S-1000-0-5-O",
+      "healthy_noise_rms": 0.7140705724608976,
+      "fault_noise_rms": 0.7282398251376954,
+      "fault_over_healthy_noise_rms": 1.019842930409478
+    },
+    {
+      "seed": 43,
+      "epoch": 6,
+      "record_id": "S-600-0-3-O",
+      "healthy_noise_rms": 0.7215111852943165,
+      "fault_noise_rms": 0.7172147527291305,
+      "fault_over_healthy_noise_rms": 0.9940452308255854
+    },
+    {
+      "seed": 43,
+      "epoch": 6,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.7256133173082518,
+      "fault_noise_rms": 0.7074353348336824,
+      "fault_over_healthy_noise_rms": 0.974948113491077
+    },
+    {
+      "seed": 43,
+      "epoch": 6,
+      "record_id": "S-800-6-5-O",
+      "healthy_noise_rms": 0.8447604471901796,
+      "fault_noise_rms": 0.8626302892962168,
+      "fault_over_healthy_noise_rms": 1.0211537391049443
+    },
+    {
+      "seed": 44,
+      "epoch": 1,
+      "record_id": "S-1000-0-5-O",
+      "healthy_noise_rms": 0.7128660728429206,
+      "fault_noise_rms": 0.7249930675530288,
+      "fault_over_healthy_noise_rms": 1.0170116031216714
+    },
+    {
+      "seed": 44,
+      "epoch": 1,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.7212992387524063,
+      "fault_noise_rms": 0.71536784166666,
+      "fault_over_healthy_noise_rms": 0.9917767872651502
+    },
+    {
+      "seed": 44,
+      "epoch": 2,
+      "record_id": "S-1000-0-5-O",
+      "healthy_noise_rms": 0.7206589043573179,
+      "fault_noise_rms": 0.7210187882215988,
+      "fault_over_healthy_noise_rms": 1.0004993816937595
+    },
+    {
+      "seed": 44,
+      "epoch": 2,
+      "record_id": "S-1000-9-5-O",
+      "healthy_noise_rms": 1.0038758275694217,
+      "fault_noise_rms": 0.9986290246171,
+      "fault_over_healthy_noise_rms": 0.9947734542378361
+    },
+    {
+      "seed": 44,
+      "epoch": 2,
+      "record_id": "S-800-0-5-O",
+      "healthy_noise_rms": 0.7272373168744328,
+      "fault_noise_rms": 0.7107432520388114,
+      "fault_over_healthy_noise_rms": 0.9773195565561588
+    },
+    {
+      "seed": 44,
+      "epoch": 2,
+      "record_id": "S-800-6-3-O",
+      "healthy_noise_rms": 0.8548448891841877,
+      "fault_noise_rms": 0.8642944901267832,
+      "fault_over_healthy_noise_rms": 1.011054170250247
+    },
+    {
+      "seed": 44,
+      "epoch": 3,
+      "record_id": "S-1000-9-3-O",
+      "healthy_noise_rms": 0.9939873060289887,
+      "fault_noise_rms": 1.002292059843997,
+      "fault_over_healthy_noise_rms": 1.0083549898118782
+    },
+    {
+      "seed": 44,
+      "epoch": 4,
+      "record_id": "S-1000-6-3-O",
+      "healthy_noise_rms": 0.8602029429203939,
+      "fault_noise_rms": 0.8563456828913198,
+      "fault_over_healthy_noise_rms": 0.9955158720848145
+    },
+    {
+      "seed": 44,
+      "epoch": 4,
+      "record_id": "S-1000-9-3-O",
+      "healthy_noise_rms": 0.9939359834441595,
+      "fault_noise_rms": 1.00413341609336,
+      "fault_over_healthy_noise_rms": 1.0102596473204086
+    },
+    {
+      "seed": 44,
+      "epoch": 4,
+      "record_id": "S-800-0-3-O",
+      "healthy_noise_rms": 0.7278437618494218,
+      "fault_noise_rms": 0.7211670011734239,
+      "fault_over_healthy_noise_rms": 0.9908266567277674
+    },
+    {
+      "seed": 44,
+      "epoch": 5,
+      "record_id": "S-1000-0-5-O",
+      "healthy_noise_rms": 0.7140705724608976,
+      "fault_noise_rms": 0.7282398251376954,
+      "fault_over_healthy_noise_rms": 1.019842930409478
+    },
+    {
+      "seed": 44,
+      "epoch": 5,
+      "record_id": "S-600-0-3-O",
+      "healthy_noise_rms": 0.7215111852943165,
+      "fault_noise_rms": 0.7172147527291305,
+      "fault_over_healthy_noise_rms": 0.9940452308255854
+    },
+    {
+      "seed": 44,
+      "epoch": 5,
+      "record_id": "S-600-0-5-O",
+      "healthy_noise_rms": 0.7256133173082518,
+      "fault_noise_rms": 0.7074353348336824,
+      "fault_over_healthy_noise_rms": 0.974948113491077
+    },
+    {
+      "seed": 44,
+      "epoch": 5,
+      "record_id": "S-800-6-5-O",
+      "healthy_noise_rms": 0.8447604471901796,
+      "fault_noise_rms": 0.8626302892962168,
+      "fault_over_healthy_noise_rms": 1.0211537391049443
+    },
+    {
+      "seed": 44,
+      "epoch": 6,
+      "record_id": "S-1000-9-3-O",
+      "healthy_noise_rms": 0.9926760634070503,
+      "fault_noise_rms": 1.0022995711446852,
+      "fault_over_healthy_noise_rms": 1.0096945097120658
+    },
+    {
+      "seed": 44,
+      "epoch": 6,
+      "record_id": "S-800-6-3-O",
+      "healthy_noise_rms": 0.8442386264393149,
+      "fault_noise_rms": 0.8665786361399914,
+      "fault_over_healthy_noise_rms": 1.0264617242104859
+    }
+  ],
+  "target_10db_segments": [
+    {
+      "record_id": "0089",
+      "phase": "A",
+      "healthy_noise_rms": 1.1675342751815547,
+      "fault_noise_rms": 0.024794616529499516,
+      "fault_over_healthy_noise_rms": 0.021236735448853426
+    },
+    {
+      "record_id": "0092",
+      "phase": "A",
+      "healthy_noise_rms": 1.0524162053705728,
+      "fault_noise_rms": 0.023478140388260592,
+      "fault_over_healthy_noise_rms": 0.02230879785815685
+    },
+    {
+      "record_id": "0104",
+      "phase": "A",
+      "healthy_noise_rms": 0.5250633679036147,
+      "fault_noise_rms": 0.025253534276569792,
+      "fault_over_healthy_noise_rms": 0.04809616480654113
+    },
+    {
+      "record_id": "0110",
+      "phase": "A",
+      "healthy_noise_rms": 0.5322067646303573,
+      "fault_noise_rms": 0.024557395718985006,
+      "fault_over_healthy_noise_rms": 0.04614258470773342
+    },
+    {
+      "record_id": "0134",
+      "phase": "A",
+      "healthy_noise_rms": 0.8018528949404001,
+      "fault_noise_rms": 0.023294522963904288,
+      "fault_over_healthy_noise_rms": 0.029050868445933235
+    },
+    {
+      "record_id": "0137",
+      "phase": "A",
+      "healthy_noise_rms": 0.4373834143186445,
+      "fault_noise_rms": 0.024025739112553346,
+      "fault_over_healthy_noise_rms": 0.05493061310973719
+    },
+    {
+      "record_id": "0140",
+      "phase": "A",
+      "healthy_noise_rms": 0.6890810831882768,
+      "fault_noise_rms": 0.02440506019220747,
+      "fault_over_healthy_noise_rms": 0.03541681927950895
+    },
+    {
+      "record_id": "0194",
+      "phase": "A",
+      "healthy_noise_rms": 1.696140990585704,
+      "fault_noise_rms": 0.030512413962418928,
+      "fault_over_healthy_noise_rms": 0.017989314645289314
+    },
+    {
+      "record_id": "0200",
+      "phase": "A",
+      "healthy_noise_rms": 1.1809992962096285,
+      "fault_noise_rms": 0.01917095305699223,
+      "fault_over_healthy_noise_rms": 0.016232823439032235
+    },
+    {
+      "record_id": "0203",
+      "phase": "A",
+      "healthy_noise_rms": 0.9130233692531656,
+      "fault_noise_rms": 0.021848888582793536,
+      "fault_over_healthy_noise_rms": 0.023930262158202455
+    },
+    {
+      "record_id": "0227",
+      "phase": "A",
+      "healthy_noise_rms": 1.8039118478565757,
+      "fault_noise_rms": 0.01780315735855422,
+      "fault_over_healthy_noise_rms": 0.009869194761211914
+    },
+    {
+      "record_id": "0230",
+      "phase": "A",
+      "healthy_noise_rms": 1.87386372820539,
+      "fault_noise_rms": 0.02554784561310793,
+      "fault_over_healthy_noise_rms": 0.013633779889413434
+    },
+    {
+      "record_id": "0254",
+      "phase": "A",
+      "healthy_noise_rms": 1.240181184436448,
+      "fault_noise_rms": 0.01964599713281463,
+      "fault_over_healthy_noise_rms": 0.01584123140986209
+    },
+    {
+      "record_id": "0260",
+      "phase": "A",
+      "healthy_noise_rms": 1.629721542945633,
+      "fault_noise_rms": 0.02416511575369316,
+      "fault_over_healthy_noise_rms": 0.014827757452365775
+    },
+    {
+      "record_id": "0272",
+      "phase": "A",
+      "healthy_noise_rms": 0.43465720806960884,
+      "fault_noise_rms": 0.023144639269420206,
+      "fault_over_healthy_noise_rms": 0.05324802819262961
+    },
+    {
+      "record_id": "0287",
+      "phase": "A",
+      "healthy_noise_rms": 1.1098621232217938,
+      "fault_noise_rms": 0.020772697750582866,
+      "fault_over_healthy_noise_rms": 0.018716466952023076
+    },
+    {
+      "record_id": "0305",
+      "phase": "A",
+      "healthy_noise_rms": 0.43381524015921497,
+      "fault_noise_rms": 0.022830731736161968,
+      "fault_over_healthy_noise_rms": 0.05262777704117273
+    },
+    {
+      "record_id": "0317",
+      "phase": "A",
+      "healthy_noise_rms": 0.9400445999106293,
+      "fault_noise_rms": 0.021261958793515855,
+      "fault_over_healthy_noise_rms": 0.022618031948204633
+    },
+    {
+      "record_id": "5-1000-7",
+      "phase": "C",
+      "healthy_noise_rms": 1.0079307520491956,
+      "fault_noise_rms": 0.023148611422541033,
+      "fault_over_healthy_noise_rms": 0.02296647004318327
+    },
+    {
+      "record_id": "5-1000-8",
+      "phase": "C",
+      "healthy_noise_rms": 1.0666556751642313,
+      "fault_noise_rms": 0.02100643486103955,
+      "fault_over_healthy_noise_rms": 0.019693735616983635
+    },
+    {
+      "record_id": "5-300-10",
+      "phase": "C",
+      "healthy_noise_rms": 1.0812294286548931,
+      "fault_noise_rms": 0.018247363210720388,
+      "fault_over_healthy_noise_rms": 0.0168764951518394
+    },
+    {
+      "record_id": "5-300-9",
+      "phase": "C",
+      "healthy_noise_rms": 1.0529099462852323,
+      "fault_noise_rms": 0.01839362469932425,
+      "fault_over_healthy_noise_rms": 0.017469323719676813
+    },
+    {
+      "record_id": "5-400-10",
+      "phase": "C",
+      "healthy_noise_rms": 1.1063150564188362,
+      "fault_noise_rms": 0.02565024277192404,
+      "fault_over_healthy_noise_rms": 0.02318529665044457
+    },
+    {
+      "record_id": "5-400-3",
+      "phase": "C",
+      "healthy_noise_rms": 0.8060644843583619,
+      "fault_noise_rms": 0.024531113599507732,
+      "fault_over_healthy_noise_rms": 0.03043318999352121
+    },
+    {
+      "record_id": "5-500-6",
+      "phase": "C",
+      "healthy_noise_rms": 0.9224679646540531,
+      "fault_noise_rms": 0.019096794973209274,
+      "fault_over_healthy_noise_rms": 0.020701851668497796
+    },
+    {
+      "record_id": "5-500-7",
+      "phase": "C",
+      "healthy_noise_rms": 0.9667255539786921,
+      "fault_noise_rms": 0.022744473383699306,
+      "fault_over_healthy_noise_rms": 0.0235273323334542
+    },
+    {
+      "record_id": "5-600-10",
+      "phase": "C",
+      "healthy_noise_rms": 1.1277832886089152,
+      "fault_noise_rms": 0.019831486307437352,
+      "fault_over_healthy_noise_rms": 0.017584483213879558
+    },
+    {
+      "record_id": "5-600-2",
+      "phase": "C",
+      "healthy_noise_rms": 0.6595135964388672,
+      "fault_noise_rms": 0.02492215341647149,
+      "fault_over_healthy_noise_rms": 0.03778868783152012
+    },
+    {
+      "record_id": "5-700-1",
+      "phase": "C",
+      "healthy_noise_rms": 0.46322793044281646,
+      "fault_noise_rms": 0.019206070917873058,
+      "fault_over_healthy_noise_rms": 0.0414613835990271
+    },
+    {
+      "record_id": "5-700-3",
+      "phase": "C",
+      "healthy_noise_rms": 0.7466650633365025,
+      "fault_noise_rms": 0.021063877058550767,
+      "fault_over_healthy_noise_rms": 0.02821061020911571
+    },
+    {
+      "record_id": "5-700-8",
+      "phase": "C",
+      "healthy_noise_rms": 1.045698503063604,
+      "fault_noise_rms": 0.019532512398550497,
+      "fault_over_healthy_noise_rms": 0.01867891399033823
+    },
+    {
+      "record_id": "5-800-10",
+      "phase": "C",
+      "healthy_noise_rms": 1.1525650823508238,
+      "fault_noise_rms": 0.024819793878800674,
+      "fault_over_healthy_noise_rms": 0.02153439685000443
+    },
+    {
+      "record_id": "5-800-4",
+      "phase": "C",
+      "healthy_noise_rms": 0.8156914188994687,
+      "fault_noise_rms": 0.018537570035723247,
+      "fault_over_healthy_noise_rms": 0.022726204550164504
+    },
+    {
+      "record_id": "5-900-10",
+      "phase": "C",
+      "healthy_noise_rms": 1.1372306128967546,
+      "fault_noise_rms": 0.019908493221669987,
+      "fault_over_healthy_noise_rms": 0.01750611792885091
+    },
+    {
+      "record_id": "5-900-7",
+      "phase": "C",
+      "healthy_noise_rms": 0.996556918810359,
+      "fault_noise_rms": 0.02386590009125486,
+      "fault_over_healthy_noise_rms": 0.023948356226099764
+    }
+  ],
+  "source_10db_fault_over_healthy_noise_rms": {
+    "n": 66,
+    "q25": 0.9917767872651502,
+    "median": 1.0005138385526426,
+    "q75": 1.0131280977261579
+  },
+  "target_10db_fault_over_healthy_noise_rms": {
+    "n": 35,
+    "q25": 0.017786898929584436,
+    "median": 0.022618031948204633,
+    "q75": 0.029742029219727222
+  },
+  "model_updated": false,
+  "holdout_read": false,
+  "publisher_noise_generation_algorithm_verified": false,
+  "script_sha256": "1491aca0f21adc63972d1e639ce997875b6e7005841eaa3b2ade71aa2968ec75"
+}

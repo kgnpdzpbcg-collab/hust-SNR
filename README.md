@@ -48,3 +48,5 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [V1服务器完整结果](records/v1_noise_consistency/server_69e2926/results/SERVER_RESULTS.md)
 - [V1逐种子结果CSV](records/v1_noise_consistency/server_69e2926/results/PER_SEED_RESULTS.csv)
 - [V1独立核验记录](records/v1_noise_consistency/server_69e2926/results/VERIFICATION.json)
+
+- [M1固定权重10dB诊断：分类、预处理与配对波形](docs/M1_SNR10_DIAGNOSTIC_RECORD.md)
