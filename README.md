@@ -71,3 +71,14 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [V2服务器实验完整记录](records/v2_paifilter/server_4df46a3/SERVER_RESULTS.md)
 - [V2逐种子72行结果](records/v2_paifilter/server_4df46a3/results/PER_SEED_RESULTS.csv)
 - [V2独立核验与权重哈希](records/v2_paifilter/server_4df46a3/results/VERIFICATION.json)
+
+## V3 CAE + Low-pass Prior
+
+论文HUST原有CAE-Classification含Encoder、Decoder与分类器；之前V1/V2 CNN实际上沿用了同一Encoder+Classifier，本分支补充Decoder重构MSE并增加低通先验学习频谱增益（128个参数）。保留基准比较：`cae_identity`、`cae_lowpass3`、`cae_prior`、`cae_prior_no_rec`。
+
+- [CAE与低通先验模型](scripts/v3_cae_prior.py)
+- [复用V2源域训练和Dev评估的V3命令行](scripts/v3_experiment.py)
+- [V3实验协议、论文Table III对齐说明](docs/V3_CAE_PRIOR_PROTOCOL.md)
+- [V3模型测试](tests/test_v3_cae_prior.py)；[V3运行入口测试](tests/test_v3_experiment.py)
+
+在服务器执行 `python scripts/v3_experiment.py smoke`，随后 `python scripts/v3_experiment.py train`、`python scripts/v3_experiment.py evaluate --snr-root /PATH/TO/SNR_PARENT`、`python scripts/v3_experiment.py summarize`。正式V3 GPU训练和目标Dev结果尚未执行，Final-Holdout没有使用。V1/V2输出不改动。
