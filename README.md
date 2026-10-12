@@ -111,3 +111,15 @@ python scripts/v4_experiment.py summarize
 - [实际使用的88个数据文件及周期数量](records/v4_strong_snr/server_84f6757/EVALUATED_RECORDS.csv)
 - [独立推理入口](scripts/evaluate_v4_strong_snr.py) · [统计和数据池测试](tests/test_evaluate_v4_strong_snr.py)
 - [逐种子结果](records/v4_strong_snr/server_84f6757/results/PER_SEED_RESULTS.csv) · [独立核查](records/v4_strong_snr/server_84f6757/results/VERIFICATION.json)
+
+## V4扩大仿真噪声后重新训练
+
+运行提交`ddb0638`，独立协议`V4_strong_noise_v1`。训练每轮随机抽取0/5/10/15/20/25/30/35/40 dB，固定仿真验证使用0/5/10/20/30 dB。四种模型、三个种子均从原随机初始化完整训练50轮；模型、损失、更新预算和数据划分不变。已在原服务器环境完成12组训练及原88个实测编号的Clean＋九档SNR共120组评估。
+
+- [完整客观结果及新旧配对差](records/v4_strong_retrain/server_ddb0638/SERVER_RESULTS.md)
+- [独立重训入口](scripts/v4_strong_noise_experiment.py) · [实验配置](configs/v4_strong_noise_v1.json) · [协议测试](tests/test_v4_strong_noise_experiment.py)
+- [120组逐种子新旧对照](records/v4_strong_retrain/server_ddb0638/results/BEFORE_AFTER_PER_SEED.csv)
+- [训练、选模和预测核查](records/v4_strong_retrain/server_ddb0638/results/VERIFICATION.json)
+- [实际使用的34/15个仿真编号](records/v4_strong_retrain/server_ddb0638/SOURCE_RECORDS.csv) · [88个实测编号](records/v4_strong_retrain/server_ddb0638/TARGET_RECORDS.csv)
+
+37项测试、72组最佳权重仿真验证指标和120组实测预测复现核验通过。旧结果及347个最终保留编号的评估状态保持不变。

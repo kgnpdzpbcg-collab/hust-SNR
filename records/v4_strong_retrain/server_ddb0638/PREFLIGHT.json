@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "unit_test_command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_v4_hpasf.py",
+    "tests/test_v4_experiment.py",
+    "tests/test_v2_paifilter.py",
+    "tests/test_v2_experiment.py",
+    "tests/test_v4_strong_noise_experiment.py"
+  ],
+  "unit_test_output": ".....................................                                    [100%]\n37 passed in 1.70s\n",
+  "source_train_records": 34,
+  "source_val_records": 15,
+  "train_cycles": 738,
+  "val_cycles": 302,
+  "materialized_0_5_val_matches_fixed_rng": true,
+  "initial_cnn_sha256": {
+    "42": {
+      "lowpass3": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699",
+      "lowpass4": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699",
+      "static4": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699",
+      "hpasf": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699"
+    },
+    "43": {
+      "lowpass3": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+      "lowpass4": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+      "static4": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+      "hpasf": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925"
+    },
+    "44": {
+      "lowpass3": "b676b0e1e9906ce64c2d5f371f9116fc06708e54bcd532e0a2c20cc8618e4fc5",
+      "lowpass4": "b676b0e1e9906ce64c2d5f371f9116fc06708e54bcd532e0a2c20cc8618e4fc5",
+      "static4": "b676b0e1e9906ce64c2d5f371f9116fc06708e54bcd532e0a2c20cc8618e4fc5",
+      "hpasf": "b676b0e1e9906ce64c2d5f371f9116fc06708e54bcd532e0a2c20cc8618e4fc5"
+    }
+  },
+  "first_epoch_noisy_cycles_sha256": {
+    "42": "45fc2a5e1c0492ae6b5e26959021e5d649cdfc12af7bafb1a1536281ca0db17d",
+    "43": "d16e9dbf44e6f0d70f82ca9ec759320915ca184c4a321551caa3c927885ee572",
+    "44": "2234d4e652dad79d772731e8bc52edab32ac516b2e3e61edcfcb6240d5b4b5a8"
+  },
+  "real_cuda_gradient_checks": {
+    "lowpass3": {
+      "real_cuda_training_loss": 1.9021165370941162
+    },
+    "lowpass4": {
+      "real_cuda_training_loss": 1.9047324657440186
+    },
+    "static4": {
+      "real_cuda_training_loss": 1.9019025564193726,
+      "gate_gradient": -0.00018518434080760926
+    },
+    "hpasf": {
+      "real_cuda_training_loss": 1.9018917083740234,
+      "gate_gradient": -0.00019303412409499288
+    }
+  },
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_version": "2.14.1+cu130"
+}

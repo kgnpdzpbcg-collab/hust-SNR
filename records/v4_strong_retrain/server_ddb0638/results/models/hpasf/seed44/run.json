@@ -1,0 +1,62 @@
+{
+  "mode": "hpasf",
+  "seed": 44,
+  "epochs": 50,
+  "batch_size": 32,
+  "lr": 0.001,
+  "initial_gain4": 0.05,
+  "initial_cnn_sha256": "b676b0e1e9906ce64c2d5f371f9116fc06708e54bcd532e0a2c20cc8618e4fc5",
+  "checkpoint_rule": "source 0/5/10/20/30 noisy-val mean Macro-F1; Clean within 1pp of peak",
+  "selected": {
+    "epoch": 25,
+    "train_loss_mean": 0.0315467234274062,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 0.9426286398608612,
+      "5": 0.979166131284318,
+      "10": 0.9964046662841843,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.9836398874858727,
+    "train_snr_record_counts": {
+      "0": 8,
+      "5": 3,
+      "10": 3,
+      "15": 1,
+      "20": 1,
+      "25": 2,
+      "30": 6,
+      "35": 6,
+      "40": 4
+    }
+  },
+  "train_protocol": "V4_strong_noise_v1",
+  "train_noise_levels_db": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "val_noise_levels_db": [
+    0,
+    5,
+    10,
+    20,
+    30
+  ],
+  "source_split": "frozen_Gate0_V1_V2",
+  "noise_policy": "V2_M1_full_record_per_phase_RMS",
+  "parameter_counts": {
+    "cnn": 25620,
+    "spectral": 1,
+    "total": 25621
+  },
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

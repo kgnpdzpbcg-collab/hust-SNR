@@ -1,0 +1,6065 @@
+{
+  "status": "passed",
+  "code_commit": "ddb0638c72507efaecbc0b99722d1a79e1e536a9",
+  "trained_models": 12,
+  "epochs_per_model": 50,
+  "optimizer_updates_per_model": 1200,
+  "training_snr_counts_verified_epochs": 600,
+  "source_only_checkpoint_selections_verified": 12,
+  "selected_source_validation_metric_sets_reproduced": 72,
+  "selected_source_validation_results": [
+    {
+      "model": "lowpass3/seed42",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed42",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9316906632472147,
+        "accuracy": 0.9337748344370861,
+        "balanced_accuracy": 0.9297924297924297,
+        "per_class_f1": [
+          0.8947368421052632,
+          0.9043478260869565,
+          0.9285714285714286,
+          0.8817204301075269,
+          0.9904761904761905,
+          0.9902912621359223
+        ],
+        "per_class_recall": [
+          0.8095238095238095,
+          1.0,
+          1.0,
+          0.7884615384615384,
+          1.0,
+          0.9807692307692307
+        ],
+        "confusion_matrix": [
+          [
+            34,
+            2,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            9,
+            1,
+            41,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            51
+          ]
+        ],
+        "normal_false_alarms": 8,
+        "normal_false_alarm_rate": 0.19047619047619047,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed42",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.9835651601113448,
+        "accuracy": 0.9834437086092715,
+        "balanced_accuracy": 0.9832112332112333,
+        "per_class_f1": [
+          0.9879518072289156,
+          0.9629629629629629,
+          0.9904761904761905,
+          0.96,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.9761904761904762,
+          1.0,
+          1.0,
+          0.9230769230769231,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            41,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 1,
+        "normal_false_alarm_rate": 0.023809523809523808,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed42",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed42",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed42",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed43",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed43",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9738177738873824,
+        "accuracy": 0.9735099337748344,
+        "balanced_accuracy": 0.9728327228327228,
+        "per_class_f1": [
+          0.975609756097561,
+          0.9702970297029703,
+          0.9622641509433962,
+          0.9444444444444444,
+          1.0,
+          0.9902912621359223
+        ],
+        "per_class_recall": [
+          0.9523809523809523,
+          0.9423076923076923,
+          0.9807692307692307,
+          0.9807692307692307,
+          1.0,
+          0.9807692307692307
+        ],
+        "confusion_matrix": [
+          [
+            40,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            49,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            51,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            51,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            51
+          ]
+        ],
+        "normal_false_alarms": 2,
+        "normal_false_alarm_rate": 0.047619047619047616,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed43",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed43",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed43",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed43",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed44",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed44",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9439523087168151,
+        "accuracy": 0.9470198675496688,
+        "balanced_accuracy": 0.9410866910866912,
+        "per_class_f1": [
+          0.8648648648648649,
+          0.8849557522123894,
+          0.9719626168224299,
+          0.9615384615384616,
+          1.0,
+          0.9803921568627451
+        ],
+        "per_class_recall": [
+          0.7619047619047619,
+          0.9615384615384616,
+          1.0,
+          0.9615384615384616,
+          1.0,
+          0.9615384615384616
+        ],
+        "confusion_matrix": [
+          [
+            32,
+            9,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            50,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0,
+            50
+          ]
+        ],
+        "normal_false_alarms": 10,
+        "normal_false_alarm_rate": 0.23809523809523808,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed44",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.9860361980103081,
+        "accuracy": 0.9867549668874173,
+        "balanced_accuracy": 0.9848901098901099,
+        "per_class_f1": [
+          0.9629629629629629,
+          0.9629629629629629,
+          1.0,
+          0.9902912621359223,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.9285714285714286,
+          1.0,
+          1.0,
+          0.9807692307692307,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            39,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            51,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 3,
+        "normal_false_alarm_rate": 0.07142857142857142,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed44",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 0.9927903052615431,
+        "accuracy": 0.9933774834437086,
+        "balanced_accuracy": 0.9920634920634921,
+        "per_class_f1": [
+          0.975609756097561,
+          0.9811320754716981,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.9523809523809523,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            40,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 2,
+        "normal_false_alarm_rate": 0.047619047619047616,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed44",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass3/seed44",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed42",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed42",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9245848688022376,
+        "accuracy": 0.9271523178807947,
+        "balanced_accuracy": 0.9241452991452991,
+        "per_class_f1": [
+          0.8433734939759037,
+          0.8775510204081632,
+          0.8648648648648649,
+          0.9714285714285714,
+          0.9902912621359223,
+          1.0
+        ],
+        "per_class_recall": [
+          0.8333333333333334,
+          0.8269230769230769,
+          0.9230769230769231,
+          0.9807692307692307,
+          0.9807692307692307,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            35,
+            1,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            43,
+            5,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            48,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            51,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            51,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 7,
+        "normal_false_alarm_rate": 0.16666666666666666,
+        "missed_fault_as_normal": 6
+      }
+    },
+    {
+      "model": "lowpass4/seed42",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.980341897927838,
+        "accuracy": 0.9801324503311258,
+        "balanced_accuracy": 0.980006105006105,
+        "per_class_f1": [
+          0.9879518072289156,
+          0.9494949494949495,
+          0.9541284403669725,
+          0.9904761904761905,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.9761904761904762,
+          0.9038461538461539,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            41,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            47,
+            4,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 1,
+        "normal_false_alarm_rate": 0.023809523809523808,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed42",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 0.9903766077542334,
+        "accuracy": 0.9900662251655629,
+        "balanced_accuracy": 0.9903846153846154,
+        "per_class_f1": [
+          1.0,
+          0.9702970297029703,
+          0.9719626168224299,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9423076923076923,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            49,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed42",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed42",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed43",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed43",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9518062591961963,
+        "accuracy": 0.9536423841059603,
+        "balanced_accuracy": 0.9497863247863249,
+        "per_class_f1": [
+          0.9090909090909091,
+          0.9423076923076923,
+          0.9259259259259259,
+          0.9523809523809523,
+          1.0,
+          0.9811320754716981
+        ],
+        "per_class_recall": [
+          0.8333333333333334,
+          0.9423076923076923,
+          0.9615384615384616,
+          0.9615384615384616,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            35,
+            1,
+            4,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            49,
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            50,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 7,
+        "normal_false_alarm_rate": 0.16666666666666666,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed43",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.9927603561749904,
+        "accuracy": 0.9933774834437086,
+        "balanced_accuracy": 0.9920634920634921,
+        "per_class_f1": [
+          0.975609756097561,
+          0.9904761904761905,
+          0.9904761904761905,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.9523809523809523,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            40,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 2,
+        "normal_false_alarm_rate": 0.047619047619047616,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed43",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed43",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed43",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed44",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed44",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.931281765968519,
+        "accuracy": 0.9337748344370861,
+        "balanced_accuracy": 0.9297924297924299,
+        "per_class_f1": [
+          0.8717948717948718,
+          0.9215686274509803,
+          0.8932038834951457,
+          0.9203539823008849,
+          1.0,
+          0.9807692307692307
+        ],
+        "per_class_recall": [
+          0.8095238095238095,
+          0.9038461538461539,
+          0.8846153846153846,
+          1.0,
+          1.0,
+          0.9807692307692307
+        ],
+        "confusion_matrix": [
+          [
+            34,
+            3,
+            4,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            47,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            46,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            51
+          ]
+        ],
+        "normal_false_alarms": 8,
+        "normal_false_alarm_rate": 0.19047619047619047,
+        "missed_fault_as_normal": 2
+      }
+    },
+    {
+      "model": "lowpass4/seed44",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed44",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed44",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "lowpass4/seed44",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed42",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed42",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9445812862849489,
+        "accuracy": 0.9470198675496688,
+        "balanced_accuracy": 0.9426129426129427,
+        "per_class_f1": [
+          0.8831168831168831,
+          0.9215686274509803,
+          0.9009009009009009,
+          0.9807692307692307,
+          0.9811320754716981,
+          1.0
+        ],
+        "per_class_recall": [
+          0.8095238095238095,
+          0.9038461538461539,
+          0.9615384615384616,
+          0.9807692307692307,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            34,
+            1,
+            7,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            47,
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            50,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            51,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 8,
+        "normal_false_alarm_rate": 0.19047619047619047,
+        "missed_fault_as_normal": 1
+      }
+    },
+    {
+      "model": "static4/seed42",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.9721409047656958,
+        "accuracy": 0.9735099337748344,
+        "balanced_accuracy": 0.9705433455433455,
+        "per_class_f1": [
+          0.9367088607594937,
+          0.9904761904761905,
+          0.9245283018867925,
+          0.9811320754716981,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.8809523809523809,
+          1.0,
+          0.9423076923076923,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            37,
+            0,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            49,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 5,
+        "normal_false_alarm_rate": 0.11904761904761904,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed42",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed42",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed42",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed43",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed43",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9694935895267413,
+        "accuracy": 0.9701986754966887,
+        "balanced_accuracy": 0.968864468864469,
+        "per_class_f1": [
+          0.9512195121951219,
+          0.9514563106796117,
+          0.9714285714285714,
+          0.9523809523809523,
+          1.0,
+          0.9904761904761905
+        ],
+        "per_class_recall": [
+          0.9285714285714286,
+          0.9423076923076923,
+          0.9807692307692307,
+          0.9615384615384616,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            39,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            49,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            51,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 3,
+        "normal_false_alarm_rate": 0.07142857142857142,
+        "missed_fault_as_normal": 1
+      }
+    },
+    {
+      "model": "static4/seed43",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.9964210927089283,
+        "accuracy": 0.9966887417218543,
+        "balanced_accuracy": 0.9967948717948718,
+        "per_class_f1": [
+          0.9882352941176471,
+          1.0,
+          0.9902912621359223,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.9807692307692307,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            51,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 1
+      }
+    },
+    {
+      "model": "static4/seed43",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed43",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed43",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed44",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed44",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9583730870138636,
+        "accuracy": 0.9602649006622517,
+        "balanced_accuracy": 0.9561965811965812,
+        "per_class_f1": [
+          0.9090909090909091,
+          0.9523809523809523,
+          0.9369369369369369,
+          0.9615384615384616,
+          1.0,
+          0.9902912621359223
+        ],
+        "per_class_recall": [
+          0.8333333333333334,
+          0.9615384615384616,
+          1.0,
+          0.9615384615384616,
+          1.0,
+          0.9807692307692307
+        ],
+        "confusion_matrix": [
+          [
+            35,
+            1,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            50,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            51
+          ]
+        ],
+        "normal_false_alarms": 7,
+        "normal_false_alarm_rate": 0.16666666666666666,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed44",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.9780885780885781,
+        "accuracy": 0.9801324503311258,
+        "balanced_accuracy": 0.9761904761904763,
+        "per_class_f1": [
+          0.9230769230769231,
+          1.0,
+          0.9454545454545454,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.8571428571428571,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            36,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 6,
+        "normal_false_alarm_rate": 0.14285714285714285,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed44",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed44",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "static4/seed44",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed42",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed42",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9480142145621978,
+        "accuracy": 0.9470198675496688,
+        "balanced_accuracy": 0.9471916971916973,
+        "per_class_f1": [
+          0.975609756097561,
+          0.8679245283018868,
+          0.94,
+          0.9514563106796117,
+          0.9719626168224299,
+          0.9811320754716981
+        ],
+        "per_class_recall": [
+          0.9523809523809523,
+          0.8846153846153846,
+          0.9038461538461539,
+          0.9423076923076923,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            40,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            46,
+            0,
+            1,
+            3,
+            2
+          ],
+          [
+            0,
+            4,
+            47,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            49,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 2,
+        "normal_false_alarm_rate": 0.047619047619047616,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed42",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.9773718855402024,
+        "accuracy": 0.9768211920529801,
+        "balanced_accuracy": 0.9775641025641025,
+        "per_class_f1": [
+          1.0,
+          0.9423076923076923,
+          0.9504950495049505,
+          0.9904761904761905,
+          0.9904761904761905,
+          0.9904761904761905
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9423076923076923,
+          0.9230769230769231,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            49,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            3,
+            48,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed42",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 0.9839372316436537,
+        "accuracy": 0.9834437086092715,
+        "balanced_accuracy": 0.9839743589743589,
+        "per_class_f1": [
+          1.0,
+          0.9541284403669725,
+          0.9494949494949495,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.9038461538461539,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            47,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed42",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 0.9935873720557405,
+        "accuracy": 0.9933774834437086,
+        "balanced_accuracy": 0.9935897435897436,
+        "per_class_f1": [
+          1.0,
+          0.9811320754716981,
+          0.9803921568627451,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.9615384615384616,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            50,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed42",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed43",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed43",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9673203574196277,
+        "accuracy": 0.9668874172185431,
+        "balanced_accuracy": 0.9664224664224664,
+        "per_class_f1": [
+          0.975609756097561,
+          0.9387755102040817,
+          0.9622641509433962,
+          0.9272727272727272,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.9523809523809523,
+          0.8846153846153846,
+          0.9807692307692307,
+          0.9807692307692307,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            40,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            46,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            51,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            51,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 2,
+        "normal_false_alarm_rate": 0.047619047619047616,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed43",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.9903766077542334,
+        "accuracy": 0.9900662251655629,
+        "balanced_accuracy": 0.9903846153846154,
+        "per_class_f1": [
+          1.0,
+          0.9702970297029703,
+          1.0,
+          0.9719626168224299,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9423076923076923,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            49,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed43",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed43",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed43",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed44",
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed44",
+      "condition": "snr0",
+      "metrics": {
+        "macro_f1": 0.9426286398608612,
+        "accuracy": 0.9470198675496688,
+        "balanced_accuracy": 0.9410866910866912,
+        "per_class_f1": [
+          0.8421052631578947,
+          0.9719626168224299,
+          0.9203539823008849,
+          0.96,
+          0.9904761904761905,
+          0.970873786407767
+        ],
+        "per_class_recall": [
+          0.7619047619047619,
+          1.0,
+          1.0,
+          0.9230769230769231,
+          1.0,
+          0.9615384615384616
+        ],
+        "confusion_matrix": [
+          [
+            32,
+            1,
+            9,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            48,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            50
+          ]
+        ],
+        "normal_false_alarms": 10,
+        "normal_false_alarm_rate": 0.23809523809523808,
+        "missed_fault_as_normal": 2
+      }
+    },
+    {
+      "model": "hpasf/seed44",
+      "condition": "snr5",
+      "metrics": {
+        "macro_f1": 0.979166131284318,
+        "accuracy": 0.9801324503311258,
+        "balanced_accuracy": 0.9777167277167278,
+        "per_class_f1": [
+          0.95,
+          0.9904761904761905,
+          0.9541284403669725,
+          0.9803921568627451,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.9047619047619048,
+          1.0,
+          1.0,
+          0.9615384615384616,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            38,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 4,
+        "normal_false_alarm_rate": 0.09523809523809523,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed44",
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 0.9964046662841843,
+        "accuracy": 0.9966887417218543,
+        "balanced_accuracy": 0.996031746031746,
+        "per_class_f1": [
+          0.9879518072289156,
+          1.0,
+          0.9904761904761905,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          0.9761904761904762,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            41,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 1,
+        "normal_false_alarm_rate": 0.023809523809523808,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed44",
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "model": "hpasf/seed44",
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    }
+  ],
+  "target_prediction_vectors_exactly_reproduced": 120,
+  "target_metric_sets_independently_recomputed": 120,
+  "target_record_ids": [
+    "0081",
+    "0085",
+    "0088",
+    "0089",
+    "0092",
+    "0096",
+    "0104",
+    "0105",
+    "0109",
+    "0110",
+    "0127",
+    "0129",
+    "0134",
+    "0137",
+    "0138",
+    "0139",
+    "0140",
+    "0144",
+    "0150",
+    "0163",
+    "0166",
+    "0169",
+    "0187",
+    "0194",
+    "0195",
+    "0198",
+    "0200",
+    "0203",
+    "0205",
+    "0210",
+    "0219",
+    "0223",
+    "0227",
+    "0230",
+    "0235",
+    "0241",
+    "0246",
+    "0252",
+    "0254",
+    "0256",
+    "0260",
+    "0272",
+    "0274",
+    "0279",
+    "0287",
+    "0292",
+    "0297",
+    "0305",
+    "0317",
+    "0319",
+    "0321",
+    "0328",
+    "0330",
+    "0333",
+    "4-1000-10",
+    "4-1000-5",
+    "4-300-1",
+    "4-300-5",
+    "4-400-11",
+    "4-400-7",
+    "4-500-3",
+    "4-500-4",
+    "4-600-3",
+    "4-600-6",
+    "4-700-11",
+    "4-700-5",
+    "4-800-10",
+    "4-800-3",
+    "4-900-1",
+    "4-900-6",
+    "4-900-9",
+    "5-1000-7",
+    "5-1000-8",
+    "5-300-10",
+    "5-300-9",
+    "5-400-10",
+    "5-400-3",
+    "5-500-6",
+    "5-500-7",
+    "5-600-10",
+    "5-600-2",
+    "5-700-1",
+    "5-700-3",
+    "5-700-8",
+    "5-800-10",
+    "5-800-4",
+    "5-900-10",
+    "5-900-7"
+  ],
+  "target_cycles_per_condition": 2474,
+  "class_support": [
+    1106,
+    307,
+    297,
+    298,
+    237,
+    229
+  ],
+  "aggregate_groups_verified": 40,
+  "before_after_paired_groups_verified": 40,
+  "weights_sha256": {
+    "lowpass3/seed42": "da29d5b44b078b89fc4241d72b263ff07f6b39b3b7d0db5b1efe3bd78e3b036c",
+    "lowpass3/seed43": "c8e8e33e87063e51c9441031e1cc1ce4f100e3be694592806ee75a574e43d778",
+    "lowpass3/seed44": "0353474b4d98615038fc2dc2e23baea1c4eb75190a273d0b82118b71d8d6465c",
+    "lowpass4/seed42": "795f3c5554d3a621dc6d04d45a9a1cbfa83ce8ca358155fedc14ca35183f84ed",
+    "lowpass4/seed43": "4bcd76a660a07d69ba1a72168f880f124782619d272e5eaabdc6cb246db07622",
+    "lowpass4/seed44": "9f0581aea4d06e359d775ff972e81bc50e2facc553f2a933611d6628174170d6",
+    "static4/seed42": "a77ddf501b9c64647521fa3635908fc19d182b9ad0ea86ca28ddfac127bd6082",
+    "static4/seed43": "c0837f2d80dd411adb8b9e61f21917daea35788f6a18216a80068a874ab98f4e",
+    "static4/seed44": "2c8948116328d40c3262bd5b9bb85f95b7e89051f99fd0cac471338571b7389e",
+    "hpasf/seed42": "663f802414eaa0f8c1a9d2bd53abe325079756ba4acf92196b223713cec4d857",
+    "hpasf/seed43": "d60af13d1a9f85497f2e6a858c526bd020c125960ccd6b97ce860255bc0b3e73",
+    "hpasf/seed44": "36f6cbe82c45d1eac61cdc62329cada3386e405433c022f8d7e37f551b25b3dc"
+  },
+  "selected_checkpoints": {
+    "lowpass3/seed42": {
+      "epoch": 3,
+      "train_loss_mean": 0.09148452601705988,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9316906632472147,
+        "5": 0.9835651601113448,
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9830511646717118,
+      "train_snr_record_counts": {
+        "0": 5,
+        "5": 3,
+        "10": 4,
+        "15": 2,
+        "20": 7,
+        "25": 3,
+        "30": 1,
+        "35": 5,
+        "40": 4
+      }
+    },
+    "lowpass3/seed43": {
+      "epoch": 7,
+      "train_loss_mean": 0.050744292112843446,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9738177738873824,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9947635547774766,
+      "train_snr_record_counts": {
+        "0": 7,
+        "5": 5,
+        "10": 1,
+        "15": 2,
+        "20": 7,
+        "25": 3,
+        "30": 2,
+        "35": 1,
+        "40": 6
+      }
+    },
+    "lowpass3/seed44": {
+      "epoch": 6,
+      "train_loss_mean": 0.0702419572044164,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9439523087168151,
+        "5": 0.9860361980103081,
+        "10": 0.9927903052615431,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9845557623977331,
+      "train_snr_record_counts": {
+        "0": 7,
+        "5": 5,
+        "10": 1,
+        "15": 2,
+        "20": 7,
+        "25": 3,
+        "30": 2,
+        "35": 1,
+        "40": 6
+      }
+    },
+    "lowpass4/seed42": {
+      "epoch": 7,
+      "train_loss_mean": 0.03597907862664821,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9245848688022376,
+        "5": 0.980341897927838,
+        "10": 0.9903766077542334,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9790606748968618,
+      "train_snr_record_counts": {
+        "0": 7,
+        "5": 2,
+        "10": 3,
+        "15": 2,
+        "20": 3,
+        "25": 4,
+        "30": 6,
+        "35": 3,
+        "40": 4
+      }
+    },
+    "lowpass4/seed43": {
+      "epoch": 16,
+      "train_loss_mean": 0.034807868597757384,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9518062591961963,
+        "5": 0.9927603561749904,
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9889133230742374,
+      "train_snr_record_counts": {
+        "0": 8,
+        "5": 4,
+        "10": 3,
+        "15": 3,
+        "20": 6,
+        "25": 4,
+        "30": 2,
+        "35": 2,
+        "40": 2
+      }
+    },
+    "lowpass4/seed44": {
+      "epoch": 5,
+      "train_loss_mean": 0.024741360684856772,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.931281765968519,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9862563531937039,
+      "train_snr_record_counts": {
+        "0": 7,
+        "5": 2,
+        "10": 3,
+        "15": 2,
+        "20": 3,
+        "25": 4,
+        "30": 6,
+        "35": 3,
+        "40": 4
+      }
+    },
+    "static4/seed42": {
+      "epoch": 25,
+      "train_loss_mean": 0.020035012804631453,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9445812862849489,
+        "5": 0.9721409047656958,
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.983344438210129,
+      "train_snr_record_counts": {
+        "0": 5,
+        "5": 5,
+        "10": 3,
+        "15": 1,
+        "20": 0,
+        "25": 7,
+        "30": 3,
+        "35": 4,
+        "40": 6
+      }
+    },
+    "static4/seed43": {
+      "epoch": 21,
+      "train_loss_mean": 0.010674067823856603,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9694935895267413,
+        "5": 0.9964210927089283,
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9931829364471338,
+      "train_snr_record_counts": {
+        "0": 1,
+        "5": 6,
+        "10": 1,
+        "15": 5,
+        "20": 4,
+        "25": 4,
+        "30": 1,
+        "35": 9,
+        "40": 3
+      }
+    },
+    "static4/seed44": {
+      "epoch": 6,
+      "train_loss_mean": 0.04111423034919426,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9583730870138636,
+        "5": 0.9780885780885781,
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9872923330204884,
+      "train_snr_record_counts": {
+        "0": 7,
+        "5": 5,
+        "10": 1,
+        "15": 2,
+        "20": 7,
+        "25": 3,
+        "30": 2,
+        "35": 1,
+        "40": 6
+      }
+    },
+    "hpasf/seed42": {
+      "epoch": 26,
+      "train_loss_mean": 0.020288562123217464,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9480142145621978,
+        "5": 0.9773718855402024,
+        "10": 0.9839372316436537,
+        "20": 0.9935873720557405,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9805821407603588,
+      "train_snr_record_counts": {
+        "0": 5,
+        "5": 2,
+        "10": 1,
+        "15": 1,
+        "20": 4,
+        "25": 4,
+        "30": 9,
+        "35": 3,
+        "40": 5
+      }
+    },
+    "hpasf/seed43": {
+      "epoch": 7,
+      "train_loss_mean": 0.06868238267876829,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9673203574196277,
+        "5": 0.9903766077542334,
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9915393930347722,
+      "train_snr_record_counts": {
+        "0": 7,
+        "5": 5,
+        "10": 1,
+        "15": 2,
+        "20": 7,
+        "25": 3,
+        "30": 2,
+        "35": 1,
+        "40": 6
+      }
+    },
+    "hpasf/seed44": {
+      "epoch": 25,
+      "train_loss_mean": 0.0315467234274062,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.9426286398608612,
+        "5": 0.979166131284318,
+        "10": 0.9964046662841843,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.9836398874858727,
+      "train_snr_record_counts": {
+        "0": 8,
+        "5": 3,
+        "10": 3,
+        "15": 1,
+        "20": 1,
+        "25": 2,
+        "30": 6,
+        "35": 6,
+        "40": 4
+      }
+    }
+  },
+  "learned_scalar_gates": {
+    "static4/seed42": {
+      "gate_logit": -3.0194551944732666,
+      "base_gain4": 0.046554651111364365
+    },
+    "static4/seed43": {
+      "gate_logit": -2.943645477294922,
+      "base_gain4": 0.05003770440816879
+    },
+    "static4/seed44": {
+      "gate_logit": -2.949496269226074,
+      "base_gain4": 0.04976032301783562
+    },
+    "hpasf/seed42": {
+      "gate_logit": -3.031700849533081,
+      "base_gain4": 0.04601410776376724
+    },
+    "hpasf/seed43": {
+      "gate_logit": -2.9156293869018555,
+      "base_gain4": 0.051386330276727676
+    },
+    "hpasf/seed44": {
+      "gate_logit": -2.988467216491699,
+      "base_gain4": 0.047949615865945816
+    }
+  },
+  "original_files_unchanged": 1153,
+  "final_holdout_evaluated": false,
+  "verifier_sha256": "be66f00b0bf587d7d768b12d6a9244b1f94b69297d5be83256b64acdda27bf09",
+  "verification_seconds": 9.458695989014814
+}

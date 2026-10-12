@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "original_gate0_v1_files_unchanged": 641,
+  "cycle_metadata_sha256": {
+    "outputs/gate0_v1/source_source_test_windows.json": "667f2420279618d718e1d39c9ac38ff30fd753519fbe446b0cc7ea9181170df7",
+    "outputs/gate0_v1/source_train_windows.json": "5776898895cbe1ac2c4864bbb0bc661495b010b7c2d4e1dbd3f9bf92286b801a",
+    "outputs/gate0_v1/source_val_windows.json": "17a3addc777eedd5538fe1e22fc4e47bb5fad0ddbf66c7cf1418181b4d5ea0c1",
+    "outputs/gate0_v1/target_dev_clean_windows.json": "0be4721326d1b44732103bfb00873f92575b6889f6912c62d9b7fc40b556da6f",
+    "outputs/gate0_v1/target_dev_snr10_windows.json": "0be4721326d1b44732103bfb00873f92575b6889f6912c62d9b7fc40b556da6f"
+  },
+  "source_train_val_metadata_and_labels_unchanged": true
+}

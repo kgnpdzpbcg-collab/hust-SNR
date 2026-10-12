@@ -1,0 +1,55 @@
+{
+  "method": "hpasf",
+  "status": "completed",
+  "stages": [
+    {
+      "stage": "train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/v4_strong_noise_experiment.py",
+        "train",
+        "--methods",
+        "hpasf",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/v4_strong_retrain/ddb0638/results",
+        "--strong-data-root",
+        "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 38.00697896000929
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/v4_strong_noise_experiment.py",
+        "evaluate",
+        "--methods",
+        "hpasf",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/v4_strong_retrain/ddb0638/results",
+        "--snr-root",
+        "/home/wang/projects/会议论文/hust/experiments/v4_strong_retrain/ddb0638/target_snr"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 16.838720046012895
+    }
+  ],
+  "stage": "evaluate",
+  "pid": 122897,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/v4_strong_noise_experiment.py",
+    "evaluate",
+    "--methods",
+    "hpasf",
+    "--output",
+    "/home/wang/projects/会议论文/hust/experiments/v4_strong_retrain/ddb0638/results",
+    "--snr-root",
+    "/home/wang/projects/会议论文/hust/experiments/v4_strong_retrain/ddb0638/target_snr"
+  ],
+  "log": "/home/wang/projects/会议论文/hust/experiments/v4_strong_retrain/ddb0638/logs/hpasf_evaluate.log"
+}
