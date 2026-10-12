@@ -123,3 +123,26 @@ python scripts/v4_experiment.py summarize
 - [实际使用的34/15个仿真编号](records/v4_strong_retrain/server_ddb0638/SOURCE_RECORDS.csv) · [88个实测编号](records/v4_strong_retrain/server_ddb0638/TARGET_RECORDS.csv)
 
 37项测试、72组最佳权重仿真验证指标和120组实测预测复现核验通过。旧结果及347个最终保留编号的评估状态保持不变。
+
+
+## V5 NA-HSF（Noise-Aware Harmonic Selective Fusion）
+
+在原 25,620 参数 A′ 1D-CNN 前加入**噪声感知谐波选择融合模块**；仅学习五相共享的第4阶增益，新增一个 3→8→1 的 41 参数门控。训练使用原 V4 的 10–40 dB 源域增强、10/20/30 dB 源域验证选模、50 epochs、batch32、Adam 1e−3、三种子 42/43/44。5/0 dB 为**测试阶段的人工合成压力条件**；不接触347条 Final-Holdout。**目前只有代码，没有 V5 正式 GPU 结果**。
+
+- [数学定义和冻结实验协议](docs/V5_NA_HSF_PROTOCOL.md)
+- [NA-HSF 网络](scripts/v5_nahsf.py) · [训练、评估及 V4 配对对比](scripts/v5_experiment.py)
+- [频域模块测试](tests/test_v5_nahsf.py) · [源域协议与历史结果测试](tests/test_v5_experiment.py)
+
+在仓库根目录：
+
+    git fetch origin
+    git switch research/na-hsf-v5
+    python scripts/v5_nahsf.py
+    python scripts/v5_experiment.py smoke
+    python -m pytest -q tests/test_v5_nahsf.py tests/test_v5_experiment.py
+    python scripts/v5_experiment.py train
+    python scripts/v5_experiment.py evaluate --snr-root "/path/to/original_SNR_parent"
+    python scripts/v5_experiment.py evaluate --strong-snr-root "/path/to/generated/target" --conditions 5 0
+    python scripts/v5_experiment.py summarize --conditions clean 10 15 20 25 30 35 40 5 0
+
+默认结果存放 outputs/v5_nahsf/；汇总使用已有 V4 的 LP3/LP4 历史逐种子预测进行严格配对，并记录门控随噪声变化的均值与分位数。
