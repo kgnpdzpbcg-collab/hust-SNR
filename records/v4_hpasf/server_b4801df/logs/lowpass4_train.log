@@ -1,0 +1,21 @@
+lowpass4/seed42 epoch 1/50: SrcVal Clean=0.7673 Noisy=0.7558
+lowpass4/seed42 epoch 10/50: SrcVal Clean=0.9807 Noisy=0.9763
+lowpass4/seed42 epoch 20/50: SrcVal Clean=1.0000 Noisy=0.9989
+lowpass4/seed42 epoch 30/50: SrcVal Clean=1.0000 Noisy=0.9979
+lowpass4/seed42 epoch 40/50: SrcVal Clean=0.9577 Noisy=0.9565
+lowpass4/seed42 epoch 50/50: SrcVal Clean=1.0000 Noisy=1.0000
+SAVED /home/wang/projects/会议论文/hust/experiments/v4_hpasf/b4801df/results/models/lowpass4/seed42/best.pt
+lowpass4/seed43 epoch 1/50: SrcVal Clean=0.7364 Noisy=0.7296
+lowpass4/seed43 epoch 10/50: SrcVal Clean=1.0000 Noisy=0.9890
+lowpass4/seed43 epoch 20/50: SrcVal Clean=0.9343 Noisy=0.9339
+lowpass4/seed43 epoch 30/50: SrcVal Clean=0.9343 Noisy=0.9397
+lowpass4/seed43 epoch 40/50: SrcVal Clean=0.7791 Noisy=0.7839
+lowpass4/seed43 epoch 50/50: SrcVal Clean=0.7776 Noisy=0.7861
+SAVED /home/wang/projects/会议论文/hust/experiments/v4_hpasf/b4801df/results/models/lowpass4/seed43/best.pt
+lowpass4/seed44 epoch 1/50: SrcVal Clean=0.7854 Noisy=0.7736
+lowpass4/seed44 epoch 10/50: SrcVal Clean=1.0000 Noisy=0.9888
+lowpass4/seed44 epoch 20/50: SrcVal Clean=0.9469 Noisy=0.9350
+lowpass4/seed44 epoch 30/50: SrcVal Clean=0.8407 Noisy=0.8469
+lowpass4/seed44 epoch 40/50: SrcVal Clean=0.9577 Noisy=0.9517
+lowpass4/seed44 epoch 50/50: SrcVal Clean=0.7368 Noisy=0.7368
+SAVED /home/wang/projects/会议论文/hust/experiments/v4_hpasf/b4801df/results/models/lowpass4/seed44/best.pt

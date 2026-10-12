@@ -1,0 +1,21 @@
+static4/seed42 epoch 1/50: SrcVal Clean=0.8301 Noisy=0.8108
+static4/seed42 epoch 10/50: SrcVal Clean=0.8971 Noisy=0.9058
+static4/seed42 epoch 20/50: SrcVal Clean=0.9167 Noisy=0.9209
+static4/seed42 epoch 30/50: SrcVal Clean=0.9577 Noisy=0.9577
+static4/seed42 epoch 40/50: SrcVal Clean=0.9167 Noisy=0.9177
+static4/seed42 epoch 50/50: SrcVal Clean=0.9085 Noisy=0.9010
+SAVED /home/wang/projects/会议论文/hust/experiments/v4_hpasf/b4801df/results/models/static4/seed42/best.pt
+static4/seed43 epoch 1/50: SrcVal Clean=0.7364 Noisy=0.7302
+static4/seed43 epoch 10/50: SrcVal Clean=1.0000 Noisy=0.9964
+static4/seed43 epoch 20/50: SrcVal Clean=0.9343 Noisy=0.9348
+static4/seed43 epoch 30/50: SrcVal Clean=0.9343 Noisy=0.9343
+static4/seed43 epoch 40/50: SrcVal Clean=0.8268 Noisy=0.8307
+static4/seed43 epoch 50/50: SrcVal Clean=0.8593 Noisy=0.8761
+SAVED /home/wang/projects/会议论文/hust/experiments/v4_hpasf/b4801df/results/models/static4/seed43/best.pt
+static4/seed44 epoch 1/50: SrcVal Clean=0.7854 Noisy=0.7779
+static4/seed44 epoch 10/50: SrcVal Clean=0.8971 Noisy=0.9051
+static4/seed44 epoch 20/50: SrcVal Clean=0.9589 Noisy=0.9384
+static4/seed44 epoch 30/50: SrcVal Clean=0.9469 Noisy=0.9576
+static4/seed44 epoch 40/50: SrcVal Clean=0.8593 Noisy=0.8672
+static4/seed44 epoch 50/50: SrcVal Clean=1.0000 Noisy=0.9976
+SAVED /home/wang/projects/会议论文/hust/experiments/v4_hpasf/b4801df/results/models/static4/seed44/best.pt

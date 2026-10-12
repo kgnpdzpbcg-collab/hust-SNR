@@ -1,0 +1,7 @@
+{
+  "upstream_commit": "c65e42d6066db27df47ae267fd692d4f05e923c7",
+  "formal_training_started": false,
+  "operation": "Tensor.median(dim=-1) on CUDA",
+  "exception": "median CUDA with indices output does not have a deterministic implementation",
+  "resolution": "stable sort 19 powers and select the 10th value; formula preserved; strict determinism retained"
+}

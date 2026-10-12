@@ -1,0 +1,12 @@
+lowpass3 {'cnn': 25620, 'spectral': 0, 'total': 25620} loss=1.63432
+lowpass4 {'cnn': 25620, 'spectral': 0, 'total': 25620} loss=1.97160
+static4 {'cnn': 25620, 'spectral': 1, 'total': 25621} loss=1.67121
+hpasf {'cnn': 25620, 'spectral': 1, 'total': 25621} loss=1.70595
+V4 HPASF SMOKE PASS
+
+V4 HPASF RAW-CYCLE TRAINING SMOKE PASS
+
+.................................                                        [100%]
+33 passed in 1.61s
+
+V4_PREFLIGHT_PASSED

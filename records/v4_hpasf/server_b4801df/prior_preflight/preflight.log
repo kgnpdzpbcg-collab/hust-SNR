@@ -1,0 +1,45 @@
+lowpass3 {'cnn': 25620, 'spectral': 0, 'total': 25620} loss=1.63432
+lowpass4 {'cnn': 25620, 'spectral': 0, 'total': 25620} loss=1.97160
+static4 {'cnn': 25620, 'spectral': 1, 'total': 25621} loss=1.67121
+hpasf {'cnn': 25620, 'spectral': 1, 'total': 25621} loss=1.70595
+V4 HPASF SMOKE PASS
+
+V4 HPASF RAW-CYCLE TRAINING SMOKE PASS
+
+...............................                                          [100%]
+31 passed in 1.63s
+
+Traceback (most recent call last):
+  File "/home/wang/projects/会议论文/hust/experiments/v4_hpasf/c65e42d/PREFLIGHT_SERVER_V4.py", line 131, in <module>
+    main()
+  File "/home/wang/projects/会议论文/hust/experiments/v4_hpasf/c65e42d/PREFLIGHT_SERVER_V4.py", line 98, in main
+    loss = paired_cross_entropy(model, xb, nb, labels)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/hust/experiments/v4_hpasf/c65e42d/code/scripts/v2_paifilter.py", line 160, in paired_cross_entropy
+    logits = model(torch.cat((clean, noisy), dim=0))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/hust/experiments/v4_hpasf/c65e42d/code/scripts/v4_hpasf.py", line 115, in forward
+    shaped, gain4 = self.shaping(raw), None
+                    ^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/hust/experiments/v4_hpasf/c65e42d/code/scripts/v4_hpasf.py", line 90, in forward
+    gain4 = self.fourth_gain(spectrum)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/hust/experiments/v4_hpasf/c65e42d/code/scripts/v4_hpasf.py", line 82, in fourth_gain
+    return gain * self.noise_reliability(spectrum)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wang/projects/会议论文/hust/experiments/v4_hpasf/c65e42d/code/scripts/v4_hpasf.py", line 72, in noise_reliability
+    floor = p[:, NOISE_START:NOISE_END + 1].median(dim=-1).values
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: median CUDA with indices output does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.

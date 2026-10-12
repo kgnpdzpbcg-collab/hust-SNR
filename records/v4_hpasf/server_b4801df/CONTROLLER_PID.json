@@ -1,0 +1,8 @@
+{
+  "pid": 118117,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "/home/wang/projects/会议论文/hust/experiments/v4_hpasf/b4801df/RUN_SERVER_V4.py"
+  ]
+}

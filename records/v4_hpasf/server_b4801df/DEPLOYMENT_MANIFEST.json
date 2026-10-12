@@ -1,0 +1,37 @@
+{
+  "code_commit": "b4801df472163c8c58090d03e6bc20b15592c8b5",
+  "branch": "research/hpasf-v0",
+  "archive_bytes": 1116160,
+  "archive_sha256": "d8915e6024bf58d208b01da02569a3ced91c6cc90a789b1d83917e0d7ae29553",
+  "code_sha256": {
+    "scripts/v4_hpasf.py": "687a4b6fe8eb6961d0daa27a014caf623156000e5cff1a2bb8d3457270b754db",
+    "scripts/v4_experiment.py": "4d37e610d0b3151c5aac56949bba0645b9c3e58290691fd8e502aa0d0d564724",
+    "scripts/v2_paifilter.py": "2f3f40461b420d7e6ebf16241576fc10ee11087bf837c5549493d0dc84ce04fc",
+    "scripts/v2_experiment.py": "ab3a7733c46df6d5785b740ffd4afbb625b2ce7de26bf3c50b606d7d3c66a112",
+    "scripts/v1_noise_consistency.py": "3eab3d4bf8b2b569f423fbff8b59e85be3419de6ad09f0c4f57e4475b067da9e",
+    "scripts/prepare.py": "857b6758413f1ba23c78cce9b8ebf46043f53d6e850b5836321a3301f5f2c077",
+    "configs/splits_gate0_v1.json": "5fccf11264d097aaa704030c16e9007323baaa57e613b1fa13f652a1a7b43707"
+  },
+  "methods": [
+    "lowpass3",
+    "lowpass4",
+    "static4",
+    "hpasf"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "parallel_workers": 4,
+  "environment_reused": true,
+  "model_training_location": "server",
+  "evaluation_input": "original_MAT",
+  "final_holdout_evaluated": false,
+  "architecture_or_train_protocol_changed": false,
+  "requested_upstream_commit": "c65e42d6066db27df47ae267fd692d4f05e923c7",
+  "deterministic_median_fix": true
+}
