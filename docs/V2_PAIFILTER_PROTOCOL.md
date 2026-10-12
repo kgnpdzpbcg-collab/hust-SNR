@@ -68,6 +68,8 @@ python scripts/v2_experiment.py summarize
 
 正式训练与测评输出至 gitignored 的 `outputs/v2_paifilter/`，避免覆盖原 V1 模型结果。评估只读取 `outputs/gate0_v1/target_dev_clean_windows.json` 固定的88条 Dev 及相同周期边界；输出 Clean、10–40 dB 的逐周期真值、预测、混淆矩阵、Macro-F1、Accuracy、Healthy 误报。
 
+2026-10-12服务器预检记录：原提交`644763a`的13项CPU测试通过，但真实GPU反传在严格确定性模式下因`upsample_linear1d_backward_out_cuda`报错，正式训练尚未启动。两处`align_corners=True`线性插值改为显式索引和权重，保留原采样位置、端点、梯度连接及全部可训练参数；新增CPU/CUDA前向和梯度对照测试。保留严格确定性设置，不使用`warn_only`运行正式实验。原失败预检目录保留，修正后的正式运行使用独立目录。
+
 也可在已经有用户导出数据的机器上评估（该入口只读取 88 条 Dev）：
 
 ```bash

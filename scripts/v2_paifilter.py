@@ -24,6 +24,25 @@ EXACT_LOW_HARMONICS = 32
 METHODS = ("identity", "lowpass3", "paifilter")
 
 
+def deterministic_linear_resample(values: torch.Tensor, size: int) -> torch.Tensor:
+    """沿最后一维线性插值，保持align_corners=True的端点和采样位置。
+
+    输入为任意前导维度的浮点张量，输出只改变最后一维长度。本项目
+    用于96→2016个频率控制点和4096→128个电流采样点。显式索引与
+    权重避开CUDA的非确定性upsample反传；梯度仍流向输入/滤波参数。
+    与原算子存在浮点运算顺序带来的末位舍入差异，不增加可训练参数。
+    """
+    source_size = values.shape[-1]
+    if source_size < 2 or size < 2:
+        raise ValueError("线性插值的输入和输出长度均须至少为2")
+    position = torch.arange(size, device=values.device, dtype=values.dtype)
+    position = (position * ((source_size - 1) / (size - 1))).clamp(max=source_size - 1)
+    left = position.floor().long()
+    right = (left + 1).clamp(max=source_size - 1)
+    weight = position - left
+    return values.index_select(-1, left) * (1 - weight) + values.index_select(-1, right) * weight
+
+
 class HarmonicShaping(nn.Module):
     """Phase-preserving real rFFT gains, shared across five phase currents.
 
@@ -64,9 +83,8 @@ class HarmonicShaping(nn.Module):
         # A scalar gain for each harmonic order, *not* a complex phase rotation.
         low = self.raw_attenuation[:EXACT_LOW_HARMONICS]
         high = self.raw_attenuation[EXACT_LOW_HARMONICS:].view(1, 1, -1)
-        expanded_high = F.interpolate(
-            high, size=(self.raw_points // 2 - EXACT_LOW_HARMONICS),
-            mode="linear", align_corners=True).view(-1)
+        expanded_high = deterministic_linear_resample(
+            high, self.raw_points // 2 - EXACT_LOW_HARMONICS).view(-1)
         attenuation = torch.relu(torch.cat((low, expanded_high)))
         return torch.cat((ref.new_ones(1), torch.exp(-attenuation)), dim=0)
 
@@ -84,7 +102,7 @@ class HarmonicShaping(nn.Module):
 class MDNormalization(nn.Module):
     """Differentiable approximation of prepare.preprocess's exact MD rule.
 
-    On raw 1024-point uniform per-cycle samples: midpoint of extrema;
+    On raw 4096-point uniform per-cycle samples: midpoint of extrema;
     if centered mean abs < 0.2 then divisor=100, else max centered abs;
     then linear resample to CNN's 128-point input.
 
@@ -98,7 +116,7 @@ class MDNormalization(nn.Module):
         maximum = centered.abs().amax(dim=-1, keepdim=True)
         divisor = torch.where(low, torch.full_like(maximum, 100.), maximum.clamp_min(1e-8))
         scaled = centered / divisor
-        return F.interpolate(scaled, size=CNN_POINTS, mode="linear", align_corners=True)
+        return deterministic_linear_resample(scaled, CNN_POINTS)
 
 
 class OriginalCNN(nn.Module):

@@ -7,7 +7,39 @@ import torch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from v2_paifilter import (HarmonicShaping, HarmonicCNN, MDNormalization, OriginalCNN,
-                          RAW_POINTS, counts_by_module, paired_cross_entropy)
+                          RAW_POINTS, counts_by_module, paired_cross_entropy,
+                          deterministic_linear_resample)
+
+
+@pytest.mark.parametrize("sizes", [(4096, 128), (96, 2016)])
+@pytest.mark.parametrize("device", ["cpu", "cuda"])
+def test_deterministic_interpolation_forward_and_backward(sizes, device):
+    """核对两处真实插值的前向/梯度，并验证严格确定性CUDA反传重复一致。"""
+    if device == "cuda" and not torch.cuda.is_available():
+        pytest.skip("当前机器没有CUDA；服务器执行本项")
+    original_mode = torch.are_deterministic_algorithms_enabled()
+    original_warning = torch.is_deterministic_algorithms_warn_only_enabled()
+    try:
+        torch.use_deterministic_algorithms(True)
+        torch.manual_seed(19)
+        source_size, target_size = sizes
+        original = torch.randn(2, 5, source_size, requires_grad=True)
+        expected = torch.nn.functional.interpolate(
+            original, size=target_size, mode="linear", align_corners=True)
+        expected.square().mean().backward()
+        gradients, outputs = [], []
+        for _ in range(2):
+            sample = original.detach().to(device).clone().requires_grad_()
+            actual = deterministic_linear_resample(sample, target_size)
+            actual.square().mean().backward()
+            assert torch.allclose(actual.cpu(), expected.detach(), atol=5e-7, rtol=2e-6)
+            assert torch.allclose(sample.grad.cpu(), original.grad, atol=1e-7, rtol=3e-5)
+            gradients.append(sample.grad.detach().clone())
+            outputs.append(actual.detach().clone())
+        assert torch.equal(outputs[0], outputs[1])
+        assert torch.equal(gradients[0], gradients[1])
+    finally:
+        torch.use_deterministic_algorithms(original_mode, warn_only=original_warning)
 
 
 def test_three_modes_shapes_and_parameters():
