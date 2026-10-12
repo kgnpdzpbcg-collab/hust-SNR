@@ -63,11 +63,11 @@ class PaperShapeReconciledDecoder(nn.Module):
     def forward(self, h):
         if h.ndim!=3 or tuple(h.shape[1:])!=(32,11):
             raise ValueError("Decoder requires [B,32,11]")
-        h=F.interpolate(h,scale_factor=2,mode="nearest")
+        h=torch.stack((h,h),dim=-1).flatten(-2) # deterministic nearest-upsample x2
         h=F.leaky_relu(self.bn1(F.pad(self.conv1(h),(1,1))),.01) # 26
-        h=F.interpolate(h,scale_factor=2,mode="nearest")
+        h=torch.stack((h,h),dim=-1).flatten(-2) # deterministic nearest-upsample x2
         h=F.leaky_relu(self.bn2(F.pad(self.conv2(h),(1,1))),.01) # 56
-        h=F.interpolate(h,scale_factor=2,mode="nearest")
+        h=torch.stack((h,h),dim=-1).flatten(-2) # deterministic nearest-upsample x2
         h=F.leaky_relu(self.bn3(F.pad(self.conv3(h),(1,1))),.01) # 128
         return self.out(h) # signed reconstruction [B,5,128]
 
