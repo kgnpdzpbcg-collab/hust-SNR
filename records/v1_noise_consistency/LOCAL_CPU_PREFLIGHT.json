@@ -2,7 +2,7 @@
   "status": "local_cpu_preflight_passed_not_official_gate1",
   "date": "2026-10-12",
   "code": "scripts/v1_noise_consistency.py",
-  "tests": "5 passed (pytest -q tests/test_v1_consistency.py)",
+  "tests": "6 passed (pytest -q tests/test_v1_consistency.py, after adding summary aggregation test)",
   "synthetic_smoke": "SMOKE PASSED",
   "real_mat_source_input": {
     "dataset": "HUST Five-phase IM-AA simulation MAT",
