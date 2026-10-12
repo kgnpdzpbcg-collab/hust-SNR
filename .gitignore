@@ -1,0 +1,22 @@
+# 本地原始数据、训练输出、环境和未发布文稿。
+.cache/
+data/
+outputs/
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.npz
+*.mat
+*.rar
+*.tar.gz
+sources/
+analysis/
+MinerU*.md
+scripts/report.py
+docs/DATA_AUDIT.md
+docs/NEXT_STEP_PLAN.md
+docs/GATE0_EXECUTION_RECORD.md
+docs/GATE0_SIMPLE_SERVER_RESULTS.md
+figures/waveforms/qa/

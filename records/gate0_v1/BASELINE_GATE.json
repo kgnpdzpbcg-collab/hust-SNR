@@ -1,0 +1,12 @@
+{
+  "source_learning_valid": true,
+  "per_seed_drop_pp": [
+    11.908902182902226,
+    22.63433903697877,
+    20.27550308938593
+  ],
+  "mean_drop_pp": 18.27291476975564,
+  "all_seeds_drop": true,
+  "threshold_pp": 5,
+  "run_augmentation": true
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "archive_sha256": "c1dd889a647b41ebe0bf66e1ffb818ccd59c418c6b6fa58a689c96358502e935",
+  "files_verified": 101,
+  "evaluations_metrics_recomputed": 18,
+  "aggregate_mean_sd_recomputed": 6,
+  "local_model_inference_or_training": false,
+  "source_model_code_copied_exactly_from_server": true,
+  "final_holdout_evaluated": false
+}

@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "source_records": {
+    "train": 34,
+    "val": 15,
+    "source_test": 10
+  },
+  "target_dev_records": 88,
+  "target_holdout_records": 347,
+  "holdout_waveforms_present": false,
+  "sets": {
+    "source_train": {
+      "samples": 738,
+      "class_counts": [
+        126,
+        127,
+        127,
+        127,
+        104,
+        127
+      ],
+      "shape": [
+        738,
+        5,
+        128
+      ],
+      "tensor_sha256": "52212a62dd2a7804457b05e5ca903343b218d159b7ad18b81e66395ccb409c4d",
+      "npz_sha256": "b537489e3675b1c3c8a27af5da69b14dfe49b31bec4f433f8f4711f6b280ab0b"
+    },
+    "source_val": {
+      "samples": 302,
+      "class_counts": [
+        42,
+        52,
+        52,
+        52,
+        52,
+        52
+      ],
+      "shape": [
+        302,
+        5,
+        128
+      ],
+      "tensor_sha256": "b85a55d77579a37517f4d59b94182c44ee4a06df7b12830b792dbb08e373a2c4",
+      "npz_sha256": "9d813867e8ad2455349d9d8a9d2945023f792f0d2db66d346f5e72c965a6b80c"
+    },
+    "source_source_test": {
+      "samples": 174,
+      "class_counts": [
+        24,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "shape": [
+        174,
+        5,
+        128
+      ],
+      "tensor_sha256": "a10fc36e2abd0e7865515bc848991156805c02425185e44573021d5090c1b05b",
+      "npz_sha256": "3b40fa2e7d48bf951e36da2047e02d36b0e35507cb3fe292074972b7ba0a89df"
+    },
+    "target_dev_clean": {
+      "samples": 2474,
+      "class_counts": [
+        1106,
+        307,
+        297,
+        298,
+        237,
+        229
+      ],
+      "shape": [
+        2474,
+        5,
+        128
+      ],
+      "tensor_sha256": "912d7fe71eaf3cd4c329b6d5349e1352acbaaa79ae9d8965063a1fefb039a0a6",
+      "npz_sha256": "9850daf364bb460fa7d5908f8a0aea7576f6ec6274f494e3b6848906387e0c3f"
+    },
+    "target_dev_snr10": {
+      "samples": 2474,
+      "class_counts": [
+        1106,
+        307,
+        297,
+        298,
+        237,
+        229
+      ],
+      "shape": [
+        2474,
+        5,
+        128
+      ],
+      "tensor_sha256": "c3d91b2edc596ffd1d2c2e6b215a2573dc2b00870b1d2fafa09f3c30798a75a5",
+      "npz_sha256": "829f509fdb31b148be84f1763240ac27daec723bbd3d43dcd8531d4d822a11d7"
+    }
+  },
+  "input_files_verified": 241,
+  "protocol_sha256": "48c72bfa39363803e7ede7db08e99e99cbfabd1aa77db13a2e33df010597b68d",
+  "split_sha256": "5fccf11264d097aaa704030c16e9007323baaa57e613b1fa13f652a1a7b43707"
+}

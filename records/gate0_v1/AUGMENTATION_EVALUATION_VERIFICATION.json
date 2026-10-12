@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "evaluations": 9,
+  "results": [
+    {
+      "seed": 42,
+      "dataset": "source_source_test",
+      "scores_and_predictions_exact": true,
+      "checkpoint_unchanged": true
+    },
+    {
+      "seed": 42,
+      "dataset": "target_dev_clean",
+      "scores_and_predictions_exact": true,
+      "checkpoint_unchanged": true
+    },
+    {
+      "seed": 42,
+      "dataset": "target_dev_snr10",
+      "scores_and_predictions_exact": true,
+      "checkpoint_unchanged": true
+    },
+    {
+      "seed": 43,
+      "dataset": "source_source_test",
+      "scores_and_predictions_exact": true,
+      "checkpoint_unchanged": true
+    },
+    {
+      "seed": 43,
+      "dataset": "target_dev_clean",
+      "scores_and_predictions_exact": true,
+      "checkpoint_unchanged": true
+    },
+    {
+      "seed": 43,
+      "dataset": "target_dev_snr10",
+      "scores_and_predictions_exact": true,
+      "checkpoint_unchanged": true
+    },
+    {
+      "seed": 44,
+      "dataset": "source_source_test",
+      "scores_and_predictions_exact": true,
+      "checkpoint_unchanged": true
+    },
+    {
+      "seed": 44,
+      "dataset": "target_dev_clean",
+      "scores_and_predictions_exact": true,
+      "checkpoint_unchanged": true
+    },
+    {
+      "seed": 44,
+      "dataset": "target_dev_snr10",
+      "scores_and_predictions_exact": true,
+      "checkpoint_unchanged": true
+    }
+  ],
+  "old_repo_data_and_packages_unchanged": true,
+  "scripts_unchanged": true,
+  "final_holdout_evaluated": false
+}

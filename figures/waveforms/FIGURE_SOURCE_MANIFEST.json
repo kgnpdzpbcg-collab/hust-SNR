@@ -1,0 +1,949 @@
+{
+  "date": "2026-10-12",
+  "figure_count": 12,
+  "category_count": 6,
+  "selection_rule": "target smallest record ID per class in fixed Dev; source closest speed/torque then ID among fixed Train; middle matching cycle",
+  "dataset_scope": "Source Train and Target Dev only; no Holdout records",
+  "before_normalization_time_rule": "same-time measurements averaged, matching experiment parser",
+  "preprocessed_arrays": "exact existing float32 model inputs, no new normalization",
+  "observations_per_domain_per_class": 1,
+  "model_results_used_to_select_examples": false,
+  "figures": [
+    {
+      "figure_stem": "figures/waveforms/00_healthy_before_normalization",
+      "kind": "before_normalization",
+      "selection": {
+        "label": 0,
+        "source_record": "S-600-9-1-O",
+        "target_record": "0081",
+        "source_window_index": 450,
+        "target_window_index": 2,
+        "fault_name": "Healthy",
+        "source_window": {
+          "record_id": "S-600-9-1-O",
+          "label": 0,
+          "start": 0.2526831118447106,
+          "end": 0.28321965897451906,
+          "low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "0081",
+          "label": 0,
+          "start": 0.22249076870208126,
+          "end": 0.28369380603181954,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 600.0,
+          "torque": 9.0,
+          "fault_label": 1,
+          "fault_name": "OUS(A)"
+        },
+        "target_metadata": {
+          "speed": 300.0,
+          "torque": 4.8,
+          "fault_label": 1,
+          "fault_name": "OUS(A)"
+        },
+        "raw_input_sha256": {
+          "source": "00d2b77788afcaaf70c2d6a2e97db356a9f4c4228e92458391678bfa647a6abd",
+          "target_clean": "49d296fc7d20a873d15caa3144eebc1b5747f8990abcbf0555167ff42f9a45aa",
+          "target_snr10": "c88f5c4b5650d7e7a99db832e9725275f773a3f8ef1fb9b5d9a420aebc347f57"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/00_healthy_preprocessed_128",
+      "kind": "preprocessed_128",
+      "selection": {
+        "label": 0,
+        "source_record": "S-600-9-1-O",
+        "target_record": "0081",
+        "source_window_index": 450,
+        "target_window_index": 2,
+        "fault_name": "Healthy",
+        "source_window": {
+          "record_id": "S-600-9-1-O",
+          "label": 0,
+          "start": 0.2526831118447106,
+          "end": 0.28321965897451906,
+          "low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "0081",
+          "label": 0,
+          "start": 0.22249076870208126,
+          "end": 0.28369380603181954,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 600.0,
+          "torque": 9.0,
+          "fault_label": 1,
+          "fault_name": "OUS(A)"
+        },
+        "target_metadata": {
+          "speed": 300.0,
+          "torque": 4.8,
+          "fault_label": 1,
+          "fault_name": "OUS(A)"
+        },
+        "raw_input_sha256": {
+          "source": "00d2b77788afcaaf70c2d6a2e97db356a9f4c4228e92458391678bfa647a6abd",
+          "target_clean": "49d296fc7d20a873d15caa3144eebc1b5747f8990abcbf0555167ff42f9a45aa",
+          "target_snr10": "c88f5c4b5650d7e7a99db832e9725275f773a3f8ef1fb9b5d9a420aebc347f57"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/01_ous_a_before_normalization",
+      "kind": "before_normalization",
+      "selection": {
+        "label": 1,
+        "source_record": "S-600-9-1-O",
+        "target_record": "0081",
+        "source_window_index": 462,
+        "target_window_index": 7,
+        "fault_name": "OUS(A)",
+        "source_window": {
+          "record_id": "S-600-9-1-O",
+          "label": 1,
+          "start": 0.7442907624031244,
+          "end": 0.774827186783198,
+          "low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "0081",
+          "label": 1,
+          "start": 0.7447389061927087,
+          "end": 0.8058335536416774,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 600.0,
+          "torque": 9.0,
+          "fault_label": 1,
+          "fault_name": "OUS(A)"
+        },
+        "target_metadata": {
+          "speed": 300.0,
+          "torque": 4.8,
+          "fault_label": 1,
+          "fault_name": "OUS(A)"
+        },
+        "raw_input_sha256": {
+          "source": "00d2b77788afcaaf70c2d6a2e97db356a9f4c4228e92458391678bfa647a6abd",
+          "target_clean": "49d296fc7d20a873d15caa3144eebc1b5747f8990abcbf0555167ff42f9a45aa",
+          "target_snr10": "c88f5c4b5650d7e7a99db832e9725275f773a3f8ef1fb9b5d9a420aebc347f57"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/01_ous_a_preprocessed_128",
+      "kind": "preprocessed_128",
+      "selection": {
+        "label": 1,
+        "source_record": "S-600-9-1-O",
+        "target_record": "0081",
+        "source_window_index": 462,
+        "target_window_index": 7,
+        "fault_name": "OUS(A)",
+        "source_window": {
+          "record_id": "S-600-9-1-O",
+          "label": 1,
+          "start": 0.7442907624031244,
+          "end": 0.774827186783198,
+          "low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "0081",
+          "label": 1,
+          "start": 0.7447389061927087,
+          "end": 0.8058335536416774,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 600.0,
+          "torque": 9.0,
+          "fault_label": 1,
+          "fault_name": "OUS(A)"
+        },
+        "target_metadata": {
+          "speed": 300.0,
+          "torque": 4.8,
+          "fault_label": 1,
+          "fault_name": "OUS(A)"
+        },
+        "raw_input_sha256": {
+          "source": "00d2b77788afcaaf70c2d6a2e97db356a9f4c4228e92458391678bfa647a6abd",
+          "target_clean": "49d296fc7d20a873d15caa3144eebc1b5747f8990abcbf0555167ff42f9a45aa",
+          "target_snr10": "c88f5c4b5650d7e7a99db832e9725275f773a3f8ef1fb9b5d9a420aebc347f57"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/02_ols_a_before_normalization",
+      "kind": "before_normalization",
+      "selection": {
+        "label": 2,
+        "source_record": "S-600-9-2-O",
+        "target_record": "0085",
+        "source_window_index": 475,
+        "target_window_index": 26,
+        "fault_name": "OLS(A)",
+        "source_window": {
+          "record_id": "S-600-9-2-O",
+          "label": 2,
+          "start": 0.7442909850192551,
+          "end": 0.7748274020238133,
+          "low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "0085",
+          "label": 2,
+          "start": 0.7648426041622295,
+          "end": 0.7972104776124068,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 600.0,
+          "torque": 9.0,
+          "fault_label": 2,
+          "fault_name": "OLS(A)"
+        },
+        "target_metadata": {
+          "speed": 300.0,
+          "torque": 40.0,
+          "fault_label": 2,
+          "fault_name": "OLS(A)"
+        },
+        "raw_input_sha256": {
+          "source": "ef624ab6776861269d0a5e99395b51aa0d1ebca0708eff125aa39678e1170a2c",
+          "target_clean": "73cbffbeef11af8c3ccfe95430015a9943eb401fcc2cdfd5ae6055579ad39f7d",
+          "target_snr10": "9917f86eeadd1101807138928b8b0e021ac3e52721f16b6920f203c9aa0d73a8"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/02_ols_a_preprocessed_128",
+      "kind": "preprocessed_128",
+      "selection": {
+        "label": 2,
+        "source_record": "S-600-9-2-O",
+        "target_record": "0085",
+        "source_window_index": 475,
+        "target_window_index": 26,
+        "fault_name": "OLS(A)",
+        "source_window": {
+          "record_id": "S-600-9-2-O",
+          "label": 2,
+          "start": 0.7442909850192551,
+          "end": 0.7748274020238133,
+          "low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "0085",
+          "label": 2,
+          "start": 0.7648426041622295,
+          "end": 0.7972104776124068,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 600.0,
+          "torque": 9.0,
+          "fault_label": 2,
+          "fault_name": "OLS(A)"
+        },
+        "target_metadata": {
+          "speed": 300.0,
+          "torque": 40.0,
+          "fault_label": 2,
+          "fault_name": "OLS(A)"
+        },
+        "raw_input_sha256": {
+          "source": "ef624ab6776861269d0a5e99395b51aa0d1ebca0708eff125aa39678e1170a2c",
+          "target_clean": "73cbffbeef11af8c3ccfe95430015a9943eb401fcc2cdfd5ae6055579ad39f7d",
+          "target_snr10": "9917f86eeadd1101807138928b8b0e021ac3e52721f16b6920f203c9aa0d73a8"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/03_op_a_before_normalization",
+      "kind": "before_normalization",
+      "selection": {
+        "label": 3,
+        "source_record": "S-600-9-3-O",
+        "target_record": "0089",
+        "source_window_index": 488,
+        "target_window_index": 67,
+        "fault_name": "OP(A)",
+        "source_window": {
+          "record_id": "S-600-9-3-O",
+          "label": 3,
+          "start": 0.7442876758020144,
+          "end": 0.7748237494617697,
+          "low_phase_flags": [
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "0089",
+          "label": 3,
+          "start": 0.7774049928270224,
+          "end": 0.8108778589564757,
+          "clean_low_phase_flags": [
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 600.0,
+          "torque": 9.0,
+          "fault_label": 3,
+          "fault_name": "OP(A)"
+        },
+        "target_metadata": {
+          "speed": 300.0,
+          "torque": 36.0,
+          "fault_label": 3,
+          "fault_name": "OP(A)"
+        },
+        "raw_input_sha256": {
+          "source": "cc76607d0f27ed57699f7410860b77987681ca4c29550dd51d75d26c1dbdd4f4",
+          "target_clean": "9c4d6fa96521febb17827d42f20c97f42949e074140c675a383d9138da6a4b02",
+          "target_snr10": "588c75b2ff254381cfc55331e40fd4194a8b6110dd04c694d38fda991259c7e6"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/03_op_a_preprocessed_128",
+      "kind": "preprocessed_128",
+      "selection": {
+        "label": 3,
+        "source_record": "S-600-9-3-O",
+        "target_record": "0089",
+        "source_window_index": 488,
+        "target_window_index": 67,
+        "fault_name": "OP(A)",
+        "source_window": {
+          "record_id": "S-600-9-3-O",
+          "label": 3,
+          "start": 0.7442876758020144,
+          "end": 0.7748237494617697,
+          "low_phase_flags": [
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "0089",
+          "label": 3,
+          "start": 0.7774049928270224,
+          "end": 0.8108778589564757,
+          "clean_low_phase_flags": [
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 600.0,
+          "torque": 9.0,
+          "fault_label": 3,
+          "fault_name": "OP(A)"
+        },
+        "target_metadata": {
+          "speed": 300.0,
+          "torque": 36.0,
+          "fault_label": 3,
+          "fault_name": "OP(A)"
+        },
+        "raw_input_sha256": {
+          "source": "cc76607d0f27ed57699f7410860b77987681ca4c29550dd51d75d26c1dbdd4f4",
+          "target_clean": "9c4d6fa96521febb17827d42f20c97f42949e074140c675a383d9138da6a4b02",
+          "target_snr10": "588c75b2ff254381cfc55331e40fd4194a8b6110dd04c694d38fda991259c7e6"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/04_ous_a_ous_b_before_normalization",
+      "kind": "before_normalization",
+      "selection": {
+        "label": 4,
+        "source_record": "S-1000-6-4-O",
+        "target_record": "4-1000-10",
+        "source_window_index": 222,
+        "target_window_index": 1651,
+        "fault_name": "OUS(A)&OUS(B)",
+        "source_window": {
+          "record_id": "S-1000-6-4-O",
+          "label": 4,
+          "start": 0.7531938657963216,
+          "end": 0.7726673382095236,
+          "low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "4-1000-10",
+          "label": 4,
+          "start": 0.7529182879378254,
+          "end": 0.7723735408561198,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 1000.0,
+          "torque": 6.0,
+          "fault_label": 4,
+          "fault_name": "OUS(A)&OUS(B)"
+        },
+        "target_metadata": {
+          "speed": 1000.0,
+          "torque": 10.0,
+          "fault_label": 4,
+          "fault_name": "OUS(A)&OUS(B)"
+        },
+        "raw_input_sha256": {
+          "source": "1f2cb4936d080cacc8d2d1dfa5af8a77fc25cd9e0a4ffcf738d0e6cd8d5ffc60",
+          "target_clean": "738bd40c2ed53e5e8d46819ee21c6da985a139a2f9a53264b61cf7f833231edb",
+          "target_snr10": "152ce06013f41de438e1f92809deb9e550133c53388676e3068e776ee63a4e7b"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/04_ous_a_ous_b_preprocessed_128",
+      "kind": "preprocessed_128",
+      "selection": {
+        "label": 4,
+        "source_record": "S-1000-6-4-O",
+        "target_record": "4-1000-10",
+        "source_window_index": 222,
+        "target_window_index": 1651,
+        "fault_name": "OUS(A)&OUS(B)",
+        "source_window": {
+          "record_id": "S-1000-6-4-O",
+          "label": 4,
+          "start": 0.7531938657963216,
+          "end": 0.7726673382095236,
+          "low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "4-1000-10",
+          "label": 4,
+          "start": 0.7529182879378254,
+          "end": 0.7723735408561198,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 1000.0,
+          "torque": 6.0,
+          "fault_label": 4,
+          "fault_name": "OUS(A)&OUS(B)"
+        },
+        "target_metadata": {
+          "speed": 1000.0,
+          "torque": 10.0,
+          "fault_label": 4,
+          "fault_name": "OUS(A)&OUS(B)"
+        },
+        "raw_input_sha256": {
+          "source": "1f2cb4936d080cacc8d2d1dfa5af8a77fc25cd9e0a4ffcf738d0e6cd8d5ffc60",
+          "target_clean": "738bd40c2ed53e5e8d46819ee21c6da985a139a2f9a53264b61cf7f833231edb",
+          "target_snr10": "152ce06013f41de438e1f92809deb9e550133c53388676e3068e776ee63a4e7b"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/05_ols_a_op_c_before_normalization",
+      "kind": "before_normalization",
+      "selection": {
+        "label": 5,
+        "source_record": "S-1000-6-5-O",
+        "target_record": "5-1000-7",
+        "source_window_index": 244,
+        "target_window_index": 2081,
+        "fault_name": "OLS(A)&OP(C)",
+        "source_window": {
+          "record_id": "S-1000-6-5-O",
+          "label": 5,
+          "start": 0.7507950754664097,
+          "end": 0.7700870386456142,
+          "low_phase_flags": [
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "5-1000-7",
+          "label": 5,
+          "start": 0.7557810807490353,
+          "end": 0.7771700102734447,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 1000.0,
+          "torque": 6.0,
+          "fault_label": 5,
+          "fault_name": "OLS(A)&OP(C)"
+        },
+        "target_metadata": {
+          "speed": 1000.0,
+          "torque": 7.0,
+          "fault_label": 5,
+          "fault_name": "OLS(A)&OP(C)"
+        },
+        "raw_input_sha256": {
+          "source": "26f11945615258736ac2a0c5cb6719d93b4c2405d1d09e1836a55f1838693f1f",
+          "target_clean": "ac1777dd3dc2ff4149309f00b7375ad1343f03a9306d472d2dc8d2603ec9fc9a",
+          "target_snr10": "29c33dfccd54ad93d8511205a6dbd3e437787582918673d4c61fa76138cd4f73"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    },
+    {
+      "figure_stem": "figures/waveforms/05_ols_a_op_c_preprocessed_128",
+      "kind": "preprocessed_128",
+      "selection": {
+        "label": 5,
+        "source_record": "S-1000-6-5-O",
+        "target_record": "5-1000-7",
+        "source_window_index": 244,
+        "target_window_index": 2081,
+        "fault_name": "OLS(A)&OP(C)",
+        "source_window": {
+          "record_id": "S-1000-6-5-O",
+          "label": 5,
+          "start": 0.7507950754664097,
+          "end": 0.7700870386456142,
+          "low_phase_flags": [
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        "target_window": {
+          "record_id": "5-1000-7",
+          "label": 5,
+          "start": 0.7557810807490353,
+          "end": 0.7771700102734447,
+          "clean_low_phase_flags": [
+            false,
+            false,
+            true,
+            false,
+            false
+          ],
+          "snr10_low_phase_flags": [
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        },
+        "source_metadata": {
+          "speed": 1000.0,
+          "torque": 6.0,
+          "fault_label": 5,
+          "fault_name": "OLS(A)&OP(C)"
+        },
+        "target_metadata": {
+          "speed": 1000.0,
+          "torque": 7.0,
+          "fault_label": 5,
+          "fault_name": "OLS(A)&OP(C)"
+        },
+        "raw_input_sha256": {
+          "source": "26f11945615258736ac2a0c5cb6719d93b4c2405d1d09e1836a55f1838693f1f",
+          "target_clean": "ac1777dd3dc2ff4149309f00b7375ad1343f03a9306d472d2dc8d2603ec9fc9a",
+          "target_snr10": "29c33dfccd54ad93d8511205a6dbd3e437787582918673d4c61fa76138cd4f73"
+        }
+      },
+      "phase_order": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "columns": [
+        "simulation",
+        "measured_clean",
+        "measured_snr10"
+      ],
+      "width_mm": 183,
+      "height_mm": 170,
+      "png_dpi": 600,
+      "alignment_checked": true
+    }
+  ]
+}

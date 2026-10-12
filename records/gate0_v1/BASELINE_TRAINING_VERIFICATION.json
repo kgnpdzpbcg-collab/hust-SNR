@@ -1,0 +1,193 @@
+{
+  "status": "passed",
+  "models": 3,
+  "results": [
+    {
+      "seed": 42,
+      "best_epoch": 3,
+      "best_checkpoint_sha256": "9d0cff3edc1a99b1739bd59a0d516c60039690b177d6eecf9092a2669651696c",
+      "val_reloaded": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ]
+      },
+      "actual_updates": 1200,
+      "bn_verified": true
+    },
+    {
+      "seed": 43,
+      "best_epoch": 3,
+      "best_checkpoint_sha256": "032314db42cda63a5a4ae4ef93a74a2d4467a9ef88f222f94cd6e0908934be39",
+      "val_reloaded": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ]
+      },
+      "actual_updates": 1200,
+      "bn_verified": true
+    },
+    {
+      "seed": 44,
+      "best_epoch": 5,
+      "best_checkpoint_sha256": "f93ffecd78444d0e57005e7b1c3c06febd9307e05b1bc0aef43cdfa6ed69b2d6",
+      "val_reloaded": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ]
+      },
+      "actual_updates": 1200,
+      "bn_verified": true
+    }
+  ],
+  "target_evaluated": false
+}

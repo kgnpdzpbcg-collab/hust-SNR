@@ -1,0 +1,16 @@
+baseline seed43: epoch10/50 loss=0.0179 valF1=1.0000
+baseline seed44: epoch10/50 loss=0.0050 valF1=0.9343
+baseline seed42: epoch10/50 loss=0.0869 valF1=0.8971
+baseline seed43: epoch20/50 loss=0.0061 valF1=1.0000
+baseline seed44: epoch20/50 loss=0.0024 valF1=1.0000
+baseline seed42: epoch20/50 loss=0.0033 valF1=0.9577
+baseline seed43: epoch30/50 loss=0.0069 valF1=0.9539
+baseline seed44: epoch30/50 loss=0.0404 valF1=0.8971
+baseline seed42: epoch30/50 loss=0.0016 valF1=1.0000
+baseline seed43: epoch40/50 loss=0.0138 valF1=0.8794
+baseline seed44: epoch40/50 loss=0.0051 valF1=0.8559
+baseline seed42: epoch40/50 loss=0.0227 valF1=0.9160
+baseline seed43: epoch50/50 loss=0.0009 valF1=0.8366
+baseline seed44: epoch50/50 loss=0.0012 valF1=0.8971
+baseline seed42: epoch50/50 loss=0.0047 valF1=0.9577
+baseline 三个种子完成

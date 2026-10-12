@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "models_trained": 6,
+  "evaluations": 18,
+  "all_scores_reloaded_exact": true,
+  "test_is_target_dev_not_final_holdout": true,
+  "final_holdout_evaluated": false,
+  "source_data_old_code_packages_unchanged": true,
+  "verification_script_repair_disclosed": true,
+  "local_model_training": false
+}

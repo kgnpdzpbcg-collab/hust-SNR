@@ -1,0 +1,19 @@
+{
+  "condition": "augmentation",
+  "seed": 44,
+  "parameters": 25620,
+  "best_epoch": 3,
+  "best_val_macro_f1": 1.0,
+  "updates": 1200,
+  "epochs": 50,
+  "source_train_size": 738,
+  "source_val_size": 302,
+  "wall_seconds": 6.338311389001319,
+  "initial_state_sha256": "65f8cf3f703377cf7a535fd7bc790d6177b0d7652d67f4d098e5d3d059915f49",
+  "last_state_sha256": "abeaba5edcbc9dafd6190f204ba721417af69167287e310bd0228d64f6213a63",
+  "best_checkpoint_sha256": "6c1eee15d8d058ebdc1943525c1643c80463f49b4fc859685cf5cea4bf20d328",
+  "sample_order_sha256": "3ff115eb70e642a5d0a720b91e37bb40d19f8e30640b14c02f88634621f0473f",
+  "test_evaluated": false,
+  "no_target_data_read_by_training": true,
+  "forward_views_per_sample": 2
+}

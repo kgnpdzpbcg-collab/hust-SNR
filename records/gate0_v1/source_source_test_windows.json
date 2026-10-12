@@ -1,0 +1,2264 @@
+[
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.1,
+    "end": 0.13234413254497812,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.13234413254497812,
+    "end": 0.16468828727297816,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.16468828727297816,
+    "end": 0.19703244483601154,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.19703244483601154,
+    "end": 0.2293765984301502,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.2293765984301502,
+    "end": 0.2617207466928492,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.2617207466928492,
+    "end": 0.2940648902896021,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.2940648902896021,
+    "end": 0.3264090304019726,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.3264090304019726,
+    "end": 0.3587531681285876,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.3587531681285876,
+    "end": 0.3910973043153784,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 0,
+    "start": 0.3910973043153784,
+    "end": 0.4234414395525478,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.5646879706520342,
+    "end": 0.5970319564256606,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.5970319564256606,
+    "end": 0.6293759615779042,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.6293759615779042,
+    "end": 0.6617199684119319,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.6617199684119319,
+    "end": 0.6940639774787559,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.6940639774787559,
+    "end": 0.7264079853213288,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.7264079853213288,
+    "end": 0.7587519940057983,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.7587519940057983,
+    "end": 0.7910960063566365,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.7910960063566365,
+    "end": 0.8234400051856116,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.8234400051856116,
+    "end": 0.8557840177324709,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.8557840177324709,
+    "end": 0.8881280274979153,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.8881280274979153,
+    "end": 0.9204720367849101,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-1-O",
+    "label": 1,
+    "start": 0.9204720367849101,
+    "end": 0.9528160436828802,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.5646881748308299,
+    "end": 0.5970323320056722,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.5970323320056722,
+    "end": 0.6293764809758324,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.6293764809758324,
+    "end": 0.6617206460050907,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.6617206460050907,
+    "end": 0.6940648165032093,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.6940648165032093,
+    "end": 0.726408994124922,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.726408994124922,
+    "end": 0.7587531671990582,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.7587531671990582,
+    "end": 0.7910973333450219,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.7910973333450219,
+    "end": 0.8234415177445185,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.8234415177445185,
+    "end": 0.8557856746505259,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.8557856746505259,
+    "end": 0.8881298462657174,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.8881298462657174,
+    "end": 0.9204740124798882,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-2-O",
+    "label": 2,
+    "start": 0.9204740124798882,
+    "end": 0.9528181907669504,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.5646876514458034,
+    "end": 0.5970315902285789,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.5970315902285789,
+    "end": 0.6293755460722366,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.6293755460722366,
+    "end": 0.6617195241780041,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.6617195241780041,
+    "end": 0.6940635112596604,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.6940635112596604,
+    "end": 0.7264075067746525,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.7264075067746525,
+    "end": 0.7587514951584238,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.7587514951584238,
+    "end": 0.7910954807626099,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.7910954807626099,
+    "end": 0.8234394723506636,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.8234394723506636,
+    "end": 0.8557834486282844,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.8557834486282844,
+    "end": 0.8881274363710936,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.8881274363710936,
+    "end": 0.9204714192831684,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-3-O",
+    "label": 3,
+    "start": 0.9204714192831684,
+    "end": 0.9528154121840557,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.5646874167262556,
+    "end": 0.5970313479222313,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.5970313479222313,
+    "end": 0.629375374936903,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.629375374936903,
+    "end": 0.6617195094772833,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.6617195094772833,
+    "end": 0.6940636361339503,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.6940636361339503,
+    "end": 0.7264077935344248,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.7264077935344248,
+    "end": 0.7587519524629237,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.7587519524629237,
+    "end": 0.7910961507464654,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.7910961507464654,
+    "end": 0.8234402558521144,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.8234402558521144,
+    "end": 0.8557844210236333,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.8557844210236333,
+    "end": 0.8881286177536643,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.8881286177536643,
+    "end": 0.9204727835679787,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-4-O",
+    "label": 4,
+    "start": 0.9204727835679787,
+    "end": 0.9528169702258061,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.5646871386228919,
+    "end": 0.5970308980736313,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.5970308980736313,
+    "end": 0.6293746411528419,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.6293746411528419,
+    "end": 0.6617184495039997,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.6617184495039997,
+    "end": 0.6940622499874342,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.6940622499874342,
+    "end": 0.7264060800773293,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.7264060800773293,
+    "end": 0.7587498857397453,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.7587498857397453,
+    "end": 0.7910937183699654,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.7910937183699654,
+    "end": 0.823437552801666,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.823437552801666,
+    "end": 0.8557813389094361,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.8557813389094361,
+    "end": 0.8881251739939705,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.8881251739939705,
+    "end": 0.9204689822468987,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-600-3-5-O",
+    "label": 5,
+    "start": 0.9204689822468987,
+    "end": 0.9528128159467754,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.1,
+    "end": 0.12339290787218829,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.12339290787218829,
+    "end": 0.1467857213215281,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.1467857213215281,
+    "end": 0.17017847288185445,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.17017847288185445,
+    "end": 0.19357118455720482,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.19357118455720482,
+    "end": 0.21696387084474392,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.21696387084474392,
+    "end": 0.24035654110483684,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.24035654110483684,
+    "end": 0.2637492012639071,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.2637492012639071,
+    "end": 0.287141855023867,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.287141855023867,
+    "end": 0.3105345046789578,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.3105345046789578,
+    "end": 0.3339271516497796,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.3339271516497796,
+    "end": 0.3573197968296908,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.3573197968296908,
+    "end": 0.38071244079317057,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.38071244079317057,
+    "end": 0.4041050839218738,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 0,
+    "start": 0.4041050839218738,
+    "end": 0.4274977264757666,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.5467849341691379,
+    "end": 0.570177455803849,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.570177455803849,
+    "end": 0.593570004342862,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.593570004342862,
+    "end": 0.6169625698286482,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.6169625698286482,
+    "end": 0.6403551467039648,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.6403551467039648,
+    "end": 0.663747748755023,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.663747748755023,
+    "end": 0.6871403361263397,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.6871403361263397,
+    "end": 0.7105329258600108,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.7105329258600108,
+    "end": 0.7339255173830664,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.7339255173830664,
+    "end": 0.7573181228056154,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.7573181228056154,
+    "end": 0.7807107168180147,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.7807107168180147,
+    "end": 0.8041033110915106,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.8041033110915106,
+    "end": 0.8274959055740821,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.8274959055740821,
+    "end": 0.8508885058580682,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.8508885058580682,
+    "end": 0.8742810992866504,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.8742810992866504,
+    "end": 0.8976736923880708,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.8976736923880708,
+    "end": 0.9210662856012369,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.9210662856012369,
+    "end": 0.9444588793034076,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-1-O",
+    "label": 1,
+    "start": 0.9444588793034076,
+    "end": 0.9678514847450451,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.546785021327101,
+    "end": 0.570177561066827,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.570177561066827,
+    "end": 0.5935701120819481,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.5935701120819481,
+    "end": 0.6169626681506066,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.6169626681506066,
+    "end": 0.6403552280366934,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.6403552280366934,
+    "end": 0.6637477836711236,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.6637477836711236,
+    "end": 0.6871403485460232,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.6871403485460232,
+    "end": 0.7105329154844398,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.7105329154844398,
+    "end": 0.7339254839618572,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.7339254839618572,
+    "end": 0.7573180346335219,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.7573180346335219,
+    "end": 0.7807106063021142,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.7807106063021142,
+    "end": 0.804103178804375,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.804103178804375,
+    "end": 0.8274957518972104,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.8274957518972104,
+    "end": 0.850888326795406,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.850888326795406,
+    "end": 0.8742808993401119,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.8742808993401119,
+    "end": 0.8976734717119133,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.8976734717119133,
+    "end": 0.9210660438223164,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.9210660438223164,
+    "end": 0.9444586156405916,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-2-O",
+    "label": 2,
+    "start": 0.9444586156405916,
+    "end": 0.9678511863257653,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.5467842915069991,
+    "end": 0.5701764858518069,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.5701764858518069,
+    "end": 0.5935687016521308,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.5935687016521308,
+    "end": 0.6169609280850892,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.6169609280850892,
+    "end": 0.6403531632368861,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.6403531632368861,
+    "end": 0.6637454158422484,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.6637454158422484,
+    "end": 0.6871376644263464,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.6871376644263464,
+    "end": 0.7105299183106015,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.7105299183106015,
+    "end": 0.7339221762652486,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.7339221762652486,
+    "end": 0.7573144291607591,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.7573144291607591,
+    "end": 0.7807066914241376,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.7807066914241376,
+    "end": 0.804098954989778,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.804098954989778,
+    "end": 0.8274912195158665,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.8274912195158665,
+    "end": 0.8508834914969138,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.8508834914969138,
+    "end": 0.8742757559841475,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.8742757559841475,
+    "end": 0.8976680205742954,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.8976680205742954,
+    "end": 0.9210602852009142,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.9210602852009142,
+    "end": 0.9444525498451037,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-3-O",
+    "label": 3,
+    "start": 0.9444525498451037,
+    "end": 0.9678448220984067,
+    "low_phase_flags": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.5472426368310613,
+    "end": 0.5708643870098,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.5708643870098,
+    "end": 0.5944864701073329,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.5944864701073329,
+    "end": 0.6181087016774206,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.6181087016774206,
+    "end": 0.6417311037608787,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.6417311037608787,
+    "end": 0.6653533814018885,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.6653533814018885,
+    "end": 0.6889766003316923,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.6889766003316923,
+    "end": 0.712598759852578,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.712598759852578,
+    "end": 0.7362205186202528,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.7362205186202528,
+    "end": 0.7598424015731113,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.7598424015731113,
+    "end": 0.7834646425074009,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.7834646425074009,
+    "end": 0.8070870053189338,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.8070870053189338,
+    "end": 0.8307095454431567,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.8307095454431567,
+    "end": 0.8543320367138951,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.8543320367138951,
+    "end": 0.8779552030667181,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.8779552030667181,
+    "end": 0.9015782999260799,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.9015782999260799,
+    "end": 0.9252004591540025,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.9252004591540025,
+    "end": 0.9488221884738054,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-4-O",
+    "label": 4,
+    "start": 0.9488221884738054,
+    "end": 0.972444246764783,
+    "low_phase_flags": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.5467832231017783,
+    "end": 0.5701749537321008,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.5701749537321008,
+    "end": 0.5935667130367608,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.5935667130367608,
+    "end": 0.6169585012432475,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.6169585012432475,
+    "end": 0.640350313120869,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.640350313120869,
+    "end": 0.6637421449469123,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.6637421449469123,
+    "end": 0.6871339902534523,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.6871339902534523,
+    "end": 0.7105258468029161,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.7105258468029161,
+    "end": 0.7339177114562447,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.7339177114562447,
+    "end": 0.7573095798179003,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.7573095798179003,
+    "end": 0.7807014494684,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.7807014494684,
+    "end": 0.8040933218170648,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.8040933218170648,
+    "end": 0.8274851957795426,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.8274851957795426,
+    "end": 0.8508770756539209,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.8508770756539209,
+    "end": 0.8742689499544449,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.8742689499544449,
+    "end": 0.8976608242632717,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.8976608242632717,
+    "end": 0.9210526985018701,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.9210526985018701,
+    "end": 0.9444445724698057,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "record_id": "S-800-9-5-O",
+    "label": 5,
+    "start": 0.9444445724698057,
+    "end": 0.967836461858627,
+    "low_phase_flags": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  }
+]

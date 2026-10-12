@@ -1,0 +1,303 @@
+{
+  "status": "checked",
+  "sampling_rate_used_hz": 10000,
+  "basis": "10000 samples / approx 1s README, crosschecked by rising current zero crossings and last-column angular frequency",
+  "publisher_explicit_sampling_rate_missing": true,
+  "records": [
+    {
+      "record_id": "S-1000-0-1-O",
+      "estimated_fs_hz": 9999.997271132208,
+      "relative_error_from_10000": 2.728867791734757e-07
+    },
+    {
+      "record_id": "S-1000-0-2-O",
+      "estimated_fs_hz": 9999.997271132208,
+      "relative_error_from_10000": 2.728867791734757e-07
+    },
+    {
+      "record_id": "S-1000-0-3-O",
+      "estimated_fs_hz": 9999.997271132208,
+      "relative_error_from_10000": 2.728867791734757e-07
+    },
+    {
+      "record_id": "S-1000-0-4-O",
+      "estimated_fs_hz": 9999.997271132208,
+      "relative_error_from_10000": 2.728867791734757e-07
+    },
+    {
+      "record_id": "S-1000-0-5-O",
+      "estimated_fs_hz": 9999.997271132208,
+      "relative_error_from_10000": 2.728867791734757e-07
+    },
+    {
+      "record_id": "S-1000-3-1-O",
+      "estimated_fs_hz": 9999.997885444205,
+      "relative_error_from_10000": 2.1145557949076021e-07
+    },
+    {
+      "record_id": "S-1000-3-2-O",
+      "estimated_fs_hz": 9999.997885444205,
+      "relative_error_from_10000": 2.1145557949076021e-07
+    },
+    {
+      "record_id": "S-1000-3-3-O",
+      "estimated_fs_hz": 9999.997885444205,
+      "relative_error_from_10000": 2.1145557949076021e-07
+    },
+    {
+      "record_id": "S-1000-3-4-O",
+      "estimated_fs_hz": 9999.997885444205,
+      "relative_error_from_10000": 2.1145557949076021e-07
+    },
+    {
+      "record_id": "S-1000-3-5-O",
+      "estimated_fs_hz": 9999.997885444205,
+      "relative_error_from_10000": 2.1145557949076021e-07
+    },
+    {
+      "record_id": "S-1000-6-1-O",
+      "estimated_fs_hz": 9999.992793659514,
+      "relative_error_from_10000": 7.206340485454987e-07
+    },
+    {
+      "record_id": "S-1000-6-2-O",
+      "estimated_fs_hz": 9999.992793659514,
+      "relative_error_from_10000": 7.206340485454987e-07
+    },
+    {
+      "record_id": "S-1000-6-3-O",
+      "estimated_fs_hz": 9999.992793659514,
+      "relative_error_from_10000": 7.206340485454987e-07
+    },
+    {
+      "record_id": "S-1000-6-4-O",
+      "estimated_fs_hz": 9999.992793659514,
+      "relative_error_from_10000": 7.206340485454987e-07
+    },
+    {
+      "record_id": "S-1000-6-5-O",
+      "estimated_fs_hz": 9999.992793659514,
+      "relative_error_from_10000": 7.206340485454987e-07
+    },
+    {
+      "record_id": "S-1000-9-1-O",
+      "estimated_fs_hz": 9999.982172027787,
+      "relative_error_from_10000": 1.7827972212947074e-06
+    },
+    {
+      "record_id": "S-1000-9-2-O",
+      "estimated_fs_hz": 9999.982172027787,
+      "relative_error_from_10000": 1.7827972212947074e-06
+    },
+    {
+      "record_id": "S-1000-9-3-O",
+      "estimated_fs_hz": 9999.982172027787,
+      "relative_error_from_10000": 1.7827972212947074e-06
+    },
+    {
+      "record_id": "S-1000-9-5-O",
+      "estimated_fs_hz": 9999.982172027787,
+      "relative_error_from_10000": 1.7827972212947074e-06
+    },
+    {
+      "record_id": "S-600-0-1-O",
+      "estimated_fs_hz": 10000.00311386252,
+      "relative_error_from_10000": 3.113862518944188e-07
+    },
+    {
+      "record_id": "S-600-0-2-O",
+      "estimated_fs_hz": 10000.00311386252,
+      "relative_error_from_10000": 3.113862518944188e-07
+    },
+    {
+      "record_id": "S-600-0-3-O",
+      "estimated_fs_hz": 10000.00311386252,
+      "relative_error_from_10000": 3.113862518944188e-07
+    },
+    {
+      "record_id": "S-600-0-4-O",
+      "estimated_fs_hz": 10000.001155139633,
+      "relative_error_from_10000": 1.1551396328357555e-07
+    },
+    {
+      "record_id": "S-600-0-5-O",
+      "estimated_fs_hz": 10000.001155139633,
+      "relative_error_from_10000": 1.1551396328357555e-07
+    },
+    {
+      "record_id": "S-600-3-1-O",
+      "estimated_fs_hz": 9999.996779973204,
+      "relative_error_from_10000": 3.220026796313391e-07
+    },
+    {
+      "record_id": "S-600-3-2-O",
+      "estimated_fs_hz": 9999.996779973204,
+      "relative_error_from_10000": 3.220026796313391e-07
+    },
+    {
+      "record_id": "S-600-3-3-O",
+      "estimated_fs_hz": 9999.996779973204,
+      "relative_error_from_10000": 3.220026796313391e-07
+    },
+    {
+      "record_id": "S-600-3-4-O",
+      "estimated_fs_hz": 9999.996779973204,
+      "relative_error_from_10000": 3.220026796313391e-07
+    },
+    {
+      "record_id": "S-600-3-5-O",
+      "estimated_fs_hz": 9999.996779973204,
+      "relative_error_from_10000": 3.220026796313391e-07
+    },
+    {
+      "record_id": "S-600-6-1-O",
+      "estimated_fs_hz": 9999.978376542886,
+      "relative_error_from_10000": 2.1623457114872124e-06
+    },
+    {
+      "record_id": "S-600-6-2-O",
+      "estimated_fs_hz": 9999.978376542886,
+      "relative_error_from_10000": 2.1623457114872124e-06
+    },
+    {
+      "record_id": "S-600-6-3-O",
+      "estimated_fs_hz": 9999.978376542886,
+      "relative_error_from_10000": 2.1623457114872124e-06
+    },
+    {
+      "record_id": "S-600-6-4-O",
+      "estimated_fs_hz": 9999.978376542886,
+      "relative_error_from_10000": 2.1623457114872124e-06
+    },
+    {
+      "record_id": "S-600-6-5-O",
+      "estimated_fs_hz": 9999.978376542886,
+      "relative_error_from_10000": 2.1623457114872124e-06
+    },
+    {
+      "record_id": "S-600-9-1-O",
+      "estimated_fs_hz": 9999.988237777876,
+      "relative_error_from_10000": 1.1762222124067634e-06
+    },
+    {
+      "record_id": "S-600-9-2-O",
+      "estimated_fs_hz": 9999.988237777876,
+      "relative_error_from_10000": 1.1762222124067634e-06
+    },
+    {
+      "record_id": "S-600-9-3-O",
+      "estimated_fs_hz": 9999.988237777876,
+      "relative_error_from_10000": 1.1762222124067634e-06
+    },
+    {
+      "record_id": "S-600-9-4-O",
+      "estimated_fs_hz": 9999.988237777876,
+      "relative_error_from_10000": 1.1762222124067634e-06
+    },
+    {
+      "record_id": "S-600-9-5-O",
+      "estimated_fs_hz": 9999.988237777876,
+      "relative_error_from_10000": 1.1762222124067634e-06
+    },
+    {
+      "record_id": "S-800-0-1-O",
+      "estimated_fs_hz": 10000.008501029693,
+      "relative_error_from_10000": 8.501029693519513e-07
+    },
+    {
+      "record_id": "S-800-0-2-O",
+      "estimated_fs_hz": 10000.008501029693,
+      "relative_error_from_10000": 8.501029693519513e-07
+    },
+    {
+      "record_id": "S-800-0-3-O",
+      "estimated_fs_hz": 10000.008501029693,
+      "relative_error_from_10000": 8.501029693519513e-07
+    },
+    {
+      "record_id": "S-800-0-4-O",
+      "estimated_fs_hz": 10000.008501029693,
+      "relative_error_from_10000": 8.501029693519513e-07
+    },
+    {
+      "record_id": "S-800-0-5-O",
+      "estimated_fs_hz": 10000.008501029693,
+      "relative_error_from_10000": 8.501029693519513e-07
+    },
+    {
+      "record_id": "S-800-3-1-O",
+      "estimated_fs_hz": 9999.9970531207,
+      "relative_error_from_10000": 2.94687929947024e-07
+    },
+    {
+      "record_id": "S-800-3-2-O",
+      "estimated_fs_hz": 9999.9970531207,
+      "relative_error_from_10000": 2.94687929947024e-07
+    },
+    {
+      "record_id": "S-800-3-3-O",
+      "estimated_fs_hz": 9999.9970531207,
+      "relative_error_from_10000": 2.94687929947024e-07
+    },
+    {
+      "record_id": "S-800-3-4-O",
+      "estimated_fs_hz": 9999.9970531207,
+      "relative_error_from_10000": 2.94687929947024e-07
+    },
+    {
+      "record_id": "S-800-3-5-O",
+      "estimated_fs_hz": 9999.9970531207,
+      "relative_error_from_10000": 2.94687929947024e-07
+    },
+    {
+      "record_id": "S-800-6-1-O",
+      "estimated_fs_hz": 9999.991557158588,
+      "relative_error_from_10000": 8.44284141154894e-07
+    },
+    {
+      "record_id": "S-800-6-2-O",
+      "estimated_fs_hz": 9999.991557158588,
+      "relative_error_from_10000": 8.44284141154894e-07
+    },
+    {
+      "record_id": "S-800-6-3-O",
+      "estimated_fs_hz": 9999.991557158588,
+      "relative_error_from_10000": 8.44284141154894e-07
+    },
+    {
+      "record_id": "S-800-6-4-O",
+      "estimated_fs_hz": 9999.991553392918,
+      "relative_error_from_10000": 8.446607081546986e-07
+    },
+    {
+      "record_id": "S-800-6-5-O",
+      "estimated_fs_hz": 9999.991553392918,
+      "relative_error_from_10000": 8.446607081546986e-07
+    },
+    {
+      "record_id": "S-800-9-1-O",
+      "estimated_fs_hz": 9999.982756559111,
+      "relative_error_from_10000": 1.72434408884925e-06
+    },
+    {
+      "record_id": "S-800-9-2-O",
+      "estimated_fs_hz": 9999.982756559111,
+      "relative_error_from_10000": 1.72434408884925e-06
+    },
+    {
+      "record_id": "S-800-9-3-O",
+      "estimated_fs_hz": 9999.982756559111,
+      "relative_error_from_10000": 1.72434408884925e-06
+    },
+    {
+      "record_id": "S-800-9-4-O",
+      "estimated_fs_hz": 9999.982756559111,
+      "relative_error_from_10000": 1.72434408884925e-06
+    },
+    {
+      "record_id": "S-800-9-5-O",
+      "estimated_fs_hz": 9999.982756559111,
+      "relative_error_from_10000": 1.72434408884925e-06
+    }
+  ]
+}

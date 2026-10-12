@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "independent_raw_period_checks": 30,
+  "known_sine_and_near_zero_phase_verified": true,
+  "source_groups_and_healthy_duplicates_separated": true,
+  "all_target_conditions_paired": true,
+  "holdout_data_present": false,
+  "gradient_finite": true,
+  "metric_implementations_equal": true,
+  "scripts": {
+    "prepare.py": "857b6758413f1ba23c78cce9b8ebf46043f53d6e850b5836321a3301f5f2c077",
+    "train.py": "abeedd7f7922340bda248eda1f77732536d735c3a9a0990116e32543539fe4f2",
+    "verify.py": "fd6eb4a30d96705386f271b139f541180b7c5dd8bf1ff4d523755c6b63cde946"
+  }
+}

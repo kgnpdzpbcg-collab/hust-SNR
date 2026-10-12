@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "aggregates": 6,
+  "contrasts": 3,
+  "all_seeds_reported": true,
+  "seed_sd_ddof": 1,
+  "record_bootstrap_arrays_ci_verified": true,
+  "formal_training_seed_significance_claimed": false,
+  "bootstrap_unit": "88 unique record families"
+}

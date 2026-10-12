@@ -1,0 +1,86 @@
+{
+  "figure_count": 12,
+  "source_validation": {
+    "ready": true,
+    "strict": false,
+    "counts": {
+      "PASS": 20,
+      "WARN": 1,
+      "FAIL": 0
+    }
+  },
+  "reports": [
+    {
+      "figure": "00_healthy_before_normalization",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "00_healthy_preprocessed_128",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "01_ous_a_before_normalization",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "01_ous_a_preprocessed_128",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "02_ols_a_before_normalization",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "02_ols_a_preprocessed_128",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "03_op_a_before_normalization",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "03_op_a_preprocessed_128",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "04_ous_a_ous_b_before_normalization",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "04_ous_a_ous_b_preprocessed_128",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "05_ols_a_op_c_before_normalization",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    },
+    {
+      "figure": "05_ols_a_op_c_preprocessed_128",
+      "alignment_audit_exit_code": 0,
+      "collision_audit_exit_code": 0,
+      "font_audit_exit_code": 0
+    }
+  ]
+}

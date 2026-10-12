@@ -1,0 +1,459 @@
+{
+  "scope": "five-phase IM-AA only",
+  "model_training": false,
+  "runtime": {
+    "python": "3.12.13 (main, Jun 23 2026, 15:23:43) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "source_git_commit": "7404b80c1adf023b66a9e23bad97077b963b0a54",
+  "snr_levels_db": [
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "label_map": {
+    "0": "Healthy: derived from prefault interval",
+    "1": "OUS(A)",
+    "2": "OLS(A)",
+    "3": "OP(A)",
+    "4": "OUS(A)&OUS(B)",
+    "5": "OLS(A)&OP(C)"
+  },
+  "simulation": {
+    "records": 59,
+    "fault_record_counts": {
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 11,
+      "5": 12
+    },
+    "speeds": [
+      600.0,
+      800.0,
+      1000.0
+    ],
+    "torques": [
+      0.0,
+      3.0,
+      6.0,
+      9.0
+    ],
+    "condition_groups": 12,
+    "raw_archive_records": 63,
+    "unlabelled_archive_members": [
+      "S-1000-9-4-O.mat",
+      "S-400-0-1-O.mat",
+      "S-400-0-2-O.mat",
+      "S-400-0-3-O.mat"
+    ],
+    "labelled_missing_mat": [],
+    "matrix_shapes": {
+      "(10000, 6)": 59
+    },
+    "duplicate_time_count_histogram": {},
+    "time_differences_rounded_9_decimals": {},
+    "last_column_range": [
+      188.00749524810783,
+      331.8043266051579
+    ],
+    "exact_prefault_duplicate_groups": [
+      [
+        "S-1000-0-1-O",
+        "S-1000-0-2-O",
+        "S-1000-0-3-O",
+        "S-1000-0-4-O",
+        "S-1000-0-5-O"
+      ],
+      [
+        "S-1000-3-1-O",
+        "S-1000-3-2-O",
+        "S-1000-3-3-O",
+        "S-1000-3-4-O",
+        "S-1000-3-5-O"
+      ],
+      [
+        "S-1000-6-1-O",
+        "S-1000-6-2-O",
+        "S-1000-6-3-O",
+        "S-1000-6-4-O",
+        "S-1000-6-5-O"
+      ],
+      [
+        "S-1000-9-1-O",
+        "S-1000-9-2-O",
+        "S-1000-9-3-O",
+        "S-1000-9-5-O"
+      ],
+      [
+        "S-600-0-1-O",
+        "S-600-0-2-O",
+        "S-600-0-3-O"
+      ],
+      [
+        "S-600-0-4-O",
+        "S-600-0-5-O"
+      ],
+      [
+        "S-600-3-1-O",
+        "S-600-3-2-O",
+        "S-600-3-3-O",
+        "S-600-3-4-O",
+        "S-600-3-5-O"
+      ],
+      [
+        "S-600-6-1-O",
+        "S-600-6-2-O",
+        "S-600-6-3-O",
+        "S-600-6-4-O",
+        "S-600-6-5-O"
+      ],
+      [
+        "S-600-9-1-O",
+        "S-600-9-2-O",
+        "S-600-9-3-O",
+        "S-600-9-4-O",
+        "S-600-9-5-O"
+      ],
+      [
+        "S-800-0-1-O",
+        "S-800-0-2-O",
+        "S-800-0-3-O",
+        "S-800-0-4-O",
+        "S-800-0-5-O"
+      ],
+      [
+        "S-800-3-1-O",
+        "S-800-3-2-O",
+        "S-800-3-3-O",
+        "S-800-3-4-O",
+        "S-800-3-5-O"
+      ],
+      [
+        "S-800-6-1-O",
+        "S-800-6-2-O",
+        "S-800-6-3-O"
+      ],
+      [
+        "S-800-6-4-O",
+        "S-800-6-5-O"
+      ],
+      [
+        "S-800-9-1-O",
+        "S-800-9-2-O",
+        "S-800-9-3-O",
+        "S-800-9-4-O",
+        "S-800-9-5-O"
+      ]
+    ]
+  },
+  "experimental": {
+    "records": 440,
+    "fault_record_counts": {
+      "1": 88,
+      "2": 88,
+      "3": 88,
+      "4": 88,
+      "5": 88
+    },
+    "speeds": [
+      300.0,
+      400.0,
+      500.0,
+      600.0,
+      700.0,
+      800.0,
+      900.0,
+      1000.0
+    ],
+    "torques": [
+      0.0,
+      1.0,
+      1.2,
+      1.3,
+      1.5,
+      1.7,
+      2.0,
+      2.4,
+      2.6,
+      3.0,
+      3.4,
+      3.6,
+      3.9,
+      4.0,
+      4.5,
+      4.8,
+      5.0,
+      5.1,
+      5.2,
+      6.0,
+      6.5,
+      6.8,
+      7.0,
+      7.2,
+      7.5,
+      7.8,
+      8.0,
+      8.4,
+      8.5,
+      9.0,
+      9.1,
+      9.6,
+      10.0,
+      10.2,
+      10.4,
+      10.5,
+      10.8,
+      11.0,
+      11.7,
+      11.9,
+      12.0,
+      12.5,
+      13.0,
+      15.0,
+      18.0,
+      20.0,
+      21.0,
+      24.0,
+      27.0,
+      28.0,
+      30.0,
+      32.0,
+      36.0,
+      40.0
+    ],
+    "condition_groups": 151,
+    "raw_archive_records": 556,
+    "unlabelled_archive_members": [
+      "0000.mat",
+      "0001.mat",
+      "0002.mat",
+      "0003.mat",
+      "0004.mat",
+      "0005.mat",
+      "0006.mat",
+      "0007.mat",
+      "0008.mat",
+      "0009.mat",
+      "0010.mat",
+      "0011.mat",
+      "0012.mat",
+      "0013.mat",
+      "0014.mat",
+      "0015.mat",
+      "0016.mat",
+      "0017.mat",
+      "0018.mat",
+      "0019.mat",
+      "0020.mat",
+      "0021.mat",
+      "0022.mat",
+      "0023.mat",
+      "0024.mat",
+      "0025.mat",
+      "0026.mat",
+      "0027.mat",
+      "0028.mat",
+      "0029.mat",
+      "0030.mat",
+      "0031.mat",
+      "0032.mat",
+      "0033.mat",
+      "0034.mat",
+      "0035.mat",
+      "0036.mat",
+      "0037.mat",
+      "0038.mat",
+      "0039.mat",
+      "0040.mat",
+      "0041.mat",
+      "0042.mat",
+      "0043.mat",
+      "0044.mat",
+      "0045.mat",
+      "0046.mat",
+      "0047.mat",
+      "0048.mat",
+      "0049.mat",
+      "0050.mat",
+      "0051.mat",
+      "0052.mat",
+      "0053.mat",
+      "0054.mat",
+      "0055.mat",
+      "0056.mat",
+      "0057.mat",
+      "0058.mat",
+      "0059.mat",
+      "0060.mat",
+      "0061.mat",
+      "0062.mat",
+      "0063.mat",
+      "0064.mat",
+      "0065.mat",
+      "0066.mat",
+      "0067.mat",
+      "0068.mat",
+      "0189.mat",
+      "0190.mat",
+      "0191.mat",
+      "4-160-1.mat",
+      "4-160-10.mat",
+      "4-160-11.mat",
+      "4-160-2.mat",
+      "4-160-3.mat",
+      "4-160-4.mat",
+      "4-160-5.mat",
+      "4-160-6.mat",
+      "4-160-7.mat",
+      "4-160-8.mat",
+      "4-160-9.mat",
+      "4-200-1.mat",
+      "4-200-10.mat",
+      "4-200-11.mat",
+      "4-200-2.mat",
+      "4-200-3.mat",
+      "4-200-4.mat",
+      "4-200-5.mat",
+      "4-200-6.mat",
+      "4-200-7.mat",
+      "4-200-8.mat",
+      "4-200-9.mat",
+      "5-160-1.mat",
+      "5-160-10.mat",
+      "5-160-11.mat",
+      "5-160-2.mat",
+      "5-160-3.mat",
+      "5-160-4.mat",
+      "5-160-5.mat",
+      "5-160-6.mat",
+      "5-160-7.mat",
+      "5-160-8.mat",
+      "5-160-9.mat",
+      "5-200-1.mat",
+      "5-200-10.mat",
+      "5-200-11.mat",
+      "5-200-2.mat",
+      "5-200-3.mat",
+      "5-200-4.mat",
+      "5-200-5.mat",
+      "5-200-6.mat",
+      "5-200-7.mat",
+      "5-200-8.mat",
+      "5-200-9.mat"
+    ],
+    "labelled_missing_mat": [],
+    "matrix_shapes": {
+      "(10031, 7)": 440
+    },
+    "duplicate_time_count_histogram": {
+      "20": 440
+    },
+    "time_differences_rounded_9_decimals": {
+      "0.0": 8800,
+      "0.0001": 4404400
+    },
+    "last_column_range": [
+      95.19025740377073,
+      380.1328
+    ],
+    "exact_prefault_duplicate_groups": [
+      [
+        "4-1000-10",
+        "4-1000-11"
+      ],
+      [
+        "4-1000-3",
+        "4-1000-4"
+      ],
+      [
+        "4-1000-5",
+        "4-1000-6"
+      ],
+      [
+        "5-800-5",
+        "5-800-6"
+      ],
+      [
+        "5-900-5",
+        "5-900-6"
+      ]
+    ]
+  },
+  "noise_pairs": {
+    "base_records": 440,
+    "noisy_files": 3080,
+    "all_time_and_last_column_exactly_equal": true,
+    "snr_power_definition": "10log10(mean(clean_phase^2)/mean((noisy_phase-clean_phase)^2)), each phase over full original record",
+    "noise_distribution_and_generation_code": "not supplied; not inferred solely from SNR",
+    "per_snr": {
+      "10": {
+        "records": 440,
+        "max_abs_snr_error_db": 3.730349362740526e-14,
+        "min_whole_record_snr_db": 9.999999999999984,
+        "max_whole_record_snr_db": 10.000000000000037
+      },
+      "15": {
+        "records": 440,
+        "max_abs_snr_error_db": 3.552713678800501e-14,
+        "min_whole_record_snr_db": 14.999999999999982,
+        "max_whole_record_snr_db": 15.000000000000036
+      },
+      "20": {
+        "records": 440,
+        "max_abs_snr_error_db": 3.907985046680551e-14,
+        "min_whole_record_snr_db": 19.99999999999998,
+        "max_whole_record_snr_db": 20.00000000000004
+      },
+      "25": {
+        "records": 440,
+        "max_abs_snr_error_db": 3.907985046680551e-14,
+        "min_whole_record_snr_db": 24.999999999999982,
+        "max_whole_record_snr_db": 25.00000000000004
+      },
+      "30": {
+        "records": 440,
+        "max_abs_snr_error_db": 3.907985046680551e-14,
+        "min_whole_record_snr_db": 29.99999999999998,
+        "max_whole_record_snr_db": 30.00000000000004
+      },
+      "35": {
+        "records": 440,
+        "max_abs_snr_error_db": 4.263256414560601e-14,
+        "min_whole_record_snr_db": 34.999999999999986,
+        "max_whole_record_snr_db": 35.00000000000004
+      },
+      "40": {
+        "records": 440,
+        "max_abs_snr_error_db": 3.552713678800501e-14,
+        "min_whole_record_snr_db": 39.999999999999986,
+        "max_whole_record_snr_db": 40.000000000000036
+      }
+    }
+  },
+  "input_fingerprints": {
+    "Five-phase-IM-AA-simulation-domain-data-set.rar": {
+      "bytes": 27458282,
+      "sha256": "248b3aef045ed870c7b32f17175fc2809dcf35ad6ee0d6bb1a224412cbe5cd75"
+    },
+    "Five-phase-IM-AA-simulation-domain.xlsx": {
+      "bytes": 11328,
+      "sha256": "563791895c1af2122b8ad83f7581a9e3233f1bddab36a46f5c961c34a40388e5"
+    },
+    "Five-phase-IM-AA-experimental-domain-data-set.rar": {
+      "bytes": 42393345,
+      "sha256": "2e145f9ba1f7ff05ba7e6d5a8c9bb1cb1a1d23ce2dcfdea928e13eb8a9b2f4d4"
+    },
+    "Five-phase-IM-AA-experimental-domain.xlsx": {
+      "bytes": 25075,
+      "sha256": "2b830150d3be98890a16d233b5c4de264251b9a0b12b27b2ebbfe831fa27f65e"
+    }
+  },
+  "status": "metadata_and_all_3080_noise_pairs_verified; training_protocol_not_frozen"
+}

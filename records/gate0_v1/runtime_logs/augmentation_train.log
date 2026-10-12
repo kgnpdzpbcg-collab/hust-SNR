@@ -1,0 +1,16 @@
+augmentation seed42: epoch10/50 loss=0.0710 valF1=0.9643
+augmentation seed44: epoch10/50 loss=0.0113 valF1=0.9279
+augmentation seed43: epoch10/50 loss=0.0266 valF1=1.0000
+augmentation seed43: epoch20/50 loss=0.0088 valF1=1.0000
+augmentation seed44: epoch20/50 loss=0.0039 valF1=1.0000
+augmentation seed42: epoch20/50 loss=0.0159 valF1=0.9085
+augmentation seed42: epoch30/50 loss=0.0010 valF1=0.9577
+augmentation seed43: epoch30/50 loss=0.0085 valF1=0.9577
+augmentation seed44: epoch30/50 loss=0.0315 valF1=0.9577
+augmentation seed42: epoch40/50 loss=0.0047 valF1=0.8814
+augmentation seed43: epoch40/50 loss=0.1058 valF1=0.8789
+augmentation seed44: epoch40/50 loss=0.0088 valF1=1.0000
+augmentation seed43: epoch50/50 loss=0.0018 valF1=1.0000
+augmentation seed44: epoch50/50 loss=0.0161 valF1=1.0000
+augmentation seed42: epoch50/50 loss=0.0044 valF1=0.9904
+augmentation 三个种子完成

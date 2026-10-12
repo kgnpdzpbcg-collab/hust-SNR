@@ -1,0 +1,127 @@
+{
+  "status": "completed_and_verified",
+  "source_models": 6,
+  "target_dev_records": 88,
+  "target_dev_cycles": 2474,
+  "target_holdout_records": 347,
+  "final_holdout_evaluated": false,
+  "primary_metric": "Macro-F1",
+  "aggregates": [
+    {
+      "condition": "baseline",
+      "dataset": "source_source_test",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 100.0,
+      "macro_f1_sample_sd_percent": 0.0,
+      "accuracy_mean_percent": 100.0,
+      "accuracy_sample_sd_percent": 0.0,
+      "balanced_accuracy_mean_percent": 100.0,
+      "balanced_accuracy_sample_sd_percent": 0.0
+    },
+    {
+      "condition": "baseline",
+      "dataset": "target_dev_clean",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.76892116518933,
+      "macro_f1_sample_sd_percent": 2.5481158642237225,
+      "accuracy_mean_percent": 97.42656965777418,
+      "accuracy_sample_sd_percent": 2.415885196788736,
+      "balanced_accuracy_mean_percent": 96.89022571574158,
+      "balanced_accuracy_sample_sd_percent": 2.313071696857809
+    },
+    {
+      "condition": "baseline",
+      "dataset": "target_dev_snr10",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 78.4960063954337,
+      "macro_f1_sample_sd_percent": 7.5662576812291125,
+      "accuracy_mean_percent": 81.25842091080571,
+      "accuracy_sample_sd_percent": 9.619737137999394,
+      "balanced_accuracy_mean_percent": 80.44790662251809,
+      "balanced_accuracy_sample_sd_percent": 6.452678303084711
+    },
+    {
+      "condition": "augmentation",
+      "dataset": "source_source_test",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 100.0,
+      "macro_f1_sample_sd_percent": 0.0,
+      "accuracy_mean_percent": 100.0,
+      "accuracy_sample_sd_percent": 0.0,
+      "balanced_accuracy_mean_percent": 100.0,
+      "balanced_accuracy_sample_sd_percent": 0.0
+    },
+    {
+      "condition": "augmentation",
+      "dataset": "target_dev_clean",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.0764229836014,
+      "macro_f1_sample_sd_percent": 1.7130254588820397,
+      "accuracy_mean_percent": 95.0687146321746,
+      "accuracy_sample_sd_percent": 3.241955732178746,
+      "balanced_accuracy_mean_percent": 96.4638935964362,
+      "balanced_accuracy_sample_sd_percent": 0.3284241839659216
+    },
+    {
+      "condition": "augmentation",
+      "dataset": "target_dev_snr10",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 83.73243987171547,
+      "macro_f1_sample_sd_percent": 7.252481448995992,
+      "accuracy_mean_percent": 83.30638641875505,
+      "accuracy_sample_sd_percent": 9.343665346004274,
+      "balanced_accuracy_mean_percent": 86.48000495613125,
+      "balanced_accuracy_sample_sd_percent": 4.961342055736284
+    }
+  ],
+  "contrasts": {
+    "baseline_clean_minus_10db": {
+      "per_seed_delta_pp": {
+        "42": 11.908902182902226,
+        "43": 22.63433903697877,
+        "44": 20.27550308938593
+      },
+      "mean_delta_pp": 18.27291476975564,
+      "sample_sd_delta_pp": 5.636179460515392,
+      "positive_seeds": 3,
+      "record_bootstrap_conditional_ci95_pp": [
+        15.334111015376617,
+        22.032778791626253
+      ]
+    },
+    "augmentation_minus_baseline_10db": {
+      "per_seed_delta_pp": {
+        "42": -0.2138053513496052,
+        "43": 14.29780940781794,
+        "44": 1.625296372376983
+      },
+      "mean_delta_pp": 5.236433476281773,
+      "sample_sd_delta_pp": 7.901074238166652,
+      "positive_seeds": 2,
+      "record_bootstrap_conditional_ci95_pp": [
+        2.6848069180190848,
+        8.024343382181643
+      ]
+    },
+    "augmentation_minus_baseline_clean": {
+      "per_seed_delta_pp": {
+        "42": -3.9515500702469897,
+        "43": -0.369382787779049,
+        "44": -0.7565616867377445
+      },
+      "mean_delta_pp": -1.6924981815879276,
+      "sample_sd_delta_pp": 1.9659510298301617,
+      "positive_seeds": 0,
+      "record_bootstrap_conditional_ci95_pp": [
+        -3.7122927271432378,
+        0.2870200315316651
+      ]
+    }
+  },
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 20261012,
+    "unit": "base record family; all windows/conditions/seeds paired",
+    "scope": "conditional on current 88 Dev families and six trained models; not training-seed significance"
+  }
+}

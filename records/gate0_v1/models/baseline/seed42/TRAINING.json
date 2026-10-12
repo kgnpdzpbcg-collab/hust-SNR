@@ -1,0 +1,19 @@
+{
+  "condition": "baseline",
+  "seed": 42,
+  "parameters": 25620,
+  "best_epoch": 3,
+  "best_val_macro_f1": 1.0,
+  "updates": 1200,
+  "epochs": 50,
+  "source_train_size": 738,
+  "source_val_size": 302,
+  "wall_seconds": 3.0380244909902103,
+  "initial_state_sha256": "98c2742ae68a2c5b83d09743b4daea5915c9fbffd458ec11d8aa774c3d3d77f8",
+  "last_state_sha256": "522a1844c3579cb13dc6af029fb91029f46ac61f4959ed2cb0f15f15dfeca763",
+  "best_checkpoint_sha256": "9d0cff3edc1a99b1739bd59a0d516c60039690b177d6eecf9092a2669651696c",
+  "sample_order_sha256": "c180b8742232ab22beeb247fe297730c11a6d92a067f00d2edba22dde655de55",
+  "test_evaluated": false,
+  "no_target_data_read_by_training": true,
+  "forward_views_per_sample": 1
+}
