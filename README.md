@@ -95,3 +95,10 @@ python scripts/v4_experiment.py summarize
 - [V4服务器完整结果](records/v4_hpasf/server_b4801df/SERVER_RESULTS.md)
 - [V4逐种子96行结果](records/v4_hpasf/server_b4801df/results/PER_SEED_RESULTS.csv)
 - [V4独立核验](records/v4_hpasf/server_b4801df/results/VERIFICATION.json)
+
+## 本项目派生5/0 dB强噪声数据
+
+- [生成方式、数量、核验和源验证成绩](records/strong_snr_v1/server_20261012/GENERATION_RECORD.md)
+- [独立生成脚本](scripts/generate_strong_snr.py) · [扩展数据配置](configs/strong_snr_data_v1.json)
+
+服务器已生成998个新MAT：仿真59个编号×两档、实测440个编号×两档。实测由作者10 dB噪声放大派生；旧V4未重训，实测最终保留集没有进行模型评估。
