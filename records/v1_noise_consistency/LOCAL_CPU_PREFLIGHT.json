@@ -1,0 +1,58 @@
+{
+  "status": "local_cpu_preflight_passed_not_official_gate1",
+  "date": "2026-10-12",
+  "code": "scripts/v1_noise_consistency.py",
+  "tests": "5 passed (pytest -q tests/test_v1_consistency.py)",
+  "synthetic_smoke": "SMOKE PASSED",
+  "real_mat_source_input": {
+    "dataset": "HUST Five-phase IM-AA simulation MAT",
+    "train_groups": [
+      [
+        600,
+        0
+      ],
+      [
+        800,
+        0
+      ],
+      [
+        1000,
+        0
+      ]
+    ],
+    "val_groups": [
+      [
+        600,
+        3
+      ]
+    ],
+    "train_windows": 272,
+    "val_windows": 70,
+    "source_raw_files": "locally unpacked user-uploaded RAR"
+  },
+  "preflight_run": {
+    "seeds": [
+      42
+    ],
+    "epochs": 2,
+    "batch_size": 32,
+    "methods": [
+      "baseline",
+      "augmentation",
+      "consistency"
+    ],
+    "checkpoint_saved_for_all": true,
+    "source_val_best_macro_f1": {
+      "baseline": 0.19444444444444442,
+      "augmentation": 0.2309542902967121,
+      "consistency": 0.2309542902967121
+    }
+  },
+  "constraints": [
+    "This quick CPU preflight is NOT the frozen official 34-record 50-epoch protocol.",
+    "No published SNR target data is mounted in this runtime, so no Clean/10-40 dB official target performance can be reported.",
+    "Final-Holdout never evaluated.",
+    "Local preflight subset and 2-epoch scores are non-comparable, for pipeline correctness only."
+  ],
+  "next_action": "Run 3 methods x seeds 42/43/44 for 50 epochs on GPU using frozen gate0 source and evaluate official 88-record target Dev on Clean and all seven SNR levels."
+}
