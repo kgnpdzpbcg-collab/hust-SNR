@@ -58,4 +58,22 @@ def test_normal_false_alarm_not_mixed_with_false_negative():
     assert m["normal_false_alarms"] == 1
     assert m["missed_fault_as_normal"] == 1
     assert len(m["confusion_matrix"]) == 6
-    assert len(m["confusion_matrix"]) == 6
+
+
+def test_summary_paired_record_results(tmp_path):
+    import json
+    from v1_noise_consistency import summarize
+    for method in ("augmentation", "consistency"):
+        for seed in (42, 43, 44):
+            for condition in ("clean", "snr10"):
+                folder = tmp_path / "evaluations" / method / f"seed{seed}"
+                folder.mkdir(parents=True, exist_ok=True)
+                f1 = .8 + (.03 if method == "consistency" else 0.)
+                doc = {"condition": condition, "final_holdout_evaluated": False,
+                       "metrics": {"macro_f1": f1, "accuracy": f1,
+                                   "balanced_accuracy": f1, "normal_false_alarm_rate": .1}}
+                (folder / f"target_dev_{condition}.json").write_text(json.dumps(doc))
+    out = summarize(tmp_path, ["augmentation", "consistency"], [42,43,44], ["clean", "snr10"])
+    assert len(out["aggregates"]) == 4
+    assert out["paired_consistency_minus_augmentation"][0]["mean_pp"] == pytest.approx(3.)
+    assert (tmp_path / "PER_SEED_RESULTS.csv").is_file()
