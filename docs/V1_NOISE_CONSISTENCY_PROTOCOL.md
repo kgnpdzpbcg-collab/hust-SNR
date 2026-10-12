@@ -39,11 +39,12 @@ python scripts/v1_noise_consistency.py smoke
 pytest -q tests/test_v1_consistency.py
 python scripts/v1_noise_consistency.py train --methods baseline augmentation consistency --seeds 42 43 44
 python scripts/v1_noise_consistency.py evaluate --methods baseline augmentation consistency --seeds 42 43 44 --snr-root "/PATH/TO/Five-phase-IM-AA-experimental-domain-different-SNR-data-set"
+python scripts/v1_noise_consistency.py summarize --methods baseline augmentation consistency --seeds 42 43 44
 ```
 
 The last `--snr-root` is a directory containing `SNR_10/`, `SNR_15/`, ..., `SNR_40/`, each with the 88 Dev record `.mat` files (or all 440). Alternatively put these files in `data/target_dev/snr10` ... `snr40` and omit the flag. The script **fails visibly** rather than substituting synthetic target noise when an official SNR file is missing.
 
-Model checkpoints, history and prediction JSON outputs go into `outputs/v1_noise_consistency/` (gitignored). Training refuses to overwrite an existing run; use a distinct `--output` for reruns. V0 files under `records/gate0_v1/`, `configs/` and `scripts/train.py` are unchanged.
+Model checkpoints, history, prediction JSON, `SUMMARY.json` and `PER_SEED_RESULTS.csv` go into `outputs/v1_noise_consistency/` (gitignored). Training refuses to overwrite an existing run; use a distinct `--output` for reruns. V0 files under `records/gate0_v1/`, `configs/` and `scripts/train.py` are unchanged.
 
 ## Required acceptance checks
 
@@ -54,6 +55,5 @@ Model checkpoints, history and prediction JSON outputs go into `outputs/v1_noise
 
 ## Local preflight record
 
-- 2026-10-12: synthetic tensor `smoke` completed, plus `pytest` five tests. The same V1 training entrypoint was exercised using **real unpacked HUST simulation MAT** with deliberately reduced 3-train-condition/1-val-condition subset, seed 42, 2 epochs, all three methods; this was strictly a CPU pipeline smoke check. It is **not** the frozen 34-record/50-epoch V1 experiment and not reported as comparative accuracy.
-- This runtime does not have the author's 1.26-GiB 7-SNR archive or access to the user's GPU server. No V1 official noisy-target accuracy has been fabricated.
+- 2026-10-12: synthetic tensor `smoke` completed, plus `pytest` six tests. The same V1 training entrypoint was exercised using **real unpacked HUST simulation MAT** with deliberately reduced 3-train-condition/1-val-condition subset, seed 42, 2 epochs, all three methods; this was strictly a CPU pipeline smoke check. It is **not** the frozen 34-record/50-epoch V1 experiment and not reported as comparative accuracy.
 - This runtime does not have the author's 1.26-GiB 7-SNR archive or access to the user's GPU server. No V1 official noisy-target accuracy has been fabricated.
