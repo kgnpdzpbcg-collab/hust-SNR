@@ -50,3 +50,11 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [V1独立核验记录](records/v1_noise_consistency/server_69e2926/results/VERIFICATION.json)
 
 - [M1固定权重10dB诊断：分类、预处理与配对波形](docs/M1_SNR10_DIAGNOSTIC_RECORD.md)
+
+## Dev 原始 SNR 数据导出
+
+- [只导出88条Dev记录的脚本](scripts/export_snr_data.py)
+- [原服务器运行方法及文件结构](docs/SNR_DATA_EXPORT.md)
+- [导出脚本的MAT配对与格式测试](tests/test_export_snr_data.py)
+
+在含有原始 SNR MAT 数据的服务器上运行 `python scripts/export_snr_data.py --snr-root /path/to/SNR_parent`。输出位于 gitignored 的 `outputs/dev_snr_export/`，仅包含冻结的88条目标开发记录及可选Clean版本，不接触347条Final-Holdout，也不向GitHub公开原始电流。
