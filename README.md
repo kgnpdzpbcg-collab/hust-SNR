@@ -58,3 +58,12 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [导出脚本的MAT配对与格式测试](tests/test_export_snr_data.py)
 
 在含有原始 SNR MAT 数据的服务器上运行 `python scripts/export_snr_data.py --snr-root /path/to/SNR_parent`。输出位于 gitignored 的 `outputs/dev_snr_export/`，仅包含冻结的88条目标开发记录及可选Clean版本，不接触347条Final-Holdout，也不向GitHub公开原始电流。
+
+## V2 PaiFilter-inspired harmonic shaping (研究分支)
+
+- [V2架构、论文来源及冻结实验协议](docs/V2_PAIFILTER_PROTOCOL.md)
+- [V2共享谐波整形与原CNN模型](scripts/v2_paifilter.py)
+- [V2源域训练及88条Dev七档SNR测试](scripts/v2_experiment.py)
+- [V2模型测试](tests/test_v2_paifilter.py)；[数据流程测试](tests/test_v2_experiment.py)
+
+状态：V2架构已实现；单元测试和真实Dev输入兼容性检查通过；正式三种子GPU对照实验**尚未执行**，Final-Holdout未触碰。该实现是对FilterNet PaiFilter频域乘法思想的**任务适配**，不是原论文模型复现。
