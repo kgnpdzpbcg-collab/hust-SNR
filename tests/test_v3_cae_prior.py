@@ -85,3 +85,17 @@ def test_invalid_input_guards():
     m=CAEFrequencyClassifier("cae_identity")
     x=torch.randn(1,5,RAW_POINTS)
     with pytest.raises(ValueError): paired_cae_objective(m,x,x,torch.tensor([0]),-1)
+
+
+def test_decoder_cuda_strict_determinism_when_available():
+    if not torch.cuda.is_available():
+        pytest.skip("CUDA not available on this test host")
+    old = torch.are_deterministic_algorithms_enabled()
+    try:
+        torch.use_deterministic_algorithms(True)
+        decoder = PaperShapeReconciledDecoder().cuda().train()
+        x = torch.randn(2,32,11,device="cuda",requires_grad=True)
+        decoder(x).square().mean().backward()
+        assert x.grad is not None and torch.isfinite(x.grad).all()
+    finally:
+        torch.use_deterministic_algorithms(old)
