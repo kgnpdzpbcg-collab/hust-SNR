@@ -38,7 +38,15 @@ VERSION = "HUST-V4-HPASF-v0"
 
 
 def train(mode: str, seed: int, output: Path, epochs: int = 50,
-          batch_size: int = 32, lr: float = 0.001) -> None:
+          batch_size: int = 32, lr: float = 0.001, *,
+          train_noise_levels=NOISE_LEVELS, val_noise_levels=VAL_NOISE_LEVELS,
+          validation_mat_root: Path | None = None,
+          train_protocol: str = "V2_M1_paired_source_CE") -> None:
+    """共用原训练循环；独立强噪声入口显式传入档位和固定验证MAT路径。
+
+    默认参数保留原实验。模型、损失、优化器、50轮预算和Clean约束不变；
+    新旧协议由权重及run.json的train_protocol/噪声档位区分。
+    """
     if mode not in METHODS or epochs < 1 or batch_size < 1 or lr <= 0:
         raise ValueError("Invalid training configuration")
     dest = output / "models" / mode / f"seed{seed}"
@@ -50,7 +58,10 @@ def train(mode: str, seed: int, output: Path, epochs: int = 50,
     va_raw, va_meta, va_y = v2.source_data("val")
     clean_train = v2.raw_cycles(tr_raw, tr_meta)
     clean_val = v2.raw_cycles(va_raw, va_meta)
-    fixed_noisy_val = v2.fixed_noisy_validation(va_raw, va_meta)
+    fixed_noisy_val = v2.fixed_noisy_validation(
+        va_raw, va_meta, noise_levels=val_noise_levels, materialized_root=validation_mat_root)
+    selection_rule = ("source " + "/".join(map(str, val_noise_levels)) +
+                      " noisy-val mean Macro-F1; Clean within 1pp of peak")
 
     model = HPASFCNN(mode).to(device)
     initial_cnn_sha = hashlib.sha256(b"".join(
@@ -59,7 +70,8 @@ def train(mode: str, seed: int, output: Path, epochs: int = 50,
     history: list[dict] = []
     states: dict[int, dict] = {}
     for epoch in range(1, epochs + 1):
-        noisy_train = v2.fresh_noisy_source(tr_raw, tr_meta, seed, epoch)
+        noisy_train = v2.fresh_noisy_source(tr_raw, tr_meta, seed, epoch,
+                                         noise_levels=train_noise_levels)
         permutation = np.random.default_rng(seed + 901 + epoch).permutation(len(tr_y))
         model.train()
         losses = []
@@ -81,6 +93,11 @@ def train(mode: str, seed: int, output: Path, epochs: int = 50,
         row = {"epoch": epoch, "train_loss_mean": float(np.mean(losses)),
                "clean_f1": float(f1_clean), "noisy_f1": f1_noisy,
                "noise_mean_f1": float(np.mean(list(f1_noisy.values())))}
+        # 记录整条记录的SNR分配数量，所有方法在同种子/轮次使用同一噪声。
+        if train_protocol != "V2_M1_paired_source_CE":
+            schedule = v2.training_noise_schedule(tr_raw, seed, epoch, train_noise_levels)
+            row["train_snr_record_counts"] = {str(snr): sum(v == snr for v in schedule.values())
+                                              for snr in train_noise_levels}
         history.append(row)
         states[epoch] = {key: value.detach().cpu().clone()
                          for key, value in model.state_dict().items()}
@@ -93,14 +110,19 @@ def train(mode: str, seed: int, output: Path, epochs: int = 50,
     ckpt = {"state": states[chosen["epoch"]], "mode": mode, "seed": seed,
             "selected": chosen, "source_only": True, "raw_points": RAW_POINTS,
             "code_family": VERSION, "initial_gain4": INITIAL_GAIN4,
-            "train_protocol": "V2_M1_paired_source_CE"}
+            "train_protocol": train_protocol,
+            "train_noise_levels_db": list(train_noise_levels),
+            "val_noise_levels_db": list(val_noise_levels)}
     torch.save(ckpt, dest / "best.pt")
     (dest / "history.json").write_text(json.dumps(history, indent=2))
     (dest / "run.json").write_text(json.dumps({
         "mode": mode, "seed": seed, "epochs": epochs, "batch_size": batch_size,
         "lr": lr, "initial_gain4": INITIAL_GAIN4,
         "initial_cnn_sha256": initial_cnn_sha,
-        "checkpoint_rule": SOURCE_SELECTION_RULE, "selected": chosen,
+        "checkpoint_rule": selection_rule, "selected": chosen,
+        "train_protocol": train_protocol,
+        "train_noise_levels_db": list(train_noise_levels),
+        "val_noise_levels_db": list(val_noise_levels),
         "source_split": "frozen_Gate0_V1_V2", "noise_policy": "V2_M1_full_record_per_phase_RMS",
         "parameter_counts": counts_by_module(model),
         "target_used_for_training_or_selection": False,

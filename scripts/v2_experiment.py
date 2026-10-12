@@ -74,12 +74,23 @@ def calibrated_noise(raw_records: dict, snr_by_record: dict,
     return modified
 
 
-def fresh_noisy_source(raw_records: dict, metadata: list[dict], seed: int,
-                       epoch: int, points: int = RAW_POINTS) -> np.ndarray:
-    """Matches V1's seed/epoch noise generator including per-record ordering."""
+def training_noise_schedule(record_ids, seed: int, epoch: int,
+                            noise_levels=NOISE_LEVELS) -> dict[str, int]:
+    """按原随机流为整条仿真记录抽取SNR；同种子、轮次、档位得到同一计划。
+
+    默认档位与原V2/V4一致。强噪声实验显式传入扩展档位，不修改全局常量。
+    计划可同时用于加噪和日志，核查0/5 dB确实进入了训练。
+    """
     rng = np.random.default_rng(seed + 15000 + epoch)
+    return {rid: int(rng.choice(noise_levels)) for rid in sorted(record_ids)}
+
+
+def fresh_noisy_source(raw_records: dict, metadata: list[dict], seed: int,
+                       epoch: int, points: int = RAW_POINTS,
+                       *, noise_levels=NOISE_LEVELS) -> np.ndarray:
+    """每轮整记录加噪，保留原随机数、每相RMS和切周期实现。"""
     ids = sorted(raw_records)
-    snr = {rid: int(rng.choice(NOISE_LEVELS)) for rid in ids}
+    snr = training_noise_schedule(ids, seed, epoch, noise_levels)
     generators = {rid: np.random.default_rng(seed + 15000 + epoch + 997 * (i + 1))
                   for i, rid in enumerate(ids)}
     noisy = calibrated_noise(raw_records, snr, lambda rid: generators[rid])
@@ -87,10 +98,25 @@ def fresh_noisy_source(raw_records: dict, metadata: list[dict], seed: int,
 
 
 def fixed_noisy_validation(raw_records: dict, metadata: list[dict],
-                           points: int = RAW_POINTS) -> dict[int, np.ndarray]:
-    """Held-out SOURCE simulation Val, independent fixed 10/20/30 dB draws."""
+                           points: int = RAW_POINTS, *, noise_levels=VAL_NOISE_LEVELS,
+                           materialized_root: Path | None = None) -> dict[int, np.ndarray]:
+    """固定仿真验证噪声；默认仍是原10/20/30 dB。
+
+    新实验的0/5 dB读取已经核验的I_We文件，不重抽验证噪声；只按传入的
+    验证编号读取，不加载同目录中的训练或保留编号。其余档位保留原随机流。
+    """
     val = {}
-    for snr in VAL_NOISE_LEVELS:
+    for snr in noise_levels:
+        if materialized_root is not None and snr in (0, 5):
+            from prepare import matrix
+            saved = {}
+            for rid, (t, current, omega) in raw_records.items():
+                array = matrix(materialized_root / f"SNR_{snr}/{rid}.mat", "I_We")
+                if array.shape != (10000, 6) or not np.array_equal(array[:, -1], omega):
+                    raise ValueError(f"仿真验证文件维度或角速度不一致：{rid}/{snr}")
+                saved[rid] = (t, array[:, :5].copy(), omega)
+            val[snr] = raw_cycles(saved, metadata, points)
+            continue
         by_rec = {rid: snr for rid in raw_records}
         def rng(rid):
             digest = hashlib.sha256(f"HUST-V1:val:{snr}:{rid}".encode()).digest()
