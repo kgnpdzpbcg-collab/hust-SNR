@@ -1,0 +1,7 @@
+identity {'cnn': 25620, 'spectral': 0, 'total': 25620} CE=1.70003
+lowpass3 {'cnn': 25620, 'spectral': 0, 'total': 25620} CE=1.80822
+paifilter {'cnn': 25620, 'spectral': 128, 'total': 25748} CE=1.87216
+V2 ARCHITECTURE SMOKE PASSED
+V2 TRAIN/RAW-CYCLE SMOKE PASSED
+.................                                                        [100%]
+17 passed in 1.57s

@@ -1,0 +1,21 @@
+identity seed=42 epoch=1/50 source_Clean_F1=0.7726 noisy_F1=0.6486
+identity seed=42 epoch=10/50 source_Clean_F1=1.0000 noisy_F1=0.9802
+identity seed=42 epoch=20/50 source_Clean_F1=0.9577 noisy_F1=0.9511
+identity seed=42 epoch=30/50 source_Clean_F1=0.9160 noisy_F1=0.9026
+identity seed=42 epoch=40/50 source_Clean_F1=0.9160 noisy_F1=0.9092
+identity seed=42 epoch=50/50 source_Clean_F1=0.8610 noisy_F1=0.8927
+SAVED /home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results/models/identity/seed42/best.pt
+identity seed=43 epoch=1/50 source_Clean_F1=0.6941 noisy_F1=0.6284
+identity seed=43 epoch=10/50 source_Clean_F1=1.0000 noisy_F1=0.9687
+identity seed=43 epoch=20/50 source_Clean_F1=0.9589 noisy_F1=0.9471
+identity seed=43 epoch=30/50 source_Clean_F1=0.8501 noisy_F1=0.8609
+identity seed=43 epoch=40/50 source_Clean_F1=0.7776 noisy_F1=0.8617
+identity seed=43 epoch=50/50 source_Clean_F1=0.9343 noisy_F1=0.9231
+SAVED /home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results/models/identity/seed43/best.pt
+identity seed=44 epoch=1/50 source_Clean_F1=0.7854 noisy_F1=0.7003
+identity seed=44 epoch=10/50 source_Clean_F1=0.9343 noisy_F1=0.8922
+identity seed=44 epoch=20/50 source_Clean_F1=0.9610 noisy_F1=0.9170
+identity seed=44 epoch=30/50 source_Clean_F1=0.8559 noisy_F1=0.8679
+identity seed=44 epoch=40/50 source_Clean_F1=1.0000 noisy_F1=0.9662
+identity seed=44 epoch=50/50 source_Clean_F1=0.9589 noisy_F1=0.9764
+SAVED /home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results/models/identity/seed44/best.pt

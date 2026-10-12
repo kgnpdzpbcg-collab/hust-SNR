@@ -1,0 +1,45 @@
+{
+  "code_commit": "4df46a37a6c2ee09758b68d902d1ebffd312b8c0",
+  "branch": "research/paifilter-v2",
+  "archive_sha256": "3aca3fed8d9ede25feb71a3a0f32c81782f99362f5e9971d3e47e3abe707d75a",
+  "archive_bytes": 26982400,
+  "code_sha256": {
+    "scripts/v2_experiment.py": "ab3a7733c46df6d5785b740ffd4afbb625b2ce7de26bf3c50b606d7d3c66a112",
+    "scripts/v2_paifilter.py": "2f3f40461b420d7e6ebf16241576fc10ee11087bf837c5549493d0dc84ce04fc",
+    "scripts/v1_noise_consistency.py": "3eab3d4bf8b2b569f423fbff8b59e85be3419de6ad09f0c4f57e4475b067da9e",
+    "scripts/prepare.py": "857b6758413f1ba23c78cce9b8ebf46043f53d6e850b5836321a3301f5f2c077",
+    "configs/splits_gate0_v1.json": "5fccf11264d097aaa704030c16e9007323baaa57e613b1fa13f652a1a7b43707"
+  },
+  "methods": [
+    "identity",
+    "lowpass3",
+    "paifilter"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "parallel_workers": 3,
+  "model_training_location": "server",
+  "environment_reused": true,
+  "new_packages_installed": false,
+  "evaluation_input": "original_MAT",
+  "conditions": [
+    "clean",
+    "snr10",
+    "snr15",
+    "snr20",
+    "snr25",
+    "snr30",
+    "snr35",
+    "snr40"
+  ],
+  "final_holdout_evaluated": false,
+  "requested_upstream_commit": "644763a658b36e11dff7e31c07aba99cd2481ef7",
+  "deterministic_interpolation_fix": true,
+  "architecture_or_train_protocol_changed": false
+}

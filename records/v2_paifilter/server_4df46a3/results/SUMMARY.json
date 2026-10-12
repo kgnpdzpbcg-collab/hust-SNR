@@ -1,0 +1,248 @@
+{
+  "status": "V2_dev_only",
+  "final_holdout_evaluated": false,
+  "aggregates": [
+    {
+      "mode": "identity",
+      "condition": "clean",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.48655286970366,
+      "macro_f1_sd_percent": 4.315502143804154
+    },
+    {
+      "mode": "identity",
+      "condition": "snr10",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 90.26848269546183,
+      "macro_f1_sd_percent": 1.3045660362823355
+    },
+    {
+      "mode": "identity",
+      "condition": "snr15",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 94.47467451242035,
+      "macro_f1_sd_percent": 2.7460669513383222
+    },
+    {
+      "mode": "identity",
+      "condition": "snr20",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.54730883114242,
+      "macro_f1_sd_percent": 3.6850337521563676
+    },
+    {
+      "mode": "identity",
+      "condition": "snr25",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.75792352807177,
+      "macro_f1_sd_percent": 3.8611304963778523
+    },
+    {
+      "mode": "identity",
+      "condition": "snr30",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.76217050582518,
+      "macro_f1_sd_percent": 3.9155728492315562
+    },
+    {
+      "mode": "identity",
+      "condition": "snr35",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.79011902182636,
+      "macro_f1_sd_percent": 3.9563726372844066
+    },
+    {
+      "mode": "identity",
+      "condition": "snr40",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.63036710301519,
+      "macro_f1_sd_percent": 4.081799798410594
+    },
+    {
+      "mode": "lowpass3",
+      "condition": "clean",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.76179553953533,
+      "macro_f1_sd_percent": 3.195887991497626
+    },
+    {
+      "mode": "lowpass3",
+      "condition": "snr10",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.78675663447048,
+      "macro_f1_sd_percent": 3.094073220762022
+    },
+    {
+      "mode": "lowpass3",
+      "condition": "snr15",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.48533906019652,
+      "macro_f1_sd_percent": 3.0793602202157455
+    },
+    {
+      "mode": "lowpass3",
+      "condition": "snr20",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.71018178375003,
+      "macro_f1_sd_percent": 3.025401574641446
+    },
+    {
+      "mode": "lowpass3",
+      "condition": "snr25",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.85314561774875,
+      "macro_f1_sd_percent": 3.203280211152215
+    },
+    {
+      "mode": "lowpass3",
+      "condition": "snr30",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.75280943359053,
+      "macro_f1_sd_percent": 3.1615858695168515
+    },
+    {
+      "mode": "lowpass3",
+      "condition": "snr35",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.76590150655507,
+      "macro_f1_sd_percent": 3.204713164881718
+    },
+    {
+      "mode": "lowpass3",
+      "condition": "snr40",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.80763742886704,
+      "macro_f1_sd_percent": 3.2050961027803866
+    },
+    {
+      "mode": "paifilter",
+      "condition": "clean",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.89715954100824,
+      "macro_f1_sd_percent": 3.829777644850947
+    },
+    {
+      "mode": "paifilter",
+      "condition": "snr10",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 91.27027982659358,
+      "macro_f1_sd_percent": 0.9167603098532763
+    },
+    {
+      "mode": "paifilter",
+      "condition": "snr15",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.2791857029106,
+      "macro_f1_sd_percent": 2.707674011176407
+    },
+    {
+      "mode": "paifilter",
+      "condition": "snr20",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.91715877134943,
+      "macro_f1_sd_percent": 3.284401185393338
+    },
+    {
+      "mode": "paifilter",
+      "condition": "snr25",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.22538197619419,
+      "macro_f1_sd_percent": 3.413930816873993
+    },
+    {
+      "mode": "paifilter",
+      "condition": "snr30",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.12020638204119,
+      "macro_f1_sd_percent": 3.711196149967773
+    },
+    {
+      "mode": "paifilter",
+      "condition": "snr35",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 96.03869066588783,
+      "macro_f1_sd_percent": 3.764975717017149
+    },
+    {
+      "mode": "paifilter",
+      "condition": "snr40",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 95.88875497589866,
+      "macro_f1_sd_percent": 3.7578492925396736
+    }
+  ],
+  "paired_paifilter_minus_identity": [
+    {
+      "condition": "clean",
+      "paifilter_minus_identity_pp": [
+        0.6143049283982123,
+        -0.5309994344994635,
+        1.1485145200149844
+      ],
+      "mean_pp": 0.41060667130457773
+    },
+    {
+      "condition": "snr10",
+      "paifilter_minus_identity_pp": [
+        0.2726576679303747,
+        0.7443599587696923,
+        1.9883737666951902
+      ],
+      "mean_pp": 1.0017971311317524
+    },
+    {
+      "condition": "snr15",
+      "paifilter_minus_identity_pp": [
+        0.24095143364583294,
+        -0.14696777266721028,
+        2.3195499104921424
+      ],
+      "mean_pp": 0.804511190490255
+    },
+    {
+      "condition": "snr20",
+      "paifilter_minus_identity_pp": [
+        0.19735937699647366,
+        -0.806294453448757,
+        1.7184848970733242
+      ],
+      "mean_pp": 0.3698499402070136
+    },
+    {
+      "condition": "snr25",
+      "paifilter_minus_identity_pp": [
+        0.6436646203795675,
+        -0.36193670165619096,
+        1.1206474256439094
+      ],
+      "mean_pp": 0.46745844812242865
+    },
+    {
+      "condition": "snr30",
+      "paifilter_minus_identity_pp": [
+        0.15467778307889546,
+        -0.44727531428360123,
+        1.3667051598527422
+      ],
+      "mean_pp": 0.35803587621601213
+    },
+    {
+      "condition": "snr35",
+      "paifilter_minus_identity_pp": [
+        0.1021134263270369,
+        -0.4065627791059683,
+        1.0501642849633015
+      ],
+      "mean_pp": 0.2485716440614567
+    },
+    {
+      "condition": "snr40",
+      "paifilter_minus_identity_pp": [
+        0.23180333091896443,
+        -0.5871967940599632,
+        1.1305570817914514
+      ],
+      "mean_pp": 0.25838787288348425
+    }
+  ]
+}

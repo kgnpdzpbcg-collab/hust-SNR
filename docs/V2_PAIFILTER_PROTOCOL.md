@@ -1,6 +1,6 @@
 # HUST-SNR V2: 轻量 PaiFilter 谐波整形 + 噪声增强 CNN
 
-**状态（2026-10-12）**：已完成可运行的 V2 模型、源域训练脚本、Dev 测评入口和单元测试。**未**执行 3 seeds × 3 methods × 50 epochs 的正式 GPU 实验。Final-Holdout（347 条原始记录）保持隔离。
+**状态（2026-10-12）**：运行提交`4df46a3`已完成3 seeds × 3 methods × 50 epochs正式GPU实验，以及Clean＋七档SNR共72次Dev评估。17项测试通过，36组源Val分数与72组Dev逐周期预测复现一致。[完整服务器记录](../records/v2_paifilter/server_4df46a3/SERVER_RESULTS.md)。Final-Holdout（347条原始记录）保持隔离。
 
 ## 1. 来源：准确界定与原论文的关系
 
@@ -68,7 +68,7 @@ python scripts/v2_experiment.py summarize
 
 正式训练与测评输出至 gitignored 的 `outputs/v2_paifilter/`，避免覆盖原 V1 模型结果。评估只读取 `outputs/gate0_v1/target_dev_clean_windows.json` 固定的88条 Dev 及相同周期边界；输出 Clean、10–40 dB 的逐周期真值、预测、混淆矩阵、Macro-F1、Accuracy、Healthy 误报。
 
-2026-10-12服务器预检记录：原提交`644763a`的13项CPU测试通过，但真实GPU反传在严格确定性模式下因`upsample_linear1d_backward_out_cuda`报错，正式训练尚未启动。两处`align_corners=True`线性插值改为显式索引和权重，保留原采样位置、端点、梯度连接及全部可训练参数；新增CPU/CUDA前向和梯度对照测试。保留严格确定性设置，不使用`warn_only`运行正式实验。原失败预检目录保留，修正后的正式运行使用独立目录。
+2026-10-12服务器预检记录：原提交`644763a`的13项CPU测试通过，但真实GPU反传在严格确定性模式下因`upsample_linear1d_backward_out_cuda`报错，当时正式训练尚未启动。提交`4df46a3`将两处`align_corners=True`线性插值改为显式索引和权重，保留原采样位置、端点、梯度连接及全部可训练参数；17项CPU/CUDA测试及真实源数据梯度预检通过后，完成正式实验。保留严格确定性设置，不使用`warn_only`运行。原失败预检目录保留，修正后的正式运行使用独立目录。
 
 也可在已经有用户导出数据的机器上评估（该入口只读取 88 条 Dev）：
 
@@ -80,6 +80,6 @@ python scripts/v2_experiment.py evaluate --dev-export-root "/path/with/dev_refer
 
 ## 6. 完成验收及论文判断门槛
 
-已完成功能性验证：前向形状、25,748 参数、频域相位保持、低频通过／高频抑制、实数门控不放大、低电流相不被无故放大、FFT→MD→CNN 的梯度通过、频率参数真的更新、原始电流插值与 source-only 噪声复现、拒绝覆盖旧运行目录、真实 Dev 波形兼容性检查。正式训练结果**未完成，尚不得宣称 V2 提升抗噪准确率**。
+已完成功能性验证：前向形状、25,748参数、频域相位保持、低频通过／高频抑制、实数门控不放大、低电流相不被无故放大、FFT→MD→CNN的梯度通过、频率参数更新、原始电流插值与source-only噪声复现、拒绝覆盖旧运行目录、真实Dev波形兼容性检查。正式实验及独立核验已完成；九个最佳权重仍由源域验证规则选择，原Gate0/V1的230个文件哈希保持不变，Final-Holdout尚未评估。
 
 关注 10/15/20dB 三种子配对增益、Clean 保真、OUS(A) 与 OLS(A) 召回和健康误报；若仅与未重训的历史 V1 M1 比较，则不能证明门控模块收益。如果固定 lowpass3 已优于或不弱于 paifilter，说明更复杂的可学习增益不一定必要。

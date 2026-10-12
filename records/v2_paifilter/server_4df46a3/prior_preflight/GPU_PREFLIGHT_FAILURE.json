@@ -1,0 +1,7 @@
+{
+  "status": "failed_before_training",
+  "original_code_commit": "644763a658b36e11dff7e31c07aba99cd2481ef7",
+  "operation": "upsample_linear1d_backward_out_cuda",
+  "reason": "CUDA linear-interpolation backward does not support strict deterministic algorithms",
+  "formal_training_started": false
+}

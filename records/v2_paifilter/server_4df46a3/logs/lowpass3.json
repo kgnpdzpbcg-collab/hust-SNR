@@ -1,0 +1,73 @@
+{
+  "method": "lowpass3",
+  "status": "completed",
+  "stages": [
+    {
+      "stage": "train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/v2_experiment.py",
+        "train",
+        "--methods",
+        "lowpass3",
+        "--seeds",
+        "42",
+        "43",
+        "44",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results",
+        "--epochs",
+        "50",
+        "--batch",
+        "32",
+        "--lr",
+        "0.001"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 29.8603141149797
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/v2_experiment.py",
+        "evaluate",
+        "--methods",
+        "lowpass3",
+        "--seeds",
+        "42",
+        "43",
+        "44",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results",
+        "--snr-root",
+        "/home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/target_snr"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 14.008736829011468
+    }
+  ],
+  "started_at_utc": "2026-10-12T07:10:57.319453+00:00",
+  "stage": "evaluate",
+  "pid": 111914,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/v2_experiment.py",
+    "evaluate",
+    "--methods",
+    "lowpass3",
+    "--seeds",
+    "42",
+    "43",
+    "44",
+    "--output",
+    "/home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results",
+    "--snr-root",
+    "/home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/target_snr"
+  ],
+  "log": "/home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/logs/lowpass3_evaluate.log",
+  "finished_at_utc": "2026-10-12T07:11:41.189528+00:00"
+}

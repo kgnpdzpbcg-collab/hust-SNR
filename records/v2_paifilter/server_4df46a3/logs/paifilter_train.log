@@ -1,0 +1,21 @@
+paifilter seed=42 epoch=1/50 source_Clean_F1=0.7726 noisy_F1=0.6462
+paifilter seed=42 epoch=10/50 source_Clean_F1=0.9469 noisy_F1=0.9230
+paifilter seed=42 epoch=20/50 source_Clean_F1=0.9676 noisy_F1=0.9510
+paifilter seed=42 epoch=30/50 source_Clean_F1=0.9167 noisy_F1=0.9214
+paifilter seed=42 epoch=40/50 source_Clean_F1=0.9577 noisy_F1=0.9411
+paifilter seed=42 epoch=50/50 source_Clean_F1=0.8610 noisy_F1=0.8628
+SAVED /home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results/models/paifilter/seed42/best.pt
+paifilter seed=43 epoch=1/50 source_Clean_F1=0.6941 noisy_F1=0.6223
+paifilter seed=43 epoch=10/50 source_Clean_F1=0.8971 noisy_F1=0.8521
+paifilter seed=43 epoch=20/50 source_Clean_F1=0.8971 noisy_F1=0.9011
+paifilter seed=43 epoch=30/50 source_Clean_F1=0.9537 noisy_F1=0.9370
+paifilter seed=43 epoch=40/50 source_Clean_F1=0.8545 noisy_F1=0.8571
+paifilter seed=43 epoch=50/50 source_Clean_F1=0.6658 noisy_F1=0.7370
+SAVED /home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results/models/paifilter/seed43/best.pt
+paifilter seed=44 epoch=1/50 source_Clean_F1=0.7854 noisy_F1=0.6998
+paifilter seed=44 epoch=10/50 source_Clean_F1=0.7776 noisy_F1=0.7802
+paifilter seed=44 epoch=20/50 source_Clean_F1=1.0000 noisy_F1=0.9370
+paifilter seed=44 epoch=30/50 source_Clean_F1=0.7173 noisy_F1=0.7701
+paifilter seed=44 epoch=40/50 source_Clean_F1=0.9469 noisy_F1=0.9019
+paifilter seed=44 epoch=50/50 source_Clean_F1=0.9469 noisy_F1=0.9048
+SAVED /home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results/models/paifilter/seed44/best.pt

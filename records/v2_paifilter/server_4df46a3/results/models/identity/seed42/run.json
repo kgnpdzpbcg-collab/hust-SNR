@@ -1,0 +1,29 @@
+{
+  "mode": "identity",
+  "seed": 42,
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "first_epoch_clean_noise_identical_across_modes": true,
+  "selection": {
+    "epoch": 7,
+    "train_loss_mean": 0.01612897995316113,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "10": 0.9734593270647819,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.991153109021594
+  },
+  "checkpoint_rule": "source 10/20/30 dB noisy-val mean Macro-F1, clean within 1pp",
+  "source_split": "frozen Gate0/V1",
+  "initial_cnn_sha256": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699",
+  "train_or_select_on_target": false,
+  "final_holdout_evaluated": false,
+  "parameter_counts": {
+    "cnn": 25620,
+    "spectral": 0,
+    "total": 25620
+  }
+}

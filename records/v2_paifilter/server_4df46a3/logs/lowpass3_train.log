@@ -1,0 +1,21 @@
+lowpass3 seed=42 epoch=1/50 source_Clean_F1=0.8301 noisy_F1=0.8132
+lowpass3 seed=42 epoch=10/50 source_Clean_F1=0.8610 noisy_F1=0.8718
+lowpass3 seed=42 epoch=20/50 source_Clean_F1=0.9577 noisy_F1=0.9577
+lowpass3 seed=42 epoch=30/50 source_Clean_F1=0.8824 noisy_F1=0.9069
+lowpass3 seed=42 epoch=40/50 source_Clean_F1=0.8548 noisy_F1=0.8579
+lowpass3 seed=42 epoch=50/50 source_Clean_F1=0.9643 noisy_F1=0.9662
+SAVED /home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results/models/lowpass3/seed42/best.pt
+lowpass3 seed=43 epoch=1/50 source_Clean_F1=0.7364 noisy_F1=0.7309
+lowpass3 seed=43 epoch=10/50 source_Clean_F1=1.0000 noisy_F1=0.9891
+lowpass3 seed=43 epoch=20/50 source_Clean_F1=0.9667 noisy_F1=0.9731
+lowpass3 seed=43 epoch=30/50 source_Clean_F1=0.8971 noisy_F1=0.8932
+lowpass3 seed=43 epoch=40/50 source_Clean_F1=1.0000 noisy_F1=0.9988
+lowpass3 seed=43 epoch=50/50 source_Clean_F1=1.0000 noisy_F1=0.9917
+SAVED /home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results/models/lowpass3/seed43/best.pt
+lowpass3 seed=44 epoch=1/50 source_Clean_F1=0.7854 noisy_F1=0.7805
+lowpass3 seed=44 epoch=10/50 source_Clean_F1=0.8971 noisy_F1=0.8952
+lowpass3 seed=44 epoch=20/50 source_Clean_F1=0.8971 noisy_F1=0.9004
+lowpass3 seed=44 epoch=30/50 source_Clean_F1=0.9469 noisy_F1=0.9495
+lowpass3 seed=44 epoch=40/50 source_Clean_F1=0.7519 noisy_F1=0.7547
+lowpass3 seed=44 epoch=50/50 source_Clean_F1=0.9085 noisy_F1=0.8832
+SAVED /home/wang/projects/会议论文/hust/experiments/v2_paifilter/4df46a37a6c2/results/models/lowpass3/seed44/best.pt

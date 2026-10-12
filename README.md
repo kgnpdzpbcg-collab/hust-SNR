@@ -66,4 +66,8 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [V2源域训练及88条Dev七档SNR测试](scripts/v2_experiment.py)
 - [V2模型测试](tests/test_v2_paifilter.py)；[数据流程测试](tests/test_v2_experiment.py)
 
-状态：V2架构已实现；单元测试和真实Dev输入兼容性检查通过；正式三种子GPU对照实验**尚未执行**，Final-Holdout未触碰。该实现是对FilterNet PaiFilter频域乘法思想的**任务适配**，不是原论文模型复现。
+状态：运行提交`4df46a3`已在原GPU服务器完成三种方法×三个种子的50轮训练，以及Clean＋七档SNR的72次Dev评估。17项测试、36组源Val分数及72组Dev预测复现核验通过；347条Final-Holdout未评估。该实现是对FilterNet PaiFilter频域乘法思想的**任务适配**，不是原论文模型复现。
+
+- [V2服务器实验完整记录](records/v2_paifilter/server_4df46a3/SERVER_RESULTS.md)
+- [V2逐种子72行结果](records/v2_paifilter/server_4df46a3/results/PER_SEED_RESULTS.csv)
+- [V2独立核验与权重哈希](records/v2_paifilter/server_4df46a3/results/VERIFICATION.json)

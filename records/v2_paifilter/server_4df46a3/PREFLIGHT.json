@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "code_commit": "4df46a37a6c2ee09758b68d902d1ebffd312b8c0",
+  "unit_tests": "17 passed",
+  "commands": [
+    {
+      "command": [
+        "/home/wang/projects/\u4f1a\u8bae\u8bba\u6587/analog-circuit-crossdomain/.venv/bin/python",
+        "scripts/v2_paifilter.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.961708646005718
+    },
+    {
+      "command": [
+        "/home/wang/projects/\u4f1a\u8bae\u8bba\u6587/analog-circuit-crossdomain/.venv/bin/python",
+        "scripts/v2_experiment.py",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.5540233670035377
+    },
+    {
+      "command": [
+        "/home/wang/projects/\u4f1a\u8bae\u8bba\u6587/analog-circuit-crossdomain/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_v2_paifilter.py",
+        "tests/test_v2_experiment.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.146585302980384
+    }
+  ],
+  "source_train_records": 34,
+  "source_train_cycles": 738,
+  "source_val_records": 15,
+  "source_val_cycles": 302,
+  "target_dev_records": 88,
+  "target_dev_cycles": 2474,
+  "target_holdout_waveforms_present": false,
+  "source_initial_noise_sha256": {
+    "42": "a49d07c66970c8abe8257728c01e322b3adfaaf4b07500541274cd447626d65b",
+    "43": "89bbd8732d346ad421b99779865aeeb8b80acceea742cb02c6a8ab9bb1c3ab2e",
+    "44": "06f21a9012b6d0c3de315d7a13dc89825c3fcfed99300aec3f13bceffdbde60b"
+  },
+  "legacy_v1_noise_sha256_matched": {
+    "42": "6fb00eb1d7e4fe52d2f2694d8c79a597e165eb35df77d81937d8d83cf302c361",
+    "43": "239ca8b05f2afac5652645e1d75a265b1c0093a127fb3fce0b28318d46fbb6d6",
+    "44": "57e6efef0dbfcfa5ed1d0549f23473144719736de2b933fac58f700345493b74"
+  },
+  "initial_cnn_sha256": {
+    "42": {
+      "identity": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699",
+      "lowpass3": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699",
+      "paifilter": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699"
+    },
+    "43": {
+      "identity": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+      "lowpass3": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+      "paifilter": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925"
+    },
+    "44": {
+      "identity": "b676b0e1e9906ce64c2d5f371f9116fc06708e54bcd532e0a2c20cc8618e4fc5",
+      "lowpass3": "b676b0e1e9906ce64c2d5f371f9116fc06708e54bcd532e0a2c20cc8618e4fc5",
+      "paifilter": "b676b0e1e9906ce64c2d5f371f9116fc06708e54bcd532e0a2c20cc8618e4fc5"
+    }
+  },
+  "actual_data_cuda_gradient_step": {
+    "identity": {
+      "loss": 1.8959037065505981,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      },
+      "spectral_parameters_updated": null
+    },
+    "lowpass3": {
+      "loss": 1.9047181606292725,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      },
+      "spectral_parameters_updated": null
+    },
+    "paifilter": {
+      "loss": 1.8959038257598877,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 128,
+        "total": 25748
+      },
+      "spectral_parameters_updated": true
+    }
+  },
+  "torch_version": "2.14.1+cu130",
+  "numpy_version": "2.5.3",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "python_executable": "/home/wang/projects/\u4f1a\u8bae\u8bba\u6587/analog-circuit-crossdomain/.venv/bin/python",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_num_threads": 4,
+  "tf32_matmul": false,
+  "tf32_cudnn": false
+}
