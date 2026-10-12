@@ -1,0 +1,8 @@
+DEV baseline seed43 clean: F1=91.72% acc=92.36% normalFAR=9.04%
+DEV baseline seed43 snr10: F1=79.40% acc=85.57% normalFAR=3.89%
+DEV baseline seed43 snr15: F1=85.53% acc=89.17% normalFAR=5.52%
+DEV baseline seed43 snr20: F1=88.22% acc=90.70% normalFAR=6.60%
+DEV baseline seed43 snr25: F1=89.17% acc=91.07% normalFAR=7.78%
+DEV baseline seed43 snr30: F1=90.11% acc=91.43% normalFAR=8.68%
+DEV baseline seed43 snr35: F1=90.94% acc=92.00% normalFAR=8.50%
+DEV baseline seed43 snr40: F1=91.55% acc=92.24% normalFAR=9.04%

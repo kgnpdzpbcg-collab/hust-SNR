@@ -1,0 +1,7 @@
+consistency seed42 1/50: src clean=0.7726 noisy=0.6523
+consistency seed42 10/50: src clean=0.9325 noisy=0.9258
+consistency seed42 20/50: src clean=0.9577 noisy=0.9274
+consistency seed42 30/50: src clean=0.8525 noisy=0.8611
+consistency seed42 40/50: src clean=0.9581 noisy=0.9607
+consistency seed42 50/50: src clean=0.9085 noisy=0.9164
+SAVED /home/wang/projects/会议论文/hust/experiments/v1_noise_consistency/69e2926ebd09/results/models/consistency/seed42/best.pt (epoch 4)

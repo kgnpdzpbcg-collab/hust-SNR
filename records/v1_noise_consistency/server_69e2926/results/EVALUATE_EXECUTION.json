@@ -1,0 +1,70 @@
+{
+  "status": "completed",
+  "max_workers": 3,
+  "wall_seconds": 11.913685878011165,
+  "tasks": [
+    {
+      "stage": "evaluate",
+      "method": "baseline",
+      "seed": 44,
+      "wall_seconds": 4.3052643639966846,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "evaluate",
+      "method": "baseline",
+      "seed": 42,
+      "wall_seconds": 4.306682427995838,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "evaluate",
+      "method": "baseline",
+      "seed": 43,
+      "wall_seconds": 4.305740204988979,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "evaluate",
+      "method": "augmentation",
+      "seed": 44,
+      "wall_seconds": 3.147111476981081,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "evaluate",
+      "method": "augmentation",
+      "seed": 43,
+      "wall_seconds": 3.156447963003302,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "evaluate",
+      "method": "augmentation",
+      "seed": 42,
+      "wall_seconds": 3.1571516150142998,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "evaluate",
+      "method": "consistency",
+      "seed": 42,
+      "wall_seconds": 3.13375088799512,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "evaluate",
+      "method": "consistency",
+      "seed": 44,
+      "wall_seconds": 3.1435059400100727,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "evaluate",
+      "method": "consistency",
+      "seed": 43,
+      "wall_seconds": 3.1437543999927584,
+      "exit_status": "completed"
+    }
+  ]
+}

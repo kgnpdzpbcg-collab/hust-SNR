@@ -43,4 +43,8 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [V1 训练和七档 SNR 评估代码](scripts/v1_noise_consistency.py)
 - [V1 CPU 单元测试](tests/test_v1_consistency.py)
 
-**状态：代码和本地预运行完成；三种子、全部七档 SNR 的正式 GPU 实验尚未执行，Final-Holdout 未评估。**
+**状态：提交 `69e2926` 已在原GPU服务器完成三种方法×三个种子的50轮训练，以及Clean＋七档SNR的72次Dev评估；347条Final-Holdout未评估。**
+
+- [V1服务器完整结果](records/v1_noise_consistency/server_69e2926/results/SERVER_RESULTS.md)
+- [V1逐种子结果CSV](records/v1_noise_consistency/server_69e2926/results/PER_SEED_RESULTS.csv)
+- [V1独立核验记录](records/v1_noise_consistency/server_69e2926/results/VERIFICATION.json)

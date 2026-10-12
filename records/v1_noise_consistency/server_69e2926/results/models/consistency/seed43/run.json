@@ -1,0 +1,25 @@
+{
+  "method": "consistency",
+  "seed": 43,
+  "epochs": 50,
+  "batch_size": 32,
+  "lambda_consistency": 0.1,
+  "initial_param_sha256": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+  "chosen": {
+    "epoch": 46,
+    "train_loss_mean": 0.010657164176033499,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "10": 0.9839402427637722,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.994646747587924
+  },
+  "target_used_in_training_or_selection": false,
+  "selection_source_noise_db": [
+    10,
+    20,
+    30
+  ]
+}

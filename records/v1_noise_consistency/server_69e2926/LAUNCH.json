@@ -1,0 +1,7 @@
+{
+  "pid": 107001,
+  "python": "/home/wang/projects/\u4f1a\u8bae\u8bba\u6587/analog-circuit-crossdomain/.venv/bin/python",
+  "branch": "research/noise-consistency-v1",
+  "commit": "69e2926ebd09f0a9b8fe8dfdebfd15aa5a7a5481",
+  "controller_sha256": "3576d7e1b6077102acdf3a07b82ba215fe32d0aeb757bd2064366f07ad800d91"
+}

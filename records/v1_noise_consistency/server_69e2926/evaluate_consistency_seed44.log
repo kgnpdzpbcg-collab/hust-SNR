@@ -1,0 +1,8 @@
+DEV consistency seed44 clean: F1=89.73% acc=91.55% normalFAR=0.00%
+DEV consistency seed44 snr10: F1=83.83% acc=86.18% normalFAR=5.06%
+DEV consistency seed44 snr15: F1=88.29% acc=90.42% normalFAR=1.45%
+DEV consistency seed44 snr20: F1=88.71% acc=90.86% normalFAR=0.09%
+DEV consistency seed44 snr25: F1=89.67% acc=91.51% normalFAR=0.00%
+DEV consistency seed44 snr30: F1=89.72% acc=91.55% normalFAR=0.00%
+DEV consistency seed44 snr35: F1=89.72% acc=91.51% normalFAR=0.00%
+DEV consistency seed44 snr40: F1=89.93% acc=91.67% normalFAR=0.00%

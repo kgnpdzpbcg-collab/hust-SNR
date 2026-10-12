@@ -1,0 +1,70 @@
+{
+  "status": "completed",
+  "max_workers": 3,
+  "wall_seconds": 19.156348293006886,
+  "tasks": [
+    {
+      "stage": "train",
+      "method": "baseline",
+      "seed": 42,
+      "wall_seconds": 4.293414287996711,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "train",
+      "method": "baseline",
+      "seed": 43,
+      "wall_seconds": 4.295684701995924,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "train",
+      "method": "baseline",
+      "seed": 44,
+      "wall_seconds": 4.3267504859832115,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "train",
+      "method": "augmentation",
+      "seed": 42,
+      "wall_seconds": 6.709392746997764,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "train",
+      "method": "augmentation",
+      "seed": 43,
+      "wall_seconds": 6.7112052039883565,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "train",
+      "method": "augmentation",
+      "seed": 44,
+      "wall_seconds": 6.789209620998008,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "train",
+      "method": "consistency",
+      "seed": 43,
+      "wall_seconds": 6.637463799997931,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "train",
+      "method": "consistency",
+      "seed": 42,
+      "wall_seconds": 6.747636834013974,
+      "exit_status": "completed"
+    },
+    {
+      "stage": "train",
+      "method": "consistency",
+      "seed": 44,
+      "wall_seconds": 6.741569245001301,
+      "exit_status": "completed"
+    }
+  ]
+}

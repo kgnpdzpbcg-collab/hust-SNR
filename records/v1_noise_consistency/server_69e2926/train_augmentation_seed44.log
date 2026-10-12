@@ -1,0 +1,7 @@
+augmentation seed44 1/50: src clean=0.7854 noisy=0.6818
+augmentation seed44 10/50: src clean=1.0000 noisy=0.9756
+augmentation seed44 20/50: src clean=1.0000 noisy=0.9638
+augmentation seed44 30/50: src clean=0.8920 noisy=0.8836
+augmentation seed44 40/50: src clean=0.7599 noisy=0.7919
+augmentation seed44 50/50: src clean=0.8986 noisy=0.8744
+SAVED /home/wang/projects/会议论文/hust/experiments/v1_noise_consistency/69e2926ebd09/results/models/augmentation/seed44/best.pt (epoch 6)

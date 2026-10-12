@@ -1,0 +1,7 @@
+baseline seed43 1/50: src clean=0.6969 noisy=0.6102
+baseline seed43 10/50: src clean=1.0000 noisy=0.9252
+baseline seed43 20/50: src clean=1.0000 noisy=0.8849
+baseline seed43 30/50: src clean=0.9539 noisy=0.8993
+baseline seed43 40/50: src clean=0.8794 noisy=0.7906
+baseline seed43 50/50: src clean=0.8366 noisy=0.8081
+SAVED /home/wang/projects/会议论文/hust/experiments/v1_noise_consistency/69e2926ebd09/results/models/baseline/seed43/best.pt (epoch 22)

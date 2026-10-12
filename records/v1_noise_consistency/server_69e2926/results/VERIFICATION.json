@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "independent_metric_checks": 72,
+  "checkpoint_reload_prediction_checks": 72,
+  "model_bn_unchanged": true,
+  "old_gate0_files_unchanged": true,
+  "old_file_hash_count": 109,
+  "checkpoints_unchanged_after_target_evaluation": true,
+  "final_holdout_evaluated": false
+}

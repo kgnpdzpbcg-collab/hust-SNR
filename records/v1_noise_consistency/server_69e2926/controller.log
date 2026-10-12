@@ -1,0 +1,23 @@
+preflight {}
+train {'completed': 1, 'total': 9, 'last': {'stage': 'train', 'method': 'baseline', 'seed': 42, 'wall_seconds': 4.293414287996711, 'exit_status': 'completed'}}
+train {'completed': 2, 'total': 9, 'last': {'stage': 'train', 'method': 'baseline', 'seed': 43, 'wall_seconds': 4.295684701995924, 'exit_status': 'completed'}}
+train {'completed': 3, 'total': 9, 'last': {'stage': 'train', 'method': 'baseline', 'seed': 44, 'wall_seconds': 4.3267504859832115, 'exit_status': 'completed'}}
+train {'completed': 4, 'total': 9, 'last': {'stage': 'train', 'method': 'augmentation', 'seed': 42, 'wall_seconds': 6.709392746997764, 'exit_status': 'completed'}}
+train {'completed': 5, 'total': 9, 'last': {'stage': 'train', 'method': 'augmentation', 'seed': 43, 'wall_seconds': 6.7112052039883565, 'exit_status': 'completed'}}
+train {'completed': 6, 'total': 9, 'last': {'stage': 'train', 'method': 'augmentation', 'seed': 44, 'wall_seconds': 6.789209620998008, 'exit_status': 'completed'}}
+train {'completed': 7, 'total': 9, 'last': {'stage': 'train', 'method': 'consistency', 'seed': 43, 'wall_seconds': 6.637463799997931, 'exit_status': 'completed'}}
+train {'completed': 8, 'total': 9, 'last': {'stage': 'train', 'method': 'consistency', 'seed': 42, 'wall_seconds': 6.747636834013974, 'exit_status': 'completed'}}
+train {'completed': 9, 'total': 9, 'last': {'stage': 'train', 'method': 'consistency', 'seed': 44, 'wall_seconds': 6.741569245001301, 'exit_status': 'completed'}}
+weights_frozen {'models': 9}
+evaluate {'completed': 1, 'total': 9, 'last': {'stage': 'evaluate', 'method': 'baseline', 'seed': 44, 'wall_seconds': 4.3052643639966846, 'exit_status': 'completed'}}
+evaluate {'completed': 2, 'total': 9, 'last': {'stage': 'evaluate', 'method': 'baseline', 'seed': 42, 'wall_seconds': 4.306682427995838, 'exit_status': 'completed'}}
+evaluate {'completed': 3, 'total': 9, 'last': {'stage': 'evaluate', 'method': 'baseline', 'seed': 43, 'wall_seconds': 4.305740204988979, 'exit_status': 'completed'}}
+evaluate {'completed': 4, 'total': 9, 'last': {'stage': 'evaluate', 'method': 'augmentation', 'seed': 44, 'wall_seconds': 3.147111476981081, 'exit_status': 'completed'}}
+evaluate {'completed': 5, 'total': 9, 'last': {'stage': 'evaluate', 'method': 'augmentation', 'seed': 43, 'wall_seconds': 3.156447963003302, 'exit_status': 'completed'}}
+evaluate {'completed': 6, 'total': 9, 'last': {'stage': 'evaluate', 'method': 'augmentation', 'seed': 42, 'wall_seconds': 3.1571516150142998, 'exit_status': 'completed'}}
+evaluate {'completed': 7, 'total': 9, 'last': {'stage': 'evaluate', 'method': 'consistency', 'seed': 42, 'wall_seconds': 3.13375088799512, 'exit_status': 'completed'}}
+evaluate {'completed': 8, 'total': 9, 'last': {'stage': 'evaluate', 'method': 'consistency', 'seed': 44, 'wall_seconds': 3.1435059400100727, 'exit_status': 'completed'}}
+evaluate {'completed': 9, 'total': 9, 'last': {'stage': 'evaluate', 'method': 'consistency', 'seed': 43, 'wall_seconds': 3.1437543999927584, 'exit_status': 'completed'}}
+independent_verification {}
+SAVED /home/wang/projects/会议论文/hust/experiments/v1_noise_consistency/69e2926ebd09/results/SUMMARY.json and PER_SEED_RESULTS.csv
+completed_and_verified {'models': 9, 'target_evaluations': 72, 'final_holdout_evaluated': False}

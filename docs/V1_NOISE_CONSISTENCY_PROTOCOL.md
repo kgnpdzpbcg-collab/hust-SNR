@@ -2,7 +2,7 @@
 
 ## Aim / status
 
-Evaluate whether adding **a paired cosine feature-consistency term** to a conventional Gaussian-augmentation CNN improves six-class sim-to-real open-circuit fault diagnosis under SNR perturbations. **Method implementation is complete; the official V1 three-seed, seven-SNR GPU run is not yet recorded.** Do not confuse the quick local smoke run with a publication experiment.
+Evaluate whether adding **a paired cosine feature-consistency term** to a conventional Gaussian-augmentation CNN improves six-class sim-to-real open-circuit fault diagnosis under SNR perturbations. **Method implementation is complete. Code commit `69e2926` has completed the official three-method, three-seed, seven-SNR GPU run; server records are linked below.** Do not confuse the quick local smoke run with a publication experiment.
 
 Original HUST Gate0 reference results (target Dev only, three seeds): baseline **96.77% Clean / 78.50% 10 dB Macro-F1**; Gaussian augmentation **95.08% Clean / 83.73% 10 dB Macro-F1**. These are **previous Gate0**, not V1 results.
 
@@ -57,3 +57,12 @@ Model checkpoints, history, prediction JSON, `SUMMARY.json` and `PER_SEED_RESULT
 
 - 2026-10-12: synthetic tensor `smoke` completed, plus `pytest` six tests. The same V1 training entrypoint was exercised using **real unpacked HUST simulation MAT** with deliberately reduced 3-train-condition/1-val-condition subset, seed 42, 2 epochs, all three methods; this was strictly a CPU pipeline smoke check. It is **not** the frozen 34-record/50-epoch V1 experiment and not reported as comparative accuracy.
 - This runtime does not have the author's 1.26-GiB 7-SNR archive or access to the user's GPU server. No V1 official noisy-target accuracy has been fabricated.
+
+## Official server execution record
+
+- Code commit: `69e2926ebd09f0a9b8fe8dfdebfd15aa5a7a5481`. Nine models, 50 epochs each, seeds 42/43/44; 72 target Dev evaluations on Clean and all seven SNR levels.
+- Original uv/PyTorch environment reused. At most three concurrent jobs, four CPU threads each.
+- Evaluation explicitly calls the branch `fix_randomness` function before inference to match the training FP32/TF32/determinism settings. The model, loss and checkpoint-selection implementations are unchanged.
+- Six unit tests passed on the original server. All 72 metrics were independently recomputed; all 72 reloaded predictions matched. Old Gate0 files and all nine checkpoint hashes stayed unchanged.
+- Final-Holdout: not evaluated. Raw waveforms, intermediate arrays, weights and environments are excluded from the published record.
+- [Server results](../records/v1_noise_consistency/server_69e2926/results/SERVER_RESULTS.md), [per-seed CSV](../records/v1_noise_consistency/server_69e2926/results/PER_SEED_RESULTS.csv), [verification](../records/v1_noise_consistency/server_69e2926/results/VERIFICATION.json).

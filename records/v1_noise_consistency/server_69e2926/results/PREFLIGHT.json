@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "unit_tests": 6,
+  "code_commit": "69e2926ebd09f0a9b8fe8dfdebfd15aa5a7a5481",
+  "source_input_files_hash_checked": 241,
+  "prepared_dev_conditions": {
+    "clean": {
+      "families": 88,
+      "windows": 2474,
+      "tensor_sha256": "912d7fe71eaf3cd4c329b6d5349e1352acbaaa79ae9d8965063a1fefb039a0a6"
+    },
+    "snr10": {
+      "families": 88,
+      "windows": 2474,
+      "tensor_sha256": "c3d91b2edc596ffd1d2c2e6b215a2573dc2b00870b1d2fafa09f3c30798a75a5"
+    },
+    "snr15": {
+      "families": 88,
+      "windows": 2474,
+      "tensor_sha256": "8e17726717df314ae755848eb07f2de80e7c4b50afb98abee032e7f7466322d5"
+    },
+    "snr20": {
+      "families": 88,
+      "windows": 2474,
+      "tensor_sha256": "76721789f42acc804a303a8a8774719dbeaa84946feddc4578e7b35f2f567f94"
+    },
+    "snr25": {
+      "families": 88,
+      "windows": 2474,
+      "tensor_sha256": "d759068fa5151a1a64b499f85546b6bd1f58390e63a04db75b83c31b44ccbb43"
+    },
+    "snr30": {
+      "families": 88,
+      "windows": 2474,
+      "tensor_sha256": "45f9b28d211923ab188737da902aa7b60ea30b04358cb42331f00a7e49611342"
+    },
+    "snr35": {
+      "families": 88,
+      "windows": 2474,
+      "tensor_sha256": "adbfdcbe79ef07a8d723b8d8942104a51fefb0ab06b47bbe484e9a557d19b851"
+    },
+    "snr40": {
+      "families": 88,
+      "windows": 2474,
+      "tensor_sha256": "7418776d781351fdb61a4bbb99ef9325110a689af316c25e8921f8ff6971ea6c"
+    }
+  },
+  "first_epoch_paired_noise_sha256": {
+    "42": "6fb00eb1d7e4fe52d2f2694d8c79a597e165eb35df77d81937d8d83cf302c361",
+    "43": "239ca8b05f2afac5652645e1d75a265b1c0093a127fb3fce0b28318d46fbb6d6",
+    "44": "57e6efef0dbfcfa5ed1d0549f23473144719736de2b933fac58f700345493b74"
+  },
+  "holdout_present": false,
+  "clean_10db_equal_gate0_inputs": true
+}

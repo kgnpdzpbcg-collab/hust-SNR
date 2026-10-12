@@ -1,0 +1,25 @@
+{
+  "method": "augmentation",
+  "seed": 42,
+  "epochs": 50,
+  "batch_size": 32,
+  "lambda_consistency": 0.1,
+  "initial_param_sha256": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699",
+  "chosen": {
+    "epoch": 18,
+    "train_loss_mean": 0.005312195188404682,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "10": 0.9707192405987586,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.9902397468662528
+  },
+  "target_used_in_training_or_selection": false,
+  "selection_source_noise_db": [
+    10,
+    20,
+    30
+  ]
+}

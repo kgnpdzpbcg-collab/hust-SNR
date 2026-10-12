@@ -1,0 +1,8 @@
+DEV augmentation seed43 clean: F1=96.03% acc=97.41% normalFAR=0.00%
+DEV augmentation seed43 snr10: F1=89.59% acc=91.88% normalFAR=5.42%
+DEV augmentation seed43 snr15: F1=95.13% acc=96.48% normalFAR=1.27%
+DEV augmentation seed43 snr20: F1=96.92% acc=97.98% normalFAR=0.00%
+DEV augmentation seed43 snr25: F1=96.77% acc=97.90% normalFAR=0.00%
+DEV augmentation seed43 snr30: F1=96.46% acc=97.70% normalFAR=0.00%
+DEV augmentation seed43 snr35: F1=96.34% acc=97.62% normalFAR=0.00%
+DEV augmentation seed43 snr40: F1=96.28% acc=97.57% normalFAR=0.00%

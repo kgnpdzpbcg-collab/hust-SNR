@@ -1,0 +1,7 @@
+{
+  "stage": "completed_and_verified",
+  "time_utc": "2026-10-12T04:01:50.260380+00:00",
+  "models": 9,
+  "target_evaluations": 72,
+  "final_holdout_evaluated": false
+}

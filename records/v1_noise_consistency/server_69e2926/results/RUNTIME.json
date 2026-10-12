@@ -1,0 +1,14 @@
+{
+  "python": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "torch": "2.14.1+cu130",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "cpu_count": 20,
+  "max_concurrent_jobs": 3,
+  "cpu_threads_per_job": 4,
+  "target_holdout_loaded": false,
+  "training_environment_reused": true
+}
