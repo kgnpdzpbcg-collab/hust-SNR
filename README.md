@@ -36,3 +36,11 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 配套论文：*Fully Simulated Data-Driven Domain Generalized Method for Multiphase Converters Fault Diagnosis*，IEEE TPEL 40(1):2099–2113，DOI：10.1109/TPEL.2024.3461159。
 
 本仓库文档记录已执行配置、数值和文件状态。
+
+## V1 噪声一致性实验（新研究分支）
+
+- [V1 实验设计与运行说明](docs/V1_NOISE_CONSISTENCY_PROTOCOL.md)
+- [V1 训练和七档 SNR 评估代码](scripts/v1_noise_consistency.py)
+- [V1 CPU 单元测试](tests/test_v1_consistency.py)
+
+**状态：代码和本地预运行完成；三种子、全部七档 SNR 的正式 GPU 实验尚未执行，Final-Holdout 未评估。**
