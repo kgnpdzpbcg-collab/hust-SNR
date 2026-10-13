@@ -226,7 +226,7 @@ python scripts/v4_experiment.py summarize
 
 - [逐公式复现依据及不可消除的论文实现歧义](docs/XU2025_FULL_REPRODUCTION.md)
 - [完整 CAE＋DML 模型与损失](scripts/xu2025_full_model.py) · [训练/评估脚本](scripts/xu2025_full_experiment.py)
-- [冻结配置](configs/xu2025_full_v1.json) · [网络单元测试](tests/test_xu2025_full_model.py) · [协议测试](tests/test_xu2025_full_experiment.py)
+- [服务器完整执行脚本](scripts/run_xu2025_full_server.sh)：通过环境变量指定源域0/5验证、实测原始SNR及合成0/5路径，先测试再训练评估。\n- [冻结配置](configs/xu2025_full_v1.json) · [网络单元测试](tests/test_xu2025_full_model.py) · [协议测试](tests/test_xu2025_full_experiment.py)
 - 两个隔离轨道：`paper_like`（优先复现作者的完整网络及三损失）与 `matched`（统一原 10–40 dB paired source training / 源域0/5/10/20/30 dB选模，公平比较完整 CAE＋DML 与 Full＋LP3/LP4/NA-HSF）。
 
 **状态**：本地 CPU 单元测试和形状/梯度 smoke 已通过；**尚未运行正式服务器完整模型实验**。原论文没有公开完整模型训练源码，表 III 存在通道与 FC 输入维度笔误，也未给出解码器卷积 padding、损失比例与学习率衰减数值；本代码据论文公开内容复现，并在协议中明确披露所有必要假设，不能声称逐字节复现作者原权重与 99.58% 数值。Final-Holdout 仍严格隔离。
