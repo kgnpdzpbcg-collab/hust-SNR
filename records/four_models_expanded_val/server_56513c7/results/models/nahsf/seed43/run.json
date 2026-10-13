@@ -1,0 +1,101 @@
+{
+  "method": "nahsf",
+  "seed": 43,
+  "protocol": {
+    "protocol": "four_models_train10_40_val0_5_10_20_30_v1",
+    "methods": [
+      "identity",
+      "lowpass3",
+      "lowpass4",
+      "nahsf"
+    ],
+    "method_names": {
+      "identity": "A'无滤波",
+      "lowpass3": "A'+三阶低通",
+      "lowpass4": "A'+四阶低通",
+      "nahsf": "V5 NA-HSF"
+    },
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "training_noise_levels_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "validation_noise_levels_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "target_conditions": [
+      "clean",
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      5,
+      0
+    ],
+    "validation_0_5_input": "previously verified fixed source/SNR_0 and source/SNR_5 MAT",
+    "loss": "0.5 CE(clean) + 0.5 CE(noisy)",
+    "selection": "maximum five-SNR source validation mean Macro-F1; Clean within 1pp of peak; then Clean and earliest epoch",
+    "old_selection_reference_weight": "audit only; never used for target evaluation",
+    "target_used_for_training_or_selection": false,
+    "final_holdout_evaluated": false
+  },
+  "initial_cnn_sha256": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+  "parameter_counts": {
+    "cnn": 25620,
+    "spectral": 41,
+    "total": 25661
+  },
+  "selected": {
+    "epoch": 7,
+    "train_loss_mean": 0.03720586984612358,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 0.960034765570147,
+      "5": 0.9967945754353522,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.9913658682010998,
+    "original_three_snr_mean_f1": 1.0,
+    "gate_bias_grad_abs_mean": 0.0002330600173839533,
+    "gate_bias_value": -0.001980246277526021
+  },
+  "old_three_snr_selected": {
+    "epoch": 4,
+    "train_loss_mean": 0.026749102980829775,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 0.9446892903576072,
+      "5": 0.9935873720557405,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 1.0,
+    "original_three_snr_mean_f1": 1.0,
+    "gate_bias_grad_abs_mean": 0.0007190704388904123,
+    "gate_bias_value": 0.0007204385474324226
+  },
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

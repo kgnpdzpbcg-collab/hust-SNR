@@ -153,3 +153,16 @@ python scripts/v4_experiment.py summarize
 - [独立核查](records/v5_nahsf/server_ae2716b/results/VERIFICATION.json)
 
 实测Macro-F1（三种子均值±样本标准差）：Clean 95.75±6.38%，10 dB 95.26±6.53%，5 dB 93.56±6.54%，0 dB 87.53±7.40%。源验证选择的最佳轮次为3、4、8；旧V4原始/压力/重训结果保持不变。
+
+## 四模型统一重跑：训练10–40 dB，验证增加0/5 dB
+
+运行提交`56513c7`。四模型为A′无滤波、三阶低通、四阶低通及V5 NA-HSF；各完成三个种子50轮训练和原88个实测编号的十条件评估。训练仍为10–40 dB，验证扩展为Clean及0/5/10/20/30 dB。模型、数据划分、初始化、训练随机流、损失、优化器和Clean容差不变。
+
+600轮训练loss及旧规则对应的12份权重与原实验逐数值/逐张量一致。旧三档平均验证达到100%的轮数为67/600，新五档平均为0/600。41项测试、72组源验证指标和120组实测预测独立核查通过；最终保留编号未评估。
+
+- [完整客观记录：验证饱和、四模型及新旧选模对照](records/four_models_expanded_val/server_56513c7/SERVER_RESULTS.md)
+- [独立统一入口](scripts/four_models_expanded_val.py) · [冻结协议](configs/four_models_expanded_val_v1.json) · [测试](tests/test_four_models_expanded_val.py)
+- [验证饱和统计](records/four_models_expanded_val/server_56513c7/results/VALIDATION_SATURATION.csv)
+- [训练轨迹及旧权重审计](records/four_models_expanded_val/server_56513c7/results/TRAINING_TRAJECTORY_PARITY.json)
+- [120组逐种子结果](records/four_models_expanded_val/server_56513c7/results/PER_SEED_RESULTS.csv) · [720行类别指标](records/four_models_expanded_val/server_56513c7/results/PER_CLASS_PER_SEED.csv)
+- [独立核验](records/four_models_expanded_val/server_56513c7/results/VERIFICATION.json)

@@ -1,0 +1,110 @@
+[
+  {
+    "method": "identity",
+    "seed": 42,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 7,
+    "new_selected_epoch": 7
+  },
+  {
+    "method": "identity",
+    "seed": 43,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 7,
+    "new_selected_epoch": 17
+  },
+  {
+    "method": "identity",
+    "seed": 44,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 6,
+    "new_selected_epoch": 49
+  },
+  {
+    "method": "lowpass3",
+    "seed": 42,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 3,
+    "new_selected_epoch": 3
+  },
+  {
+    "method": "lowpass3",
+    "seed": 43,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 4,
+    "new_selected_epoch": 7
+  },
+  {
+    "method": "lowpass3",
+    "seed": 44,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 27,
+    "new_selected_epoch": 27
+  },
+  {
+    "method": "lowpass4",
+    "seed": 42,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 4,
+    "new_selected_epoch": 19
+  },
+  {
+    "method": "lowpass4",
+    "seed": 43,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 4,
+    "new_selected_epoch": 7
+  },
+  {
+    "method": "lowpass4",
+    "seed": 44,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 6,
+    "new_selected_epoch": 6
+  },
+  {
+    "method": "nahsf",
+    "seed": 42,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 3,
+    "new_selected_epoch": 8
+  },
+  {
+    "method": "nahsf",
+    "seed": 43,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 4,
+    "new_selected_epoch": 7
+  },
+  {
+    "method": "nahsf",
+    "seed": 44,
+    "epochs_training_loss_exactly_equal": 50,
+    "original_clean_three_noise_scores_exactly_equal": true,
+    "old_best_weight_state_exactly_equal": true,
+    "old_selected_epoch": 8,
+    "new_selected_epoch": 6
+  }
+]
