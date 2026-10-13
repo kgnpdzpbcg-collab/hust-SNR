@@ -1,0 +1,1053 @@
+{
+  "protocol": {
+    "protocol": "fixed_half_train10_40_val0_5_10_20_30_v1",
+    "methods": [
+      "fixed_half"
+    ],
+    "method_names": {
+      "fixed_half": "固定α=0.5融合"
+    },
+    "fixed_alpha": 0.5,
+    "use_descriptors": false,
+    "use_gate_mlp": false,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "training_noise_levels_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "validation_noise_levels_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "target_conditions": [
+      "clean",
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      5,
+      0
+    ],
+    "validation_0_5_input": "previously verified fixed source/SNR_0 and source/SNR_5 MAT",
+    "loss": "0.5 CE(clean) + 0.5 CE(noisy)",
+    "selection": "maximum five-SNR source validation mean Macro-F1; Clean within 1pp of peak; then Clean and earliest epoch",
+    "v5_reference_code_commit": "56513c7b37ec990ac1a3aa060ed9b453e8dd7e5d",
+    "v5_reference_protocol": "four_models_train10_40_val0_5_10_20_30_v1",
+    "v5_retrained": false,
+    "old_selection_reference_weight": "audit only; never used for target evaluation",
+    "target_used_for_training_or_selection": false,
+    "final_holdout_evaluated": false
+  },
+  "aggregates": [
+    {
+      "method": "fixed_half",
+      "condition": "clean",
+      "macro_f1_percent": {
+        "mean": 95.62344634757551,
+        "std": 4.936972062794498,
+        "values": [
+          97.13739552954563,
+          99.62616308635359,
+          90.10678042682731
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 96.53732147669092,
+        "std": 4.194055909376504,
+        "values": [
+          98.05982215036379,
+          99.75747776879548,
+          91.7946645109135
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 95.13943050727464,
+        "std": 5.4960239914854325,
+        "values": [
+          96.78299138297214,
+          99.62616308635359,
+          89.00913705249819
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.24110910186859555,
+        "std": 0.4176132146037076,
+        "values": [
+          0.0,
+          0.0,
+          0.7233273056057866
+        ]
+      }
+    },
+    {
+      "method": "fixed_half",
+      "condition": "snr10",
+      "macro_f1_percent": {
+        "mean": 93.84825076602263,
+        "std": 5.552474535064933,
+        "values": [
+          95.75558717247269,
+          98.19566965291574,
+          87.59349547267946
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 95.21692266235516,
+        "std": 4.827880237498447,
+        "values": [
+          97.08973322554567,
+          98.82780921584478,
+          89.73322554567503
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 93.41585467267144,
+        "std": 5.984545609287658,
+        "values": [
+          95.31929658649378,
+          98.2171735913541,
+          86.71109384016647
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.7836045810729355,
+        "std": 1.3572429474620498,
+        "values": [
+          0.0,
+          0.0,
+          2.3508137432188065
+        ]
+      }
+    },
+    {
+      "method": "fixed_half",
+      "condition": "snr15",
+      "macro_f1_percent": {
+        "mean": 95.22958678046507,
+        "std": 5.380195283653028,
+        "values": [
+          96.99991300735299,
+          99.50155078180477,
+          89.18729655223744
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 96.20048504446241,
+        "std": 4.629147389561974,
+        "values": [
+          97.97898140662895,
+          99.67663702506063,
+          90.94583670169766
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 94.79261668090572,
+        "std": 5.866007031855215,
+        "values": [
+          96.65472326586416,
+          99.50155078180477,
+          88.22157599504825
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.5726341169379144,
+        "std": 0.9918313846838056,
+        "values": [
+          0.0,
+          0.0,
+          1.7179023508137432
+        ]
+      }
+    },
+    {
+      "method": "fixed_half",
+      "condition": "snr20",
+      "macro_f1_percent": {
+        "mean": 95.41835527411256,
+        "std": 5.122307935708522,
+        "values": [
+          97.08265476961029,
+          99.50155078180477,
+          89.67086027092263
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 96.34869307464295,
+        "std": 4.407550729617555,
+        "values": [
+          98.01940177849636,
+          99.67663702506063,
+          91.35004042037187
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 94.92169979770428,
+        "std": 5.690779275669974,
+        "values": [
+          96.71266789492714,
+          99.50155078180477,
+          88.55088071638095
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.4219409282700422,
+        "std": 0.7308231255564883,
+        "values": [
+          0.0,
+          0.0,
+          1.2658227848101267
+        ]
+      }
+    },
+    {
+      "method": "fixed_half",
+      "condition": "snr25",
+      "macro_f1_percent": {
+        "mean": 95.51124869307034,
+        "std": 4.836458416587817,
+        "values": [
+          97.06891406234553,
+          99.37693847725596,
+          90.08789353960952
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 96.45648073295608,
+        "std": 4.147833970395563,
+        "values": [
+          98.01940177849636,
+          99.59579628132579,
+          91.75424413904608
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 95.00595632797794,
+        "std": 5.419221874843865,
+        "values": [
+          96.69846112966552,
+          99.37693847725596,
+          88.94246937701236
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.24110910186859555,
+        "std": 0.4176132146037076,
+        "values": [
+          0.0,
+          0.0,
+          0.7233273056057866
+        ]
+      }
+    },
+    {
+      "method": "fixed_half",
+      "condition": "snr30",
+      "macro_f1_percent": {
+        "mean": 95.69199654303857,
+        "std": 4.875142953623027,
+        "values": [
+          97.12735845179007,
+          99.6883182362479,
+          90.26031294107773
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 96.59121530584748,
+        "std": 4.141132360389226,
+        "values": [
+          98.05982215036379,
+          99.7978981406629,
+          91.91592562651576
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 95.18866195113308,
+        "std": 5.454957366099203,
+        "values": [
+          96.76695671143094,
+          99.68045190285738,
+          89.11857723911095
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.2109704641350211,
+        "std": 0.36541156277824416,
+        "values": [
+          0.0,
+          0.0,
+          0.6329113924050633
+        ]
+      }
+    },
+    {
+      "method": "fixed_half",
+      "condition": "snr35",
+      "macro_f1_percent": {
+        "mean": 95.67768927904876,
+        "std": 4.9205229967018145,
+        "values": [
+          97.15772816658416,
+          99.6883182362479,
+          90.18702143431425
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 96.57774184855833,
+        "std": 4.163952302301666,
+        "values": [
+          98.05982215036379,
+          99.7978981406629,
+          91.87550525464833
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 95.17530126738569,
+        "std": 5.488527662490292,
+        "values": [
+          96.78299138297214,
+          99.68045190285738,
+          89.06246051632756
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.2109704641350211,
+        "std": 0.36541156277824416,
+        "values": [
+          0.0,
+          0.0,
+          0.6329113924050633
+        ]
+      }
+    },
+    {
+      "method": "fixed_half",
+      "condition": "snr40",
+      "macro_f1_percent": {
+        "mean": 95.64361333792753,
+        "std": 4.942847622904738,
+        "values": [
+          97.19299034567617,
+          99.62616308635359,
+          90.11168658175283
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 96.55079493398007,
+        "std": 4.201450894218355,
+        "values": [
+          98.10024252223121,
+          99.75747776879548,
+          91.7946645109135
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 95.17059994532157,
+        "std": 5.4823229640004945,
+        "values": [
+          96.83728019947594,
+          99.62616308635359,
+          89.0483565501352
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.27124773960217,
+        "std": 0.4698148664291711,
+        "values": [
+          0.0,
+          0.0,
+          0.81374321880651
+        ]
+      }
+    },
+    {
+      "method": "fixed_half",
+      "condition": "snr5",
+      "macro_f1_percent": {
+        "mean": 92.05354243287819,
+        "std": 6.4253533617928635,
+        "values": [
+          94.79544153688425,
+          96.65307508933125,
+          84.71211067241904
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 93.77526273241715,
+        "std": 5.722588288732288,
+        "values": [
+          96.28132578819725,
+          97.81729991915927,
+          87.22716248989491
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 91.59492246807982,
+        "std": 6.881890285012056,
+        "values": [
+          94.29708098704374,
+          96.71564113488823,
+          83.77204528230749
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 1.295961422543701,
+        "std": 2.1668402010872443,
+        "values": [
+          0.09041591320072333,
+          0.0,
+          3.79746835443038
+        ]
+      }
+    },
+    {
+      "method": "fixed_half",
+      "condition": "snr0",
+      "macro_f1_percent": {
+        "mean": 87.4503829115507,
+        "std": 8.22235676233999,
+        "values": [
+          90.6317085475152,
+          93.60675346936235,
+          78.11268671777457
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 89.98922123416868,
+        "std": 7.310427755673612,
+        "values": [
+          92.80517380759903,
+          95.47291835084883,
+          81.6895715440582
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 87.16483324942257,
+        "std": 8.548260248632038,
+        "values": [
+          90.15589138391816,
+          93.8156488658592,
+          77.52295949849035
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 3.465943339361061,
+        "std": 3.6641692588420574,
+        "values": [
+          1.62748643761302,
+          1.0849909584086799,
+          7.685352622061482
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "clean",
+      "macro_f1_percent": {
+        "mean": 98.22172068298767,
+        "std": 1.5078985939254417,
+        "values": [
+          96.5781370116804,
+          98.54578497658501,
+          99.5412400606976
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 98.74696847210994,
+        "std": 1.0485951310487391,
+        "values": [
+          97.57477768795472,
+          99.07033144704931,
+          99.59579628132579
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 98.29575229640284,
+        "std": 1.4492498039190953,
+        "values": [
+          96.70245707162103,
+          98.64924898735148,
+          99.53555083023602
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.06027727546714889,
+        "std": 0.1044033036509269,
+        "values": [
+          0.0,
+          0.0,
+          0.18083182640144665
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "snr10",
+      "macro_f1_percent": {
+        "mean": 97.50912322519382,
+        "std": 1.3319605417368843,
+        "values": [
+          96.57283429404454,
+          96.92055525930968,
+          99.03398012222723
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 98.19455672325519,
+        "std": 0.7630070134609381,
+        "values": [
+          97.53435731608731,
+          98.01940177849636,
+          99.02991107518189
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 97.62505764062172,
+        "std": 1.3481362463954207,
+        "values": [
+          96.64451244255804,
+          97.06825351144268,
+          99.16240696786446
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.3616636528028933,
+        "std": 0.6264198219055613,
+        "values": [
+          0.0,
+          0.0,
+          1.0849909584086799
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "snr15",
+      "macro_f1_percent": {
+        "mean": 97.92912762150944,
+        "std": 1.3742286850230314,
+        "values": [
+          96.52946089492458,
+          97.98150112534451,
+          99.27642084425923
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 98.5313931554837,
+        "std": 0.9220216712975308,
+        "values": [
+          97.53435731608731,
+          98.70654810024251,
+          99.35327405012127
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 97.99907032620511,
+        "std": 1.3202777309083307,
+        "values": [
+          96.64816825511723,
+          98.06261370329045,
+          99.28642902020766
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.12055455093429777,
+        "std": 0.2088066073018538,
+        "values": [
+          0.0,
+          0.0,
+          0.3616636528028933
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "snr20",
+      "macro_f1_percent": {
+        "mean": 98.04691341258066,
+        "std": 1.4959640962737935,
+        "values": [
+          96.52292415885229,
+          98.10463455333979,
+          99.51318152554992
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 98.63918081379683,
+        "std": 1.0386803488120742,
+        "values": [
+          97.53435731608731,
+          98.78738884397737,
+          99.59579628132579
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 98.11882777117317,
+        "std": 1.4265474466986179,
+        "values": [
+          96.64634034883764,
+          98.21563953836248,
+          99.49450342631941
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.030138637733574444,
+        "std": 0.05220165182546345,
+        "values": [
+          0.0,
+          0.0,
+          0.09041591320072333
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "snr25",
+      "macro_f1_percent": {
+        "mean": 98.03670609249515,
+        "std": 1.4792540449701603,
+        "values": [
+          96.52292415885229,
+          98.10836664362202,
+          99.47882747501114
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 98.62570735650768,
+        "std": 1.020164063389162,
+        "values": [
+          97.53435731608731,
+          98.78738884397737,
+          99.55537590945836
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 98.11563257116386,
+        "std": 1.4203009154585955,
+        "values": [
+          96.64634034883764,
+          98.21929535092168,
+          99.48126201373223
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.06027727546714889,
+        "std": 0.1044033036509269,
+        "values": [
+          0.0,
+          0.0,
+          0.18083182640144665
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "snr30",
+      "macro_f1_percent": {
+        "mean": 98.24110172164275,
+        "std": 1.4614668080577529,
+        "values": [
+          96.69761177329418,
+          98.42198773162613,
+          99.60370566000792
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 98.7604419293991,
+        "std": 1.0099702146003873,
+        "values": [
+          97.65561843168958,
+          98.98949070331447,
+          99.63621665319322
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 98.31445787066397,
+        "std": 1.4022409812628478,
+        "values": [
+          96.81286261090821,
+          98.54067135434389,
+          99.58983964673983
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.06027727546714889,
+        "std": 0.1044033036509269,
+        "values": [
+          0.0,
+          0.0,
+          0.18083182640144665
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "snr35",
+      "macro_f1_percent": {
+        "mean": 98.17917323711163,
+        "std": 1.5204872921756285,
+        "values": [
+          96.5781370116804,
+          98.35567703964657,
+          99.60370566000792
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 98.72002155753167,
+        "std": 1.0496333443040928,
+        "values": [
+          97.57477768795472,
+          98.94907033144705,
+          99.63621665319322
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 98.25299625736686,
+        "std": 1.4555047075896037,
+        "values": [
+          96.70245707162103,
+          98.4666920537397,
+          99.58983964673983
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.06027727546714889,
+        "std": 0.1044033036509269,
+        "values": [
+          0.0,
+          0.0,
+          0.18083182640144665
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "snr40",
+      "macro_f1_percent": {
+        "mean": 98.2040950207989,
+        "std": 1.4967670809490672,
+        "values": [
+          96.58718498112437,
+          98.48386002057474,
+          99.5412400606976
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 98.7334950148208,
+        "std": 1.0426053420723889,
+        "values": [
+          97.57477768795472,
+          99.02991107518189,
+          99.59579628132579
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 98.27704672214172,
+        "std": 1.4439518455174525,
+        "values": [
+          96.70062916534144,
+          98.59496017084768,
+          99.53555083023602
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 0.06027727546714889,
+        "std": 0.1044033036509269,
+        "values": [
+          0.0,
+          0.0,
+          0.18083182640144665
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "snr5",
+      "macro_f1_percent": {
+        "mean": 96.0836190256574,
+        "std": 0.7569101051630661,
+        "values": [
+          95.89403546222532,
+          95.4395221407563,
+          96.91729947399058
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 96.928051738076,
+        "std": 0.14573772334130958,
+        "values": [
+          96.96847210994342,
+          97.04931285367825,
+          96.7663702506063
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 96.31858166954326,
+        "std": 0.968383062008503,
+        "values": [
+          95.92368850914185,
+          95.61004243380307,
+          97.42201406568488
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 1.4466546112115732,
+        "std": 2.42779775444802,
+        "values": [
+          0.09041591320072333,
+          0.0,
+          4.249547920433996
+        ]
+      }
+    },
+    {
+      "method": "nahsf",
+      "condition": "snr0",
+      "macro_f1_percent": {
+        "mean": 90.96630682278216,
+        "std": 1.3278739916961995,
+        "values": [
+          92.47188455784288,
+          89.96216939132063,
+          90.46486651918296
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 92.54917811910536,
+        "std": 1.8621175887432726,
+        "values": [
+          94.21988682295877,
+          92.88601455133387,
+          90.54163298302345
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 91.57924714397473,
+        "std": 1.052511041921617,
+        "values": [
+          92.68808532542229,
+          90.59397087402566,
+          91.45568523247624
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 4.701627486437613,
+        "std": 5.168754404324214,
+        "values": [
+          1.62748643761302,
+          1.8083182640144666,
+          10.669077757685352
+        ]
+      }
+    }
+  ],
+  "paired_v5_minus_fixed": [
+    {
+      "condition": "clean",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 2.5982743354121616,
+        "std": 5.926041130755642,
+        "values": [
+          -0.5592585178652243,
+          -1.080378109768576,
+          9.434459633870285
+        ]
+      }
+    },
+    {
+      "condition": "snr10",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 3.6608724591711863,
+        "std": 6.818083935537998,
+        "values": [
+          0.8172471215718513,
+          -1.2751143936060583,
+          11.440484649547766
+        ]
+      }
+    },
+    {
+      "condition": "snr15",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 2.6995408410443718,
+        "std": 6.42104909149034,
+        "values": [
+          -0.47045211242841,
+          -1.520049656460265,
+          10.08912429202179
+        ]
+      }
+    },
+    {
+      "condition": "snr20",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 2.6285581384681103,
+        "std": 6.261310059537689,
+        "values": [
+          -0.5597306107579914,
+          -1.3969162284649728,
+          9.842321254627295
+        ]
+      }
+    },
+    {
+      "condition": "snr25",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 2.5254573994248166,
+        "std": 5.956643955364248,
+        "values": [
+          -0.545989903493227,
+          -1.2685718336339358,
+          9.390933935401613
+        ]
+      }
+    },
+    {
+      "condition": "snr30",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 2.549105178604183,
+        "std": 5.898874935952266,
+        "values": [
+          -0.4297466784958903,
+          -1.26633050462176,
+          9.343392718930199
+        ]
+      }
+    },
+    {
+      "condition": "snr35",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 2.501483958062859,
+        "std": 6.000563902451678,
+        "values": [
+          -0.5795911549037691,
+          -1.3326411966013252,
+          9.416684225693672
+        ]
+      }
+    },
+    {
+      "condition": "snr40",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 2.5604816828713703,
+        "std": 5.954835677880935,
+        "values": [
+          -0.6058053645518036,
+          -1.142303065778849,
+          9.429553478944763
+        ]
+      }
+    },
+    {
+      "condition": "snr5",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 4.030076592779208,
+        "std": 7.1736218545027075,
+        "values": [
+          1.0985939253410515,
+          -1.2135529485749585,
+          12.20518880157153
+        ]
+      }
+    },
+    {
+      "condition": "snr0",
+      "v5_minus_fixed_macro_f1_pp": {
+        "mean": 3.515923911231459,
+        "std": 8.128973608288904,
+        "values": [
+          1.8401760103276876,
+          -3.6445840780417127,
+          12.352179801408402
+        ]
+      }
+    }
+  ],
+  "std_ddof": 1,
+  "v5_reference_results": "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results",
+  "input_results_sha256": {
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_clean.json": "1b8015fd5ef46374220740cfc9a155830adc5c9ce1285715ebbe5411358a1629",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/models/fixed_half/seed42/run.json": "8478ef0d638d83b77dccf0d6e40f3b4fb8d78c25a78e9d6a3f355b21b1ffd4f2",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_snr10.json": "4bd352384dab887e2dfede58d8e999500fb5c46177f6d92b63f39e42718a1adb",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_snr15.json": "210ffc3725089de4fd900dfce350c192ec72d46eee2292cbc802f2871e44e35f",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_snr20.json": "d80ff952b833603429272fe1ce917336f598dae8ff67d5acfdbc3a7d2bfa0387",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_snr25.json": "9c216aaf19aa23697f121160149ec6d276a1c63227f898c33137a0f8019c8ef9",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_snr30.json": "11db515ff7c8542e93c35b5d3fb343b180736a45c2c35668894894883ded9fb1",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_snr35.json": "e60c5249725454e50973da7a264d1852540f056c2287b56d56be491ed7ad5144",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_snr40.json": "368c9c3528937afecd72dd545f47713200d6c59991ab0c16d2fa006cb455805d",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_snr5.json": "b37c621e93d3545ebe346c5bf06bae2a54cf2bc6505c54df72240be652fedfd4",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed42/target_dev_snr0.json": "c2bcae9824b784cd6596c4516d862c05ba9cde51977860f2c548d5865f43999b",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_clean.json": "cc1a41fd30f9985d19196316dfdf97e342c9fd4bb5e63db905d6d49dccafcfdf",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/models/fixed_half/seed43/run.json": "362b10197802e74828c5f894da9a0715742ae944ccde03c3dbb87c984a1dff64",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_snr10.json": "b4c146fe59619395030b5535112bb6d7db9ecef39ef4c7d06c13f7a4efa3caa9",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_snr15.json": "58111446d4d546714e7979de82019939ae1c182899321b32658f758aa052d621",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_snr20.json": "a041515f3bc9b0ce4c30564e5c3aec169dd14506e851c64df4ac3cf1e8e5efdf",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_snr25.json": "1159950ce75e260b2445854e3c429108606678b7daf3bf725f1df8636984b332",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_snr30.json": "d3d28371c4464bc8561f2cd27e75b59154d6c1c930f244d01324cae4156f68a1",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_snr35.json": "d5a60cd20f1a15088c26f7cee16937f696767848d15bcc82934fe30483279c73",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_snr40.json": "58af6872429f9eb2b7e029b833d923167b9aa3fe30ec610553391037edb6ea93",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_snr5.json": "e81786d7d156b672e2d88913f6bf3be4ebb9e15eff6f3da44554c22137606434",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed43/target_dev_snr0.json": "def60bdd001e9809e539c6b6af4b6bf14bebe47bed0a369d7e6847dc0700c645",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_clean.json": "5eb9af43313bfb2366eccb2d626af545b4a74e3e1e76d607111114c2b22f9c41",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/models/fixed_half/seed44/run.json": "0e8cbfcc0319bf1b0ebce732fb960199d12a39ecad73fbdabc83a9079ecd6dbe",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_snr10.json": "6dec70f48e27030e2afb1965d9e64d2863655e2950f502f3900f16e0e694a936",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_snr15.json": "f55c29c7dbac742a7edda5c7e9025a63ab522db374f2ce53a564ae154c6506e0",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_snr20.json": "381922681dcb0fc9a19eb6f43beb9edce7aae557a176eedb729e29c00ff7de50",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_snr25.json": "d42658ec670d4359185c4c40745b1a4af22fa37d6e9912ebcc5a56e6492fc59d",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_snr30.json": "a7169cf18deae4534e27d7ecd87156cfb91db6d0fb8fa174040110f0e4b0cf68",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_snr35.json": "93e5d6bb41fe3d6ac93e7506034f53cf4e935075ed76e3b705ffad34276cb082",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_snr40.json": "b164a6e9e08da29b6c8e79cc489924f5585e91f088c9e1eac66d8a7cdcc7aa0d",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_snr5.json": "5dcdcbc5644fc76ef9e3bd53662f626379223185fa331fd041e6bf070a24127f",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results/evaluations/fixed_half/seed44/target_dev_snr0.json": "70ece3ded105f3950b191571c3c3bab03ac14bf2d9caf2a57ece6b666d2b0d94",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_clean.json": "5a2b6fb9363a2ba49eeae7fb1801a30eb733abf370d85dd3bd05e4be1edc3da3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/models/nahsf/seed42/run.json": "dda1bcd3b7607097948144e616d05ccdd012e805cef39a86de6ded78c604aed0",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr10.json": "356172077f8801a91daa553953c2ebb9fe68ad541de663befa3f57e5b80e3e6e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr15.json": "a5faa10f10c3ffbfa32816d18346ffbdfaa33044a4781bd54d13b300f0f412b9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr20.json": "df187b43523791e356733cd8761f08cecc4296e73a2f19c06822407e0937b9dc",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr25.json": "4bb5067b1989f62a6c01a44eaa0735152edf80ef58b9b1b9800ab6afa5a316b5",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr30.json": "f62fd5fde0d3bdd2e38a4c5761d99354b531b2e5d906cb225be405725ab24121",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr35.json": "67f3ad16b75a13b8d069ab4c924cf6baf2a92771a01b461d603ed5f751aaee2b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr40.json": "c85de1884b7b10742d1d82b34f504df3d928b8b7147003c05767617f5917fcfe",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr5.json": "716616d6ae580af9269a42c59ae931c8418f5d0257cb886626cad7def4577803",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr0.json": "a7f35e6189eb28b83e6719bcc451f3ddb41bd25771fe9d4a353e2f64628ae7cd",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_clean.json": "30b2559f3a8ef23d2eabedd0fdf5264d186aa6b33b20b67c919b14cba9b0f8f1",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/models/nahsf/seed43/run.json": "bb47b1fd2beb603b96197c72ccbadc9b2c5f3f80f2b2c629df2b384c271ff7dc",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr10.json": "e4f9738171114dbd268d04ff9680c47bd14ec77e44696ddb9be16c9ba411b986",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr15.json": "81e368b84ed1be4b39255841b45c11433bd44e17c983f1c1b3c0ea497636a1e7",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr20.json": "47ad744f1b9692606fc7c9b5233606c3583fdd1878defe3df6d6c3be8f0e364e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr25.json": "502dd3596b7ead16091ec59981196e850c0aefce75731b02693240caeaf1e73d",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr30.json": "dafb2b29d475ab69dd9a94c108c83a0eeec7576cd44f20b1c6e4d0b78c6a35e7",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr35.json": "6353b2d7ba078c0d7a94e5d777e05e45a260e64c57afd36bf5337f5dec8ad9a2",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr40.json": "88afbc10332c53247bff8813d5c69f0e56dca7928e725f2a5a100d15ed94c418",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr5.json": "5a2f1bd65f4d83e408c2c57c66da8269d7ed08b1d7b17c5881e00a45e87824c9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr0.json": "ffd20619af95ac220e41fe8615c680cb85cb325e320c9899f1574f98875071cd",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_clean.json": "7f3be049b25a9822d6c835c8e2e327c5f2aad4ec8a5d6bddabcf237ef06035c3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/models/nahsf/seed44/run.json": "eb6b78aac71c5f606b21c58a828218939a3f5fcd7e0ee2f9ad646b1577116fa6",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr10.json": "a7f2158b304122f220a73638cf9908af154d468895527143a08046c2c340d1fc",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr15.json": "f18624459ae1847d20e26d21129cd75418185be3e00a52e3a11bd3b6f9200cec",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr20.json": "7ac5e713f95cf9c2ac002fd9369b193e1146b7d6dd102057db0ef1adb2484e2f",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr25.json": "842ce8dd499626cccd2ca767702cf364accde02ddb4e1dfaf43467dd51943fb1",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr30.json": "7cf45eb33c41ca5c73bc5eea96c216c183c94638ccec33ffbb79f01edb18ab36",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr35.json": "157f83ee82a957686f41b03f91bc9a5731e35571a9664b784e51efae8c26a3e9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr40.json": "a7dc6713b9061c67a25ef6560c7f980e3d26be48bf95a3c8fc8553ae853b4276",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr5.json": "f6a39306c03764055b313189eda1d96a8f45d5bfbb220d1bf6ccacf7904d8e46",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr0.json": "0f14f33397d09ac876a30c228c355870bb52aee6f6e76efaada95974bfdb490f"
+  }
+}

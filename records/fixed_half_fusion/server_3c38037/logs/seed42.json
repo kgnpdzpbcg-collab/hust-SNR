@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "status": "completed",
+  "stages": [
+    {
+      "stage": "train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/fixed_half_experiment.py",
+        "train",
+        "--seeds",
+        "42",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results",
+        "--strong-data-root",
+        "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 12.854973729990888
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/fixed_half_experiment.py",
+        "evaluate",
+        "--seeds",
+        "42",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results",
+        "--strong-data-root",
+        "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012",
+        "--snr-root",
+        "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/target_snr"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.23848961800104
+    }
+  ],
+  "stage": "evaluate",
+  "pid": 143939,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/fixed_half_experiment.py",
+    "evaluate",
+    "--seeds",
+    "42",
+    "--output",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/results",
+    "--strong-data-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012",
+    "--snr-root",
+    "/home/wang/projects/会议论文/hust/experiments/fixed_half_fusion/3c38037/target_snr"
+  ]
+}

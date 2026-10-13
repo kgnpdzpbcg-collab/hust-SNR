@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "completed_training_runs": 3,
+  "training_epochs": 150,
+  "v5_training_runs_reused": 3,
+  "replayed_target_predictions": 60,
+  "replayed_source_validation_sets": 36,
+  "paired_per_seed_rows_verified": 30,
+  "paired_aggregate_rows_verified": 10,
+  "source_only_selection_independently_verified": true,
+  "fixed_alpha_no_spectral_parameters": true,
+  "best_weights_sha256": {
+    "fixed_half/seed42": "b86328cef87235169713cad0dcf33a313e1b077a45b7c59e63f559c815777c6c",
+    "fixed_half/seed43": "f1c048385fea92d9af6ecf69630a1e621f5e0617c4fec3e248d708f4ed1e808d",
+    "fixed_half/seed44": "0a916fb9bab832629a01ff245cc943d54ef81725868d727c3783b3380b7f4d9d",
+    "nahsf/seed42": "54e409184e665b394fe4911f333432279cfa0cbfe4e13e1586bdf4639a08666c",
+    "nahsf/seed43": "8027656babf433933db4339e635243e474c269e66d53474d9284cec5099628b9",
+    "nahsf/seed44": "55e3395b440d91cf26a4d9f0a428e1292b11f711f2e37abfaba6fe6dd87f5a68"
+  },
+  "protected_original_files_checked": 1412,
+  "original_files_unchanged": true,
+  "code_files_unchanged": true,
+  "final_holdout_evaluated": false,
+  "source_test_evaluated": false,
+  "elapsed_seconds": 7.729007816000376
+}

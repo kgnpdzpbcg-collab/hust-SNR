@@ -1,0 +1,10 @@
+fixed_half/seed43 clean Macro-F1=99.6262%
+fixed_half/seed43 snr10 Macro-F1=98.1957%
+fixed_half/seed43 snr15 Macro-F1=99.5016%
+fixed_half/seed43 snr20 Macro-F1=99.5016%
+fixed_half/seed43 snr25 Macro-F1=99.3769%
+fixed_half/seed43 snr30 Macro-F1=99.6883%
+fixed_half/seed43 snr35 Macro-F1=99.6883%
+fixed_half/seed43 snr40 Macro-F1=99.6262%
+fixed_half/seed43 snr5 Macro-F1=96.6531%
+fixed_half/seed43 snr0 Macro-F1=93.6068%

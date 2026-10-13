@@ -1,0 +1,6 @@
+fixed_half/seed43 epoch1/50 Clean=0.7364 Val5=0.6792 Val3=0.7154
+fixed_half/seed43 epoch10/50 Clean=1.0000 Val5=0.9554 Val3=1.0000
+fixed_half/seed43 epoch20/50 Clean=1.0000 Val5=0.9807 Val3=1.0000
+fixed_half/seed43 epoch30/50 Clean=1.0000 Val5=0.9830 Val3=1.0000
+fixed_half/seed43 epoch40/50 Clean=1.0000 Val5=0.9739 Val3=1.0000
+fixed_half/seed43 epoch50/50 Clean=1.0000 Val5=0.9662 Val3=0.9989

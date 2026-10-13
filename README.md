@@ -166,3 +166,23 @@ python scripts/v4_experiment.py summarize
 - [训练轨迹及旧权重审计](records/four_models_expanded_val/server_56513c7/results/TRAINING_TRAJECTORY_PARITY.json)
 - [120组逐种子结果](records/four_models_expanded_val/server_56513c7/results/PER_SEED_RESULTS.csv) · [720行类别指标](records/four_models_expanded_val/server_56513c7/results/PER_CLASS_PER_SEED.csv)
 - [独立核验](records/four_models_expanded_val/server_56513c7/results/VERIFICATION.json)
+
+## 固定α=0.5融合与V5对照
+
+运行提交`3c38037`。新增固定α模型三个种子各50轮训练，不使用三维频谱描述符或Gate MLP；第四阶谐波增益恒定0.5，CNN正常训练。复用上一轮V5三个种子的五档源验证选模结果，不重训V5。CNN、训练10–40 dB噪声、种子、损失、预算及Clean+0/5/10/20/30 dB源验证选模规则相同。固定模型最佳轮次为20、7、15，V5为8、7、6。
+
+实测Dev Macro-F1（三种子均值±样本标准差，%）：
+
+| 条件 | 固定α=0.5 | V5 NA-HSF |
+|---|---:|---:|
+| Clean | 95.62 ± 4.94 | 98.22 ± 1.51 |
+| 10 dB | 93.85 ± 5.55 | 97.51 ± 1.33 |
+| 5 dB | 92.05 ± 6.43 | 96.08 ± 0.76 |
+| 0 dB | 87.45 ± 8.22 | 90.97 ± 1.33 |
+
+三个种子并发训练/评估/汇总20.940秒。47项测试、36组源验证与60组两模型实测预测复现、30行配对及1412个旧文件SHA核验通过；347个最终保留编号未评估。
+
+- [完整客观实验记录及逐种子成绩](records/fixed_half_fusion/server_3c38037/SERVER_RESULTS.md)
+- [固定融合模型](scripts/fixed_half_fusion.py) · [独立入口](scripts/fixed_half_experiment.py) · [冻结配置](configs/fixed_half_vs_v5_v1.json) · [协议](docs/FIXED_HALF_VS_V5_PROTOCOL.md)
+- [逐种子配对](records/fixed_half_fusion/server_3c38037/results/PAIRED_V5_COMPARISON.csv) · [六类指标](records/fixed_half_fusion/server_3c38037/results/PER_CLASS_PER_SEED.csv)
+- [具体数据编号](records/fixed_half_fusion/server_3c38037/results/DATA_FILE_INDEX.csv) · [独立核验](records/fixed_half_fusion/server_3c38037/results/VERIFICATION.json)
