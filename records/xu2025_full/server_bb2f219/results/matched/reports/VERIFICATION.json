@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "completed_training_runs": 3,
+  "training_epochs": 150,
+  "source_only_selection_independently_verified": true,
+  "source_validation_metric_sets_replayed": 18,
+  "target_predictions_replayed": 30,
+  "per_class_rows": 180,
+  "historical_paired_rows": 120,
+  "weights_sha256": {
+    "42": "c26c9d564a805a1bfe3796b51f1e7b4048783b4a13b937daeacda1e70e08dea1",
+    "43": "f2ff715b5a2548b692f14521554550da127ca6837460b0ff79bfc9783a5a45a5",
+    "44": "f7a4c3a6cfd4cd6376cdeb933fbd5381a23341efc2dc7e5b021aa9ca89256d60"
+  },
+  "protected_original_files_checked": 1681,
+  "original_files_unchanged": true,
+  "code_unchanged": true,
+  "final_holdout_evaluated": false,
+  "source_test_evaluated": false,
+  "elapsed_seconds": 6.595888682000805
+}

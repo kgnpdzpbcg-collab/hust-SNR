@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "unit_test_command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_xu2025_full_model.py",
+    "tests/test_xu2025_full_experiment.py"
+  ],
+  "unit_test_output": "..........                                                               [100%]\n10 passed in 0.79s\n",
+  "initial_model_sha256": {
+    "42": "e30962597c8f0fe2c2ef661d25b432d56bc8b12e6a9053c2906496d279bc745b",
+    "43": "92ffec024ae2db8abc53e366d7bee6033afa641e25703966619ea764e279a48f",
+    "44": "32088df7ec47763762b2c076f93a5265e3340c4b5bd1dd20795391ebd585f1bb"
+  },
+  "first_epoch_noise_sha256": {
+    "42": "a49d07c66970c8abe8257728c01e322b3adfaaf4b07500541274cd447626d65b",
+    "43": "89bbd8732d346ad421b99779865aeeb8b80acceea742cb02c6a8ab9bb1c3ab2e",
+    "44": "06f21a9012b6d0c3de315d7a13dc89825c3fcfed99300aec3f13bceffdbde60b"
+  },
+  "real_gpu_loss_components": {
+    "42": {
+      "total": 909.4033203125,
+      "ce": 1.7687976360321045,
+      "recon": 907.5286254882812,
+      "dml": 0.10588517785072327,
+      "intra": 0.37367862462997437,
+      "inter": 0.2677934467792511,
+      "recon_to_ce_ratio": 513.0765707738707,
+      "all_parameter_gradients_finite": true,
+      "parameter_counts": {
+        "paper_cae_dml": 35475,
+        "spectral": 0,
+        "total": 35475
+      }
+    },
+    "43": {
+      "total": 933.0514526367188,
+      "ce": 1.821742296218872,
+      "recon": 931.1292724609375,
+      "dml": 0.10043871402740479,
+      "intra": 0.3642779290676117,
+      "inter": 0.2638392150402069,
+      "recon_to_ce_ratio": 511.12019213340346,
+      "all_parameter_gradients_finite": true,
+      "parameter_counts": {
+        "paper_cae_dml": 35475,
+        "spectral": 0,
+        "total": 35475
+      }
+    },
+    "44": {
+      "total": 939.6873779296875,
+      "ce": 1.7492258548736572,
+      "recon": 937.88720703125,
+      "dml": 0.050960391759872437,
+      "intra": 0.3394837975502014,
+      "inter": 0.288523405790329,
+      "recon_to_ce_ratio": 536.1727328795923,
+      "all_parameter_gradients_finite": true,
+      "parameter_counts": {
+        "paper_cae_dml": 35475,
+        "spectral": 0,
+        "total": 35475
+      }
+    }
+  },
+  "source_val0_5_matches_original_rng": true,
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_version": "2.14.1+cu130",
+  "source_train_records": 34,
+  "source_val_records": 15,
+  "source_train_cycles": 738,
+  "source_val_cycles": 302
+}

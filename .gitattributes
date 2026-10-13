@@ -5,3 +5,5 @@ scripts/** -text
 figures/** -text
 *.png -text
 *.pdf -text
+# 原Xu-Full程序输出日志包含行尾空格；保留原字节及SHA，仅豁免该格式项。
+records/xu2025_full/server_bb2f219/logs/*_train.log whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

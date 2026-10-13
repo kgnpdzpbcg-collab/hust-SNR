@@ -1,0 +1,55 @@
+{
+  "mode": "xu_full",
+  "seed": 44,
+  "track": "matched",
+  "initial_model_sha256": "32088df7ec47763762b2c076f93a5265e3340c4b5bd1dd20795391ebd585f1bb",
+  "selected": {
+    "epoch": 49,
+    "train_loss": {
+      "total": 8.286664595771935,
+      "ce": 0.007543969000904218,
+      "recon": 8.198572980679147,
+      "dml": 0.08054775306525916,
+      "intra": 0.3512650232428942,
+      "inter": 0.27071727016753944
+    },
+    "clean_f1": 0.8593257340095728,
+    "noisy_f1": {
+      "0": 0.4971342489432169,
+      "5": 0.7637126360809431,
+      "10": 0.8270155524894376,
+      "20": 0.8389431919406481,
+      "30": 0.8593257340095728
+    },
+    "noise_mean_f1": 0.7572262726927638,
+    "lr": 0.001
+  },
+  "epochs": 50,
+  "batch": 32,
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "step_lr": null,
+  "gamma": null,
+  "source_val_snrs": [
+    0,
+    5,
+    10,
+    20,
+    30
+  ],
+  "training_noisy_pair": true,
+  "source_only": true,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false,
+  "loss_config": {
+    "reconstruction": "paper_sum",
+    "w_recon": 1.0,
+    "w_dml": 1.0
+  },
+  "parameter_counts": {
+    "paper_cae_dml": 35475,
+    "spectral": 0,
+    "total": 35475
+  },
+  "source_split": "frozen Gate0 34 train / 15 val, 738/302 cycles"
+}

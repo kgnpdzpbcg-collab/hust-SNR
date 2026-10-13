@@ -1,0 +1,7 @@
+matched xu_full seed=43 epoch=1/50 clean=0.2191 noisy=0.20510624731295865 
+matched xu_full seed=43 epoch=10/50 clean=0.7776 noisy=0.5586090896390469 
+matched xu_full seed=43 epoch=20/50 clean=0.7776 noisy=0.5884616550861208 
+matched xu_full seed=43 epoch=30/50 clean=0.7776 noisy=0.6059322815876013 
+matched xu_full seed=43 epoch=40/50 clean=0.7776 noisy=0.617875328570962 
+matched xu_full seed=43 epoch=50/50 clean=0.7776 noisy=0.6467223747235884 
+SAVED /home/wang/projects/会议论文/hust/experiments/xu2025_full/bb2f219/results/matched/models/xu_full/seed43/best.pt

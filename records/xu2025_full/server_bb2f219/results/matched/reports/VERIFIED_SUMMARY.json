@@ -1,0 +1,1046 @@
+{
+  "track": "matched",
+  "mode": "xu_full",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "std_ddof": 1,
+  "aggregates": [
+    {
+      "condition": "clean",
+      "macro_f1_percent": {
+        "mean": 71.5564550989257,
+        "std": 2.100988353773169,
+        "values": [
+          70.66696140825313,
+          73.95587654464454,
+          70.04652734387939
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 69.05146860684452,
+        "std": 1.9786725057138237,
+        "values": [
+          66.81487469684721,
+          69.76556184316895,
+          70.57396928051737
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 74.76906516428808,
+        "std": 2.1290571532678935,
+        "values": [
+          73.5709649441476,
+          77.22722830447664,
+          73.50900224424002
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 41.80229053646775,
+        "std": 5.9977403575100325,
+        "values": [
+          45.750452079566,
+          44.75587703435805,
+          34.9005424954792
+        ]
+      }
+    },
+    {
+      "condition": "snr10",
+      "macro_f1_percent": {
+        "mean": 64.63530613953124,
+        "std": 1.0163634378939759,
+        "values": [
+          63.49980486700236,
+          65.45990747747203,
+          64.94620607411933
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 64.22797089733226,
+        "std": 1.8945904034370173,
+        "values": [
+          63.5408245755861,
+          62.77283751010509,
+          66.37025060630558
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 68.19435592624042,
+        "std": 1.1740017228145736,
+        "values": [
+          68.03516548051248,
+          69.43983015082941,
+          67.1080721473794
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 41.8625678119349,
+        "std": 6.990150091396193,
+        "values": [
+          42.58589511754069,
+          48.4629294755877,
+          34.53887884267631
+        ]
+      }
+    },
+    {
+      "condition": "snr15",
+      "macro_f1_percent": {
+        "mean": 68.87860828487506,
+        "std": 1.0775788458910245,
+        "values": [
+          67.68278646768414,
+          69.77431745615768,
+          69.17872093078336
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 67.3133926165454,
+        "std": 2.4819337145700047,
+        "values": [
+          65.68310428455942,
+          66.08730800323363,
+          70.16976556184316
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 72.26664117363752,
+        "std": 0.8941081360172104,
+        "values": [
+          71.50227880183063,
+          73.24985645367913,
+          72.04778826540283
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 41.38034960819771,
+        "std": 7.057269486783854,
+        "values": [
+          44.12296564195298,
+          46.65461121157324,
+          33.36347197106691
+        ]
+      }
+    },
+    {
+      "condition": "snr20",
+      "macro_f1_percent": {
+        "mean": 69.91329333815769,
+        "std": 2.2417946798503805,
+        "values": [
+          68.80444986441239,
+          72.49342309931586,
+          68.44200705074478
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 67.85233090811101,
+        "std": 1.6519689444804901,
+        "values": [
+          66.08730800323363,
+          68.10832659660468,
+          69.36135812449474
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 73.22852246648779,
+        "std": 2.1981251972926072,
+        "values": [
+          72.24200569733958,
+          75.74708154012382,
+          71.69648016199997
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 41.983122362869196,
+        "std": 6.088377813698317,
+        "values": [
+          44.846292947558766,
+          46.1121157323689,
+          34.99095840867993
+        ]
+      }
+    },
+    {
+      "condition": "snr25",
+      "macro_f1_percent": {
+        "mean": 71.17615863712145,
+        "std": 2.25901714502553,
+        "values": [
+          70.09006748703558,
+          73.77309392969991,
+          69.66531449462886
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 68.80894637563999,
+        "std": 1.8222072694224487,
+        "values": [
+          66.77445432497979,
+          69.36135812449474,
+          70.29102667744543
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 74.35696066886396,
+        "std": 2.3603809895865604,
+        "values": [
+          73.25980572969452,
+          77.06622939256013,
+          72.74484688433724
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 41.561181434599156,
+        "std": 6.160458459985372,
+        "values": [
+          45.02712477396022,
+          45.20795660036166,
+          34.44846292947559
+        ]
+      }
+    },
+    {
+      "condition": "snr30",
+      "macro_f1_percent": {
+        "mean": 71.27528438182486,
+        "std": 2.116804461809483,
+        "values": [
+          70.12188591776695,
+          73.71829417666703,
+          69.9856730510406
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 68.87631366208569,
+        "std": 2.0011145989469017,
+        "values": [
+          66.65319320937752,
+          69.44219886822958,
+          70.53354890864996
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 74.47838944731917,
+        "std": 2.1002920183138984,
+        "values": [
+          73.22660283702754,
+          76.90317109639132,
+          73.30539440853866
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 41.65159734779988,
+        "std": 6.009314855391021,
+        "values": [
+          45.388788426763114,
+          44.846292947558766,
+          34.719710669077756
+        ]
+      }
+    },
+    {
+      "condition": "snr35",
+      "macro_f1_percent": {
+        "mean": 71.34631803759886,
+        "std": 2.309816768818687,
+        "values": [
+          70.14102330887391,
+          74.0094755252553,
+          69.88845527866738
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 68.87631366208569,
+        "std": 2.1006930412588947,
+        "values": [
+          66.49151172190784,
+          69.68472109943411,
+          70.45270816491511
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 74.52563182827856,
+        "std": 2.3130343104946007,
+        "values": [
+          73.07408861782064,
+          77.193025037388,
+          73.30978182962707
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 41.802290536467744,
+        "std": 5.990921383435552,
+        "values": [
+          45.66003616636528,
+          44.846292947558766,
+          34.9005424954792
+        ]
+      }
+    },
+    {
+      "condition": "snr40",
+      "macro_f1_percent": {
+        "mean": 71.52615518390262,
+        "std": 2.0105337106120973,
+        "values": [
+          70.56800777139028,
+          73.83654288656399,
+          70.17391489375359
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 69.02452169226625,
+        "std": 1.9955277371677276,
+        "values": [
+          66.81487469684721,
+          69.56345998383185,
+          70.69523039611964
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 74.72392574040056,
+        "std": 1.9980245963035232,
+        "values": [
+          73.52991754023101,
+          77.03056740467248,
+          73.61129227629819
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 41.77215189873417,
+        "std": 6.118291924310008,
+        "values": [
+          45.66003616636528,
+          44.936708860759495,
+          34.719710669077756
+        ]
+      }
+    },
+    {
+      "condition": "snr5",
+      "macro_f1_percent": {
+        "mean": 53.07852926546659,
+        "std": 2.208741547520516,
+        "values": [
+          50.61708173098841,
+          54.887609540408135,
+          53.73089652500324
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 55.73969280517381,
+        "std": 1.9619500565095505,
+        "values": [
+          54.12287793047697,
+          55.173807599029914,
+          57.92239288601455
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 57.19369415626387,
+        "std": 3.3485404145824456,
+        "values": [
+          56.163230573281965,
+          60.93636014711552,
+          54.48149174839412
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 44.484629294755884,
+        "std": 9.318104517535643,
+        "values": [
+          44.846292947558766,
+          53.61663652802894,
+          34.99095840867993
+        ]
+      }
+    },
+    {
+      "condition": "snr0",
+      "macro_f1_percent": {
+        "mean": 30.106798430247824,
+        "std": 5.834880256906325,
+        "values": [
+          23.52081488561886,
+          34.63041734952543,
+          32.169163055599185
+        ]
+      },
+      "accuracy_percent": {
+        "mean": 39.43680948531394,
+        "std": 5.506722485746793,
+        "values": [
+          33.629749393694425,
+          40.09700889248181,
+          44.58367016976556
+        ]
+      },
+      "balanced_accuracy_percent": {
+        "mean": 37.36612753766755,
+        "std": 6.120210086335047,
+        "values": [
+          33.84376528345239,
+          44.433125719050324,
+          33.82149161049994
+        ]
+      },
+      "normal_false_alarm_rate_percent": {
+        "mean": 53.79746835443038,
+        "std": 17.15545161149966,
+        "values": [
+          60.21699819168174,
+          66.81735985533453,
+          34.35804701627486
+        ]
+      }
+    }
+  ],
+  "historical_pairs": [
+    {
+      "reference": "identity",
+      "condition": "clean",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -17.543579618507874,
+        "std": 2.4746221394950787,
+        "values": [
+          -20.3976709429567,
+          -16.23643711328381,
+          -15.996630799283107
+        ]
+      }
+    },
+    {
+      "reference": "identity",
+      "condition": "snr10",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -20.585196627983382,
+        "std": 5.681418634192452,
+        "values": [
+          -26.79093968838564,
+          -19.324900061834228,
+          -15.63975013373028
+        ]
+      }
+    },
+    {
+      "reference": "identity",
+      "condition": "snr15",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -19.336184291427625,
+        "std": 4.375092206896562,
+        "values": [
+          -24.2685099266463,
+          -17.81635898758941,
+          -15.923683960047153
+        ]
+      }
+    },
+    {
+      "reference": "identity",
+      "condition": "snr20",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -18.885650868470094,
+        "std": 3.8289004878803743,
+        "values": [
+          -23.249456628278963,
+          -16.08862327431271,
+          -17.31887270281861
+        ]
+      }
+    },
+    {
+      "reference": "identity",
+      "condition": "snr25",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -18.277861192651695,
+        "std": 3.121640570937752,
+        "values": [
+          -21.77834994656138,
+          -15.78291975182562,
+          -17.27231387956808
+        ]
+      }
+    },
+    {
+      "reference": "identity",
+      "condition": "snr30",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -18.05859062891936,
+        "std": 3.1968154055923153,
+        "values": [
+          -21.74317065562552,
+          -16.02257075846911,
+          -16.41003047266345
+        ]
+      }
+    },
+    {
+      "reference": "identity",
+      "condition": "snr35",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -18.155683519946297,
+        "std": 3.1177094992020207,
+        "values": [
+          -21.69769560410565,
+          -15.827250067196541,
+          -16.9421048885367
+        ]
+      }
+    },
+    {
+      "reference": "identity",
+      "condition": "snr40",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -17.68047551686598,
+        "std": 2.836662801760713,
+        "values": [
+          -20.95596238661237,
+          -16.04945335286804,
+          -16.036010811117528
+        ]
+      }
+    },
+    {
+      "reference": "identity",
+      "condition": "snr5",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -21.796665564335484,
+        "std": 7.246989566651409,
+        "values": [
+          -30.10557469207932,
+          -18.502664142317204,
+          -16.781757858609936
+        ]
+      }
+    },
+    {
+      "reference": "identity",
+      "condition": "snr0",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -23.876854819964944,
+        "std": 11.003512962702713,
+        "values": [
+          -36.409834621769754,
+          -15.801881995164413,
+          -19.418847842960655
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "clean",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -25.082138247695553,
+        "std": 1.9963373512166123,
+        "values": [
+          -27.121796654452744,
+          -24.992474625098726,
+          -23.132143463535183
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "snr10",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -31.115578469049115,
+        "std": 3.368239797981154,
+        "values": [
+          -33.66423579928208,
+          -32.385517615404424,
+          -27.296981992460843
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "snr15",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -27.442283860796493,
+        "std": 3.1250763927278595,
+        "values": [
+          -29.705667140710435,
+          -28.744503590741786,
+          -23.87668085093727
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "snr20",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -26.61248655638845,
+        "std": 1.9868652112669882,
+        "values": [
+          -28.790461632981522,
+          -26.14796021948682,
+          -24.89903781669701
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "snr25",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -25.410279050397758,
+        "std": 2.1283211800386,
+        "values": [
+          -27.757192099734972,
+          -24.86828938910276,
+          -23.60535566235553
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "snr30",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -25.354403966801375,
+        "std": 2.2388160815543436,
+        "values": [
+          -27.680334565375155,
+          -25.168594021073996,
+          -23.214283313954976
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "snr35",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -25.25530980384501,
+        "std": 2.167092435360361,
+        "values": [
+          -27.586496671389995,
+          -24.877412672485733,
+          -23.302020067659303
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "snr40",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -25.137696237187285,
+        "std": 2.107628330347504,
+        "values": [
+          -27.25814929821948,
+          -25.111808283179283,
+          -23.043131130163086
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "snr5",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -41.12490624679513,
+        "std": 4.529901021123759,
+        "values": [
+          -45.033319509447864,
+          -42.18121993385531,
+          -36.160179297082216
+        ]
+      }
+    },
+    {
+      "reference": "lowpass3",
+      "condition": "snr0",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -58.96058385577076,
+        "std": 9.208648329300575,
+        "values": [
+          -68.80597434412431,
+          -57.516454214196344,
+          -50.55932300899162
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "clean",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -24.725527572687593,
+        "std": 2.2197155512354145,
+        "values": [
+          -25.15133217300446,
+          -22.323754568225663,
+          -26.701495976832657
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "snr10",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -30.866890420192277,
+        "std": 0.7375994089239294,
+        "values": [
+          -31.703220924386088,
+          -30.588247044018544,
+          -30.309203292172192
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "snr15",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -27.27869760365918,
+        "std": 0.867472090181945,
+        "values": [
+          -28.11527480812832,
+          -26.383322255678532,
+          -27.33749574717068
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "snr20",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -26.28674575415468,
+        "std": 2.212362518895136,
+        "values": [
+          -27.084210946370124,
+          -23.786208013554344,
+          -27.98981830253957
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "snr25",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -25.255431970612033,
+        "std": 2.4116733458380066,
+        "values": [
+          -25.968928676443127,
+          -22.56751220291343,
+          -27.229855032479534
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "snr30",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -25.026384892752663,
+        "std": 2.189413826105647,
+        "values": [
+          -25.77291830437416,
+          -22.56133693620317,
+          -26.744899437680658
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "snr35",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -24.976459034061193,
+        "std": 2.358478372101973,
+        "values": [
+          -25.73867845278087,
+          -22.33113060735805,
+          -26.859568042044657
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "snr40",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -24.714489075301362,
+        "std": 2.1159941394078614,
+        "values": [
+          -25.2502858098673,
+          -22.382099828302582,
+          -26.51108158773421
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "snr5",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -40.609967817462966,
+        "std": 2.0175065915831616,
+        "values": [
+          -42.87123054970261,
+          -39.96446631943991,
+          -38.99420658324638
+        ]
+      }
+    },
+    {
+      "reference": "lowpass4",
+      "condition": "snr0",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -57.59059563260484,
+        "std": 6.087400548318915,
+        "values": [
+          -64.49723376763113,
+          -55.268739197936355,
+          -53.005813932247015
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "clean",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -26.665265584061984,
+        "std": 2.537866238084473,
+        "values": [
+          -25.91117560342727,
+          -24.589908431940465,
+          -29.494712716818217
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "snr10",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -32.87381708566258,
+        "std": 1.324844244600178,
+        "values": [
+          -33.07302942704218,
+          -31.460647781837658,
+          -34.0877740481079
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "snr15",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -29.05051933663438,
+        "std": 0.9616015171548736,
+        "values": [
+          -28.846674427240437,
+          -28.20718366918683,
+          -30.09769991347587
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "snr20",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -28.133620074422996,
+        "std": 2.7535538057304896,
+        "values": [
+          -27.71847429443991,
+          -25.61121145402394,
+          -31.07117447480514
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "snr25",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -26.860547455373705,
+        "std": 2.764049322827128,
+        "values": [
+          -26.43285667181672,
+          -24.33527271392211,
+          -29.813512980382285
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "snr30",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -26.965817339817885,
+        "std": 2.4802843806758608,
+        "values": [
+          -26.57572585552723,
+          -24.703693554959106,
+          -29.618032608967315
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "snr35",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -26.832855199512768,
+        "std": 2.7063129776660713,
+        "values": [
+          -26.437113702806492,
+          -24.346201514391275,
+          -29.715250381340542
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "snr40",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -26.677939836896275,
+        "std": 2.427981694113002,
+        "values": [
+          -26.019177209734078,
+          -24.64731713401075,
+          -29.367325166944003
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "snr5",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -43.0050897601908,
+        "std": 2.3677329402766825,
+        "values": [
+          -45.2769537312369,
+          -40.55191260034816,
+          -43.18640294898734
+        ]
+      }
+    },
+    {
+      "reference": "nahsf",
+      "condition": "snr0",
+      "xu_minus_reference_macro_f1_pp": {
+        "mean": -60.85950839253434,
+        "std": 7.162490835240968,
+        "values": [
+          -68.95106967222404,
+          -55.3317520417952,
+          -58.29570346358377
+        ]
+      }
+    }
+  ],
+  "historical_results_sha256": {
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_clean.json": "1f40f6cee44d076f29b0c46261e38005f0d3934180f06628094c1a79c4f2e7a6",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_clean.json": "60f3c47b273b563df0a6d0524ae005f91b49b2cb1a3a009604061ceb7d119853",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_clean.json": "b19679595586b00275e96b3baeaeabcc7d02f81c4490a737be872459b0d5dccc",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_snr10.json": "7188a5ece1f1ca9f8f533252c3f12e1fc0a0ba557ca547ac6fab9b016d4ea4e0",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_snr10.json": "0d6de6a1d9dd5e8e14b2fcddb7bfd25c8792b6ae1d79b8482b104b099015e84c",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_snr10.json": "2296b87af0b2509d441bc06dadcbefe2faf233e07bdbd0b572feb0ba88bd8415",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_snr15.json": "e968bb49c3da73f99a231a4313120f0aaea704a5aadda772093b0a9cd30967f3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_snr15.json": "fbbe2d24e75b377a9edc97788f16eff08a6ae8856e985b44548f722bc27f291f",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_snr15.json": "9659c68e4358933011b38831a2ca4cd754e8d500ce22b3fa11a11573a9afc134",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_snr20.json": "aee9faf00975d25c5a82bd27d72f53c0470b5491f4da0e0e555e215b123934e6",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_snr20.json": "4f871837df5578f5811b88aadd08cc14ab9cac8eb463c6d4c4cb4fb6e6a48174",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_snr20.json": "492db1c48dd1a36b8e7a9696a346633cb3e0815c4e592ee1ec9f9d6d52658d33",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_snr25.json": "2fd58c0457b0ef130899af1c8f51d636b15d960ed4415ba69d2b6bc38270bf2d",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_snr25.json": "97f93768dcfa8678d79a572f97b2dde2bd9614eb571ff986e1930651068d20d0",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_snr25.json": "dc62a3667a80ea5fce102afdd5224797396ca2d0b6c2104c1ecdbfba6eee5141",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_snr30.json": "5cc96a728fec28ceb3d744a977c2ab30c906bdf449faccb2e114cb183220fd69",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_snr30.json": "0198b036912c5479248f168e1d38058381a155240b914694f0d4d097517599c9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_snr30.json": "809c495a45f176905fd6d879d8900f7dcb060612a231745d097fd5f770e5a94f",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_snr35.json": "cda957a0a447b7d9c7cc0800b7a266ecb28b05d126b35b5b627c086c779ca5ce",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_snr35.json": "53e88dd9dfe67af1575515b750c04b46e5360459240bf11b15ca01547a8d57a2",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_snr35.json": "450e63eb4774da831c10043129e2a20c43b05160b29615e7f89b772c0539e640",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_snr40.json": "ddbc7e7f8190cbcf989ae8f3089c7023ae24020e01aba1ef3900aff0639c6ab8",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_snr40.json": "685efe9446444874f0504b9ad83f1406c1fb86cf2c2fe0fb0b7fa3116cac7ff4",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_snr40.json": "1833b7ec57810ac5f900aa5cdc5c9698cbe38d7773593a842e1193752f8ed582",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_snr5.json": "288ad3ab69d22ceef3f3b6ca19dbb1eef8f330a882eef350fd9369790da52701",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_snr5.json": "689997788f92fd83f18c4d4ca6e3ec769c785c72a4e9363c8d0c03fdd65c96d3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_snr5.json": "93c0f1ddb7b45a5c89d8cf767883e3fb72ed36f0d15b2eabae4dd3eb5937e4e2",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed42/target_dev_snr0.json": "f25060e7170379e7805ccfd6bff95c7c4c760bba556749049c8a2f421d079462",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed43/target_dev_snr0.json": "aaeedb050434e8c2810ee279c68f23f30c1073b44c334d42c6f7cf0d9517eb1a",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/identity/seed44/target_dev_snr0.json": "ebfd27c5626c4d44d9ef47a795464135848a454a5cec01c4cfde1c2794f2dfc7",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_clean.json": "d078faa60498a23e8d37412d2abba3278abd5b3fa9226a6279582cd9aebdd69e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_clean.json": "243d5e864a80133ff5cdf7dad979b5556fdb505baaf2f23a3b0fda14e61d738f",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_clean.json": "fc13d3e7ce025398f1aac4048a0e578ed62b5265d6fc5c3465698a4a246b9e70",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_snr10.json": "8b06a8577b87580229c7f3d8ff18c04045e9fef91f05dbf59693c440bf0bec75",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_snr10.json": "4a77a4b44e7716ac1657864c173e9eb2476dc81d7cf9b30bb53998300c9eba8b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_snr10.json": "1801d37ffd3cfc08b794bd8bc4a8eec5f1c3fa79e6f1faedcdfa0fc5bf464560",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_snr15.json": "8ae8a79d9e15ceef83b0b67fd9e29bf35439081b674a6f467cb0e2a1e820c60b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_snr15.json": "44052002df0d3869c7f8933f64b05aed33cc5722d14f6caa75359725501b4687",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_snr15.json": "11eb2dde1c639b0a938f514c39811c333cd7799e0e4b5497e2fbe892acc32b07",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_snr20.json": "93173a570ec382bb36abd85993ff1c11488d4998564eda7d1753fa3904c81c08",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_snr20.json": "e1b898f77c25a1d7ac13934daa0837fcd1b6eb3fde47780a20efe1ba16295b97",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_snr20.json": "327b0d33e271f84299ede44778aaf23638e112d81385d9ad8199345a413835ea",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_snr25.json": "442b77f9052060aeee4437857209cc0424fea500a5c441612223a47dab0134b8",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_snr25.json": "8be853bad37023de87884c2dbfd115aabb912eef54003393379ac8920c7a8863",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_snr25.json": "cbc05ff8c38fcf57b8c8f7663f9265a278ad021ff1ffa815e0491bf32f234ea3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_snr30.json": "6e6e444283911a1c37cab57c91c55513747862f9168b34676c83fa13673ac0d3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_snr30.json": "66755099b9c860e53c4308d791bbdef44d4544de94620b75557a6b0e601d05fe",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_snr30.json": "f97f2d61272fbdb5ae73f00b19177ca8ce8660c670de913d5068af3b4a525772",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_snr35.json": "5d8396316bfba1c87b2fa51b8238c5c9d679e4469203a093e20fd19df3848c2d",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_snr35.json": "48577b6c4f672cc96b502194d579fe18f67335445e77da7066140b710fe2092b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_snr35.json": "7e41d4ccd270637eeb9ceabbed8c67d8346aac37e86890717913ee2348a9cef4",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_snr40.json": "5fa57ebcb46e7816bb56a01f500d31f05fe59efb1e1f071d4ca023c915d19b75",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_snr40.json": "c1145f2b3e55318ab1d64da192963283ee3bd78eb7f090de2d09a49fd69eb177",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_snr40.json": "e52a89df70c9b4e18d9e60ca88caada386a342eda51a570bc37a67fc32ada30b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_snr5.json": "a9120c0d73b19bd257cd522992510efe6d1112f561cc8fd2612713445a38333c",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_snr5.json": "e45d9cce439cd7fd466e24ffdd535ef704520f4bba7b967f738846c550430aae",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_snr5.json": "440b4f349fc1c1094e88a1dda134f0f9558df75436fced6f5a1f701af206a9ca",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed42/target_dev_snr0.json": "b23cb899b87b9cb1c51374d7da2cf80fddec231134d68a2c20f3f860ef893fba",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed43/target_dev_snr0.json": "0c2b06c1e8a966d0d403e7cbf4d18f3a5b4b5851d850324f896649f5468975eb",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass3/seed44/target_dev_snr0.json": "706cfbbbbb93eb3288a02c3dd4232b429ac2a6fef9360248076a04228da5b0e6",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_clean.json": "826a9f28086dfefcbb99f9bc4083a28aac05d1ee5c4af6b45144f711f2e21faf",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_clean.json": "f37eaa5eb5e685478caf257a89f0aa3a642976a4c927c338608d1c099f5b538b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_clean.json": "38c5a96f3798f3276628cd7426b4da7a020da67d4cc73609a15b87987a15491e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_snr10.json": "1ac6d9c785a57b9a0dfa6e298d2325890c633f5b51779b599172b94a44709036",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_snr10.json": "11d34970b409a4258ca7970c7ba00f89eab66859663364d5c232d065a68fd015",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_snr10.json": "2c23dc648f7263f776e611d97774f3061adbec4ea418328af52273fa5a80d305",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_snr15.json": "a4f7e081c7bd08c95ce2280c975597dcf53004465b173fadf4e85e5691611951",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_snr15.json": "a7b7aed5f229a603f489101c997d7fcd873bc70aca1920a20ccd54954385ed75",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_snr15.json": "38cfd47fc8835472edcff56ef56879eb544afb5e55bb501bcee7afd7b36c9933",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_snr20.json": "2aa34828554d9dfbd662de81f12fc9940629818615ef21056b5328e092e60962",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_snr20.json": "1fbc171e323f5fc0bd710227b39f7fb3b051c8812ffe5b08becac774b632769b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_snr20.json": "13daffc669851baaccd46f8951b5b5bcec8f51616870d5fd54f83a1f6b623e91",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_snr25.json": "37ce84a75c06136aa521f03b151bc2a88c81705c432ed34310efc42017dacc60",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_snr25.json": "3017b05bff22ba3ea057d458b36d443113a3274dc4adeccbd52fafffffe621eb",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_snr25.json": "7f491f49793983d103e84e33d4397bd9823d97062e4433db89019fae99934b6e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_snr30.json": "4eebf84c8b016dea62a884d70e29a8562792135033efcecd767dfdfe0385ce9e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_snr30.json": "b83021f5cd08a2c89649b9dbe06a0ed2739da6f8b93e4a9fb8c7312c70a35676",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_snr30.json": "19e32fa2e51357e11aa752c0dad60605d3c3e7e0fdf53d23a616aff2ae928f84",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_snr35.json": "6cebac8715af215d4c2d0919ed3c50b7f7fa89d36fbc96014e6209bb12ca8ad9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_snr35.json": "ef1aea00475387cbb5a198f85691946f6000ff266c3c578f7a21bb15b1d5ad90",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_snr35.json": "a52522bab549b4d5871bf7937222d85bbb7140ce6febc20b079e209c23d77ee6",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_snr40.json": "abfc4066645f8536c243fc02a5bcf7a1d5f5aa99dce99eeca4700da2eb34d006",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_snr40.json": "b683c0a5e5188cc40bd58ca37c10d98e8dca4ebad055df7a47bdc7717b08e930",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_snr40.json": "0a9c295c6258a516c6f7077b6d5630001fb3879471a93e165374d6b41324508e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_snr5.json": "3bfd1c1449e4e95224fb5c871b43f3030217d20d2dff413b4893e091e60eb7ed",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_snr5.json": "bcb0ee7c8f763ee902433e1221b2d1ceab7abcc7cc0e2f16c1a0ca0490fc07e5",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_snr5.json": "c25ae62d7c7f7e60b7fb4a1c52c70542bd70a3ceca05bf176dd89248e9c0b33f",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed42/target_dev_snr0.json": "d2ca03c057d74a1ed64c4e00f410d85f743a6009b75161dad6f07c4bfcb2502d",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed43/target_dev_snr0.json": "1d73686a599e0dc300fbffe131506702a846106477f3d29f875de4bc555c5e06",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/lowpass4/seed44/target_dev_snr0.json": "7f2fd9a8f51dcb14d00847e8bfa5a77fbaa342ab68e4a002b1f8e19cb6d5fb7b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_clean.json": "5a2b6fb9363a2ba49eeae7fb1801a30eb733abf370d85dd3bd05e4be1edc3da3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_clean.json": "30b2559f3a8ef23d2eabedd0fdf5264d186aa6b33b20b67c919b14cba9b0f8f1",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_clean.json": "7f3be049b25a9822d6c835c8e2e327c5f2aad4ec8a5d6bddabcf237ef06035c3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr10.json": "356172077f8801a91daa553953c2ebb9fe68ad541de663befa3f57e5b80e3e6e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr10.json": "e4f9738171114dbd268d04ff9680c47bd14ec77e44696ddb9be16c9ba411b986",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr10.json": "a7f2158b304122f220a73638cf9908af154d468895527143a08046c2c340d1fc",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr15.json": "a5faa10f10c3ffbfa32816d18346ffbdfaa33044a4781bd54d13b300f0f412b9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr15.json": "81e368b84ed1be4b39255841b45c11433bd44e17c983f1c1b3c0ea497636a1e7",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr15.json": "f18624459ae1847d20e26d21129cd75418185be3e00a52e3a11bd3b6f9200cec",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr20.json": "df187b43523791e356733cd8761f08cecc4296e73a2f19c06822407e0937b9dc",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr20.json": "47ad744f1b9692606fc7c9b5233606c3583fdd1878defe3df6d6c3be8f0e364e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr20.json": "7ac5e713f95cf9c2ac002fd9369b193e1146b7d6dd102057db0ef1adb2484e2f",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr25.json": "4bb5067b1989f62a6c01a44eaa0735152edf80ef58b9b1b9800ab6afa5a316b5",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr25.json": "502dd3596b7ead16091ec59981196e850c0aefce75731b02693240caeaf1e73d",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr25.json": "842ce8dd499626cccd2ca767702cf364accde02ddb4e1dfaf43467dd51943fb1",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr30.json": "f62fd5fde0d3bdd2e38a4c5761d99354b531b2e5d906cb225be405725ab24121",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr30.json": "dafb2b29d475ab69dd9a94c108c83a0eeec7576cd44f20b1c6e4d0b78c6a35e7",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr30.json": "7cf45eb33c41ca5c73bc5eea96c216c183c94638ccec33ffbb79f01edb18ab36",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr35.json": "67f3ad16b75a13b8d069ab4c924cf6baf2a92771a01b461d603ed5f751aaee2b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr35.json": "6353b2d7ba078c0d7a94e5d777e05e45a260e64c57afd36bf5337f5dec8ad9a2",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr35.json": "157f83ee82a957686f41b03f91bc9a5731e35571a9664b784e51efae8c26a3e9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr40.json": "c85de1884b7b10742d1d82b34f504df3d928b8b7147003c05767617f5917fcfe",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr40.json": "88afbc10332c53247bff8813d5c69f0e56dca7928e725f2a5a100d15ed94c418",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr40.json": "a7dc6713b9061c67a25ef6560c7f980e3d26be48bf95a3c8fc8553ae853b4276",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr5.json": "716616d6ae580af9269a42c59ae931c8418f5d0257cb886626cad7def4577803",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr5.json": "5a2f1bd65f4d83e408c2c57c66da8269d7ed08b1d7b17c5881e00a45e87824c9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr5.json": "f6a39306c03764055b313189eda1d96a8f45d5bfbb220d1bf6ccacf7904d8e46",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed42/target_dev_snr0.json": "a7f35e6189eb28b83e6719bcc451f3ddb41bd25771fe9d4a353e2f64628ae7cd",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed43/target_dev_snr0.json": "ffd20619af95ac220e41fe8615c680cb85cb325e320c9899f1574f98875071cd",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/evaluations/nahsf/seed44/target_dev_snr0.json": "0f14f33397d09ac876a30c228c355870bb52aee6f6e76efaada95974bfdb490f"
+  }
+}

@@ -1,6 +1,6 @@
 # Xu et al. (TPEL 2025)：完整 CAE + DML 单模型基线复现 V1
 
-**状态：已实现论文结构与训练/评估入口；仅本地 CPU 正向、反向及单元测试已验证。尚未运行 HUST 正式多种子 GPU 训练，不存在新模型准确率结果。**
+**状态：运行提交`bb2f219`已完成matched轨道Xu-Full三个种子42/43/44各50轮GPU训练及30组实测Dev评估。10项测试、18组源验证和30组目标预测独立复现通过。paper_like未运行，Final-Holdout未评估。** 结果见[服务器客观记录](../records/xu2025_full/server_bb2f219/SERVER_RESULTS.md)。
 
 论文：Xu et al., *Fully Simulated Data-Driven Domain Generalized Method for Multiphase Converters Fault Diagnosis*, IEEE Transactions on Power Electronics, 40(1), 2099–2113 (2025). DOI `10.1109/TPEL.2024.3461159`。复现以用户提供的 15 页 PDF 为第一手依据。作者公开仓库 `XHX-HUST/Multiphase-converter-switching-device-open-circuit-fault-data-set` 只公开数据；本实现**不是作者的官方代码**。
 
@@ -83,4 +83,4 @@ bash scripts/run_xu2025_full_server.sh
 
 执行完后读取 `outputs/xu2025_full/matched/reports/SUMMARY.json`，并使用已经保存的 V5 六种子与三种子结果作清晰标注的整体方法比较。只有统计口径相同、随机种子相同的子集可以进行配对比较。
 
-**复现状态**：目前仅实现并通过本地模型测试；服务器正式 `xu_full` GPU 结果尚不存在。原论文中的填充、联合损失尺度、mini-batch DML 规则和部分优化器超参数并未完全披露，上述差异与实现假设已在第2节标注。若 Xu-Full 结果优于现有 V5，需如实报告，不能预先假定原论文方法存在性能缺陷。若 Xu-Full 较差，也只能说明在本项目冻结协议下该实现存在局限，不能将其无条件外推为原作者报告方案的普遍缺陷。
+**复现状态**：服务器`matched xu_full`运行提交`bb2f219`已完成，默认`paper_sum`、重构/DML权重均1。实测Dev Macro-F1（三种子均值±样本标准差）：Clean 71.56±2.10%、10 dB 64.64±1.02%、5 dB 53.08±2.21%、0 dB 30.11±5.83%；源验证最佳轮次50、50、49。原论文中的填充、联合损失尺度、mini-batch DML规则和部分优化器超参数并未完全披露，上述差异与实现假设已在第2节标注；本轮结果属于项目匹配协议，不作为作者发表时成绩的数值复现。完整训练分量、三种子成绩、历史配对和核验记录见[服务器记录](../records/xu2025_full/server_bb2f219/SERVER_RESULTS.md)。

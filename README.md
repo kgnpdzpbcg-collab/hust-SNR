@@ -233,4 +233,10 @@ python scripts/v4_experiment.py summarize
 
 `matched` 轨道与既有 V5 使用相同训练和选模协议，但**不同于原作者发表时的训练协议**；`paper_like` 是可选且单独标记的忠实复现参考，不在默认脚本执行。两者不能混称。
 
-**状态：代码及 CPU 测试完成，正式服务器 Xu-Full GPU 实验尚未运行。** 原论文部分网络细节和超参有未公开或不一致之处；具体实现假设见文档。Xu-Full 与 V5 在主干和损失上均不同，整体性能差不能单独作为 NA-HSF 门控贡献的因果证据；Final-Holdout 继续隔离。
+**状态：运行提交`bb2f219`已完成matched轨道Xu-Full三个种子GPU训练及30组实测Dev评估。** 10项测试、18组源验证及30组目标预测独立复现通过；最终保留集未评估。原论文部分网络细节和超参有未公开或不一致之处，具体实现假设见文档；本轮使用默认`paper_sum`重构损失，重构与DML权重均1。
+
+实测Dev Macro-F1（种子42/43/44均值±样本标准差，%）：Clean 71.56±2.10，10 dB 64.64±1.02，5 dB 53.08±2.21，0 dB 30.11±5.83。源验证选中的轮次为50、50、49。三种子训练、评估及汇总墙钟时间25.934秒。
+
+- [Xu-Full服务器完整客观记录及同三种子历史配对](records/xu2025_full/server_bb2f219/SERVER_RESULTS.md)
+- [150轮损失分量](records/xu2025_full/server_bb2f219/results/matched/reports/TRAIN_LOSS_COMPONENTS.csv) · [30行逐种子成绩](records/xu2025_full/server_bb2f219/results/matched/reports/FULL_PER_SEED_RESULTS.csv)
+- [六类指标](records/xu2025_full/server_bb2f219/results/matched/reports/PER_CLASS_PER_SEED.csv) · [独立核验](records/xu2025_full/server_bb2f219/results/matched/reports/VERIFICATION.json)
