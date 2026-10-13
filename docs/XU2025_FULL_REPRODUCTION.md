@@ -1,4 +1,4 @@
-# Xu et al. (TPEL 2025)：完整 CAE + DML 复现与公平扩展实验 V1
+# Xu et al. (TPEL 2025)：完整 CAE + DML 单模型基线复现 V1
 
 **状态：已实现论文结构与训练/评估入口；仅本地 CPU 正向、反向及单元测试已验证。尚未运行 HUST 正式多种子 GPU 训练，不存在新模型准确率结果。**
 
@@ -21,7 +21,7 @@
 
 `[B,5,128] → [B,16,113] → [B,16,56] → [B,32,53] → [B,32,26] → [B,32,23] → [B,32,11] → flatten [B,352]`。
 
-Decoder 对应 Table III：`[B,32,11] → upsample [B,32,22] → conv [B,32,26] → upsample [B,32,52] → conv [B,16,56] → upsample [B,16,112] → conv [B,16,128] → conv [B,5,128]`。分类器 `352→50→6`。复现网络总参数以实际运行 `parameter_counts()` 为准：**35,475 个可训练参数**。若加入 NA-HSF 前置门控，再增加 41 个参数，合计 **35,516**。此处的参数是模块参数，不代表推理运算量。
+Decoder 对应 Table III：`[B,32,11] → upsample [B,32,22] → conv [B,32,26] → upsample [B,32,52] → conv [B,16,56] → upsample [B,16,112] → conv [B,16,128] → conv [B,5,128]`。分类器 `352→50→6`。复现网络总参数以实际运行 `parameter_counts()` 为准：**35,475 个可训练参数**。本轮仅评估原论文完整 CAE＋DML（Xu-Full），不训练任何“Full+模块”模型。此处参数量不代表推理运算量。
 
 ## 2. 必须公开的论文歧义 / 实现假设（不能伪装成作者源码）
 
@@ -43,25 +43,19 @@ Decoder 对应 Table III：`[B,32,11] → upsample [B,32,22] → conv [B,32,26] 
 - 输入来自当前已冻结 `[N,5,128]` 的原 MD 处理；只用仿真 Source-Train 的 clean 输入进行训练，batch=16，50 epochs，Adam/WD、StepLR 数值采用第2节列明的假设。
 - 源域验证选模，仅独立 Target-Dev 报告。作者原始数据采样/窗口策略和训练噪声做法不够明确，因此此轨道叫 paper-like reimplementation，不称 strict exact reproduction。
 
-### Track B：`matched`（用于本会议论文的科学比较）
+### Track B：`matched`（本次唯一需要执行的正式实验）
 
-统一采用原 V4/V5 的 source-only 鲁棒性协议，使不同方法**只改变网络/前置模块**：
+**只运行一个模型类型：`xu_full`，即 Xu 等人完整的编码器、解码器、分类器与 DML 联合训练方法。** 此 track 只是为了与已经完成的 A′／V5 实验使用相同的数据、训练噪声和 checkpoint 选择条件，**不是**原论文作者原始训练协议的完全复制。
 
-| Mode | Full CAE decoder | Eq11 recon | Eq14–18 DML | 额外前置模块 |
-|---|---|---|---|---|
-| `xu_full` | ✓ | ✓ | ✓ | 无；原始论文算法的完整骨干 |
-| `xu_full_lp3` | ✓ | ✓ | ✓ | LP3 |
-| `xu_full_lp4` | ✓ | ✓ | ✓ | LP4 |
-| `xu_full_nahsf` | ✓ | ✓ | ✓ | V5 NA-HSF 门控 |
-| `xu_cae_classify` | ✓ | ✓ | ✗ | 无，DML 消融 |
+- Source Train：34 条 recording，738 周期；Source Val：15 条 recording，302 周期。
+- 三个随机种子 42/43/44，用于和既有 V5 三种子比较同一模型的重复性；每个 seed 训练一次 `xu_full`，不训练任何其它网络类型。
+- 50 epochs、batch32、Adam lr=0.001、weight_decay=0；源域训练使用 10/15/20/25/30/35/40 dB 的逐相噪声增强及 clean/noisy 配对损失。**这是本项目统一对照协议，不能描述为原论文作者所用噪声训练。**
+- 源域验证 Clean、0/5/10/20/30 dB；Clean F1 距最高分 1pp 以内时选五档平均 F1 最大的 epoch。同样，这属于本项目为消除源域验证饱和而固定的选模规则。
+- Target-Dev：88 条 recording、每条件 2474 周期；Clean 和作者发布的 10–40 dB，另有合成的 0/5 dB 压力测试。绝不使用目标域进行训练、微调或选 checkpoint；Final-Holdout 仍隔离。
+- 历史 A′、A′＋LP3、A′＋LP4、固定 α=0.5、V5 NA-HSF 的模型、预测和记录均保持不变，不再新增完整 Xu＋频域模块的模型臂。
+- **研究用途**：将 Xu-Full 作为论文所引用工作的完整方法基线；对比同一任务与数据协议下的诊断鲁棒性和仿真→实测迁移表现。由于 Xu-Full 与 V5 同时在 backbone 和训练目标上不同，二者差值属于**整体方法比较**，不能单独归因为 NA-HSF 模块。模块贡献应在既有 A′ 系列消融中讨论。
 
-- Source Train：34 recording，738 周期；验证：15 recording，302 周期。
-- 三种子 42/43/44；batch32，50 epochs，Adam lr=0.001，无 WD/调度（使 V4/V5 协议相同）。每轮按旧协议加入 10/15/20/25/30/35/40 dB 整记录逐相 RMS Gaussian；clean/noisy 配对损失。
-- **扩展的论文目标**：在完全无实测训练数据前提下，比较 full Xu baseline 与 full Xu+LP3/LP4/NA-HSF 对**实验域未见的噪声强度**，特别是 0/5 dB synthetic stress 的鲁棒性。原论文已有 source-only sim→real 泛化和一般噪声抗扰能力，**不能再把这两点当作本文首次提出**。
-- Source Val 统一固定 Clean 与 0/5/10/20/30；Clean F1 保持最高值 1pp 以内，从中按五档平均 F1 最大选 epoch，再按 Clean 与早 epoch 排序；Source-Test 和 Final-Holdout 不参与选择。
-- Target-Dev 88 记录、每条件 2474 周期：原 10–40 dB 含噪实测与 Clean，另 0/5 dB 是从作者原 10 dB 残差缩放得到的**synthetic**，不是独立实测。
-- 各 arm CNN 同种子初值应保持一致（`XuCAE` 在 shaping gate 之前实例化）；训练噪声序列一致；新模型 **不复用** A′ 25,620 参数，也不迁移先前 V5 权重。
-- 除模型结构外，DML 和重构的默认权重、归一化约定对所有 matched arm 必须完全一致。
+`paper_like`（仅原 Xu-Full、偏向原作者公开训练设置）保留为可选的更贴近论文设置的复现实验，用于单独报告重现性；**不是本轮服务器一键脚本需要运行的第二个训练任务**。
 
 ## 4. 关键测试与诊断
 
@@ -72,36 +66,21 @@ Decoder 对应 Table III：`[B,32,11] → upsample [B,32,22] → conv [B,32,26] 
 - 复现期不得读取 347 Final-Holdout。保留源域 Test 10 records 不用于选模。
 - 本代码暂不执行或声称与作者公布的 99.58% 相同的结果，也不声称修改的 NA-HSF 在完整 CAE+DML 骨干上会继续有 V5 的收益。
 
-## 5. 服务器实际运行方法
+## 5. 服务器实际运行方法：只跑 Xu-Full
 
-将分支 checkout 到原项目根目录，使用原 Python/uv 环境：
+从仓库根目录运行，在原 V5 已验证的 Python/CUDA 环境中指定数据目录：
 
 ```bash
-python scripts/xu2025_full_model.py
-python scripts/xu2025_full_experiment.py smoke
-python -m pytest -q tests/test_xu2025_full_model.py tests/test_xu2025_full_experiment.py
-
-# A: 完整原论文 CAE+DML（原文未披露参数由文档明确约定）
-python scripts/xu2025_full_experiment.py train --track paper_like --modes xu_full \
-  --out outputs/xu2025_full
-
-# B: 同训练和五档验证协议下，四种完整 Xu CAE+DML 结构对照
-python scripts/xu2025_full_experiment.py train --track matched \
-  --modes xu_full xu_full_lp3 xu_full_lp4 xu_full_nahsf \
-  --source-strong-root '/path/to/generated/source' \
-  --out outputs/xu2025_full
-
-# B: 含作者原始10-40dB及合成0/5dB的完整88-record Dev
-python scripts/xu2025_full_experiment.py evaluate --track matched \
-  --modes xu_full xu_full_lp3 xu_full_lp4 xu_full_nahsf \
-  --snr-root '/path/to/original/SNR-parent' \
-  --strong-root '/path/to/generated/target' --out outputs/xu2025_full
-
-python scripts/xu2025_full_experiment.py summarize --track matched \
-  --modes xu_full xu_full_lp3 xu_full_lp4 xu_full_nahsf \
-  --out outputs/xu2025_full
+git fetch origin
+git switch research/xu2025-full-cae-dml
+export SOURCE_STRONG_ROOT="/path/to/generated/source"
+export TARGET_SNR_ROOT="/path/to/original/target"
+export TARGET_STRONG_ROOT="/path/to/generated/target"
+bash scripts/run_xu2025_full_server.sh
 ```
 
-只训练一次每种子 50 epoch，禁止覆盖 checkpoint。训练/评估/结果保存按 `paper_like` 与 `matched` 独立目录隔离，模型名和损失配置一并写入元数据。若服务器发现任何依赖/输入 shape 问题，先修复并重跑 smoke/test，严格记录 commit，再开始正式训练。
+该脚本依次执行 smoke/tests、**唯一模型 `xu_full` 在 `matched` 轨道下 42/43/44 三种子训练**、对应 Clean/10–40/5/0 dB 的 Target-Dev 评估与汇总。每种子 50 epochs；不触碰 Target-Final-Holdout，也不覆盖已有 checkpoint。
 
-**学术结论边界**：此次工作建立的是可核对论文依据的完整 CAE+DML 实验基础。会议论文的新贡献必须由 Full CAE+DML matched baseline 和 Full+NA-HSF 的独立实测决定，不能借 A′ 的历史结果替代完整原论文对照，也不能隐瞒原论文已有的高性能或已有域泛化贡献。
+执行完后读取 `outputs/xu2025_full/matched/reports/SUMMARY.json`，并使用已经保存的 V5 六种子与三种子结果作清晰标注的整体方法比较。只有统计口径相同、随机种子相同的子集可以进行配对比较。
+
+**复现状态**：目前仅实现并通过本地模型测试；服务器正式 `xu_full` GPU 结果尚不存在。原论文中的填充、联合损失尺度、mini-batch DML 规则和部分优化器超参数并未完全披露，上述差异与实现假设已在第2节标注。若 Xu-Full 结果优于现有 V5，需如实报告，不能预先假定原论文方法存在性能缺陷。若 Xu-Full 较差，也只能说明在本项目冻结协议下该实现存在局限，不能将其无条件外推为原作者报告方案的普遍缺陷。
