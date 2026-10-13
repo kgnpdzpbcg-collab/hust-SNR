@@ -1,0 +1,659 @@
+{
+  "status": "passed",
+  "files_sha256_verified": 24,
+  "png_size_pixels": [
+    4251,
+    3118
+  ],
+  "png_dpi": 600,
+  "pdf_checks": [
+    {
+      "file": "encoder352_clean_seed42.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "encoder352_clean_seed43.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "encoder352_clean_seed44.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "encoder352_snr10_seed42.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "encoder352_snr10_seed43.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "encoder352_snr10_seed44.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "classifier50_clean_seed42.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "classifier50_clean_seed43.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "classifier50_clean_seed44.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "classifier50_snr10_seed42.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "classifier50_snr10_seed43.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    },
+    {
+      "file": "classifier50_snr10_seed44.pdf",
+      "pages": 1,
+      "width_mm": 179.99999491373697,
+      "height_mm": 131.99999627007378,
+      "text_spans_checked": 20,
+      "all_text_inside_page": true,
+      "fonts_embedded": true
+    }
+  ],
+  "figure_layout_checks": [
+    {
+      "figure": "encoder352_clean_seed42",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "encoder352_clean_seed43",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "encoder352_clean_seed44",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "encoder352_snr10_seed42",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "encoder352_snr10_seed43",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "encoder352_snr10_seed44",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "classifier50_clean_seed42",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "classifier50_clean_seed43",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "classifier50_clean_seed44",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "classifier50_snr10_seed42",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "classifier50_snr10_seed43",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    },
+    {
+      "figure": "classifier50_snr10_seed44",
+      "plot_rectangles": [
+        {
+          "x_pt": 29.75402574544812,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 210.83847997261216,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880522
+        },
+        {
+          "x_pt": 29.754025745448118,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 197.77199589181794,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880524,
+          "height_pt": 114.69222868880524
+        },
+        {
+          "x_pt": 365.7899660381877,
+          "y_pt": 61.73858267716534,
+          "width_pt": 114.69222868880522,
+          "height_pt": 114.69222868880524
+        }
+      ],
+      "alignment_tolerance_pt": 1.5,
+      "all_widths_heights_row_edges_passed": true,
+      "legend_footer_overlap": false
+    }
+  ],
+  "visual_review": {
+    "reviewed_figures": 12,
+    "methods": [
+      "seed42 encoder full-size preview",
+      "all three seeds / both conditions / both layers in contact sheets"
+    ],
+    "cropped_titles_or_legends_observed": false,
+    "overlapping_labels_observed": false,
+    "class_colors_and_symbols_consistent": true
+  }
+}

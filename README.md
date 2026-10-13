@@ -241,7 +241,6 @@ python scripts/v4_experiment.py summarize
 - [150轮损失分量](records/xu2025_full/server_bb2f219/results/matched/reports/TRAIN_LOSS_COMPONENTS.csv) · [30行逐种子成绩](records/xu2025_full/server_bb2f219/results/matched/reports/FULL_PER_SEED_RESULTS.csv)
 - [六类指标](records/xu2025_full/server_bb2f219/results/matched/reports/PER_CLASS_PER_SEED.csv) · [独立核验](records/xu2025_full/server_bb2f219/results/matched/reports/VERIFICATION.json)
 
-
 ## 经典方法对照：SVM-RBF、Random Forest、1D-ResNet
 
 **研究分支：`research/classical-baselines-v1`。** 与既有 A′／LP3／LP4／固定α=0.5／V5 NA-HSF／Xu-Full 独立，不修改或重跑历史模型。新增三种标准方法，使用原先冻结的 Source-Train／Val 和 88 条 Target-Dev，且仅使用 seed 42、43、44：
@@ -262,3 +261,14 @@ bash scripts/run_classical_baselines_server.sh
 ```
 
 **状态：本地代码和 11 项单元测试、命令行 smoke 及 shell 检查通过；尚未完成这三种模型的正式 GPU／CPU 服务器数据实验，不存在新增 Macro-F1 成绩。**
+
+## 六模型固定权重t-SNE与原空间指标
+
+运行提交`f398d30`。A′无滤波、三阶低通、四阶低通、固定α=0.5、V5及Xu-Full统一采用共同种子42/43/44，读取冻结实测Dev的88个编号、每条件全部2474个周期。使用原源验证最佳权重，未重新训练或选模。Clean和10 dB分别提取编码器352维及分类隐藏层50维，共72组固定参数投影、12张六面板图；全部种子均发布。
+
+36组原预测、72组特征分类头重放、178128行坐标标签及24组指标汇总独立核查通过；重复一组投影的坐标最大绝对差为0。PNG为600 dpi、PDF嵌入字体；二维投影不等于分类成绩，原空间指标另存。最终保留集未评估，原始电流、高维特征及权重未上传。
+
+- [完整客观记录、两层原空间指标及全部图像](records/six_model_tsne/server_f398d30/VISUALIZATION_RECORD.md)
+- 主图种子42：[Clean PNG](figures/six_model_tsne/server_f398d30/encoder352_clean_seed42.png) · [10 dB PNG](figures/six_model_tsne/server_f398d30/encoder352_snr10_seed42.png) · [Clean PDF](figures/six_model_tsne/server_f398d30/encoder352_clean_seed42.pdf) · [10 dB PDF](figures/six_model_tsne/server_f398d30/encoder352_snr10_seed42.pdf)
+- [72组逐种子原空间指标](records/six_model_tsne/server_f398d30/results/FEATURE_SEPARABILITY_PER_SEED.csv) · [完整汇总](records/six_model_tsne/server_f398d30/results/SUMMARY.json) · [独立核验](records/six_model_tsne/server_f398d30/results/VERIFICATION.json)
+- [冻结协议](docs/SIX_MODEL_TSNE_PROTOCOL.md) · [提取与投影入口](scripts/six_model_tsne.py) · [绘图入口](scripts/plot_six_model_tsne.py) · [图像核查](figures/six_model_tsne/server_f398d30/VISUAL_QA.json)
