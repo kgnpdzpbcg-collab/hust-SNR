@@ -72,13 +72,15 @@ def select_original_reference(history):
     return score_checkpoints(original)
 
 
-def train(method, seed, output, strong_root):
+def train(method, seed, output, strong_root, *, protocol=None, model_factory=make_model, version=VERSION):
     """所有模型共用原训练随机流，新增验证不更新BatchNorm或任何权重。
 
     best.pt按五档验证保存；old_selection_reference.pt只是同次训练的审计
     快照，用于与旧实验的权重逐张量比较，不额外训练，也不用于目标评估。
     """
-    protocol = config()
+    # 独立消融入口可显式提供模型和协议；原四模型入口仍使用原默认值。
+    # 共用这一训练循环，使批次、噪声、损失与选模计算无需复制或改写。
+    protocol = config() if protocol is None else protocol
     folder = output / f"models/{method}/seed{seed}"
     if folder.exists():
         raise FileExistsError(f"拒绝覆盖模型：{folder}")
@@ -89,7 +91,7 @@ def train(method, seed, output, strong_root):
     clean, clean_val = data.raw_cycles(tr, tm), data.raw_cycles(vr, vm)
     val = data.fixed_noisy_validation(vr, vm, noise_levels=tuple(protocol["validation_noise_levels_db"]),
                                      materialized_root=strong_root / "generated/source")
-    model = make_model(method).to(device)
+    model = model_factory(method).to(device)
     initial_sha = hashlib.sha256(b"".join(p.detach().cpu().numpy().tobytes() for p in model.backbone.parameters())).hexdigest()
     optimizer = torch.optim.Adam(model.parameters(), lr=.001, weight_decay=0.)
     history, states = [], {}
@@ -130,7 +132,7 @@ def train(method, seed, output, strong_root):
     chosen, reference = score_checkpoints(history), select_original_reference(history)
     folder.mkdir(parents=True, exist_ok=False)
     checkpoint = {"state": states[chosen["epoch"]], "method": method, "seed": seed, "selected": chosen,
-                  "source_only": True, "raw_points": RAW_POINTS, "code_family": VERSION,
+                  "source_only": True, "raw_points": RAW_POINTS, "code_family": version,
                   "protocol": protocol["protocol"], "train_noise_levels_db": protocol["training_noise_levels_db"],
                   "val_noise_levels_db": protocol["validation_noise_levels_db"], "final_holdout_evaluated": False}
     torch.save(checkpoint, folder / "best.pt")
@@ -143,23 +145,23 @@ def train(method, seed, output, strong_root):
                                 "target_used_for_training_or_selection": False, "final_holdout_evaluated": False})
 
 
-def check_checkpoint(checkpoint, method, seed):
+def check_checkpoint(checkpoint, method, seed, *, protocol=None, version=VERSION):
     """禁止拿旧权重或扩大训练噪声的权重冒充本轮重新选模结果。"""
-    protocol = config()
-    expected = {"method": method, "seed": seed, "code_family": VERSION, "source_only": True,
+    protocol = config() if protocol is None else protocol
+    expected = {"method": method, "seed": seed, "code_family": version, "source_only": True,
                 "raw_points": RAW_POINTS, "train_noise_levels_db": protocol["training_noise_levels_db"],
                 "val_noise_levels_db": protocol["validation_noise_levels_db"], "protocol": protocol["protocol"]}
     if any(checkpoint.get(k) != v for k, v in expected.items()):
         raise ValueError("权重与本轮四模型扩大验证协议不一致")
 
 
-def evaluate(method, seed, output, original_root, strong_root):
+def evaluate(method, seed, output, original_root, strong_root, *, protocol=None, model_factory=make_model, version=VERSION):
     """同一88个编号、2474周期，纯推理；所有条件只用五档验证选中的best.pt。"""
-    protocol = config()
+    protocol = config() if protocol is None else protocol
     fix_randomness(seed)
     checkpoint = torch.load(output / f"models/{method}/seed{seed}/best.pt", map_location="cpu", weights_only=True)
-    check_checkpoint(checkpoint, method, seed)
-    model = make_model(method).cuda()
+    check_checkpoint(checkpoint, method, seed, protocol=protocol, version=version)
+    model = model_factory(method).cuda()
     model.load_state_dict(checkpoint["state"], strict=True)
     from prepare import ROOT, OUT
     split, metadata = read(ROOT / "configs/splits_gate0_v1.json"), read(OUT / "target_dev_clean_windows.json")
