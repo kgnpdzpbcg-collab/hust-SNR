@@ -1,0 +1,10 @@
+identity/seed2025 clean Macro-F1=91.4790%
+identity/seed2025 snr10 Macro-F1=90.7015%
+identity/seed2025 snr15 Macro-F1=92.5380%
+identity/seed2025 snr20 Macro-F1=93.5379%
+identity/seed2025 snr25 Macro-F1=92.7022%
+identity/seed2025 snr30 Macro-F1=92.2098%
+identity/seed2025 snr35 Macro-F1=92.0475%
+identity/seed2025 snr40 Macro-F1=91.7216%
+identity/seed2025 snr5 Macro-F1=81.3480%
+identity/seed2025 snr0 Macro-F1=57.1532%

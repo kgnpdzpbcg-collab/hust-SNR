@@ -1,0 +1,10 @@
+fixed_half/seed2026 clean Macro-F1=95.7957%
+fixed_half/seed2026 snr10 Macro-F1=94.9657%
+fixed_half/seed2026 snr15 Macro-F1=95.2457%
+fixed_half/seed2026 snr20 Macro-F1=95.7009%
+fixed_half/seed2026 snr25 Macro-F1=95.9243%
+fixed_half/seed2026 snr30 Macro-F1=95.8277%
+fixed_half/seed2026 snr35 Macro-F1=95.7618%
+fixed_half/seed2026 snr40 Macro-F1=95.7302%
+fixed_half/seed2026 snr5 Macro-F1=92.6258%
+fixed_half/seed2026 snr0 Macro-F1=87.1729%

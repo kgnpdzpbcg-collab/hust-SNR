@@ -186,3 +186,23 @@ python scripts/v4_experiment.py summarize
 - [固定融合模型](scripts/fixed_half_fusion.py) · [独立入口](scripts/fixed_half_experiment.py) · [冻结配置](configs/fixed_half_vs_v5_v1.json) · [协议](docs/FIXED_HALF_VS_V5_PROTOCOL.md)
 - [逐种子配对](records/fixed_half_fusion/server_3c38037/results/PAIRED_V5_COMPARISON.csv) · [六类指标](records/fixed_half_fusion/server_3c38037/results/PER_CLASS_PER_SEED.csv)
 - [具体数据编号](records/fixed_half_fusion/server_3c38037/results/DATA_FILE_INDEX.csv) · [独立核验](records/fixed_half_fusion/server_3c38037/results/VERIFICATION.json)
+
+## 五模型新增种子2024、2025、2026
+
+运行提交`3f07228`，新增五模型×三个种子共15次50轮训练，训练/验证数据、10–40 dB训练噪声、五档源验证选模、CNN及损失保持冻结。原42/43/44结果复用，分别统计原三个、新三个及合并六个种子。15次训练、150组新增评估与合并汇总墙钟时间83.170秒。
+
+全部六种子的实测Dev Macro-F1（均值±样本标准差，%）：
+
+| 模型 | Clean | 10 dB | 5 dB | 0 dB |
+|---|---:|---:|---:|---:|
+| A′无滤波 | 90.83 ± 2.62 | 86.18 ± 3.79 | 75.99 ± 4.29 | 53.72 ± 4.05 |
+| 三阶低通 | 94.68 ± 2.89 | 93.78 ± 2.96 | 92.16 ± 3.32 | 86.83 ± 4.36 |
+| 四阶低通 | 95.52 ± 0.93 | 94.46 ± 1.59 | 92.45 ± 2.45 | 86.32 ± 3.78 |
+| V5 NA-HSF | 94.34 ± 6.43 | 93.32 ± 6.68 | 91.18 ± 7.58 | 85.49 ± 7.80 |
+| 固定α=0.5 | 94.42 ± 3.68 | 93.01 ± 3.95 | 90.53 ± 4.82 | 85.03 ± 6.39 |
+
+54项测试、90组新源验证与150组新实测预测复现、300行逐种子指标、1800行类别指标和600行模型配对核验通过。30个组合源验证选模独立重算，1462个原文件SHA不变；347个Final-Holdout编号未评估。
+
+- [完整客观报告：新增、原三种子及六种子汇总](records/five_models_extra_seeds/server_3f07228/SERVER_RESULTS.md)
+- [300行逐种子成绩](records/five_models_extra_seeds/server_3f07228/results/PER_SEED_RESULTS.csv) · [600行配对](records/five_models_extra_seeds/server_3f07228/results/PAIRED_PER_SEED.csv) · [1800行类别指标](records/five_models_extra_seeds/server_3f07228/results/PER_CLASS_PER_SEED.csv)
+- [独立入口](scripts/five_models_extra_seeds.py) · [冻结配置](configs/five_models_extra_seeds_v1.json) · [协议](docs/FIVE_MODELS_EXTRA_SEEDS_PROTOCOL.md) · [独立核验](records/five_models_extra_seeds/server_3f07228/results/VERIFICATION.json)

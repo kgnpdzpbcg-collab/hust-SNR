@@ -1,0 +1,6 @@
+fixed_half/seed2026 epoch1/50 Clean=0.6260 Val5=0.6030 Val3=0.6252
+fixed_half/seed2026 epoch10/50 Clean=1.0000 Val5=0.9904 Val3=1.0000
+fixed_half/seed2026 epoch20/50 Clean=1.0000 Val5=0.9753 Val3=0.9989
+fixed_half/seed2026 epoch30/50 Clean=1.0000 Val5=0.9785 Val3=1.0000
+fixed_half/seed2026 epoch40/50 Clean=1.0000 Val5=0.9836 Val3=1.0000
+fixed_half/seed2026 epoch50/50 Clean=0.9577 Val5=0.9463 Val3=0.9588

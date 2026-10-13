@@ -1,0 +1,6 @@
+identity/seed2025 epoch1/50 Clean=0.8301 Val5=0.5068 Val3=0.6734
+identity/seed2025 epoch10/50 Clean=0.9469 Val5=0.8517 Val3=0.9429
+identity/seed2025 epoch20/50 Clean=1.0000 Val5=0.9149 Val3=0.9977
+identity/seed2025 epoch30/50 Clean=0.9121 Val5=0.7978 Val3=0.9018
+identity/seed2025 epoch40/50 Clean=0.9373 Val5=0.8737 Val3=0.9457
+identity/seed2025 epoch50/50 Clean=1.0000 Val5=0.6457 Val3=0.9119

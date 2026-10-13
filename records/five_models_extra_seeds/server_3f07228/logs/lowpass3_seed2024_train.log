@@ -1,0 +1,6 @@
+lowpass3/seed2024 epoch1/50 Clean=0.6389 Val5=0.6073 Val3=0.6388
+lowpass3/seed2024 epoch10/50 Clean=0.9343 Val5=0.9272 Val3=0.9343
+lowpass3/seed2024 epoch20/50 Clean=0.9343 Val5=0.9016 Val3=0.9327
+lowpass3/seed2024 epoch30/50 Clean=0.9676 Val5=0.9294 Val3=0.9700
+lowpass3/seed2024 epoch40/50 Clean=1.0000 Val5=0.9498 Val3=0.9977
+lowpass3/seed2024 epoch50/50 Clean=0.9807 Val5=0.9433 Val3=0.9796

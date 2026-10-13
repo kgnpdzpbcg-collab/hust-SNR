@@ -1,0 +1,116 @@
+{
+  "method": "fixed_half",
+  "seed": 2024,
+  "protocol": {
+    "protocol": "five_models_extra_seeds2024_2025_2026_v1",
+    "methods": [
+      "identity",
+      "lowpass3",
+      "lowpass4",
+      "nahsf",
+      "fixed_half"
+    ],
+    "method_names": {
+      "identity": "A'无滤波",
+      "lowpass3": "三阶低通",
+      "lowpass4": "四阶低通",
+      "nahsf": "V5 NA-HSF",
+      "fixed_half": "固定α=0.5融合"
+    },
+    "seeds": [
+      2024,
+      2025,
+      2026
+    ],
+    "original_seeds": [
+      42,
+      43,
+      44
+    ],
+    "combined_seeds": [
+      42,
+      43,
+      44,
+      2024,
+      2025,
+      2026
+    ],
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "fixed_alpha": 0.5,
+    "training_noise_levels_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "validation_noise_levels_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "target_conditions": [
+      "clean",
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      5,
+      0
+    ],
+    "validation_0_5_input": "previously verified fixed source/SNR_0 and source/SNR_5 MAT",
+    "loss": "0.5 CE(clean) + 0.5 CE(noisy)",
+    "selection": "maximum five-SNR source validation mean Macro-F1; Clean within 1pp of peak; then Clean and earliest epoch",
+    "historical_four_code_commit": "56513c7b37ec990ac1a3aa060ed9b453e8dd7e5d",
+    "historical_fixed_code_commit": "3c3803704d332e81448cfb1afcef1fbd9fe55a28",
+    "original_seeds_retrained": false,
+    "old_selection_reference_weight": "audit only; never used for target evaluation",
+    "target_used_for_training_or_selection": false,
+    "final_holdout_evaluated": false
+  },
+  "initial_cnn_sha256": "689b423405a4a512d25270c2bdd28b72a3dc1a6ea4cb3d8585dc777da8775825",
+  "parameter_counts": {
+    "cnn": 25620,
+    "spectral": 0,
+    "total": 25620
+  },
+  "selected": {
+    "epoch": 36,
+    "train_loss_mean": 0.18227955113737457,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 0.8837935749632467,
+      "5": 0.9804691521026546,
+      "10": 0.9935873720557405,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.9715700198243283,
+    "original_three_snr_mean_f1": 0.9978624573519136
+  },
+  "old_three_snr_selected": {
+    "epoch": 38,
+    "train_loss_mean": 0.0619137208389778,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 0.8321535085200732,
+      "5": 0.9432810088103444,
+      "10": 0.9964046662841843,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.9988015554280615,
+    "original_three_snr_mean_f1": 0.9988015554280615
+  },
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

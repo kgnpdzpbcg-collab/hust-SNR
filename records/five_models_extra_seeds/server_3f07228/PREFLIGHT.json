@@ -1,0 +1,193 @@
+{
+  "status": "passed",
+  "unit_test_command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_five_models_extra_seeds.py",
+    "tests/test_fixed_half_fusion.py",
+    "tests/test_four_models_expanded_val.py",
+    "tests/test_v5_nahsf.py",
+    "tests/test_v5_experiment.py",
+    "tests/test_v2_paifilter.py",
+    "tests/test_v2_experiment.py"
+  ],
+  "unit_test_output": "......................................................                   [100%]\n54 passed in 1.98s\n",
+  "initial_cnn_sha256": {
+    "2024": {
+      "identity": "689b423405a4a512d25270c2bdd28b72a3dc1a6ea4cb3d8585dc777da8775825",
+      "lowpass3": "689b423405a4a512d25270c2bdd28b72a3dc1a6ea4cb3d8585dc777da8775825",
+      "lowpass4": "689b423405a4a512d25270c2bdd28b72a3dc1a6ea4cb3d8585dc777da8775825",
+      "nahsf": "689b423405a4a512d25270c2bdd28b72a3dc1a6ea4cb3d8585dc777da8775825",
+      "fixed_half": "689b423405a4a512d25270c2bdd28b72a3dc1a6ea4cb3d8585dc777da8775825"
+    },
+    "2025": {
+      "identity": "8735a9b3027d6c67b3724596cbb1529c7ebe62a12ec0889d2f07e53ecaec37e7",
+      "lowpass3": "8735a9b3027d6c67b3724596cbb1529c7ebe62a12ec0889d2f07e53ecaec37e7",
+      "lowpass4": "8735a9b3027d6c67b3724596cbb1529c7ebe62a12ec0889d2f07e53ecaec37e7",
+      "nahsf": "8735a9b3027d6c67b3724596cbb1529c7ebe62a12ec0889d2f07e53ecaec37e7",
+      "fixed_half": "8735a9b3027d6c67b3724596cbb1529c7ebe62a12ec0889d2f07e53ecaec37e7"
+    },
+    "2026": {
+      "identity": "e7fbd1d83183f11bd7405fd0d0704137f400779c26b2a6d3a02b22517e2daf3b",
+      "lowpass3": "e7fbd1d83183f11bd7405fd0d0704137f400779c26b2a6d3a02b22517e2daf3b",
+      "lowpass4": "e7fbd1d83183f11bd7405fd0d0704137f400779c26b2a6d3a02b22517e2daf3b",
+      "nahsf": "e7fbd1d83183f11bd7405fd0d0704137f400779c26b2a6d3a02b22517e2daf3b",
+      "fixed_half": "e7fbd1d83183f11bd7405fd0d0704137f400779c26b2a6d3a02b22517e2daf3b"
+    }
+  },
+  "first_epoch_noise_sha256": {
+    "2024": "314e5866396dedc58895abf47a21063c95654ac8a127ccaa23bcd6ae7c7a5dc2",
+    "2025": "859e26b41d0a25661955e1a786fa30cbeac689570d4627cb058112114a994163",
+    "2026": "4c148b4eb0448e34124034aab42dcce584d2f9aa2a4bce37916f7def498fa259"
+  },
+  "fixed_val0_5_matches_original_rng": true,
+  "initial_v5_fixed_logits_exactly_equal": true,
+  "real_cuda_checks": {
+    "identity/seed2024": {
+      "real_cuda_loss": 1.8007121086120605,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "lowpass3/seed2024": {
+      "real_cuda_loss": 1.8068312406539917,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "lowpass4/seed2024": {
+      "real_cuda_loss": 1.8099552392959595,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "nahsf/seed2024": {
+      "real_cuda_loss": 1.807626485824585,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 41,
+        "total": 25661
+      },
+      "gate_bias_grad_max": 0.0011239858577027917
+    },
+    "fixed_half/seed2024": {
+      "real_cuda_loss": 1.807626485824585,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "identity/seed2025": {
+      "real_cuda_loss": 1.8662831783294678,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "lowpass3/seed2025": {
+      "real_cuda_loss": 1.879102110862732,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "lowpass4/seed2025": {
+      "real_cuda_loss": 1.8745402097702026,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "nahsf/seed2025": {
+      "real_cuda_loss": 1.8783905506134033,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 41,
+        "total": 25661
+      },
+      "gate_bias_grad_max": 0.0009829446207731962
+    },
+    "fixed_half/seed2025": {
+      "real_cuda_loss": 1.8783905506134033,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "identity/seed2026": {
+      "real_cuda_loss": 1.6610300540924072,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "lowpass3/seed2026": {
+      "real_cuda_loss": 1.6569746732711792,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "lowpass4/seed2026": {
+      "real_cuda_loss": 1.6571743488311768,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    },
+    "nahsf/seed2026": {
+      "real_cuda_loss": 1.6569982767105103,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 41,
+        "total": 25661
+      },
+      "gate_bias_grad_max": 0.0001635126245673746
+    },
+    "fixed_half/seed2026": {
+      "real_cuda_loss": 1.6569982767105103,
+      "finite_gradients": true,
+      "parameter_counts": {
+        "cnn": 25620,
+        "spectral": 0,
+        "total": 25620
+      }
+    }
+  },
+  "source_train_records": 34,
+  "source_val_records": 15,
+  "source_train_cycles": 738,
+  "source_val_cycles": 302,
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_version": "2.14.1+cu130"
+}

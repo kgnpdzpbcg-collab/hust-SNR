@@ -1,0 +1,10 @@
+lowpass4/seed2026 clean Macro-F1=95.2773%
+lowpass4/seed2026 snr10 Macro-F1=95.0900%
+lowpass4/seed2026 snr15 Macro-F1=95.3882%
+lowpass4/seed2026 snr20 Macro-F1=95.4179%
+lowpass4/seed2026 snr25 Macro-F1=95.4175%
+lowpass4/seed2026 snr30 Macro-F1=95.3517%
+lowpass4/seed2026 snr35 Macro-F1=95.4526%
+lowpass4/seed2026 snr40 Macro-F1=95.2399%
+lowpass4/seed2026 snr5 Macro-F1=94.0236%
+lowpass4/seed2026 snr0 Macro-F1=90.2189%
