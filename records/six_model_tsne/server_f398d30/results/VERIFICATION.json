@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "feature_sets_verified": 72,
+  "native_prediction_sets_reproduced": 36,
+  "head_feature_prediction_replays": 72,
+  "coordinate_label_rows_verified": 178128,
+  "aggregate_groups_verified": 24,
+  "repeat_projection_coordinate_max_abs_difference": 0.0,
+  "repeat_projection_identical_with_tolerance_1e_9": true,
+  "weights_and_old_results_unchanged": true,
+  "feature_arrays_uploaded": false,
+  "final_holdout_evaluated": false
+}

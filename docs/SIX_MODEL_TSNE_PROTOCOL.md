@@ -15,3 +15,5 @@
 特征提取、降维在服务器既有环境运行。原始352/50维数组仅保存在服务器，绘图在本地复用已有`.cache/figure_runtime` Matplotlib缓存；不新建PyTorch环境或安装依赖。发布代码、二维坐标、指标、配置、SHA及600dpi PNG/字体嵌入PDF，不发布原始电流、权重或高维NPZ。347个Final-Holdout不读取、不评估。
 
 入口为`scripts/six_model_tsne.py`及`scripts/plot_six_model_tsne.py`，配置为`configs/six_model_tsne_v1.json`。各阶段使用独立新输出目录并拒绝覆盖。正式完成、预测重放及图像检查状态另外记录；本协议本身不代表已运行。
+
+2026-10-13完成状态：提交`f398d30`已完成72组特征提取/投影、36组原预测重放、72组特征分类头重放和12张六面板图。全部图像已检查，详细数值、二维坐标、验证及图像入口见[正式记录](../records/six_model_tsne/server_f398d30/VISUALIZATION_RECORD.md)。
