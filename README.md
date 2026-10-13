@@ -240,3 +240,25 @@ python scripts/v4_experiment.py summarize
 - [Xu-Full服务器完整客观记录及同三种子历史配对](records/xu2025_full/server_bb2f219/SERVER_RESULTS.md)
 - [150轮损失分量](records/xu2025_full/server_bb2f219/results/matched/reports/TRAIN_LOSS_COMPONENTS.csv) · [30行逐种子成绩](records/xu2025_full/server_bb2f219/results/matched/reports/FULL_PER_SEED_RESULTS.csv)
 - [六类指标](records/xu2025_full/server_bb2f219/results/matched/reports/PER_CLASS_PER_SEED.csv) · [独立核验](records/xu2025_full/server_bb2f219/results/matched/reports/VERIFICATION.json)
+
+
+## 经典方法对照：SVM-RBF、Random Forest、1D-ResNet
+
+**研究分支：`research/classical-baselines-v1`。** 与既有 A′／LP3／LP4／固定α=0.5／V5 NA-HSF／Xu-Full 独立，不修改或重跑历史模型。新增三种标准方法，使用原先冻结的 Source-Train／Val 和 88 条 Target-Dev，且仅使用 seed 42、43、44：
+
+- [三种基线的完整协议及特征说明](docs/CLASSICAL_BASELINES_V1.md) · [冻结配置](configs/classical_baselines_v1.json)
+- [SVM/RF 时频特征与 1D-ResNet 模型](scripts/classical_baseline_models.py) · [训练、验证、评估及汇总](scripts/classical_baseline_experiment.py)
+- [服务器执行脚本](scripts/run_classical_baselines_server.sh) · [单元测试](tests/test_classical_baselines.py)
+
+SVM 与 RF 使用相同的五相电流120维时域／谐波特征以及源域7次噪声增强视图；ResNet 使用标准残差块与 V5 相同的 MD→128点预处理，在 10–40 dB 配对源训练下进行50轮优化。所有超参数和 checkpoint **只能使用源域 Clean＋0/5/10/20/30 dB 验证选择**；Target-Dev 只能最终推理汇报。5/0 dB 属于合成压力条件，不能称作额外采集的实测数据；347 条 Final-Holdout 不读取。
+
+服务器根目录：
+
+```bash
+export SOURCE_STRONG_ROOT="/path/to/strong_data_root"
+export TARGET_SNR_ROOT="/path/to/original_SNR_parent"
+export TARGET_STRONG_ROOT="/path/to/strong_data_root"
+bash scripts/run_classical_baselines_server.sh
+```
+
+**状态：本地代码和 11 项单元测试、命令行 smoke 及 shell 检查通过；尚未完成这三种模型的正式 GPU／CPU 服务器数据实验，不存在新增 Macro-F1 成绩。**
