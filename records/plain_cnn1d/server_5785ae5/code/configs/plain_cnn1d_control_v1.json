@@ -1,0 +1,19 @@
+{
+  "protocol": "HUST-plain-CNN1D-residual-control-v1",
+  "reference_classical_protocol": "HUST-classical-baselines-source-only-v1",
+  "method": "cnn1d_plain",
+  "seeds": [42, 43, 44],
+  "source_train_snr_db": [10, 15, 20, 25, 30, 35, 40],
+  "source_val_snr_db": [0, 5, 10, 20, 30],
+  "target_conditions": ["clean", 10, 15, 20, 25, 30, 35, 40, 5, 0],
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "train_loss": "0.5 CE(clean) + 0.5 CE(noisy), same joint batch as ResNet1D",
+  "selection": "source clean within 1pp of maximum, then best five-SNR source-val Macro-F1",
+  "architecture": "FivePhaseResNet1D matched stem, six double-conv blocks, widths 32/64/128, stride transitions, GAP128, same classifier; remove residual and projection shortcuts only",
+  "target_training": false,
+  "target_checkpoint_selection": false,
+  "final_holdout_evaluated": false
+}

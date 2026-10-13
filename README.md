@@ -314,4 +314,19 @@ export TARGET_STRONG_ROOT="/path/to/strong_data_root"
 bash scripts/run_plain_cnn1d_server.sh
 ```
 
-**状态**：本地结构、梯度及协议测试 8 passed，Python/shell 语法与 smoke 检查通过（本地用了依赖接口测试替身）；尚未运行真实服务器训练/评估，未产生新的故障诊断 Macro-F1。Final-Holdout 保持隔离。
+**状态**：原代码提交`5785ae5`已在原服务器完成三个种子的150轮训练及30组十条件实测Dev评估。服务器8项测试、真实GPU梯度、源噪声匹配、3组源选模、18组源验证及30组目标预测重放通过；2148个旧文件SHA不变。复用原uv/PyTorch环境，三进程训练/评估/汇总32.046秒，Final-Holdout未评估。
+
+Macro-F1（42/43/44均值±样本标准差，%），ResNet/V5为同三个种子的原成绩：
+
+| 模型 | Clean | 10 dB | 5 dB | 0 dB |
+|---|---:|---:|---:|---:|
+| Plain CNN1D | 95.10 ± 6.90 | 95.02 ± 3.41 | 89.33 ± 3.75 | 66.54 ± 3.73 |
+| ResNet1D | 98.88 ± 1.94 | 98.49 ± 1.35 | 93.35 ± 2.41 | 70.96 ± 9.04 |
+| V5 NA-HSF | 98.22 ± 1.51 | 97.51 ± 1.33 | 96.08 ± 0.76 | 90.97 ± 1.33 |
+
+Plain CNN1D参数231078，历史ResNet241702；选中轮次为43/42/22。全部种子保留，种子43的实测Clean为87.20%。未重新训练或覆盖历史方法，未追加t-SNE或低分诊断。
+
+- [CNN1D完整服务器记录、十条件及历史方法对照](records/plain_cnn1d/server_5785ae5/SERVER_RESULTS.md)
+- [30行逐种子结果](records/plain_cnn1d/server_5785ae5/results/reports/PER_SEED_RESULTS.csv) · [180行六类指标](records/plain_cnn1d/server_5785ae5/results/reports/PER_CLASS_PER_SEED.csv)
+- [150轮损失及源验证](records/plain_cnn1d/server_5785ae5/results/reports/TRAIN_LOSS_HISTORY.csv) · [逐种子ResNet/V5配对差](records/plain_cnn1d/server_5785ae5/results/reports/PAIRED_RESNET_V5.csv)
+- [独立核验](records/plain_cnn1d/server_5785ae5/results/reports/VERIFICATION.json) · [文件/类别/时间段索引](records/plain_cnn1d/server_5785ae5/results/reports/DATA_FILE_INDEX.csv)

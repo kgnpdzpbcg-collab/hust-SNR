@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "unit_tests_passed": 8,
+  "smoke_passed": true,
+  "shell_syntax_passed": true,
+  "source_train_records": 34,
+  "source_val_records": 15,
+  "source_train_cycles": 738,
+  "source_val_cycles": 302,
+  "source_split_record_overlap": 0,
+  "source_val_noise_matches_original_rng": true,
+  "first_epoch_noise_sha256": {
+    "42": "a49d07c66970c8abe8257728c01e322b3adfaaf4b07500541274cd447626d65b",
+    "43": "89bbd8732d346ad421b99779865aeeb8b80acceea742cb02c6a8ab9bb1c3ab2e",
+    "44": "06f21a9012b6d0c3de315d7a13dc89825c3fcfed99300aec3f13bceffdbde60b"
+  },
+  "first_epoch_noise_matches_previous_resnet": true,
+  "initial_weights_sha256": {
+    "42": "5c54c09c8c1c0d641d7a8e17fadff894f14725d51df081f4ca2e1dbb0d2b2a45",
+    "43": "992b52f2298ae95cf01136e9a40119032cfbd49593fd411996af82d704c65b12",
+    "44": "9bfefaddf89a95554f56d923385a7cc3003a7af381dd088a3ab78b5965fd6c54"
+  },
+  "real_gpu_first_batch_loss": {
+    "42": 1.8100733757019043,
+    "43": 1.7776926755905151,
+    "44": 1.822876214981079
+  },
+  "all_parameter_gradients_finite": true,
+  "plain_cnn_parameters": 231078,
+  "reference_resnet_parameters": 241702,
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_version": "2.14.1+cu130",
+  "final_holdout_evaluated": false
+}

@@ -1,0 +1,27 @@
+{
+  "method": "cnn1d_plain",
+  "seed": 42,
+  "protocol": "HUST-plain-CNN1D-residual-control-v1",
+  "reference_classical_protocol": "HUST-classical-baselines-source-only-v1",
+  "source_split": "34 train / 15 val records",
+  "selected": {
+    "epoch": 43,
+    "train_loss_mean": 0.02487766378908418,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 0.8316191730959747,
+      "5": 0.9721222449206585,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.9607482836033266
+  },
+  "initial_weights_sha256": "5c54c09c8c1c0d641d7a8e17fadff894f14725d51df081f4ca2e1dbb0d2b2a45",
+  "parameters": 231078,
+  "train_epochs": 50,
+  "batch_size": 32,
+  "source_only": true,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

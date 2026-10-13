@@ -1,0 +1,4 @@
+seed,selected_epoch,eligible_epochs,source_clean_f1_percent,source_five_noise_mean_percent
+42,43,47,100.0,96.07482836033266
+43,42,48,100.0,94.34210031191125
+44,22,49,100.0,95.61111955456334

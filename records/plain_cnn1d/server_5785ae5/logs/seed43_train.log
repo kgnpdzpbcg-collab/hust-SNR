@@ -1,0 +1,6 @@
+cnn1d_plain seed43 epoch1/50 source Clean=0.2997 5SNR=0.1873
+cnn1d_plain seed43 epoch10/50 source Clean=1.0000 5SNR=0.8693
+cnn1d_plain seed43 epoch20/50 source Clean=1.0000 5SNR=0.9279
+cnn1d_plain seed43 epoch30/50 source Clean=1.0000 5SNR=0.9108
+cnn1d_plain seed43 epoch40/50 source Clean=1.0000 5SNR=0.9230
+cnn1d_plain seed43 epoch50/50 source Clean=1.0000 5SNR=0.9015

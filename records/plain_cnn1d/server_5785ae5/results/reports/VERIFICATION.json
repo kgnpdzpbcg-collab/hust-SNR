@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "source_selection_independently_recomputed": 3,
+  "source_validation_metric_sets_reproduced": 18,
+  "target_prediction_sets_reproduced": 30,
+  "metrics_independently_recomputed": 30,
+  "summary_groups_recomputed": 10,
+  "training_epochs_verified": 150,
+  "unit_tests_passed": 8,
+  "protected_files_sha256_verified": 2148,
+  "original_files_unchanged": true,
+  "fixed_inference_states_unchanged": true,
+  "final_holdout_evaluated": false
+}
