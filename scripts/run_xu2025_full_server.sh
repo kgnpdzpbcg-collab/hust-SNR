@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
-# Paper-grounded Xu2025 CAE+DML: server execution with explicit provenance.
-# Must run in repo root with the SAME v2/v5 validated Python environment.
-# WARNING: no training/evaluation uses Target-Final-Holdout or source test.
+# Xu et al. (TPEL 2025) FULL CAE+DML baseline ONLY, for comparison with
+# previously completed A' / V5 experiments. No full-Xu LP3/LP4/NA-HSF arms.
+# Execute at repository root in the SAME validated Python/CUDA environment.
+# Uses matched V5 noise/data/selection protocol, not the paper's original
+# unspecified training implementation. Does not touch Final-Holdout.
 set -euo pipefail
-: "${SOURCE_STRONG_ROOT:?set absolute path containing SNR_0 and SNR_5 source MAT subdirectories}"
-: "${TARGET_SNR_ROOT:?set absolute path containing original SNR_10...SNR_40 target MAT directories}"
-: "${TARGET_STRONG_ROOT:?set absolute path containing generated target SNR_0 and SNR_5 MAT directories}"
+: "${SOURCE_STRONG_ROOT:?set parent folder containing source SNR_0 and SNR_5 MAT files}"
+: "${TARGET_SNR_ROOT:?set parent folder containing target SNR_10...SNR_40 files}"
+: "${TARGET_STRONG_ROOT:?set parent folder containing generated target SNR_0 and SNR_5 files}"
 PYTHON_BIN="${PYTHON_BIN:-python}"
 OUT="${XU_FULL_OUT:-outputs/xu2025_full}"
 
@@ -15,27 +17,17 @@ OUT="${XU_FULL_OUT:-outputs/xu2025_full}"
   tests/test_xu2025_full_model.py \
   tests/test_xu2025_full_experiment.py
 
-# Keep the two study tracks separate; identical source-record IDs but distinctly
-# named training protocols. Each run refuses checkpoint/evaluation overwrites.
+# ONLY ONE model type: xu_full (complete encoder+decoder+classifier+DML).
+# Three seeds are replicates of that SAME baseline, not three architectures.
 "$PYTHON_BIN" scripts/xu2025_full_experiment.py train \
-  --track paper_like --modes xu_full --out "$OUT"
-
-"$PYTHON_BIN" scripts/xu2025_full_experiment.py train \
-  --track matched \
-  --modes xu_full xu_full_lp3 xu_full_lp4 xu_full_nahsf xu_cae_classify \
+  --track matched --modes xu_full --seeds 42 43 44 \
   --source-strong-root "$SOURCE_STRONG_ROOT" --out "$OUT"
 
-for track in matched paper_like; do
-  if [[ "$track" == matched ]]; then
-    modes=(xu_full xu_full_lp3 xu_full_lp4 xu_full_nahsf xu_cae_classify)
-  else
-    modes=(xu_full)
-  fi
-  "$PYTHON_BIN" scripts/xu2025_full_experiment.py evaluate \
-    --track "$track" --modes "${modes[@]}" \
-    --snr-root "$TARGET_SNR_ROOT" --strong-root "$TARGET_STRONG_ROOT" --out "$OUT"
-  "$PYTHON_BIN" scripts/xu2025_full_experiment.py summarize \
-    --track "$track" --modes "${modes[@]}" --out "$OUT"
-done
+"$PYTHON_BIN" scripts/xu2025_full_experiment.py evaluate \
+  --track matched --modes xu_full --seeds 42 43 44 \
+  --snr-root "$TARGET_SNR_ROOT" --strong-root "$TARGET_STRONG_ROOT" --out "$OUT"
 
-echo "Complete. Review results in $OUT/{matched,paper_like}/reports/ before publication."
+"$PYTHON_BIN" scripts/xu2025_full_experiment.py summarize \
+  --track matched --modes xu_full --seeds 42 43 44 --out "$OUT"
+
+echo "Xu-Full ONLY complete. See $OUT/matched/reports/. Existing V5 experiments remain unchanged."
