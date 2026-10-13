@@ -1,0 +1,11 @@
+{
+  "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results/models/svm_rbf/seed42/best.joblib": "6818976236af6e950bd6245e5fdd8fdcb3e2e276f3f58c54eeadc03d0013667d",
+  "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results/models/svm_rbf/seed43/best.joblib": "abfac6682c972d75dac905658c5d52dd508dba3d0362f6f118c81fff73588a69",
+  "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results/models/svm_rbf/seed44/best.joblib": "ac3e7506eac78ba425817d4bd83c69fe06da92c770b3f8d7024d8d685a81ffbd",
+  "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results/models/random_forest/seed42/best.joblib": "a3f2b9eda5e98c72a7e6c29f725d8f79c3ec41dfa6a3ce1bc4c8894e3b17f0a0",
+  "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results/models/random_forest/seed43/best.joblib": "42b00f0161fbb83b593836d1698496d6ba73cdfc62e277a0a58df4fbb91b24e7",
+  "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results/models/random_forest/seed44/best.joblib": "074d205779640490ec50d9726e6f2bc0563acf3a48f5cb32da8318fbb2fa57e0",
+  "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results/models/resnet1d/seed42/best.pt": "bb298d9fa8fe57a979d5e26c6c2b4451dd3181b35eae0bc0d31c8deb0705f0ce",
+  "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results/models/resnet1d/seed43/best.pt": "79b81e065dffcfd74fb61980e83f86523526a9221a68106ed7c66d33d51167fd",
+  "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results/models/resnet1d/seed44/best.pt": "b7dbf6ca592d66a90a4c0151362019b693b99b7c503fe02c6c303adc1c06dfe6"
+}

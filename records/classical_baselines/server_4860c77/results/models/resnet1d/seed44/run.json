@@ -1,0 +1,37 @@
+{
+  "method": "resnet1d",
+  "seed": 44,
+  "protocol": "HUST-classical-baselines-source-only-v1",
+  "selected": {
+    "epoch": 43,
+    "train_loss_mean": 0.002470326114538087,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 0.7780713879754799,
+      "5": 0.9655121421788088,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.9487167060308577
+  },
+  "training": {
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "residual_stages": [
+      32,
+      64,
+      128
+    ],
+    "blocks_per_stage": 2,
+    "loss": "0.5 * CE(clean) + 0.5 * CE(noisy)",
+    "selection": "source-clean within 1pp of max, then highest five-SNR source validation mean Macro-F1, ties clean and earliest epoch"
+  },
+  "initial_weights_sha256": "db116549d137420cfe1893c7b455484af4f5d9a67276f711abc79e2a476ea0f2",
+  "parameters": 241702,
+  "source_only": true,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

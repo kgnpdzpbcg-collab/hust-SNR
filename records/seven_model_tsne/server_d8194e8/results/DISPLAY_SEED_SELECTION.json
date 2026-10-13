@@ -1,0 +1,38 @@
+{
+  "criterion": "highest historical V5 mean Macro-F1 across Clean/10/5/0 dB; ties smallest seed; illustration only",
+  "candidates": [
+    {
+      "seed": 42,
+      "scores": {
+        "clean": 0.965781370116804,
+        "snr10": 0.9657283429404454,
+        "snr5": 0.9589403546222531,
+        "snr0": 0.9247188455784289
+      },
+      "mean_macro_f1": 0.9537922283144828
+    },
+    {
+      "seed": 43,
+      "scores": {
+        "clean": 0.98545784976585,
+        "snr10": 0.9692055525930968,
+        "snr5": 0.9543952214075629,
+        "snr0": 0.8996216939132063
+      },
+      "mean_macro_f1": 0.952170079419929
+    },
+    {
+      "seed": 44,
+      "scores": {
+        "clean": 0.995412400606976,
+        "snr10": 0.9903398012222723,
+        "snr5": 0.9691729947399058,
+        "snr0": 0.9046486651918296
+      },
+      "mean_macro_f1": 0.9648934654402459
+    }
+  ],
+  "selected_seed": 44,
+  "posthoc_target_dev_selection": true,
+  "used_for_training_or_checkpoint_selection": false
+}

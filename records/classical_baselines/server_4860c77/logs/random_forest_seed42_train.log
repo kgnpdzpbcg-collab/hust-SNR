@@ -1,0 +1,2 @@
+random_forest 42 {'n_estimators': 300, 'min_samples_leaf': 1, 'max_features': 'sqrt'} source_clean= 1.0 source_noise= 0.8157
+random_forest 42 {'n_estimators': 300, 'min_samples_leaf': 3, 'max_features': 'sqrt'} source_clean= 1.0 source_noise= 0.8052

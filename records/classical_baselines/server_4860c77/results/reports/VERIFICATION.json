@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "source_selection_recomputed": 9,
+  "source_val_metric_sets_reproduced": 54,
+  "target_prediction_sets_reproduced": 90,
+  "independent_metrics_recomputed": 90,
+  "summary_groups_recomputed": 30,
+  "svm_source_only_scalers_reproduced": 3,
+  "unit_tests_passed": 11,
+  "protected_files_sha256_verified": 1951,
+  "old_weights_and_results_unchanged": true,
+  "final_holdout_evaluated": false
+}

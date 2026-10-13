@@ -69,8 +69,8 @@ def main():
             label=labels[k]) for k in range(6)]
         legend = legend_ax.legend(handles=handles,loc='upper left',fontsize=6.6,
             borderaxespad=0,handletextpad=.35,labelspacing=.6)
-        note = legend_ax.text(0,-.035,'F1: original classifier\nS: original-space\nmacro silhouette',
-            transform=legend_ax.transAxes,fontsize=6.1,ha='left',va='bottom',color='#444444')
+        note = fig.text(.5,.064,'F1: original classifier Macro-F1.  S: original-space macro silhouette.',
+            fontsize=6.2,ha='center',va='center',color='#444444')
         name = 'Clean' if condition == 'clean' else condition[3:]+' dB'
         fig.suptitle(f'Encoder features  |  {name}  |  Selected V5 seed {seed}',y=.975,fontsize=9)
         footer = fig.text(.5,.025,'V5 Dev-selected illustration; all 2,474 cycles, true labels. Separate t-SNE fits.',
@@ -84,7 +84,7 @@ def main():
             assert abs(box.width-box.height)*72 < 1.5
         assert np.ptp([row['width_pt'] for row in rects]) < 1.5
         for group in (rects[:4],rects[4:]): assert np.ptp([row['y_pt'] for row in group]) < 1.5
-        assert not legend.get_window_extent(renderer).overlaps(note.get_window_extent(renderer))
+        assert note.get_window_extent(renderer).y1 < legend.get_window_extent(renderer).y0
         assert footer.get_window_extent(renderer).y1 < note.get_window_extent(renderer).y0
         basename = f'encoder_{condition}_seed{seed}'
         for extension in ('png','pdf'):
@@ -99,6 +99,7 @@ def main():
     (args.output/'FIGURE_MANIFEST.json').write_text(json.dumps({'status':'passed','selected_seed':seed,
         'illustration_seed_selected_posthoc':True,'width_mm':180,'height_mm':98,'png_dpi':600,
         'font':'DejaVu Sans','matplotlib_version':matplotlib.__version__,'figures':4,'data_panels':28,
+        'plot_script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         'labels':labels,'colors':colors,'markers':markers,'files':files,'layout_checks':layouts},
         ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 

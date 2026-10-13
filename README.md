@@ -260,7 +260,19 @@ export TARGET_STRONG_ROOT="/path/to/strong_data_root"
 bash scripts/run_classical_baselines_server.sh
 ```
 
-**状态：本地代码和 11 项单元测试、命令行 smoke 及 shell 检查通过；尚未完成这三种模型的正式 GPU／CPU 服务器数据实验，不存在新增 Macro-F1 成绩。**
+**状态：运行提交`4860c77`已完成三方法×三个种子的服务器训练及十条件Dev评估。** 11项测试、9组源选模、54组源验证、90组实测预测和3组源训练Scaler复现通过；1951个旧文件SHA不变，最终保留集未读取。四进程并发训练、评估及汇总99.734秒，复用原uv/PyTorch环境。
+
+实测Dev Macro-F1（42/43/44均值±样本标准差，%）：
+
+| 方法 | Clean | 10 dB | 5 dB | 0 dB |
+|---|---:|---:|---:|---:|
+| RBF-SVM | 83.55 ± 0.54 | 74.32 ± 1.92 | 21.16 ± 0.59 | 2.98 ± 0.00 |
+| Random Forest | 98.83 ± 0.35 | 96.73 ± 0.48 | 86.48 ± 2.37 | 13.05 ± 0.55 |
+| ResNet1D | 98.88 ± 1.94 | 98.49 ± 1.35 | 93.35 ± 2.41 | 70.96 ± 9.04 |
+
+- [三方法完整服务器记录、十条件及同三种子历史比较](records/classical_baselines/server_4860c77/SERVER_RESULTS.md)
+- [90行逐种子成绩](records/classical_baselines/server_4860c77/results/reports/PER_SEED_RESULTS.csv) · [540行六类指标](records/classical_baselines/server_4860c77/results/reports/PER_CLASS_PER_SEED.csv) · [九方法共同种子表](records/classical_baselines/server_4860c77/results/reports/COMMON_SEED_NINE_METHODS.csv)
+- [按文件/类别/时间段统计的实际输入索引](records/classical_baselines/server_4860c77/results/reports/DATA_FILE_INDEX.csv) · [独立核验](records/classical_baselines/server_4860c77/results/reports/VERIFICATION.json)
 
 ## 六模型固定权重t-SNE与原空间指标
 
@@ -272,3 +284,14 @@ bash scripts/run_classical_baselines_server.sh
 - 主图种子42：[Clean PNG](figures/six_model_tsne/server_f398d30/encoder352_clean_seed42.png) · [10 dB PNG](figures/six_model_tsne/server_f398d30/encoder352_snr10_seed42.png) · [Clean PDF](figures/six_model_tsne/server_f398d30/encoder352_clean_seed42.pdf) · [10 dB PDF](figures/six_model_tsne/server_f398d30/encoder352_snr10_seed42.pdf)
 - [72组逐种子原空间指标](records/six_model_tsne/server_f398d30/results/FEATURE_SEPARABILITY_PER_SEED.csv) · [完整汇总](records/six_model_tsne/server_f398d30/results/SUMMARY.json) · [独立核验](records/six_model_tsne/server_f398d30/results/VERIFICATION.json)
 - [冻结协议](docs/SIX_MODEL_TSNE_PROTOCOL.md) · [提取与投影入口](scripts/six_model_tsne.py) · [绘图入口](scripts/plot_six_model_tsne.py) · [图像核查](figures/six_model_tsne/server_f398d30/VISUAL_QA.json)
+
+## 七模型单种子t-SNE：补0/5 dB及ResNet
+
+运行提交`d8194e8`。按用户指定仅选V5展示种子；固定规则为共同42/43/44中V5的Clean/10/5/0 dB平均Macro-F1最高，选中44（96.49%）。全部七模型统一使用44的原源验证最佳权重，正式三种子成绩不改变。该选择是使用Dev分数的事后展示选择，不代表三种子平均或稳定性。
+
+原六模型Clean/10 dB的12份坐标原字节复用；新增六模型0/5 dB和ResNet四条件共16份投影，总计28份、四张七面板图。前六模型352维编码特征，ResNet128维池化特征；每条件全部2474周期。28组特征/几何指标、69272行坐标标签及重复ResNet 0 dB投影核查通过，重复坐标差为0；四张图已检查。
+
+- [展示种子选择、七模型成绩及全部PNG/PDF](records/seven_model_tsne/server_d8194e8/VISUALIZATION_RECORD.md)
+- [5 dB PNG](figures/seven_model_tsne/server_d8194e8/encoder_snr5_seed44.png) · [0 dB PNG](figures/seven_model_tsne/server_d8194e8/encoder_snr0_seed44.png) · [5 dB PDF](figures/seven_model_tsne/server_d8194e8/encoder_snr5_seed44.pdf) · [0 dB PDF](figures/seven_model_tsne/server_d8194e8/encoder_snr0_seed44.pdf)
+- [Clean PNG](figures/seven_model_tsne/server_d8194e8/encoder_clean_seed44.png) · [10 dB PNG](figures/seven_model_tsne/server_d8194e8/encoder_snr10_seed44.png) · [28组原空间指标](records/seven_model_tsne/server_d8194e8/results/FEATURE_SEPARABILITY.csv) · [独立核验](records/seven_model_tsne/server_d8194e8/results/VERIFICATION.json)
+- [冻结协议](docs/SEVEN_MODEL_TSNE_PROTOCOL.md) · [特征及投影入口](scripts/seven_model_tsne.py) · [绘图入口](scripts/plot_seven_model_tsne.py) · [图像核查](figures/seven_model_tsne/server_d8194e8/VISUAL_QA.json)

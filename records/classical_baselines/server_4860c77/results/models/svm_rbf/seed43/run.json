@@ -1,0 +1,78 @@
+{
+  "method": "svm_rbf",
+  "seed": 43,
+  "protocol": "HUST-classical-baselines-source-only-v1",
+  "feature_version": "five_phase_raw_md_stat_harmonic_v1",
+  "candidates": [
+    {
+      "candidate_index": 1,
+      "params": {
+        "C": 0.1,
+        "gamma": "scale"
+      },
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.048964218455743884,
+        "5": 0.32090925286546024,
+        "10": 0.928057295525471,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.659586153369335
+    },
+    {
+      "candidate_index": 2,
+      "params": {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.048964218455743884,
+        "5": 0.4755683796543446,
+        "10": 0.9808734595142362,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.7010812115248649
+    },
+    {
+      "candidate_index": 3,
+      "params": {
+        "C": 10.0,
+        "gamma": "scale"
+      },
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "0": 0.048964218455743884,
+        "5": 0.4843707183861514,
+        "10": 0.9840699504171492,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 0.7034809774518089
+    }
+  ],
+  "selected": {
+    "candidate_index": 3,
+    "params": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 0.048964218455743884,
+      "5": 0.4843707183861514,
+      "10": 0.9840699504171492,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.7034809774518089
+  },
+  "n_source_train": 738,
+  "train_augmented_copies": 8,
+  "train_sample_views": 5904,
+  "source_only": true,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

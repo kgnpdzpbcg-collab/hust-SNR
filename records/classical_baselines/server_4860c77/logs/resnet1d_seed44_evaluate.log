@@ -1,0 +1,10 @@
+Target-Dev resnet1d 44 clean Macro-F1 1.0
+Target-Dev resnet1d 44 snr10 Macro-F1 0.98586
+Target-Dev resnet1d 44 snr15 Macro-F1 0.99562
+Target-Dev resnet1d 44 snr20 Macro-F1 0.99813
+Target-Dev resnet1d 44 snr25 Macro-F1 1.0
+Target-Dev resnet1d 44 snr30 Macro-F1 1.0
+Target-Dev resnet1d 44 snr35 Macro-F1 1.0
+Target-Dev resnet1d 44 snr40 Macro-F1 1.0
+Target-Dev resnet1d 44 snr5 Macro-F1 0.91098
+Target-Dev resnet1d 44 snr0 Macro-F1 0.60735

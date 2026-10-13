@@ -1,0 +1,65 @@
+{
+  "method": "svm_rbf",
+  "seed": 42,
+  "status": "completed",
+  "stages": [
+    {
+      "stage": "train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/classical_baseline_experiment.py",
+        "train",
+        "--methods",
+        "svm_rbf",
+        "--seeds",
+        "42",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results",
+        "--source-strong-root",
+        "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 9.602478843997233
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/classical_baseline_experiment.py",
+        "evaluate",
+        "--methods",
+        "svm_rbf",
+        "--seeds",
+        "42",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results",
+        "--snr-root",
+        "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr",
+        "--strong-root",
+        "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 24.66586810199078
+    }
+  ],
+  "stage": "evaluate",
+  "pid": 151732,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/classical_baseline_experiment.py",
+    "evaluate",
+    "--methods",
+    "svm_rbf",
+    "--seeds",
+    "42",
+    "--out",
+    "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results",
+    "--snr-root",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr",
+    "--strong-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+  ]
+}

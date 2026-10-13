@@ -13,3 +13,5 @@
 原空间宏平均轮廓系数、排除同一原始文件的5NN同类率、可信度和实际分类Macro-F1均保存。不同模型原生特征维度不同；几何统计用于整体表示对照，不表示训练算法、特征维度或单模块消融完全相同。图中颜色是实际标签，F1来自原分类器。特征提取前后模型状态须相同，原分类头重放预测须逐项匹配。
 
 代码、配置、二维坐标、指标及600dpi PNG/字体嵌入PDF发布；高维NPZ、模型权重、原始电流不发布。旧模型和结果仅只读，最终347个Holdout编号不读取。入口为`scripts/seven_model_tsne.py`和`scripts/plot_seven_model_tsne.py`，配置为`configs/seven_model_tsne_v1.json`。
+
+2026-10-13，提交`d8194e8`完成28组特征投影并独立核验，选择44，四张七面板图已导出及检查。初次图例/说明重叠通过移至页脚修正；投影未重新计算。完整展示选择和图像入口见[正式记录](../records/seven_model_tsne/server_d8194e8/VISUALIZATION_RECORD.md)。

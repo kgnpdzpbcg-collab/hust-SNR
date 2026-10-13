@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "unit_tests": 11,
+  "source_train_records": 34,
+  "source_val_records": 15,
+  "source_train_cycles": 738,
+  "source_val_cycles": 302,
+  "first_epoch_noise_sha256": {
+    "42": "a49d07c66970c8abe8257728c01e322b3adfaaf4b07500541274cd447626d65b",
+    "43": "89bbd8732d346ad421b99779865aeeb8b80acceea742cb02c6a8ab9bb1c3ab2e",
+    "44": "06f21a9012b6d0c3de315d7a13dc89825c3fcfed99300aec3f13bceffdbde60b"
+  },
+  "initial_resnet_sha256": {
+    "42": "1eda50edfc2ce035f216a374b6e28e82c5e1ce1f60457e425053473d3fbd545f",
+    "43": "b6b584eaff85cf09d798b577b566f0b738d8a9b65dc54ebd1d42bdc91a64b5a6",
+    "44": "db116549d137420cfe1893c7b455484af4f5d9a67276f711abc79e2a476ea0f2"
+  },
+  "fixed_source_val_matches_original_rng": true,
+  "resnet_parameters": 241702,
+  "real_gpu_gradients_finite": true,
+  "torch": "2.14.1+cu130",
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "final_holdout_evaluated": false
+}

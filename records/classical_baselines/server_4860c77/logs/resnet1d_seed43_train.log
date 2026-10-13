@@ -1,0 +1,6 @@
+resnet1d seed43 epoch1/50 srcClean=0.7778 src5SNR=0.5539
+resnet1d seed43 epoch10/50 srcClean=1.0000 src5SNR=0.9018
+resnet1d seed43 epoch20/50 srcClean=1.0000 src5SNR=0.9226
+resnet1d seed43 epoch30/50 srcClean=1.0000 src5SNR=0.9029
+resnet1d seed43 epoch40/50 srcClean=1.0000 src5SNR=0.8643
+resnet1d seed43 epoch50/50 srcClean=1.0000 src5SNR=0.9291

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "feature_and_coordinate_sets_verified": 28,
+  "new_native_and_feature_head_prediction_replays": 16,
+  "previous_verified_prediction_sets_reused": 12,
+  "original_space_metric_sets_independently_recomputed": 28,
+  "coordinate_label_rows_verified": 69272,
+  "previous_coordinate_files_byte_identical": 12,
+  "repeat_resnet0_projection_max_abs_difference": 0.0,
+  "selected_seed": 44,
+  "display_seed_selected_posthoc_on_dev": true,
+  "old_models_and_results_unchanged": true,
+  "feature_arrays_uploaded": false,
+  "final_holdout_evaluated": false
+}

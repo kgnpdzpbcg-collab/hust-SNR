@@ -1,0 +1,10 @@
+Target-Dev svm_rbf 44 clean Macro-F1 0.83697
+Target-Dev svm_rbf 44 snr10 Macro-F1 0.75458
+Target-Dev svm_rbf 44 snr15 Macro-F1 0.91002
+Target-Dev svm_rbf 44 snr20 Macro-F1 0.91573
+Target-Dev svm_rbf 44 snr25 Macro-F1 0.89135
+Target-Dev svm_rbf 44 snr30 Macro-F1 0.86981
+Target-Dev svm_rbf 44 snr35 Macro-F1 0.85799
+Target-Dev svm_rbf 44 snr40 Macro-F1 0.84348
+Target-Dev svm_rbf 44 snr5 Macro-F1 0.20682
+Target-Dev svm_rbf 44 snr0 Macro-F1 0.02976

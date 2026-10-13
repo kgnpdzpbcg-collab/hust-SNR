@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "stages": [
+    {
+      "stage": "extract",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/seven_model_tsne.py",
+        "extract",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/seven_model_tsne/d8194e8/results",
+        "--base",
+        "/home/wang/projects/会议论文/hust",
+        "--classical-results",
+        "/home/wang/projects/会议论文/hust/experiments/classical_baselines/4860c77/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.487504941003863
+    },
+    {
+      "stage": "project",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/seven_model_tsne.py",
+        "project",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/seven_model_tsne/d8194e8/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 17.41328695701668
+    }
+  ],
+  "elapsed_seconds": 22.901434710016474
+}

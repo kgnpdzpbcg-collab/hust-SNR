@@ -1,0 +1,10 @@
+Target-Dev random_forest 44 clean Macro-F1 0.99221
+Target-Dev random_forest 44 snr10 Macro-F1 0.9725
+Target-Dev random_forest 44 snr15 Macro-F1 0.99019
+Target-Dev random_forest 44 snr20 Macro-F1 0.99902
+Target-Dev random_forest 44 snr25 Macro-F1 0.99778
+Target-Dev random_forest 44 snr30 Macro-F1 0.99407
+Target-Dev random_forest 44 snr35 Macro-F1 0.99318
+Target-Dev random_forest 44 snr40 Macro-F1 0.99318
+Target-Dev random_forest 44 snr5 Macro-F1 0.83862
+Target-Dev random_forest 44 snr0 Macro-F1 0.12486

@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "images_sha256_verified": 8,
+  "png_size": [
+    4251,
+    2314
+  ],
+  "png_dpi": 600,
+  "pdf_checks": [
+    {
+      "file": "encoder_clean_seed44.pdf",
+      "pages": 1,
+      "all_text_inside_page": true,
+      "fonts_embedded": true,
+      "width_mm": 180,
+      "height_mm": 98,
+      "text_spans_checked": 23
+    },
+    {
+      "file": "encoder_snr10_seed44.pdf",
+      "pages": 1,
+      "all_text_inside_page": true,
+      "fonts_embedded": true,
+      "width_mm": 180,
+      "height_mm": 98,
+      "text_spans_checked": 23
+    },
+    {
+      "file": "encoder_snr5_seed44.pdf",
+      "pages": 1,
+      "all_text_inside_page": true,
+      "fonts_embedded": true,
+      "width_mm": 180,
+      "height_mm": 98,
+      "text_spans_checked": 23
+    },
+    {
+      "file": "encoder_snr0_seed44.pdf",
+      "pages": 1,
+      "all_text_inside_page": true,
+      "fonts_embedded": true,
+      "width_mm": 180,
+      "height_mm": 98,
+      "text_spans_checked": 23
+    }
+  ],
+  "data_panels": 28,
+  "layout_checks_passed": 4,
+  "visual_review": {
+    "figures_viewed": 4,
+    "title_legend_footer_crop_observed": false,
+    "class_styles_consistent": true
+  },
+  "initial_legend_note_overlap_corrected_by_moving_note_to_footer": true,
+  "coordinates_changed_for_layout": false
+}
