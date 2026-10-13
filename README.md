@@ -216,3 +216,17 @@ python scripts/v4_experiment.py summarize
 - [完整客观诊断：具体文件误判、门控/BN对照和轮次扫描](records/v5_low_seed_diagnosis/server_edf78ff/DIAGNOSIS_RECORD.md)
 - [记录级错误](records/v5_low_seed_diagnosis/server_edf78ff/results/PER_RECORD_ERRORS.csv) · [400行轮次扫描](records/v5_low_seed_diagnosis/server_edf78ff/trajectory/EPOCH_TARGET_SCAN.csv)
 - [独立核验488组指标及7744行记录错误](records/v5_low_seed_diagnosis/server_edf78ff/VERIFICATION.json)
+
+
+## Xu 2025 原论文完整 CAE＋DML 复现（独立研究分支）
+
+原论文：Xu et al., *Fully Simulated Data-Driven Domain Generalized Method for Multiphase Converters Fault Diagnosis*, IEEE TPEL 2025, DOI: 10.1109/TPEL.2024.3461159。
+
+过去的 A′ 仅是 25,620 参数 Conv1D 分类器，**并非原论文完整模型**。本分支新增 35,475 参数的完整三层卷积编码器、四层重构解码器、352→50→6 分类头、重构 MSE、类内/类间 DML，以及论文式 (19)–(20) 联合优化；完整模型前接 NA-HSF 则为 35,516 参数。
+
+- [逐公式复现依据及不可消除的论文实现歧义](docs/XU2025_FULL_REPRODUCTION.md)
+- [完整 CAE＋DML 模型与损失](scripts/xu2025_full_model.py) · [训练/评估脚本](scripts/xu2025_full_experiment.py)
+- [冻结配置](configs/xu2025_full_v1.json) · [网络单元测试](tests/test_xu2025_full_model.py) · [协议测试](tests/test_xu2025_full_experiment.py)
+- 两个隔离轨道：`paper_like`（优先复现作者的完整网络及三损失）与 `matched`（统一原 10–40 dB paired source training / 源域0/5/10/20/30 dB选模，公平比较完整 CAE＋DML 与 Full＋LP3/LP4/NA-HSF）。
+
+**状态**：本地 CPU 单元测试和形状/梯度 smoke 已通过；**尚未运行正式服务器完整模型实验**。原论文没有公开完整模型训练源码，表 III 存在通道与 FC 输入维度笔误，也未给出解码器卷积 padding、损失比例与学习率衰减数值；本代码据论文公开内容复现，并在协议中明确披露所有必要假设，不能声称逐字节复现作者原权重与 99.58% 数值。Final-Holdout 仍严格隔离。
