@@ -218,15 +218,19 @@ python scripts/v4_experiment.py summarize
 - [独立核验488组指标及7744行记录错误](records/v5_low_seed_diagnosis/server_edf78ff/VERIFICATION.json)
 
 
-## Xu 2025 原论文完整 CAE＋DML 复现（独立研究分支）
+## Xu 2025 完整 CAE＋DML 原论文基线（单模型补充）
 
-原论文：Xu et al., *Fully Simulated Data-Driven Domain Generalized Method for Multiphase Converters Fault Diagnosis*, IEEE TPEL 2025, DOI: 10.1109/TPEL.2024.3461159。
+论文：Xu et al., *Fully Simulated Data-Driven Domain Generalized Method for Multiphase Converters Fault Diagnosis*, IEEE TPEL 2025, DOI: 10.1109/TPEL.2024.3461159。
 
-过去的 A′ 仅是 25,620 参数 Conv1D 分类器，**并非原论文完整模型**。本分支新增 35,475 参数的完整三层卷积编码器、四层重构解码器、352→50→6 分类头、重构 MSE、类内/类间 DML，以及论文式 (19)–(20) 联合优化；完整模型前接 NA-HSF 则为 35,516 参数。
+**当前研究方法始终是既有 A′＋NA-HSF（V5），不会替换为 Xu-Full 主干。** A′ 是 25,620 参数的简化 CNN，而 Xu-Full 是具有编码器、解码器、分类器、重构损失和 DML 的完整论文模型（本实现 35,475 参数）。补充完整 Xu-Full 仅为了给现有方法提供忠实的原论文方法对照，并检验在统一源域与强噪声评估协议下的表现。
 
-- [逐公式复现依据及不可消除的论文实现歧义](docs/XU2025_FULL_REPRODUCTION.md)
-- [完整 CAE＋DML 模型与损失](scripts/xu2025_full_model.py) · [训练/评估脚本](scripts/xu2025_full_experiment.py)
-- [服务器完整执行脚本](scripts/run_xu2025_full_server.sh)：通过环境变量指定源域0/5验证、实测原始SNR及合成0/5路径，先测试再训练评估。\n- [冻结配置](configs/xu2025_full_v1.json) · [网络单元测试](tests/test_xu2025_full_model.py) · [协议测试](tests/test_xu2025_full_experiment.py)
-- 两个隔离轨道：`paper_like`（优先复现作者的完整网络及三损失）与 `matched`（统一原 10–40 dB paired source training / 源域0/5/10/20/30 dB选模，公平比较完整 CAE＋DML 与 Full＋LP3/LP4/NA-HSF）。
+- [论文公式、层级复现依据、尚未披露的细节与严谨性边界](docs/XU2025_FULL_REPRODUCTION.md)
+- [Xu-Full 完整 CAE＋DML 实现](scripts/xu2025_full_model.py) · [独立训练评估入口](scripts/xu2025_full_experiment.py)
+- [服务器一键运行：只训练/评估 `matched xu_full`，三个种子](scripts/run_xu2025_full_server.sh)
+- [冻结配置](configs/xu2025_full_v1.json) · [模型测试](tests/test_xu2025_full_model.py) · [协议测试](tests/test_xu2025_full_experiment.py)
 
-**状态**：本地 CPU 单元测试和形状/梯度 smoke 已通过；**尚未运行正式服务器完整模型实验**。原论文没有公开完整模型训练源码，表 III 存在通道与 FC 输入维度笔误，也未给出解码器卷积 padding、损失比例与学习率衰减数值；本代码据论文公开内容复现，并在协议中明确披露所有必要假设，不能声称逐字节复现作者原权重与 99.58% 数值。Final-Holdout 仍严格隔离。
+仅需要运行一个模型类型 `xu_full`；复用已冻结的 34/15 Source-Train/Val、10–40 dB 源训练噪声、Clean+0/5/10/20/30 dB 源验证、42/43/44 三种子、88 记录 Target-Dev 测试。旧 A′、LP3、LP4、固定 α=0.5、V5 及其已有结果全部不动。**不执行 Xu-Full＋LP3/LP4/NA-HSF** 等模型扩展。
+
+`matched` 轨道与既有 V5 使用相同训练和选模协议，但**不同于原作者发表时的训练协议**；`paper_like` 是可选且单独标记的忠实复现参考，不在默认脚本执行。两者不能混称。
+
+**状态：代码及 CPU 测试完成，正式服务器 Xu-Full GPU 实验尚未运行。** 原论文部分网络细节和超参有未公开或不一致之处；具体实现假设见文档。Xu-Full 与 V5 在主干和损失上均不同，整体性能差不能单独作为 NA-HSF 门控贡献的因果证据；Final-Holdout 继续隔离。
