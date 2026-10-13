@@ -156,7 +156,8 @@ def extract(base, output):
                         "original_prediction_file":str(source_prediction_path),"prediction_file_sha256":sha(source_prediction_path),
                         "selected_epoch":checkpoint["selected"]["epoch"],"macro_f1":original["metrics"]["macro_f1"],
                         "captured_head_predictions_exact":True})
-                assert all(torch.equal(value,before[name]) for name,value in model.state_dict().items())
+                # 模型在GPU推理，备份在CPU；先统一设备再逐张量核对原值。
+                assert all(torch.equal(value.detach().cpu(),before[name]) for name,value in model.state_dict().items())
                 del model
                 print("FEATURE_EXTRACTED",method,seed,condition,"352+50 dims; original predictions exact",flush=True)
     assert len(manifest)==72 and all(sha(Path(path))==expected for path,expected in protected.items())
