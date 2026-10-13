@@ -5,8 +5,9 @@ Two explicitly distinct tracks:
               16-batch, 50 epochs, optional stated-as-assumption LR decay.
   matched:    XuFullRaw on 5x4096 cycles, original frozen V4/V5 matched 10-40 dB
               paired noise training, 0/5/10/20/30 source validation;
-              available: xu_full, xu_full_lp3, xu_full_lp4, xu_full_nahsf,
-              xu_cae_classify (decoder+CE without DML ablation).
+              DEFAULT experiment: xu_full ONLY, as the unmodified full-paper baseline.
+              Additional full-backbone modes remain explicitly opt-in; they are
+              not used in the current A-prime/V5 paper comparison.
 
 No target-domain training/checkpoint selection and NO FINAL HOLDOUT ACCESS.
 No pretrained A' checkpoint is used. All arms independently train FULL Xu encoder.
@@ -274,7 +275,7 @@ def evaluate(mode,seed,out,*,track="matched",conditions=DEFAULT_CONDITIONS,
 
 def summarize(out,*,track="matched",modes=None,seeds=DEFAULT_SEEDS,
               conditions=DEFAULT_CONDITIONS):
-    modes=list(modes) if modes is not None else list(VARIANTS[:4] if track=="matched" else ("xu_full",))
+    modes=list(modes) if modes is not None else ["xu_full"]
     rows=[]
     all_scores={}
     for mode in modes:
@@ -351,7 +352,7 @@ def cli():
     parser.add_argument("--conditions",nargs="+",default=["clean","10","15","20","25","30","35","40","5","0"])
     args=parser.parse_args()
     if args.stage=="smoke":smoke();return
-    modes=args.modes or (list(VARIANTS[:4]) if args.track=="matched" else ["xu_full"])
+    modes=args.modes or ["xu_full"]
     conditions=[None if s=="clean" else int(s) for s in args.conditions]
     if any(c is not None and c not in (0,5,10,15,20,25,30,35,40) for c in conditions):
         parser.error("Unsupported SNR condition")
