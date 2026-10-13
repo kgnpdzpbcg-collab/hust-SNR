@@ -1,0 +1,1101 @@
+{
+  "status": "passed",
+  "code_commit": "ae2716bbcd3dd23a959696b486103ac50efa087d",
+  "trained_models": 3,
+  "epochs_per_model": 50,
+  "optimizer_updates_per_model": 1200,
+  "source_only_checkpoint_selections_verified": 3,
+  "selected_source_val_metric_sets_reproduced": 12,
+  "selected_source_validation_results": [
+    {
+      "seed": 42,
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 42,
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 42,
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 42,
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 43,
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 43,
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 43,
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 43,
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 44,
+      "condition": "clean",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 44,
+      "condition": "snr10",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 44,
+      "condition": "snr20",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    },
+    {
+      "seed": 44,
+      "condition": "snr30",
+      "metrics": {
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "per_class_f1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            52,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            52
+          ]
+        ],
+        "normal_false_alarms": 0,
+        "normal_false_alarm_rate": 0.0,
+        "missed_fault_as_normal": 0
+      }
+    }
+  ],
+  "target_prediction_vectors_exactly_reproduced": 30,
+  "target_metric_sets_independently_recomputed": 30,
+  "gate_summary_sets_independently_recomputed": 30,
+  "paired_baseline_seed_rows_verified": 60,
+  "paired_baseline_aggregate_rows_verified": 20,
+  "target_record_ids": [
+    "0081",
+    "0085",
+    "0088",
+    "0089",
+    "0092",
+    "0096",
+    "0104",
+    "0105",
+    "0109",
+    "0110",
+    "0127",
+    "0129",
+    "0134",
+    "0137",
+    "0138",
+    "0139",
+    "0140",
+    "0144",
+    "0150",
+    "0163",
+    "0166",
+    "0169",
+    "0187",
+    "0194",
+    "0195",
+    "0198",
+    "0200",
+    "0203",
+    "0205",
+    "0210",
+    "0219",
+    "0223",
+    "0227",
+    "0230",
+    "0235",
+    "0241",
+    "0246",
+    "0252",
+    "0254",
+    "0256",
+    "0260",
+    "0272",
+    "0274",
+    "0279",
+    "0287",
+    "0292",
+    "0297",
+    "0305",
+    "0317",
+    "0319",
+    "0321",
+    "0328",
+    "0330",
+    "0333",
+    "4-1000-10",
+    "4-1000-5",
+    "4-300-1",
+    "4-300-5",
+    "4-400-11",
+    "4-400-7",
+    "4-500-3",
+    "4-500-4",
+    "4-600-3",
+    "4-600-6",
+    "4-700-11",
+    "4-700-5",
+    "4-800-10",
+    "4-800-3",
+    "4-900-1",
+    "4-900-6",
+    "4-900-9",
+    "5-1000-7",
+    "5-1000-8",
+    "5-300-10",
+    "5-300-9",
+    "5-400-10",
+    "5-400-3",
+    "5-500-6",
+    "5-500-7",
+    "5-600-10",
+    "5-600-2",
+    "5-700-1",
+    "5-700-3",
+    "5-700-8",
+    "5-800-10",
+    "5-800-4",
+    "5-900-10",
+    "5-900-7"
+  ],
+  "target_cycles_per_condition": 2474,
+  "class_support": [
+    1106,
+    307,
+    297,
+    298,
+    237,
+    229
+  ],
+  "weights_sha256": {
+    "42": "b04f78e15d890c9b115bab5d1d7ad75ecd9bd1be51324af5e0b185b743a1f1d0",
+    "43": "8a0bbe7d33381ebc0400a7442c386fb77fe17cf261f09f661fdfa85a63aa4443",
+    "44": "8b4580b5b1ae2e68f28b0cca3400645b57470c713093695282b68cb03a5798ba"
+  },
+  "selected_checkpoints": {
+    "42": {
+      "epoch": 3,
+      "train_loss_mean": 0.06335499448080857,
+      "gate_bias_grad_abs_mean": 0.0017470482607677695,
+      "gate_bias_value": -0.02771340310573578,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 1.0
+    },
+    "43": {
+      "epoch": 4,
+      "train_loss_mean": 0.026749102980829775,
+      "gate_bias_grad_abs_mean": 0.0007190704388904123,
+      "gate_bias_value": 0.0007204385474324226,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 1.0
+    },
+    "44": {
+      "epoch": 8,
+      "train_loss_mean": 0.02664782205829397,
+      "gate_bias_grad_abs_mean": 0.000853091108941347,
+      "gate_bias_value": -0.01654231548309326,
+      "clean_f1": 1.0,
+      "noisy_f1": {
+        "10": 1.0,
+        "20": 1.0,
+        "30": 1.0
+      },
+      "noise_mean_f1": 1.0
+    }
+  },
+  "original_files_unchanged": 1922,
+  "final_holdout_evaluated": false,
+  "verifier_sha256": "27b44b0729767d3801b2035f5363deb2a3fd41bdfc30e3c747069bc8e6f37850",
+  "verification_seconds": 6.879353349009762
+}

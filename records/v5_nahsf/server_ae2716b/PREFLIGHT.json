@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "scripts/v5_nahsf.py"
+      ],
+      "exit_code": 0,
+      "output": "/home/wang/projects/会议论文/hust/experiments/v5_nahsf/ae2716b/code/scripts/v5_nahsf.py:154: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\nConsider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)\n  print(\"V5 NA-HSF SMOKE PASS\", parameter_counts(model), \"loss=\", round(float(loss), 6))\nV5 NA-HSF SMOKE PASS {'cnn': 25620, 'spectral': 41, 'total': 25661} loss= 1.793599\n"
+    },
+    {
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "scripts/v5_experiment.py",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "output": "V5 NA-HSF SOURCE PIPELINE SMOKE PASS\n"
+    },
+    {
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_v5_nahsf.py",
+        "tests/test_v5_experiment.py",
+        "tests/test_v2_paifilter.py",
+        "tests/test_v2_experiment.py"
+      ],
+      "exit_code": 0,
+      "output": "....................................                                     [100%]\n36 passed in 1.92s\n"
+    }
+  ],
+  "source_train_records": 34,
+  "source_val_records": 15,
+  "train_cycles": 738,
+  "val_cycles": 302,
+  "initial_cnn_sha256": {
+    "42": "9638b4c871c811de958f076d38d97e66598bc469fd5c0352e19f1e131c2d7699",
+    "43": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+    "44": "b676b0e1e9906ce64c2d5f371f9116fc06708e54bcd532e0a2c20cc8618e4fc5"
+  },
+  "first_epoch_noise_sha256": {
+    "42": "a49d07c66970c8abe8257728c01e322b3adfaaf4b07500541274cd447626d65b",
+    "43": "89bbd8732d346ad421b99779865aeeb8b80acceea742cb02c6a8ab9bb1c3ab2e",
+    "44": "06f21a9012b6d0c3de315d7a13dc89825c3fcfed99300aec3f13bceffdbde60b"
+  },
+  "noise_matches_original_v4": true,
+  "real_cuda_checks": {
+    "42": {
+      "first_step_loss": 1.903515338897705,
+      "first_layer_second_step_grad_max": 1.4530617136188084e-06,
+      "last_layer_first_step_grad_max": 0.0014549077022820711,
+      "strict_deterministic_cuda": true
+    },
+    "43": {
+      "first_step_loss": 1.8008421659469604,
+      "first_layer_second_step_grad_max": 7.511104627155873e-07,
+      "last_layer_first_step_grad_max": 0.0007516894256696105,
+      "strict_deterministic_cuda": true
+    },
+    "44": {
+      "first_step_loss": 1.7570815086364746,
+      "first_layer_second_step_grad_max": 1.362460011478106e-06,
+      "last_layer_first_step_grad_max": 0.001363897230476141,
+      "strict_deterministic_cuda": true
+    }
+  },
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_version": "2.14.1+cu130",
+  "original_dataset_and_historical_files_unchanged": true
+}

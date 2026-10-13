@@ -1,0 +1,8 @@
+V5 DEV seed42 clean Macro-F1=99.57% alpha_mean=0.482
+V5 DEV seed42 snr10 Macro-F1=99.00% alpha_mean=0.483
+V5 DEV seed42 snr15 Macro-F1=99.38% alpha_mean=0.483
+V5 DEV seed42 snr20 Macro-F1=99.49% alpha_mean=0.483
+V5 DEV seed42 snr25 Macro-F1=99.60% alpha_mean=0.482
+V5 DEV seed42 snr30 Macro-F1=99.57% alpha_mean=0.482
+V5 DEV seed42 snr35 Macro-F1=99.53% alpha_mean=0.482
+V5 DEV seed42 snr40 Macro-F1=99.57% alpha_mean=0.482

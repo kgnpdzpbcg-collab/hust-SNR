@@ -1,0 +1,7 @@
+nahsf/seed43: epoch 1/50, src Clean=0.7364, noisy=0.7085
+nahsf/seed43: epoch 10/50, src Clean=1.0000, noisy=1.0000
+nahsf/seed43: epoch 20/50, src Clean=1.0000, noisy=0.9976
+nahsf/seed43: epoch 30/50, src Clean=0.8971, noisy=0.9023
+nahsf/seed43: epoch 40/50, src Clean=1.0000, noisy=1.0000
+nahsf/seed43: epoch 50/50, src Clean=0.8593, noisy=0.8671
+SAVED /home/wang/projects/会议论文/hust/experiments/v5_nahsf/ae2716b/results/models/nahsf/seed43/best.pt

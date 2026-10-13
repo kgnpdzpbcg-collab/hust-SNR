@@ -1,0 +1,81 @@
+{
+  "seed": 42,
+  "status": "completed",
+  "stages": [
+    {
+      "stage": "train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/v5_experiment.py",
+        "train",
+        "--epochs",
+        "50",
+        "--batch",
+        "32",
+        "--lr",
+        "0.001",
+        "--seeds",
+        "42",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/v5_nahsf/ae2716b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 15.174415421992308
+    },
+    {
+      "stage": "evaluate_original",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/v5_experiment.py",
+        "evaluate",
+        "--snr-root",
+        "/home/wang/projects/会议论文/hust/experiments/v5_nahsf/ae2716b/target_snr",
+        "--seeds",
+        "42",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/v5_nahsf/ae2716b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.392687097017188
+    },
+    {
+      "stage": "evaluate_stress",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/v5_experiment.py",
+        "evaluate",
+        "--strong-snr-root",
+        "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/generated/target",
+        "--conditions",
+        "5",
+        "0",
+        "--seeds",
+        "42",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/v5_nahsf/ae2716b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.327998574997764
+    }
+  ],
+  "stage": "evaluate_stress",
+  "pid": 139711,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/v5_experiment.py",
+    "evaluate",
+    "--strong-snr-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/generated/target",
+    "--conditions",
+    "5",
+    "0",
+    "--seeds",
+    "42",
+    "--output",
+    "/home/wang/projects/会议论文/hust/experiments/v5_nahsf/ae2716b/results"
+  ]
+}

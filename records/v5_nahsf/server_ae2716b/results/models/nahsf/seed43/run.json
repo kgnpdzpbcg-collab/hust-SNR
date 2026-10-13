@@ -1,0 +1,44 @@
+{
+  "method": "nahsf",
+  "seed": 43,
+  "epochs": 50,
+  "batch": 32,
+  "learning_rate": 0.001,
+  "checkpoint_rule": "source 10/20/30 noisy-val mean Macro-F1; clean within 1pp of peak",
+  "selected": {
+    "epoch": 4,
+    "train_loss_mean": 0.026749102980829775,
+    "gate_bias_grad_abs_mean": 0.0007190704388904123,
+    "gate_bias_value": 0.0007204385474324226,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 1.0
+  },
+  "initial_cnn_sha256": "bb0fc5df3825aa30a7b052bef064ee437bda61d335fb8193a1aa236367722925",
+  "parameter_counts": {
+    "cnn": 25620,
+    "spectral": 41,
+    "total": 25661
+  },
+  "gate_bias_grad_abs_mean_over_epochs": 0.0006959864703590787,
+  "train_noise_levels_db": [
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "val_noise_levels_db": [
+    10,
+    20,
+    30
+  ],
+  "target_used_for_training_or_checkpoint_selection": false,
+  "final_holdout_evaluated": false
+}

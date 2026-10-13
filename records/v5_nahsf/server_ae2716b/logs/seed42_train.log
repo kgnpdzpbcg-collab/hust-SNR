@@ -1,0 +1,7 @@
+nahsf/seed42: epoch 1/50, src Clean=0.7662, noisy=0.7589
+nahsf/seed42: epoch 10/50, src Clean=0.9085, noisy=0.9123
+nahsf/seed42: epoch 20/50, src Clean=0.8610, noisy=0.8488
+nahsf/seed42: epoch 30/50, src Clean=0.9085, noisy=0.9059
+nahsf/seed42: epoch 40/50, src Clean=0.8747, noisy=0.8806
+nahsf/seed42: epoch 50/50, src Clean=0.9085, noisy=0.9008
+SAVED /home/wang/projects/会议论文/hust/experiments/v5_nahsf/ae2716b/results/models/nahsf/seed42/best.pt

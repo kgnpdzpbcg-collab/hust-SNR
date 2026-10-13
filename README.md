@@ -127,7 +127,7 @@ python scripts/v4_experiment.py summarize
 
 ## V5 NA-HSF（Noise-Aware Harmonic Selective Fusion）
 
-在原 25,620 参数 A′ 1D-CNN 前加入**噪声感知谐波选择融合模块**；仅学习五相共享的第4阶增益，新增一个 3→8→1 的 41 参数门控。训练使用原 V4 的 10–40 dB 源域增强、10/20/30 dB 源域验证选模、50 epochs、batch32、Adam 1e−3、三种子 42/43/44。5/0 dB 为**测试阶段的人工合成压力条件**；不接触347条 Final-Holdout。**目前只有代码，没有 V5 正式 GPU 结果**。
+在原 25,620 参数 A′ 1D-CNN 前加入**噪声感知谐波选择融合模块**；仅学习五相共享的第4阶增益，新增一个 3→8→1 的 41 参数门控。训练使用原 V4 的 10–40 dB 源域增强、10/20/30 dB 源域验证选模、50 epochs、batch32、Adam 1e−3、三种子 42/43/44。5/0 dB 为**测试阶段的人工合成压力条件**；不接触347条 Final-Holdout。**运行提交ae2716b已完成三种子GPU训练及30组Dev评估，36项测试和独立复现核查通过。**
 
 - [数学定义和冻结实验协议](docs/V5_NA_HSF_PROTOCOL.md)
 - [NA-HSF 网络](scripts/v5_nahsf.py) · [训练、评估及 V4 配对对比](scripts/v5_experiment.py)
@@ -146,3 +146,10 @@ python scripts/v4_experiment.py summarize
     python scripts/v5_experiment.py summarize --conditions clean 10 15 20 25 30 35 40 5 0
 
 默认结果存放 outputs/v5_nahsf/；汇总使用已有 V4 的 LP3/LP4 历史逐种子预测进行严格配对，并记录门控随噪声变化的均值与分位数。
+
+- [V5服务器完整结果、门控统计和历史低通配对](records/v5_nahsf/server_ae2716b/SERVER_RESULTS.md)
+- [逐种子30组成绩](records/v5_nahsf/server_ae2716b/results/PER_SEED_RESULTS.csv) · [60行历史配对](records/v5_nahsf/server_ae2716b/results/PAIRED_V4_COMPARISON.csv)
+- [180行六类指标](records/v5_nahsf/server_ae2716b/results/PER_CLASS_PER_SEED.csv) · [门控统计](records/v5_nahsf/server_ae2716b/results/GATE_PER_SEED.csv)
+- [独立核查](records/v5_nahsf/server_ae2716b/results/VERIFICATION.json)
+
+实测Macro-F1（三种子均值±样本标准差）：Clean 95.75±6.38%，10 dB 95.26±6.53%，5 dB 93.56±6.54%，0 dB 87.53±7.40%。源验证选择的最佳轮次为3、4、8；旧V4原始/压力/重训结果保持不变。

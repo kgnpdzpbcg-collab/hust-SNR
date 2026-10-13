@@ -1,6 +1,6 @@
 # HUST-SNR V5：A′ + Noise-Aware Harmonic Selective Fusion（NA-HSF）
 
-**状态：V5 代码已实现，尚未运行正式 GPU 三种子实验，不存在 V5 分类成绩。** 独立研究分支：research/na-hsf-v5。只读取冻结 Source Train/Val 和 88 条 Target-Dev；347 条 Final-Holdout 继续隔离。
+**状态：运行提交ae2716b已完成GPU三种子50轮训练及30组Target-Dev评估，36项测试、12组源验证指标、30组预测/门控统计和60行历史配对独立复核通过。** 独立研究分支：research/na-hsf-v5。只读取冻结 Source Train/Val 和 88 条 Target-Dev；347 条 Final-Holdout 继续隔离。完整记录见[服务器结果](../records/v5_nahsf/server_ae2716b/SERVER_RESULTS.md)。
 
 ## 1. 研究假设与数据证据
 
@@ -66,7 +66,7 @@ X_k & k=0,1,2,3\\
 | 项目 | V5 设置 |
 |---|---|
 | 源域 Train / Val | Gate0 原冻结 34 / 15 条记录，738 / 302 周期 |
-| 源域 Test | 原冻结 10 条；本实验不选模 |
+| 源域 Test | 原冻结10条，本轮未评估、不选模 |
 | 训练噪声 | 10、15、20、25、30、35、40 dB；整记录逐相 RMS 校准高斯，每轮重新生成 |
 | 源域固定验证 | Clean 和 10、20、30 dB |
 | checkpoint 选择 | 所有 epoch 的最高 Clean F1 容差1个百分点，选固定三档带噪 Macro-F1 均值最大；再优先 Clean、较早 epoch |
