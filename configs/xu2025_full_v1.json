@@ -1,15 +1,88 @@
 {
   "paper": "Xu et al., Fully Simulated Data-Driven Domain Generalized Method for Multiphase Converters Fault Diagnosis",
   "doi": "10.1109/TPEL.2024.3461159",
-  "paper_core": {"input": [5, 128], "encoder_latent": [32, 11], "flatten_dim": 352, "reconstruction_output": [5, 128], "classes": 6, "metric": "intra_L1_minus_inter_L1", "loss": "classification_CE + reconstruction_MSE_per_sample_sum + DML"},
+  "paper_core": {
+    "input": [
+      5,
+      128
+    ],
+    "encoder_latent": [
+      32,
+      11
+    ],
+    "flatten_dim": 352,
+    "reconstruction_output": [
+      5,
+      128
+    ],
+    "classes": 6,
+    "metric": "intra_L1_minus_inter_L1",
+    "loss": "classification_CE + reconstruction_MSE_per_sample_sum + DML"
+  },
   "deviations_explicit": {
-    "decoder_padding": [3, 3, 15, 7],
+    "decoder_padding": [
+      3,
+      3,
+      15,
+      7
+    ],
     "encoder_table_typo": "third conv reads (16,32,4) but preceding tensor has 32 channels; implemented (32,32,4)",
     "classifier_table_typo": "second linear reads (352,6) but preceding hidden is 50; implemented (50,6)",
     "batch_metric": "use classes present in mini-batch; global class prototype rule not given",
     "training_hyperparameters_unreported": "weight decay value, LR decay milestones/gamma, loss weights/normalization"
   },
-  "paper_like_track": {"modes": ["xu_full"], "source_only": true, "train_noisy_pair": false, "batch": 16, "epochs": 50, "initial_lr": 0.001, "weight_decay_assumption": 0.0001, "lr_step_assumption": 20, "lr_gamma_assumption": 0.5, "selection_assumption": "source clean Macro-F1, joint validation loss, earliest"},
-  "matched_track": {"modes": ["xu_full", "xu_full_lp3", "xu_full_lp4", "xu_full_nahsf", "xu_cae_classify"], "seeds": [42,43,44], "epochs": 50, "batch": 32, "initial_lr": 0.001, "weight_decay": 0, "source_train_noise_db": [10,15,20,25,30,35,40], "source_val_noise_db": [0,5,10,20,30], "source_train_records": 34, "source_val_records": 15, "source_train_cycles": 738, "source_val_cycles": 302, "target_dev_records": 88, "target_dev_cycles_per_condition": 2474, "source_only": true, "target_domain_used_for_training": false, "final_holdout_evaluated": false},
-  "note": "Implementation is high-fidelity paper-grounded, not an author's-code replication. The matched track changes paper's training protocol on purpose for a controlled robustness study."
+  "paper_like_track": {
+    "modes": [
+      "xu_full"
+    ],
+    "source_only": true,
+    "train_noisy_pair": false,
+    "batch": 16,
+    "epochs": 50,
+    "initial_lr": 0.001,
+    "weight_decay_assumption": 0.0001,
+    "lr_step_assumption": 20,
+    "lr_gamma_assumption": 0.5,
+    "selection_assumption": "source clean Macro-F1, joint validation loss, earliest"
+  },
+  "matched_track": {
+    "modes": [
+      "xu_full"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 50,
+    "batch": 32,
+    "initial_lr": 0.001,
+    "weight_decay": 0,
+    "source_train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "source_val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "source_train_records": 34,
+    "source_val_records": 15,
+    "source_train_cycles": 738,
+    "source_val_cycles": 302,
+    "target_dev_records": 88,
+    "target_dev_cycles_per_condition": 2474,
+    "source_only": true,
+    "target_domain_used_for_training": false,
+    "final_holdout_evaluated": false
+  },
+  "note": "This branch's default experiment trains/evaluates only Xu-Full CAE+DML (three seeds), as a full-original-algorithm baseline for existing A-prime/V5 results. Matched uses the existing V5 data, source noise and checkpoint selection, which differ from Xu authors' reported training protocol; paper_like remains optional for implementation fidelity. No Full+LP3/LP4/NA-HSF experiments are required, and no incremental effect is attributed to NA-HSF based solely on Full versus V5."
 }
