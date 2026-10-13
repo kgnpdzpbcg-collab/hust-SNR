@@ -183,6 +183,9 @@ def evaluate(seed: int, output: Path, snr_root: Path | None,
              strong_snr_root: Path | None, conditions: list[int | None]) -> None:
     if any(c not in SUPPORTED_CONDITIONS for c in conditions):
         raise ValueError("Only Clean or SNR=0,5,10,15,...,40 supported")
+    # 与原V4推理设置一致：启用严格确定性，关闭TF32；每个独立评估进程
+    # 都显式设置，不能依赖前一次训练进程留下的状态。模型和输入不改变。
+    fix_randomness(seed)
     ckpt_path = output / "models" / METHOD / f"seed{seed}" / "best.pt"
     ckpt = torch.load(ckpt_path, map_location="cpu", weights_only=True)
     if (ckpt.get("code_family") != VERSION or ckpt.get("method") != METHOD or
@@ -238,7 +241,18 @@ def evaluate(seed: int, output: Path, snr_root: Path | None,
 
 def _read_eval(path: Path, mode: str, seed: int, condition: str) -> dict:
     data = json.loads(path.read_text())
-    if (data.get("condition") != condition or data.get("seed") != seed or
+    # 已发布的V4独立压力测试以snr_db保存0/5 dB，原V4以condition保存。
+    # 只解释这一明确历史格式，不改写旧JSON；若两个字段同时存在且冲突，
+    # 仍应拒绝，避免错误配对其他噪声条件的成绩。
+    actual_condition = data.get("condition")
+    legacy_snr = data.get("snr_db")
+    if mode in ("lowpass3", "lowpass4") and legacy_snr in (0, 5):
+        legacy_condition = _condition_name(legacy_snr)
+        if actual_condition is None:
+            actual_condition = legacy_condition
+        elif actual_condition != legacy_condition:
+            raise ValueError(f"Evaluation condition/snr_db conflict: {path}")
+    if (actual_condition != condition or data.get("seed") != seed or
         data.get("method") != mode or data.get("record_families") != 88 or
         data.get("windows") != 2474 or
         data.get("final_holdout_evaluated") is not False or

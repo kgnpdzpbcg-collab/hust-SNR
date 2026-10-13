@@ -102,3 +102,35 @@ def test_evaluate_requires_original_or_strong_input(tmp_path):
         v5.evaluate(42,tmp_path,None,None,[0])
     with pytest.raises(ValueError,match='snr-root'):
         v5.evaluate(42,tmp_path,None,None,[10])
+
+
+def test_actual_published_stress_results_are_read_without_modification():
+    """回读真实历史文件，避免只用合成condition格式测试而漏掉snr_db接口。"""
+    root = Path(__file__).resolve().parents[1] / v5.V4_STRESS
+    for method in ('lowpass3', 'lowpass4'):
+        for seed in (42, 43, 44):
+            for level in (0, 5):
+                path = root / method / f'seed{seed}' / f'target_dev_snr{level}.json'
+                before = path.read_bytes()
+                result = v5._read_eval(path, method, seed, f'snr{level}')
+                assert result['snr_db'] == level
+                assert path.read_bytes() == before
+
+
+def test_conflicting_stress_condition_is_rejected(tmp_path):
+    """不能用新增兼容逻辑接受噪声字段相互矛盾的记录。"""
+    p = _make_eval(tmp_path, 'lowpass3', 42, 'snr0', [0]*2474, [0]*2474, False)
+    data = json.loads(p.read_text())
+    data['snr_db'] = 5
+    p.write_text(json.dumps(data))
+    with pytest.raises(ValueError, match='conflict'):
+        v5._read_eval(p, 'lowpass3', 42, 'snr0')
+
+
+def test_eval_sets_v4_determinism_before_loading_weight(tmp_path, monkeypatch):
+    """每个评估入口先设置原V4数值策略，不依赖调用进程的默认CUDA选项。"""
+    called = []
+    monkeypatch.setattr(v5, 'fix_randomness', lambda seed: called.append(seed))
+    with pytest.raises(FileNotFoundError):
+        v5.evaluate(42, tmp_path, None, None, [10])
+    assert called == [42]
