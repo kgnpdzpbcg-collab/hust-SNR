@@ -295,3 +295,23 @@ bash scripts/run_classical_baselines_server.sh
 - [5 dB PNG](figures/seven_model_tsne/server_d8194e8/encoder_snr5_seed44.png) · [0 dB PNG](figures/seven_model_tsne/server_d8194e8/encoder_snr0_seed44.png) · [5 dB PDF](figures/seven_model_tsne/server_d8194e8/encoder_snr5_seed44.pdf) · [0 dB PDF](figures/seven_model_tsne/server_d8194e8/encoder_snr0_seed44.pdf)
 - [Clean PNG](figures/seven_model_tsne/server_d8194e8/encoder_clean_seed44.png) · [10 dB PNG](figures/seven_model_tsne/server_d8194e8/encoder_snr10_seed44.png) · [28组原空间指标](records/seven_model_tsne/server_d8194e8/results/FEATURE_SEPARABILITY.csv) · [独立核验](records/seven_model_tsne/server_d8194e8/results/VERIFICATION.json)
 - [冻结协议](docs/SEVEN_MODEL_TSNE_PROTOCOL.md) · [特征及投影入口](scripts/seven_model_tsne.py) · [绘图入口](scripts/plot_seven_model_tsne.py) · [图像核查](figures/seven_model_tsne/server_d8194e8/VISUAL_QA.json)
+
+
+## 无残差 Plain CNN1D（与 ResNet 的同深度对照）
+
+研究分支 `research/plain-cnn1d-control-v1`。新增 **Plain CNN1D**，只训练该模型的 seed 42/43/44；历史 A′、V5、ResNet1D、RF/SVM、Xu-Full 及已经上传的 t-SNE 一律不修改或重跑。
+
+- [PlainCNN1D 网络](scripts/plain_cnn1d_baseline.py)｜[独立源域训练、Source-Val选模和Target-Dev评估](scripts/plain_cnn1d_experiment.py)
+- [服务器脚本](scripts/run_plain_cnn1d_server.sh)｜[冻结配置](configs/plain_cnn1d_control_v1.json)｜[完整协议与学术解释边界](docs/PLAIN_CNN1D_CONTROL_V1.md)｜[模型及损失测试](tests/test_plain_cnn1d_control.py)
+
+结构参照已完成的 1D-ResNet：相同 MD 128 点输入、5→32 stem、32/64/128 通道与每阶段两个双卷积块、GAP 128→6；**去掉残差 shortcut**。其余训练预算、配对噪声、验证选模与原 ResNet 一致，但 shortcut 投影参数也随之去掉，因此**参数量不完全相同**。测试会如实比较两者，绝不能仅因 ResNet 的结果更好就隐藏其结果。
+
+服务器（原项目根目录）：
+```bash
+export SOURCE_STRONG_ROOT="/path/to/strong_data_root"
+export TARGET_SNR_ROOT="/path/to/original_SNR_parent"
+export TARGET_STRONG_ROOT="/path/to/strong_data_root"
+bash scripts/run_plain_cnn1d_server.sh
+```
+
+**状态**：本地结构、梯度及协议测试 8 passed，Python/shell 语法与 smoke 检查通过（本地用了依赖接口测试替身）；尚未运行真实服务器训练/评估，未产生新的故障诊断 Macro-F1。Final-Holdout 保持隔离。
