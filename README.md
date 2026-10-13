@@ -206,3 +206,13 @@ python scripts/v4_experiment.py summarize
 - [完整客观报告：新增、原三种子及六种子汇总](records/five_models_extra_seeds/server_3f07228/SERVER_RESULTS.md)
 - [300行逐种子成绩](records/five_models_extra_seeds/server_3f07228/results/PER_SEED_RESULTS.csv) · [600行配对](records/five_models_extra_seeds/server_3f07228/results/PAIRED_PER_SEED.csv) · [1800行类别指标](records/five_models_extra_seeds/server_3f07228/results/PER_CLASS_PER_SEED.csv)
 - [独立入口](scripts/five_models_extra_seeds.py) · [冻结配置](configs/five_models_extra_seeds_v1.json) · [协议](docs/FIVE_MODELS_EXTRA_SEEDS_PROTOCOL.md) · [独立核验](records/five_models_extra_seeds/server_3f07228/results/VERIFICATION.json)
+
+## V5种子2025诊断记录
+
+固定权重脚本`edf78ff`、精确回放脚本`d49d9ac`。原第18轮权重在实测Clean为81.90% Macro-F1；OUS(A)、OLS(A)召回率为64.50%、47.14%，两类占266/315个Clean错误。推理强制α=0.5为82.07%，全部BN源数据校准为78.19%；四条件MD低电流分支翻转均为0。
+
+原V5及固定α种子2025各50轮训练轨迹和原最佳权重完全复现。事后Dev扫描记录：V5第4轮源Clean/实测Clean为94.69%/90.53%，第18轮为100%/81.90%，第50轮为87.19%/63.51%。源Clean候选阈值为99%，正式选择仍为第18轮。所有诊断成绩独立保存，不替换正式结果。
+
+- [完整客观诊断：具体文件误判、门控/BN对照和轮次扫描](records/v5_low_seed_diagnosis/server_edf78ff/DIAGNOSIS_RECORD.md)
+- [记录级错误](records/v5_low_seed_diagnosis/server_edf78ff/results/PER_RECORD_ERRORS.csv) · [400行轮次扫描](records/v5_low_seed_diagnosis/server_edf78ff/trajectory/EPOCH_TARGET_SCAN.csv)
+- [独立核验488组指标及7744行记录错误](records/v5_low_seed_diagnosis/server_edf78ff/VERIFICATION.json)

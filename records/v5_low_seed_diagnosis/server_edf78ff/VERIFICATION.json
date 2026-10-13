@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "independently_recomputed_target_metric_sets": 488,
+  "record_error_rows_verified": 7744,
+  "native_prediction_replays": 24,
+  "trajectory_exact_histories": 100,
+  "original_best_weight_states_exact": 2,
+  "official_results_replaced": false,
+  "final_holdout_evaluated": false,
+  "code_sha256": {
+    "v5_low_seed_diagnosis.py": "1862b1dbf1368f85cd8fd04902d21eb560f4d0dceb0f4e1cffe0fe18068a3d25",
+    "v5_replay_diagnosis.py": "3fc6eafc6b86a6ad318a53a19f65de672fca1797cd22c1e63c6ccc82bcea20eb"
+  }
+}

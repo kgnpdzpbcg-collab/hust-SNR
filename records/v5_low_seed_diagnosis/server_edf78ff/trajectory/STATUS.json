@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "seed": 2025,
+  "parity": [
+    {
+      "method": "nahsf",
+      "seed": 2025,
+      "loss_and_source_val_50_epochs_exact": true,
+      "selected_epoch": 18,
+      "original_best_all_tensors_exact": true
+    },
+    {
+      "method": "fixed_half",
+      "seed": 2025,
+      "loss_and_source_val_50_epochs_exact": true,
+      "selected_epoch": 49,
+      "original_best_all_tensors_exact": true
+    }
+  ],
+  "training_config_changed": false,
+  "epoch_snapshot_count": 100,
+  "posthoc_target_predictions": 400,
+  "target_used_during_replay_training_or_source_selection": false,
+  "posthoc_scan_used_to_replace_official": false,
+  "original_results_and_weights_unchanged": true,
+  "final_holdout_evaluated": false
+}

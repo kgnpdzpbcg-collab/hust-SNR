@@ -1,0 +1,1076 @@
+{
+  "42": {
+    "source_records": 34,
+    "source_cycles_clean_plus_noisy": 1476,
+    "noise_seed": 42,
+    "noise_epoch": 8,
+    "alpha_source_mean": 0.47389453649520874,
+    "layer_changes": [
+      {
+        "layer": "backbone.features.1",
+        "count_per_channel": 166788,
+        "mean_change_rms": 0.008023882284760475,
+        "old_var_mean": 0.21983811259269714,
+        "new_var_mean": 0.21950559318065643
+      },
+      {
+        "layer": "backbone.features.5",
+        "count_per_channel": 78228,
+        "mean_change_rms": 0.004012442659586668,
+        "old_var_mean": 0.11125513911247253,
+        "new_var_mean": 0.11202545464038849
+      },
+      {
+        "layer": "backbone.features.9",
+        "count_per_channel": 33948,
+        "mean_change_rms": 0.007033361122012138,
+        "old_var_mean": 0.1650339663028717,
+        "new_var_mean": 0.16510674357414246
+      }
+    ],
+    "learnable_parameters_unchanged": true,
+    "source_train_native_eval": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    },
+    "source_train_batch_stats": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    }
+  },
+  "43": {
+    "source_records": 34,
+    "source_cycles_clean_plus_noisy": 1476,
+    "noise_seed": 43,
+    "noise_epoch": 7,
+    "alpha_source_mean": 0.49882644414901733,
+    "layer_changes": [
+      {
+        "layer": "backbone.features.1",
+        "count_per_channel": 166788,
+        "mean_change_rms": 0.00881506223231554,
+        "old_var_mean": 0.18708954751491547,
+        "new_var_mean": 0.19088201224803925
+      },
+      {
+        "layer": "backbone.features.5",
+        "count_per_channel": 78228,
+        "mean_change_rms": 0.0061029354110360146,
+        "old_var_mean": 0.12080765515565872,
+        "new_var_mean": 0.12227945029735565
+      },
+      {
+        "layer": "backbone.features.9",
+        "count_per_channel": 33948,
+        "mean_change_rms": 0.006956462748348713,
+        "old_var_mean": 0.13738715648651123,
+        "new_var_mean": 0.13667547702789307
+      }
+    ],
+    "learnable_parameters_unchanged": true,
+    "source_train_native_eval": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    },
+    "source_train_batch_stats": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    }
+  },
+  "44": {
+    "source_records": 34,
+    "source_cycles_clean_plus_noisy": 1476,
+    "noise_seed": 44,
+    "noise_epoch": 6,
+    "alpha_source_mean": 0.4809432923793793,
+    "layer_changes": [
+      {
+        "layer": "backbone.features.1",
+        "count_per_channel": 166788,
+        "mean_change_rms": 0.00638104323297739,
+        "old_var_mean": 0.13881884515285492,
+        "new_var_mean": 0.13751478493213654
+      },
+      {
+        "layer": "backbone.features.5",
+        "count_per_channel": 78228,
+        "mean_change_rms": 0.00875134952366352,
+        "old_var_mean": 0.1328280121088028,
+        "new_var_mean": 0.13459163904190063
+      },
+      {
+        "layer": "backbone.features.9",
+        "count_per_channel": 33948,
+        "mean_change_rms": 0.010250849649310112,
+        "old_var_mean": 0.13568678498268127,
+        "new_var_mean": 0.13864079117774963
+      }
+    ],
+    "learnable_parameters_unchanged": true,
+    "source_train_native_eval": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    },
+    "source_train_batch_stats": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    }
+  },
+  "2024": {
+    "source_records": 34,
+    "source_cycles_clean_plus_noisy": 1476,
+    "noise_seed": 2024,
+    "noise_epoch": 11,
+    "alpha_source_mean": 0.4828186333179474,
+    "layer_changes": [
+      {
+        "layer": "backbone.features.1",
+        "count_per_channel": 166788,
+        "mean_change_rms": 0.0048583983443677425,
+        "old_var_mean": 0.2831110954284668,
+        "new_var_mean": 0.2861250638961792
+      },
+      {
+        "layer": "backbone.features.5",
+        "count_per_channel": 78228,
+        "mean_change_rms": 0.008324633352458477,
+        "old_var_mean": 0.1424149125814438,
+        "new_var_mean": 0.14668366312980652
+      },
+      {
+        "layer": "backbone.features.9",
+        "count_per_channel": 33948,
+        "mean_change_rms": 0.0134357288479805,
+        "old_var_mean": 0.2004048228263855,
+        "new_var_mean": 0.205058291554451
+      }
+    ],
+    "learnable_parameters_unchanged": true,
+    "source_train_native_eval": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    },
+    "source_train_batch_stats": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    }
+  },
+  "2025": {
+    "source_records": 34,
+    "source_cycles_clean_plus_noisy": 1476,
+    "noise_seed": 2025,
+    "noise_epoch": 18,
+    "alpha_source_mean": 0.4057637155056,
+    "layer_changes": [
+      {
+        "layer": "backbone.features.1",
+        "count_per_channel": 166788,
+        "mean_change_rms": 0.007439365144819021,
+        "old_var_mean": 0.4562106728553772,
+        "new_var_mean": 0.45877161622047424
+      },
+      {
+        "layer": "backbone.features.5",
+        "count_per_channel": 78228,
+        "mean_change_rms": 0.009949041530489922,
+        "old_var_mean": 0.16445797681808472,
+        "new_var_mean": 0.16912752389907837
+      },
+      {
+        "layer": "backbone.features.9",
+        "count_per_channel": 33948,
+        "mean_change_rms": 0.013951068744063377,
+        "old_var_mean": 0.26963919401168823,
+        "new_var_mean": 0.2700812816619873
+      }
+    ],
+    "learnable_parameters_unchanged": true,
+    "source_train_native_eval": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    },
+    "source_train_batch_stats": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    }
+  },
+  "2026": {
+    "source_records": 34,
+    "source_cycles_clean_plus_noisy": 1476,
+    "noise_seed": 2026,
+    "noise_epoch": 44,
+    "alpha_source_mean": 0.3183300495147705,
+    "layer_changes": [
+      {
+        "layer": "backbone.features.1",
+        "count_per_channel": 166788,
+        "mean_change_rms": 0.009681745432317257,
+        "old_var_mean": 0.6814825534820557,
+        "new_var_mean": 0.6726725697517395
+      },
+      {
+        "layer": "backbone.features.5",
+        "count_per_channel": 78228,
+        "mean_change_rms": 0.004260868765413761,
+        "old_var_mean": 0.2596459686756134,
+        "new_var_mean": 0.26328468322753906
+      },
+      {
+        "layer": "backbone.features.9",
+        "count_per_channel": 33948,
+        "mean_change_rms": 0.005775917321443558,
+        "old_var_mean": 0.5474237203598022,
+        "new_var_mean": 0.5384753942489624
+      }
+    ],
+    "learnable_parameters_unchanged": true,
+    "source_train_native_eval": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    },
+    "source_train_batch_stats": {
+      "macro_f1": 1.0,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "per_class_f1": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_class_recall": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "normal_false_alarms": 0,
+      "normal_false_alarm_rate": 0.0,
+      "missed_fault_as_normal": 0,
+      "confusion_matrix": [
+        [
+          252,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          254,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          254,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          254,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          254
+        ]
+      ]
+    }
+  }
+}

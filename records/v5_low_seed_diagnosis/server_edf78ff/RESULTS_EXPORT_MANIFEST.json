@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "files": {
+    "results/METRICS.csv": {
+      "sha256": "f216580e20d4f0b2876539791aa032825300e9d17724201507f25411336fb748",
+      "bytes": 12535
+    },
+    "results/STATUS.json": {
+      "sha256": "3dbabd6d6f8cef18a2549fac29c1bcbc57d2ed6277a477a7a12200269924bc7e",
+      "bytes": 3079
+    },
+    "results/BN_SOURCE_CALIBRATION.json": {
+      "sha256": "d134ccfc0b3463f7346cd47a3f3e06e7521393bed771de30afba6e8ee9f44f91",
+      "bytes": 18635
+    },
+    "results/PROTECTED_FILES_SHA256.json": {
+      "sha256": "2f8de651978c6aabbfb05717ba4967783b1a02c2ae4eb9d2e11fc5436f594be6",
+      "bytes": 331741
+    },
+    "results/SIGNAL_DIAGNOSTICS.json": {
+      "sha256": "f9d5291c1af31a123de9e059ec6b131a047c24119665c7187f73cac2f8a6157d",
+      "bytes": 111998
+    },
+    "results/TARGET_DIAGNOSTICS.json": {
+      "sha256": "45eaa5ae5e74c0b8f45ab2f49bd3130088fb402f2d37c4c419db8967e171571c",
+      "bytes": 4047623
+    },
+    "results/PER_RECORD_ERRORS.csv": {
+      "sha256": "dc7d6b8e4d09e2282efcbd9f2d2327fce3e017079b2b2a4e4bcaa7ecdf61d116",
+      "bytes": 637510
+    },
+    "trajectory/STATUS.json": {
+      "sha256": "e973a67ac70ec2f40455e6ace42aec1d334d75474892260fda2522d9e8218283",
+      "bytes": 737
+    },
+    "trajectory/EPOCH_TARGET_DETAILS.json": {
+      "sha256": "730bfe58da87c19f37cd72b366a18b457adac04ed5c49b5aa4b1b439c939866c",
+      "bytes": 11664990
+    },
+    "trajectory/EPOCH_TARGET_SCAN.csv": {
+      "sha256": "977dba7e1cddcf718bd5813ed5858732d6c1bf8aa030e1802f7dd665789d28f4",
+      "bytes": 52821
+    },
+    "trajectory/replay/models/nahsf/seed2025/history.json": {
+      "sha256": "03896c94fa69a548ea4e8ad9bcff4c8a6692b5fd4563c66ed012a5237616e891",
+      "bytes": 23944
+    },
+    "trajectory/replay/models/nahsf/seed2025/run.json": {
+      "sha256": "c93b6f58f7aebb51209469667a68c1199d79895c3c4db0c7399efd88b6558dca",
+      "bytes": 2910
+    },
+    "trajectory/replay/models/fixed_half/seed2025/history.json": {
+      "sha256": "f233ab588e7ef75ce0e11eab7e84b3b8a5095edce26f76ee60e5463063b010fe",
+      "bytes": 18945
+    },
+    "trajectory/replay/models/fixed_half/seed2025/run.json": {
+      "sha256": "05ccd955502b50938a81f19c117c2f0bf79ed882e063d6236b397ca611b1645a",
+      "bytes": 2688
+    },
+    "v5_low_seed_diagnosis.py": {
+      "sha256": "1862b1dbf1368f85cd8fd04902d21eb560f4d0dceb0f4e1cffe0fe18068a3d25",
+      "bytes": 16043
+    },
+    "v5_replay_diagnosis.py": {
+      "sha256": "3fc6eafc6b86a6ad318a53a19f65de672fca1797cd22c1e63c6ccc82bcea20eb",
+      "bytes": 7925
+    },
+    "VERIFY_AND_EXPORT.py": {
+      "sha256": "0b6b620adddc7569d4acf2f36672e2e6900c3cda884e8105fb8e721221f92a91",
+      "bytes": 4849
+    },
+    "VERIFICATION.json": {
+      "sha256": "9bbee59f9449219a281eeca1a32252ec977c1543ad644037c06f59a488a99e9a",
+      "bytes": 526
+    }
+  },
+  "raw_current_uploaded": false,
+  "weights_or_snapshots_uploaded": false,
+  "environment_uploaded": false
+}

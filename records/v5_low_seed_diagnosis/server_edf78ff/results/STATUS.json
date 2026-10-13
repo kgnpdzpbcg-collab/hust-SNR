@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "focus_seed": 2025,
+  "seeds": [
+    42,
+    43,
+    44,
+    2024,
+    2025,
+    2026
+  ],
+  "variants": [
+    {
+      "seed": 42,
+      "variant": "native"
+    },
+    {
+      "seed": 42,
+      "variant": "alpha05"
+    },
+    {
+      "seed": 42,
+      "variant": "bn_source_all"
+    },
+    {
+      "seed": 43,
+      "variant": "native"
+    },
+    {
+      "seed": 43,
+      "variant": "alpha05"
+    },
+    {
+      "seed": 43,
+      "variant": "bn_source_all"
+    },
+    {
+      "seed": 44,
+      "variant": "native"
+    },
+    {
+      "seed": 44,
+      "variant": "alpha05"
+    },
+    {
+      "seed": 44,
+      "variant": "bn_source_all"
+    },
+    {
+      "seed": 2024,
+      "variant": "native"
+    },
+    {
+      "seed": 2024,
+      "variant": "alpha05"
+    },
+    {
+      "seed": 2024,
+      "variant": "bn_source_all"
+    },
+    {
+      "seed": 2025,
+      "variant": "native"
+    },
+    {
+      "seed": 2025,
+      "variant": "alpha05"
+    },
+    {
+      "seed": 2025,
+      "variant": "bn_source_all"
+    },
+    {
+      "seed": 2025,
+      "variant": "alpha_source_mean"
+    },
+    {
+      "seed": 2025,
+      "variant": "bn_source_1"
+    },
+    {
+      "seed": 2025,
+      "variant": "bn_source_5"
+    },
+    {
+      "seed": 2025,
+      "variant": "bn_source_9"
+    },
+    {
+      "seed": 2026,
+      "variant": "native"
+    },
+    {
+      "seed": 2026,
+      "variant": "alpha05"
+    },
+    {
+      "seed": 2026,
+      "variant": "bn_source_all"
+    }
+  ],
+  "native_prediction_replays": 24,
+  "source_calibration_records": 34,
+  "source_validation_records": 15,
+  "target_dev_records": 88,
+  "target_conditions": [
+    "clean",
+    10,
+    5,
+    0
+  ],
+  "weights_sha256": {
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/models/nahsf/seed42/best.pt": "54e409184e665b394fe4911f333432279cfa0cbfe4e13e1586bdf4639a08666c",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/models/nahsf/seed43/best.pt": "8027656babf433933db4339e635243e474c269e66d53474d9284cec5099628b9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/results/models/nahsf/seed44/best.pt": "55e3395b440d91cf26a4d9f0a428e1292b11f711f2e37abfaba6fe6dd87f5a68",
+    "/home/wang/projects/会议论文/hust/experiments/five_models_extra_seeds/3f07228/results/models/nahsf/seed2024/best.pt": "f803ba4970f9ff3dc4891f869eba6cc32fc207099bfe5338936469376c363ada",
+    "/home/wang/projects/会议论文/hust/experiments/five_models_extra_seeds/3f07228/results/models/nahsf/seed2025/best.pt": "28933a88fda2288384877d0f46adb34ed423886fa90491f1b7ab18fafbaaa51f",
+    "/home/wang/projects/会议论文/hust/experiments/five_models_extra_seeds/3f07228/results/models/nahsf/seed2026/best.pt": "62182b3c8ee2b2bb6758a204ecdb669098c65cac68e8e32e1a5fd3796fe81bcf"
+  },
+  "bn_calibration_used_target_or_val": false,
+  "optimizer_updates": 0,
+  "old_results_and_weights_unchanged": true,
+  "final_holdout_evaluated": false,
+  "diagnostic_not_official_results": true
+}
