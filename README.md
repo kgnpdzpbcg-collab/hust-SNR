@@ -330,3 +330,30 @@ Plain CNN1D参数231078，历史ResNet241702；选中轮次为43/42/22。全部�
 - [30行逐种子结果](records/plain_cnn1d/server_5785ae5/results/reports/PER_SEED_RESULTS.csv) · [180行六类指标](records/plain_cnn1d/server_5785ae5/results/reports/PER_CLASS_PER_SEED.csv)
 - [150轮损失及源验证](records/plain_cnn1d/server_5785ae5/results/reports/TRAIN_LOSS_HISTORY.csv) · [逐种子ResNet/V5配对差](records/plain_cnn1d/server_5785ae5/results/reports/PAIRED_RESNET_V5.csv)
 - [独立核验](records/plain_cnn1d/server_5785ae5/results/reports/VERIFICATION.json) · [文件/类别/时间段索引](records/plain_cnn1d/server_5785ae5/results/reports/DATA_FILE_INDEX.csv)
+
+
+## Nine-arm Architecture Sweep：一次性验证加宽、加深、多尺度、残差与 ResNet＋谐波前端
+
+**独立研究分支：`research/architecture-sweep-v1`。** 为提升真实域故障诊断效果而设计，不以参数量轻量化为目标。不修改旧 V5/ResNet/LP3/LP4/Xu-Full/历史 t-SNE 权重和实验记录。
+
+- [完整实验协议、9组消融矩阵、可复现性边界](docs/HUST_ARCH_SUITE_V1.md)
+- [9个模型定义、频谱前端、MS Stem、等参数残差开关](scripts/hust_arch_suite_models.py)
+- [统一源域训练/选模、Target-Dev十条件评估与汇总](scripts/hust_arch_suite_experiment.py)
+- [冻结参数与方法矩阵](configs/hust_arch_suite_v1.json)
+- [结构、输入尺寸、GPU无关前反向、参数一致性测试](tests/test_hust_arch_suite.py)
+- [9模型×3种子服务器批量执行脚本](scripts/run_hust_arch_suite_server.sh)
+
+九种方法：`v5_w`、`v5_wd_plain`、`v5_wd_res`、`v5_w_ms`、`v5_wd_plain_ms`、`v5_wd_res_ms`、`resnet_lp3`、`resnet_lp4`、`resnet_nahsf`。同一源域34/15记录，训练10–40dB，Clean/0/5/10/20/30dB源验证，42/43/44三种子各50轮；实测开发集10条件，每条件2474周期；5/0dB须标为合成压力条件。**全部 27 次训练和 270 组 Dev 推理仅在真实服务器执行，不使用目标标签选模型，347条Final-Holdout严格隔离**。
+
+从仓库根目录：
+
+```bash
+git fetch origin
+git switch research/architecture-sweep-v1
+export SOURCE_STRONG_ROOT="/path/to/existing/strong_data_root"
+export TARGET_SNR_ROOT="/path/to/original_target_SNR_parent"
+export TARGET_STRONG_ROOT="/path/to/existing/strong_data_root"
+bash scripts/run_hust_arch_suite_server.sh
+```
+
+状态：已完成代码编写、上传和**25 项本地 CPU 接口替身测试**，九模型前向/反向 Smoke 已通过；真实仓库依赖、真实 MAT 和 CUDA 集成需在服务器脚本运行时进一步检查。**尚无本轮新模型的真实数据成绩**。所有输出默认独立写入 `outputs/hust_arch_suite_v1/`，拒绝覆盖已有文件。
