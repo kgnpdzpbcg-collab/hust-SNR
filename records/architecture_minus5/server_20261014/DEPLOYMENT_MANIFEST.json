@@ -1,0 +1,14 @@
+{
+  "client_date": "2026-10-14",
+  "evaluation_code_commit": "729149273ac79b04c1e8a49c0adb97807409151d",
+  "reference_training_code_commit": "5c75bea",
+  "reference_code_snapshot_verified": true,
+  "python": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "torch_version": "2.14.1+cu130",
+  "environment_reused": true,
+  "dependencies_installed": false,
+  "reference_experiment": "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea",
+  "minus5_dataset": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014",
+  "code_archive_sha256": "92a5e98fcc1ea17b0f364b38dc7beec02bb73cfe72a4a034e440ac1af42db8da",
+  "new_result_directory": "/home/wang/projects/会议论文/hust/experiments/architecture_minus5/20261014/results"
+}

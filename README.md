@@ -384,3 +384,12 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 - [−5 dB配置](configs/strong_snr_minus5_v1.json) · [生成代码](scripts/generate_strong_snr.py)
 - [服务器生成记录、保存路径与核验结果](records/strong_snr_minus5/server_20261014/GENERATION_RECORD.md)
 - [499份文件索引](records/strong_snr_minus5/server_20261014/GENERATED_FILE_INDEX.csv) · [独立核验](records/strong_snr_minus5/server_20261014/INDEPENDENT_VERIFICATION.json)
+
+### 九模型固定权重−5 dB评估
+
+服务器已固定原架构实验27份源域选出的权重，在原88个实测Dev编号、2474周期上完成−5 dB推理；没有重新训练、选模或评估Final-Holdout。全部27组0 dB历史预测及27组−5 dB重复预测完全复现；原权重、代码、结果和输入指纹保持不变。
+
+−5 dB Macro-F1（42/43/44均值±样本标准差，%）：v5_w 77.96±0.66、v5_wd_plain 74.50±7.25、v5_wd_res 74.34±7.07、v5_w_ms 77.67±3.93、v5_wd_plain_ms 74.79±3.86、v5_wd_res_ms 71.07±7.73、resnet_lp3 80.24±7.75、resnet_lp4 80.43±2.92、resnet_nahsf 75.69±5.10。
+
+- [独立推理入口](scripts/evaluate_arch_suite_minus5.py) · [冻结评估配置](configs/architecture_minus5_fixed_weights_v1.json)
+- [服务器完整结果、逐种子及0/5 dB配对对照](records/architecture_minus5/server_20261014/SERVER_RESULTS.md) · [独立核验](records/architecture_minus5/server_20261014/results/reports/VERIFICATION.json)
