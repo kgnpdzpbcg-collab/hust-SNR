@@ -11,7 +11,7 @@ from generate_strong_snr import (gaussian_current, phase_snr, scaled_author_curr
                                  source_seed, save_checked)
 
 
-@pytest.mark.parametrize("snr", [5, 0])
+@pytest.mark.parametrize("snr", [5, 0, -5])
 def test_gaussian_phase_snr_is_exact_and_seeded(snr):
     """五相振幅不同、故障段近零时，也按整记录校准而非周期校准。"""
     t = np.arange(1000) / 1000
@@ -23,7 +23,7 @@ def test_gaussian_phase_snr_is_exact_and_seeded(snr):
     assert not np.array_equal(a, gaussian_current(clean, snr, 20))
 
 
-@pytest.mark.parametrize("snr", [5, 0])
+@pytest.mark.parametrize("snr", [5, 0, -5])
 def test_scaled_author_noise_preserves_nonuniform_shape(snr):
     """作者噪声即使随时间变化，新档位仍保留其形态和每相SNR。"""
     rng = np.random.default_rng(21)
