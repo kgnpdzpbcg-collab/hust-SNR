@@ -1,0 +1,6 @@
+v5_wd_res_ms seed43 [01/50] src_clean=0.9046 src_noise5=0.8689
+v5_wd_res_ms seed43 [10/50] src_clean=1.0000 src_noise5=0.9632
+v5_wd_res_ms seed43 [20/50] src_clean=0.8642 src_noise5=0.8590
+v5_wd_res_ms seed43 [30/50] src_clean=1.0000 src_noise5=0.9436
+v5_wd_res_ms seed43 [40/50] src_clean=0.9343 src_noise5=0.9039
+v5_wd_res_ms seed43 [50/50] src_clean=0.9577 src_noise5=0.9317

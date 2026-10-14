@@ -1,0 +1,65 @@
+{
+  "method": "resnet_nahsf",
+  "seed": 42,
+  "status": "completed",
+  "stages": [
+    {
+      "stage": "train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/hust_arch_suite_experiment.py",
+        "train",
+        "--methods",
+        "resnet_nahsf",
+        "--seeds",
+        "42",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/results",
+        "--source-strong-root",
+        "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 27.788450119999652
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/hust_arch_suite_experiment.py",
+        "evaluate",
+        "--methods",
+        "resnet_nahsf",
+        "--seeds",
+        "42",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/results",
+        "--snr-root",
+        "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr",
+        "--strong-root",
+        "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.1992490789998556
+    }
+  ],
+  "stage": "evaluate",
+  "pid": 5182,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/hust_arch_suite_experiment.py",
+    "evaluate",
+    "--methods",
+    "resnet_nahsf",
+    "--seeds",
+    "42",
+    "--out",
+    "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/results",
+    "--snr-root",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr",
+    "--strong-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+  ]
+}

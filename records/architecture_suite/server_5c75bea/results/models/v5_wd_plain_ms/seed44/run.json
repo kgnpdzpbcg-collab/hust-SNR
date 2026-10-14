@@ -1,0 +1,110 @@
+{
+  "method": "v5_wd_plain_ms",
+  "seed": 44,
+  "protocol": "HUST-architecture-nine-arm-v1-source-only",
+  "selected": {
+    "epoch": 15,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 0.9634354740835125,
+      "5": 0.9899920383399249,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 0.9906855024846875,
+    "train_loss_mean": 0.12391926921554841
+  },
+  "initial_parameters_sha256": "51b767c168d2f45737a8a845248a5cfe753c9d5281ecf8ddf0b0585e1e0ba380",
+  "parameters": 88525,
+  "training": {
+    "protocol": "HUST-architecture-nine-arm-v1-source-only",
+    "methods": [
+      "v5_w",
+      "v5_wd_plain",
+      "v5_wd_res",
+      "v5_w_ms",
+      "v5_wd_plain_ms",
+      "v5_wd_res_ms",
+      "resnet_lp3",
+      "resnet_lp4",
+      "resnet_nahsf"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 50,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "source_train_snr_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "source_val_snr_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "target_conditions": [
+      "clean",
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      5,
+      0
+    ],
+    "train_loss": "0.5*CE(clean)+0.5*CE(noisy) with joint forward and original V5 noise schedule",
+    "selection": "source clean F1 within 1pp of peak, then max five source noisy-val mean F1, tie clean F1 then earliest epoch",
+    "wide_encoder_channels": [
+      32,
+      64,
+      64
+    ],
+    "wide_encoder_kernels": [
+      16,
+      4,
+      4
+    ],
+    "multiscale_stem_kernels": [
+      7,
+      15,
+      31
+    ],
+    "multiscale_stem_channels": [
+      8,
+      12,
+      12
+    ],
+    "multiscale_stem_crop": [
+      7,
+      120
+    ],
+    "wd_adapter": "two 64->64 k3 convs with BN; residual adds parameter-free identity; same parameter count as plain",
+    "resnet_encoder": "reuse existing FivePhaseResNet1D stem/layers/pool/classifier exactly, normalize ONCE after harmonic shaping",
+    "target_training": false,
+    "target_checkpoint_selection": false,
+    "final_holdout_evaluated": false
+  },
+  "source_train_records": 34,
+  "source_train_cycles": 738,
+  "source_val_records": 15,
+  "source_val_cycles": 302,
+  "model_init_from_scratch": true,
+  "source_only": true,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

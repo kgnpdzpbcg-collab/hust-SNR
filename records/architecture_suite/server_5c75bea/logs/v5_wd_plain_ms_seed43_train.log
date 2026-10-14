@@ -1,0 +1,6 @@
+v5_wd_plain_ms seed43 [01/50] src_clean=0.8802 src_noise5=0.8526
+v5_wd_plain_ms seed43 [10/50] src_clean=1.0000 src_noise5=0.9737
+v5_wd_plain_ms seed43 [20/50] src_clean=1.0000 src_noise5=0.9769
+v5_wd_plain_ms seed43 [30/50] src_clean=0.9085 src_noise5=0.8719
+v5_wd_plain_ms seed43 [40/50] src_clean=0.9440 src_noise5=0.9271
+v5_wd_plain_ms seed43 [50/50] src_clean=1.0000 src_noise5=0.9592

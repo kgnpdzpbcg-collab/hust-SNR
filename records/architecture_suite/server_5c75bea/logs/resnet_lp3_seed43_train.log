@@ -1,0 +1,6 @@
+resnet_lp3 seed43 [01/50] src_clean=0.3522 src_noise5=0.3548
+resnet_lp3 seed43 [10/50] src_clean=1.0000 src_noise5=0.9939
+resnet_lp3 seed43 [20/50] src_clean=1.0000 src_noise5=0.9942
+resnet_lp3 seed43 [30/50] src_clean=1.0000 src_noise5=0.9913
+resnet_lp3 seed43 [40/50] src_clean=1.0000 src_noise5=0.9845
+resnet_lp3 seed43 [50/50] src_clean=1.0000 src_noise5=0.9713

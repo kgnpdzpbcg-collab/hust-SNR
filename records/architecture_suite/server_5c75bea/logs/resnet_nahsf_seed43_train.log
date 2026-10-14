@@ -1,0 +1,6 @@
+resnet_nahsf seed43 [01/50] src_clean=0.3522 src_noise5=0.3421
+resnet_nahsf seed43 [10/50] src_clean=1.0000 src_noise5=0.9887
+resnet_nahsf seed43 [20/50] src_clean=1.0000 src_noise5=0.9845
+resnet_nahsf seed43 [30/50] src_clean=1.0000 src_noise5=0.9928
+resnet_nahsf seed43 [40/50] src_clean=1.0000 src_noise5=0.9959
+resnet_nahsf seed43 [50/50] src_clean=1.0000 src_noise5=0.9945

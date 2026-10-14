@@ -1,0 +1,215 @@
+{
+  "default_verifier_settings": {
+    "deterministic_algorithms": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "cuda_matmul_allow_tf32": false,
+    "cudnn_allow_tf32": true
+  },
+  "original_evaluation_settings": {
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cuda_matmul_allow_tf32": false,
+    "cudnn_allow_tf32": false
+  },
+  "condition": "snr10",
+  "models_checked": 27,
+  "comparisons": [
+    {
+      "method": "v5_w",
+      "seed": 42,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_w",
+      "seed": 43,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_w",
+      "seed": 44,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_plain",
+      "seed": 42,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_plain",
+      "seed": 43,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_plain",
+      "seed": 44,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_res",
+      "seed": 42,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_res",
+      "seed": 43,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_res",
+      "seed": 44,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_w_ms",
+      "seed": 42,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_w_ms",
+      "seed": 43,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_w_ms",
+      "seed": 44,
+      "default_mismatched_cycles": 1,
+      "default_mismatch_indices": [
+        161
+      ],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_plain_ms",
+      "seed": 42,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_plain_ms",
+      "seed": 43,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_plain_ms",
+      "seed": 44,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_res_ms",
+      "seed": 42,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_res_ms",
+      "seed": 43,
+      "default_mismatched_cycles": 1,
+      "default_mismatch_indices": [
+        1558
+      ],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "v5_wd_res_ms",
+      "seed": 44,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "resnet_lp3",
+      "seed": 42,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "resnet_lp3",
+      "seed": 43,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "resnet_lp3",
+      "seed": 44,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "resnet_lp4",
+      "seed": 42,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "resnet_lp4",
+      "seed": 43,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "resnet_lp4",
+      "seed": 44,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "resnet_nahsf",
+      "seed": 42,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "resnet_nahsf",
+      "seed": 43,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    },
+    {
+      "method": "resnet_nahsf",
+      "seed": 44,
+      "default_mismatched_cycles": 0,
+      "default_mismatch_indices": [],
+      "original_settings_mismatched_cycles": 0
+    }
+  ],
+  "original_settings_all_predictions_exact": true,
+  "model_or_data_changes": false
+}

@@ -1,0 +1,10 @@
+DEV v5_w seed=44 clean Macro-F1=97.854%
+DEV v5_w seed=44 snr10 Macro-F1=97.640%
+DEV v5_w seed=44 snr15 Macro-F1=98.032%
+DEV v5_w seed=44 snr20 Macro-F1=97.792%
+DEV v5_w seed=44 snr25 Macro-F1=98.040%
+DEV v5_w seed=44 snr30 Macro-F1=97.917%
+DEV v5_w seed=44 snr35 Macro-F1=97.854%
+DEV v5_w seed=44 snr40 Macro-F1=97.854%
+DEV v5_w seed=44 snr5 Macro-F1=96.497%
+DEV v5_w seed=44 snr0 Macro-F1=90.896%

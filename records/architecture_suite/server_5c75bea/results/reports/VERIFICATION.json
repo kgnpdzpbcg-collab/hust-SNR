@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "models_verified": 27,
+  "training_epochs_verified": 1350,
+  "source_selections_independently_recomputed": 27,
+  "source_validation_sets_reproduced": 162,
+  "target_prediction_sets_reproduced": 270,
+  "independent_target_metric_sets_recomputed": 270,
+  "summary_groups_recomputed": 90,
+  "target_per_class_rows_verified": 1620,
+  "unit_tests_passed": 25,
+  "protected_files_sha256_verified": 2196,
+  "old_files_unchanged": true,
+  "inference_model_states_unchanged": true,
+  "original_deterministic_tf32_settings_reused": true,
+  "verification_settings_correction_record": "../../REPLAY_SETTINGS_DIAGNOSIS.json",
+  "final_holdout_evaluated": false
+}

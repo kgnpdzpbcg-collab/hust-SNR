@@ -1,0 +1,10 @@
+DEV resnet_nahsf seed=44 clean Macro-F1=88.790%
+DEV resnet_nahsf seed=44 snr10 Macro-F1=88.934%
+DEV resnet_nahsf seed=44 snr15 Macro-F1=89.361%
+DEV resnet_nahsf seed=44 snr20 Macro-F1=89.077%
+DEV resnet_nahsf seed=44 snr25 Macro-F1=88.790%
+DEV resnet_nahsf seed=44 snr30 Macro-F1=89.005%
+DEV resnet_nahsf seed=44 snr35 Macro-F1=88.646%
+DEV resnet_nahsf seed=44 snr40 Macro-F1=88.718%
+DEV resnet_nahsf seed=44 snr5 Macro-F1=89.005%
+DEV resnet_nahsf seed=44 snr0 Macro-F1=87.092%

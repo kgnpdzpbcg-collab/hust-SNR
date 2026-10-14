@@ -356,4 +356,23 @@ export TARGET_STRONG_ROOT="/path/to/existing/strong_data_root"
 bash scripts/run_hust_arch_suite_server.sh
 ```
 
-状态：已完成代码编写、上传和**25 项本地 CPU 接口替身测试**，九模型前向/反向 Smoke 已通过；真实仓库依赖、真实 MAT 和 CUDA 集成需在服务器脚本运行时进一步检查。**尚无本轮新模型的真实数据成绩**。所有输出默认独立写入 `outputs/hust_arch_suite_v1/`，拒绝覆盖已有文件。
+**服务器状态：原提交`5c75bea`已完成27次50轮训练及270组实测Dev评估。** 25项测试、27组源选模、162组源验证、全部目标预测独立重放通过；2196个旧文件SHA不变。复用原环境、四工作进程，训练/评估/汇总209.972秒，最终保留集未评估。
+
+Macro-F1（42/43/44均值±样本标准差，%）：
+
+| 模型 | Clean | 10 dB | 5 dB | 0 dB |
+|---|---:|---:|---:|---:|
+| v5_w | 97.00 ± 1.22 | 96.61 ± 1.28 | 95.04 ± 1.54 | 90.84 ± 0.05 |
+| v5_wd_plain | 93.36 ± 5.71 | 92.68 ± 6.02 | 90.89 ± 6.57 | 86.41 ± 8.02 |
+| v5_wd_res | 92.83 ± 3.27 | 91.97 ± 3.37 | 90.56 ± 4.14 | 86.38 ± 5.24 |
+| v5_w_ms | 96.53 ± 1.05 | 95.10 ± 1.23 | 93.32 ± 1.66 | 88.41 ± 2.79 |
+| v5_wd_plain_ms | 92.40 ± 1.51 | 91.88 ± 1.89 | 90.44 ± 2.28 | 86.34 ± 3.41 |
+| v5_wd_res_ms | 93.32 ± 4.05 | 92.56 ± 4.21 | 91.00 ± 4.26 | 85.59 ± 5.53 |
+| resnet_lp3 | 96.10 ± 5.05 | 96.14 ± 4.55 | 95.42 ± 4.87 | 92.38 ± 4.84 |
+| resnet_lp4 | 99.42 ± 0.50 | 99.00 ± 0.68 | 98.10 ± 0.85 | 94.44 ± 1.05 |
+| resnet_nahsf | 94.80 ± 5.65 | 94.28 ± 5.54 | 93.59 ± 5.68 | 89.84 ± 6.07 |
+
+- [完整服务器记录、逐种子成绩及历史V5/ResNet配对](records/architecture_suite/server_5c75bea/SERVER_RESULTS.md)
+- [270行逐种子结果](records/architecture_suite/server_5c75bea/results/reports/PER_SEED_RESULTS.csv) · [1620行六类指标](records/architecture_suite/server_5c75bea/results/reports/PER_CLASS_PER_SEED.csv)
+- [1350轮损失和源验证](records/architecture_suite/server_5c75bea/results/reports/TRAIN_LOSS_HISTORY.csv) · [390行配对差](records/architecture_suite/server_5c75bea/results/reports/PAIRED_ARCHITECTURE_COMPARISONS.csv)
+- [独立核验](records/architecture_suite/server_5c75bea/results/reports/VERIFICATION.json) · [CUDA核验设置诊断](records/architecture_suite/server_5c75bea/REPLAY_SETTINGS_DIAGNOSIS.json)

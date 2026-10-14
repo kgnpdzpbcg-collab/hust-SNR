@@ -1,0 +1,9 @@
+{
+  "changed_field": "verification_settings_correction_record",
+  "before": "../../../REPLAY_SETTINGS_DIAGNOSIS.json",
+  "after": "../../REPLAY_SETTINGS_DIAGNOSIS.json",
+  "before_sha256": "f604cc520750ae449316c4b5d2bf1bbfa098db644fafffb533e2b56dc1357791",
+  "after_sha256": "f32f3964747301637e63be8d3ec8e160daec12e4ab05e0f8b5f86ac25d2f710e",
+  "numerical_results_or_models_modified": false,
+  "original_archive_sha256": "1833cbaf7b807d81aeb3a4ede23c0d6c6cfc93b381e045bfa4dfcccc83a0d904"
+}

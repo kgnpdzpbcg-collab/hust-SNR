@@ -1,0 +1,10 @@
+v5_w 63213 torch.Size([2, 704])
+v5_wd_plain 88045 torch.Size([2, 704])
+v5_wd_res 88045 torch.Size([2, 704])
+v5_w_ms 63693 torch.Size([2, 704])
+v5_wd_plain_ms 88525 torch.Size([2, 704])
+v5_wd_res_ms 88525 torch.Size([2, 704])
+resnet_lp3 241702 torch.Size([2, 128])
+resnet_lp4 241702 torch.Size([2, 128])
+resnet_nahsf 241743 torch.Size([2, 128])
+Frozen protocol / model smoke PASS

@@ -1,0 +1,6 @@
+resnet_lp4 seed44 [01/50] src_clean=0.5474 src_noise5=0.5033
+resnet_lp4 seed44 [10/50] src_clean=1.0000 src_noise5=0.9859
+resnet_lp4 seed44 [20/50] src_clean=1.0000 src_noise5=0.9725
+resnet_lp4 seed44 [30/50] src_clean=1.0000 src_noise5=0.9892
+resnet_lp4 seed44 [40/50] src_clean=1.0000 src_noise5=0.9857
+resnet_lp4 seed44 [50/50] src_clean=1.0000 src_noise5=0.9939

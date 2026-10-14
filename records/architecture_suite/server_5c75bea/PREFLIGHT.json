@@ -1,0 +1,179 @@
+{
+  "status": "passed",
+  "unit_tests_passed": 25,
+  "cli_smoke_passed": true,
+  "shell_syntax_passed": true,
+  "source_train_records": 34,
+  "source_val_records": 15,
+  "source_train_cycles": 738,
+  "source_val_cycles": 302,
+  "source_split_record_overlap": 0,
+  "source_val_noise_matches_original_rng": true,
+  "first_epoch_noise_sha256": {
+    "42": "a49d07c66970c8abe8257728c01e322b3adfaaf4b07500541274cd447626d65b",
+    "43": "89bbd8732d346ad421b99779865aeeb8b80acceea742cb02c6a8ab9bb1c3ab2e",
+    "44": "06f21a9012b6d0c3de315d7a13dc89825c3fcfed99300aec3f13bceffdbde60b"
+  },
+  "first_epoch_noise_matches_historical_resnet": true,
+  "initial_parameters_sha256": {
+    "42": {
+      "v5_w": "2b1a5b6e16f20abe655bd6f4668c88eaaffaf9b3536449f9980010f24ec1eaf9",
+      "v5_wd_plain": "a2b809bf7ae0d5031fbfb9e06fb7fd0054c144a0205cbc3b6e121083bf574a89",
+      "v5_wd_res": "a2b809bf7ae0d5031fbfb9e06fb7fd0054c144a0205cbc3b6e121083bf574a89",
+      "v5_w_ms": "b2313df1d1ab7c6e70936632de21fcb592e585940b8c669426a07f8e3f9d8e6b",
+      "v5_wd_plain_ms": "51f91dcd435f428be6199382152bd0ad692527268b47a0afdfc97417fa1bf90d",
+      "v5_wd_res_ms": "51f91dcd435f428be6199382152bd0ad692527268b47a0afdfc97417fa1bf90d",
+      "resnet_lp3": "1eda50edfc2ce035f216a374b6e28e82c5e1ce1f60457e425053473d3fbd545f",
+      "resnet_lp4": "1eda50edfc2ce035f216a374b6e28e82c5e1ce1f60457e425053473d3fbd545f",
+      "resnet_nahsf": "ea4ec08014fbb1167ac7306dd3b7a6f7aa929f23b1eee087dd345ba94eaed604"
+    },
+    "43": {
+      "v5_w": "f9f8aed85e72d026b24af1d599c408085a727b3b30018299eaef23ac66413669",
+      "v5_wd_plain": "7930a14cf386ff78708335bc7d6057973a68bc9dac162d6da637eafefa926640",
+      "v5_wd_res": "7930a14cf386ff78708335bc7d6057973a68bc9dac162d6da637eafefa926640",
+      "v5_w_ms": "f510727f1c23b25fcb1c67ae9c3c0bd203583cfafc00219f0fd46ee82323d293",
+      "v5_wd_plain_ms": "a9c29e4b56315e8c3d70cccc5b4b1d5766a4e1f9fa23f3a06e964150f76258fb",
+      "v5_wd_res_ms": "a9c29e4b56315e8c3d70cccc5b4b1d5766a4e1f9fa23f3a06e964150f76258fb",
+      "resnet_lp3": "b6b584eaff85cf09d798b577b566f0b738d8a9b65dc54ebd1d42bdc91a64b5a6",
+      "resnet_lp4": "b6b584eaff85cf09d798b577b566f0b738d8a9b65dc54ebd1d42bdc91a64b5a6",
+      "resnet_nahsf": "6cb6dc113e54e13213e4aa8316802069f504a8ccdbd9f1ed7f42b2cf56cd1a33"
+    },
+    "44": {
+      "v5_w": "d8243c1510a6bc3a0ad770231802819ac02112f8ddd393d561309f2c1f3239b7",
+      "v5_wd_plain": "7e22286c94ac55ef50137145c24142ea298cdc64adb757f4df6049c8662a9a1c",
+      "v5_wd_res": "7e22286c94ac55ef50137145c24142ea298cdc64adb757f4df6049c8662a9a1c",
+      "v5_w_ms": "484e34ad4de75723b828590f7fdd26a48eb2cafb260a88c9fea4f377403b0c7c",
+      "v5_wd_plain_ms": "51b767c168d2f45737a8a845248a5cfe753c9d5281ecf8ddf0b0585e1e0ba380",
+      "v5_wd_res_ms": "51b767c168d2f45737a8a845248a5cfe753c9d5281ecf8ddf0b0585e1e0ba380",
+      "resnet_lp3": "db116549d137420cfe1893c7b455484af4f5d9a67276f711abc79e2a476ea0f2",
+      "resnet_lp4": "db116549d137420cfe1893c7b455484af4f5d9a67276f711abc79e2a476ea0f2",
+      "resnet_nahsf": "228c6cd06bef146ccacfe727a3a6269c25130b4b4740ddc51e9314aba81c630e"
+    }
+  },
+  "plain_residual_pairs_equal_parameters_and_initial_weights": true,
+  "new_resnet_backbones_equal_historical_initial_weights": true,
+  "parameter_counts": {
+    "v5_w": 63213,
+    "v5_wd_plain": 88045,
+    "v5_wd_res": 88045,
+    "v5_w_ms": 63693,
+    "v5_wd_plain_ms": 88525,
+    "v5_wd_res_ms": 88525,
+    "resnet_lp3": 241702,
+    "resnet_lp4": 241702,
+    "resnet_nahsf": 241743
+  },
+  "real_gpu_first_batch_checks": {
+    "v5_w_seed42": {
+      "first_batch_loss": 1.9221725463867188,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_plain_seed42": {
+      "first_batch_loss": 1.8207913637161255,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_res_seed42": {
+      "first_batch_loss": 1.8603978157043457,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_w_ms_seed42": {
+      "first_batch_loss": 1.804142951965332,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_plain_ms_seed42": {
+      "first_batch_loss": 1.7818775177001953,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_res_ms_seed42": {
+      "first_batch_loss": 1.7756274938583374,
+      "all_parameter_gradients_finite": true
+    },
+    "resnet_lp3_seed42": {
+      "first_batch_loss": 1.9448862075805664,
+      "all_parameter_gradients_finite": true
+    },
+    "resnet_lp4_seed42": {
+      "first_batch_loss": 1.932100534439087,
+      "all_parameter_gradients_finite": true
+    },
+    "resnet_nahsf_seed42": {
+      "first_batch_loss": 1.9366474151611328,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_w_seed43": {
+      "first_batch_loss": 1.824375867843628,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_plain_seed43": {
+      "first_batch_loss": 1.756418228149414,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_res_seed43": {
+      "first_batch_loss": 1.7829338312149048,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_w_ms_seed43": {
+      "first_batch_loss": 1.811927080154419,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_plain_ms_seed43": {
+      "first_batch_loss": 1.8202142715454102,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_res_ms_seed43": {
+      "first_batch_loss": 1.8295516967773438,
+      "all_parameter_gradients_finite": true
+    },
+    "resnet_lp3_seed43": {
+      "first_batch_loss": 1.803891897201538,
+      "all_parameter_gradients_finite": true
+    },
+    "resnet_lp4_seed43": {
+      "first_batch_loss": 1.8058421611785889,
+      "all_parameter_gradients_finite": true
+    },
+    "resnet_nahsf_seed43": {
+      "first_batch_loss": 1.8043584823608398,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_w_seed44": {
+      "first_batch_loss": 1.8156782388687134,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_plain_seed44": {
+      "first_batch_loss": 1.8033939599990845,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_res_seed44": {
+      "first_batch_loss": 1.777892827987671,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_w_ms_seed44": {
+      "first_batch_loss": 1.8237287998199463,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_plain_ms_seed44": {
+      "first_batch_loss": 1.8183972835540771,
+      "all_parameter_gradients_finite": true
+    },
+    "v5_wd_res_ms_seed44": {
+      "first_batch_loss": 1.809105396270752,
+      "all_parameter_gradients_finite": true
+    },
+    "resnet_lp3_seed44": {
+      "first_batch_loss": 2.0381007194519043,
+      "all_parameter_gradients_finite": true
+    },
+    "resnet_lp4_seed44": {
+      "first_batch_loss": 2.046229839324951,
+      "all_parameter_gradients_finite": true
+    },
+    "resnet_nahsf_seed44": {
+      "first_batch_loss": 2.0408976078033447,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_version": "2.14.1+cu130",
+  "final_holdout_evaluated": false
+}

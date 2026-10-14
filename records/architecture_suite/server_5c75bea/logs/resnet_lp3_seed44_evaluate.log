@@ -1,0 +1,10 @@
+DEV resnet_lp3 seed=44 clean Macro-F1=90.402%
+DEV resnet_lp3 seed=44 snr10 Macro-F1=91.130%
+DEV resnet_lp3 seed=44 snr15 Macro-F1=90.538%
+DEV resnet_lp3 seed=44 snr20 Macro-F1=90.402%
+DEV resnet_lp3 seed=44 snr25 Macro-F1=90.538%
+DEV resnet_lp3 seed=44 snr30 Macro-F1=90.265%
+DEV resnet_lp3 seed=44 snr35 Macro-F1=90.606%
+DEV resnet_lp3 seed=44 snr40 Macro-F1=90.402%
+DEV resnet_lp3 seed=44 snr5 Macro-F1=90.311%
+DEV resnet_lp3 seed=44 snr0 Macro-F1=88.499%

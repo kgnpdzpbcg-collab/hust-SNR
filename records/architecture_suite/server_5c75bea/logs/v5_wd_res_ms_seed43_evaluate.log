@@ -1,0 +1,10 @@
+DEV v5_wd_res_ms seed=43 clean Macro-F1=97.193%
+DEV v5_wd_res_ms seed=43 snr10 Macro-F1=96.415%
+DEV v5_wd_res_ms seed=43 snr15 Macro-F1=97.072%
+DEV v5_wd_res_ms seed=43 snr20 Macro-F1=97.315%
+DEV v5_wd_res_ms seed=43 snr25 Macro-F1=97.323%
+DEV v5_wd_res_ms seed=43 snr30 Macro-F1=97.193%
+DEV v5_wd_res_ms seed=43 snr35 Macro-F1=97.201%
+DEV v5_wd_res_ms seed=43 snr40 Macro-F1=97.201%
+DEV v5_wd_res_ms seed=43 snr5 Macro-F1=94.482%
+DEV v5_wd_res_ms seed=43 snr0 Macro-F1=89.814%
