@@ -1,0 +1,7 @@
+SOURCE_COMPLETE: 59 MAT
+TARGET_PROGRESS: 100/440 records
+TARGET_PROGRESS: 200/440 records
+TARGET_PROGRESS: 300/440 records
+TARGET_PROGRESS: 400/440 records
+TARGET_PROGRESS: 440/440 records
+{"status": "passed", "file_count": 499, "source_files": 59, "target_files": 440, "max_original_record_phase_snr_error_db": 7.904787935331115e-14, "config_sha256": "57da8e330b69404290787fc0e1ee2d0276c7881e37286a38e8f8ab25ff537480", "labels_sha256": "fb4fb21d3a3ed3c8e69c7cc2749bfb900130a700ce17fc7c974b2ae5429b0381", "split_sha256": "5fccf11264d097aaa704030c16e9007323baaa57e613b1fa13f652a1a7b43707", "input_manifest_sha256": "f47daf6a8e81f34a3a65ba0e8fe706cb97cd1b76656c5d59162bb0658f280f57", "generator_sha256": "c2b101881d1f501df6918aa3297ba2306c96bc07d01cc75aaa60294dd4b21b87", "models_trained_or_evaluated": false, "old_files_overwritten": false, "target_final_holdout_generated_but_not_evaluated": true}

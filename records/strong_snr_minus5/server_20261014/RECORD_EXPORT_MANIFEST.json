@@ -1,0 +1,62 @@
+{
+  "files": {
+    "DEPLOYMENT_MANIFEST.json": {
+      "sha256": "0088fc0225f6c6bc38493c2e88d375f8d2951d1111cb332fbbae75da66eea022",
+      "bytes": 710
+    },
+    "GENERATED_FILE_INDEX.csv": {
+      "sha256": "ed77c1269aeb830c1f8ee3d993b8eadf4170cd5a78af52b99a4aa2576def8653",
+      "bytes": 98474
+    },
+    "GENERATION_COMMAND.json": {
+      "sha256": "614e47f717acb5cd551d663b8a0885cf5066e677575983d2727415c47efb8ea8",
+      "bytes": 1330
+    },
+    "GENERATION_MANIFEST.json": {
+      "sha256": "55a6b3d63be348f1ae30c54a17966477ad7ac730a93d1882468027d74e4b922b",
+      "bytes": 320529
+    },
+    "INDEPENDENT_VERIFICATION.json": {
+      "sha256": "09ca17ad8cfa462e63f48b546193b2dc7e4d836c18805d2ce9a2761cc0d5dd1d",
+      "bytes": 1128
+    },
+    "PROTECTED_FILES_SHA256.json": {
+      "sha256": "06f02ae822c6e2459b3f680ca470de57a69e9ee100dccd37f16dbcf68492f342",
+      "bytes": 811214
+    },
+    "RUN_MINUS5.py": {
+      "sha256": "4fa79b2fb1778ea9c2cb2bea022127816289a603257bde7abe3716fd7ecfaef4",
+      "bytes": 12579
+    },
+    "UNIT_TEST_COMMAND.json": {
+      "sha256": "221aafa2c4efbe74e81e03a43d0829cf602e64a27284b34484b1cb336c72f675",
+      "bytes": 334
+    },
+    "VERIFICATION_COMMAND.json": {
+      "sha256": "de50ede2a53d5536a85b814e7b13ed2eb45374ab004933d3e122d4bc1fc52546",
+      "bytes": 280
+    },
+    "generate_strong_snr.py": {
+      "sha256": "c2b101881d1f501df6918aa3297ba2306c96bc07d01cc75aaa60294dd4b21b87",
+      "bytes": 10054
+    },
+    "generation.log": {
+      "sha256": "de15ae16ab16d119642939a2733deea3d3d1f88c622feb7a51ac6af3065a1e7e",
+      "bytes": 898
+    },
+    "strong_snr_minus5_v1.json": {
+      "sha256": "57da8e330b69404290787fc0e1ee2d0276c7881e37286a38e8f8ab25ff537480",
+      "bytes": 770
+    },
+    "test_generate_strong_snr.py": {
+      "sha256": "af2e55e183273a094a40ec047cb52169a2b2253274d4ee5b62159bb2be376129",
+      "bytes": 3422
+    },
+    "unit_tests.log": {
+      "sha256": "c98726dcb0c9f0252e8160d23de79ed048961494c9d2bff5c5f7d6fc6c831163",
+      "bytes": 99
+    }
+  },
+  "raw_mat_included": false,
+  "model_weights_included": false
+}

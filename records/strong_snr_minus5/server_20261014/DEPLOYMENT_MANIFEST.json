@@ -1,0 +1,14 @@
+{
+  "client_date": "2026-10-14",
+  "code_commit": "6e26022c61433e812c4f2be8c3cfb06587e3b5f0",
+  "code_archive_sha256": "d326c5dfb827e339a1957a4966d74ae94c2d35ad14d1e72204d75d63854292be",
+  "python_executable": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "python_version": "3.12.3",
+  "numpy_version": "2.5.3",
+  "scipy_version": "1.18.1",
+  "new_root": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014",
+  "original_inputs_root": "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012",
+  "source_root": "/home/wang/projects/会议论文/hust/data/source",
+  "old_environment_reused": true,
+  "dependencies_installed": false
+}

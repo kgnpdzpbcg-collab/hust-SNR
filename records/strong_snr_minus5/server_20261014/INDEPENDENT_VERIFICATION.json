@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "generated_mat_files_verified": 499,
+  "partition_file_counts": {
+    "experimental/dev": 88,
+    "experimental/duplicate_alias": 5,
+    "experimental/final_holdout": 347,
+    "simulation/source_test": 10,
+    "simulation/train": 34,
+    "simulation/val": 15
+  },
+  "max_phase_snr_error_db": 6.217248937900877e-14,
+  "all_source_matrices_exactly_reproduced_from_fixed_seeds": true,
+  "source_val_records_exactly_match_original_calibrated_noise": 15,
+  "all_target_currents_exactly_match_scaled_author10_formula": true,
+  "max_target_residual_difference_vs_zero_times_10_power_025": 2.842170943040401e-14,
+  "time_and_angular_speed_columns_unchanged": true,
+  "raw_row_counts_and_duplicate_timestamps_preserved": true,
+  "original_input_mat_files_unchanged": 939,
+  "old_zero_five_mat_files_unchanged": 998,
+  "protected_old_files_unchanged": 4293,
+  "protected_model_weights_unchanged": 171,
+  "models_trained": 0,
+  "model_inference_evaluations": 0,
+  "training_validation_protocol_modified": false,
+  "verification_script_sha256": "4fa79b2fb1778ea9c2cb2bea022127816289a603257bde7abe3716fd7ecfaef4"
+}

@@ -376,3 +376,11 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 - [270行逐种子结果](records/architecture_suite/server_5c75bea/results/reports/PER_SEED_RESULTS.csv) · [1620行六类指标](records/architecture_suite/server_5c75bea/results/reports/PER_CLASS_PER_SEED.csv)
 - [1350轮损失和源验证](records/architecture_suite/server_5c75bea/results/reports/TRAIN_LOSS_HISTORY.csv) · [390行配对差](records/architecture_suite/server_5c75bea/results/reports/PAIRED_ARCHITECTURE_COMPARISONS.csv)
 - [独立核验](records/architecture_suite/server_5c75bea/results/reports/VERIFICATION.json) · [CUDA核验设置诊断](records/architecture_suite/server_5c75bea/REPLAY_SETTINGS_DIAGNOSIS.json)
+
+## −5 dB派生数据（仅生成与核验）
+
+沿用原5/0 dB加噪方法，在服务器独立生成59个仿真和440个实测MAT，共499份。仿真按整记录每相RMS校准高斯噪声；实测使用作者干净/10 dB配对残差×5.623413251903491。全部逐文件核验通过，原数据、旧0/5 dB文件及模型权重SHA不变；没有重新训练、模型推理或修改冻结实验配置。
+
+- [−5 dB配置](configs/strong_snr_minus5_v1.json) · [生成代码](scripts/generate_strong_snr.py)
+- [服务器生成记录、保存路径与核验结果](records/strong_snr_minus5/server_20261014/GENERATION_RECORD.md)
+- [499份文件索引](records/strong_snr_minus5/server_20261014/GENERATED_FILE_INDEX.csv) · [独立核验](records/strong_snr_minus5/server_20261014/INDEPENDENT_VERIFICATION.json)
