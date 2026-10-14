@@ -1,0 +1,12 @@
+{
+  "files": {
+    "results/reports/POSTHOC_SOURCE_FIT.json": {
+      "sha256": "e55ee798fa5a2aac3de44ab99ef98b8729d3e7095b480fbfb89af10ca69a8452",
+      "bytes": 12715
+    },
+    "DESCRIBE_SOURCE_FIT.py": {
+      "sha256": "6d0962c7fabf11e6e5717e3a7f6559a860c8aa922beb7e265538769869b52554",
+      "bytes": 4841
+    }
+  }
+}

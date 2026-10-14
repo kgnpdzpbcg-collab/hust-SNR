@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/code/scripts/lp4_difficulty_experiment.py",
+    "evaluate",
+    "--reference-code",
+    "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/code",
+    "--output",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results",
+    "--config",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/code/configs/lp4_task_difficulty_v1.json",
+    "--target-snr-root",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr",
+    "--target-strong-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012",
+    "--minus5-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014",
+    "--reference-aprime",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7",
+    "--reference-results",
+    "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/results",
+    "--reference-minus5-results",
+    "/home/wang/projects/会议论文/hust/experiments/architecture_minus5/20261014/results"
+  ],
+  "cwd": "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/code",
+  "exit_code": 0,
+  "elapsed_seconds": 71.84048849900137
+}

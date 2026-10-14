@@ -393,3 +393,12 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 
 - [独立推理入口](scripts/evaluate_arch_suite_minus5.py) · [冻结评估配置](configs/architecture_minus5_fixed_weights_v1.json)
 - [服务器完整结果、逐种子及0/5 dB配对对照](records/architecture_minus5/server_20261014/SERVER_RESULTS.md) · [独立核验](records/architecture_minus5/server_20261014/results/reports/VERIFICATION.json)
+
+## LP4低阶谐波任务难度对照
+
+冻结45维DC＋1–4阶复谐波表示，新增LR、RBF-SVM和1670参数小MLP。沿用34/15源划分、50轮10–40 dB噪声及五档源验证选模，复用原LP4＋A′ CNN/ResNet权重。三个种子全部源域选择核验后，统一完成88条实测Dev的165组评估；没有使用Target调参或Final-Holdout。
+
+实测Clean Macro-F1（42/43/44均值±样本标准差，%）：LR 53.50±0.34、SVM 64.60±0.37、小MLP 58.82±1.69、A′ CNN 96.28±0.46、ResNet 99.42±0.50。−5 dB分别30.46±0.26、2.91±0.00、25.11±1.24、73.23±2.78、80.43±2.92。
+
+- [执行前冻结协议](docs/LP4_TASK_DIFFICULTY_V1.md) · [配置](configs/lp4_task_difficulty_v1.json) · [特征与小MLP](scripts/lp4_difficulty_models.py) · [独立入口](scripts/lp4_difficulty_experiment.py)
+- [服务器完整记录、源训练/验证成绩及实测各档对照](records/lp4_task_difficulty/server_20261014/SERVER_RESULTS.md) · [独立核验](records/lp4_task_difficulty/server_20261014/results/reports/VERIFICATION.json)

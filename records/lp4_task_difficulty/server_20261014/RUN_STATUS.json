@@ -1,0 +1,9 @@
+{
+  "status": "completed_and_verified",
+  "source_only_new_models": 9,
+  "fixed_reference_models": 6,
+  "target_evaluation_sets": 165,
+  "protected_old_files_sha_unchanged": 4329,
+  "source_selection_completed_before_target_evaluation": true,
+  "elapsed_seconds": 137.16757770200093
+}

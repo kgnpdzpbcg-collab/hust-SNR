@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 42,
+    "pid": 8801,
+    "command": [
+      "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+      "-u",
+      "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/code/scripts/lp4_difficulty_experiment.py",
+      "train",
+      "--reference-code",
+      "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/code",
+      "--output",
+      "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results",
+      "--config",
+      "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/code/configs/lp4_task_difficulty_v1.json",
+      "--seed",
+      "42",
+      "--source-strong-root",
+      "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+    ]
+  },
+  {
+    "seed": 43,
+    "pid": 8802,
+    "command": [
+      "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+      "-u",
+      "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/code/scripts/lp4_difficulty_experiment.py",
+      "train",
+      "--reference-code",
+      "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/code",
+      "--output",
+      "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results",
+      "--config",
+      "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/code/configs/lp4_task_difficulty_v1.json",
+      "--seed",
+      "43",
+      "--source-strong-root",
+      "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+    ]
+  },
+  {
+    "seed": 44,
+    "pid": 8803,
+    "command": [
+      "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+      "-u",
+      "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/code/scripts/lp4_difficulty_experiment.py",
+      "train",
+      "--reference-code",
+      "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/code",
+      "--output",
+      "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results",
+      "--config",
+      "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/code/configs/lp4_task_difficulty_v1.json",
+      "--seed",
+      "44",
+      "--source-strong-root",
+      "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+    ]
+  }
+]

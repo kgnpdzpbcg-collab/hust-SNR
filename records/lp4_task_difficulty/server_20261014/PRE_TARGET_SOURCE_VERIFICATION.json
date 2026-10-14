@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "source_selections_independently_recomputed": 9,
+  "weighted_scalers_independently_recomputed": 9,
+  "source_selected_prediction_sets_independently_reproduced": 54,
+  "selection_records": [
+    {
+      "method": "lp4_logreg",
+      "seed": 42,
+      "selected_original_epoch_or_candidate": 3,
+      "source_clean_macro_f1_percent": 83.57244607244607,
+      "source_five_noise_macro_f1_mean_percent": 70.00578167815662
+    },
+    {
+      "method": "lp4_rbf_svm",
+      "seed": 42,
+      "selected_original_epoch_or_candidate": 2,
+      "source_clean_macro_f1_percent": 82.55278100800999,
+      "source_five_noise_macro_f1_mean_percent": 53.59302760040252
+    },
+    {
+      "method": "lp4_mlp",
+      "seed": 42,
+      "selected_original_epoch_or_candidate": 39,
+      "source_clean_macro_f1_percent": 79.27834097829009,
+      "source_five_noise_macro_f1_mean_percent": 63.242318702106516
+    },
+    {
+      "method": "lp4_logreg",
+      "seed": 43,
+      "selected_original_epoch_or_candidate": 3,
+      "source_clean_macro_f1_percent": 83.57244607244607,
+      "source_five_noise_macro_f1_mean_percent": 70.35034131397373
+    },
+    {
+      "method": "lp4_rbf_svm",
+      "seed": 43,
+      "selected_original_epoch_or_candidate": 2,
+      "source_clean_macro_f1_percent": 82.27278578800518,
+      "source_five_noise_macro_f1_mean_percent": 53.68098245973641
+    },
+    {
+      "method": "lp4_mlp",
+      "seed": 43,
+      "selected_original_epoch_or_candidate": 50,
+      "source_clean_macro_f1_percent": 88.38926171210802,
+      "source_five_noise_macro_f1_mean_percent": 68.25951850656904
+    },
+    {
+      "method": "lp4_logreg",
+      "seed": 44,
+      "selected_original_epoch_or_candidate": 3,
+      "source_clean_macro_f1_percent": 83.57244607244607,
+      "source_five_noise_macro_f1_mean_percent": 69.97067784008443
+    },
+    {
+      "method": "lp4_rbf_svm",
+      "seed": 44,
+      "selected_original_epoch_or_candidate": 2,
+      "source_clean_macro_f1_percent": 82.21613487139184,
+      "source_five_noise_macro_f1_mean_percent": 53.77061362304436
+    },
+    {
+      "method": "lp4_mlp",
+      "seed": 44,
+      "selected_original_epoch_or_candidate": 36,
+      "source_clean_macro_f1_percent": 81.48429829287691,
+      "source_five_noise_macro_f1_mean_percent": 64.29571407233374
+    }
+  ],
+  "target_data_accessed_by_new_training": false,
+  "new_model_files_sha256": {
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_logreg/seed42/best.joblib": "44f75b15bb317a78e76d3a9d2c53497b8e644ffd7453524de491b0211cffd3e0",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_logreg/seed42/run.json": "5d23e1a01176480db02171c9a9fcc926d90e03ba22fd13d2970bc8e9dafec538",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_rbf_svm/seed42/best.joblib": "59cc80348fb343a359af02baf6044c59544b70c76d44f4f5e14dd3a4fb098c7a",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_rbf_svm/seed42/run.json": "04a8362b3973ebf7995b2683d217b2ca84f4d5ead4fb2f02655ea4d3f44799bc",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed42/best.pt": "20ae2f65ea7e1de23e727f3ed700dc68594ef39dd278106c208c509fdf796ae6",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed42/history.json": "cbae87b499cbd9a96d76284640f6adbde118ff27d79e194c77709da69013562d",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed42/run.json": "4231538efb9a2ad0e91296ca7462ab999d3cf7bc598e9514bbee95ae6e1b54b1",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed42/scaler.joblib": "0046ac7c78d7156e290514bea4f5c55968b8a2d10e98f33ddaa3eec7ce0c1fbc",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_logreg/seed43/best.joblib": "135117d78a8761406b4620c560fb4ea54555810c58840865238a3fda7ec6e859",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_logreg/seed43/run.json": "654bb3426aac24786f231d1e04fd72e5ee70ef91e8bf0d686a02226a13495fc6",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_rbf_svm/seed43/best.joblib": "ec27e25094cc789d33a36aad7c973871f0cde19f259448aedda606eabd24607b",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_rbf_svm/seed43/run.json": "057a2bcf4cfef3c7524b0145f2aed83cd63f76677c4e6af7230ab4b49b66243a",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed43/best.pt": "99ffbfc4e91e816d03413b83280914a703214c45b9e3ed135e165dcc6a6fb36f",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed43/history.json": "68ad558a6fc0370a961f0fb95ba411e64a20794acb313e6ef3defd13735797d6",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed43/run.json": "64e9fd92fba65be0ecf1c72494f67c728cf92e70b573c086a594e7ac4e410c86",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed43/scaler.joblib": "1b3a1061c66d966aaf34b20c2d0631f90e14215fb6a1a845b2115d45a5b22c79",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_logreg/seed44/best.joblib": "6ef3c7f817ec5f35b53a8cd21332bf4e189c1ff92183e245c16fdc72899461fd",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_logreg/seed44/run.json": "45e5a4d810d25fa2a2047c17ff153f1b7583836f99b5b37ecec2e51a73b65174",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_rbf_svm/seed44/best.joblib": "36af8ea7c12794061fbff52228d6ae5c72a9b43ce1aac5b7ecc65e7bc22933a7",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_rbf_svm/seed44/run.json": "560eba242b34681495eb30ec18bfdfefbc14d14b58c246bbbd6de4a187daecab",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed44/best.pt": "b31eda43556088aa77dce140fd780f57a5c24f316da43a29bdeaa3b6fb27821f",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed44/history.json": "f2d7dfa7af42711ad3a16580ef31413ac1e5ed248e8c277f87499fdb13bba183",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed44/run.json": "f22aa3614a281f67d56f6caa144b2cbe85e5e2e4073120f8a9105e736207206b",
+    "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/results/models/lp4_mlp/seed44/scaler.joblib": "4fd4c22f8cf24a80791ceb961f1548adc2944c9df4e7997e519a0169045eae2b"
+  }
+}

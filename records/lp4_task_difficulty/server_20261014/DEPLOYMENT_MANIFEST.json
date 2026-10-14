@@ -1,0 +1,105 @@
+{
+  "client_date": "2026-10-14",
+  "code_commit": "8be9c5a6c38ae316561dabbd96fbd9c5b3fdcd9e",
+  "config": {
+    "protocol": "HUST-lp4-harmonic-task-difficulty-source-only-v1",
+    "new_methods": [
+      "lp4_logreg",
+      "lp4_rbf_svm",
+      "lp4_mlp"
+    ],
+    "reference_methods": [
+      "lp4_aprime_cnn",
+      "lp4_resnet"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "source_train_records": 34,
+    "source_val_records": 15,
+    "source_train_cycles": 738,
+    "source_val_cycles": 302,
+    "target_dev_records": 88,
+    "target_dev_cycles": 2474,
+    "feature_version": "lp4_then_md_full_complex_k0_to4_45d_v1",
+    "feature_dimension": 45,
+    "features": "each phase: DC real and harmonics1..4 real/imag; exact LP4 then original MD, before final interpolation",
+    "source_noise_epochs": 50,
+    "source_training_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "source_validation_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "source_noise_rng": "reuse original fresh_noisy_source(seed, epoch=1..50)",
+    "scaler_fit": "source_train_clean_and_50_noise_views_only; clean weight1, each noise weight1/50",
+    "classical_training_views": 37638,
+    "classical_sample_weights": "clean weight1, each of50 noisy epochs weight1/50; total clean/noisy contribution 1:1",
+    "logreg": {
+      "C": [
+        0.1,
+        1.0,
+        10.0
+      ],
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 1e-06
+    },
+    "svm": {
+      "C": [
+        0.1,
+        1.0,
+        10.0
+      ],
+      "gamma": "scale",
+      "kernel": "rbf",
+      "cache_size_mb": 512
+    },
+    "mlp": {
+      "hidden": 32,
+      "parameters": 1670,
+      "epochs": 50,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0,
+      "loss": "0.5*CE(clean)+0.5*CE(noisy)"
+    },
+    "selection": "source-clean within1pp of max, then highest five-noise mean Macro-F1; ties clean then earliest candidate/epoch",
+    "target_conditions": [
+      "clean",
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      5,
+      0,
+      -5
+    ],
+    "target_used_for_training_or_selection": false,
+    "final_holdout_evaluated": false
+  },
+  "python": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "environment_reused": true,
+  "dependencies_installed": false,
+  "parallel_train_workers": 3,
+  "original_reference_code_sha_verified": true,
+  "reference_architecture": "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea",
+  "reference_aprime": "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7",
+  "reference_minus5": "/home/wang/projects/会议论文/hust/experiments/architecture_minus5/20261014",
+  "code_archive_sha256": "c396fc2d95f5efbce62f9c772260a9b8b10cbe5adc5588db2d959ad48bb938d3"
+}

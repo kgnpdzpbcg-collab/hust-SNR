@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-m",
+    "pytest",
+    "tests/test_lp4_difficulty.py",
+    "-q"
+  ],
+  "cwd": "/home/wang/projects/会议论文/hust/experiments/lp4_task_difficulty/20261014/code",
+  "exit_code": 0
+}

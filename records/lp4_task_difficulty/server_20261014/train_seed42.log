@@ -1,0 +1,17 @@
+FEATURES seed42: 10/50 shared noise epochs
+FEATURES seed42: 20/50 shared noise epochs
+FEATURES seed42: 30/50 shared noise epochs
+FEATURES seed42: 40/50 shared noise epochs
+FEATURES seed42: 50/50 shared noise epochs
+FIT lp4_logreg seed42 C=0.1: srcClean=0.7732 srcFiveNoise=0.6197
+FIT lp4_logreg seed42 C=1.0: srcClean=0.8357 srcFiveNoise=0.6670
+FIT lp4_logreg seed42 C=10.0: srcClean=0.8357 srcFiveNoise=0.7001
+FIT lp4_rbf_svm seed42 C=0.1: srcClean=0.7453 srcFiveNoise=0.4556
+FIT lp4_rbf_svm seed42 C=1.0: srcClean=0.8255 srcFiveNoise=0.5359
+FIT lp4_rbf_svm seed42 C=10.0: srcClean=0.7084 srcFiveNoise=0.4654
+MLP seed42 epoch10/50: srcClean=0.6126 srcFiveNoise=0.4463
+MLP seed42 epoch20/50: srcClean=0.7199 srcFiveNoise=0.5699
+MLP seed42 epoch30/50: srcClean=0.7566 srcFiveNoise=0.6103
+MLP seed42 epoch40/50: srcClean=0.7809 srcFiveNoise=0.6293
+MLP seed42 epoch50/50: srcClean=0.7606 srcFiveNoise=0.6316
+TRAIN_COMPLETE seed42: three selected classifiers; target not accessed

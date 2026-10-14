@@ -1,0 +1,12 @@
+TARGET_COMPLETE clean: all15 classifiers
+TARGET_COMPLETE snr10: all15 classifiers
+TARGET_COMPLETE snr15: all15 classifiers
+TARGET_COMPLETE snr20: all15 classifiers
+TARGET_COMPLETE snr25: all15 classifiers
+TARGET_COMPLETE snr30: all15 classifiers
+TARGET_COMPLETE snr35: all15 classifiers
+TARGET_COMPLETE snr40: all15 classifiers
+TARGET_COMPLETE snr5: all15 classifiers
+TARGET_COMPLETE snr0: all15 classifiers
+TARGET_COMPLETE snr-5: all15 classifiers
+EVALUATION_COMPLETE: 165 Dev sets, all source-only selections and reference replays verified
