@@ -1,0 +1,13 @@
+FEATURES_READY: target_dev_clean, 88 families/2474 cycles
+FEATURES_READY: target_dev_snr10, 88 families/2474 cycles
+FEATURES_READY: target_dev_snr5, 88 families/2474 cycles
+FEATURES_READY: target_dev_snr0, 88 families/2474 cycles
+FEATURES_READY: target_dev_snr-5, 88 families/2474 cycles
+GEOMETRY_COMPLETE: source_train_clean
+GEOMETRY_COMPLETE: source_val_clean
+GEOMETRY_COMPLETE: target_dev_clean
+GEOMETRY_COMPLETE: target_dev_snr10
+GEOMETRY_COMPLETE: target_dev_snr5
+GEOMETRY_COMPLETE: target_dev_snr0
+GEOMETRY_COMPLETE: target_dev_snr-5
+ALL_COMPLETE: data geometry only, no classifier fitting

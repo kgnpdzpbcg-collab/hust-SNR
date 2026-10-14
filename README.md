@@ -402,3 +402,10 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 
 - [执行前冻结协议](docs/LP4_TASK_DIFFICULTY_V1.md) · [配置](configs/lp4_task_difficulty_v1.json) · [特征与小MLP](scripts/lp4_difficulty_models.py) · [独立入口](scripts/lp4_difficulty_experiment.py)
 - [服务器完整记录、源训练/验证成绩及实测各档对照](records/lp4_task_difficulty/server_20261014/SERVER_RESULTS.md) · [独立核验](records/lp4_task_difficulty/server_20261014/results/reports/VERIFICATION.json)
+
+## 数据类别几何与物理量描述
+
+只读比较原45维复谐波和25维DC/谐波幅值，没有训练分类器或修改前轮参数。当前88条Dev中，25维与最近源训练样本的等类别/等文件标签一致比例为Clean 99.21%、10 dB 97.71%、5 dB 96.35%、0 dB 94.19%、−5 dB 86.88%；这些是描述统计，不是Macro-F1或新的正式Test准确率。
+
+- [分析代码](scripts/analyze_data_geometry.py) · [数值测试](tests/test_data_geometry.py)
+- [服务器完整记录、DC/RMS、类对排序与类间/类内距离](records/data_geometry/server_20261014/DATA_ANALYSIS_RECORD.md) · [完整统计](records/data_geometry/server_20261014/results/DATA_GEOMETRY.json)

@@ -1,0 +1,45 @@
+{
+  "files": {
+    "ANALYSIS_COMMAND.json": {
+      "sha256": "f6cc43334caff1a24a10e5713e606069ae0e3b15e51aecf35a3169e3cd627fee",
+      "bytes": 1097
+    },
+    "RUN_ANALYSIS.py": {
+      "sha256": "01ebaf976fa0b858d9dd0b25b8ef7a8a442ec83549bb9858aed0a97a88f4e476",
+      "bytes": 3218
+    },
+    "analysis.log": {
+      "sha256": "5f77458eb795f30aeb34dddf3dd63ec53e5a288ad8b470bfcdf2c006c8394dcb",
+      "bytes": 596
+    },
+    "analyze_data_geometry.py": {
+      "sha256": "8f799e14c960b585082bfe919ad8f2aa4bdd972b882ed1aefeb6e0e9f9800f93",
+      "bytes": 11437
+    },
+    "results/DATA_GEOMETRY.json": {
+      "sha256": "7cf18ac29b7f5f25695c51dfd916057126f81d1a933ab8d1ee5082fcdd8471cb",
+      "bytes": 253670
+    },
+    "results/NEAREST_RELATIONS.csv": {
+      "sha256": "5c1719b88681fe8a3d6aa44663a00e0688abf625968ca2598927026123c8012f",
+      "bytes": 2609
+    },
+    "results/PAIR_SEPARATION.csv": {
+      "sha256": "141eba8087af743bb5af46714f24c085c35fc5ee0902d0c7f5b6aeaa80ff16e4",
+      "bytes": 19390
+    },
+    "results/PHYSICAL_PAIR_AUC.csv": {
+      "sha256": "004f3cc06b312e750d70f56e6b7cfa3940eba18f7e08389967cdfc4d50eb1376",
+      "bytes": 1494
+    },
+    "test_data_geometry.py": {
+      "sha256": "a217b6c9a70945c8c7b46f6d41d7dbbc6e6226de629efb09c5ad04482378922c",
+      "bytes": 1957
+    },
+    "unit_tests.log": {
+      "sha256": "e4a83d98291cacef1f761b1435e3e140b0c01d4052f0c4f023c038670c1b49a1",
+      "bytes": 98
+    }
+  },
+  "raw_waveforms_or_feature_arrays_included": false
+}
