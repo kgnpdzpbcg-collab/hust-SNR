@@ -1,0 +1,20 @@
+{
+  "name": "b1_seed42_train",
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/hust_a1_b1_experiment.py",
+    "train",
+    "--methods",
+    "b1",
+    "--seeds",
+    "42",
+    "--out",
+    "/home/wang/projects/会议论文/hust/experiments/prototypes_a1_b1/dc8cb36/results",
+    "--source-strong-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012"
+  ],
+  "cwd": "/home/wang/projects/会议论文/hust/experiments/prototypes_a1_b1/dc8cb36/code",
+  "exit_code": 0,
+  "elapsed_seconds": 51.44051581399981
+}

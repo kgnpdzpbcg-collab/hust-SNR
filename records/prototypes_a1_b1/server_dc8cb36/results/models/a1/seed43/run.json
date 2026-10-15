@@ -1,0 +1,80 @@
+{
+  "method": "a1",
+  "seed": 43,
+  "protocol": "hust-a1-b1-source-only-v1",
+  "initial_parameters_sha256": "a459400ad6cc754986f5f8a58aa9ca655aa71d626ee1016811a67ccbb4b23107",
+  "parameters": 92407,
+  "selected": {
+    "epoch": 50,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 1.0,
+      "5": 1.0,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 1.0,
+    "noisy_ce": {
+      "0": 0.012097122752113847,
+      "5": 0.00034557107453610724,
+      "10": 0.00020574484735924676,
+      "20": 0.00017971883139369503,
+      "30": 0.00017720013116763917
+    },
+    "noise_mean_ce": 0.0026010715273141072,
+    "train_loss_mean": 0.00017932990037176447
+  },
+  "pretrain_recovery_losses": [],
+  "config": {
+    "protocol": "hust-a1-b1-source-only-v1",
+    "methods": [
+      "a1",
+      "b1"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "main_target_conditions_db": [
+      5,
+      0,
+      -5,
+      -10
+    ],
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "b1_pretrain_epochs": 10,
+    "b1_restore_weight": 1,
+    "selection_rule": "source-clean within one pp peak; highest source five-noise mean Macro-F1; then higher clean F1; when tied, smallest mean five-noise source CE; then earliest epoch",
+    "source_only": true,
+    "final_holdout_evaluated": false,
+    "model_notes": {
+      "a1": "4 DWT Haar reliability levels with robust shared fundamental scale, RMS-derived high-detail attenuation, source paired CE",
+      "b1": "k0..4 noise-calibrated, cross-phase coherence conditioned, non-amplifying complex harmonic shrinkage, source phase-strength and noise calibration losses, two-view MD+shared-normalized ResNet",
+      "not_evaluated": "A1/B1 source training and Target-Dev scores are pending. Frozen historical A0/B0 outcomes not changed."
+    }
+  },
+  "source_train_cycles": 738,
+  "source_val_cycles": 302,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

@@ -1,0 +1,8 @@
+B1 source recovery epoch 1: 0.026550
+B1 source recovery epoch 10: 0.018525
+b1 seed43 epoch 1/50: source-val F1=0.7892 CE=0.525939
+b1 seed43 epoch 10/50: source-val F1=0.9986 CE=0.008199
+b1 seed43 epoch 20/50: source-val F1=1.0000 CE=0.001210
+b1 seed43 epoch 30/50: source-val F1=0.9993 CE=0.002649
+b1 seed43 epoch 40/50: source-val F1=0.9986 CE=0.010135
+b1 seed43 epoch 50/50: source-val F1=1.0000 CE=0.000842

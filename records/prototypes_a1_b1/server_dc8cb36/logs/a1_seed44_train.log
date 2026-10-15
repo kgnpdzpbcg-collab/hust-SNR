@@ -1,0 +1,6 @@
+a1 seed44 epoch 1/50: source-val F1=1.0000 CE=0.355147
+a1 seed44 epoch 10/50: source-val F1=0.9987 CE=0.020038
+a1 seed44 epoch 20/50: source-val F1=0.9987 CE=0.015425
+a1 seed44 epoch 30/50: source-val F1=0.9994 CE=0.010192
+a1 seed44 epoch 40/50: source-val F1=0.9987 CE=0.010428
+a1 seed44 epoch 50/50: source-val F1=0.9987 CE=0.009579

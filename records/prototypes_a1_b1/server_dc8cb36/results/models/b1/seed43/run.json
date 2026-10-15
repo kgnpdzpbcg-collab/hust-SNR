@@ -1,0 +1,93 @@
+{
+  "method": "b1",
+  "seed": 43,
+  "protocol": "hust-a1-b1-source-only-v1",
+  "initial_parameters_sha256": "63a469755859f86febcf92da8a4fb7ec6461e0082868af9737ea7d4455f7b9a5",
+  "parameters": 253824,
+  "selected": {
+    "epoch": 22,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 1.0,
+      "5": 1.0,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 1.0,
+    "noisy_ce": {
+      "0": 0.0017019728482361661,
+      "5": 0.00027243294352233803,
+      "10": 0.00021365480281609968,
+      "20": 0.00023317182535268613,
+      "30": 0.00024237597225517627
+    },
+    "noise_mean_ce": 0.0005327216784364933,
+    "train_loss_mean": 0.018541861820267513,
+    "classification_ce_mean": 0.015622403205876859,
+    "source_restore_loss_mean": 0.002919458791438956
+  },
+  "pretrain_recovery_losses": [
+    0.026550462159017723,
+    0.02340125455521047,
+    0.026058109709993005,
+    0.02483223103142033,
+    0.021459295763634145,
+    0.020392650466722746,
+    0.020014505794582266,
+    0.016344179942583043,
+    0.017548626521602273,
+    0.018525439430959523
+  ],
+  "config": {
+    "protocol": "hust-a1-b1-source-only-v1",
+    "methods": [
+      "a1",
+      "b1"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "main_target_conditions_db": [
+      5,
+      0,
+      -5,
+      -10
+    ],
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "b1_pretrain_epochs": 10,
+    "b1_restore_weight": 1,
+    "selection_rule": "source-clean within one pp peak; highest source five-noise mean Macro-F1; then higher clean F1; when tied, smallest mean five-noise source CE; then earliest epoch",
+    "source_only": true,
+    "final_holdout_evaluated": false,
+    "model_notes": {
+      "a1": "4 DWT Haar reliability levels with robust shared fundamental scale, RMS-derived high-detail attenuation, source paired CE",
+      "b1": "k0..4 noise-calibrated, cross-phase coherence conditioned, non-amplifying complex harmonic shrinkage, source phase-strength and noise calibration losses, two-view MD+shared-normalized ResNet",
+      "not_evaluated": "A1/B1 source training and Target-Dev scores are pending. Frozen historical A0/B0 outcomes not changed."
+    }
+  },
+  "source_train_cycles": 738,
+  "source_val_cycles": 302,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

@@ -1,6 +1,6 @@
 # A1/B1 – independently trained, noise-aware prototype V1
 
-**Status: MODEL CODE COMMITTED, SERVER GPU TRAINING NOT RUN.** Never present predicted performance or validation assumptions as measured results.
+**Status: SERVER TRAINING AND 24 TARGET-DEV EVALUATIONS COMPLETED (2026-10-15).** Three seeds per model; saved-weight replay verified. See [server record](../records/prototypes_a1_b1/server_dc8cb36/SERVER_RESULTS.md). Final-Holdout remains unevaluated.
 
 ## Data protocol
 
@@ -55,4 +55,4 @@ Use scripts/run_hust_a1_b1_server.sh after configuring all three root environmen
 
 ## Quality gate and interpretation
 
-Model files and a source-only runner have been reviewed and core forward/backward on CPU locally checked. Full repo tests, server CUDA deterministic checks and all five-phase actual data training/evaluation remain pending. A1/B1 are deliberately separate trained models. Compare them with historical A0/B0 and ResNet+LP4, disclose source CE tie selection and B1 extra pretrain budget, keep per-seed Macro-F1 and class confusion records, and do not finalize a conference-paper method on unverified gains. Six-phase PMSM integration is a separate task.
+Server checks passed 64 tests covering the new models and related historical modules, plus deterministic CUDA forward/backward on actual source cycles. Six training runs and 24 Target-Dev evaluations completed in 92.666 seconds; all saved-weight predictions were replayed exactly. Full-repository tests were not run. Source-validation F1 saturation remains present; selected epochs A1=3/50/16 and B1=39/22/43 for seeds 42/43/44. A1/B1 are deliberately separate trained models. Compare them with historical A0/B0 and ResNet+LP4, disclose source CE tie selection and B1 extra pretrain budget, keep per-seed Macro-F1 and class confusion records, and do not finalize a conference-paper method on unverified gains. Six-phase PMSM integration is a separate task.

@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "source_train_records": 34,
+  "source_train_cycles": 738,
+  "source_val_records": 15,
+  "source_val_cycles": 302,
+  "unchanged_shared_code": [
+    "scripts/prepare.py",
+    "scripts/v2_experiment.py",
+    "scripts/v1_noise_consistency.py",
+    "scripts/hust_arch_suite_experiment.py",
+    "scripts/v2_paifilter.py",
+    "scripts/classical_baseline_models.py",
+    "configs/splits_gate0_v1.json",
+    "configs/protocol_gate0_v1.json",
+    "scripts/hust_a0_wavelet_attention.py",
+    "scripts/hust_b0_harmonic_recovery.py"
+  ],
+  "first_epoch_noise_sha256": {
+    "42": "a49d07c66970c8abe8257728c01e322b3adfaaf4b07500541274cd447626d65b",
+    "43": "89bbd8732d346ad421b99779865aeeb8b80acceea742cb02c6a8ab9bb1c3ab2e",
+    "44": "06f21a9012b6d0c3de315d7a13dc89825c3fcfed99300aec3f13bceffdbde60b"
+  },
+  "initial_parameters_sha256": {
+    "a1/seed42": "12a2e6356945ecd77ae5e249bbfd6e2f9c540683e3e2fbc19b29faa94158f118",
+    "b1/seed42": "04832b4c82c37422b4b56b3efe702c361dcbecb8c037365173264f0af4feddc3",
+    "a1/seed43": "a459400ad6cc754986f5f8a58aa9ca655aa71d626ee1016811a67ccbb4b23107",
+    "b1/seed43": "63a469755859f86febcf92da8a4fb7ec6461e0082868af9737ea7d4455f7b9a5",
+    "a1/seed44": "291eca02f64cfd7c447a5e1a2b360ba3cadb110b7b79b0669a5c82d650ebbc16",
+    "b1/seed44": "604314a7fee70243cbe12e0ec62c44fac856372e1cbd8e11b2753efec31b5e52"
+  },
+  "parameter_counts": {
+    "a1": 92407,
+    "b1": 253824
+  },
+  "cuda_backward_checks": {
+    "a1/seed42": {
+      "loss": 1.8066575527191162,
+      "all_gradients_finite": true
+    },
+    "b1/seed42": {
+      "loss": 2.0207221508026123,
+      "all_gradients_finite": true
+    },
+    "a1/seed43": {
+      "loss": 2.312269687652588,
+      "all_gradients_finite": true
+    },
+    "b1/seed43": {
+      "loss": 2.5837957859039307,
+      "all_gradients_finite": true
+    },
+    "a1/seed44": {
+      "loss": 1.6820290088653564,
+      "all_gradients_finite": true
+    },
+    "b1/seed44": {
+      "loss": 1.9509906768798828,
+      "all_gradients_finite": true
+    }
+  },
+  "test_commands": [
+    {
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_hust_prototypes_a1_b1.py",
+        "tests/test_hust_prototypes_a0_b0.py",
+        "tests/test_hust_arch_suite.py",
+        "tests/test_v2_experiment.py",
+        "tests/test_v2_paifilter.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "scripts/hust_a1_b1_experiment.py",
+        "smoke"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "bash",
+        "-n",
+        "scripts/run_hust_a1_b1_server.sh"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "validation_noise_matches_original_rng": true,
+  "old_files_protected": 1313,
+  "final_holdout_accessed": false,
+  "regenerated_mat_files": 0
+}

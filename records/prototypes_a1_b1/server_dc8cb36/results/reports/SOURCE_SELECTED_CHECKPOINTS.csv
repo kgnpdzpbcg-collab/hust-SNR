@@ -1,0 +1,7 @@
+method,seed,selected_epoch,eligible_epoch_count,source_clean_f1_percent,source_five_noise_mean_f1_percent
+a1,42,3,50,100.0,100.0
+a1,43,50,50,100.0,100.0
+a1,44,16,50,100.0,100.0
+b1,42,39,48,100.0,100.0
+b1,43,22,48,100.0,100.0
+b1,44,43,48,100.0,100.0

@@ -1,0 +1,1065 @@
+{
+  "files": [
+    {
+      "snr_db": -5,
+      "record_id": "0081",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0081.mat",
+      "sha256": "3b9e5641830ceb7c8f08f9242e9528140c108fae4dfeaf716b541b61dba492e6"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0085",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0085.mat",
+      "sha256": "940f8ac125db79b0e86d8603b95e696df8a24ffcd5e823a69a85e72c9aac3df7"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0088",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0088.mat",
+      "sha256": "15ff9dd5368a1bacdd1ced6d77e0e6b60dad88859d91acb91a08cd38a44a5e07"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0089",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0089.mat",
+      "sha256": "a86e10ff48f76fbfe6fac611742c455cc6d58eaad75d0e5ffae9cfb11f030734"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0092",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0092.mat",
+      "sha256": "157aba90401af1fc22c7c0994bfb4acc1e8810b378225c019f748777f4dd45aa"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0096",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0096.mat",
+      "sha256": "410c284175ec8fb77b988e026da2dc93109f85fe4f681d0d2865730f69f10c95"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0104",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0104.mat",
+      "sha256": "d53c44684d1a039b1ab09f6a42d6ca6dd6dd15b4413a810247b100568b63dda0"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0105",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0105.mat",
+      "sha256": "ece6a64479bf9e14bb5ab767cc75b6bbdc598ca8814e061848300a629834a42c"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0109",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0109.mat",
+      "sha256": "60bbc5f0c9137858e769e23411f61e57399bc308e6a9aaaec24df4e1bba94f60"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0110",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0110.mat",
+      "sha256": "2dcafdea04bdc0079060da5379243ed5e3ca7496ed59af9e7452c85c5bae179e"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0127",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0127.mat",
+      "sha256": "7619ff1166757a8fac90568f56e593028c0ff9b3d8086f54b3430e8a1617da2d"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0129",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0129.mat",
+      "sha256": "bcbeb72635e4fefb4f9a00486d83138562361ba66efdc2564a3b9e45cb27cea3"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0134",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0134.mat",
+      "sha256": "153bf8bf7afb3520160db713289a7d03e39eb7301dc1ef873ec7fedb4e6a070d"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0137",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0137.mat",
+      "sha256": "2bbf7970f91790ba764ec8245c132f57a9d8e1fc3b99d46b8ae6013c161f20a1"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0138",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0138.mat",
+      "sha256": "8cad2c34677aa65cbd15fe114dbc3b33dba48e2c031a7763fe26f24cf9719089"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0139",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0139.mat",
+      "sha256": "2815f1a7459db0ad3595263ab07f7163d4175d00bf540fc22e6cb37d4ca9f976"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0140",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0140.mat",
+      "sha256": "f44748769393306b59b35403d77da164c7c70fb07713f8dcecc3bfea1a086684"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0144",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0144.mat",
+      "sha256": "cba695e5017717a72c2fb44f9403ea01ba27e8307611d8342221b6094767cf9d"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0150",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0150.mat",
+      "sha256": "096bfa5dcacdc7ba0d55772a6e0a11d2b241628b556a29d3a1c206963050bbe8"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0163",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0163.mat",
+      "sha256": "491b40ab11854c5a18e610f924ae080423cab7ab9fe6fb77baa971f8e47b06f9"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0166",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0166.mat",
+      "sha256": "6e2d76c9833595bbd98a002a40614546f605ce1107d9b92974399ace46f385f4"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0169",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0169.mat",
+      "sha256": "ab72cffa3677d6c546b398618a791af239d2483501a79ce1544ff33cac2b0d3f"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0187",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0187.mat",
+      "sha256": "1ade0641ca93a0fb90c2e45be80d1492e4c28da6796b3adbede5b0a08a456892"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0194",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0194.mat",
+      "sha256": "762a9e595315c0c0dcef47799a1298873bea71cf3187b92216ee23d305cb2d25"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0195",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0195.mat",
+      "sha256": "ffbe173d57cfe46ed067590d3d1a6a2772398ed551325e3975dbaebb21f8cd9f"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0198",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0198.mat",
+      "sha256": "01bdc553907560ff70bf7a840815f53929f24079bbfd086923d0523891b0ffce"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0200",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0200.mat",
+      "sha256": "eab492cda6f1b7b6af275ac087d154496f4b960e5a59440d04d621d222e1121f"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0203",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0203.mat",
+      "sha256": "3f84b7980b10970b003f5d06148d5bce503e61ec7e15fc3def1346a5aa5bf013"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0205",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0205.mat",
+      "sha256": "002372c8762c6bcf708d5d44a99a245b451bb74126c3fb0ad8b9b6be4e89518b"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0210",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0210.mat",
+      "sha256": "884552903f3bcc3eb11d21661de83ffa929498cd90e6800b7bb2dfe986fd5015"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0219",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0219.mat",
+      "sha256": "74fc2373e96d84c29cbbab052648496abee48f91b7993b3f1f4259851683488c"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0223",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0223.mat",
+      "sha256": "b9169fa66667aa11c9d3508dac276525bee1b9ef3223df041fbe210f2bf566d7"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0227",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0227.mat",
+      "sha256": "8d94126deabe27270612efea892d38e02b89b81ec926f1086c10851162df78b9"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0230",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0230.mat",
+      "sha256": "58a7459774a7aa73ccf69bf17be0bd58985dfc40f5f12ce92cfc68b9a6a4af6c"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0235",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0235.mat",
+      "sha256": "d3bf983c3c7320ae5a844af14314d330c1597b5ef4f7a29ed495431af8c2c583"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0241",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0241.mat",
+      "sha256": "09b8d063f2841eada1557c1ce02841ddb8f3187c14bd7c8ffb24662d08a6023b"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0246",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0246.mat",
+      "sha256": "6fbcd27fc02db34af0f962ed6ccd0d7fcf59546798f674f044850cb6b486f544"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0252",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0252.mat",
+      "sha256": "5f1c6a5d5043882eab292ecaa32ce5015188aa1348b28ede337fc7385963294d"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0254",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0254.mat",
+      "sha256": "2646603d80aed1d336287c4636c6fad84263732b5cc7ca4ff34e6ab314ee81f5"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0256",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0256.mat",
+      "sha256": "4c183821c619dead88dde81cf7b2e0cc27adb5c5dad0c092aaa78ee461d25435"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0260",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0260.mat",
+      "sha256": "47b7b7ed4c69eb89a9a3db1daf6f9bedd67b511bfc7feae9140412cc653391fc"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0272",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0272.mat",
+      "sha256": "5341ab22995e6d22de392e2b725bd963555bb1e09d0d2ae34c958f245e35950d"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0274",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0274.mat",
+      "sha256": "7038d5b11ac926526520dbda5a455e6495e8118123e8cfec87a7ac74ec0a4997"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0279",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0279.mat",
+      "sha256": "80cb46ae7b7e8607f8e03c88953c69e7260ec4418d7306cb793443e7850a4a0c"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0287",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0287.mat",
+      "sha256": "4b3d5186dcbc222153d4ae20dd19024350f5db1fc64c83c9bdbc1af3b746c4a8"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0292",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0292.mat",
+      "sha256": "75c75e019cdbb8fe6f56cb5531013c3a78935da2ed04e767ab246fc75b80c34a"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0297",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0297.mat",
+      "sha256": "7be4cc23add9d0b76e515107ef50bdf886c0fc838cdfe6a9942c4cd5aa9ed9f3"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0305",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0305.mat",
+      "sha256": "7a2526bdf49087607dd4f4349cc50a45fd08bcc526354e02759fcea5d0166173"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0317",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0317.mat",
+      "sha256": "ee2c44ddfc63c1ad77ed2f476ec95a03213034d5483def2b69bc06d71c10abfb"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0319",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0319.mat",
+      "sha256": "c0e3380b1de97ca40303b2c61c1c8c53b40cf1cfb1d71b7453b3c984c861fd5c"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0321",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0321.mat",
+      "sha256": "e13f0ef1609ce9da3bb45ff74fcf5415595706bc4d09e427c6cee11aeaa22e2b"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0328",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0328.mat",
+      "sha256": "4539cbdbabc15142f3261f4a09869b880c23d5865dd8cec3cf4368dc22637958"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0330",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0330.mat",
+      "sha256": "c6c180ff5bed2dc6b562a428a8e6f7435bc4f6586a6223d65e1ea7772d3a1aad"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "0333",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/0333.mat",
+      "sha256": "da156a5c6f0bf8c6d61dd8e117939926eed535a7c1f30427347d8220d2064039"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-1000-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-1000-10.mat",
+      "sha256": "943938d76b877c13099b26e5a67c046f9ea580d2ed92d923886f4d0ef8ddb21c"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-1000-5",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-1000-5.mat",
+      "sha256": "7d69cfca03d086dd4af6ca2cf93cc203e508c37fdfe2f70aa173d93d3c8dd3b9"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-300-1",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-300-1.mat",
+      "sha256": "170226d89ee78a28d1f22f391ab242bf7ff323019c084ad6d69d6f2fe5c6647f"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-300-5",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-300-5.mat",
+      "sha256": "4a6398132c4fe62124c3fb580437cfb42b2940fbf4e3c5e3cd75b64f95c4c9a7"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-400-11",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-400-11.mat",
+      "sha256": "50d7693861a38ce8b83bb4b2f7a83530b58570e4e74c769bce0caaf68d04b20a"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-400-7",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-400-7.mat",
+      "sha256": "14cc515c880f5fc7dbfa088e1b32b2efb8cbfdbcf7352c2eba6d653df599561c"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-500-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-500-3.mat",
+      "sha256": "9d61da06550f65290dfa2daefa2d8c1f70fa9071977f76eea97340129a215cc9"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-500-4",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-500-4.mat",
+      "sha256": "c685286554381a2e413cb107fa93ba053b4be65227b50236383abdc41797fe87"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-600-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-600-3.mat",
+      "sha256": "0ff0536d1843fcf2a607f4835c212f208f049281dcd9492a33643e0111bbb4f7"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-600-6",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-600-6.mat",
+      "sha256": "1ee10533757d4d318219edad38e38078dd10ee62f2a874b4c182c6475bde8a5d"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-700-11",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-700-11.mat",
+      "sha256": "7810402a2e29e814c987d9fcf9dc50a691e46c2547314044b887a0a5663c77b5"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-700-5",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-700-5.mat",
+      "sha256": "206654f4b748a625b49974766676238db6f572979b400e1d1ef89f9bd1800978"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-800-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-800-10.mat",
+      "sha256": "5102a226451e7d7554802a4eea50289916c576d0b239b07340fa5ea0cf26eb15"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-800-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-800-3.mat",
+      "sha256": "8597c99cf2ab31d5d7bb1cd0687f2bca61450540ee96d3aace12279d7cf3bc90"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-900-1",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-900-1.mat",
+      "sha256": "9fb925d7e59fe43ecfbef107330a4b448a301b99e5055b6544f769d8bc29a24c"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-900-6",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-900-6.mat",
+      "sha256": "a7100fb0ffd8f13a07666129d70fd967814f2c44812d8965d2402876ff8682a9"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "4-900-9",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/4-900-9.mat",
+      "sha256": "a84b2575964ccda4dc1af2e7300c75352f8352c9fbf20e1363f4a36fd568ce26"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-1000-7",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-1000-7.mat",
+      "sha256": "30b8b572b5f62f3333bdef2e9f3e2ab996e1f7252cb3548312a7b108a29fd0f7"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-1000-8",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-1000-8.mat",
+      "sha256": "a3bee33b46838f48871279ed928d33323d500d107d83fb6714446e36f445a397"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-300-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-300-10.mat",
+      "sha256": "21743005e87b6e5972eddb2aa7c82b222cc68a5c55a9e19ecc158911fbc8bdb9"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-300-9",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-300-9.mat",
+      "sha256": "23a8f941d6cb8adb8e4bc2a8e6cf42f8c1baaad9b9ea9ac95e457ffdb1414a07"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-400-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-400-10.mat",
+      "sha256": "62dc9cfbe5ba5406b09d82218648d9f2ac2d002308ef8cc256226b5bafe99b29"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-400-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-400-3.mat",
+      "sha256": "ac250bad1b7685d0ae566119d1102edae3f8e5882ad90f6a9a665ed44fa35f3e"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-500-6",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-500-6.mat",
+      "sha256": "3e9be83eda16f64df0e0ffbef1200194029c5c213126a42da4da95da1c921da4"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-500-7",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-500-7.mat",
+      "sha256": "143ced55c4da2568dd31828c0e9b07d52fb9c0ae599a4d22d993e15210229484"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-600-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-600-10.mat",
+      "sha256": "1b259f11dad908565ebd3eb1791fc400ea8806f32b5378c908a460591575f33b"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-600-2",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-600-2.mat",
+      "sha256": "ad34dba4de5d7ce678ab226988fd30be99537e130590205a34a73ab4a81262c7"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-700-1",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-700-1.mat",
+      "sha256": "5b9b21c3abafda46e0990b753d5593b04adf7118f2c247ca9813200221b4983c"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-700-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-700-3.mat",
+      "sha256": "adf593f2a0836918dd83fe9ea761bcfbe2fad97f6703ac4ce9fb2243b6ed8aae"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-700-8",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-700-8.mat",
+      "sha256": "d2a60e16c2e908f21b96839e0893abe5ee8e1c8057207d908b6b6ee4d061b069"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-800-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-800-10.mat",
+      "sha256": "d54aa5ae3c513d1b8a615fd7054bf3224cee8e3eb56a708e67289cae28d02574"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-800-4",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-800-4.mat",
+      "sha256": "ff24366d22a04dffcd3a96952a8ca3b18098fb3ca9a188f7ba68ff0c15188891"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-900-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-900-10.mat",
+      "sha256": "afbbb3b3f6d0dc44fc33cffa4350857f5f7ff12f72679c3f61aa998cf8bf63ed"
+    },
+    {
+      "snr_db": -5,
+      "record_id": "5-900-7",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014/generated/target/SNR_-5/5-900-7.mat",
+      "sha256": "955d5653e0c1215d544debe55a8feba9ea13be1d024b904c99bb60ec1b787114"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0081",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0081.mat",
+      "sha256": "00410b052edc8e33ccd1267e02fbbf47d94031fcfe7833c8145c89b99e566840"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0085",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0085.mat",
+      "sha256": "6c7cfc0a1b0fcf1f2e390d8a21967c8d8570f3c90193e987c61caa479fd8f41c"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0088",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0088.mat",
+      "sha256": "8a16589480001d75810f377cd86fa4b3b2f0d14830a2d862f32ba9544c802a2d"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0089",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0089.mat",
+      "sha256": "0c7433d5a940b702ac3778d302f867c3770da1cb3bb021efae4582299f7ac687"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0092",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0092.mat",
+      "sha256": "a77ce24fa90881429fb2ee5d93b0c021da85c2dc87eb2ec1b818dafa7cc68c4c"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0096",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0096.mat",
+      "sha256": "c414011f3d01765c29e8e00ec17d130823e71e6288d815ace6a7abd075c85e0b"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0104",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0104.mat",
+      "sha256": "3239dbf345ffd3bcee83c7d5467bbb72c7d04e28386483c731e434a680a03fd1"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0105",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0105.mat",
+      "sha256": "d597310f5a66efcf4a7bc1b660eb64feee3040865719cb00e20888e2c7a00405"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0109",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0109.mat",
+      "sha256": "84230ef0270d46451febbf9284dbbe8bacc342bb31cb5c8c5523df23da145168"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0110",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0110.mat",
+      "sha256": "9c869a427ee23482f02c13c6be89309c8714e8c99943912640a638e23cb8620f"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0127",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0127.mat",
+      "sha256": "56f5b835039571f67a222136a20a76b7145bfe4b08fc88f9ccdc422b848e74a5"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0129",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0129.mat",
+      "sha256": "9523fcb28b19704948cf8d4a41569a29c0a518d3d8c757b4afc48ad99e6f883a"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0134",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0134.mat",
+      "sha256": "cbfa8db9040c1981f9114cb1119afadd2620dc3fe0a829cea08aa298aa89e15f"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0137",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0137.mat",
+      "sha256": "12c9ea08ec5a466de1511699a00a68f87cca29735ea1896e9a29f43f95aae626"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0138",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0138.mat",
+      "sha256": "e8e1864b13de064c637d842d68baebb4e929243e234b9aa32e2fa09a426e3b11"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0139",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0139.mat",
+      "sha256": "1cd154976a61bff6e32e410fe395031d548a4016e523c3dee930db523006bc1a"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0140",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0140.mat",
+      "sha256": "f9b671fd88a25b47a061cc8f25e9e21fdf18c7222296edac3fad8f93e3ffd891"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0144",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0144.mat",
+      "sha256": "5f2ef32c24a5074e44e75d7f5432a495c3b0f5dcb559d1185d5d07da25864a55"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0150",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0150.mat",
+      "sha256": "59d0c0e5ec8fa1fd07a1b75ac820da3a6c51aee50dbd3eab39f4b8649e7c49c7"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0163",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0163.mat",
+      "sha256": "9b3e928e760352f9f211bbef9f84040800cbe605920187baa41e59e32e8dc1a8"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0166",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0166.mat",
+      "sha256": "4a7d69b2273a6513afad39ea8be136a32f01e9c4ddf3d9f3ce50701c63c8e182"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0169",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0169.mat",
+      "sha256": "64b63ddd0f8e631f1845e2dab9b17f2f440d30190487a493e34f66d24df28012"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0187",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0187.mat",
+      "sha256": "1523dfd2b6136517148c1435a4d158cc494388a2563696b2615027b664c99074"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0194",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0194.mat",
+      "sha256": "5be34df648132cf0eab39eb65ecc6fdc78bdda3cddf5bae27161dcdc2ab1b717"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0195",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0195.mat",
+      "sha256": "d7dfdf743936d8765018b66b3b8944ffdc6c85d8325658a2279dd90d64ce586e"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0198",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0198.mat",
+      "sha256": "46644e5f552a9dfe156ec7a8bec8121ea3a468bd5e1dff9273a54c4ec81e7f03"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0200",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0200.mat",
+      "sha256": "9ca7a7701a1e0a62b27f88871d1398da057360ad2b732e0ebab62e93bc4d9faf"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0203",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0203.mat",
+      "sha256": "051c7b5a4f718837b9afc36fd31e79e1dc02f9f014b99a1143b9461d23e18158"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0205",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0205.mat",
+      "sha256": "4dc882a5aaf9156828122fde7cc20932accf408713ba735fce5a2bce693efb87"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0210",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0210.mat",
+      "sha256": "e98b9dccbf2beaffaa7d9e80fd6983a18752f425dabf0ba6143dcdb35ebbccb9"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0219",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0219.mat",
+      "sha256": "3ae09452c5e99f57ca6707614a7399eb356ba200b013df0560a69e375c2fda74"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0223",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0223.mat",
+      "sha256": "8ad79e896d9ddc7a933be53f0e8da83a5a2e2c7f0d4921570ed664fe5cb92fb9"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0227",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0227.mat",
+      "sha256": "7bc5adc0851adf8b280b037e2c6ef5dbf2247b3c5a9745fd466b5bf786c9527b"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0230",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0230.mat",
+      "sha256": "8f2dbe5165e982704e2d640e95fa8096072995df58e79cc869a64f68616692fd"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0235",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0235.mat",
+      "sha256": "e450d8e012d51f27f0f25fe060598450422e8153c44d830cb08d7da93b388fa3"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0241",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0241.mat",
+      "sha256": "59452e1d5cca47b6d00fdb94d4bd702b44392858db91c55f9de82776a27d4919"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0246",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0246.mat",
+      "sha256": "eca99de71e06277c809b2ec15bc0b3ba89537d3487b394aceda9252fc1bda58a"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0252",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0252.mat",
+      "sha256": "a9e9858800cd0fa4a489da5d45091886c01136c858e80f5b674d8dd9a8279281"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0254",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0254.mat",
+      "sha256": "aeb82fefd1ae007a87d5d0ab135df5643674fbd3bf8f687c8316af7722181cd6"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0256",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0256.mat",
+      "sha256": "cc8d9fbaf1c21f12c9ae88d729c8634fe49c44b17b89faef385c28ef79263a1f"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0260",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0260.mat",
+      "sha256": "862ce2e330efda1946ed34cb6cf48bcaa12e258acedacc9d75e87f50cc1f4fb7"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0272",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0272.mat",
+      "sha256": "166b48d49459107cd38da9290ed3c326f6b72901d77ba710ea0557e822b1f548"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0274",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0274.mat",
+      "sha256": "e836c2735600311b7ab15d3adfdbf9f2a37be9a9b0663c5b24fba3e57677c8fe"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0279",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0279.mat",
+      "sha256": "288d2b60890ef7623f5e6bb3428e1ae3586b0dc7065cfa928c77ce1e483411f8"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0287",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0287.mat",
+      "sha256": "d23dac0e310c33ba6f8bdc33d02dc7f2a01268b2815db7ecd58dd7a2055327c9"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0292",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0292.mat",
+      "sha256": "052007b887990695518f24a0ae3dca89668e4f6670eb37e272a7a3c259c98edd"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0297",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0297.mat",
+      "sha256": "279ed8f642d3ce21367f7e929a9d780f90749a6d281fe968ba2ef4661aca923c"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0305",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0305.mat",
+      "sha256": "4810ef4ff0ef0f43e04529259c8233dc58356fc2014260033f19a4d9e85b1a3d"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0317",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0317.mat",
+      "sha256": "289c37c5f9bd5f4d8450e1d25343ccd0365cad48b13da05614f688a98b7a5e45"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0319",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0319.mat",
+      "sha256": "2e094cf750a9c0a11a950d185ec472ed74509e1384b00d2487dc0507253c299e"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0321",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0321.mat",
+      "sha256": "6e1e2c7eec0823790c6d7fd7d3e41b8d19516af8c6bfa3b3cf8cea3f9e0191f2"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0328",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0328.mat",
+      "sha256": "c32d7652f98476cf8f1af5b72695fdb7dd00c635268b816d5dc6c6d2ff95ff7e"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0330",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0330.mat",
+      "sha256": "4d1dffb16ac2f3c74522c68089312555147e014463c1e05f5fc347a162eb04a4"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "0333",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/0333.mat",
+      "sha256": "aac8449e706a56ac3cf5be83950656fdf97539f83649a51e2b33f7a3cd48df72"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-1000-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-1000-10.mat",
+      "sha256": "efdfd90023c8dcd9140d49c6efdf055d6142446dec028a0d490a36dd919a3d05"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-1000-5",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-1000-5.mat",
+      "sha256": "a55abd9dd541d0a86394915a335d77814af2b580cf3215e1a3cab70cd28dfc0d"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-300-1",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-300-1.mat",
+      "sha256": "8552bee550677599dfe47dbfc16573e12f39b9a236189d26e63ad5a4ad71f939"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-300-5",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-300-5.mat",
+      "sha256": "a1d8c044550db1d13720dfa899a670c3ca928614b02039a238677c3805f164cc"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-400-11",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-400-11.mat",
+      "sha256": "fdf99d1a9080417a2fef526eb76d133e3767cde72f375be53d351c178881c908"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-400-7",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-400-7.mat",
+      "sha256": "ebadd0be573ac02fe278fc46940206ba89d63a5177cca6be13d4be523e5431e3"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-500-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-500-3.mat",
+      "sha256": "4c939339dcb04312aa27440bea83875b45bbbbef8f36f54c6770497446687da6"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-500-4",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-500-4.mat",
+      "sha256": "1f60611848a3460181daeb64538ddba5f6242bc8c927270d3b1d392c30822389"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-600-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-600-3.mat",
+      "sha256": "df48daa1179ae1cd9c80f2653e853514499b8db210c99e349a2aa451896afbcf"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-600-6",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-600-6.mat",
+      "sha256": "6d94a2531a3620b33b9b269cf7a8d9f152a9ae0aa8644c080c2584ad448bb562"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-700-11",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-700-11.mat",
+      "sha256": "77e63641bc3ff887774aa46391acc12bc74e854080a51c7386cd7c4e02978d6c"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-700-5",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-700-5.mat",
+      "sha256": "ce7576234d150ea49917268bc3b7caba0db623bd507251ac67b5f64ff523249c"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-800-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-800-10.mat",
+      "sha256": "ffecb2f00cc5790777f6d8d593e510255e37fb533eb01c205203315ce0c39a70"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-800-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-800-3.mat",
+      "sha256": "ba82f174eb992ebf978c4661339a7d99e8bc825bfba0b814274bbdab2d9385b5"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-900-1",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-900-1.mat",
+      "sha256": "f33070cd614e6067d82ebe273e167769004643196898e71906d31d1a4db9f0b1"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-900-6",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-900-6.mat",
+      "sha256": "61d9b9d7a9e6d20b296423b6bbb6d648c6628cdec66c5bedc56f8676d9375286"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "4-900-9",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/4-900-9.mat",
+      "sha256": "62f71d9ba41c5bec2bfe52f8c5429ae2df0d7c6e3ed7e66e295f791ec4920f73"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-1000-7",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-1000-7.mat",
+      "sha256": "6796a7bb29f0d88f24df72282fd9ee5a063a3c2a265a785350eb303b2b32e893"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-1000-8",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-1000-8.mat",
+      "sha256": "e6b0af031dc2b1b3b5efc842aa26e1439b3e4ff9c4062c87fc0b32880ecb204e"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-300-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-300-10.mat",
+      "sha256": "5beab960fecc25d14444d024910bdbc06ce6a5da530dc66a6382144c0fc8915e"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-300-9",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-300-9.mat",
+      "sha256": "ef5064a286b0d110ee75ed04f6e599fea7d37d1001d02df14f237735fb4757a9"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-400-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-400-10.mat",
+      "sha256": "0ae14b525acc28a4f57c504f63633a3511cc956229629900f37db2e40fa1ca06"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-400-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-400-3.mat",
+      "sha256": "71329957bf6399b3016f9698bd31a4920cb565726dc8d193bd7e5e332485990e"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-500-6",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-500-6.mat",
+      "sha256": "3c4039e5634befe06e5d3ed0b290b3e60d93a88f39ae85aa4fcd99b011c52994"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-500-7",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-500-7.mat",
+      "sha256": "213fe860c7fa2e0d26a4bcb0bca0eba88ad8743cc56d65a5cefd72b94b55615d"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-600-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-600-10.mat",
+      "sha256": "6e9d64b3eb59cd2119623e4483328bded1d01ee2e55ffadadf61aa6399514b34"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-600-2",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-600-2.mat",
+      "sha256": "b8cba9dd69b5791a2bc82ab2eb4efe6ee8520aed726d8d38459b14fb30c9c6c2"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-700-1",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-700-1.mat",
+      "sha256": "c781a7acc556afc2cefbba600940a3f4f411e15b19ab7a6497a754d6249c53a1"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-700-3",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-700-3.mat",
+      "sha256": "f43d6a8d24881cc13010bb5ba5f9b42f8f48cc71bae2cf41d2a58f6b3b936800"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-700-8",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-700-8.mat",
+      "sha256": "dd84df3b0f4a2144e1e2f410e30e2db5aca082f4602e9bb8557ecb88ab0a4366"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-800-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-800-10.mat",
+      "sha256": "66bc35584e1ce515522d01e652dd50af69d2e7ea188bdd5dd132b4a192ef096f"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-800-4",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-800-4.mat",
+      "sha256": "f23441b9feaade4ddc6581a56b572396b0771c105c2970b14022fee62fc77176"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-900-10",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-900-10.mat",
+      "sha256": "31e448efd8790ec96e335d13fabe67ff9169e4d26d369c943f4597961f1476d1"
+    },
+    {
+      "snr_db": -10,
+      "record_id": "5-900-7",
+      "original_file": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated/target/SNR_-10/5-900-7.mat",
+      "sha256": "7429ab7d2f32902e9f37d31f07cb900ee8da8f86e8b6addb3a32afd23478f1e0"
+    }
+  ],
+  "linked_files": 176,
+  "regenerated_mat_files": 0,
+  "matches_branch_generator_exactly": true,
+  "max_full_record_phase_snr_error_db": 3.730349362740526e-14,
+  "final_holdout_accessed": false
+}

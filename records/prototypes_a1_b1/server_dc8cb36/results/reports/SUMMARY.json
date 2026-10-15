@@ -1,0 +1,93 @@
+{
+  "protocol": "hust-a1-b1-source-only-v1",
+  "methods": [
+    "b1",
+    "a1"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "conditions": [
+    5,
+    0,
+    -5,
+    -10
+  ],
+  "final_holdout_evaluated": false,
+  "summary": [
+    {
+      "method": "b1",
+      "condition": "snr5",
+      "seeds": 3,
+      "macro_f1_mean": 91.35379271279312,
+      "macro_f1_sd": 6.184583501744217,
+      "accuracy_mean": 94.08515225006737,
+      "accuracy_sd": 4.157669656076882
+    },
+    {
+      "method": "b1",
+      "condition": "snr0",
+      "seeds": 3,
+      "macro_f1_mean": 87.40827671574446,
+      "macro_f1_sd": 6.488753593565744,
+      "accuracy_mean": 91.59256265157639,
+      "accuracy_sd": 3.891917227830083
+    },
+    {
+      "method": "b1",
+      "condition": "snr-5",
+      "seeds": 3,
+      "macro_f1_mean": 81.67815345148443,
+      "macro_f1_sd": 5.148525600747405,
+      "accuracy_mean": 87.34842360549719,
+      "accuracy_sd": 2.883477255782027
+    },
+    {
+      "method": "b1",
+      "condition": "snr-10",
+      "seeds": 3,
+      "macro_f1_mean": 65.27258111070354,
+      "macro_f1_sd": 6.012524239778079,
+      "accuracy_mean": 74.18485583400701,
+      "accuracy_sd": 4.9343214829799
+    },
+    {
+      "method": "a1",
+      "condition": "snr5",
+      "seeds": 3,
+      "macro_f1_mean": 46.37548338688446,
+      "macro_f1_sd": 13.065712599476177,
+      "accuracy_mean": 69.40177849636217,
+      "accuracy_sd": 6.518967700525665
+    },
+    {
+      "method": "a1",
+      "condition": "snr0",
+      "seeds": 3,
+      "macro_f1_mean": 41.18190195663441,
+      "macro_f1_sd": 9.778095551934065,
+      "accuracy_mean": 66.7744543249798,
+      "accuracy_sd": 4.446792058145186
+    },
+    {
+      "method": "a1",
+      "condition": "snr-5",
+      "seeds": 3,
+      "macro_f1_mean": 35.07536862896938,
+      "macro_f1_sd": 1.4311262149362483,
+      "accuracy_mean": 63.82376717865804,
+      "accuracy_sd": 0.5556882411021646
+    },
+    {
+      "method": "a1",
+      "condition": "snr-10",
+      "seeds": 3,
+      "macro_f1_mean": 30.727326927173163,
+      "macro_f1_sd": 2.3216380946296025,
+      "accuracy_mean": 54.20371867421181,
+      "accuracy_sd": 3.156155572561031
+    }
+  ]
+}

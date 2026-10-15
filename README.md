@@ -458,7 +458,7 @@ A0种子42有49轮六版本验证全满分，种子43/44各50轮全满分，原�
 - [训练loss及源验证图](figures/training_checks/a0_b0_lp4_20261015/TRAIN_LOSS_AND_SOURCE_VAL.png) · [B0预训练和loss分项图](figures/training_checks/a0_b0_lp4_20261015/B0_PRETRAIN_AND_LOSS_COMPONENTS.png)
 
 
-## 新一轮A1 / B1结构化抗噪算法（待服务器训练）
+## 新一轮A1 / B1结构化抗噪算法（服务器实验已完成）
 
 研究分支：[research/a1-b1-noise-structure-v1](https://github.com/kgnpdzpbcg-collab/hust-SNR/tree/research/a1-b1-noise-structure-v1)，在已核验A0/B0实验之后新建；**不会改动原A0/B0、ResNet+LP4代码、权重和正式成绩**。
 
@@ -466,4 +466,14 @@ A0种子42有49轮六版本验证全满分，种子43/44各50轮全满分，原�
 - **B1**：[物理相间结构谐波网络](scripts/hust_b1_phase_harmonic.py)：保留0–4阶复谱、基于高频噪声代理和同阶跨相Gram特征进行非放大收缩；源域干净复谱、弱相相对能量和噪声功率提供恢复监督；分类输入包含MD形状与五相共享归一化电流两支证据。
 - [独立的source-only训练／实测Dev推理入口](scripts/hust_a1_b1_experiment.py) · [冻结实验配置](configs/hust_prototypes_a1_b1_v1.json) · [单元测试](tests/test_hust_prototypes_a1_b1.py) · [服务器执行脚本](scripts/run_hust_a1_b1_server.sh) · [完整方法及风险说明](docs/HUST_A1_B1_V1.md)
 
-固定源仿真训练10–40dB噪声、三个种子42/43/44、实测Dev评价5/0/−5/−10dB。根据原A0验证F1长时间饱和，新增**仅源验证噪声CE的同F1并列轮次判定**，与旧实验选模规则的区别必须报告。**A1/B1尚未完成GPU训练与Target-Dev实测评价，不得预先宣称优于LP4+ResNet。**
+固定源仿真训练10–40dB噪声、三个种子42/43/44、实测Dev评价5/0/−5/−10dB。根据原A0验证F1长时间饱和，新增**仅源验证噪声CE的同F1并列轮次判定**，与旧实验选模规则的区别必须报告。已完成6组GPU训练和24组实测Dev评价，复用原环境，训练/评估/汇总92.666秒；保存权重预测全部重放一致。最终Holdout未评估。
+
+Macro-F1（42/43/44均值±样本标准差，%）：
+
+| 模型 | 5 dB | 0 dB | −5 dB | −10 dB |
+|---|---:|---:|---:|---:|
+| A1 | 46.38 ± 13.07 | 41.18 ± 9.78 | 35.08 ± 1.43 | 30.73 ± 2.32 |
+| B1 | 91.35 ± 6.18 | 87.41 ± 6.49 | 81.68 ± 5.15 | 65.27 ± 6.01 |
+
+- [完整服务器记录及A0/B0/LP4历史对比](records/prototypes_a1_b1/server_dc8cb36/SERVER_RESULTS.md) · [逐种子结果](records/prototypes_a1_b1/server_dc8cb36/results/reports/PER_SEED_RESULTS.csv) · [独立核验](records/prototypes_a1_b1/server_dc8cb36/results/reports/VERIFICATION.json)
+- [仿真划分待处理事项（本轮未实施）](docs/DATA_SPLIT_PENDING.md)
