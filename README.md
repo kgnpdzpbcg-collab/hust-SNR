@@ -411,7 +411,7 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 - [服务器完整记录、DC/RMS、类对排序与类间/类内距离](records/data_geometry/server_20261014/DATA_ANALYSIS_RECORD.md) · [完整统计](records/data_geometry/server_20261014/results/DATA_GEOMETRY.json)
 
 
-## B0 / A0 独立抗噪算法原型（未运行GPU正式实验）
+## B0 / A0 独立抗噪算法原型（服务器实验已完成）
 
 研究分支：research/harmonic-recovery-wavelet-a0-b0。ResNet+LP4仅为历史强基线，不限制新模型结构。
 
@@ -421,4 +421,19 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 - [仅88条Dev记录的−5/−10dB数据生成器](scripts/generate_extreme_dev_snr.py) · [服务器一键脚本](scripts/run_hust_prototypes_server.sh)
 - **[完整算法定义、张量尺寸、损失、运行说明及限制](docs/HUST_A0_B0_PROTOTYPES_V0.md)**
 
-两模型的测试目标是5/0/−5/−10dB，固定训练仍为源域10–40dB、源验证0/5/10/20/30dB、三种子42/43/44。−5/−10为作者10dB实测残差缩放，**不是新采集**。上述提交尚未执行真实GPU训练、实测Dev推理或Final-Holdout评估；不得将代码提交当成性能已确认。
+两模型的测试目标是5/0/−5/−10dB，固定训练仍为源域10–40dB、源验证0/5/10/20/30dB、三种子42/43/44。−5/−10为作者10dB实测残差缩放，**不是新采集**。
+
+原提交`b0f97ce`的GPU预检发现CUDA median与确定性模式冲突；提交`c0b30c9`改为稳定排序后取同一定义的中位数，服务器10项测试通过。算法结构、损失及冻结配置保持不变。已完成6组训练、24组Dev评估及全部预测重放；训练/评估/汇总82.650秒，复用原环境，最终保留集未评估。
+
+Macro-F1（42/43/44均值±样本标准差，%）：
+
+| 模型 | 5 dB | 0 dB | −5 dB | −10 dB |
+|---|---:|---:|---:|---:|
+| A0 | 69.16 ± 15.12 | 62.58 ± 15.89 | 55.87 ± 17.87 | 47.12 ± 10.54 |
+| B0 | 93.72 ± 2.05 | 87.15 ± 8.39 | 66.21 ± 18.00 | 38.33 ± 17.99 |
+| 历史LP4＋ResNet | 98.10 ± 0.85 | 94.44 ± 1.05 | 80.43 ± 2.92 | 51.81 ± 3.43 |
+
+- [服务器完整记录、逐种子结果、源选模及CUDA兼容性说明](records/prototypes_a0_b0/server_c0b30c9/SERVER_RESULTS.md)
+- [24行逐种子结果](records/prototypes_a0_b0/server_c0b30c9/results/reports/PER_SEED_RESULTS.csv) · [144行逐类指标](records/prototypes_a0_b0/server_c0b30c9/results/reports/PER_CLASS_PER_SEED.csv)
+- [300轮分类损失及源验证](records/prototypes_a0_b0/server_c0b30c9/results/reports/TRAIN_LOSS_HISTORY.csv) · [30轮B0恢复预训练](records/prototypes_a0_b0/server_c0b30c9/results/reports/B0_PRETRAIN_RECOVERY_HISTORY.csv)
+- [同种子LP4＋ResNet配对](records/prototypes_a0_b0/server_c0b30c9/results/reports/PAIRED_RESNET_LP4.csv) · [独立核验](records/prototypes_a0_b0/server_c0b30c9/results/reports/VERIFICATION.json)

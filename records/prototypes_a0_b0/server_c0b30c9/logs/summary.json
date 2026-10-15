@@ -1,0 +1,22 @@
+{
+  "name": "summary",
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/hust_prototypes_experiment.py",
+    "summarize",
+    "--methods",
+    "b0",
+    "a0",
+    "--out",
+    "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9/results",
+    "--conditions",
+    "5",
+    "0",
+    "-5",
+    "-10"
+  ],
+  "cwd": "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9/code",
+  "exit_code": 0,
+  "elapsed_seconds": 0.7451553459977731
+}

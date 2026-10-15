@@ -1,0 +1,18 @@
+{
+  "protocol": "HUST-architecture-nine-arm-minus5-fixed-weights-v1",
+  "reference_training_protocol": "HUST-architecture-nine-arm-v1-source-only",
+  "reference_training_code_commit": "5c75bea67ffb1dd7730398193aba8b3498382e82",
+  "methods": ["v5_w", "v5_wd_plain", "v5_wd_res", "v5_w_ms", "v5_wd_plain_ms", "v5_wd_res_ms", "resnet_lp3", "resnet_lp4", "resnet_nahsf"],
+  "seeds": [42, 43, 44],
+  "new_target_conditions_db": [-5],
+  "reference_target_conditions_db": [5, 0],
+  "target_dev_records": 88,
+  "target_dev_cycles": 2474,
+  "inference_batch_size": 128,
+  "checkpoint_policy": "reuse_original_source_selected_best_pt_without_reselection",
+  "target_noise": "author_snr10_residual_scaled_by_10_power_075",
+  "source_data_used": false,
+  "models_retrained": false,
+  "target_checkpoint_selection": false,
+  "final_holdout_evaluated": false
+}

@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "unit_tests_passed": 10,
+  "shared_data_readers_match_original_code_sha": [
+    "scripts/prepare.py",
+    "scripts/v2_experiment.py",
+    "scripts/v1_noise_consistency.py",
+    "scripts/hust_arch_suite_experiment.py",
+    "scripts/v2_paifilter.py",
+    "scripts/classical_baseline_models.py",
+    "configs/splits_gate0_v1.json"
+  ],
+  "source_train_records": 34,
+  "source_train_cycles": 738,
+  "source_val_records": 15,
+  "source_val_cycles": 302,
+  "source_val_noise_matches_original_rng": true,
+  "first_epoch_noise_sha256": {
+    "42": "a49d07c66970c8abe8257728c01e322b3adfaaf4b07500541274cd447626d65b",
+    "43": "89bbd8732d346ad421b99779865aeeb8b80acceea742cb02c6a8ab9bb1c3ab2e",
+    "44": "06f21a9012b6d0c3de315d7a13dc89825c3fcfed99300aec3f13bceffdbde60b"
+  },
+  "source_noise_matches_historical_baseline": true,
+  "initial_parameters_sha256": {
+    "b0/seed42": "6d7ea5797a94a64cb9f54e3f2d94cf2c8ddbbfd74108e9c55cbefa68e0e5fdff",
+    "a0/seed42": "e06ed506107e5520e3c7987571b2f02f6727052f94ea9e506d7f7e89e6532e8f",
+    "b0/seed43": "e36d656b579b5c4d6d57556e9526fadfe7ebec562d3c5406a7655820efa435df",
+    "a0/seed43": "2662dcade2f845e3b79fa3461532868387f5e0c1915f3da1a983ad589f0707c2",
+    "b0/seed44": "01bcc8b17d0cc898ed0351785f65b28a18eba09030efd0cbceb62af6341c346e",
+    "a0/seed44": "613558ccb071d7419815aa898db6230d2730210fe97b9c76758544f1c03d6925"
+  },
+  "parameter_counts": {
+    "b0": 258709,
+    "a0": 92464
+  },
+  "gpu_backward_checks": {
+    "b0/seed42": {
+      "loss": 1.6945799589157104,
+      "gradients_finite": true
+    },
+    "a0/seed42": {
+      "loss": 1.679009199142456,
+      "gradients_finite": true
+    },
+    "b0/seed43": {
+      "loss": 1.9436743259429932,
+      "gradients_finite": true
+    },
+    "a0/seed43": {
+      "loss": 1.856849193572998,
+      "gradients_finite": true
+    },
+    "b0/seed44": {
+      "loss": 1.603275179862976,
+      "gradients_finite": true
+    },
+    "a0/seed44": {
+      "loss": 1.568711519241333,
+      "gradients_finite": true
+    }
+  },
+  "extreme_noise_identical_to_branch_generator": true,
+  "old_files_protected": 1137,
+  "final_holdout_accessed": false
+}

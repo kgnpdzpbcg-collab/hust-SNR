@@ -1,0 +1,8 @@
+B0 source-recovery pretrain epoch 1: 0.000103
+B0 source-recovery pretrain epoch 10: 0.000078
+b0 seed44 epoch 1/50: source-val noisy F1=0.2917
+b0 seed44 epoch 10/50: source-val noisy F1=0.9651
+b0 seed44 epoch 20/50: source-val noisy F1=0.9517
+b0 seed44 epoch 30/50: source-val noisy F1=0.9723
+b0 seed44 epoch 40/50: source-val noisy F1=0.9794
+b0 seed44 epoch 50/50: source-val noisy F1=0.9661

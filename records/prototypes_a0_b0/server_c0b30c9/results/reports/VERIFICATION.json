@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "training_runs": 6,
+  "joint_training_epochs_checked": 300,
+  "b0_pretrain_epochs_checked": 30,
+  "source_selected_checkpoints_independently_verified": 6,
+  "source_validation_metric_replays": 36,
+  "target_prediction_sets_exactly_reproduced": 24,
+  "target_metrics_independently_recomputed": 24,
+  "summary_groups_independently_verified": 8,
+  "all_model_parameters_and_buffers_unchanged_during_replay": true,
+  "protected_old_files_sha_unchanged": 1137,
+  "new_weights_sha_unchanged": 6,
+  "target_dev_records": 88,
+  "target_dev_cycles_per_condition": 2474,
+  "class_cycle_counts": [
+    1106,
+    307,
+    297,
+    298,
+    237,
+    229
+  ],
+  "unit_tests_passed": 10,
+  "deterministic_algorithms": true,
+  "cudnn_allow_tf32": false,
+  "matmul_allow_tf32": false,
+  "final_holdout_evaluated": false,
+  "target_checkpoint_selection": false,
+  "elapsed_seconds": 4.571816284995293
+}

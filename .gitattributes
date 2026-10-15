@@ -7,3 +7,5 @@ figures/** -text
 *.pdf -text
 # 原Xu-Full程序输出日志包含行尾空格；保留原字节及SHA，仅豁免该格式项。
 records/xu2025_full/server_bb2f219/logs/*_train.log whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# A0/B0并发控制台原日志两行含行尾空格，保留服务器原字节及导出SHA。
+records/prototypes_a0_b0/server_c0b30c9/controller.log whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

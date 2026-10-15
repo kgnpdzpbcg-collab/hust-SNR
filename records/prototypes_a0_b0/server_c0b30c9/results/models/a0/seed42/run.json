@@ -1,0 +1,73 @@
+{
+  "method": "a0",
+  "seed": 42,
+  "protocol": "hust-b0-a0-source-only-v0",
+  "initial_parameters_sha256": "e06ed506107e5520e3c7987571b2f02f6727052f94ea9e506d7f7e89e6532e8f",
+  "parameters": 92464,
+  "selected": {
+    "epoch": 2,
+    "clean_f1": 1.0,
+    "noisy_f1": {
+      "0": 1.0,
+      "5": 1.0,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0
+    },
+    "noise_mean_f1": 1.0,
+    "train_loss_mean": 0.3686237446963787
+  },
+  "pretrain_recovery_losses": [],
+  "config": {
+    "protocol": "hust-b0-a0-source-only-v0",
+    "methods": [
+      "b0",
+      "a0"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "main_target_conditions_db": [
+      5,
+      0,
+      -5,
+      -10
+    ],
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "b0_pretrain_epochs": 10,
+    "b0_reconstruction_weight": 0.2,
+    "source_only": true,
+    "final_holdout_evaluated": false,
+    "model_notes": {
+      "b0": "K=8 multi-phase complex-harmonic recovery + existing ResNet1D, 10 source-only recovery warmup epochs then 50 joint epochs.",
+      "a0": "4-stage orthonormal Haar/DWA/FAM CNN, shared five-phase RMS scale and fixed 4096->512 block average; no LP4.",
+      "selection": "reuse old source-only score_checkpoints: source clean within 1 percentage point of maximum then maximum mean source val 0,5,10,20,30 dB macro-F1.",
+      "target_data": "5/0/-5/-10dB derived from same published 10dB measurement residual; negative levels require generated files.",
+      "limitations": "No server train/evaluation or final-holdout performed in this commit."
+    }
+  },
+  "source_train_cycles": 738,
+  "source_val_cycles": 302,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

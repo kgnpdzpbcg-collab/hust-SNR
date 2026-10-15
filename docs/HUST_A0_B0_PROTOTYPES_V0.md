@@ -1,8 +1,15 @@
 # HUST A0 / B0 Independent Algorithm Prototypes (V0)
 
-Status: **implementation committed; GPU dataset training and Target-Dev scoring NOT RUN**.
+Status: **six GPU training runs and 24 Target-Dev evaluations completed and verified on 2026-10-15**.
 Branch: research/harmonic-recovery-wavelet-a0-b0
 Base: research/architecture-sweep-v1 (commit 12fc3667).
+
+Execution snapshot: c0b30c9, following the original b0f97ce implementation.
+The only algorithm implementation correction uses stable sorting to compute
+the same lower median in B0's noise proxy, because the original indexed CUDA
+median is rejected by the existing deterministic PyTorch configuration.
+Architecture, frozen configuration, losses, and training budgets are unchanged.
+See [server record, all seeds, and verification](../records/prototypes_a0_b0/server_c0b30c9/SERVER_RESULTS.md).
 
 ## 1. Problem and non-negotiable controls
 
@@ -30,7 +37,8 @@ OLS(A)+OP(C). Holdout of 347 distinct measured families is **not accessed**.
 
 The main competitor is previously trained ResNet1D+LP4:
 5dB 98.10%, 0dB 94.44%, -5dB 80.43% (three-seed Target-Dev Macro-F1).
-Its -10dB performance has not been computed.
+Its previously completed fixed-weight -10dB Macro-F1 is 51.81% +/- 3.43%
+(sample standard deviation, seeds 42/43/44); it was not retrained in this run.
 
 The two proposed candidates do NOT inherit LP4; they are alternative
 algorithms whose usefulness is entirely contingent on the experiments.
@@ -195,9 +203,11 @@ are safer for inspecting B0 before training A0.
 
 ## 5. Limits / criteria for proceeding
 
-A0 and B0 have NOT been evaluated on Target-Dev or Final-Holdout here.
-No guarantee exists that either outperforms the strong ResNet+LP4 baseline.
-Results under -10dB must be actually measured, not extrapolated from -5dB.
+A0 and B0 have now been evaluated on the original 88-family Target-Dev cohort
+at 5/0/-5/-10dB; Final-Holdout remains unevaluated. Actual three-seed -10dB
+Macro-F1 is A0 47.12% +/- 10.54% and B0 38.33% +/- 17.99%. The linked server
+record contains all seeds, all four conditions, source-only checkpoint selection,
+and comparison with the historical ResNet+LP4 weights.
 
 Before finalizing the conference paper, compare all methods on consistent
 5,0,-5,-10dB Target-Dev conditions, disclose the B0 extra pretraining

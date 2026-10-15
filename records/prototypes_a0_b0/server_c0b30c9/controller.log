@@ -1,0 +1,17 @@
+START b0_seed42_train
+STARTSTART b0_seed43_train
+ b0_seed44_train
+FINISHED b0_seed43_train exit 0 seconds 45.213
+FINISHED b0_seed42_train exit 0 seconds 45.236
+FINISHED b0_seed44_train exit 0 seconds 45.3
+STARTSTARTSTART a0_seed44_train 
+a0_seed42_train 
+a0_seed43_train
+FINISHED a0_seed44_train exit 0 seconds 23.13
+FINISHED a0_seed42_train exit 0 seconds 23.492
+FINISHED a0_seed43_train exit 0 seconds 23.539
+START target_dev_evaluation
+FINISHED target_dev_evaluation exit 0 seconds 13.061
+START summary
+FINISHED summary exit 0 seconds 0.745
+ALL_TRAINING_AND_EVALUATION_COMPLETE
