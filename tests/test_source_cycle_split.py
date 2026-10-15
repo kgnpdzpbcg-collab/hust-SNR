@@ -91,6 +91,16 @@ def test_profile_metadata_cannot_be_silently_changed(tmp_path):
         split.source_provenance(tmp_path)
 
 
+def test_json_bytes_are_independent_of_directory_insertion_order(tmp_path):
+    """Windows/Linux的大小写路径排序不同，JSON字节应保持相同。"""
+    names = ["source_gap_windows.json", "SOURCE_INPUTS.json", "HEALTHY_DUPLICATE_FAMILIES.json"]
+    first, second = tmp_path / "first.json", tmp_path / "second.json"
+    split.save(first, dict.fromkeys(names, "same-sha"))
+    split.save(second, dict.fromkeys(sorted(names), "same-sha"))
+    assert first.read_bytes() == second.read_bytes()
+    assert b"\r\n" not in first.read_bytes()
+
+
 def test_cli_defaults_to_new_split_without_starting_training(monkeypatch):
     """替换训练函数为记录器，只检查参数路由，不做参数更新。"""
     import hust_a1_b1_experiment as experiment

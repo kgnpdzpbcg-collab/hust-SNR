@@ -42,8 +42,9 @@ def sha(path: Path) -> str:
 
 
 def save(path: Path, value) -> None:
-    """输出可直接检查的JSON；调用者保证整个输出目录为新目录。"""
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    """固定键顺序和LF换行，使Windows/Linux目录排序差异不改变元数据指纹。"""
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                    encoding="utf-8", newline="\n")
 
 
 def filename_label(record_id: str) -> dict:
