@@ -1,0 +1,10 @@
+method,seed,source_selected_epoch
+a0,42,2
+a0,43,1
+a0,44,1
+b0,42,39
+b0,43,10
+b0,44,2
+resnet_lp4,42,7
+resnet_lp4,43,2
+resnet_lp4,44,5

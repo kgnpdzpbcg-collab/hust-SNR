@@ -1,0 +1,50 @@
+{
+  "purpose": "exploratory training log inspection, not publication figure",
+  "renderer": "matplotlib_static_png",
+  "classification_epoch_rows": 450,
+  "pretraining_epoch_rows": 30,
+  "methods": [
+    "a0",
+    "b0",
+    "resnet_lp4"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "training_loss_smoothing": false,
+  "train_loss_aggregation": "unweighted mean of 24 batch losses; last batch has 2 source cycles",
+  "validation_loss_per_epoch_available": false,
+  "model_weights_or_official_scores_changed": false,
+  "source_files_sha256": {
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/a0/seed42/history.json": "3127c229bcf0fda1b851202c6a63bb90cf6a3bb0ad3b5306acabf0dd5faa3648",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/a0/seed42/run.json": "540ff1c9846f7c9450320e6254e5584c8ae921c9b98827170a7f137aa3c51717",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/a0/seed43/history.json": "1b9933def7f7ebb15b9ca351e8a2e62d1ca25f8bb32c2549824b1a818229880f",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/a0/seed43/run.json": "2004749fc217d0d84fe2f8d1a6fc1001a12f40e60a7b7760871d39dcebe8b8ce",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/a0/seed44/history.json": "c6515042b6b66a184e68d3b775a8952e43483bd4b37ce37ce7ea056d33b4e834",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/a0/seed44/run.json": "b11081d8abf7fdd309b01139eceb727edde7cd72f25809312df97b19a8cbfc0f",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/b0/seed42/history.json": "02b485b8a490bd112df557d801c536f10a09d42683a45eb6ee602e4b7ea4b0dc",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/b0/seed42/run.json": "8a68cfd328929be5c89571a70eba0710ad013983deb20d081ff3791b5bc5dbfd",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/b0/seed43/history.json": "3a3489ffa4699b9d3201a722a96afa31a5a8fd516d3a74d9429b62ff296256ef",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/b0/seed43/run.json": "aca9d282eac85953108c14240088d4c98fcc5b5ed04481225387463c98c02596",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/b0/seed44/history.json": "36c1b8d0f36578487dc339d100bbb5aba0233badea079fb3a00cc1eb1c967801",
+    "records/prototypes_a0_b0/server_c0b30c9/results/models/b0/seed44/run.json": "7a9448c443524cf0eea67e7234ecec44b4f70f3b983a923c48de16452419b7c4",
+    "records/architecture_suite/server_5c75bea/results/models/resnet_lp4/seed42/history.json": "8b5569ffd7ab80f64e06200b5f4f9f419d2795e3d27171fe34ff8cd6c5c39542",
+    "records/architecture_suite/server_5c75bea/results/models/resnet_lp4/seed42/run.json": "a01efa78bca9045733cf2131b2870afbc4a2363eab502ea99ce891c2e12b8ef5",
+    "records/architecture_suite/server_5c75bea/results/models/resnet_lp4/seed43/history.json": "1eda99e508201ae12d2809ea41fe4a36adc6f764e89beda7fc97c73b7b666e2e",
+    "records/architecture_suite/server_5c75bea/results/models/resnet_lp4/seed43/run.json": "8d9608fd613a4f41f7e8d7ec2807a64d0986767394378770f8ff057677e18f4b",
+    "records/architecture_suite/server_5c75bea/results/models/resnet_lp4/seed44/history.json": "7a842d1a6acf16dc42cbe98a17ff7a7446af2c7c852b812181c3cffbdfd2add2",
+    "records/architecture_suite/server_5c75bea/results/models/resnet_lp4/seed44/run.json": "958ee26460c86b0df044e8a526159fbb5ea9bc32986a9e727be8072d9f568072"
+  },
+  "plot_script_sha256": "f6452f0c6cad08e0ade965fec1c2754c2843411bd0f4e5ae5016e2a24b0366a8",
+  "matplotlib_version": "3.10.7",
+  "numpy_version": "2.2.6",
+  "output_files_sha256": {
+    "B0_PRETRAIN_AND_LOSS_COMPONENTS.png": "f0bbf4dd48e11944040918e950f84d3a4819fbd8e47b6c5f1fe00ca294b33f95",
+    "B0_PRETRAIN_VALUES.csv": "fcdbfc2b55f0a9621fcc0b60c55057b9111e399a57b774e50f103d5a962ef769",
+    "SOURCE_SELECTED_EPOCHS.csv": "bca6a710b36050d198ac34ee6158ba5c60f06659b56f41c39ae5a1d935f594ce",
+    "TRAINING_VALUES.csv": "9ce033608acec8cab40f15df7e42918c8048d6c4e61142f4236c70ea0aa77267",
+    "TRAIN_LOSS_AND_SOURCE_VAL.png": "0237b75464ec142e0bcfe6e7e4f5cc967802487e4908a36946193c4b95fd0cfd"
+  }
+}

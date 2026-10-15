@@ -449,3 +449,10 @@ A0种子42有49轮六版本验证全满分，种子43/44各50轮全满分，原�
 - [完整逐轮过程、结构探针、恢复误差与终轮比较](records/prototypes_audit/server_20261015/AUDIT_RECORD.md)
 - [固定权重审计入口](scripts/audit_a0_b0_fixed_weights.py) · [精确训练重放入口](scripts/audit_a0_b0_epoch_replay.py)
 - [固定阶段核验](records/prototypes_audit/server_20261015/results/VERIFICATION.json) · [精确重放核验](records/prototypes_audit/server_20261015/epoch_replay/VERIFICATION.json)
+
+### 原正式训练loss检查图
+
+从原日志绘制A0、B0、LP4＋ResNet全部42/43/44种子的50轮训练loss、五噪声源验证F1和原选中轮次，并单列B0额外10轮预训练及联合损失分项。仅作实验检查；没有训练、平滑曲线、虚构验证loss或替换权重。
+
+- [流程、loss定义和原始数值来源](figures/training_checks/a0_b0_lp4_20261015/README.md)
+- [训练loss及源验证图](figures/training_checks/a0_b0_lp4_20261015/TRAIN_LOSS_AND_SOURCE_VAL.png) · [B0预训练和loss分项图](figures/training_checks/a0_b0_lp4_20261015/B0_PRETRAIN_AND_LOSS_COMPONENTS.png)
