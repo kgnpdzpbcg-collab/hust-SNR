@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "/home/wang/projects/会议论文/hust/experiments/resnet_lp4_minus10/20261015/code/scripts/evaluate_resnet_lp4_minus10.py",
+    "--reference-code",
+    "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/code",
+    "--reference-results",
+    "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/results",
+    "--minus10-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015",
+    "--minus5-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus5_v1_20261014",
+    "--minus5-results",
+    "/home/wang/projects/会议论文/hust/experiments/architecture_minus5/20261014/results",
+    "--output",
+    "/home/wang/projects/会议论文/hust/experiments/resnet_lp4_minus10/20261015/results",
+    "--config",
+    "/home/wang/projects/会议论文/hust/experiments/resnet_lp4_minus10/20261015/code/configs/resnet_lp4_minus10_fixed_weights_v1.json"
+  ],
+  "cwd": "/home/wang/projects/会议论文/hust/experiments/architecture_suite/5c75bea/code",
+  "exit_code": 0,
+  "elapsed_seconds": 3.9495710320043145
+}

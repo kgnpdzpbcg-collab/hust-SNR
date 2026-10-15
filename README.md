@@ -409,3 +409,13 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 
 - [分析代码](scripts/analyze_data_geometry.py) · [数值测试](tests/test_data_geometry.py)
 - [服务器完整记录、DC/RMS、类对排序与类间/类内距离](records/data_geometry/server_20261014/DATA_ANALYSIS_RECORD.md) · [完整统计](records/data_geometry/server_20261014/results/DATA_GEOMETRY.json)
+
+## −10 dB派生数据与LP4＋ResNet固定权重评估
+
+沿用原加噪规则，在服务器独立生成59个仿真、440个实测MAT，逐文件核验通过。实测使用作者10 dB噪声残差×10；原数据、0/5/−5 dB文件和权重SHA不变。固定原LP4＋ResNet的42/43/44三份源域选中权重，只评估原88个实测Dev文件、2474周期，没有重新训练、选模或评估Final-Holdout。
+
+−10 dB Macro-F1为47.97/52.89/54.57%，均值±样本标准差51.81±3.43%；Accuracy为55.48±4.35%。同权重−5 dB Macro-F1为80.43±2.92%，两档相差28.62个百分点。三组历史−5 dB预测和三组−10 dB重复推理完全复现。
+
+- [生成配置](configs/strong_snr_minus10_v1.json) · [499份文件生成、保存位置及核验记录](records/strong_snr_minus10/server_20261015/GENERATION_RECORD.md)
+- [独立评估入口](scripts/evaluate_resnet_lp4_minus10.py) · [固定评估配置](configs/resnet_lp4_minus10_fixed_weights_v1.json)
+- [服务器完整结果、逐种子及逐类指标](records/resnet_lp4_minus10/server_20261015/SERVER_RESULTS.md) · [独立核验](records/resnet_lp4_minus10/server_20261015/results/reports/VERIFICATION.json)

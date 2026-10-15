@@ -1,0 +1,60 @@
+{
+  "protocol": "HUST-resnet-lp4-minus10-fixed-weights-v1",
+  "summary": [
+    {
+      "condition": "clean",
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 99.42197935640559,
+      "macro_f1_sd_percent": 0.5005805612645933,
+      "accuracy_mean_percent": 99.62274319590408,
+      "accuracy_sd_percent": 0.3267139760976095
+    },
+    {
+      "condition": 10,
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 99.00494982865426,
+      "macro_f1_sd_percent": 0.6834869670580123,
+      "accuracy_mean_percent": 99.31285367825383,
+      "accuracy_sd_percent": 0.38558577260184507
+    },
+    {
+      "condition": 5,
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 98.09729768507397,
+      "macro_f1_sd_percent": 0.8480986652822827,
+      "accuracy_mean_percent": 98.53139315548371,
+      "accuracy_sd_percent": 0.3531485427669378
+    },
+    {
+      "condition": 0,
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 94.44234805273878,
+      "macro_f1_sd_percent": 1.0453931641575034,
+      "accuracy_mean_percent": 95.12260846133118,
+      "accuracy_sd_percent": 1.896457915377294
+    },
+    {
+      "condition": -5,
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 80.43311323897558,
+      "macro_f1_sd_percent": 2.9191470963299357,
+      "accuracy_mean_percent": 82.59229318243061,
+      "accuracy_sd_percent": 4.129477284719056
+    },
+    {
+      "condition": -10,
+      "n_seeds": 3,
+      "macro_f1_mean_percent": 51.80927671073522,
+      "macro_f1_sd_percent": 3.4318669818542853,
+      "accuracy_mean_percent": 55.48369711668013,
+      "accuracy_sd_percent": 4.352719188547944
+    }
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "method": "resnet_lp4",
+  "final_holdout_evaluated": false
+}

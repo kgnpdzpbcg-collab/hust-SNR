@@ -1,0 +1,62 @@
+{
+  "files": {
+    "DEPLOYMENT_MANIFEST.json": {
+      "sha256": "df461022bd4f833eafa0e44e05771b0c982a3305a15b77b414a16cba669b7c28",
+      "bytes": 711
+    },
+    "GENERATED_FILE_INDEX.csv": {
+      "sha256": "dc4e4a5c7100c058690e3fd70afefeaddf419416cb567c856f66a4dc5104ec93",
+      "bytes": 99472
+    },
+    "GENERATION_COMMAND.json": {
+      "sha256": "29cd5f2187fa0b20fc1a4e8d0298c6f51c56b2ba66814edbf3917f5334f1fbda",
+      "bytes": 1334
+    },
+    "GENERATION_MANIFEST.json": {
+      "sha256": "c0a329eedceac8fae42e29543a5a78aed3ae2ee76825d4a16215eec7a7c21dc6",
+      "bytes": 316571
+    },
+    "INDEPENDENT_VERIFICATION.json": {
+      "sha256": "f2c455368ab3b3087361c0bdbf1ffe382663906fa9aac9a3fa4c8cb8ef63e4a9",
+      "bytes": 1169
+    },
+    "PROTECTED_FILES_SHA256.json": {
+      "sha256": "d70e8b0c6e4b03be1b6f75daaacb0a2d104efcb2c12d8c4e1cb9ec49da94ad1a",
+      "bytes": 913693
+    },
+    "RUN_MINUS10.py": {
+      "sha256": "1687d0333ef498221169f481b58cdc7c37e9381d5ce3a4e7dfaa64d73993aa4a",
+      "bytes": 13390
+    },
+    "UNIT_TEST_COMMAND.json": {
+      "sha256": "4ba070a83b8ba3ca665ff2f022b019e495005cffd4a6c6fa87e12ad7861d99b9",
+      "bytes": 336
+    },
+    "VERIFICATION_COMMAND.json": {
+      "sha256": "c79040a5cb10b37e932fbd3be8bf2e10863433e3793d3e999274ec0ffeafa89b",
+      "bytes": 281
+    },
+    "generate_strong_snr.py": {
+      "sha256": "9a29b6a31e1e2c0e815405c2ff834ea7e9f213502b5721687c4d0d8a8d83bbaf",
+      "bytes": 10083
+    },
+    "generation.log": {
+      "sha256": "c8a1ceb08f2b5c923969deb8df84dcd160229308627effc7230682e4f8630426",
+      "bytes": 898
+    },
+    "strong_snr_minus10_v1.json": {
+      "sha256": "d6e05e35e515f3fb9c64b0163471ed8a7210622f212c14b7b5c252cf325c91ee",
+      "bytes": 772
+    },
+    "test_generate_strong_snr.py": {
+      "sha256": "94aaee3abb816e3ef711891874f6142d533a7ed4d703f294d1bdf26aac6c4c9d",
+      "bytes": 3432
+    },
+    "unit_tests.log": {
+      "sha256": "7a31e66378c8cfe7c15128f94cc1506ce059a413da978d80115e1e55e5e976e5",
+      "bytes": 99
+    }
+  },
+  "raw_mat_included": false,
+  "model_weights_included": false
+}

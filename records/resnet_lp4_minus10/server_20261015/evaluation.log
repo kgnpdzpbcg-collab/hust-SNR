@@ -1,0 +1,4 @@
+DEV resnet_lp4 seed42: -10dB F1=47.9668% Acc=50.6063%
+DEV resnet_lp4 seed43: -10dB F1=52.8912% Acc=56.8715%
+DEV resnet_lp4 seed44: -10dB F1=54.5698% Acc=58.9733%
+COMPLETE: 3 fixed weights evaluated; historical and repeated predictions exact

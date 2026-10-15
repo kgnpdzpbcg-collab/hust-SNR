@@ -1,0 +1,82 @@
+{
+  "files": {
+    "DEPLOYMENT_MANIFEST.json": {
+      "sha256": "d85f66d9cfbb6a2bf020d5b76a07594d37df23dff0811645dc446b02fdc210d1",
+      "bytes": 805
+    },
+    "EVALUATION_COMMAND.json": {
+      "sha256": "e2f597332be28d23a183cb899bf84eada34bb42b7acf15f7be7cacdca027d51a",
+      "bytes": 1224
+    },
+    "RUN_EVALUATION.py": {
+      "sha256": "431d32b25b25f31f153a7240e9444a10d668e9854a2501a045f6b0234ff98272",
+      "bytes": 4573
+    },
+    "configs/resnet_lp4_minus10_fixed_weights_v1.json": {
+      "sha256": "1403b558e1d308966c4363ca10ed748ec418932df9efd7c3ccb56370925dabe1",
+      "bytes": 746
+    },
+    "evaluation.log": {
+      "sha256": "5a03edcbc18202c8b85f2076256d326a624e90cfe0814baa4441ecd142e20630",
+      "bytes": 241
+    },
+    "results/evaluations/resnet_lp4/seed42/target_dev_snr-10.json": {
+      "sha256": "65ce54f8a9a0d3afed8a08bf11b6aec507e855393e4d3e83d17fb6a6b5b285b8",
+      "bytes": 36603
+    },
+    "results/evaluations/resnet_lp4/seed43/target_dev_snr-10.json": {
+      "sha256": "50baaa57360a3c7db712c001ef7e5a59d1aa659ccab6fda3d1d767e29330625f",
+      "bytes": 36598
+    },
+    "results/evaluations/resnet_lp4/seed44/target_dev_snr-10.json": {
+      "sha256": "55d34e7a0fd82f2bcb013c9cba4b58f4c2f476828aa83d367ece7008064cedd7",
+      "bytes": 36597
+    },
+    "results/reports/PAIRED_DEGRADATION.csv": {
+      "sha256": "d7b0cd17f8aa5cf098d43f19ea0c331d652a794f10ec7a063f5e343ab9ccac45",
+      "bytes": 425
+    },
+    "results/reports/PER_CLASS_PER_SEED.csv": {
+      "sha256": "f60b2ef78ccaf75918a72d3c20aed9a502a1e98d7d54ed9ee509f72691ddb475",
+      "bytes": 4096
+    },
+    "results/reports/PER_SEED_RESULTS.csv": {
+      "sha256": "28f9689b88794e3c40a9b56b8d29c12fadc69ec21aca7938d3f85f5e4b7f5286",
+      "bytes": 1134
+    },
+    "results/reports/PROTECTED_FILES_SHA256.json": {
+      "sha256": "0683876aed2580f5faf44f452f13fc6a7ece666c0b7a77884d4752759341db45",
+      "bytes": 125223
+    },
+    "results/reports/SOURCE_SELECTED_CHECKPOINTS.csv": {
+      "sha256": "abfc06567fcff53cee1cbd7c22f5b3063c42f49156fb02e606c54ab1d82d44bf",
+      "bytes": 261
+    },
+    "results/reports/SUMMARY.csv": {
+      "sha256": "705247ce021e9db780ec97e5f12faac5e96b9dc261e02d7b4e26e8e2ef89e261",
+      "bytes": 583
+    },
+    "results/reports/SUMMARY.json": {
+      "sha256": "386d00ff4c59de7fca8f8240f0cc92816da49b5edd96d678333be784e2e7e687",
+      "bytes": 1703
+    },
+    "results/reports/VERIFICATION.json": {
+      "sha256": "adc5d4ab468890574d65bec9045eed4fbe57db56ecb8b70ca423a550ff92fa87",
+      "bytes": 1315
+    },
+    "results/reports/WEIGHTS_SHA256.json": {
+      "sha256": "40b9c39afe1a5c39917341138e31338a41e7d7d91d7ec5f0329b27a152962160",
+      "bytes": 576
+    },
+    "scripts/evaluate_arch_suite_minus5.py": {
+      "sha256": "62cd0bc965fc3acbd85f0fd7de3ab791fe363c1c53478adbd019b9e86777b332",
+      "bytes": 14641
+    },
+    "scripts/evaluate_resnet_lp4_minus10.py": {
+      "sha256": "ef4c532737162ea1a3694e45d7727cfc61e23f85bbb4c749ed1621bf507e8482",
+      "bytes": 12502
+    }
+  },
+  "raw_waveforms_included": false,
+  "model_weights_included": false
+}

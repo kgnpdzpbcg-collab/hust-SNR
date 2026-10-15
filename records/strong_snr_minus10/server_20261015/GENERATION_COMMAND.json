@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/code/scripts/generate_strong_snr.py",
+    "--source-root",
+    "/home/wang/projects/会议论文/hust/data/source",
+    "--target-clean-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/inputs/target_clean",
+    "--target-snr10-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/inputs/target_snr10",
+    "--labels",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/metadata/LABELS.json",
+    "--split",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/metadata/splits_gate0_v1.json",
+    "--config",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/code/configs/strong_snr_minus10_v1.json",
+    "--input-manifest",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/metadata/INPUT_MANIFEST.json",
+    "--output",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/generated"
+  ],
+  "cwd": "/home/wang/projects/会议论文/hust/datasets/strong_snr_minus10_v1_20261015/code",
+  "exit_code": 0,
+  "elapsed_seconds": 6.976503965008305
+}
