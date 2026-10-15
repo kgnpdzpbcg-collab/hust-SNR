@@ -1,0 +1,15 @@
+{
+  "version": "HUST-strong-SNR-minus10-v1",
+  "generated_snr_db": [-10],
+  "base_seed": 20261012,
+  "source_generation": "full_record_per_phase_RMS_calibrated_Gaussian",
+  "source_records": "59 labelled simulation records; preserve train/val/source_test membership",
+  "source_val_rng": "HUST-V1:val:{snr}:{record_id}, SHA256 first 8 bytes little endian",
+  "target_generation": "clean + (author_snr10 - clean) * 10**((10 - desired_snr)/20)",
+  "target_records": "all 440 labelled experimental records",
+  "target_noise_realizations_independent_across_snr": false,
+  "training_or_validation_noise_configuration_modified": false,
+  "existing_training_code_or_results_modified": false,
+  "models_retrained_in_generation": false,
+  "models_evaluated_in_generation": false
+}

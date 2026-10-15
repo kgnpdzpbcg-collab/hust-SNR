@@ -1,4 +1,4 @@
-"""生成HUST仿真与实测5/0或单独−5 dB派生MAT，保留原列结构、编号和划分。
+"""生成HUST仿真与实测5/0或单独−5/−10 dB派生MAT，保留原列结构、编号和划分。
 
 仿真：每相按整记录RMS校准高斯噪声，验证集沿用原固定随机数规则。
 实测：从作者干净/10 dB配对提取噪声，放大到指定强噪声档位；不假定
@@ -65,7 +65,7 @@ def scaled_author_current(clean, author_snr10, snr_db):
     """从作者10 dB版本提取噪声再缩放，保持原时间/幅度变化和频谱形态。
 
     各档复用同一个作者噪声样本，因此不能当成独立采集或独立随机噪声。
-    5/0/−5 dB分别乘10**0.25/0.5/0.75；返回新的电流，不改输入数组。
+    5/0/−5/−10 dB分别乘10**0.25/0.5/0.75/1；返回新的电流，不改输入数组。
     """
     error = np.max(np.abs(phase_snr(clean, author_snr10) - 10))
     if error > 1e-6:
@@ -99,9 +99,9 @@ def generate(args):
     """按配置流式生成每档59个仿真和440个实测文件，不覆盖旧文件。"""
     config, labels, split, inputs = map(read, [args.config, args.labels, args.split, args.input_manifest])
     levels = config["generated_snr_db"]
-    # 保留原5/0协议；−5使用独立配置及新目录，不修改旧实验的噪声档位。
-    if levels not in ([5, 0], [-5]) or args.output.exists():
-        raise ValueError("本协议只接受[5,0]或[-5]，输出目录必须不存在")
+    # 保留原5/0协议；−5/−10各使用独立配置和新目录，不修改旧实验档位。
+    if levels not in ([5, 0], [-5], [-10]) or args.output.exists():
+        raise ValueError("本协议只接受[5,0]、[-5]或[-10]，输出目录必须不存在")
     source_part = {rid: part for part, ids in split["source_records"].items() for rid in ids}
     if set(source_part) != set(labels["simulation"]):
         raise ValueError("仿真标签与原训练/验证/保留划分不一致")
