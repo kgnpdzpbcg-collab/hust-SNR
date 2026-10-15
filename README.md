@@ -482,8 +482,27 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 
 2026-10-15按用户要求纳入全部63个仿真MAT，4个Excel遗漏条目按已核对的命名补录并标记来源。全部13组实际工况均参与Train/Val；健康片段去重，各片段按约80/20时间分块，中间隔开1个完整周期。Train为962周期，Val为221周期，另78周期不用；不再单独保留仿真Source-Test。样本长度仍为每相4096点，实测Dev/Holdout边界不变。
 
-A1/B1入口默认使用新划分和独立输出目录；历史结果仍属于旧34/15文件协议。本次只准备及核对数据，没有新训练成绩。
+A1/B1入口默认使用新划分和独立输出目录；历史结果仍属于旧34/15文件协议。数据准备阶段没有训练，后续七模型六种子实验见下节。
 
 - [完整规则、类别数量、标签来源与命令](docs/SOURCE_CYCLE_SPLIT_V2.md) · [数据配置](configs/source_cycle_split_v2.json)
 - [生成及通用读取接口](scripts/source_cycle_split.py) · [重复、隔离和入口选择测试](tests/test_source_cycle_split.py)
 - [服务器准备记录、逐工况计数及78项测试核验](records/source_cycle_split_v2/server_a519f2e/SERVER_RESULTS.md)
+
+## 新划分七模型六种子实验（已完成）
+
+采用962/221周期划分、六种子42/43/44/2024/2025/2026，7个原模型各50轮；B0/B1额外10轮恢复预训练。统一源验证F1后CE平局选模，实测Dev共12条件、504组评价。6进程并发，训练/评价/汇总560.544秒；125项测试及全部预测重放通过，最终Holdout未评估。
+
+Macro-F1（六种子均值±样本标准差，%）：
+
+| 模型 | Clean | 0 dB | −5 dB | −10 dB |
+|---|---:|---:|---:|---:|
+| ResNet1D | 95.28 ± 3.75 | 69.16 ± 7.38 | 29.83 ± 8.27 | 14.16 ± 4.59 |
+| Plain CNN1D | 94.53 ± 6.49 | 65.61 ± 4.75 | 32.53 ± 4.47 | 16.37 ± 4.00 |
+| Xu-Full | 87.05 ± 4.11 | 42.00 ± 11.31 | 19.12 ± 7.54 | 12.01 ± 4.41 |
+| ResNet＋LP3 | 95.09 ± 4.93 | 92.37 ± 3.53 | 81.46 ± 2.05 | 59.74 ± 3.49 |
+| ResNet＋LP4 | 99.15 ± 1.42 | 92.63 ± 2.81 | 78.65 ± 3.11 | 51.07 ± 7.62 |
+| B0 | 95.99 ± 6.59 | 86.96 ± 6.82 | 67.53 ± 9.00 | 39.21 ± 8.75 |
+| B1 | 90.22 ± 10.86 | 88.86 ± 10.92 | 84.34 ± 9.86 | 67.21 ± 6.57 |
+
+- [完整服务器记录、12条件和逐种子结果](records/source_cycle_benchmark/server_4728e9b/SERVER_RESULTS.md) · [504行指标](records/source_cycle_benchmark/server_4728e9b/results/reports/PER_SEED_RESULTS.csv) · [独立核验](records/source_cycle_benchmark/server_4728e9b/results/reports/VERIFICATION.json)
+- [新实验协议](docs/SOURCE_CYCLE_BENCHMARK_V1.md) · [冻结配置](configs/source_cycle_benchmark_v1.json)

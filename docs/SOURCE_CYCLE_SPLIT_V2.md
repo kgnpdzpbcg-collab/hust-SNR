@@ -72,3 +72,5 @@ python scripts/hust_a1_b1_experiment.py train --legacy-source-split --source-str
 服务器已生成并核查同版本数据，目录为`/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2`。本地与服务器8份JSON及五档验证张量指纹一致；服务器78项测试通过。本次没有模型训练或实测评价。
 
 [完整准备记录、13组工况计数及核验](../records/source_cycle_split_v2/server_a519f2e/SERVER_RESULTS.md)。原始MAT、环境和模型权重不在发布记录中。
+
+后续实验：2026-10-15已按此划分完成[七模型六种子比较](../records/source_cycle_benchmark/server_4728e9b/SERVER_RESULTS.md)。本页“未训练”指此前独立的数据准备步骤。

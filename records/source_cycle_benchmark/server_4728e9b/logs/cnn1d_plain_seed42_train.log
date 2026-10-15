@@ -1,0 +1,6 @@
+cnn1d_plain seed42 epoch1/50 source F1=0.644423 CE=0.831789
+cnn1d_plain seed42 epoch10/50 source F1=0.926191 CE=0.194790
+cnn1d_plain seed42 epoch20/50 source F1=0.905324 CE=0.310108
+cnn1d_plain seed42 epoch30/50 source F1=0.910980 CE=0.271790
+cnn1d_plain seed42 epoch40/50 source F1=0.875283 CE=0.494705
+cnn1d_plain seed42 epoch50/50 source F1=0.941301 CE=0.178548

@@ -1,0 +1,6 @@
+cnn1d_plain seed2024 epoch1/50 source F1=0.711593 CE=0.869680
+cnn1d_plain seed2024 epoch10/50 source F1=0.910573 CE=0.324533
+cnn1d_plain seed2024 epoch20/50 source F1=0.946244 CE=0.173160
+cnn1d_plain seed2024 epoch30/50 source F1=0.954941 CE=0.130637
+cnn1d_plain seed2024 epoch40/50 source F1=0.921877 CE=0.232579
+cnn1d_plain seed2024 epoch50/50 source F1=0.907619 CE=0.283803

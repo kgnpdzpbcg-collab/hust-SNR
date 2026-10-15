@@ -1,0 +1,8 @@
+B0 source-recovery pretrain epoch 1: 0.000099
+B0 source-recovery pretrain epoch 10: 0.000104
+b0 seed2025 epoch1/50 source F1=0.940765 CE=0.258752
+b0 seed2025 epoch10/50 source F1=0.987379 CE=0.035175
+b0 seed2025 epoch20/50 source F1=0.985406 CE=0.042474
+b0 seed2025 epoch30/50 source F1=0.986396 CE=0.035310
+b0 seed2025 epoch40/50 source F1=0.983477 CE=0.047874
+b0 seed2025 epoch50/50 source F1=0.980166 CE=0.060756

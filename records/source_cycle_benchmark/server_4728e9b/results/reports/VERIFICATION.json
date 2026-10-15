@@ -1,0 +1,18 @@
+{
+  "classification_epochs_checked": 2100,
+  "deterministic_algorithms": true,
+  "elapsed_seconds": 25.757156424995628,
+  "final_holdout_evaluated": false,
+  "new_weights_sha_unchanged": 84,
+  "protected_files_sha_unchanged": 1259,
+  "recovery_pretrain_epochs_checked": 120,
+  "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+  "source_validation_replays": 252,
+  "status": "passed",
+  "summary_groups_independently_verified": 84,
+  "target_prediction_sets_reproduced_exactly": 504,
+  "target_training_or_checkpoint_selection": false,
+  "tf32_enabled": false,
+  "training_runs_checked": 42,
+  "unit_tests_passed": 125
+}

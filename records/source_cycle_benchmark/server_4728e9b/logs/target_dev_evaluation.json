@@ -1,0 +1,21 @@
+{
+  "name": "target_dev_evaluation",
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/source_cycle_benchmark.py",
+    "evaluate",
+    "--source-root",
+    "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+    "--snr-root",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr",
+    "--strong-root",
+    "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/generated/target",
+    "--extreme-root",
+    "/home/wang/projects/会议论文/hust/experiments/prototypes_a1_b1/dc8cb36/extreme_dev",
+    "--out",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 23.625568381001358
+}

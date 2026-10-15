@@ -1,0 +1,159 @@
+{
+  "config": {
+    "b0_pretrain_epochs": 10,
+    "b0_reconstruction_weight": 0.2,
+    "b1_pretrain_epochs": 10,
+    "b1_restore_weight": 1.0,
+    "batch_size": 32,
+    "epochs": 50,
+    "final_holdout_evaluated": false,
+    "learning_rate": 0.001,
+    "methods": [
+      "resnet1d",
+      "cnn1d_plain",
+      "xu_full",
+      "resnet_lp3",
+      "resnet_lp4",
+      "b0",
+      "b1"
+    ],
+    "protocol": "hust-cycle-v2-seven-model-six-seed-v1",
+    "raw_points": 4096,
+    "seeds": [
+      42,
+      43,
+      44,
+      2024,
+      2025,
+      2026
+    ],
+    "selection": "source clean F1 within one pp of peak; maximum five-noise source F1, then clean F1; exact ties use minimum five-noise source CE, then earliest epoch",
+    "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "source_split_protocol": "hust-source-cycle-split-v2",
+    "source_train_cycles": 962,
+    "source_val_cycles": 221,
+    "target_checkpoint_selection": false,
+    "target_conditions": [
+      "clean",
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      5,
+      0,
+      -5,
+      -10
+    ],
+    "target_training": false,
+    "train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "weight_decay": 0.0,
+    "xu_dml_weight": 1.0,
+    "xu_reconstruction": "paper_sum",
+    "xu_reconstruction_weight": 1.0
+  },
+  "final_holdout_evaluated": false,
+  "first_training_noise_sha256": "301b49f00698ae135bcb5d0478817d2ce254e8a047bc6ab6f90d7226013c610b",
+  "initial_parameters_sha256": "48330805688c187f9392bed284646b936012a39f41b621564a86a5a9bf8432a0",
+  "method": "xu_full",
+  "parameters": 35475,
+  "pretrain_history": [],
+  "protocol": "hust-cycle-v2-seven-model-six-seed-v1",
+  "seed": 2025,
+  "selected": {
+    "clean_ce": 0.003912976694322819,
+    "clean_f1": 1.0,
+    "epoch": 37,
+    "noise_mean_ce": 0.22950158170445473,
+    "noise_mean_f1": 0.9183163367820525,
+    "noisy_ce": {
+      "0": 0.8677675756394054,
+      "10": 0.044695644896494316,
+      "20": 0.00895554879132439,
+      "30": 0.004342219813377069,
+      "5": 0.22174691938167243
+    },
+    "noisy_f1": {
+      "0": 0.6502044966498738,
+      "10": 0.9954946727549467,
+      "20": 1.0,
+      "30": 1.0,
+      "5": 0.9458825145054416
+    },
+    "optimizer_steps": 31,
+    "train_components": {
+      "ce": 0.028231675210859505,
+      "dml": 0.14275810999735708,
+      "inter": 0.2555424556616814,
+      "intra": 0.3983005656590385,
+      "recon": 9.35283750103366
+    },
+    "train_loss_mean": 9.523827275922221,
+    "train_loss_sample_weighted": 8.48169855764155
+  },
+  "source_only": true,
+  "source_split": {
+    "manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "protocol": "hust-source-cycle-split-v2",
+    "sets": {
+      "gap": {
+        "class_counts": [
+          15,
+          13,
+          13,
+          13,
+          12,
+          12
+        ],
+        "records": 63,
+        "samples": 78
+      },
+      "train": {
+        "class_counts": [
+          146,
+          166,
+          166,
+          166,
+          157,
+          161
+        ],
+        "records": 63,
+        "samples": 962
+      },
+      "val": {
+        "class_counts": [
+          38,
+          37,
+          37,
+          37,
+          36,
+          36
+        ],
+        "records": 63,
+        "samples": 221
+      }
+    },
+    "source_records": 63,
+    "target_split_changed": false
+  },
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "target_used_for_training_or_selection": false
+}

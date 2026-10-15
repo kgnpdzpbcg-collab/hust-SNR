@@ -1,0 +1,841 @@
+{
+  "status": "completed",
+  "training_jobs": 42,
+  "target_evaluation_sets": 504,
+  "elapsed_seconds": 560.543870930007,
+  "jobs": [
+    {
+      "name": "resnet1d_seed42_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet1d",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 74.8013103530102
+    },
+    {
+      "name": "resnet1d_seed44_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet1d",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 76.24449734900554
+    },
+    {
+      "name": "resnet1d_seed2024_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet1d",
+        "--seeds",
+        "2024",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 76.28924277100305
+    },
+    {
+      "name": "resnet1d_seed2025_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet1d",
+        "--seeds",
+        "2025",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 76.30674151600397
+    },
+    {
+      "name": "resnet1d_seed2026_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet1d",
+        "--seeds",
+        "2026",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 76.3549920689984
+    },
+    {
+      "name": "resnet1d_seed43_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet1d",
+        "--seeds",
+        "43",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 76.54954649301362
+    },
+    {
+      "name": "cnn1d_plain_seed44_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "cnn1d_plain",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 65.46550136900623
+    },
+    {
+      "name": "cnn1d_plain_seed42_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "cnn1d_plain",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 68.29796294600237
+    },
+    {
+      "name": "cnn1d_plain_seed2025_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "cnn1d_plain",
+        "--seeds",
+        "2025",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 74.0074893199926
+    },
+    {
+      "name": "cnn1d_plain_seed2024_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "cnn1d_plain",
+        "--seeds",
+        "2024",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 74.09192462600186
+    },
+    {
+      "name": "cnn1d_plain_seed2026_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "cnn1d_plain",
+        "--seeds",
+        "2026",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 73.87053904798813
+    },
+    {
+      "name": "cnn1d_plain_seed43_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "cnn1d_plain",
+        "--seeds",
+        "43",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 74.19962974500959
+    },
+    {
+      "name": "xu_full_seed42_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "xu_full",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 48.37248726400139
+    },
+    {
+      "name": "xu_full_seed43_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "xu_full",
+        "--seeds",
+        "43",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 47.940185775994905
+    },
+    {
+      "name": "xu_full_seed44_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "xu_full",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 50.527751936999266
+    },
+    {
+      "name": "xu_full_seed2024_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "xu_full",
+        "--seeds",
+        "2024",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 50.57974924299924
+    },
+    {
+      "name": "xu_full_seed2026_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "xu_full",
+        "--seeds",
+        "2026",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 50.92045386499376
+    },
+    {
+      "name": "xu_full_seed2025_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "xu_full",
+        "--seeds",
+        "2025",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 50.99148915499973
+    },
+    {
+      "name": "resnet_lp3_seed42_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp3",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 69.91834753399598
+    },
+    {
+      "name": "resnet_lp3_seed43_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp3",
+        "--seeds",
+        "43",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 70.33392187599384
+    },
+    {
+      "name": "resnet_lp3_seed44_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp3",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 74.59173991701391
+    },
+    {
+      "name": "resnet_lp3_seed2024_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp3",
+        "--seeds",
+        "2024",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 75.19405892799841
+    },
+    {
+      "name": "resnet_lp3_seed2026_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp3",
+        "--seeds",
+        "2026",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 75.00681745099428
+    },
+    {
+      "name": "resnet_lp3_seed2025_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp3",
+        "--seeds",
+        "2025",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 75.29040748300031
+    },
+    {
+      "name": "resnet_lp4_seed42_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp4",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 72.7923412060045
+    },
+    {
+      "name": "resnet_lp4_seed43_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp4",
+        "--seeds",
+        "43",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 72.89052605300094
+    },
+    {
+      "name": "resnet_lp4_seed2024_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp4",
+        "--seeds",
+        "2024",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 73.24776886800828
+    },
+    {
+      "name": "resnet_lp4_seed44_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp4",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 75.3053532519989
+    },
+    {
+      "name": "resnet_lp4_seed2026_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp4",
+        "--seeds",
+        "2026",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 74.19771900499472
+    },
+    {
+      "name": "resnet_lp4_seed2025_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "resnet_lp4",
+        "--seeds",
+        "2025",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 75.98472938999475
+    },
+    {
+      "name": "b0_seed42_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b0",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 86.58545174400206
+    },
+    {
+      "name": "b0_seed43_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b0",
+        "--seeds",
+        "43",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 88.17424245100119
+    },
+    {
+      "name": "b0_seed44_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b0",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 90.78038554399973
+    },
+    {
+      "name": "b0_seed2025_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b0",
+        "--seeds",
+        "2025",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 92.39521672800765
+    },
+    {
+      "name": "b0_seed2024_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b0",
+        "--seeds",
+        "2024",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 92.50038246098848
+    },
+    {
+      "name": "b0_seed2026_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b0",
+        "--seeds",
+        "2026",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 91.8744024119951
+    },
+    {
+      "name": "b1_seed42_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b1",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 95.0889538229967
+    },
+    {
+      "name": "b1_seed43_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b1",
+        "--seeds",
+        "43",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 95.20787729800213
+    },
+    {
+      "name": "b1_seed44_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b1",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 93.09969569799432
+    },
+    {
+      "name": "b1_seed2025_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b1",
+        "--seeds",
+        "2025",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 92.09592047799379
+    },
+    {
+      "name": "b1_seed2024_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b1",
+        "--seeds",
+        "2024",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 92.64473755699873
+    },
+    {
+      "name": "b1_seed2026_train",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "train",
+        "--methods",
+        "b1",
+        "--seeds",
+        "2026",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 91.76497219198791
+    },
+    {
+      "name": "target_dev_evaluation",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "evaluate",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--snr-root",
+        "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr",
+        "--strong-root",
+        "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/generated/target",
+        "--extreme-root",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_a1_b1/dc8cb36/extreme_dev",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 23.625568381001358
+    },
+    {
+      "name": "summary",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/source_cycle_benchmark.py",
+        "summarize",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.8688759000069695
+    }
+  ],
+  "final_holdout_evaluated": false
+}

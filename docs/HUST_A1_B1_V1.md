@@ -1,6 +1,6 @@
 # A1/B1 – independently trained, noise-aware prototype V1
 
-**Data protocol update (2026-10-15):** new CLI training defaults to the 63-record, 13-condition cycle split, Train=962/Val=221, with an isolated output root. See [SOURCE_CYCLE_SPLIT_V2.md](SOURCE_CYCLE_SPLIT_V2.md). The completed results and frozen 34/15-record protocol below describe historical run `dc8cb36`; no model has yet been trained under the new split. The original model equations and optimizer configuration are unchanged.
+**Data protocol update (2026-10-15):** new CLI training defaults to the 63-record, 13-condition cycle split, Train=962/Val=221, with an isolated output root. See [SOURCE_CYCLE_SPLIT_V2.md](SOURCE_CYCLE_SPLIT_V2.md). The completed results and frozen 34/15-record protocol below describe historical run `dc8cb36`; B1 has subsequently completed six-seed training under the new split in the [seven-model benchmark](../records/source_cycle_benchmark/server_4728e9b/SERVER_RESULTS.md); A1 was not included in that round. The original model equations and optimizer configuration are unchanged.
 
 **Status: SERVER TRAINING AND 24 TARGET-DEV EVALUATIONS COMPLETED (2026-10-15).** Three seeds per model; saved-weight replay verified. See [server record](../records/prototypes_a1_b1/server_dc8cb36/SERVER_RESULTS.md). Final-Holdout remains unevaluated.
 

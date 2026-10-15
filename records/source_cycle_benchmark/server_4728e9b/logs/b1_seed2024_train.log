@@ -1,0 +1,8 @@
+B1 source recovery epoch 1: 0.028057
+B1 source recovery epoch 10: 0.013322
+b1 seed2024 epoch1/50 source F1=0.994470 CE=0.070854
+b1 seed2024 epoch10/50 source F1=1.000000 CE=0.001285
+b1 seed2024 epoch20/50 source F1=0.999099 CE=0.003042
+b1 seed2024 epoch30/50 source F1=0.999110 CE=0.001187
+b1 seed2024 epoch40/50 source F1=1.000000 CE=0.001424
+b1 seed2024 epoch50/50 source F1=0.991962 CE=0.020551

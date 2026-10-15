@@ -1,0 +1,6 @@
+resnet1d seed44 epoch1/50 source F1=0.821209 CE=0.571772
+resnet1d seed44 epoch10/50 source F1=0.919093 CE=0.241726
+resnet1d seed44 epoch20/50 source F1=0.940782 CE=0.183771
+resnet1d seed44 epoch30/50 source F1=0.926692 CE=0.243587
+resnet1d seed44 epoch40/50 source F1=0.912417 CE=0.303744
+resnet1d seed44 epoch50/50 source F1=0.857997 CE=0.457451

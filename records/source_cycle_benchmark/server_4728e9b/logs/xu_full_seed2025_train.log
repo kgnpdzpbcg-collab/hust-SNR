@@ -1,0 +1,6 @@
+xu_full seed2025 epoch1/50 source F1=0.578280 CE=1.330275
+xu_full seed2025 epoch10/50 source F1=0.812665 CE=0.478015
+xu_full seed2025 epoch20/50 source F1=0.868443 CE=0.338462
+xu_full seed2025 epoch30/50 source F1=0.917537 CE=0.230924
+xu_full seed2025 epoch40/50 source F1=0.912795 CE=0.253296
+xu_full seed2025 epoch50/50 source F1=0.884604 CE=0.368701

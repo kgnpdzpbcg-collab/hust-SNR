@@ -1,6 +1,6 @@
 # 新周期划分：七模型六种子实验V1
 
-状态：已建立独立运行入口，服务器训练与实测评价尚未执行。
+状态：2026-10-15服务器42组训练和504组实测Dev评价已完成，保存权重的252组源验证和504组实测预测重放通过；最终Holdout未评价。完整记录见[服务器报告](../records/source_cycle_benchmark/server_4728e9b/SERVER_RESULTS.md)。
 
 - 数据：全63文件、13工况的新周期划分，Train=962、Val=221、Gap=78。样本仍为五相完整周期，每相4096点。
 - 模型：原ResNet1D、Plain CNN1D、Xu-Full、ResNet+LP3、ResNet+LP4、B0、B1；均直接导入原模型类和损失函数，没有修改模型算法。

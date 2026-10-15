@@ -1,0 +1,36 @@
+{
+  "protocol": "HUST-classical-baselines-source-only-v1",
+  "methods": ["svm_rbf", "random_forest", "resnet1d"],
+  "seeds": [42, 43, 44],
+  "training_noise_levels_db": [10, 15, 20, 25, 30, 35, 40],
+  "validation_noise_levels_db": [0, 5, 10, 20, 30],
+  "target_conditions": ["clean", 10, 15, 20, 25, 30, 35, 40, 5, 0],
+  "source_train_recordings": 34,
+  "source_train_cycles": 738,
+  "source_val_recordings": 15,
+  "source_val_cycles": 302,
+  "target_dev_recordings": 88,
+  "target_dev_cycles_per_condition": 2474,
+  "classical": {
+    "feature_version": "five_phase_raw_md_stat_harmonic_v1",
+    "feature_dimension": 120,
+    "augmented_source_epochs": 7,
+    "svm_C": [0.1, 1.0, 10.0],
+    "rf_n_estimators": 300,
+    "rf_min_samples_leaf": [1, 3],
+    "parameter_selection": "source-clean within 1pp of max, then highest source 0/5/10/20/30 mean Macro-F1, ties clean and candidate order"
+  },
+  "resnet1d": {
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "residual_stages": [32, 64, 128],
+    "blocks_per_stage": 2,
+    "loss": "0.5 * CE(clean) + 0.5 * CE(noisy)",
+    "selection": "source-clean within 1pp of max, then highest five-SNR source validation mean Macro-F1, ties clean and earliest epoch"
+  },
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false,
+  "synthetic_target_0_5_db": "10 dB measured-noise residual scaled to 0/5 dB by the existing generator"
+}

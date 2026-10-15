@@ -1,0 +1,13 @@
+{
+  "name": "summary",
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/source_cycle_benchmark.py",
+    "summarize",
+    "--out",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.8688759000069695
+}

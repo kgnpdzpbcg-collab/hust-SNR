@@ -1,0 +1,6 @@
+resnet_lp3 seed2025 epoch1/50 source F1=0.966596 CE=0.245128
+resnet_lp3 seed2025 epoch10/50 source F1=0.995515 CE=0.011641
+resnet_lp3 seed2025 epoch20/50 source F1=0.973556 CE=0.073690
+resnet_lp3 seed2025 epoch30/50 source F1=0.995493 CE=0.018840
+resnet_lp3 seed2025 epoch40/50 source F1=0.991934 CE=0.028583
+resnet_lp3 seed2025 epoch50/50 source F1=0.990984 CE=0.028244

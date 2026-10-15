@@ -1,0 +1,19 @@
+{
+  "name": "b1_seed2026_train",
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "scripts/source_cycle_benchmark.py",
+    "train",
+    "--methods",
+    "b1",
+    "--seeds",
+    "2026",
+    "--source-root",
+    "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+    "--out",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 91.76497219198791
+}

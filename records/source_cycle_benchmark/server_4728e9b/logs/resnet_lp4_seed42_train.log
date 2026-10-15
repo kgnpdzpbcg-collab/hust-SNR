@@ -1,0 +1,6 @@
+resnet_lp4 seed42 epoch1/50 source F1=0.763469 CE=0.436817
+resnet_lp4 seed42 epoch10/50 source F1=0.994614 CE=0.024003
+resnet_lp4 seed42 epoch20/50 source F1=0.968809 CE=0.081937
+resnet_lp4 seed42 epoch30/50 source F1=0.986546 CE=0.033347
+resnet_lp4 seed42 epoch40/50 source F1=0.992725 CE=0.022864
+resnet_lp4 seed42 epoch50/50 source F1=0.993650 CE=0.025568
