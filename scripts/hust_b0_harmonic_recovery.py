@@ -73,7 +73,12 @@ class HarmonicRecovery(nn.Module):
     def noise_features(spectrum: torch.Tensor, scale: torch.Tensor) -> torch.Tensor:
         """Per-phase high-band energy proxy; NOT a calibrated SNR estimator."""
         power = spectrum[:, :, NOISE_BAND[0]:NOISE_BAND[1] + 1].abs().square()
-        per_phase = power.median(dim=-1).values / scale[:, None].square().clamp_min(1e-8)
+        # 当前CUDA的median(dim=...)同时返回索引，在确定性模式下会直接报错。
+        # 稳定排序后取下中位数，与原median的数值定义相同；固定20..80阶
+        # 共61项，实际取第31项。保留原噪声代理、梯度路径及确定性设置。
+        ordered = torch.sort(power, dim=-1, stable=True).values
+        median_power = ordered[..., (power.size(-1) - 1) // 2]
+        per_phase = median_power / scale[:, None].square().clamp_min(1e-8)
         return torch.log1p(per_phase).clamp(0.0, 30.0)
 
     def forward(self, raw: torch.Tensor, return_spectrum: bool = False):

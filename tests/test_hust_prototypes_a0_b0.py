@@ -118,6 +118,33 @@ def test_b0_zero_open_phase_and_bad_inputs():
         harmonic_recovery_loss(torch.randn(1, 5, 9), raw)
 
 
+@pytest.mark.parametrize("device", ["cpu", "cuda"])
+def test_b0_noise_proxy_median_equivalence_and_deterministic_gradient(device):
+    """中位数改用稳定排序后，CPU/CUDA均须保持原数值和无并列值处的梯度。
+
+    原CPU median作为独立参考；CUDA端始终保留确定性模式，不以关闭该
+    模式绕过运行错误。连续随机数保证本例没有中位数并列的梯度歧义。
+    """
+    if device == "cuda" and not torch.cuda.is_available():
+        pytest.skip("此机器无CUDA；服务器必须执行本项")
+    torch.manual_seed(19)
+    reference = torch.randn(2, 5, 128, dtype=torch.complex64, requires_grad=True)
+    scale = torch.tensor([1.3, 0.7])
+    power = reference[:, :, 20:81].abs().square()
+    expected = torch.log1p(power.median(dim=-1).values / scale[:, None].square()).clamp(0.0, 30.0)
+    expected.sum().backward()
+    values = reference.detach().to(device).clone().requires_grad_(True)
+    previous = torch.are_deterministic_algorithms_enabled()
+    try:
+        torch.use_deterministic_algorithms(True)
+        actual = HarmonicRecovery.noise_features(values, scale.to(device))
+        actual.sum().backward()
+        torch.testing.assert_close(actual.cpu(), expected.detach(), rtol=1e-6, atol=1e-7)
+        torch.testing.assert_close(values.grad.cpu(), reference.grad, rtol=2e-6, atol=1e-7)
+    finally:
+        torch.use_deterministic_algorithms(previous)
+
+
 def test_extreme_snr_exact_and_no_input_mutation():
     rng = np.random.default_rng(9)
     clean = rng.normal(size=(10031, 5))
