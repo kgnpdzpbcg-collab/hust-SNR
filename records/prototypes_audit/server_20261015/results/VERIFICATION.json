@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "source_train_records": 34,
+  "source_val_records": 15,
+  "source_train_val_record_overlap": 0,
+  "source_val_raw_cycles_exactly_duplicate_training": 0,
+  "source_val_raw_cycles_checked": 302,
+  "official_target_prediction_sets_replayed": 24,
+  "fixed_weights_checked": 9,
+  "models_trained": 0,
+  "optimizer_updates": 0,
+  "all_weight_parameters_and_buffers_unchanged": true,
+  "protected_files_sha_unchanged": 169,
+  "b0_md_normalization_calls_per_forward": 1,
+  "target_dev_records": 88,
+  "target_dev_cycles": 2474,
+  "final_holdout_accessed": false,
+  "interventions_used_for_model_or_parameter_selection": false,
+  "later_epoch_weights_available_in_original_run": false,
+  "elapsed_seconds": 10.44724124998902,
+  "script_sha256": "447946b07b8722e48a0b9e9cc6e8b1715a828acd0ee9a99aeda65a10e88bc1ba"
+}

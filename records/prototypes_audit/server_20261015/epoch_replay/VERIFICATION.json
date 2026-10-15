@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "training_replay_runs": 6,
+  "joint_training_epoch_histories_exactly_reproduced": 300,
+  "pretrain_epoch_losses_exactly_reproduced": 30,
+  "original_source_selected_checkpoints_tensorwise_identical": 6,
+  "all_original_run_records_equal": true,
+  "source_final_epoch_f1_replays_verified": 36,
+  "target_dev_epoch50_prediction_sets": 30,
+  "original_official_results_overwritten": false,
+  "target_used_for_checkpoint_or_hyperparameter_selection": false,
+  "final_holdout_accessed": false,
+  "elapsed_replay_seconds": 73.76985029499338,
+  "code_commit": "8f8704ff6abb8de77d3cf4f210e7d81826c05442"
+}

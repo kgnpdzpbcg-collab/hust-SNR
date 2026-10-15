@@ -1,0 +1,3218 @@
+[
+  {
+    "method": "a0",
+    "seed": 42,
+    "condition": "source_val_clean",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.0005468950904020492,
+        "p05": 2.9505929342121816e-05,
+        "median": 0.00030907489417586476,
+        "p95": 0.0018364858231507243
+      },
+      "attention_gain": {
+        "mean": 1.4809215191337797,
+        "p05": 1.4004842877388,
+        "median": 1.4742076396942139,
+        "p95": 1.538038182258606
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 42,
+    "condition": "source_val_0",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.010246495771095472,
+        "p05": 0.0006443357793614269,
+        "median": 0.009206753689795732,
+        "p95": 0.023238209821283818
+      },
+      "attention_gain": {
+        "mean": 1.481648361020618,
+        "p05": 1.40606632232666,
+        "median": 1.4751652479171753,
+        "p95": 1.538446456193924
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 42,
+    "condition": "source_val_10",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.01017685553561023,
+        "p05": 0.0010155801486689598,
+        "median": 0.00882472237572074,
+        "p95": 0.024481941014528278
+      },
+      "attention_gain": {
+        "mean": 1.4810754769378238,
+        "p05": 1.3984030425548553,
+        "median": 1.4740731120109558,
+        "p95": 1.5384007692337036
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 42,
+    "condition": "target_clean",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.018852774053296648,
+        "p05": 0.0010591268917778506,
+        "median": 0.008538441732525826,
+        "p95": 0.08738589510321619
+      },
+      "attention_gain": {
+        "mean": 1.4806219345993465,
+        "p05": 1.4174266040325165,
+        "median": 1.4745261073112488,
+        "p95": 1.5383893549442291
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 42,
+    "condition": "target_5",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.012806067502328409,
+        "p05": 0.000639946706360206,
+        "median": 0.008697259705513716,
+        "p95": 0.03887364286929372
+      },
+      "attention_gain": {
+        "mean": 1.4812501360972723,
+        "p05": 1.415581351518631,
+        "median": 1.474653959274292,
+        "p95": 1.5388804793357849
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 42,
+    "condition": "target_0",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.01269201664481443,
+        "p05": 0.000671197459450923,
+        "median": 0.008428385946899652,
+        "p95": 0.03913130369037393
+      },
+      "attention_gain": {
+        "mean": 1.4820018998450704,
+        "p05": 1.4159191489219665,
+        "median": 1.4754154086112976,
+        "p95": 1.5396914839744569
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 42,
+    "condition": "target_-5",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.012647050738693603,
+        "p05": 0.000628112704725936,
+        "median": 0.00839114049449563,
+        "p95": 0.03933322709053758
+      },
+      "attention_gain": {
+        "mean": 1.4830739579266972,
+        "p05": 1.4180311501026153,
+        "median": 1.4760095477104187,
+        "p95": 1.538933515548706
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 42,
+    "condition": "target_-10",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.012624701732986271,
+        "p05": 0.0006300110457232222,
+        "median": 0.008369305171072483,
+        "p95": 0.039477712847292463
+      },
+      "attention_gain": {
+        "mean": 1.4839334219694138,
+        "p05": 1.4229373335838318,
+        "median": 1.4751880168914795,
+        "p95": 1.5386913537979126
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 43,
+    "condition": "source_val_clean",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.0005468950904020492,
+        "p05": 2.9505929342121816e-05,
+        "median": 0.00030907489417586476,
+        "p95": 0.0018364858231507243
+      },
+      "attention_gain": {
+        "mean": 1.493291452858183,
+        "p05": 1.4336124241352082,
+        "median": 1.4971503615379333,
+        "p95": 1.556005561351776
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 43,
+    "condition": "source_val_0",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.010246495771095472,
+        "p05": 0.0006443357793614269,
+        "median": 0.009206753689795732,
+        "p95": 0.023238209821283818
+      },
+      "attention_gain": {
+        "mean": 1.492906272245778,
+        "p05": 1.432135385274887,
+        "median": 1.49380761384964,
+        "p95": 1.5559977054595948
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 43,
+    "condition": "source_val_10",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.01017685553561023,
+        "p05": 0.0010155801486689598,
+        "median": 0.00882472237572074,
+        "p95": 0.024481941014528278
+      },
+      "attention_gain": {
+        "mean": 1.4932065059741337,
+        "p05": 1.432635760307312,
+        "median": 1.4966864585876465,
+        "p95": 1.556081372499466
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 43,
+    "condition": "target_clean",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.018852774053296648,
+        "p05": 0.0010591268917778506,
+        "median": 0.008538441732525826,
+        "p95": 0.08738589510321619
+      },
+      "attention_gain": {
+        "mean": 1.4938342872593138,
+        "p05": 1.4351812720298767,
+        "median": 1.4971178770065308,
+        "p95": 1.558223557472229
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 43,
+    "condition": "target_5",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.012806067502328409,
+        "p05": 0.000639946706360206,
+        "median": 0.008697259705513716,
+        "p95": 0.03887364286929372
+      },
+      "attention_gain": {
+        "mean": 1.4935439348220825,
+        "p05": 1.4360852479934691,
+        "median": 1.4977850914001465,
+        "p95": 1.5571674704551697
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 43,
+    "condition": "target_0",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.01269201664481443,
+        "p05": 0.000671197459450923,
+        "median": 0.008428385946899652,
+        "p95": 0.03913130369037393
+      },
+      "attention_gain": {
+        "mean": 1.493197612133291,
+        "p05": 1.436000680923462,
+        "median": 1.4972774386405945,
+        "p95": 1.5563553810119628
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 43,
+    "condition": "target_-5",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.012647050738693603,
+        "p05": 0.000628112704725936,
+        "median": 0.00839114049449563,
+        "p95": 0.03933322709053758
+      },
+      "attention_gain": {
+        "mean": 1.4926439445879724,
+        "p05": 1.4356865286827087,
+        "median": 1.4952654838562012,
+        "p95": 1.554569572210312
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 43,
+    "condition": "target_-10",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.012624701732986271,
+        "p05": 0.0006300110457232222,
+        "median": 0.008369305171072483,
+        "p95": 0.039477712847292463
+      },
+      "attention_gain": {
+        "mean": 1.492059960630205,
+        "p05": 1.4361129820346832,
+        "median": 1.493177592754364,
+        "p95": 1.5530380070209504
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 44,
+    "condition": "source_val_clean",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.0005468950904020492,
+        "p05": 2.9505929342121816e-05,
+        "median": 0.00030907489417586476,
+        "p95": 0.0018364858231507243
+      },
+      "attention_gain": {
+        "mean": 1.5094737640685505,
+        "p05": 1.4290108978748322,
+        "median": 1.4964986443519592,
+        "p95": 1.5989057004451752
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 44,
+    "condition": "source_val_0",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.010246495771095472,
+        "p05": 0.0006443357793614269,
+        "median": 0.009206753689795732,
+        "p95": 0.023238209821283818
+      },
+      "attention_gain": {
+        "mean": 1.5097884328828917,
+        "p05": 1.432132887840271,
+        "median": 1.4962440729141235,
+        "p95": 1.6001841962337493
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 44,
+    "condition": "source_val_10",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.01017685553561023,
+        "p05": 0.0010155801486689598,
+        "median": 0.00882472237572074,
+        "p95": 0.024481941014528278
+      },
+      "attention_gain": {
+        "mean": 1.5095387309789658,
+        "p05": 1.4278579235076905,
+        "median": 1.4955576062202454,
+        "p95": 1.5992705404758454
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 44,
+    "condition": "target_clean",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.018852774053296648,
+        "p05": 0.0010591268917778506,
+        "median": 0.008538441732525826,
+        "p95": 0.08738589510321619
+      },
+      "attention_gain": {
+        "mean": 1.5099301101432907,
+        "p05": 1.4345374882221222,
+        "median": 1.4978715181350708,
+        "p95": 1.5924585998058316
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 44,
+    "condition": "target_5",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.012806067502328409,
+        "p05": 0.000639946706360206,
+        "median": 0.008697259705513716,
+        "p95": 0.03887364286929372
+      },
+      "attention_gain": {
+        "mean": 1.5099321516023743,
+        "p05": 1.4341007471084595,
+        "median": 1.4989795088768005,
+        "p95": 1.5935413658618924
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 44,
+    "condition": "target_0",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.01269201664481443,
+        "p05": 0.000671197459450923,
+        "median": 0.008428385946899652,
+        "p95": 0.03913130369037393
+      },
+      "attention_gain": {
+        "mean": 1.5102045954929457,
+        "p05": 1.4350968539714812,
+        "median": 1.499674677848816,
+        "p95": 1.59584037065506
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 44,
+    "condition": "target_-5",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.012647050738693603,
+        "p05": 0.000628112704725936,
+        "median": 0.00839114049449563,
+        "p95": 0.03933322709053758
+      },
+      "attention_gain": {
+        "mean": 1.51065425094631,
+        "p05": 1.4367146730422973,
+        "median": 1.4998198747634888,
+        "p95": 1.5969269573688507
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "a0",
+    "seed": 44,
+    "condition": "target_-10",
+    "probe": {
+      "detail_abs_signed_gap_over_rms": {
+        "mean": 0.012624701732986271,
+        "p05": 0.0006300110457232222,
+        "median": 0.008369305171072483,
+        "p95": 0.039477712847292463
+      },
+      "attention_gain": {
+        "mean": 1.5108196266823344,
+        "p05": 1.4380664885044099,
+        "median": 1.5010716915130615,
+        "p95": 1.5984058320522307
+      },
+      "synthetic_detail_energy_ratio": 100,
+      "synthetic_same_gap_attention_max_abs_difference": 0.0
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 42,
+    "condition": "source_val_clean",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0,
+            "p05": 0.0,
+            "median": 0.0,
+            "p95": 0.0
+          },
+          "by_class_mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.0012857734662440562,
+            "p05": 0.0008296723332023248,
+            "median": 0.0013134066248312593,
+            "p95": 0.001574582082685083
+          },
+          "by_class_mean": [
+            0.001161182881332934,
+            0.0011928788153454661,
+            0.0014204359613358974,
+            0.0014248433290049434,
+            0.0010547037236392498,
+            0.0014366365503519773
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 3.1199045723578126e-05,
+            "p05": 1.5130724673184658e-09,
+            "median": 1.981389505090192e-05,
+            "p95": 0.00014053419945412316
+          },
+          "by_class_mean": [
+            1.1204884131643666e-08,
+            1.855134905781597e-05,
+            2.01239872694714e-05,
+            3.2172076203096367e-07,
+            0.00012205520761199296,
+            2.0133158614044078e-05
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06887417218543046,
+          "open_A_false_active_fraction": 1.0,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9847607943220469,
+        "p05": 0.9816705167293549,
+        "median": 0.9845800399780273,
+        "p95": 0.9879819750785828
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 42,
+    "condition": "source_val_0",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.00817755551928568,
+            "p05": 0.004896211158484221,
+            "median": 0.008080639876425266,
+            "p95": 0.01202811519615352
+          },
+          "by_class_mean": [
+            0.009371851570904255,
+            0.008374621160328388,
+            0.008661790750920773,
+            0.007156084291636944,
+            0.008315534330904484,
+            0.00741512281820178
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.009218187606430903,
+            "p05": 0.005976966815069318,
+            "median": 0.009069591760635376,
+            "p95": 0.013251007860526442
+          },
+          "by_class_mean": [
+            0.010241066105663776,
+            0.009333760477602482,
+            0.009962258860468864,
+            0.008294140920042992,
+            0.009105401113629341,
+            0.008569207042455673
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.004529884979375546,
+            "p05": 0.002481013676151633,
+            "median": 0.004382247105240822,
+            "p95": 0.007134399679489434
+          },
+          "by_class_mean": [
+            0.005076778121292591,
+            0.004708198364824057,
+            0.004881699103862047,
+            0.003984377719461918,
+            0.004597990307956934,
+            0.0040354374796152115
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06887417218543046,
+          "open_A_false_active_fraction": 1.0,
+          "open_C_false_active_fraction": 1.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06887417218543046,
+          "open_A_false_active_fraction": 1.0,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.0033112582781456954,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06821192052980132,
+          "open_A_false_active_fraction": 0.9807692307692307,
+          "open_C_false_active_fraction": 1.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9847547139596904,
+        "p05": 0.9817148655653,
+        "median": 0.984592467546463,
+        "p95": 0.9879873663187027
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 42,
+    "condition": "source_val_10",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0008369150100467073,
+            "p05": 0.0005220539547735825,
+            "median": 0.0008041198889259249,
+            "p95": 0.0012263947399333117
+          },
+          "by_class_mean": [
+            0.000989438034594059,
+            0.0008815248147584498,
+            0.0008831273298710585,
+            0.0006978241144679487,
+            0.0008386831032112241,
+            0.0007602239493280649
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.0021221875371133896,
+            "p05": 0.001645922684110701,
+            "median": 0.002102191559970379,
+            "p95": 0.0026605536229908464
+          },
+          "by_class_mean": [
+            0.002154201501980424,
+            0.002065805485472083,
+            0.0023331257980316877,
+            0.0021261204965412617,
+            0.001870883395895362,
+            0.002189145190641284
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.000498927777969596,
+            "p05": 0.00027888820186490194,
+            "median": 0.0004678070836234838,
+            "p95": 0.0007773119810735807
+          },
+          "by_class_mean": [
+            0.0005501574487425387,
+            0.0005166528862901032,
+            0.0004991602036170661,
+            0.0003937353612855077,
+            0.0006052848766557872,
+            0.000438427843619138
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12582781456953643,
+            0.0,
+            0.11920529801324503,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.019867549668874173,
+          "open_A_false_active_fraction": 0.2692307692307692,
+          "open_C_false_active_fraction": 0.3076923076923077
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.006622516556291391,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06754966887417219,
+          "open_A_false_active_fraction": 0.9615384615384616,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.16225165562913907,
+            0.0,
+            0.16556291390728478,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0033112582781456954,
+          "open_A_false_active_fraction": 0.057692307692307696,
+          "open_C_false_active_fraction": 0.038461538461538464
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.984762194711027,
+        "p05": 0.9816989451646805,
+        "median": 0.9845844209194183,
+        "p95": 0.9879900366067886
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 42,
+    "condition": "target_clean",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0,
+            "p05": 0.0,
+            "median": 0.0,
+            "p95": 0.0
+          },
+          "by_class_mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.0012537565201550282,
+            "p05": 0.000806617338093929,
+            "median": 0.00122070376528427,
+            "p95": 0.0017992620531003922
+          },
+          "by_class_mean": [
+            0.0010771703673526645,
+            0.001313335495069623,
+            0.0013264246517792344,
+            0.001378536457195878,
+            0.0011915452778339386,
+            0.0018345025600865483
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 4.3235151494157824e-05,
+            "p05": 4.180094811090384e-06,
+            "median": 2.1531629499804694e-05,
+            "p95": 0.00014424777546082624
+          },
+          "by_class_mean": [
+            1.825642175390385e-05,
+            4.008154064649716e-05,
+            2.9885262847528793e-05,
+            2.6125306249014102e-05,
+            0.00011645838094409555,
+            0.00013190056779421866
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.07962813257881972,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.02667744543249798,
+          "open_A_false_active_fraction": 0.3389261744966443,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9848897088444545,
+        "p05": 0.9823744893074036,
+        "median": 0.9846814870834351,
+        "p95": 0.9880258023738862
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 42,
+    "condition": "target_5",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0028598209192355977,
+            "p05": 0.0014243917481508105,
+            "median": 0.0027967665810137987,
+            "p95": 0.004566400870680807
+          },
+          "by_class_mean": [
+            0.0025827432982623577,
+            0.003238172736018896,
+            0.0030034584924578667,
+            0.0026361397467553616,
+            0.0031241390388458967,
+            0.0035220354329794645
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.004044162530217488,
+            "p05": 0.00236474669072777,
+            "median": 0.003949284786358476,
+            "p95": 0.006045550038106739
+          },
+          "by_class_mean": [
+            0.00361118302680552,
+            0.004436194431036711,
+            0.004209314472973347,
+            0.003961482085287571,
+            0.004288091789931059,
+            0.0052507068030536175
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.001639444823026271,
+            "p05": 0.0007932645676191896,
+            "median": 0.0015574993449263275,
+            "p95": 0.002747250464744865
+          },
+          "by_class_mean": [
+            0.0014657411957159638,
+            0.001839865348301828,
+            0.0017032274045050144,
+            0.0014927189331501722,
+            0.0018405806040391326,
+            0.0021097457502037287
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.07679870654810024,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.027243330638641875,
+          "open_A_false_active_fraction": 0.3624161073825503,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9848889143096676,
+        "p05": 0.9823734760284424,
+        "median": 0.9847067594528198,
+        "p95": 0.9880166709423065
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 42,
+    "condition": "target_0",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.00904354779962631,
+            "p05": 0.004504322027787566,
+            "median": 0.008844151627272367,
+            "p95": 0.014440227532759304
+          },
+          "by_class_mean": [
+            0.008167351596057415,
+            0.010240000672638416,
+            0.009497769176959991,
+            0.008336205966770649,
+            0.009879395365715027,
+            0.011137653142213821
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.010076430977906402,
+            "p05": 0.005420180293731392,
+            "median": 0.009920521173626184,
+            "p95": 0.015512646129354834
+          },
+          "by_class_mean": [
+            0.009080279618501663,
+            0.011229807510972023,
+            0.010498980060219765,
+            0.009521379135549068,
+            0.0109213562682271,
+            0.012641140259802341
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.005090893343732471,
+            "p05": 0.0024190276162698865,
+            "median": 0.004849813180044293,
+            "p95": 0.008576095197349785
+          },
+          "by_class_mean": [
+            0.004595605190843344,
+            0.005731497425585985,
+            0.005321457516402006,
+            0.004663901869207621,
+            0.005568611901253462,
+            0.006386395078152418
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.07396928051738076,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.02780921584478577,
+          "open_A_false_active_fraction": 0.3859060402684564,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9848874312810025,
+        "p05": 0.9823678076267243,
+        "median": 0.9847098588943481,
+        "p95": 0.988013505935669
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 42,
+    "condition": "target_-5",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.028598209197814414,
+            "p05": 0.01424391670152545,
+            "median": 0.0279676616191864,
+            "p95": 0.04566400665789841
+          },
+          "by_class_mean": [
+            0.02582743391394615,
+            0.032381728291511536,
+            0.030034583061933517,
+            0.02636139839887619,
+            0.031241390854120255,
+            0.035220351070165634
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.029151985685287606,
+            "p05": 0.014871568325906992,
+            "median": 0.028534207493066788,
+            "p95": 0.04586370103061198
+          },
+          "by_class_mean": [
+            0.026367677375674248,
+            0.03274686634540558,
+            0.030432820320129395,
+            0.027084792032837868,
+            0.03185085579752922,
+            0.03601575642824173
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.016005331863631872,
+            "p05": 0.007573713874444365,
+            "median": 0.015298434998840094,
+            "p95": 0.026982114464044568
+          },
+          "by_class_mean": [
+            0.014493104070425034,
+            0.018037918955087662,
+            0.01676330529153347,
+            0.014692061580717564,
+            0.017357680946588516,
+            0.019910350441932678
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.06669361358124495,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.029264349232012935,
+          "open_A_false_active_fraction": 0.4463087248322148,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9848824992437285,
+        "p05": 0.9823126196861267,
+        "median": 0.9847064018249512,
+        "p95": 0.9880198836326599
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 42,
+    "condition": "target_-10",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.09043547811804274,
+            "p05": 0.045043221302330495,
+            "median": 0.08844151720404625,
+            "p95": 0.14440227523446078
+          },
+          "by_class_mean": [
+            0.0816735103726387,
+            0.10240001231431961,
+            0.09497769922018051,
+            0.08336205780506134,
+            0.09879394620656967,
+            0.11137653142213821
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.08948119016922859,
+            "p05": 0.04469890985637903,
+            "median": 0.08791236951947212,
+            "p95": 0.14210127666592598
+          },
+          "by_class_mean": [
+            0.0810251384973526,
+            0.10086259990930557,
+            0.09355474263429642,
+            0.08260215073823929,
+            0.09796802699565887,
+            0.1099485531449318
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.050519816816852955,
+            "p05": 0.023796485364437105,
+            "median": 0.048317598178982735,
+            "p95": 0.08516704961657522
+          },
+          "by_class_mean": [
+            0.04579174146056175,
+            0.056954242289066315,
+            0.052945610135793686,
+            0.04640389233827591,
+            0.05463799834251404,
+            0.06267684698104858
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.05699272433306386,
+            0.0,
+            0.0004042037186742118,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.03112368633791431,
+          "open_A_false_active_fraction": 0.5268456375838926,
+          "open_C_false_active_fraction": 0.9956331877729258
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9848632643911959,
+        "p05": 0.982132077217102,
+        "median": 0.984701931476593,
+        "p95": 0.9880716800689697
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 43,
+    "condition": "source_val_clean",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0,
+            "p05": 0.0,
+            "median": 0.0,
+            "p95": 0.0
+          },
+          "by_class_mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.0004432912579998189,
+            "p05": 0.0003341992574860342,
+            "median": 0.00041302581666968763,
+            "p95": 0.0006840417074272408
+          },
+          "by_class_mean": [
+            0.0003768913447856903,
+            0.00043500217725522816,
+            0.00046387812471948564,
+            0.00040766733582131565,
+            0.00046819919953122735,
+            0.0004953400930389762
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 3.1199045723578126e-05,
+            "p05": 1.5130724673184658e-09,
+            "median": 1.981389505090192e-05,
+            "p95": 0.00014053419945412316
+          },
+          "by_class_mean": [
+            1.1204884131643666e-08,
+            1.855134905781597e-05,
+            2.01239872694714e-05,
+            3.2172076203096367e-07,
+            0.00012205520761199296,
+            2.0133158614044078e-05
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.03443708609271523,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9834613002951834,
+        "p05": 0.9821094274520874,
+        "median": 0.9829963445663452,
+        "p95": 0.9864539504051208
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 43,
+    "condition": "source_val_0",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.00817755551928568,
+            "p05": 0.004896211158484221,
+            "median": 0.008080639876425266,
+            "p95": 0.01202811519615352
+          },
+          "by_class_mean": [
+            0.009371851570904255,
+            0.008374621160328388,
+            0.008661790750920773,
+            0.007156084291636944,
+            0.008315534330904484,
+            0.00741512281820178
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.008415771879576492,
+            "p05": 0.0048451403388753535,
+            "median": 0.008244801312685013,
+            "p95": 0.012230363395065069
+          },
+          "by_class_mean": [
+            0.009518253616988659,
+            0.008572272025048733,
+            0.008905360475182533,
+            0.007414353080093861,
+            0.008560260757803917,
+            0.007736146450042725
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.004529884979375546,
+            "p05": 0.002481013676151633,
+            "median": 0.004382247105240822,
+            "p95": 0.007134399679489434
+          },
+          "by_class_mean": [
+            0.005076778121292591,
+            0.004708198364824057,
+            0.004881699103862047,
+            0.003984377719461918,
+            0.004597990307956934,
+            0.0040354374796152115
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06887417218543046,
+          "open_A_false_active_fraction": 1.0,
+          "open_C_false_active_fraction": 1.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06887417218543046,
+          "open_A_false_active_fraction": 1.0,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.0033112582781456954,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06821192052980132,
+          "open_A_false_active_fraction": 0.9807692307692307,
+          "open_C_false_active_fraction": 1.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9834647057905541,
+        "p05": 0.9820536136627197,
+        "median": 0.9829910397529602,
+        "p95": 0.9864799082279205
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 43,
+    "condition": "source_val_10",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0008369150100467073,
+            "p05": 0.0005220539547735825,
+            "median": 0.0008041198889259249,
+            "p95": 0.0012263947399333117
+          },
+          "by_class_mean": [
+            0.000989438034594059,
+            0.0008815248147584498,
+            0.0008831273298710585,
+            0.0006978241144679487,
+            0.0008386831032112241,
+            0.0007602239493280649
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.0012526471001660414,
+            "p05": 0.0008040519751375541,
+            "median": 0.0012083189212717116,
+            "p95": 0.0018321412440855055
+          },
+          "by_class_mean": [
+            0.0013364264741539955,
+            0.001269423752091825,
+            0.0013412158004939556,
+            0.0010863295756280422,
+            0.0012794672511518002,
+            0.001219131052494049
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.000498927777969596,
+            "p05": 0.00027888820186490194,
+            "median": 0.0004678070836234838,
+            "p95": 0.0007773119810735807
+          },
+          "by_class_mean": [
+            0.0005501574487425387,
+            0.0005166528862901032,
+            0.0004991602036170661,
+            0.0003937353612855077,
+            0.0006052848766557872,
+            0.000438427843619138
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12582781456953643,
+            0.0,
+            0.11920529801324503,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.019867549668874173,
+          "open_A_false_active_fraction": 0.2692307692307692,
+          "open_C_false_active_fraction": 0.3076923076923077
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.09602649006622517,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.04966887417218543,
+          "open_A_false_active_fraction": 0.4423076923076923,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.16225165562913907,
+            0.0,
+            0.16556291390728478,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0033112582781456954,
+          "open_A_false_active_fraction": 0.057692307692307696,
+          "open_C_false_active_fraction": 0.038461538461538464
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9834607585639616,
+        "p05": 0.9820808112621308,
+        "median": 0.9829894304275513,
+        "p95": 0.9864515244960785
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 43,
+    "condition": "target_clean",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0,
+            "p05": 0.0,
+            "median": 0.0,
+            "p95": 0.0
+          },
+          "by_class_mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.00043487451552630234,
+            "p05": 0.000339888890448492,
+            "median": 0.0004048490372952074,
+            "p95": 0.0006780920579330995
+          },
+          "by_class_mean": [
+            0.00045006576692685485,
+            0.00042376777855679393,
+            0.0004131657478865236,
+            0.00039750756695866585,
+            0.0003854632959701121,
+            0.0005043135606683791
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 4.3235151494157824e-05,
+            "p05": 4.180094811090384e-06,
+            "median": 2.1531629499804694e-05,
+            "p95": 0.00014424777546082624
+          },
+          "by_class_mean": [
+            1.825642175390385e-05,
+            4.008154064649716e-05,
+            2.9885262847528793e-05,
+            2.6125306249014102e-05,
+            0.00011645838094409555,
+            0.00013190056779421866
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.08286176232821342,
+            0.0,
+            0.035165723524656425,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.018997574777687955,
+          "open_A_false_active_fraction": 0.31208053691275167,
+          "open_C_false_active_fraction": 0.6200873362445415
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9833508318002511,
+        "p05": 0.982030388712883,
+        "median": 0.9829537868499756,
+        "p95": 0.9859799444675446
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 43,
+    "condition": "target_5",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0028598209192355977,
+            "p05": 0.0014243917481508105,
+            "median": 0.0027967665810137987,
+            "p95": 0.004566400870680807
+          },
+          "by_class_mean": [
+            0.0025827432982623577,
+            0.003238172736018896,
+            0.0030034584924578667,
+            0.0026361397467553616,
+            0.0031241390388458967,
+            0.0035220354329794645
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.0032322268363027384,
+            "p05": 0.0017696755996439606,
+            "median": 0.003152565914206207,
+            "p95": 0.005029139993712305
+          },
+          "by_class_mean": [
+            0.002979979617521167,
+            0.0035776905715465546,
+            0.0033596381545066833,
+            0.0029644318856298923,
+            0.0034024622291326523,
+            0.003994428552687168
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.001639444823026271,
+            "p05": 0.0007932645676191896,
+            "median": 0.0015574993449263275,
+            "p95": 0.002747250464744865
+          },
+          "by_class_mean": [
+            0.0014657411957159638,
+            0.001839865348301828,
+            0.0017032274045050144,
+            0.0014927189331501722,
+            0.0018405806040391326,
+            0.0021097457502037287
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.08326596604688763,
+            0.0,
+            0.034357316087308,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0190784155214228,
+          "open_A_false_active_fraction": 0.3087248322147651,
+          "open_C_false_active_fraction": 0.62882096069869
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9833533669555646,
+        "p05": 0.9820441007614136,
+        "median": 0.9829539060592651,
+        "p95": 0.9859893321990967
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 43,
+    "condition": "target_0",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.00904354779962631,
+            "p05": 0.004504322027787566,
+            "median": 0.008844151627272367,
+            "p95": 0.014440227532759304
+          },
+          "by_class_mean": [
+            0.008167351596057415,
+            0.010240000672638416,
+            0.009497769176959991,
+            0.008336205966770649,
+            0.009879395365715027,
+            0.011137653142213821
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.009272686924530147,
+            "p05": 0.004760886961594224,
+            "median": 0.009081857278943062,
+            "p95": 0.014749811124056577
+          },
+          "by_class_mean": [
+            0.008439313620328903,
+            0.010404562577605247,
+            0.009708930738270283,
+            0.008519493974745274,
+            0.009974267333745956,
+            0.01146848127245903
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.005090893343732471,
+            "p05": 0.0024190276162698865,
+            "median": 0.004849813180044293,
+            "p95": 0.008576095197349785
+          },
+          "by_class_mean": [
+            0.004595605190843344,
+            0.005731497425585985,
+            0.005321457516402006,
+            0.004663901869207621,
+            0.005568611901253462,
+            0.006386395078152418
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.08326596604688763,
+            0.0,
+            0.03354890864995958,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.01924009700889248,
+          "open_A_false_active_fraction": 0.3087248322147651,
+          "open_C_false_active_fraction": 0.6375545851528385
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9833580436710183,
+        "p05": 0.9820449888706207,
+        "median": 0.9829599857330322,
+        "p95": 0.9860043704509736
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 43,
+    "condition": "target_-5",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.028598209197814414,
+            "p05": 0.01424391670152545,
+            "median": 0.0279676616191864,
+            "p95": 0.04566400665789841
+          },
+          "by_class_mean": [
+            0.02582743391394615,
+            0.032381728291511536,
+            0.030034583061933517,
+            0.02636139839887619,
+            0.031241390854120255,
+            0.035220351070165634
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.028369108703598777,
+            "p05": 0.01431785561144352,
+            "median": 0.027780156582593918,
+            "p95": 0.04538271613419055
+          },
+          "by_class_mean": [
+            0.025695668533444405,
+            0.03199987858533859,
+            0.029771804809570312,
+            0.026090504601597786,
+            0.03079516999423504,
+            0.0350487045943737
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.016005331863631872,
+            "p05": 0.007573713874444365,
+            "median": 0.015298434998840094,
+            "p95": 0.026982114464044568
+          },
+          "by_class_mean": [
+            0.014493104070425034,
+            0.018037918955087662,
+            0.01676330529153347,
+            0.014692061580717564,
+            0.017357680946588516,
+            0.019910350441932678
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.08367016976556184,
+            0.0,
+            0.033144704931285365,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.01924009700889248,
+          "open_A_false_active_fraction": 0.3053691275167785,
+          "open_C_false_active_fraction": 0.6419213973799127
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9833720669944064,
+        "p05": 0.9820423722267151,
+        "median": 0.9829835891723633,
+        "p95": 0.9860250055789948
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 43,
+    "condition": "target_-10",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.09043547811804274,
+            "p05": 0.045043221302330495,
+            "median": 0.08844151720404625,
+            "p95": 0.14440227523446078
+          },
+          "by_class_mean": [
+            0.0816735103726387,
+            0.10240001231431961,
+            0.09497769922018051,
+            0.08336205780506134,
+            0.09879394620656967,
+            0.11137653142213821
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.08875761719129938,
+            "p05": 0.04440309908241034,
+            "median": 0.08672132715582848,
+            "p95": 0.14261996448040004
+          },
+          "by_class_mean": [
+            0.08026022464036942,
+            0.10031211376190186,
+            0.09320033341646194,
+            0.08166927844285965,
+            0.09671769291162491,
+            0.10953134298324585
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.050519816816852955,
+            "p05": 0.023796485364437105,
+            "median": 0.048317598178982735,
+            "p95": 0.08516704961657522
+          },
+          "by_class_mean": [
+            0.04579174146056175,
+            0.056954242289066315,
+            0.052945610135793686,
+            0.04640389233827591,
+            0.05463799834251404,
+            0.06267684698104858
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.08367016976556184,
+            0.0,
+            0.0274858528698464,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.020371867421180277,
+          "open_A_false_active_fraction": 0.3053691275167785,
+          "open_C_false_active_fraction": 0.7030567685589519
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9834136557618659,
+        "p05": 0.982025146484375,
+        "median": 0.9830470681190491,
+        "p95": 0.9860632836818695
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 44,
+    "condition": "source_val_clean",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0,
+            "p05": 0.0,
+            "median": 0.0,
+            "p95": 0.0
+          },
+          "by_class_mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 3.455945970445281e-05,
+            "p05": 3.0486953710351373e-05,
+            "median": 3.36393277393654e-05,
+            "p95": 4.0849555261956993e-05
+          },
+          "by_class_mean": [
+            3.553612623363733e-05,
+            3.288740117568523e-05,
+            3.322700649732724e-05,
+            3.1891209800960496e-05,
+            3.9526847103843465e-05,
+            3.447599374339916e-05
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 3.1199045723578126e-05,
+            "p05": 1.5130724673184658e-09,
+            "median": 1.981389505090192e-05,
+            "p95": 0.00014053419945412316
+          },
+          "by_class_mean": [
+            1.1204884131643666e-08,
+            1.855134905781597e-05,
+            2.01239872694714e-05,
+            3.2172076203096367e-07,
+            0.00012205520761199296,
+            2.0133158614044078e-05
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9839704633373123,
+        "p05": 0.9830673336982727,
+        "median": 0.9837463200092316,
+        "p95": 0.9857697486877441
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 44,
+    "condition": "source_val_0",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.00817755551928568,
+            "p05": 0.004896211158484221,
+            "median": 0.008080639876425266,
+            "p95": 0.01202811519615352
+          },
+          "by_class_mean": [
+            0.009371851570904255,
+            0.008374621160328388,
+            0.008661790750920773,
+            0.007156084291636944,
+            0.008315534330904484,
+            0.00741512281820178
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.008026703307867691,
+            "p05": 0.0048030799254775046,
+            "median": 0.007948986254632473,
+            "p95": 0.011746591003611683
+          },
+          "by_class_mean": [
+            0.009175173938274384,
+            0.008207166567444801,
+            0.008503425866365433,
+            0.007017402909696102,
+            0.008185922168195248,
+            0.007291986607015133
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.004529884979375546,
+            "p05": 0.002481013676151633,
+            "median": 0.004382247105240822,
+            "p95": 0.007134399679489434
+          },
+          "by_class_mean": [
+            0.005076778121292591,
+            0.004708198364824057,
+            0.004881699103862047,
+            0.003984377719461918,
+            0.004597990307956934,
+            0.0040354374796152115
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06887417218543046,
+          "open_A_false_active_fraction": 1.0,
+          "open_C_false_active_fraction": 1.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06887417218543046,
+          "open_A_false_active_fraction": 1.0,
+          "open_C_false_active_fraction": 1.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.0033112582781456954,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.06821192052980132,
+          "open_A_false_active_fraction": 0.9807692307692307,
+          "open_C_false_active_fraction": 1.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9839718546430533,
+        "p05": 0.9830582678318024,
+        "median": 0.9837343096733093,
+        "p95": 0.9857924908399582
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 44,
+    "condition": "source_val_10",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0008369150100467073,
+            "p05": 0.0005220539547735825,
+            "median": 0.0008041198889259249,
+            "p95": 0.0012263947399333117
+          },
+          "by_class_mean": [
+            0.000989438034594059,
+            0.0008815248147584498,
+            0.0008831273298710585,
+            0.0006978241144679487,
+            0.0008386831032112241,
+            0.0007602239493280649
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.0008511724868335989,
+            "p05": 0.000521421933081001,
+            "median": 0.0008339908090420067,
+            "p95": 0.001232811133377254
+          },
+          "by_class_mean": [
+            0.0009999815374612808,
+            0.0008930129697546363,
+            0.0008974804659374058,
+            0.0007042577490210533,
+            0.0008609782671555877,
+            0.000779941154178232
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.000498927777969596,
+            "p05": 0.00027888820186490194,
+            "median": 0.0004678070836234838,
+            "p95": 0.0007773119810735807
+          },
+          "by_class_mean": [
+            0.0005501574487425387,
+            0.0005166528862901032,
+            0.0004991602036170661,
+            0.0003937353612855077,
+            0.0006052848766557872,
+            0.000438427843619138
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.17218543046357615,
+            0.0,
+            0.17218543046357615,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12582781456953643,
+            0.0,
+            0.11920529801324503,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.019867549668874173,
+          "open_A_false_active_fraction": 0.2692307692307692,
+          "open_C_false_active_fraction": 0.3076923076923077
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.08940397350993377,
+            0.0,
+            0.09602649006622517,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.031788079470198675,
+          "open_A_false_active_fraction": 0.4807692307692308,
+          "open_C_false_active_fraction": 0.4423076923076923
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.16225165562913907,
+            0.0,
+            0.16556291390728478,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0033112582781456954,
+          "open_A_false_active_fraction": 0.057692307692307696,
+          "open_C_false_active_fraction": 0.038461538461538464
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9839704095352388,
+        "p05": 0.9830694198608398,
+        "median": 0.9837454557418823,
+        "p95": 0.9857831716537475
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 44,
+    "condition": "target_clean",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0,
+            "p05": 0.0,
+            "median": 0.0,
+            "p95": 0.0
+          },
+          "by_class_mean": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 3.6696141844354136e-05,
+            "p05": 3.0005622829776257e-05,
+            "median": 3.671378726721741e-05,
+            "p95": 4.259489087417023e-05
+          },
+          "by_class_mean": [
+            3.5557026421884075e-05,
+            3.6541583540383726e-05,
+            3.738314990187064e-05,
+            3.638251655502245e-05,
+            3.8814585423097014e-05,
+            3.9729595300741494e-05
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 4.3235151494157824e-05,
+            "p05": 4.180094811090384e-06,
+            "median": 2.1531629499804694e-05,
+            "p95": 0.00014424777546082624
+          },
+          "by_class_mean": [
+            1.825642175390385e-05,
+            4.008154064649716e-05,
+            2.9885262847528793e-05,
+            2.6125306249014102e-05,
+            0.00011645838094409555,
+            0.00013190056779421866
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.11156022635408246,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0017784963621665319,
+          "open_A_false_active_fraction": 0.0738255033557047,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9838997748735876,
+        "p05": 0.9830695390701294,
+        "median": 0.9836905598640442,
+        "p95": 0.9854208827018738
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 44,
+    "condition": "target_5",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.0028598209192355977,
+            "p05": 0.0014243917481508105,
+            "median": 0.0027967665810137987,
+            "p95": 0.004566400870680807
+          },
+          "by_class_mean": [
+            0.0025827432982623577,
+            0.003238172736018896,
+            0.0030034584924578667,
+            0.0026361397467553616,
+            0.0031241390388458967,
+            0.0035220354329794645
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.0028344834728624593,
+            "p05": 0.0014278130081947892,
+            "median": 0.0027609338285401464,
+            "p95": 0.004487985116429626
+          },
+          "by_class_mean": [
+            0.0025636262726038694,
+            0.0032003833912312984,
+            0.0029726962093263865,
+            0.0026152823120355606,
+            0.003102070651948452,
+            0.0034811710938811302
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.001639444823026271,
+            "p05": 0.0007932645676191896,
+            "median": 0.0015574993449263275,
+            "p95": 0.002747250464744865
+          },
+          "by_class_mean": [
+            0.0014657411957159638,
+            0.001839865348301828,
+            0.0017032274045050144,
+            0.0014927189331501722,
+            0.0018405806040391326,
+            0.0021097457502037287
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.11034761519805983,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.002021018593371059,
+          "open_A_false_active_fraction": 0.08389261744966443,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9839009558716564,
+        "p05": 0.9830739438533783,
+        "median": 0.9836862087249756,
+        "p95": 0.9854191541671753
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 44,
+    "condition": "target_0",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.00904354779962631,
+            "p05": 0.004504322027787566,
+            "median": 0.008844151627272367,
+            "p95": 0.014440227532759304
+          },
+          "by_class_mean": [
+            0.008167351596057415,
+            0.010240000672638416,
+            0.009497769176959991,
+            0.008336205966770649,
+            0.009879395365715027,
+            0.011137653142213821
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.008880081224777014,
+            "p05": 0.004436456295661628,
+            "median": 0.00866448087617755,
+            "p95": 0.01412183083593845
+          },
+          "by_class_mean": [
+            0.008024574257433414,
+            0.010043206624686718,
+            0.009317779913544655,
+            0.008187294006347656,
+            0.009716601110994816,
+            0.010920737870037556
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.005090893343732471,
+            "p05": 0.0024190276162698865,
+            "median": 0.004849813180044293,
+            "p95": 0.008576095197349785
+          },
+          "by_class_mean": [
+            0.004595605190843344,
+            0.005731497425585985,
+            0.005321457516402006,
+            0.004663901869207621,
+            0.005568611901253462,
+            0.006386395078152418
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.11115602263540825,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0018593371059013742,
+          "open_A_false_active_fraction": 0.07718120805369127,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9839029106239976,
+        "p05": 0.9830661356449127,
+        "median": 0.9836884140968323,
+        "p95": 0.9854204058647156
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 44,
+    "condition": "target_-5",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.028598209197814414,
+            "p05": 0.01424391670152545,
+            "median": 0.0279676616191864,
+            "p95": 0.04566400665789841
+          },
+          "by_class_mean": [
+            0.02582743391394615,
+            0.032381728291511536,
+            0.030034583061933517,
+            0.02636139839887619,
+            0.031241390854120255,
+            0.035220351070165634
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.027995220881645102,
+            "p05": 0.013925484288483858,
+            "median": 0.02736753039062023,
+            "p95": 0.044618168845772736
+          },
+          "by_class_mean": [
+            0.025289632380008698,
+            0.03168385848402977,
+            0.029381796717643738,
+            0.025804681703448296,
+            0.030627615749835968,
+            0.03444525599479675
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.016005331863631872,
+            "p05": 0.007573713874444365,
+            "median": 0.015298434998840094,
+            "p95": 0.026982114464044568
+          },
+          "by_class_mean": [
+            0.014493104070425034,
+            0.018037918955087662,
+            0.01676330529153347,
+            0.014692061580717564,
+            0.017357680946588516,
+            0.019910350441932678
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.1099434114793856,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0021018593371059015,
+          "open_A_false_active_fraction": 0.087248322147651,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9839085635235825,
+        "p05": 0.9830420017242432,
+        "median": 0.9836967587471008,
+        "p95": 0.9854259610176086
+      }
+    }
+  },
+  {
+    "method": "b0",
+    "seed": 44,
+    "condition": "target_-10",
+    "probe": {
+      "normalized_complex_mse": {
+        "observed_k8": {
+          "all_cycles": {
+            "mean": 0.09043547811804274,
+            "p05": 0.045043221302330495,
+            "median": 0.08844151720404625,
+            "p95": 0.14440227523446078
+          },
+          "by_class_mean": [
+            0.0816735103726387,
+            0.10240001231431961,
+            0.09497769922018051,
+            0.08336205780506134,
+            0.09879394620656967,
+            0.11137653142213821
+          ]
+        },
+        "learned_k8": {
+          "all_cycles": {
+            "mean": 0.08844077166790261,
+            "p05": 0.04395607728511095,
+            "median": 0.08649671450257301,
+            "p95": 0.1413263589143753
+          },
+          "by_class_mean": [
+            0.07988141477108002,
+            0.10012414306402206,
+            0.09283285588026047,
+            0.08151451498270035,
+            0.09675118327140808,
+            0.1088331788778305
+          ]
+        },
+        "observed_k4": {
+          "all_cycles": {
+            "mean": 0.050519816816852955,
+            "p05": 0.023796485364437105,
+            "median": 0.048317598178982735,
+            "p95": 0.08516704961657522
+          },
+          "by_class_mean": [
+            0.04579174146056175,
+            0.056954242289066315,
+            0.052945610135793686,
+            0.04640389233827591,
+            0.05463799834251404,
+            0.06267684698104858
+          ]
+        }
+      },
+      "md_weak_phase_branch": {
+        "clean_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "observed_k8": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        },
+        "learned_k8": {
+          "weak_phase_fraction": [
+            0.10913500404203719,
+            0.0,
+            0.09215844785772029,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0023443815683104286,
+          "open_A_false_active_fraction": 0.09395973154362416,
+          "open_C_false_active_fraction": 0.004366812227074236
+        },
+        "observed_k4": {
+          "weak_phase_fraction": [
+            0.12045270816491511,
+            0.0,
+            0.0925626515763945,
+            0.0,
+            0.0
+          ],
+          "different_from_clean_fraction": 0.0,
+          "open_A_false_active_fraction": 0.0,
+          "open_C_false_active_fraction": 0.0
+        }
+      },
+      "gain_distribution": {
+        "mean": 0.9839248568909108,
+        "p05": 0.9829871654510498,
+        "median": 0.983728289604187,
+        "p95": 0.9854541480541229
+      }
+    }
+  }
+]

@@ -1,0 +1,121 @@
+{
+  "status": "completed",
+  "jobs": [
+    {
+      "method": "b0",
+      "seed": 43,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/audit_a0_b0_epoch_replay.py",
+        "--reference-root",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/results",
+        "--method",
+        "b0",
+        "--seed",
+        "43"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 46.825170800992055
+    },
+    {
+      "method": "b0",
+      "seed": 42,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/audit_a0_b0_epoch_replay.py",
+        "--reference-root",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/results",
+        "--method",
+        "b0",
+        "--seed",
+        "42"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 46.848868518995005
+    },
+    {
+      "method": "b0",
+      "seed": 44,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/audit_a0_b0_epoch_replay.py",
+        "--reference-root",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/results",
+        "--method",
+        "b0",
+        "--seed",
+        "44"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 47.007487772993045
+    },
+    {
+      "method": "a0",
+      "seed": 43,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/audit_a0_b0_epoch_replay.py",
+        "--reference-root",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/results",
+        "--method",
+        "a0",
+        "--seed",
+        "43"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 26.674052608999773
+    },
+    {
+      "method": "a0",
+      "seed": 42,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/audit_a0_b0_epoch_replay.py",
+        "--reference-root",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/results",
+        "--method",
+        "a0",
+        "--seed",
+        "42"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 26.696324805001495
+    },
+    {
+      "method": "a0",
+      "seed": 44,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/audit_a0_b0_epoch_replay.py",
+        "--reference-root",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/results",
+        "--method",
+        "a0",
+        "--seed",
+        "44"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 26.757340035008383
+    }
+  ],
+  "elapsed_seconds": 73.76985029499338,
+  "final_holdout_accessed": false
+}

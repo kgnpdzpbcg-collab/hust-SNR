@@ -1,0 +1,21 @@
+{
+  "client_date": "2026-10-15",
+  "audit_code_commit": "da0e71c00f7c07253e1466182ad599d1be5fbdf0",
+  "reference_algorithm_code_commit": "c0b30c9094700cc45e31ebc558d7707dc6fe46fa",
+  "python": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "python_version": "3.12.3",
+  "environment_reused": true,
+  "models_trained": 0,
+  "dependencies_installed": false,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "/home/wang/projects/会议论文/hust/experiments/prototypes_audit/20261015/audit_a0_b0_fixed_weights.py",
+    "--reference-root",
+    "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9",
+    "--output",
+    "/home/wang/projects/会议论文/hust/experiments/prototypes_audit/20261015/results"
+  ],
+  "exit_code": 0,
+  "final_holdout_accessed": false
+}

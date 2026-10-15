@@ -1,0 +1,12 @@
+a0 seed44 epoch 1/50: source-val noisy F1=1.0000
+a0 seed44 epoch 10/50: source-val noisy F1=1.0000
+a0 seed44 epoch 20/50: source-val noisy F1=1.0000
+a0 seed44 epoch 30/50: source-val noisy F1=1.0000
+a0 seed44 epoch 40/50: source-val noisy F1=1.0000
+a0 seed44 epoch 50/50: source-val noisy F1=1.0000
+EPOCH50 a0 seed44 target_clean: F1=78.3310%
+EPOCH50 a0 seed44 target_snr5: F1=70.1081%
+EPOCH50 a0 seed44 target_snr0: F1=59.6435%
+EPOCH50 a0 seed44 target_snr-5: F1=55.6685%
+EPOCH50 a0 seed44 target_snr-10: F1=50.6025%
+REPLAY_VERIFIED a0 seed44

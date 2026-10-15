@@ -1,0 +1,14 @@
+B0 source-recovery pretrain epoch 1: 0.000109
+B0 source-recovery pretrain epoch 10: 0.000052
+b0 seed42 epoch 1/50: source-val noisy F1=0.3296
+b0 seed42 epoch 10/50: source-val noisy F1=0.9537
+b0 seed42 epoch 20/50: source-val noisy F1=0.9658
+b0 seed42 epoch 30/50: source-val noisy F1=0.9336
+b0 seed42 epoch 40/50: source-val noisy F1=0.9718
+b0 seed42 epoch 50/50: source-val noisy F1=0.9633
+EPOCH50 b0 seed42 target_clean: F1=99.9377%
+EPOCH50 b0 seed42 target_snr5: F1=96.8225%
+EPOCH50 b0 seed42 target_snr0: F1=88.7844%
+EPOCH50 b0 seed42 target_snr-5: F1=65.6477%
+EPOCH50 b0 seed42 target_snr-10: F1=38.6407%
+REPLAY_VERIFIED b0 seed42

@@ -1,0 +1,58 @@
+{
+  "files": {
+    "EXPORT_AUDIT.py": {
+      "sha256": "87da9e305758cde9db7e6477e404d83308ce1ef3419a76a87622fd36505aa903",
+      "bytes": 2065
+    },
+    "RUN_MANIFEST.json": {
+      "sha256": "1a69abb678414bc8c80aa32c3562b08e8c8686539d0794b13bcd64ddd494f670",
+      "bytes": 883
+    },
+    "audit_a0_b0_fixed_weights.py": {
+      "sha256": "447946b07b8722e48a0b9e9cc6e8b1715a828acd0ee9a99aeda65a10e88bc1ba",
+      "bytes": 20208
+    },
+    "results/CONFIDENCE_AND_CE.csv": {
+      "sha256": "379032c72340dc2476d3fc3d42b8ade136168a925094929cc26e87212a9b7672",
+      "bytes": 4392
+    },
+    "results/CYCLIC_SHIFT_SENSITIVITY.csv": {
+      "sha256": "817005615b6c0fb9706d298555ab431c3011b89fb016200e5609c9f2470ab91f",
+      "bytes": 4528
+    },
+    "results/FIXED_WEIGHT_INTERVENTIONS.csv": {
+      "sha256": "25ed5223b34028839a81d2229a41a708530956771429786cda28cf22705b8cd5",
+      "bytes": 10368
+    },
+    "results/FIXED_WEIGHT_INTERVENTIONS.json": {
+      "sha256": "15de38151e53a1f7d2bdeb10dc5a07be89af7d95b20b871082faebaff0f1dfaa",
+      "bytes": 172499
+    },
+    "results/HISTORY_AUDIT.json": {
+      "sha256": "df9827be7ebd42e51a07babd3f4eb9844ee366bbb5451eb4906836c27277a4c2",
+      "bytes": 19141
+    },
+    "results/NOISE_PROXY_DISTRIBUTION.csv": {
+      "sha256": "3ec6bf55fdea204b10f9c0d9e159b9bd812c8a40c3ed2a3cb513b687f1e9251c",
+      "bytes": 831
+    },
+    "results/PROTECTED_FILES_SHA256.json": {
+      "sha256": "5de51b7a9e0284ad10658ff8469800e3089aa339455f5dfbc6d27b2087ccc83b",
+      "bytes": 31611
+    },
+    "results/RESTORER_GRADIENTS.csv": {
+      "sha256": "3b09c3a9c7da2371cec1125996b9a68703a982af6d4e17be5ed0b0261ae6662c",
+      "bytes": 1058
+    },
+    "results/STRUCTURAL_PROBES.json": {
+      "sha256": "b213a60c5f35c15bc9905d00569da22a14f164c1494ac3d644bbae83b4397272",
+      "bytes": 90151
+    },
+    "results/VERIFICATION.json": {
+      "sha256": "49c26556c99f722f0f4ebf6da307c9bf24d1c0fe7466a3c12b49310ff9738dbc",
+      "bytes": 831
+    }
+  },
+  "raw_waveforms_included": false,
+  "weights_included": false
+}

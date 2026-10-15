@@ -437,3 +437,15 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 - [24行逐种子结果](records/prototypes_a0_b0/server_c0b30c9/results/reports/PER_SEED_RESULTS.csv) · [144行逐类指标](records/prototypes_a0_b0/server_c0b30c9/results/reports/PER_CLASS_PER_SEED.csv)
 - [300轮分类损失及源验证](records/prototypes_a0_b0/server_c0b30c9/results/reports/TRAIN_LOSS_HISTORY.csv) · [30轮B0恢复预训练](records/prototypes_a0_b0/server_c0b30c9/results/reports/B0_PRETRAIN_RECOVERY_HISTORY.csv)
 - [同种子LP4＋ResNet配对](records/prototypes_a0_b0/server_c0b30c9/results/reports/PAIRED_RESNET_LP4.csv) · [独立核验](records/prototypes_a0_b0/server_c0b30c9/results/reports/VERIFICATION.json)
+
+### A0/B0验证与算法实现审计
+
+第一阶段只读9份原权重，重放原24组实测预测；训练/验证编号交集0，302个验证原始周期与训练周期完全重复数0。第二阶段按原配置重放6组训练，300轮历史、30轮B0预训练及六份原best逐张量完全复现，仅增加预先指定的第50轮快照用于诊断。原正式成绩与选模规则保持不变，Final-Holdout未评估。
+
+A0种子42有49轮六版本验证全满分，种子43/44各50轮全满分，原规则选中2/1/1轮。A0实测5 dB原best均值69.16%，epoch50为79.52%；各种子分别60.50→71.83、60.38→96.63、86.62→70.11。B0同条件原best93.72%，epoch50为84.25%。
+
+固定原B0权重，学习恢复后额外去掉5–8阶的诊断结果为−5 dB 81.04±5.27%、−10 dB 55.70±5.71%；原完整forward为66.21±18.00%、38.33±17.99%。这些是固定权重干预，不是重训消融或新的正式模型成绩。
+
+- [完整逐轮过程、结构探针、恢复误差与终轮比较](records/prototypes_audit/server_20261015/AUDIT_RECORD.md)
+- [固定权重审计入口](scripts/audit_a0_b0_fixed_weights.py) · [精确训练重放入口](scripts/audit_a0_b0_epoch_replay.py)
+- [固定阶段核验](records/prototypes_audit/server_20261015/results/VERIFICATION.json) · [精确重放核验](records/prototypes_audit/server_20261015/epoch_replay/VERIFICATION.json)

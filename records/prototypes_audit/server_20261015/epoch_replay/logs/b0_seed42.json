@@ -1,0 +1,19 @@
+{
+  "method": "b0",
+  "seed": 42,
+  "command": [
+    "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+    "-u",
+    "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/audit_a0_b0_epoch_replay.py",
+    "--reference-root",
+    "/home/wang/projects/会议论文/hust/experiments/prototypes_a0_b0/c0b30c9",
+    "--output",
+    "/home/wang/projects/会议论文/hust/experiments/prototypes_epoch_replay/20261015/results",
+    "--method",
+    "b0",
+    "--seed",
+    "42"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 46.848868518995005
+}
