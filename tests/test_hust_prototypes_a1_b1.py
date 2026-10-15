@@ -181,3 +181,35 @@ def test_strict_no_oracle_and_clean_target_validation():
                               torch.randn(2, 5, 4096),
                               torch.zeros(2, 5, 5, dtype=torch.complex64),
                               torch.ones(2, 5, 5))
+
+
+def test_b1_gain_invariant_to_circular_cycle_shift():
+    """Only restorer gains are invariant; the downstream CNN need not be."""
+    torch.manual_seed(123)
+    x = torch.randn(2, 5, 4096)
+    net = PhaseAwareHarmonicRestorer()
+    with torch.no_grad():
+        _, spectrum, _, gain = net(x, return_details=True)
+        shifted = x.roll(512, dims=-1)
+        _, spectrum_shifted, _, shifted_gain = net(
+            shifted, return_details=True)
+    assert torch.allclose(gain, shifted_gain, rtol=1e-5, atol=1e-5)
+    rotated_observed = torch.fft.rfft(shifted, dim=-1, norm="ortho")[:, :, :5]
+    assert torch.allclose(spectrum_shifted, rotated_observed * shifted_gain,
+                          rtol=1e-5, atol=1e-5)
+
+
+def test_b1_noise_proxy_rises_with_random_highband_noise():
+    """Check noisy input-only descriptor, not calibrated target SNR."""
+    torch.manual_seed(321)
+    t = torch.arange(4096, dtype=torch.float32) * 2*math.pi/4096
+    clean = torch.stack(
+        [torch.sin(t + .2*i) for i in range(5)], dim=0)[None]
+    noise = torch.randn_like(clean)
+    low = clean + 0.05*noise
+    high = clean + 0.35*noise
+    restorer = PhaseAwareHarmonicRestorer()
+    def descriptor(x):
+        ft = torch.fft.rfft(x, dim=-1, norm="ortho")
+        return restorer.noise_proxy(ft, shared_harmonic_scale(ft))
+    assert descriptor(high).mean() > 10*descriptor(low).mean()
