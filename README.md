@@ -456,3 +456,14 @@ A0种子42有49轮六版本验证全满分，种子43/44各50轮全满分，原�
 
 - [流程、loss定义和原始数值来源](figures/training_checks/a0_b0_lp4_20261015/README.md)
 - [训练loss及源验证图](figures/training_checks/a0_b0_lp4_20261015/TRAIN_LOSS_AND_SOURCE_VAL.png) · [B0预训练和loss分项图](figures/training_checks/a0_b0_lp4_20261015/B0_PRETRAIN_AND_LOSS_COMPONENTS.png)
+
+
+## 新一轮A1 / B1结构化抗噪算法（待服务器训练）
+
+研究分支：[research/a1-b1-noise-structure-v1](https://github.com/kgnpdzpbcg-collab/hust-SNR/tree/research/a1-b1-noise-structure-v1)，在已核验A0/B0实验之后新建；**不会改动原A0/B0、ResNet+LP4代码、权重和正式成绩**。
+
+- **A1**：[小波噪声可靠性网络](scripts/hust_a1_reliability_wavelet.py)：五相共享基波幅值标度＋四层Haar DWT，RMS统计预测可衰减的高频门控，低频直通注意力节点。A1仍为无LP4、无ResNet的独立CNN。
+- **B1**：[物理相间结构谐波网络](scripts/hust_b1_phase_harmonic.py)：保留0–4阶复谱、基于高频噪声代理和同阶跨相Gram特征进行非放大收缩；源域干净复谱、弱相相对能量和噪声功率提供恢复监督；分类输入包含MD形状与五相共享归一化电流两支证据。
+- [独立的source-only训练／实测Dev推理入口](scripts/hust_a1_b1_experiment.py) · [冻结实验配置](configs/hust_prototypes_a1_b1_v1.json) · [单元测试](tests/test_hust_prototypes_a1_b1.py) · [服务器执行脚本](scripts/run_hust_a1_b1_server.sh) · [完整方法及风险说明](docs/HUST_A1_B1_V1.md)
+
+固定源仿真训练10–40dB噪声、三个种子42/43/44、实测Dev评价5/0/−5/−10dB。根据原A0验证F1长时间饱和，新增**仅源验证噪声CE的同F1并列轮次判定**，与旧实验选模规则的区别必须报告。**A1/B1尚未完成GPU训练与Target-Dev实测评价，不得预先宣称优于LP4+ResNet。**
