@@ -80,7 +80,6 @@ class PhaseAwareHarmonicRestorer(nn.Module):
         )
         nn.init.zeros_(self.adjustment[-1].weight)
         nn.init.zeros_(self.adjustment[-1].bias)
-        self.md = MDNormalization()
 
     @staticmethod
     def noise_proxy(full_spectrum: torch.Tensor,
