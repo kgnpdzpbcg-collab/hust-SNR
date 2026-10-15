@@ -409,3 +409,16 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 
 - [分析代码](scripts/analyze_data_geometry.py) · [数值测试](tests/test_data_geometry.py)
 - [服务器完整记录、DC/RMS、类对排序与类间/类内距离](records/data_geometry/server_20261014/DATA_ANALYSIS_RECORD.md) · [完整统计](records/data_geometry/server_20261014/results/DATA_GEOMETRY.json)
+
+
+## B0 / A0 独立抗噪算法原型（未运行GPU正式实验）
+
+研究分支：research/harmonic-recovery-wavelet-a0-b0。ResNet+LP4仅为历史强基线，不限制新模型结构。
+
+- **B0 多相复谐波恢复**：[模型代码](scripts/hust_b0_harmonic_recovery.py)，FFT保留复谐波0–8阶，噪声代理条件化的可学习增益/复残差修正，源域干净谐波恢复损失＋ResNet分类。额外10轮源域恢复预训练。
+- **A0 小波注意力CNN**：[模型代码](scripts/hust_a0_wavelet_attention.py)，无需LP4，五相共享RMS归一化、512点、四层Haar DWA/FAM＋GroupNorm CNN，源域配对CE训练50轮。
+- [冻结实验配置](configs/hust_prototypes_a0_b0_v0.json) · [训练、实测Dev评价和汇总入口](scripts/hust_prototypes_experiment.py) · [CPU单元测试](tests/test_hust_prototypes_a0_b0.py)
+- [仅88条Dev记录的−5/−10dB数据生成器](scripts/generate_extreme_dev_snr.py) · [服务器一键脚本](scripts/run_hust_prototypes_server.sh)
+- **[完整算法定义、张量尺寸、损失、运行说明及限制](docs/HUST_A0_B0_PROTOTYPES_V0.md)**
+
+两模型的测试目标是5/0/−5/−10dB，固定训练仍为源域10–40dB、源验证0/5/10/20/30dB、三种子42/43/44。−5/−10为作者10dB实测残差缩放，**不是新采集**。上述提交尚未执行真实GPU训练、实测Dev推理或Final-Holdout评估；不得将代码提交当成性能已确认。
