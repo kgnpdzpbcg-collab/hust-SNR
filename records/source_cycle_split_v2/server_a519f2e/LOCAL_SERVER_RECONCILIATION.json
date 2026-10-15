@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "metadata_files_exact": 8,
+  "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+  "all_five_validation_noise_tensors_match_server": true,
+  "training_noise_seed42_epoch1_matches_server": true,
+  "local_tests_passed": 75,
+  "local_tests_skipped_cuda": 3,
+  "server_tests_passed": 78,
+  "model_training_started": false,
+  "target_waveforms_read": false
+}

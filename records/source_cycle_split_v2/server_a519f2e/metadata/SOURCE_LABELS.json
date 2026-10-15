@@ -1,0 +1,443 @@
+{
+  "S-1000-0-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 0
+  },
+  "S-1000-0-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 0
+  },
+  "S-1000-0-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 0
+  },
+  "S-1000-0-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 0
+  },
+  "S-1000-0-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 0
+  },
+  "S-1000-3-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 3
+  },
+  "S-1000-3-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 3
+  },
+  "S-1000-3-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 3
+  },
+  "S-1000-3-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 3
+  },
+  "S-1000-3-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 3
+  },
+  "S-1000-6-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 6
+  },
+  "S-1000-6-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 6
+  },
+  "S-1000-6-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 6
+  },
+  "S-1000-6-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 6
+  },
+  "S-1000-6-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 6
+  },
+  "S-1000-9-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 9
+  },
+  "S-1000-9-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 9
+  },
+  "S-1000-9-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 9
+  },
+  "S-1000-9-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "filename_inferred_user_authorized",
+    "speed": 1000,
+    "torque": 9
+  },
+  "S-1000-9-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 1000,
+    "torque": 9
+  },
+  "S-400-0-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "filename_inferred_user_authorized",
+    "speed": 400,
+    "torque": 0
+  },
+  "S-400-0-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "filename_inferred_user_authorized",
+    "speed": 400,
+    "torque": 0
+  },
+  "S-400-0-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "filename_inferred_user_authorized",
+    "speed": 400,
+    "torque": 0
+  },
+  "S-600-0-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 0
+  },
+  "S-600-0-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 0
+  },
+  "S-600-0-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 0
+  },
+  "S-600-0-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 0
+  },
+  "S-600-0-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 0
+  },
+  "S-600-3-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 3
+  },
+  "S-600-3-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 3
+  },
+  "S-600-3-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 3
+  },
+  "S-600-3-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 3
+  },
+  "S-600-3-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 3
+  },
+  "S-600-6-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 6
+  },
+  "S-600-6-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 6
+  },
+  "S-600-6-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 6
+  },
+  "S-600-6-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 6
+  },
+  "S-600-6-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 6
+  },
+  "S-600-9-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 9
+  },
+  "S-600-9-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 9
+  },
+  "S-600-9-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 9
+  },
+  "S-600-9-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 9
+  },
+  "S-600-9-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 600,
+    "torque": 9
+  },
+  "S-800-0-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 0
+  },
+  "S-800-0-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 0
+  },
+  "S-800-0-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 0
+  },
+  "S-800-0-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 0
+  },
+  "S-800-0-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 0
+  },
+  "S-800-3-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 3
+  },
+  "S-800-3-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 3
+  },
+  "S-800-3-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 3
+  },
+  "S-800-3-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 3
+  },
+  "S-800-3-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 3
+  },
+  "S-800-6-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 6
+  },
+  "S-800-6-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 6
+  },
+  "S-800-6-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 6
+  },
+  "S-800-6-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 6
+  },
+  "S-800-6-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 6
+  },
+  "S-800-9-1-O": {
+    "fault_label": 1,
+    "fault_name": "OUS(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 9
+  },
+  "S-800-9-2-O": {
+    "fault_label": 2,
+    "fault_name": "OLS(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 9
+  },
+  "S-800-9-3-O": {
+    "fault_label": 3,
+    "fault_name": "OP(A)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 9
+  },
+  "S-800-9-4-O": {
+    "fault_label": 4,
+    "fault_name": "OUS(A)&OUS(B)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 9
+  },
+  "S-800-9-5-O": {
+    "fault_label": 5,
+    "fault_name": "OLS(A)&OP(C)",
+    "label_source": "author_xlsx",
+    "speed": 800,
+    "torque": 9
+  }
+}

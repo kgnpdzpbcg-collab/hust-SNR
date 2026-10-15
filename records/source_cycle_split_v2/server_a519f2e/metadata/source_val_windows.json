@@ -1,0 +1,1770 @@
+[
+  {
+    "cycle_index": 14,
+    "end": 0.3999755956711956,
+    "label": 0,
+    "record_id": "S-1000-0-1-O",
+    "start": 0.37997722228779013,
+    "state": 0
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.4199739690577581,
+    "label": 0,
+    "record_id": "S-1000-0-1-O",
+    "start": 0.3999755956711956,
+    "state": 0
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.43997234244528455,
+    "label": 0,
+    "record_id": "S-1000-0-1-O",
+    "start": 0.4199739690577581,
+    "state": 0
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9199658599939189,
+    "label": 1,
+    "record_id": "S-1000-0-1-O",
+    "start": 0.899967488160528,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.939964231741782,
+    "label": 1,
+    "record_id": "S-1000-0-1-O",
+    "start": 0.9199658599939189,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9599626047595597,
+    "label": 1,
+    "record_id": "S-1000-0-1-O",
+    "start": 0.939964231741782,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9799609775996361,
+    "label": 1,
+    "record_id": "S-1000-0-1-O",
+    "start": 0.9599626047595597,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9199658286987734,
+    "label": 2,
+    "record_id": "S-1000-0-2-O",
+    "start": 0.8999674553781645,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9399642019480358,
+    "label": 2,
+    "record_id": "S-1000-0-2-O",
+    "start": 0.9199658286987734,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9599625752423324,
+    "label": 2,
+    "record_id": "S-1000-0-2-O",
+    "start": 0.9399642019480358,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9799609482629772,
+    "label": 2,
+    "record_id": "S-1000-0-2-O",
+    "start": 0.9599625752423324,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9199655924216145,
+    "label": 3,
+    "record_id": "S-1000-0-3-O",
+    "start": 0.8999672214555531,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9399639633926876,
+    "label": 3,
+    "record_id": "S-1000-0-3-O",
+    "start": 0.9199655924216145,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9599623371441806,
+    "label": 3,
+    "record_id": "S-1000-0-3-O",
+    "start": 0.9399639633926876,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9799607114537177,
+    "label": 3,
+    "record_id": "S-1000-0-3-O",
+    "start": 0.9599623371441806,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.919965555231948,
+    "label": 4,
+    "record_id": "S-1000-0-4-O",
+    "start": 0.8999671910178187,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9399639193587137,
+    "label": 4,
+    "record_id": "S-1000-0-4-O",
+    "start": 0.919965555231948,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9599622599952585,
+    "label": 4,
+    "record_id": "S-1000-0-4-O",
+    "start": 0.9399639193587137,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9799606290242101,
+    "label": 4,
+    "record_id": "S-1000-0-4-O",
+    "start": 0.9599622599952585,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.919965521191279,
+    "label": 5,
+    "record_id": "S-1000-0-5-O",
+    "start": 0.8999671534329268,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9399638890719582,
+    "label": 5,
+    "record_id": "S-1000-0-5-O",
+    "start": 0.919965521191279,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9599622648893334,
+    "label": 5,
+    "record_id": "S-1000-0-5-O",
+    "start": 0.9399638890719582,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9799606403169603,
+    "label": 5,
+    "record_id": "S-1000-0-5-O",
+    "start": 0.9599622648893334,
+    "state": 1
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.394584664734454,
+    "label": 0,
+    "record_id": "S-1000-3-1-O",
+    "start": 0.3749456917758697,
+    "state": 0
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.41422363763635345,
+    "label": 0,
+    "record_id": "S-1000-3-1-O",
+    "start": 0.394584664734454,
+    "state": 0
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.4338626104971619,
+    "label": 0,
+    "record_id": "S-1000-3-1-O",
+    "start": 0.41422363763635345,
+    "state": 0
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9124173571719749,
+    "label": 1,
+    "record_id": "S-1000-3-1-O",
+    "start": 0.892778435203295,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9320562780069928,
+    "label": 1,
+    "record_id": "S-1000-3-1-O",
+    "start": 0.9124173571719749,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9516951995232478,
+    "label": 1,
+    "record_id": "S-1000-3-1-O",
+    "start": 0.9320562780069928,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9713341226463653,
+    "label": 1,
+    "record_id": "S-1000-3-1-O",
+    "start": 0.9516951995232478,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9124188902796014,
+    "label": 2,
+    "record_id": "S-1000-3-2-O",
+    "start": 0.8927798865083396,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9320578925427443,
+    "label": 2,
+    "record_id": "S-1000-3-2-O",
+    "start": 0.9124188902796014,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9516968969106235,
+    "label": 2,
+    "record_id": "S-1000-3-2-O",
+    "start": 0.9320578925427443,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9713359018044332,
+    "label": 2,
+    "record_id": "S-1000-3-2-O",
+    "start": 0.9516968969106235,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9124167259702886,
+    "label": 3,
+    "record_id": "S-1000-3-3-O",
+    "start": 0.8927778255314895,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9320556263549975,
+    "label": 3,
+    "record_id": "S-1000-3-3-O",
+    "start": 0.9124167259702886,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9516945268686171,
+    "label": 3,
+    "record_id": "S-1000-3-3-O",
+    "start": 0.9320556263549975,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9713334308984564,
+    "label": 3,
+    "record_id": "S-1000-3-3-O",
+    "start": 0.9516945268686171,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9124150691058515,
+    "label": 4,
+    "record_id": "S-1000-3-4-O",
+    "start": 0.8927762787161706,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.932053860390203,
+    "label": 4,
+    "record_id": "S-1000-3-4-O",
+    "start": 0.9124150691058515,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9516926518916424,
+    "label": 4,
+    "record_id": "S-1000-3-4-O",
+    "start": 0.932053860390203,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9713313732014076,
+    "label": 4,
+    "record_id": "S-1000-3-4-O",
+    "start": 0.9516926518916424,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.912416052417702,
+    "label": 5,
+    "record_id": "S-1000-3-5-O",
+    "start": 0.8927771676902729,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9320549355399621,
+    "label": 5,
+    "record_id": "S-1000-3-5-O",
+    "start": 0.912416052417702,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9516938130566799,
+    "label": 5,
+    "record_id": "S-1000-3-5-O",
+    "start": 0.9320549355399621,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9713327029229404,
+    "label": 5,
+    "record_id": "S-1000-3-5-O",
+    "start": 0.9516938130566799,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.4086765591829198,
+    "label": 0,
+    "record_id": "S-1000-6-1-O",
+    "start": 0.38938429486145865,
+    "state": 0
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.4279688233618076,
+    "label": 0,
+    "record_id": "S-1000-6-1-O",
+    "start": 0.4086765591829198,
+    "state": 0
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.44726108743921233,
+    "label": 0,
+    "record_id": "S-1000-6-1-O",
+    "start": 0.4279688233618076,
+    "state": 0
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9051362272197968,
+    "label": 1,
+    "record_id": "S-1000-6-1-O",
+    "start": 0.885844015623199,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.924428438453525,
+    "label": 1,
+    "record_id": "S-1000-6-1-O",
+    "start": 0.9051362272197968,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9437206494210049,
+    "label": 1,
+    "record_id": "S-1000-6-1-O",
+    "start": 0.924428438453525,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9630128542620272,
+    "label": 1,
+    "record_id": "S-1000-6-1-O",
+    "start": 0.9437206494210049,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9051375681531022,
+    "label": 2,
+    "record_id": "S-1000-6-2-O",
+    "start": 0.8858452951027249,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.924429841425515,
+    "label": 2,
+    "record_id": "S-1000-6-2-O",
+    "start": 0.9051375681531022,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9437221152456465,
+    "label": 2,
+    "record_id": "S-1000-6-2-O",
+    "start": 0.924429841425515,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9630143861488123,
+    "label": 2,
+    "record_id": "S-1000-6-2-O",
+    "start": 0.9437221152456465,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9051333291348593,
+    "label": 3,
+    "record_id": "S-1000-6-3-O",
+    "start": 0.8858412553016478,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.924425403074561,
+    "label": 3,
+    "record_id": "S-1000-6-3-O",
+    "start": 0.9051333291348593,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9437174770080731,
+    "label": 3,
+    "record_id": "S-1000-6-3-O",
+    "start": 0.924425403074561,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9630095434908543,
+    "label": 3,
+    "record_id": "S-1000-6-3-O",
+    "start": 0.9437174770080731,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9090082789149202,
+    "label": 4,
+    "record_id": "S-1000-6-4-O",
+    "start": 0.8895313966268257,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9284814573814738,
+    "label": 4,
+    "record_id": "S-1000-6-4-O",
+    "start": 0.9090082789149202,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9479576006364322,
+    "label": 4,
+    "record_id": "S-1000-6-4-O",
+    "start": 0.9284814573814738,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.967434641197399,
+    "label": 4,
+    "record_id": "S-1000-6-4-O",
+    "start": 0.9479576006364322,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.9051307775763878,
+    "label": 5,
+    "record_id": "S-1000-6-5-O",
+    "start": 0.8858388122128322,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9244227424857078,
+    "label": 5,
+    "record_id": "S-1000-6-5-O",
+    "start": 0.9051307775763878,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9437147074795214,
+    "label": 5,
+    "record_id": "S-1000-6-5-O",
+    "start": 0.9244227424857078,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9630066626189939,
+    "label": 5,
+    "record_id": "S-1000-6-5-O",
+    "start": 0.9437147074795214,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.4033221508040893,
+    "label": 0,
+    "record_id": "S-1000-9-1-O",
+    "start": 0.3843645616184425,
+    "state": 0
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.42227973960690557,
+    "label": 0,
+    "record_id": "S-1000-9-1-O",
+    "start": 0.4033221508040893,
+    "state": 0
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.4412373281269044,
+    "label": 0,
+    "record_id": "S-1000-9-1-O",
+    "start": 0.42227973960690557,
+    "state": 0
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9170658750555559,
+    "label": 1,
+    "record_id": "S-1000-9-1-O",
+    "start": 0.8981083200562275,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9360234303328299,
+    "label": 1,
+    "record_id": "S-1000-9-1-O",
+    "start": 0.9170658750555559,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.954980973308737,
+    "label": 1,
+    "record_id": "S-1000-9-1-O",
+    "start": 0.9360234303328299,
+    "state": 1
+  },
+  {
+    "cycle_index": 22,
+    "end": 0.973938529583945,
+    "label": 1,
+    "record_id": "S-1000-9-1-O",
+    "start": 0.954980973308737,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9170656902984501,
+    "label": 2,
+    "record_id": "S-1000-9-2-O",
+    "start": 0.8981081482779946,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.936023233017344,
+    "label": 2,
+    "record_id": "S-1000-9-2-O",
+    "start": 0.9170656902984501,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9549807774662377,
+    "label": 2,
+    "record_id": "S-1000-9-2-O",
+    "start": 0.936023233017344,
+    "state": 1
+  },
+  {
+    "cycle_index": 22,
+    "end": 0.973938321420177,
+    "label": 2,
+    "record_id": "S-1000-9-2-O",
+    "start": 0.9549807774662377,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9170602442002949,
+    "label": 3,
+    "record_id": "S-1000-9-3-O",
+    "start": 0.898102942320425,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9360175460079395,
+    "label": 3,
+    "record_id": "S-1000-9-3-O",
+    "start": 0.9170602442002949,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9549748395427757,
+    "label": 3,
+    "record_id": "S-1000-9-3-O",
+    "start": 0.9360175460079395,
+    "state": 1
+  },
+  {
+    "cycle_index": 22,
+    "end": 0.9739321458176745,
+    "label": 3,
+    "record_id": "S-1000-9-3-O",
+    "start": 0.9549748395427757,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.895557819291036,
+    "label": 4,
+    "record_id": "S-1000-9-4-O",
+    "start": 0.8735844501292973,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9175311462227645,
+    "label": 4,
+    "record_id": "S-1000-9-4-O",
+    "start": 0.895557819291036,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.9395048387636303,
+    "label": 4,
+    "record_id": "S-1000-9-4-O",
+    "start": 0.9175311462227645,
+    "state": 1
+  },
+  {
+    "cycle_index": 18,
+    "end": 0.96147834143884,
+    "label": 4,
+    "record_id": "S-1000-9-4-O",
+    "start": 0.9395048387636303,
+    "state": 1
+  },
+  {
+    "cycle_index": 19,
+    "end": 0.9170545323415794,
+    "label": 5,
+    "record_id": "S-1000-9-5-O",
+    "start": 0.8980974978342681,
+    "state": 1
+  },
+  {
+    "cycle_index": 20,
+    "end": 0.9360116269844327,
+    "label": 5,
+    "record_id": "S-1000-9-5-O",
+    "start": 0.9170545323415794,
+    "state": 1
+  },
+  {
+    "cycle_index": 21,
+    "end": 0.9549686942371074,
+    "label": 5,
+    "record_id": "S-1000-9-5-O",
+    "start": 0.9360116269844327,
+    "state": 1
+  },
+  {
+    "cycle_index": 22,
+    "end": 0.9739257487984625,
+    "label": 5,
+    "record_id": "S-1000-9-5-O",
+    "start": 0.9549686942371074,
+    "state": 1
+  },
+  {
+    "cycle_index": 6,
+    "end": 0.44997118302430555,
+    "label": 0,
+    "record_id": "S-400-0-1-O",
+    "start": 0.3999752404151154,
+    "state": 0
+  },
+  {
+    "cycle_index": 6,
+    "end": 0.9499631750305308,
+    "label": 1,
+    "record_id": "S-400-0-1-O",
+    "start": 0.8999672945512176,
+    "state": 1
+  },
+  {
+    "cycle_index": 6,
+    "end": 0.949963501775174,
+    "label": 2,
+    "record_id": "S-400-0-2-O",
+    "start": 0.8999675426695192,
+    "state": 1
+  },
+  {
+    "cycle_index": 6,
+    "end": 0.9499632337841096,
+    "label": 3,
+    "record_id": "S-400-0-3-O",
+    "start": 0.8999673301216244,
+    "state": 1
+  },
+  {
+    "cycle_index": 8,
+    "end": 0.3999752165776383,
+    "label": 0,
+    "record_id": "S-600-0-1-O",
+    "start": 0.36664459067632327,
+    "state": 0
+  },
+  {
+    "cycle_index": 9,
+    "end": 0.43330584322202476,
+    "label": 0,
+    "record_id": "S-600-0-1-O",
+    "start": 0.3999752165776383,
+    "state": 0
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9332983716051455,
+    "label": 1,
+    "record_id": "S-600-0-1-O",
+    "start": 0.8999677439034858,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9666290108975059,
+    "label": 1,
+    "record_id": "S-600-0-1-O",
+    "start": 0.9332983716051455,
+    "state": 1
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9332982198614672,
+    "label": 2,
+    "record_id": "S-600-0-2-O",
+    "start": 0.8999675816211441,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9666288557307475,
+    "label": 2,
+    "record_id": "S-600-0-2-O",
+    "start": 0.9332982198614672,
+    "state": 1
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9332983480882843,
+    "label": 3,
+    "record_id": "S-600-0-3-O",
+    "start": 0.8999677067718878,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9666289965356032,
+    "label": 3,
+    "record_id": "S-600-0-3-O",
+    "start": 0.9332983480882843,
+    "state": 1
+  },
+  {
+    "cycle_index": 8,
+    "end": 0.3999752165776383,
+    "label": 0,
+    "record_id": "S-600-0-4-O",
+    "start": 0.36664459067632327,
+    "state": 0
+  },
+  {
+    "cycle_index": 9,
+    "end": 0.43330584322202476,
+    "label": 0,
+    "record_id": "S-600-0-4-O",
+    "start": 0.3999752165776383,
+    "state": 0
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9333005695972629,
+    "label": 4,
+    "record_id": "S-600-0-4-O",
+    "start": 0.8999697932176184,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9666314065197259,
+    "label": 4,
+    "record_id": "S-600-0-4-O",
+    "start": 0.9333005695972629,
+    "state": 1
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9332974329495989,
+    "label": 5,
+    "record_id": "S-600-0-5-O",
+    "start": 0.8999668299641435,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9666280248053716,
+    "label": 5,
+    "record_id": "S-600-0-5-O",
+    "start": 0.9332974329495989,
+    "state": 1
+  },
+  {
+    "cycle_index": 8,
+    "end": 0.3910973043153784,
+    "label": 0,
+    "record_id": "S-600-3-1-O",
+    "start": 0.3587531681285876,
+    "state": 0
+  },
+  {
+    "cycle_index": 9,
+    "end": 0.4234414395525478,
+    "label": 0,
+    "record_id": "S-600-3-1-O",
+    "start": 0.3910973043153784,
+    "state": 0
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9204720367849101,
+    "label": 1,
+    "record_id": "S-600-3-1-O",
+    "start": 0.8881280274979153,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9528160436828802,
+    "label": 1,
+    "record_id": "S-600-3-1-O",
+    "start": 0.9204720367849101,
+    "state": 1
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9204740124798882,
+    "label": 2,
+    "record_id": "S-600-3-2-O",
+    "start": 0.8881298462657174,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9528181907669504,
+    "label": 2,
+    "record_id": "S-600-3-2-O",
+    "start": 0.9204740124798882,
+    "state": 1
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9204714192831684,
+    "label": 3,
+    "record_id": "S-600-3-3-O",
+    "start": 0.8881274363710936,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9528154121840557,
+    "label": 3,
+    "record_id": "S-600-3-3-O",
+    "start": 0.9204714192831684,
+    "state": 1
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9204727835679787,
+    "label": 4,
+    "record_id": "S-600-3-4-O",
+    "start": 0.8881286177536643,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9528169702258061,
+    "label": 4,
+    "record_id": "S-600-3-4-O",
+    "start": 0.9204727835679787,
+    "state": 1
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.9204689822468987,
+    "label": 5,
+    "record_id": "S-600-3-5-O",
+    "start": 0.8881251739939705,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9528128159467754,
+    "label": 5,
+    "record_id": "S-600-3-5-O",
+    "start": 0.9204689822468987,
+    "state": 1
+  },
+  {
+    "cycle_index": 9,
+    "end": 0.4141443610146116,
+    "label": 0,
+    "record_id": "S-600-6-1-O",
+    "start": 0.38273000612210495,
+    "state": 0
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.4455587161359975,
+    "label": 0,
+    "record_id": "S-600-6-1-O",
+    "start": 0.4141443610146116,
+    "state": 0
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9397985342251491,
+    "label": 1,
+    "record_id": "S-600-6-1-O",
+    "start": 0.9083843415042036,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.971212733652537,
+    "label": 1,
+    "record_id": "S-600-6-1-O",
+    "start": 0.9397985342251491,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9398007983190204,
+    "label": 2,
+    "record_id": "S-600-6-2-O",
+    "start": 0.9083864216411555,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.9712151712171759,
+    "label": 2,
+    "record_id": "S-600-6-2-O",
+    "start": 0.9398007983190204,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.939796208638857,
+    "label": 3,
+    "record_id": "S-600-6-3-O",
+    "start": 0.9083821600471199,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.9712102635200333,
+    "label": 3,
+    "record_id": "S-600-6-3-O",
+    "start": 0.939796208638857,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9398059073626353,
+    "label": 4,
+    "record_id": "S-600-6-4-O",
+    "start": 0.9083910070299521,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.9712206407075922,
+    "label": 4,
+    "record_id": "S-600-6-4-O",
+    "start": 0.9398059073626353,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9397904152071819,
+    "label": 5,
+    "record_id": "S-600-6-5-O",
+    "start": 0.9083767303572198,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.9712041126409235,
+    "label": 5,
+    "record_id": "S-600-6-5-O",
+    "start": 0.9397904152071819,
+    "state": 1
+  },
+  {
+    "cycle_index": 9,
+    "end": 0.40536584100853174,
+    "label": 0,
+    "record_id": "S-600-9-1-O",
+    "start": 0.3748292970059663,
+    "state": 0
+  },
+  {
+    "cycle_index": 10,
+    "end": 0.4359023841175968,
+    "label": 0,
+    "record_id": "S-600-9-1-O",
+    "start": 0.40536584100853174,
+    "state": 0
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9275093074254984,
+    "label": 1,
+    "record_id": "S-600-9-1-O",
+    "start": 0.8969728878286822,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.958045740955072,
+    "label": 1,
+    "record_id": "S-600-9-1-O",
+    "start": 0.9275093074254984,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9275096367149676,
+    "label": 2,
+    "record_id": "S-600-9-2-O",
+    "start": 0.8969731705933189,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.9580460994280037,
+    "label": 2,
+    "record_id": "S-600-9-2-O",
+    "start": 0.9275096367149676,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9275042388100498,
+    "label": 3,
+    "record_id": "S-600-9-3-O",
+    "start": 0.8969681245150849,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.9580403613956003,
+    "label": 3,
+    "record_id": "S-600-9-3-O",
+    "start": 0.9275042388100498,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9275129705897982,
+    "label": 4,
+    "record_id": "S-600-9-4-O",
+    "start": 0.8969761600332737,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.9580498760650177,
+    "label": 4,
+    "record_id": "S-600-9-4-O",
+    "start": 0.9275129705897982,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.9274959396925844,
+    "label": 5,
+    "record_id": "S-600-9-5-O",
+    "start": 0.896960320948968,
+    "state": 1
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.958031556232344,
+    "label": 5,
+    "record_id": "S-600-9-5-O",
+    "start": 0.9274959396925844,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.399975187622026,
+    "label": 0,
+    "record_id": "S-800-0-1-O",
+    "start": 0.374977219839455,
+    "state": 0
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.4249731558255524,
+    "label": 0,
+    "record_id": "S-800-0-1-O",
+    "start": 0.399975187622026,
+    "state": 0
+  },
+  {
+    "cycle_index": 13,
+    "end": 0.4499711242960117,
+    "label": 0,
+    "record_id": "S-800-0-1-O",
+    "start": 0.4249731558255524,
+    "state": 0
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.924965836209516,
+    "label": 1,
+    "record_id": "S-800-0-1-O",
+    "start": 0.8999678511273762,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9499638314579019,
+    "label": 1,
+    "record_id": "S-800-0-1-O",
+    "start": 0.924965836209516,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9749618102129047,
+    "label": 1,
+    "record_id": "S-800-0-1-O",
+    "start": 0.9499638314579019,
+    "state": 1
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.924965498287669,
+    "label": 2,
+    "record_id": "S-800-0-2-O",
+    "start": 0.8999675291487346,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9499634734407577,
+    "label": 2,
+    "record_id": "S-800-0-2-O",
+    "start": 0.924965498287669,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9749614556134909,
+    "label": 2,
+    "record_id": "S-800-0-2-O",
+    "start": 0.9499634734407577,
+    "state": 1
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.9249656413015246,
+    "label": 3,
+    "record_id": "S-800-0-3-O",
+    "start": 0.8999676553308608,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.949963640586844,
+    "label": 3,
+    "record_id": "S-800-0-3-O",
+    "start": 0.9249656413015246,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9749616311761684,
+    "label": 3,
+    "record_id": "S-800-0-3-O",
+    "start": 0.949963640586844,
+    "state": 1
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.9249660302737713,
+    "label": 4,
+    "record_id": "S-800-0-4-O",
+    "start": 0.8999680204899267,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9499640930114462,
+    "label": 4,
+    "record_id": "S-800-0-4-O",
+    "start": 0.9249660302737713,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9749621451816628,
+    "label": 4,
+    "record_id": "S-800-0-4-O",
+    "start": 0.9499640930114462,
+    "state": 1
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.9249651969646959,
+    "label": 5,
+    "record_id": "S-800-0-5-O",
+    "start": 0.8999672346785291,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9499631906685143,
+    "label": 5,
+    "record_id": "S-800-0-5-O",
+    "start": 0.9249651969646959,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9749611670574574,
+    "label": 5,
+    "record_id": "S-800-0-5-O",
+    "start": 0.9499631906685143,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.3932671616686484,
+    "label": 0,
+    "record_id": "S-800-3-1-O",
+    "start": 0.36882823717899493,
+    "state": 0
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.41770608606793364,
+    "label": 0,
+    "record_id": "S-800-3-1-O",
+    "start": 0.3932671616686484,
+    "state": 0
+  },
+  {
+    "cycle_index": 13,
+    "end": 0.4421450104063764,
+    "label": 0,
+    "record_id": "S-800-3-1-O",
+    "start": 0.41770608606793364,
+    "state": 0
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.915460323351878,
+    "label": 1,
+    "record_id": "S-800-3-1-O",
+    "start": 0.8910214776230795,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.93989917034172,
+    "label": 1,
+    "record_id": "S-800-3-1-O",
+    "start": 0.915460323351878,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9643380134714337,
+    "label": 1,
+    "record_id": "S-800-3-1-O",
+    "start": 0.93989917034172,
+    "state": 1
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.915462310483235,
+    "label": 2,
+    "record_id": "S-800-3-2-O",
+    "start": 0.891023340573576,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9399012801066885,
+    "label": 2,
+    "record_id": "S-800-3-2-O",
+    "start": 0.915462310483235,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9643402448679435,
+    "label": 2,
+    "record_id": "S-800-3-2-O",
+    "start": 0.9399012801066885,
+    "state": 1
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.9154598214895152,
+    "label": 3,
+    "record_id": "S-800-3-3-O",
+    "start": 0.891020989103667,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9398986542466831,
+    "label": 3,
+    "record_id": "S-800-3-3-O",
+    "start": 0.9154598214895152,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9643374787965705,
+    "label": 3,
+    "record_id": "S-800-3-3-O",
+    "start": 0.9398986542466831,
+    "state": 1
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.9154586312443644,
+    "label": 4,
+    "record_id": "S-800-3-4-O",
+    "start": 0.8910198383453245,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9398974249895234,
+    "label": 4,
+    "record_id": "S-800-3-4-O",
+    "start": 0.9154586312443644,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9643361900461594,
+    "label": 4,
+    "record_id": "S-800-3-4-O",
+    "start": 0.9398974249895234,
+    "state": 1
+  },
+  {
+    "cycle_index": 14,
+    "end": 0.9154589671042056,
+    "label": 5,
+    "record_id": "S-800-3-5-O",
+    "start": 0.891020173626812,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9398977631632697,
+    "label": 5,
+    "record_id": "S-800-3-5-O",
+    "start": 0.9154589671042056,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9643365522165938,
+    "label": 5,
+    "record_id": "S-800-3-5-O",
+    "start": 0.9398977631632697,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.38685239130237564,
+    "label": 0,
+    "record_id": "S-800-6-1-O",
+    "start": 0.36294805267056335,
+    "state": 0
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.41075672960881754,
+    "label": 0,
+    "record_id": "S-800-6-1-O",
+    "start": 0.38685239130237564,
+    "state": 0
+  },
+  {
+    "cycle_index": 13,
+    "end": 0.4346610677099742,
+    "label": 0,
+    "record_id": "S-800-6-1-O",
+    "start": 0.41075672960881754,
+    "state": 0
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9302763588700269,
+    "label": 1,
+    "record_id": "S-800-6-1-O",
+    "start": 0.9063720996109488,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9541806113998147,
+    "label": 1,
+    "record_id": "S-800-6-1-O",
+    "start": 0.9302763588700269,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.9780848721855564,
+    "label": 1,
+    "record_id": "S-800-6-1-O",
+    "start": 0.9541806113998147,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9302780476178037,
+    "label": 2,
+    "record_id": "S-800-6-2-O",
+    "start": 0.9063736977760766,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9541823982562841,
+    "label": 2,
+    "record_id": "S-800-6-2-O",
+    "start": 0.9302780476178037,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.9780867486928482,
+    "label": 2,
+    "record_id": "S-800-6-2-O",
+    "start": 0.9541823982562841,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9302733408835974,
+    "label": 3,
+    "record_id": "S-800-6-3-O",
+    "start": 0.9063692450872367,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9541774310794598,
+    "label": 3,
+    "record_id": "S-800-6-3-O",
+    "start": 0.9302733408835974,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.9780815292621327,
+    "label": 3,
+    "record_id": "S-800-6-3-O",
+    "start": 0.9541774310794598,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.3868523913025488,
+    "label": 0,
+    "record_id": "S-800-6-4-O",
+    "start": 0.3629480526707414,
+    "state": 0
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.41075672960888376,
+    "label": 0,
+    "record_id": "S-800-6-4-O",
+    "start": 0.3868523913025488,
+    "state": 0
+  },
+  {
+    "cycle_index": 13,
+    "end": 0.43466106771006663,
+    "label": 0,
+    "record_id": "S-800-6-4-O",
+    "start": 0.41075672960888376,
+    "state": 0
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9302765494296962,
+    "label": 4,
+    "record_id": "S-800-6-4-O",
+    "start": 0.906372198934751,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9541808128579031,
+    "label": 4,
+    "record_id": "S-800-6-4-O",
+    "start": 0.9302765494296962,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.9780851799233701,
+    "label": 4,
+    "record_id": "S-800-6-4-O",
+    "start": 0.9541808128579031,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9302697013333995,
+    "label": 5,
+    "record_id": "S-800-6-5-O",
+    "start": 0.90636579041262,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9541736222126729,
+    "label": 5,
+    "record_id": "S-800-6-5-O",
+    "start": 0.9302697013333995,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.9780775387952021,
+    "label": 5,
+    "record_id": "S-800-6-5-O",
+    "start": 0.9541736222126729,
+    "state": 1
+  },
+  {
+    "cycle_index": 11,
+    "end": 0.38071244079317057,
+    "label": 0,
+    "record_id": "S-800-9-1-O",
+    "start": 0.3573197968296908,
+    "state": 0
+  },
+  {
+    "cycle_index": 12,
+    "end": 0.4041050839218738,
+    "label": 0,
+    "record_id": "S-800-9-1-O",
+    "start": 0.38071244079317057,
+    "state": 0
+  },
+  {
+    "cycle_index": 13,
+    "end": 0.4274977264757666,
+    "label": 0,
+    "record_id": "S-800-9-1-O",
+    "start": 0.4041050839218738,
+    "state": 0
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9210662856012369,
+    "label": 1,
+    "record_id": "S-800-9-1-O",
+    "start": 0.8976736923880708,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9444588793034076,
+    "label": 1,
+    "record_id": "S-800-9-1-O",
+    "start": 0.9210662856012369,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.9678514847450451,
+    "label": 1,
+    "record_id": "S-800-9-1-O",
+    "start": 0.9444588793034076,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9210660438223164,
+    "label": 2,
+    "record_id": "S-800-9-2-O",
+    "start": 0.8976734717119133,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9444586156405916,
+    "label": 2,
+    "record_id": "S-800-9-2-O",
+    "start": 0.9210660438223164,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.9678511863257653,
+    "label": 2,
+    "record_id": "S-800-9-2-O",
+    "start": 0.9444586156405916,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9210602852009142,
+    "label": 3,
+    "record_id": "S-800-9-3-O",
+    "start": 0.8976680205742954,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9444525498451037,
+    "label": 3,
+    "record_id": "S-800-9-3-O",
+    "start": 0.9210602852009142,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.9678448220984067,
+    "label": 3,
+    "record_id": "S-800-9-3-O",
+    "start": 0.9444525498451037,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9252004591540025,
+    "label": 4,
+    "record_id": "S-800-9-4-O",
+    "start": 0.9015782999260799,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9488221884738054,
+    "label": 4,
+    "record_id": "S-800-9-4-O",
+    "start": 0.9252004591540025,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.972444246764783,
+    "label": 4,
+    "record_id": "S-800-9-4-O",
+    "start": 0.9488221884738054,
+    "state": 1
+  },
+  {
+    "cycle_index": 15,
+    "end": 0.9210526985018701,
+    "label": 5,
+    "record_id": "S-800-9-5-O",
+    "start": 0.8976608242632717,
+    "state": 1
+  },
+  {
+    "cycle_index": 16,
+    "end": 0.9444445724698057,
+    "label": 5,
+    "record_id": "S-800-9-5-O",
+    "start": 0.9210526985018701,
+    "state": 1
+  },
+  {
+    "cycle_index": 17,
+    "end": 0.967836461858627,
+    "label": 5,
+    "record_id": "S-800-9-5-O",
+    "start": 0.9444445724698057,
+    "state": 1
+  }
+]

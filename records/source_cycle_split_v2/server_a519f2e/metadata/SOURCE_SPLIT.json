@@ -1,0 +1,142 @@
+{
+  "author_xlsx_sha256": "563791895c1af2122b8ad83f7581a9e3233f1bddab36a46f5c961c34a40388e5",
+  "conditions": [
+    [
+      400,
+      0
+    ],
+    [
+      600,
+      0
+    ],
+    [
+      600,
+      3
+    ],
+    [
+      600,
+      6
+    ],
+    [
+      600,
+      9
+    ],
+    [
+      800,
+      0
+    ],
+    [
+      800,
+      3
+    ],
+    [
+      800,
+      6
+    ],
+    [
+      800,
+      9
+    ],
+    [
+      1000,
+      0
+    ],
+    [
+      1000,
+      3
+    ],
+    [
+      1000,
+      6
+    ],
+    [
+      1000,
+      9
+    ]
+  ],
+  "config": {
+    "assignment": "each unique healthy segment and each fault segment: early cycles train, one full cycle gap, late cycles validation",
+    "gap_cycles": 1,
+    "healthy_deduplication": "exact float64 five-phase current bytes from 0.1 through 0.45 seconds; lexicographically first record retained",
+    "labels": "validate all 59 XLSX entries against filenames; infer remaining four labels from the verified filename convention with user authorization",
+    "models_trained_during_preparation": false,
+    "protocol": "hust-source-cycle-split-v2",
+    "raw_points": 4096,
+    "separate_source_test": false,
+    "source_files": 63,
+    "source_fs_hz": 10000,
+    "source_train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "source_val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "target_split_changed": false,
+    "validation_fraction": 0.2
+  },
+  "healthy_unique_segments": 15,
+  "label_sources": {
+    "author_xlsx": 59,
+    "filename_inferred_user_authorized": 4
+  },
+  "metadata_sha256": {
+    "HEALTHY_DUPLICATE_FAMILIES.json": "36bba189711a0449ada6b4795cdf062954da162460e9b14b935f72b5b028fc69",
+    "SOURCE_INPUTS.json": "dde28dbe7bb53d0e5d8b9a4984400b6dcc959228eed6758c2abb40922a6a84d2",
+    "SOURCE_LABELS.json": "289171ddcb6e1162326be2f3fd55b0250a1a73238db0a0131545abbec744f252",
+    "source_gap_windows.json": "284cd00d470f6df120df584ea3c58534aa512e64e9b63a83ac7e4cf899cf4876",
+    "source_train_windows.json": "c7d99dfd636ec7b8709df7c25fa816c4b5a1a1a1d2960b5d0321c69ad92a13f1",
+    "source_val_windows.json": "fa9bc63a2735fd9fa5ebbec61bee73727e9d5a0c36bf9e34bd6ec890b0bb9b62"
+  },
+  "protocol": "hust-source-cycle-split-v2",
+  "sets": {
+    "gap": {
+      "class_counts": [
+        15,
+        13,
+        13,
+        13,
+        12,
+        12
+      ],
+      "records": 63,
+      "samples": 78
+    },
+    "train": {
+      "class_counts": [
+        146,
+        166,
+        166,
+        166,
+        157,
+        161
+      ],
+      "records": 63,
+      "samples": 962
+    },
+    "val": {
+      "class_counts": [
+        38,
+        37,
+        37,
+        37,
+        36,
+        36
+      ],
+      "records": 63,
+      "samples": 221
+    }
+  },
+  "source_records": 63,
+  "source_test_created": false,
+  "target_split_changed": false
+}

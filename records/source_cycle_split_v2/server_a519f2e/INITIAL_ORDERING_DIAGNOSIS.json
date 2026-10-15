@@ -1,0 +1,25 @@
+{
+  "initial_commit": "0240df5",
+  "initial_failure": "SOURCE_SPLIT.json byte hash differs across Windows/Linux",
+  "initial_json_semantically_equal": true,
+  "initial_window_and_label_metadata_identical": true,
+  "local_metadata_key_order": [
+    "HEALTHY_DUPLICATE_FAMILIES.json",
+    "source_gap_windows.json",
+    "SOURCE_INPUTS.json",
+    "SOURCE_LABELS.json",
+    "source_train_windows.json",
+    "source_val_windows.json"
+  ],
+  "server_metadata_key_order": [
+    "HEALTHY_DUPLICATE_FAMILIES.json",
+    "SOURCE_INPUTS.json",
+    "SOURCE_LABELS.json",
+    "source_gap_windows.json",
+    "source_train_windows.json",
+    "source_val_windows.json"
+  ],
+  "repair_commit": "a519f2e",
+  "repair": "fixed JSON key ordering and LF line endings; no window or label changes",
+  "original_generation_preserved": true
+}

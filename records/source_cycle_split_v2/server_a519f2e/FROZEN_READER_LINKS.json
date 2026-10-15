@@ -1,0 +1,9 @@
+{
+  "links": {
+    "data/source": "/home/wang/projects/会议论文/hust/data/source",
+    "data/target_dev/clean": "/home/wang/projects/会议论文/hust/data/target_dev/clean"
+  },
+  "source_v2_root": "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+  "target_waveforms_read": false,
+  "model_training_started": false
+}

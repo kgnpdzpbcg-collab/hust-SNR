@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "code_commit": "a519f2e3a9a9df23d80a8dc82f3bace85944962f",
+  "python": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "torch_version": "2.14.1+cu130",
+  "existing_uv_environment_reused": true,
+  "dependencies_installed": false,
+  "data_root": "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+  "code_root": "/home/wang/projects/会议论文/hust/experiments/source_cycle_split_v2/a519f2e/code",
+  "source_split": {
+    "protocol": "hust-source-cycle-split-v2",
+    "manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "sets": {
+      "gap": {
+        "class_counts": [
+          15,
+          13,
+          13,
+          13,
+          12,
+          12
+        ],
+        "records": 63,
+        "samples": 78
+      },
+      "train": {
+        "class_counts": [
+          146,
+          166,
+          166,
+          166,
+          157,
+          161
+        ],
+        "records": 63,
+        "samples": 962
+      },
+      "val": {
+        "class_counts": [
+          38,
+          37,
+          37,
+          37,
+          36,
+          36
+        ],
+        "records": 63,
+        "samples": 221
+      }
+    },
+    "source_records": 63,
+    "target_split_changed": false
+  },
+  "local_server_metadata_exact_match": 8,
+  "unit_tests_passed": 78,
+  "original_source_inputs_sha_unchanged": 59,
+  "source_train_shape": [
+    962,
+    5,
+    4096
+  ],
+  "source_val_shape": [
+    221,
+    5,
+    4096
+  ],
+  "class_counts_train": [
+    146,
+    166,
+    166,
+    166,
+    157,
+    161
+  ],
+  "class_counts_val": [
+    38,
+    37,
+    37,
+    37,
+    36,
+    36
+  ],
+  "fixed_validation_noise_repeatable": true,
+  "validation_cycle_sha256": {
+    "0": "ccd5bfa5a87cff48ef65551f61e44c12cef07ff0b05ac74fbbb213fb166a95fc",
+    "5": "966afd42173d232c0cc154a8d635f0b4e07ce75661b21bfe385e872cad8f7031",
+    "10": "b0840eabc96ea517a246074baa820967453dbb4071c84f4a9fad1f56da411938",
+    "20": "c1e1f0c73237381a15ef1d15983201e5da5313506ee620d297e44bc752afd9ed",
+    "30": "c0fbc65b00c0df3dbf3b259570b10dbf9c60f7d09c6eb35551e9f05dc30760e3"
+  },
+  "first_training_noise_sha256_seed42": "c3d5094bb47e3ce8aaa2eec4531a6841f1aa8a3b69642c2257238fe81b983e86",
+  "model_training_started": false,
+  "target_waveforms_read": false
+}

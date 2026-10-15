@@ -1,0 +1,48 @@
+{
+  "all_observed_fault_conditions_in_train_and_val": true,
+  "cross_split_exact_cycle_duplicates": 0,
+  "minimum_gap_seconds": 0.01895701271717465,
+  "models_trained": false,
+  "same_record_time_blocks_are_not_independent_acquisitions": true,
+  "segments_checked": 78,
+  "sets": {
+    "gap": {
+      "class_counts": [
+        15,
+        13,
+        13,
+        13,
+        12,
+        12
+      ],
+      "records": 63,
+      "samples": 78
+    },
+    "train": {
+      "class_counts": [
+        146,
+        166,
+        166,
+        166,
+        157,
+        161
+      ],
+      "records": 63,
+      "samples": 962
+    },
+    "val": {
+      "class_counts": [
+        38,
+        37,
+        37,
+        37,
+        36,
+        36
+      ],
+      "records": 63,
+      "samples": 221
+    }
+  },
+  "status": "passed",
+  "target_waveforms_read": false
+}

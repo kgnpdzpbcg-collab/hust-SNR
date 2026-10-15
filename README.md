@@ -486,3 +486,4 @@ A1/B1入口默认使用新划分和独立输出目录；历史结果仍属于旧
 
 - [完整规则、类别数量、标签来源与命令](docs/SOURCE_CYCLE_SPLIT_V2.md) · [数据配置](configs/source_cycle_split_v2.json)
 - [生成及通用读取接口](scripts/source_cycle_split.py) · [重复、隔离和入口选择测试](tests/test_source_cycle_split.py)
+- [服务器准备记录、逐工况计数及78项测试核验](records/source_cycle_split_v2/server_a519f2e/SERVER_RESULTS.md)
