@@ -1,11 +1,11 @@
 """Independent HUST A1/B1 source-only experiment runner.
 
 Commands (from repo root):
-  python scripts/hust_prototypes_experiment.py smoke
-  python scripts/hust_prototypes_experiment.py train --methods a1 b1 --source-strong-root ROOT
-  python scripts/hust_prototypes_experiment.py evaluate --methods a1 b1 \
+  python scripts/hust_a1_b1_experiment.py smoke
+  python scripts/hust_a1_b1_experiment.py train --methods a1 b1 --source-split-root outputs/source_cycle_split_v2
+  python scripts/hust_a1_b1_experiment.py evaluate --methods a1 b1 \
       --strong-root /path/old_generated/target --extreme-root /path/new_extreme_root
-  python scripts/hust_prototypes_experiment.py summarize --methods a1 b1
+  python scripts/hust_a1_b1_experiment.py summarize --methods a1 b1
 
 The runner NEVER reads target data during training or checkpoint selection.
 No source test/final holdout loader is defined; only the frozen 88-family Dev.
@@ -34,10 +34,15 @@ from hust_b1_phase_harmonic import (
     B1PhaseAwareRecoveryNet, b1_paired_loss, b1_recovery_objective,
 )
 from hust_b0_harmonic_recovery import count_parameters
+from source_cycle_split import (
+    DEFAULT_OUT as SOURCE_CYCLE_ROOT, source_views as cycle_source_views,
+    source_provenance,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "configs/hust_prototypes_a1_b1_v1.json"
 OUT = Path("outputs/hust_prototypes_a1_b1_v1")
+CYCLE_OUT = Path("outputs/hust_prototypes_a1_b1_source_cycles_v2")
 METHODS = ("a1", "b1")
 SEEDS = (42, 43, 44)
 TRAIN_NOISE = (10, 15, 20, 25, 30, 35, 40)
@@ -149,7 +154,13 @@ def source_pretrain_b1(model: B1PhaseAwareRecoveryNet, tr: dict, tm: list,
     return history
 
 
-def train(method: str, seed: int, out: Path, source_strong_root: Path) -> None:
+def train(method: str, seed: int, out: Path, source_strong_root: Path | None,
+          source_split_root: Path | None = None) -> None:
+    """按显式数据版本训练；模型和优化配置保持原值，数量按实际窗口记录。
+
+    CLI默认使用新周期划分；历史34/15文件协议通过--legacy-source-split
+    显式选择，旧版归档仍可复现。两套数据使用不同默认输出目录。
+    """
     config = get_config()
     if method not in METHODS or seed not in SEEDS:
         raise ValueError("Method or seed not permitted")
@@ -157,7 +168,15 @@ def train(method: str, seed: int, out: Path, source_strong_root: Path) -> None:
     if destination.exists():
         raise FileExistsError(f"Refusing to overwrite {destination}")
     fix_randomness(seed)
-    (tr, tm, y, clean), (_, _, vy, val_clean, val_noise) = source_views(source_strong_root)
+    if source_split_root is not None:
+        views = cycle_source_views(source_split_root)
+        source_split = source_provenance(source_split_root)
+    else:
+        if source_strong_root is None:
+            raise ValueError("旧文件划分需要--source-strong-root")
+        views = source_views(source_strong_root)
+        source_split = {"protocol": "gate0_v1", "source_records": 59}
+    (tr, tm, y, clean), (_, _, vy, val_clean, val_noise) = views
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = build_model(method).to(device)
     initial_sha = digest_parameters(model)
@@ -230,6 +249,7 @@ def train(method: str, seed: int, out: Path, source_strong_root: Path) -> None:
         "state": states[chosen["epoch"]],
         "method": method, "seed": seed, "protocol": PROTOCOL,
         "selected": chosen, "config": config, "source_only": True,
+        "source_split": source_split,
         "final_holdout_evaluated": False,
     }, destination / "best.pt")
     write_json(destination / "history.json", history)
@@ -238,8 +258,8 @@ def train(method: str, seed: int, out: Path, source_strong_root: Path) -> None:
         "initial_parameters_sha256": initial_sha,
         "parameters": count_parameters(model),
         "selected": chosen, "pretrain_recovery_losses": pretrain_history,
-        "config": config, "source_train_cycles": 738,
-        "source_val_cycles": 302,
+        "config": config, "source_train_cycles": len(y),
+        "source_val_cycles": len(vy), "source_split": source_split,
         "target_used_for_training_or_selection": False,
         "final_holdout_evaluated": False,
     })
@@ -279,6 +299,8 @@ def evaluate(method: str, seed: int, out: Path, conditions: list[int], *,
         raise ValueError("Target data leakage marker")
     if saved["config"] != get_config():
         raise ValueError("Incompatible checkpoint configuration")
+    if saved.get("source_split") != run.get("source_split"):
+        raise ValueError("权重与运行记录的数据划分来源不一致")
     fix_randomness(seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = build_model(method).to(device)
@@ -306,6 +328,7 @@ def evaluate(method: str, seed: int, out: Path, conditions: list[int], *,
             "predicted": pred.tolist(),
             "metrics": metrics(labels, pred),
             "source_only_selection": saved["selected"],
+            "source_split": saved.get("source_split", {"protocol": "gate0_v1"}),
             "noise_source": "10dB_author_residual_scaled_to_requested_SNR",
             "target_used_for_training_or_checkpoint_selection": False,
             "final_holdout_evaluated": False,
@@ -318,6 +341,7 @@ def evaluate(method: str, seed: int, out: Path, conditions: list[int], *,
 def summarize(out: Path, methods: list[str], seeds: list[int], conditions: list[int]) -> None:
     per_seed, per_class, summary = [], [], []
     common_truth = None
+    common_source_split = None
     for method in methods:
         for seed in seeds:
             for snr in conditions:
@@ -335,6 +359,11 @@ def summarize(out: Path, methods: list[str], seeds: list[int], conditions: list[
                     common_truth = obj["truth"]
                 if common_truth != obj["truth"]:
                     raise ValueError("Different target evaluation cohorts")
+                source_split = obj.get("source_split", {"protocol": "gate0_v1"})
+                if common_source_split is None:
+                    common_source_split = source_split
+                if source_split != common_source_split:
+                    raise ValueError("不能将不同仿真划分的结果合并汇总")
                 m = obj["metrics"]
                 per_seed.append({
                     "method": method, "seed": seed, "condition": name,
@@ -369,6 +398,7 @@ def summarize(out: Path, methods: list[str], seeds: list[int], conditions: list[
     write_json(out / "reports" / "SUMMARY.json", {
         "protocol": PROTOCOL, "methods": methods, "seeds": seeds,
         "conditions": conditions, "final_holdout_evaluated": False,
+        "source_split": common_source_split,
         "summary": summary,
     })
 
@@ -400,13 +430,21 @@ def main():
     p.add_argument("stage", choices=("smoke", "train", "evaluate", "summarize"))
     p.add_argument("--methods", nargs="+", default=list(METHODS), choices=METHODS)
     p.add_argument("--seeds", nargs="+", type=int, default=list(SEEDS))
-    p.add_argument("--out", type=Path, default=OUT)
+    p.add_argument("--out", type=Path, help="默认按数据版本使用独立输出目录")
     p.add_argument("--source-strong-root", type=Path)
+    source_group = p.add_mutually_exclusive_group()
+    source_group.add_argument("--source-split-root", type=Path, default=SOURCE_CYCLE_ROOT,
+                              help="默认读取全63文件的周期划分目录")
+    source_group.add_argument("--legacy-source-split", dest="source_split_root",
+                              action="store_const", const=None,
+                              help="显式复现旧34/15文件划分，需要--source-strong-root")
     p.add_argument("--strong-root", type=Path, help="Existing 5/0dB parent with SNR_5, SNR_0")
     p.add_argument("--extreme-root", type=Path, help="New -5/-10dB parent with SNR_-5, SNR_-10")
     p.add_argument("--dev-export-root", type=Path)
     p.add_argument("--conditions", nargs="+", type=int, default=list(CONDITIONS))
     args = p.parse_args()
+    if args.out is None:
+        args.out = CYCLE_OUT if args.source_split_root is not None else OUT
     if not args.methods or len(args.methods) != len(set(args.methods)):
         p.error("Duplicate/empty methods")
     if not args.seeds or len(args.seeds) != len(set(args.seeds)) or any(
@@ -418,11 +456,13 @@ def main():
     if args.stage == "smoke":
         smoke()
     elif args.stage == "train":
-        if args.source_strong_root is None:
-            p.error("train requires --source-strong-root")
+        if args.source_split_root is not None and args.source_strong_root is not None:
+            p.error("--source-strong-root仅供--legacy-source-split使用；新划分请提供--source-split-root")
+        if args.source_split_root is None and args.source_strong_root is None:
+            p.error("legacy train requires --source-strong-root")
         for method in args.methods:
             for seed in args.seeds:
-                train(method, seed, args.out, args.source_strong_root)
+                train(method, seed, args.out, args.source_strong_root, args.source_split_root)
     elif args.stage == "evaluate":
         if args.dev_export_root is None:
             if any(c in (5, 0) for c in args.conditions) and args.strong_root is None:

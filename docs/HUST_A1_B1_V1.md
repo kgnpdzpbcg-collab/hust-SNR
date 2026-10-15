@@ -1,5 +1,7 @@
 # A1/B1 – independently trained, noise-aware prototype V1
 
+**Data protocol update (2026-10-15):** new CLI training defaults to the 63-record, 13-condition cycle split, Train=962/Val=221, with an isolated output root. See [SOURCE_CYCLE_SPLIT_V2.md](SOURCE_CYCLE_SPLIT_V2.md). The completed results and frozen 34/15-record protocol below describe historical run `dc8cb36`; no model has yet been trained under the new split. The original model equations and optimizer configuration are unchanged.
+
 **Status: SERVER TRAINING AND 24 TARGET-DEV EVALUATIONS COMPLETED (2026-10-15).** Three seeds per model; saved-weight replay verified. See [server record](../records/prototypes_a1_b1/server_dc8cb36/SERVER_RESULTS.md). Final-Holdout remains unevaluated.
 
 ## Data protocol
@@ -45,13 +47,13 @@ Caveats: multiplicative shrink cannot correct noisy phase; the source noise prof
 
 1. python -m pytest -q tests/test_hust_prototypes_a1_b1.py
 2. python scripts/hust_a1_b1_experiment.py smoke
-3. python scripts/hust_a1_b1_experiment.py train --methods a1 b1 --source-strong-root /path/to/strong_root
-4. python scripts/hust_a1_b1_experiment.py evaluate --methods a1 b1 --strong-root /path/to/strong_root/generated/target --extreme-root /path/to/extreme_dev_parent --conditions 5 0 -5 -10
-5. python scripts/hust_a1_b1_experiment.py summarize --methods a1 b1
+3. python scripts/hust_a1_b1_experiment.py train --legacy-source-split --methods a1 b1 --source-strong-root /path/to/strong_root
+4. python scripts/hust_a1_b1_experiment.py evaluate --legacy-source-split --methods a1 b1 --strong-root /path/to/strong_root/generated/target --extreme-root /path/to/extreme_dev_parent --conditions 5 0 -5 -10
+5. python scripts/hust_a1_b1_experiment.py summarize --legacy-source-split --methods a1 b1
 
 The extreme root must contain both SNR_-5 and SNR_-10 with 88 frozen matching Dev MAT families (already generated in previous runs). Do not run an old dataset generator again if those paths exist.
 
-Use scripts/run_hust_a1_b1_server.sh after configuring all three root environment variables. The stage runner is isolated: no Final-Holdout or Source-Test evaluation logic is provided.
+These numbered commands reproduce the historical split. The current scripts/run_hust_a1_b1_server.sh uses SOURCE_SPLIT_ROOT, TARGET_STRONG_ROOT and TARGET_EXTREME_ROOT for the new split; it must only be invoked when training is requested. The stage runner is isolated: no Final-Holdout or Source-Test evaluation logic is provided.
 
 ## Quality gate and interpretation
 

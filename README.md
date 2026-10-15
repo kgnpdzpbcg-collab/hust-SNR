@@ -477,3 +477,12 @@ Macro-F1（42/43/44均值±样本标准差，%）：
 
 - [完整服务器记录及A0/B0/LP4历史对比](records/prototypes_a1_b1/server_dc8cb36/SERVER_RESULTS.md) · [逐种子结果](records/prototypes_a1_b1/server_dc8cb36/results/reports/PER_SEED_RESULTS.csv) · [独立核验](records/prototypes_a1_b1/server_dc8cb36/results/reports/VERIFICATION.json)
 - [仿真划分待处理事项（本轮未实施）](docs/DATA_SPLIT_PENDING.md)
+
+## 当前仿真Train/Val：全63文件周期划分V2
+
+2026-10-15按用户要求纳入全部63个仿真MAT，4个Excel遗漏条目按已核对的命名补录并标记来源。全部13组实际工况均参与Train/Val；健康片段去重，各片段按约80/20时间分块，中间隔开1个完整周期。Train为962周期，Val为221周期，另78周期不用；不再单独保留仿真Source-Test。样本长度仍为每相4096点，实测Dev/Holdout边界不变。
+
+A1/B1入口默认使用新划分和独立输出目录；历史结果仍属于旧34/15文件协议。本次只准备及核对数据，没有新训练成绩。
+
+- [完整规则、类别数量、标签来源与命令](docs/SOURCE_CYCLE_SPLIT_V2.md) · [数据配置](configs/source_cycle_split_v2.json)
+- [生成及通用读取接口](scripts/source_cycle_split.py) · [重复、隔离和入口选择测试](tests/test_source_cycle_split.py)
