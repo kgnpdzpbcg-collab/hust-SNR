@@ -2,6 +2,8 @@
 
 HUST五相IM-AA数据的实验配置、指标记录、数据解析及波形图。
 
+- [八模型七档SNR结果：42、44分别展示，含Xu-Full与B0](docs/B1_SEVEN_SNR_FIXED_WEIGHTS_V1.md)
+
 - [B1五项消融完整结果：42、44分开展示](docs/B1_PAPER_ABLATIONS_RESULTS_V1.md)
 
 - [实验配置与完整结果](docs/EXPERIMENT_RECORD.md)
@@ -518,3 +520,11 @@ Macro-F1（六种子均值±样本标准差，%）：
 - [按种子分开的实验结果](docs/B1_PAPER_ABLATIONS_RESULTS_V1.md)
 - [完整服务器记录](records/b1_paper_ablations/server_d9947f0_20261016/SERVER_RESULTS.md)
 - [逐种子指标CSV](records/b1_paper_ablations/server_d9947f0_20261016/results/reports/WITH_FULL_B1_PER_SEED.csv) · [核验记录](records/b1_paper_ablations/server_d9947f0_20261016/VERIFICATION.json)
+
+## 八模型七档固定权重补测（已完成）
+
+完整B1、五个B1消融、Xu-Full、B0使用原42/44种子最佳权重；新增4/−4/−8 dB评价42组，原70份预测逐字节引用，形成5/4/0/−4/−5/−8/−10 dB共112组结果。复用既有264份派生MAT，不重新训练、不重新选epoch。112组预测和96组源验证回放通过，保留逐种子、逐类、均值/样本SD及配对差值。
+
+- [七档完整结果：42和44分开](docs/B1_SEVEN_SNR_FIXED_WEIGHTS_V1.md)
+- [112行逐种子指标](records/b1_seven_snr_fixed_weights/server_20261016/output/results/reports/PER_SEED_RESULTS.csv) · [672行六类指标](records/b1_seven_snr_fixed_weights/server_20261016/output/results/reports/PER_CLASS_PER_SEED.csv)
+- [完整服务器归档](records/b1_seven_snr_fixed_weights/server_20261016/SERVER_RESULTS.md) · [核验记录](records/b1_seven_snr_fixed_weights/server_20261016/output/VERIFICATION.json)

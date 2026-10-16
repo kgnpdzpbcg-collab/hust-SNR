@@ -1,0 +1,11 @@
+{
+  "code_sha256": {
+    "code/scripts/b1_seven_snr_fixed_weights.py": "e8d3b3848ebfc0b5706642869c866a1858ac72cae40f6e9373f8caecf11193c4",
+    "code/configs/b1_seven_snr_fixed_weights_v1.json": "025cd39c10c6136b15f7e3bc185151dd2e5bb138a96b3052703b29dd31d846a7",
+    "RUN_STAGE.py": "89e89a5e199dfb173d41e2c9d9a3aa487e8e3ef680946e7af8f34d3f9f8fce6f"
+  },
+  "interpreter": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "run": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016",
+  "stage_timeout_seconds": 600,
+  "source_training_modified": false
+}

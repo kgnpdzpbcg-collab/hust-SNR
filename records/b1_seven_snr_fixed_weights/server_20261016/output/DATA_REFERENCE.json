@@ -1,0 +1,4148 @@
+{
+  "files": [
+    {
+      "file": "SNR_4/0081.mat",
+      "file_sha256": "a5e474b0f48b57dbda25f396d07f231925150e6cb2af7f34f921609788b57187",
+      "matrix_sha256": "7125197540203da41708decb2e94a170df211a30d105c8ba30f2073175065216",
+      "measured_phase_snr_db": [
+        4.000000000000011,
+        4.000000000000008,
+        4.000000000000006,
+        3.9999999999999964,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0081",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0081.mat",
+      "file_sha256": "2d3eb8a7df96f05b57f680868395ecf5c906f2c10e724e948fd440ddd4616baf",
+      "matrix_sha256": "8eba5bbe11db0d35ed5a952631b1adac16dec992b4719afd0388efdf2aba96f2",
+      "measured_phase_snr_db": [
+        -3.9999999999999893,
+        -3.999999999999991,
+        -3.9999999999999925,
+        -4.000000000000003,
+        -3.9999999999999956
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0081",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0081.mat",
+      "file_sha256": "6d9db3b3c26503b39d209d056b968442b8e67916ccc6611b25d7462d8e30d20d",
+      "matrix_sha256": "80c50867a7ac52f84fe5fd7e7334607da24509a730f2aca3368c2212febf3080",
+      "measured_phase_snr_db": [
+        -7.999999999999991,
+        -7.999999999999994,
+        -7.9999999999999964,
+        -8.000000000000005,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0081",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0085.mat",
+      "file_sha256": "f0fafd1eed5bfb447b567e8b6478c59b1b64a216c877d53120c4fd976ac27825",
+      "matrix_sha256": "d7c20092b70b0a9a270dde37a483b2d9139d783b64d99139fb50cd68dbfbdb2a",
+      "measured_phase_snr_db": [
+        4.0,
+        4.000000000000001,
+        3.999999999999999,
+        3.999999999999999,
+        3.9999999999999987
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0085",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0085.mat",
+      "file_sha256": "6a20b7d10322f893da7cd8debdb9b275d32521ff409062479839bf8de6d010d9",
+      "matrix_sha256": "eaa0fc0f4fe0b0d3a88e572c4170916172e59f2616ac0aeaec69de8a39b02cfa",
+      "measured_phase_snr_db": [
+        -3.9999999999999982,
+        -3.999999999999997,
+        -3.9999999999999987,
+        -3.9999999999999982,
+        -4.0
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0085",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0085.mat",
+      "file_sha256": "8f9e2b8e881bf9324753268b055d551d9d99dfa2483241384bd9805bfddb2d8b",
+      "matrix_sha256": "dfba752378d65bc3caa2e047af9b2f7c2b3b268717dbc1e02ff1637efe603d28",
+      "measured_phase_snr_db": [
+        -8.0,
+        -7.999999999999999,
+        -8.000000000000002,
+        -8.000000000000002,
+        -8.000000000000004
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0085",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0088.mat",
+      "file_sha256": "04ad4ff9c641bdfe089bdba7bd5c0b4d0c44d2eabcf071cce8ac1826d3e64ac6",
+      "matrix_sha256": "f4700b026f3c84408934f7de8f0d44ced349b1b054d7c3fb08715ae8e1e336b3",
+      "measured_phase_snr_db": [
+        4.000000000000007,
+        4.000000000000002,
+        4.0,
+        3.999999999999999,
+        4.000000000000002
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0088",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0088.mat",
+      "file_sha256": "7290b181934f2e7fbef415b38cb31e99816a37e622299eb8ab27124f32adfc71",
+      "matrix_sha256": "bb78af57215e67cb17fdfa372dbc8288df938d0af0910348c6fa936413892803",
+      "measured_phase_snr_db": [
+        -3.9999999999999907,
+        -3.9999999999999982,
+        -3.999999999999999,
+        -4.0,
+        -3.999999999999997
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0088",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0088.mat",
+      "file_sha256": "c6457d5fde8210832dd85a32b97a9097ea11d5de9491fa4d05924717a6329fe2",
+      "matrix_sha256": "92c7028fa09ad420987db510c07d4d00f816dce77320215c82b87ba95834b4fc",
+      "measured_phase_snr_db": [
+        -7.999999999999994,
+        -8.0,
+        -8.000000000000002,
+        -8.000000000000004,
+        -7.999999999999999
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0088",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0089.mat",
+      "file_sha256": "2b72fe04d51ed8f11fc8b0b90f1a17a2d6779fcb74a6fa2d6de8ee1544014d20",
+      "matrix_sha256": "694cfc37901cf7f3001adf3c657b9be09253ed6d5371efd9d6c48a75b3002628",
+      "measured_phase_snr_db": [
+        4.000000000000005,
+        3.9999999999999987,
+        4.000000000000003,
+        3.9999999999999964,
+        4.0000000000000036
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0089",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0089.mat",
+      "file_sha256": "6424179528df31f3ab624b281601c2761160647c188d7c9097968e9ee00b742f",
+      "matrix_sha256": "2c39b88cfdbae62beed9eb92e1fb6e50c0ee3e60a7fffb33181e171a80eb5233",
+      "measured_phase_snr_db": [
+        -3.9999999999999947,
+        -4.0,
+        -3.9999999999999956,
+        -4.000000000000003,
+        -3.9999999999999947
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0089",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0089.mat",
+      "file_sha256": "04c9ae50938029de9830c161129c462de049e3f70669f30c4a707823f83842f6",
+      "matrix_sha256": "4d3cd50ed842042a60d52d46970ac137cfd57b37d876c30f591ab5f8ba2f6043",
+      "measured_phase_snr_db": [
+        -7.999999999999998,
+        -8.000000000000004,
+        -7.999999999999998,
+        -8.000000000000005,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0089",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0092.mat",
+      "file_sha256": "07f27025008e8a56cceabfdb3f866284569a9c7a2b220ef35eb92e1fc7ea59cc",
+      "matrix_sha256": "169292c5f51fe9c8c5679f53a2cee43fa78d8cf5026f2aeff7621442457f862c",
+      "measured_phase_snr_db": [
+        4.0,
+        4.000000000000005,
+        4.0,
+        3.9999999999999964,
+        3.999999999999999
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0092",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0092.mat",
+      "file_sha256": "71118d676bdc576ed052672242ed94aaea124d2ad73efc10a17ca73353c91d62",
+      "matrix_sha256": "87d17d2b9377521a6d26fb1db70892c49f52d63eec8029821157174122b2c1df",
+      "measured_phase_snr_db": [
+        -3.999999999999999,
+        -3.9999999999999947,
+        -3.9999999999999987,
+        -4.000000000000002,
+        -3.999999999999999
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0092",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0092.mat",
+      "file_sha256": "be694be8d0fedec01d0e97e1db8c083735c5e79060e3b66311ad311118c77f62",
+      "matrix_sha256": "9ed23f38dc7b40a9a0bc5cecc10d48874dcfef08ae0a4565628797f47996fb4d",
+      "measured_phase_snr_db": [
+        -8.000000000000002,
+        -7.9999999999999964,
+        -8.0,
+        -8.000000000000004,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0092",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0096.mat",
+      "file_sha256": "645bd9c6d989891158b3e79aa1dae25d2221b446fd3ed3756068abb4f168afab",
+      "matrix_sha256": "d08108b73449ff517e69fe21c52f1571b39af79c146f9fa645efddc9e8e07331",
+      "measured_phase_snr_db": [
+        3.999999999999999,
+        3.9999999999999947,
+        3.9999999999999947,
+        4.000000000000001,
+        4.0
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0096",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0096.mat",
+      "file_sha256": "08e9235cc51c0d9f1628ffd400c2283f0c0c70512853c862bdd9165cd4477546",
+      "matrix_sha256": "77f620f8f4269eee69af2bc59256d16938acda67af1bf240b5e4f7279b472c32",
+      "measured_phase_snr_db": [
+        -4.0,
+        -4.000000000000004,
+        -4.0000000000000036,
+        -3.9999999999999982,
+        -3.9999999999999982
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0096",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0096.mat",
+      "file_sha256": "bb361cb840db24f5ef8f590d3493a891d63e3136e1be52dbfa1a7b1b34ef966e",
+      "matrix_sha256": "a78f0a4fec0ceb9821b583b58c6c4f8dd0bde852a34bd2d9c8db8a78b7fa3a03",
+      "measured_phase_snr_db": [
+        -8.000000000000004,
+        -8.000000000000005,
+        -8.000000000000005,
+        -8.0,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0096",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0104.mat",
+      "file_sha256": "f912234411833537f2970c720922f38607084711e1a187b9b0280a1caf835107",
+      "matrix_sha256": "a71a2c1c6d3a569f93c43d55470ba5a191a67ad16910cbed42c59671b6f8334b",
+      "measured_phase_snr_db": [
+        4.0000000000000115,
+        4.000000000000011,
+        4.000000000000003,
+        4.000000000000004,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0104",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0104.mat",
+      "file_sha256": "1c2a37b976ff6f55354ed99c804fa9f623a60a40475672fb622cea7f8c211592",
+      "matrix_sha256": "50de2a7f2e999e5bc174a2d04962a86eea0ab98f786e8980e3e97967302d7722",
+      "measured_phase_snr_db": [
+        -3.9999999999999867,
+        -3.9999999999999867,
+        -3.999999999999997,
+        -3.999999999999995,
+        -3.999999999999995
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0104",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0104.mat",
+      "file_sha256": "d106c6dfd7d41244af2295717487e431acecb9b60df6f9a15cfb585cbe7a6736",
+      "matrix_sha256": "f7124330d439ff8be0a3560595bcc506a735cc04a0d44b419985e206f9f676f7",
+      "measured_phase_snr_db": [
+        -7.99999999999999,
+        -7.99999999999999,
+        -7.999999999999998,
+        -7.999999999999997,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0104",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0105.mat",
+      "file_sha256": "dcc74dd68383944bd6e5c38e5736c7946f20439c2bb93716d8bb4a899a822b3c",
+      "matrix_sha256": "2e947aed480ba9693487c5076bd2c3f2d1140b2d0174f16b256f523981e36b93",
+      "measured_phase_snr_db": [
+        4.0,
+        4.000000000000012,
+        4.000000000000006,
+        4.000000000000007,
+        4.000000000000004
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0105",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0105.mat",
+      "file_sha256": "a05400339a180ccf208255c4b5747fb7fc526020cc483c37cc2ae28eeed2bc30",
+      "matrix_sha256": "36dc06b8b62930eb284532722ce88eceb6a583d9d30a0ba781b9034cc2b4bae5",
+      "measured_phase_snr_db": [
+        -3.9999999999999987,
+        -3.9999999999999867,
+        -3.999999999999992,
+        -3.9999999999999925,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0105",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0105.mat",
+      "file_sha256": "27d62102467d5d3f3fe2532acc3b5074d7e7cf22e12e558da052d76ffa90feea",
+      "matrix_sha256": "466657dec4b3c7012da573e172d6a89b66d1b305960be13bd169d422ec7d0fd6",
+      "measured_phase_snr_db": [
+        -8.0,
+        -7.999999999999989,
+        -7.999999999999995,
+        -7.999999999999994,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0105",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0109.mat",
+      "file_sha256": "da4cad9f56c4532c4998a727ef462764f9463ea1598a3d69ba8f76fa904159fc",
+      "matrix_sha256": "d8ca3f148ffbcf9c039a08a40da931f6011e8d87866d6858e8b8363fd9c8a25f",
+      "measured_phase_snr_db": [
+        4.0000000000000036,
+        4.000000000000009,
+        4.000000000000004,
+        4.000000000000005,
+        3.9999999999999982
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0109",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0109.mat",
+      "file_sha256": "b9f4faba3afe2d76fd10f462b59c0296f235a99750baa50161b496f65f4d0b6d",
+      "matrix_sha256": "41878a0ee9d83c7ffffeedd9fdb61410ab1b85dd218d15fb8b13e94139fcbedd",
+      "measured_phase_snr_db": [
+        -3.999999999999995,
+        -3.9999999999999893,
+        -3.999999999999995,
+        -3.9999999999999947,
+        -4.000000000000002
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0109",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0109.mat",
+      "file_sha256": "0192c4b5b0fbfdc6dd92ced495a6ab02699fa74a7b7be5fb7a1173458ff6bd76",
+      "matrix_sha256": "d613e7690049e2d697cafeef936603212200a8edb2e4578cffef936697bbea0a",
+      "measured_phase_snr_db": [
+        -7.999999999999998,
+        -7.999999999999993,
+        -7.9999999999999964,
+        -7.9999999999999964,
+        -8.000000000000004
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0109",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0110.mat",
+      "file_sha256": "82dd66b1c2f7e25a9156b27096961c7a7a145cb450dcf67f79e24e27062a9ea6",
+      "matrix_sha256": "72dddfe3a947788a2110f75bf33cf510a29825a523d5b38e80c6003347f5ca90",
+      "measured_phase_snr_db": [
+        4.000000000000005,
+        4.000000000000013,
+        4.000000000000001,
+        4.000000000000007,
+        4.000000000000008
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0110",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0110.mat",
+      "file_sha256": "256053bb903ffdd590425ccfdc80ee5a7aa00e6773fc4a4bf361e1a8b33eadab",
+      "matrix_sha256": "8acb3cdbb6afdafbc65d37f65a17dbc47341669f6dad0ab9535fa9f515fbcdfe",
+      "measured_phase_snr_db": [
+        -3.9999999999999947,
+        -3.9999999999999867,
+        -3.9999999999999982,
+        -3.9999999999999925,
+        -3.9999999999999907
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0110",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0110.mat",
+      "file_sha256": "e0cd4acfb1783b5c5cdcd78e3ed3b67e9cbadd827108674ac46ad11abb335fee",
+      "matrix_sha256": "4d5bec238da2e398a177592dbd8e54f7cba1faab9e718ea64a02d3b317394e88",
+      "measured_phase_snr_db": [
+        -7.999999999999997,
+        -7.999999999999989,
+        -8.000000000000002,
+        -7.999999999999994,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0110",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0127.mat",
+      "file_sha256": "d8aa5886de3802601ecd21480494e1c5aaaed68818c5a05802c4083a1968a047",
+      "matrix_sha256": "ebd3c3d49f13fe7efcc2e6026e4298c05c839351f6dfe91a4ec2bfdc8ce89926",
+      "measured_phase_snr_db": [
+        4.000000000000002,
+        4.000000000000004,
+        3.9999999999999964,
+        4.000000000000003,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0127",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0127.mat",
+      "file_sha256": "43616aed0a7e7b83d69d0beff48d7436d727543e99f5e5104bc3a2caa4ef8427",
+      "matrix_sha256": "6a98d9d2460b41b6462269ec1a9aca3debfd2e882eddba4d139c7d2c51cfc665",
+      "measured_phase_snr_db": [
+        -3.999999999999997,
+        -3.999999999999994,
+        -4.0000000000000036,
+        -3.9999999999999964,
+        -3.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0127",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0127.mat",
+      "file_sha256": "71c8b274893a19a9a21c4b3c9617ee1c154d747b333df7b2e8bf0ec940e30bd8",
+      "matrix_sha256": "65b9a351a46e705350ddd8f91268e3a1284f270b4358b850ad38b559cc5c6077",
+      "measured_phase_snr_db": [
+        -7.999999999999999,
+        -7.9999999999999964,
+        -8.000000000000005,
+        -7.999999999999998,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0127",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0129.mat",
+      "file_sha256": "ab92ec0a52ad1cb77a00b8fb8c216a66b10c250126a9dcd86b4120d00fa84f85",
+      "matrix_sha256": "96f535f2a34e28870d67f5b5df21e24685167bc33d9f57799f88afdd2aef8699",
+      "measured_phase_snr_db": [
+        3.999999999999994,
+        4.000000000000008,
+        3.9999999999999902,
+        4.000000000000001,
+        4.000000000000004
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0129",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0129.mat",
+      "file_sha256": "271e70e662c581f80d49d29b217af13e6bd0ecec10c9ad2d3e5f9f874425d34b",
+      "matrix_sha256": "7f36ec3d274a0b553c27959a4a69ba0f6a240b3649ef24ab01f1f77fce5ec1bc",
+      "measured_phase_snr_db": [
+        -4.000000000000005,
+        -3.9999999999999907,
+        -4.000000000000008,
+        -3.9999999999999987,
+        -3.9999999999999947
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0129",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0129.mat",
+      "file_sha256": "078a460372109992e507d765567e7ae595f05391db3f299cd83666472d659550",
+      "matrix_sha256": "877bc6ce918b884d505c3f20dd648dac0d98ece97ad63bb19eb7688c3a4ce492",
+      "measured_phase_snr_db": [
+        -8.000000000000007,
+        -7.999999999999994,
+        -8.00000000000001,
+        -8.0,
+        -7.999999999999997
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0129",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0134.mat",
+      "file_sha256": "9070726c8a790411314667b30a1ab7f68941d5fdc56ba3bd0c510116c3078235",
+      "matrix_sha256": "c2a3048639bc06f2bee28bba9b536f824d111d0fad21700d98d9fad28b5ca2b2",
+      "measured_phase_snr_db": [
+        3.9999999999999964,
+        4.000000000000002,
+        3.9999999999999925,
+        3.9999999999999964,
+        4.000000000000008
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0134",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0134.mat",
+      "file_sha256": "57f6e6e3e7f744318b07dd3e07e8f3fdf014d309778f5aebda504b474ebfcf72",
+      "matrix_sha256": "cf483fe30373a4ad6f935e64899c464c9b8cb45caadedf43b4f621cd6607dd66",
+      "measured_phase_snr_db": [
+        -4.0000000000000036,
+        -3.9999999999999964,
+        -4.000000000000005,
+        -4.000000000000003,
+        -3.999999999999992
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0134",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0134.mat",
+      "file_sha256": "ce945ef0b76f8555ab83e164312e4a6b817a6c3320e415b6d4535d31602125e8",
+      "matrix_sha256": "002c1df0c5cf891ee05cfee6ca3815287456d29c68fc2837fea5341e8cf2c28b",
+      "measured_phase_snr_db": [
+        -8.000000000000005,
+        -7.999999999999999,
+        -8.000000000000007,
+        -8.000000000000005,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0134",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0137.mat",
+      "file_sha256": "3897f50cf1f38fec854da0a6a62b7aeda9cb9cadc943e0ee93fcbd77e6b3c883",
+      "matrix_sha256": "31da364eeafb49da5ca5e0bc560b732f175ee16b2ce48af49ddf3615f20bf163",
+      "measured_phase_snr_db": [
+        4.000000000000005,
+        4.000000000000008,
+        4.000000000000008,
+        4.000000000000009,
+        3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0137",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0137.mat",
+      "file_sha256": "2e9f59a22b8fe32824c80341e5d1b12ffea966416d59727782a659e8ddd32d7f",
+      "matrix_sha256": "167ea38a1c4862268cd891cebdceb4869fcfe4929a5b1b21099312993c977679",
+      "measured_phase_snr_db": [
+        -3.999999999999994,
+        -3.999999999999992,
+        -3.9999999999999902,
+        -3.9999999999999893,
+        -4.000000000000005
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0137",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0137.mat",
+      "file_sha256": "778e6906a156fe258dd1910b57e6bcd45406e92990cd646e7889862cae7417c1",
+      "matrix_sha256": "7e281f612e5d3a98749fae6024c71b6498414c47751aa4666647b438a26c39e3",
+      "measured_phase_snr_db": [
+        -7.9999999999999964,
+        -7.999999999999994,
+        -7.999999999999994,
+        -7.999999999999991,
+        -8.000000000000009
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0137",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0138.mat",
+      "file_sha256": "5d79a39ce28d6d3c4829b97111ff0b7ae9dfb620553104f03ae34da631e3c9d3",
+      "matrix_sha256": "383d0c3bebb7defda2b068dd95fc1e429d4f0cca99c5377174175b4e3f4cd701",
+      "measured_phase_snr_db": [
+        3.999999999999994,
+        4.000000000000007,
+        3.999999999999997,
+        3.9999999999999956,
+        4.000000000000001
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0138",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0138.mat",
+      "file_sha256": "c4ec4a8d13f69658b8e17e2965d273de5ab0affd6e069eebd68821f6b92e8460",
+      "matrix_sha256": "ec3a482e37dbcc64221ef42b38f2ad18752bc8577177f8d4c4d86f61f2821cb3",
+      "measured_phase_snr_db": [
+        -4.000000000000005,
+        -3.999999999999992,
+        -4.000000000000002,
+        -4.0000000000000036,
+        -3.999999999999999
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0138",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0138.mat",
+      "file_sha256": "2707e2ef95249ac97f76be579536a8763a785389110f7d6e9b7a5b25921036ba",
+      "matrix_sha256": "82742bd0b98aa466eede3680d9e5de3fd981cc496624aa0f40e30eff190df859",
+      "measured_phase_snr_db": [
+        -8.000000000000009,
+        -7.999999999999995,
+        -8.000000000000004,
+        -8.000000000000005,
+        -8.000000000000002
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0138",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0139.mat",
+      "file_sha256": "e6a602ad67da9ffb6b2b0a0220ecfe3ed0f12c86ed6405af744e39ad26b2e6fd",
+      "matrix_sha256": "20de1cd09a47d083f35747a08c82167ef302ac6f268a919e7b6c9dca36660695",
+      "measured_phase_snr_db": [
+        4.0,
+        4.0000000000000036,
+        3.9999999999999964,
+        4.000000000000007,
+        4.0
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0139",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0139.mat",
+      "file_sha256": "d1b3e24d8ae591834a75b3734eb0b67c7a489e48349a7fa6ed65b82be4c1d738",
+      "matrix_sha256": "947a9dcd82d5d1b2beb78e221b78e4d43380d9d8e64bd46d3cd29a7fe84551d1",
+      "measured_phase_snr_db": [
+        -3.9999999999999982,
+        -3.9999999999999947,
+        -4.000000000000003,
+        -3.999999999999991,
+        -3.999999999999999
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0139",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0139.mat",
+      "file_sha256": "9eaeec77f7cb2e75a682aadb68ade3f292a8c005383e51103709329ea998b36c",
+      "matrix_sha256": "61bbcea382b7a7d4b1e5fcbbc020bd1526d9a57797204e258b975775c97fb380",
+      "measured_phase_snr_db": [
+        -8.0,
+        -7.999999999999997,
+        -8.000000000000005,
+        -7.999999999999994,
+        -8.000000000000002
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0139",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0140.mat",
+      "file_sha256": "9f679ecd273b9d9a3ccc5578ae7b22eee90a50c7a1bc2077765594ed094a1eda",
+      "matrix_sha256": "8d023a59f34378ae2e5ca5af993d0e8669dafb32029f0440b0b187a46127e63b",
+      "measured_phase_snr_db": [
+        4.000000000000004,
+        4.0000000000000036,
+        4.0,
+        4.0,
+        3.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0140",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0140.mat",
+      "file_sha256": "c707674a0889239029889ac2e11945c9e4bb1daea48751ac59fbb35008195ca2",
+      "matrix_sha256": "b67c483d9c139f36f7dc55c7f9c49773fd76c6028676d026fe989acac0807399",
+      "measured_phase_snr_db": [
+        -3.999999999999995,
+        -3.9999999999999947,
+        -4.0,
+        -3.9999999999999982,
+        -4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0140",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0140.mat",
+      "file_sha256": "fbc887966ef72eeb37362ab8a9f3b49607ba466138f7a658abaaa0d028831dd3",
+      "matrix_sha256": "7bf5a48c38aa5751ad1bf100eb2ac28d477661866ad4649bc69491d84a9d7d2f",
+      "measured_phase_snr_db": [
+        -7.9999999999999964,
+        -7.999999999999997,
+        -8.000000000000002,
+        -8.0,
+        -8.000000000000005
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0140",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0144.mat",
+      "file_sha256": "9f7428149c18c7746319043c5ba2bf996dfeb172a1b3ffd9952b8887c25d883f",
+      "matrix_sha256": "0c4d79c3145ae70084f56727cc048ee1429e7f5063aa75397ca042991ea06f71",
+      "measured_phase_snr_db": [
+        4.0000000000000115,
+        4.000000000000003,
+        4.0,
+        3.9999999999999987,
+        4.000000000000004
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0144",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0144.mat",
+      "file_sha256": "c81a27d5ab49d32377725bda0cc09594d9c4f797ad611efcd4855fc222d0ada8",
+      "matrix_sha256": "5acd1f32f0584232781c1be6e40d60ae3d78f8e562deb49817c4004e3a0f0e82",
+      "measured_phase_snr_db": [
+        -3.9999999999999867,
+        -3.9999999999999947,
+        -4.0,
+        -4.0,
+        -3.999999999999995
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0144",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0144.mat",
+      "file_sha256": "02478762204ebfd2582fee234828448a76262df01d548542de0b931e5c6ccac3",
+      "matrix_sha256": "a8df47d56c04a2d03890b859f2d6e3b9e33bc3dc351995ab235df740d805eab0",
+      "measured_phase_snr_db": [
+        -7.999999999999989,
+        -7.999999999999998,
+        -8.000000000000002,
+        -8.000000000000004,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0144",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0150.mat",
+      "file_sha256": "c25342c0e0888cec73c1bbbb2ab0c0f48158de9ee1218c112b1572ed70e80754",
+      "matrix_sha256": "060233d581ce3cb115fbcc8a42f7121e55132592fc1c0d0dadeb66480387c643",
+      "measured_phase_snr_db": [
+        4.000000000000003,
+        3.9999999999999982,
+        3.999999999999997,
+        3.999999999999994,
+        3.999999999999999
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0150",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0150.mat",
+      "file_sha256": "e9411aff8e8f789c175bb8fd61c54e76ac85f4b2020a2f7fb3cde59441cb49d9",
+      "matrix_sha256": "6117ffefe436cbaa6f31c77c510b900f881e37149af4b025f088b3cd357570f1",
+      "measured_phase_snr_db": [
+        -3.9999999999999973,
+        -4.0,
+        -4.000000000000002,
+        -4.000000000000004,
+        -3.9999999999999987
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0150",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0150.mat",
+      "file_sha256": "d3da30de76a1ffe689bf22b84bcc001e46ec948a9ff3fe9a7a62ce6b8396d62c",
+      "matrix_sha256": "2edaea96aef1b42faba157d17a9a75e78b26fe8fc117b0dbb74527f74a68b5f2",
+      "measured_phase_snr_db": [
+        -7.999999999999999,
+        -8.000000000000004,
+        -8.000000000000005,
+        -8.000000000000007,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0150",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0163.mat",
+      "file_sha256": "dae862f0356b10e3bd71c31806cbbc1fb3c5b3482cd30887c99a8021e95bd1c0",
+      "matrix_sha256": "d18f9f694fc0ae5f229531588dfce2311ef5a3a6171bcb3381b6960d1640b425",
+      "measured_phase_snr_db": [
+        4.000000000000001,
+        3.999999999999999,
+        3.999999999999997,
+        4.000000000000002,
+        3.9999999999999956
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0163",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0163.mat",
+      "file_sha256": "a9083d4d27e7eff1795c30acacca8b225531a0feb2468e214d9a5212a6530546",
+      "matrix_sha256": "8ba2fad5b9206de5d04e5e0119666c0576452edb641e3e3d20c54b03e934ccfe",
+      "measured_phase_snr_db": [
+        -3.9999999999999982,
+        -3.999999999999999,
+        -4.000000000000003,
+        -3.9999999999999973,
+        -4.0000000000000036
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0163",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0163.mat",
+      "file_sha256": "81c55431fcf7a548a8431d020ca8aa17468f4d5f3aa351180d87b3e9f61a77cd",
+      "matrix_sha256": "c9344e4e45ec010bf6df2d4ff6fd89fc5654f7380df08a30471067558414d4e6",
+      "measured_phase_snr_db": [
+        -8.0,
+        -8.000000000000002,
+        -8.000000000000005,
+        -8.0,
+        -8.000000000000005
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0163",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0166.mat",
+      "file_sha256": "04dcd8093b4afc9d1f76c33daa6de2012c8fd78ba357d61e02c26a7430e29e03",
+      "matrix_sha256": "a3e1e95d1dccefa093e5c0b4bfd6a850f06ca8a31a5172a0174a8aad97c23272",
+      "measured_phase_snr_db": [
+        3.9999999999999982,
+        4.0,
+        3.9999999999999964,
+        3.9999999999999987,
+        4.000000000000002
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0166",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0166.mat",
+      "file_sha256": "b4e7458009f76a3341fa245316351e6bef34ebb74ce486b080e74f5b2873321a",
+      "matrix_sha256": "28ffa1bc7087523c74421ff46ac33b9c2bb77857a5ac6c630754ed59c6285031",
+      "measured_phase_snr_db": [
+        -4.0,
+        -3.9999999999999987,
+        -4.000000000000003,
+        -4.0,
+        -3.9999999999999982
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0166",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0166.mat",
+      "file_sha256": "20aee36bc63238c90e201f2f89c8ba30e09a09f366ff02f189586e0c0a68c30a",
+      "matrix_sha256": "2f84755615cc2c6c6e6066c47b8682740bc68421a6568556baa83e2526933de4",
+      "measured_phase_snr_db": [
+        -8.000000000000004,
+        -8.000000000000002,
+        -8.000000000000005,
+        -8.000000000000004,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0166",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0169.mat",
+      "file_sha256": "758d33cbb1bab8b3ae9d915ae2e94486a527a32e092ee91d78089c094ba1a6aa",
+      "matrix_sha256": "111d97d908230c8bfbc5d05e4ded96f9eac43e17e29824480116c341cec376c4",
+      "measured_phase_snr_db": [
+        3.999999999999991,
+        4.000000000000001,
+        4.000000000000011,
+        4.0000000000000036,
+        4.000000000000011
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0169",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0169.mat",
+      "file_sha256": "5bd1570fd7d661c22a8d83da310ba916efe58aa7e8c3f834e903f81972e2933b",
+      "matrix_sha256": "2db6ab8163b6549d3aba0f39900f0198ccf9f1a3aec004d6fa533a70de42238c",
+      "measured_phase_snr_db": [
+        -4.000000000000008,
+        -3.9999999999999987,
+        -3.9999999999999885,
+        -3.999999999999995,
+        -3.99999999999999
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0169",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0169.mat",
+      "file_sha256": "943a30e31f20bbc79f845da68f1ee7f703d48998e8d99b910c3bb5191a994509",
+      "matrix_sha256": "8a2b906fb24734668952a5428dfd485af9db77f84811c15c52cf87bd5f6da103",
+      "measured_phase_snr_db": [
+        -8.00000000000001,
+        -8.0,
+        -7.99999999999999,
+        -7.999999999999998,
+        -7.999999999999993
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0169",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0187.mat",
+      "file_sha256": "860c53009d3845bbeafc7293d73e1b57cd675959bd5cfe6348e8e52dec5d70e8",
+      "matrix_sha256": "b1daa50e1e2c1037be654284251b144af5966b4f93ad57fa4c8dbc23eda72db5",
+      "measured_phase_snr_db": [
+        4.000000000000002,
+        4.000000000000003,
+        3.9999999999999964,
+        3.999999999999993,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0187",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0187.mat",
+      "file_sha256": "1f60aee7d32e79e6cfc3d34302fa8c1a02b7f6464c3acab2c1c2d83b28f9b53f",
+      "matrix_sha256": "e7fda82100d955bee325ee0f39a029e487d014878068098daf87d404e7ec40d6",
+      "measured_phase_snr_db": [
+        -3.9999999999999973,
+        -3.9999999999999964,
+        -4.0000000000000036,
+        -4.000000000000005,
+        -3.9999999999999973
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0187",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0187.mat",
+      "file_sha256": "53f235b025cceb100dac6c68c69bc49ab44a520e9df82df7181e833b686f9c34",
+      "matrix_sha256": "5b7b2ec3b8f5df381e75869847bdafcd4f1db52a2782cb6d6c040d4dc9b32117",
+      "measured_phase_snr_db": [
+        -7.999999999999998,
+        -7.999999999999998,
+        -8.000000000000005,
+        -8.000000000000009,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0187",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0194.mat",
+      "file_sha256": "5091003e74710da51ad58844e55fe2fa39e56e81d70cb170af19f65ff88216fd",
+      "matrix_sha256": "e1cc26c19b472ce8213cdd10d0dba7e37c84369cb6242d33f86f265032aa4997",
+      "measured_phase_snr_db": [
+        3.9999999999999947,
+        3.9999999999999982,
+        3.9999999999999964,
+        4.000000000000002,
+        4.000000000000002
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0194",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0194.mat",
+      "file_sha256": "955870a580ebfc2e9ddc6796cfd81e189f0cbc1bdf057a3d2a1ebe8a3071d7ac",
+      "matrix_sha256": "588b96ffbd9f011de3dd30c1b78b567db1126dd5edb99a977096447e187f3c04",
+      "measured_phase_snr_db": [
+        -4.000000000000004,
+        -4.000000000000002,
+        -4.000000000000002,
+        -3.999999999999997,
+        -3.9999999999999982
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0194",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0194.mat",
+      "file_sha256": "00cc994d1d23b36e26e37cb92bf3902bd2a76bdee148f4b5b8f9459d75c2fa62",
+      "matrix_sha256": "91c15bf14c00f703b6c89e99afaef83a0f68c8baa68dc52742e71d12b24b4b6a",
+      "measured_phase_snr_db": [
+        -8.000000000000005,
+        -8.000000000000004,
+        -8.000000000000004,
+        -7.999999999999998,
+        -7.999999999999999
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0194",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0195.mat",
+      "file_sha256": "0ac18eac28eaacd8eef5a0f03838874cc2f8e8c26495fd55bc5cfc83c910bbca",
+      "matrix_sha256": "8ce8b028d0fc65c5d8d4e44bde12673197d7b8e371d5c3339b90c98ae7bb7934",
+      "measured_phase_snr_db": [
+        4.000000000000001,
+        4.000000000000002,
+        3.999999999999999,
+        4.000000000000004,
+        4.000000000000005
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0195",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0195.mat",
+      "file_sha256": "23dee56760c3b45d6c4fcabcf491574cd17452e2e3a1609092db092f7ad2740d",
+      "matrix_sha256": "86140cf652d44c00797af484591521edcbc0a72562d2fb680b25e7d52fcdfe2b",
+      "measured_phase_snr_db": [
+        -3.999999999999999,
+        -3.9999999999999973,
+        -3.9999999999999987,
+        -3.9999999999999947,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0195",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0195.mat",
+      "file_sha256": "5080821cbc88dfee4ba8170655819006620d30fd6873cbde24e244973098f2b4",
+      "matrix_sha256": "9be96e9ceebcfdfbd4cb121a5ee9245330f83b882682c590523147a433cce6f3",
+      "measured_phase_snr_db": [
+        -8.0,
+        -7.999999999999999,
+        -8.0,
+        -7.999999999999997,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0195",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0198.mat",
+      "file_sha256": "3687e77fc61fd4703cdc0afcdff7f7ee2fb6a5ea3b288081fb183654650b65ed",
+      "matrix_sha256": "26ea09e142ba2f7951cdc3f6294f1a8830dbd3de2fe74d2aa4a27592df5eb65d",
+      "measured_phase_snr_db": [
+        4.0,
+        3.999999999999994,
+        4.0,
+        3.999999999999999,
+        4.0
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0198",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0198.mat",
+      "file_sha256": "1030f9533c5d96cb5933d9cdabc0a733e1f23b25f1761c28cf2ec9d34a86c31d",
+      "matrix_sha256": "f79e5f874c2f62e6af5afe98d85bf1f625dd73f4bbddd04a70e347fcce40c910",
+      "measured_phase_snr_db": [
+        -3.999999999999999,
+        -4.000000000000004,
+        -3.9999999999999982,
+        -4.0,
+        -3.9999999999999982
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0198",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0198.mat",
+      "file_sha256": "461a8fea4a0070938363dc81448230572837ca8c4a86969bb51984fb95e25787",
+      "matrix_sha256": "78b78df0cc6f1f36767ab5e518c8731deba5c58c8edb120b18ef3a3926368054",
+      "measured_phase_snr_db": [
+        -8.000000000000002,
+        -8.000000000000009,
+        -8.000000000000002,
+        -8.000000000000004,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0198",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0200.mat",
+      "file_sha256": "6541f1a2368f4cab3ce3f0f6a66b8dcc681e5c52a097e94d4e0f0aebdff69992",
+      "matrix_sha256": "cea25a8d0c67da0de8d49706e437e80b6ecee794d273b291db973825af2a5de4",
+      "measured_phase_snr_db": [
+        4.000000000000009,
+        3.999999999999999,
+        3.9999999999999987,
+        4.000000000000006,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0200",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0200.mat",
+      "file_sha256": "909dba424a9f9e523ce302d3427803e0aca5db03f14163e8ae95c45de6c864fb",
+      "matrix_sha256": "21d9e516f923fc1c47b79bba3c1b8884514d2b4b9aa5b642f07bcf7400f9fa24",
+      "measured_phase_snr_db": [
+        -3.9999999999999907,
+        -4.0,
+        -4.0,
+        -3.999999999999992,
+        -3.999999999999997
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0200",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0200.mat",
+      "file_sha256": "e311e39d3dcfad5f12c3e89a381f53bdb8629d7d5f700342712a1cf9978f7ffc",
+      "matrix_sha256": "48d98082c4925992e376e9206af153b217f9ac52d4a610d8ebfb635170934449",
+      "measured_phase_snr_db": [
+        -7.999999999999993,
+        -8.000000000000002,
+        -8.000000000000004,
+        -7.999999999999994,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0200",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0203.mat",
+      "file_sha256": "b3ab152fe5f03b287f985599b258bcb9140241517dd32c409f99b220c6a667b2",
+      "matrix_sha256": "84fe22ac8841fa074a296dca815f693c3569d319e2d752d6fbd1918653587a23",
+      "measured_phase_snr_db": [
+        4.000000000000011,
+        3.9999999999999982,
+        3.999999999999994,
+        3.999999999999993,
+        4.000000000000001
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0203",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0203.mat",
+      "file_sha256": "e60febf405c5043ff9d8d3b292156f57fdff0d205c31b128188c1b46b30f282d",
+      "matrix_sha256": "9f41c01de6a107e0d5900f684335548a405d7c1af12a1958bf2309ca08b1e734",
+      "measured_phase_snr_db": [
+        -3.9999999999999885,
+        -4.000000000000002,
+        -4.000000000000004,
+        -4.000000000000005,
+        -3.9999999999999973
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0203",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0203.mat",
+      "file_sha256": "b1a7ab75fd2db21be8ac0b06d5bae45e505352e32dfbfb1ad1f3d7d40dacab13",
+      "matrix_sha256": "97a3ae00fe28ff103ebb76c555856043efda50cdd5077d28003cac4ab8a85ba7",
+      "measured_phase_snr_db": [
+        -7.999999999999991,
+        -8.000000000000004,
+        -8.000000000000007,
+        -8.000000000000007,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0203",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0205.mat",
+      "file_sha256": "7c473d1efa0c4b782275eee2b9a9842a3ef878d15a13e4578444d9151a209eda",
+      "matrix_sha256": "87dff7148934557a2cad300addf66da6bda7b530673d6ba1ca441009233423e8",
+      "measured_phase_snr_db": [
+        3.999999999999993,
+        4.0000000000000036,
+        4.000000000000007,
+        4.000000000000003,
+        4.000000000000006
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0205",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0205.mat",
+      "file_sha256": "0bc6c74187ff6307ce9ed2eb2d30bbe40fd4e111348e3f253cffb66c3c6e8d09",
+      "matrix_sha256": "56b82292850fd2638b137036ddb60426cb67b2d64092f858683ef8e08981a8f1",
+      "measured_phase_snr_db": [
+        -4.000000000000005,
+        -3.999999999999995,
+        -3.9999999999999925,
+        -3.999999999999995,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0205",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0205.mat",
+      "file_sha256": "a4d3e80a0b799956db630957dc2ed38981cde5ebc7f1fec7beaa9537763075ba",
+      "matrix_sha256": "3d4f694d2d33432467e174acefb4b16963ffa35e7de199b96ad2ce0c6527d9aa",
+      "measured_phase_snr_db": [
+        -8.000000000000009,
+        -7.999999999999998,
+        -7.999999999999995,
+        -7.999999999999998,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0205",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0210.mat",
+      "file_sha256": "add182e29efd649472494ccd53fed428fa9607ccb2ba9df2226bfc6833f3787a",
+      "matrix_sha256": "973f12e85b7f281e9e6421b981a5f2973056d676d98ba41e00380e826aa02fa1",
+      "measured_phase_snr_db": [
+        4.0,
+        4.000000000000003,
+        3.9999999999999982,
+        4.000000000000003,
+        4.000000000000005
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0210",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0210.mat",
+      "file_sha256": "75afe727d0e4708b237e8995d72c696238e4c26f9ca6c845c3144a1d2bfe0ecc",
+      "matrix_sha256": "3953c08a250e3a8cd96da61eb11d2f517b6cb3bce777c77505ade280ac3fa32e",
+      "measured_phase_snr_db": [
+        -3.9999999999999982,
+        -3.9999999999999956,
+        -4.000000000000003,
+        -3.999999999999997,
+        -3.9999999999999947
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0210",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0210.mat",
+      "file_sha256": "11e65936572e322fc9212c05badc2624c6c4525b83bf22e4f57198beae53b5bd",
+      "matrix_sha256": "bfee1b797f2e44140defff1581b148941c09002c1a301c8fe2b3e4b782fec01a",
+      "measured_phase_snr_db": [
+        -8.0,
+        -7.999999999999998,
+        -8.000000000000004,
+        -7.999999999999999,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0210",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0219.mat",
+      "file_sha256": "3c3b77060affb9b88f491480797caa02b57d1065bc2d04755d7a332d30dd0430",
+      "matrix_sha256": "f394062e5e621918f110a105c435af4c70f06b08533d35c01293d6dcc4de14f0",
+      "measured_phase_snr_db": [
+        4.000000000000002,
+        4.000000000000006,
+        4.000000000000003,
+        4.0,
+        4.000000000000001
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0219",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0219.mat",
+      "file_sha256": "d56c5ca2f28d9e2dc77005e46c903dbe260765fc407c3a5f03e969a69b9e7152",
+      "matrix_sha256": "e8d0855d95223a5ccc8195ae887f51676606dada6f5b32d2dd817c1103ffab27",
+      "measured_phase_snr_db": [
+        -3.9999999999999973,
+        -3.9999999999999925,
+        -3.999999999999997,
+        -3.999999999999999,
+        -3.9999999999999973
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0219",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0219.mat",
+      "file_sha256": "89b2428609299c9e24643a93760ad04909a19e1ef58665a10017925db48ee060",
+      "matrix_sha256": "9246bb03ce2ddd4a06a8f953fba8be686cda2b183e586b930fcdd4175cdbfa2f",
+      "measured_phase_snr_db": [
+        -7.999999999999999,
+        -7.9999999999999964,
+        -7.999999999999999,
+        -8.000000000000002,
+        -7.999999999999999
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0219",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0223.mat",
+      "file_sha256": "7f69afde7f7cbc2ae242fa0ae6c1a7abbb9259c7e385dfee180a0a1bd7c51e1f",
+      "matrix_sha256": "f8bfa2f5f951370c6027b2a773e66092aaa50be60f606ec80cc0587e38be3215",
+      "measured_phase_snr_db": [
+        3.9999999999999982,
+        4.000000000000001,
+        4.000000000000002,
+        3.999999999999991,
+        3.999999999999999
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0223",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0223.mat",
+      "file_sha256": "7f6cbe5b16b6afe4b4e0ae855a4eb3ab8bb599a477275679e3885faac4dcf5f3",
+      "matrix_sha256": "560f26fdc00739f5dd27592a66cad2ea9196a9e908e02513872250502f5c4725",
+      "measured_phase_snr_db": [
+        -4.000000000000002,
+        -3.9999999999999973,
+        -3.999999999999997,
+        -4.000000000000008,
+        -4.0
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0223",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0223.mat",
+      "file_sha256": "5ce32b76f956c2f2e6eed3b5778af68a6a5fb75ec0f7739d9e6a8c8eef1c65c1",
+      "matrix_sha256": "3906a183437c81316e38904457609df847b2bca47f831a1bd48a69009b93dda3",
+      "measured_phase_snr_db": [
+        -8.000000000000004,
+        -8.0,
+        -7.999999999999999,
+        -8.000000000000009,
+        -8.000000000000004
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0223",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0227.mat",
+      "file_sha256": "1b6b8aee469a14a0515fdc710768ce4b78d6847124be505b2c00e17e4a7f52e1",
+      "matrix_sha256": "6d75f13e37f4db78d208ea0fb3af9074c1b19aa1f1b1fe9098c3cb94e0e57fc4",
+      "measured_phase_snr_db": [
+        4.000000000000005,
+        4.000000000000002,
+        3.9999999999999947,
+        3.999999999999997,
+        3.9999999999999987
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0227",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0227.mat",
+      "file_sha256": "0eaf26cd58072f2005de3c2e687b01d1d6e4733d4a5cab211fca5d4a821941b9",
+      "matrix_sha256": "40f49a8864d0ecab9472c936ae83688c5acfa1ec8cea729eeeb99f45b05f140b",
+      "measured_phase_snr_db": [
+        -3.999999999999994,
+        -3.9999999999999982,
+        -4.000000000000004,
+        -4.000000000000002,
+        -4.000000000000002
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0227",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0227.mat",
+      "file_sha256": "a5576d448e23c2511705b4e52b56020e4795e36e45da82e31f1350bfe14e3296",
+      "matrix_sha256": "bedcef0419c051c761613fa95d00eca55bb2c84608d4b5dcd1b5225ae437604a",
+      "measured_phase_snr_db": [
+        -7.9999999999999964,
+        -8.0,
+        -8.000000000000005,
+        -8.000000000000004,
+        -8.000000000000004
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0227",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0230.mat",
+      "file_sha256": "cefc40ba00f036b2764fd9e63c4830036412da458ed42650f79e2a0e26afc0e4",
+      "matrix_sha256": "e13e38f22d671bd1f50464a4724d30e1970b3afc87508278867f72fa65278b1b",
+      "measured_phase_snr_db": [
+        4.000000000000001,
+        4.000000000000003,
+        3.9999999999999956,
+        4.000000000000003,
+        3.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0230",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0230.mat",
+      "file_sha256": "330d196f77060fd2a42490d350516c7451c9e39b4c5016a4473b60e8b82374ab",
+      "matrix_sha256": "da502b1ec6ea92c5cc980d25f9f86dbafdc3450a322ef3ba4abb73b954ff6191",
+      "measured_phase_snr_db": [
+        -3.999999999999999,
+        -3.9999999999999973,
+        -4.000000000000004,
+        -3.9999999999999964,
+        -4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0230",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0230.mat",
+      "file_sha256": "985c2c145aed64ac9ba36db4069daae506eea7bf509475ade8eecd3a977765ba",
+      "matrix_sha256": "d7aad14f5dbb04551a61f1bcc1def73ae7a2460e3c90fcb4474409ea20f1696b",
+      "measured_phase_snr_db": [
+        -8.0,
+        -7.999999999999999,
+        -8.000000000000005,
+        -7.999999999999998,
+        -8.000000000000004
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0230",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0235.mat",
+      "file_sha256": "65af6d5391e465e08d7bc319e4a2d81e6a14ec2fee498c9a013188dbd6f11d5a",
+      "matrix_sha256": "2dd438235e5b99f2c790fb72ff3c5c73cdde09c1bbc23a4f6c41a1d4940d4571",
+      "measured_phase_snr_db": [
+        4.000000000000002,
+        3.9999999999999987,
+        3.9999999999999987,
+        4.000000000000007,
+        3.9999999999999956
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0235",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0235.mat",
+      "file_sha256": "146e05cef9bb7b921d178c92f28c0ad45b282a90d00589183321333c56b356da",
+      "matrix_sha256": "7d9260b0a7ab3618244c13c1d7b31361aab520309aa60e8d0e8ed8a76e5b7534",
+      "measured_phase_snr_db": [
+        -3.9999999999999982,
+        -4.000000000000002,
+        -4.000000000000002,
+        -3.9999999999999925,
+        -4.0000000000000036
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0235",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0235.mat",
+      "file_sha256": "8803f1666546746879c61fe51096c4f2b4b24d042ff6a6700ed8872d5008d5cc",
+      "matrix_sha256": "67da2dad4ac1976264a0f62b73c06609188216fa0aaaac7362e0cf39e3713804",
+      "measured_phase_snr_db": [
+        -7.999999999999999,
+        -8.000000000000004,
+        -8.000000000000004,
+        -7.999999999999995,
+        -8.000000000000005
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0235",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0241.mat",
+      "file_sha256": "76095c5df54083c432e2f1cd5ddcb01daa7c0407e3a0060fcce61bc6550c4840",
+      "matrix_sha256": "f8aa0c072f6c3d0be7323e9e3ee791d07b43ace4f7aaedf9687042b6faf0b7ca",
+      "measured_phase_snr_db": [
+        4.000000000000003,
+        4.000000000000009,
+        4.0000000000000036,
+        4.000000000000012,
+        4.000000000000008
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0241",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0241.mat",
+      "file_sha256": "de47fcc77ddd21487dba12d84c71c1c4a6568963f6b4605ff3503d4f894d8948",
+      "matrix_sha256": "f19ce7cc9e9adadbda8aa1d1bec2838da06c0cd7defeefc95eb44e6bbc759530",
+      "measured_phase_snr_db": [
+        -3.9999999999999964,
+        -3.9999999999999893,
+        -3.999999999999995,
+        -3.999999999999986,
+        -3.999999999999991
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0241",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0241.mat",
+      "file_sha256": "05c318ed996a61d892df0ba3547e816d4161617c368cdb1d8338003cceecf7df",
+      "matrix_sha256": "e7bcdcd431d992ca2b0631be6b565b6f6d4c89fac2a82a2e0ef8a08d31382280",
+      "measured_phase_snr_db": [
+        -7.999999999999998,
+        -7.999999999999991,
+        -7.999999999999997,
+        -7.999999999999989,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0241",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0246.mat",
+      "file_sha256": "87bc8c9ed13f3e4f845841adf5dacbf56ac8086f7742e8d738230f2f8406b724",
+      "matrix_sha256": "5f1593da6eb5862bbec439e2dbef7a446214b5bf3e2dc26ff22ce036728f0e35",
+      "measured_phase_snr_db": [
+        3.999999999999997,
+        3.9999999999999982,
+        3.9999999999999947,
+        4.000000000000003,
+        4.000000000000002
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0246",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0246.mat",
+      "file_sha256": "8a3d61d450f3004091da875482849674b4e13aed3d59a725b01680f9c9b07db7",
+      "matrix_sha256": "f24c818f75562fa9142f3db41f802f916e0ae96d5f44cbe715710167e8228429",
+      "measured_phase_snr_db": [
+        -4.000000000000002,
+        -4.0,
+        -4.000000000000005,
+        -3.999999999999997,
+        -3.999999999999997
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0246",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0246.mat",
+      "file_sha256": "e069cb9e49ea3331a60e129c46160c1fa4fb3065d71a206e33d542968bd5683d",
+      "matrix_sha256": "adf9db37118b951eb2b71b0eddfbf9f115b7f271fde93d7338cb37bf17c2a3c4",
+      "measured_phase_snr_db": [
+        -8.000000000000005,
+        -8.000000000000004,
+        -8.000000000000007,
+        -7.999999999999999,
+        -7.999999999999999
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0246",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0252.mat",
+      "file_sha256": "6288672d1a278c1795e1d797524966f7290928ac5ca22b5b9e8e157df42c6a86",
+      "matrix_sha256": "0fb940d34ce39baa831b2b4c9e571b7828b6be19d90e332736576b96899d9b0d",
+      "measured_phase_snr_db": [
+        4.000000000000009,
+        4.000000000000005,
+        3.999999999999997,
+        3.9999999999999964,
+        4.000000000000005
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0252",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0252.mat",
+      "file_sha256": "d10f374d5bc321dda50370bc3eb31544911cf14239c45d627864209d36140581",
+      "matrix_sha256": "41a428aaff7d0c6fe933d29c1039813dcf05873f37f268f3956c76e63d8ba8cf",
+      "measured_phase_snr_db": [
+        -3.9999999999999902,
+        -3.999999999999994,
+        -4.000000000000002,
+        -4.000000000000003,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0252",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0252.mat",
+      "file_sha256": "863cc28a9b2839c596ca168275a67c9ef24abd32ad4ce7447c194c3dd1f53ae1",
+      "matrix_sha256": "311f165e514ae72c22835d33fad0b5d6cc67736cbf547ceb68554ca2f8235658",
+      "measured_phase_snr_db": [
+        -7.999999999999993,
+        -7.9999999999999964,
+        -8.000000000000004,
+        -8.000000000000005,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0252",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0254.mat",
+      "file_sha256": "42ec0b0e36e5fa1b62cce2a3b6e73fa659c741c0135bcf292732aa6a1bfcdd32",
+      "matrix_sha256": "22debd963b275b4b2bcb9c7ad6d294abae95a1be4002f0d48b590f37878595a3",
+      "measured_phase_snr_db": [
+        4.000000000000003,
+        4.0,
+        4.0000000000000036,
+        4.000000000000002,
+        4.000000000000001
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0254",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0254.mat",
+      "file_sha256": "13d15615315fef231350774dae8fad0ec052a810a1d4de5119622cb4976fc264",
+      "matrix_sha256": "94c79bcbdc5f192913e8ec4655d6a4090e23eca8c1576fd9c89d3977467c3b61",
+      "measured_phase_snr_db": [
+        -3.9999999999999964,
+        -3.9999999999999987,
+        -3.999999999999995,
+        -3.999999999999997,
+        -3.9999999999999982
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0254",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0254.mat",
+      "file_sha256": "ef1a2f7959d3ac4f516275ffbca0bf965d7ef800a3966a72ccf026f558a77e1a",
+      "matrix_sha256": "e20bb7724b7fe1df9d9f34c8e99eb3e57aa4204bc98b56cf2b3d059790aca044",
+      "measured_phase_snr_db": [
+        -7.999999999999998,
+        -8.0,
+        -7.999999999999997,
+        -8.0,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0254",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0256.mat",
+      "file_sha256": "5edc8e2092876f760537f2147b0a7404e127e3eb8d608e459c1e85c68cdfa539",
+      "matrix_sha256": "79f16ead02b2981bb543c47bb979b215f14c264040c06db3613d8de4f4d19345",
+      "measured_phase_snr_db": [
+        4.000000000000004,
+        4.000000000000003,
+        3.999999999999999,
+        3.999999999999999,
+        4.000000000000004
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0256",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0256.mat",
+      "file_sha256": "6c602941c9a76c1a3f055f116641e006b3c8f5788be53e89613b4059ca9d1094",
+      "matrix_sha256": "8d63999b61ee25c4200b9633c94ee36be90257677db43c90e629730e80aa6b17",
+      "measured_phase_snr_db": [
+        -3.999999999999995,
+        -3.999999999999997,
+        -3.999999999999999,
+        -4.0,
+        -3.999999999999995
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0256",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0256.mat",
+      "file_sha256": "d091a2931c15f1260c61a124879a66091cce569299892ddceccee2a55c0d1834",
+      "matrix_sha256": "a05ed138710d53e1fef247ec7eedb78afd1969abe9de958bd09bfde11a3ae5ae",
+      "measured_phase_snr_db": [
+        -7.999999999999998,
+        -7.999999999999999,
+        -8.000000000000002,
+        -8.000000000000004,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0256",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0260.mat",
+      "file_sha256": "23b2729483b8f449521572ab4406194ed6910ca52d523b4f445c7653ed6a652c",
+      "matrix_sha256": "deabbfc258ee32cd6a2692afbe080baebc53db556ff27b73af3db489cdf6b69e",
+      "measured_phase_snr_db": [
+        3.999999999999997,
+        3.999999999999999,
+        4.000000000000005,
+        3.9999999999999982,
+        4.000000000000001
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0260",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0260.mat",
+      "file_sha256": "0444457378cbf20dd90de51605dba5305c635abaaaafc18e55d262c628405ca6",
+      "matrix_sha256": "2553f6bfa675b05fa2d8e98da82ba67fa97ef3c87b3200bf4ce55415a0921947",
+      "measured_phase_snr_db": [
+        -4.0000000000000036,
+        -3.9999999999999987,
+        -3.999999999999994,
+        -4.000000000000002,
+        -3.9999999999999973
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0260",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0260.mat",
+      "file_sha256": "58fc5a8fdfcec505e31ad26195998ae69a731018440e0e9ced6cd13d867335a5",
+      "matrix_sha256": "5d2dc53ce17a3c72d1d787d803e62025bdcc2c0908b1bf33bf284196d72be070",
+      "measured_phase_snr_db": [
+        -8.000000000000005,
+        -8.000000000000002,
+        -7.9999999999999964,
+        -8.000000000000004,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0260",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0272.mat",
+      "file_sha256": "da12fa7b64fe83309dce3b66183f4f93386cb02a6277f8a92ae479c794975fa1",
+      "matrix_sha256": "daa292bc5bcb1d9396350d8dd90fa676436f0be1e6974e2673e88a44c39616e1",
+      "measured_phase_snr_db": [
+        4.000000000000009,
+        4.000000000000006,
+        4.000000000000008,
+        4.000000000000003,
+        4.000000000000004
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0272",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0272.mat",
+      "file_sha256": "8221bdd6474db270c0ec11a8779f8a533ef4fd0fa885666218683dc2384feaf5",
+      "matrix_sha256": "f3ea56ae548d8c88d7943219babf215abe1bdc5be522d2e7b2e0acd9e81dd979",
+      "measured_phase_snr_db": [
+        -3.9999999999999907,
+        -3.999999999999994,
+        -3.9999999999999907,
+        -3.9999999999999956,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0272",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0272.mat",
+      "file_sha256": "acca003485f986acd3b645aafd8f0a61894e22f8612e9e298a06e0647a26bee4",
+      "matrix_sha256": "acda089fa6a6d4b4d9d855473ddb3c9532add914b25e71a8bbdeb770901748d1",
+      "measured_phase_snr_db": [
+        -7.999999999999994,
+        -7.999999999999995,
+        -7.999999999999994,
+        -7.999999999999998,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0272",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0274.mat",
+      "file_sha256": "9584ad4b18a09ec284037b3da95122b8ae67149bf53c33723b76212f7390702a",
+      "matrix_sha256": "b80f3e458ef94bdc333eb6028d8bdba2f0b87de2d60f52ef28ee7db4a31ef7ba",
+      "measured_phase_snr_db": [
+        4.000000000000009,
+        4.000000000000011,
+        4.000000000000008,
+        4.000000000000006,
+        4.000000000000009
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0274",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0274.mat",
+      "file_sha256": "ded41e0f81719b9db14ab56b7e0c24c5693b112707528653cb9b40b468a27819",
+      "matrix_sha256": "e7d30887f767392687e86710df4f77e6ff269c0d6369a2aef23c7f0b5df94286",
+      "measured_phase_snr_db": [
+        -3.9999999999999902,
+        -3.99999999999999,
+        -3.999999999999991,
+        -3.9999999999999925,
+        -3.99999999999999
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0274",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0274.mat",
+      "file_sha256": "66d9afb61f3a4a1cc8ed4fb9c9352a1d857f86ffdb59259e24d4647091e330e8",
+      "matrix_sha256": "6e98187520aebf50a7bb6c6c4ab546703297f55f7cd64112bccb3709e68b2e07",
+      "measured_phase_snr_db": [
+        -7.999999999999991,
+        -7.999999999999991,
+        -7.999999999999994,
+        -7.999999999999995,
+        -7.999999999999991
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0274",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0279.mat",
+      "file_sha256": "369e0e7bcffca2abf2d40a5f7297ed881a083ba129a16485cff3c57c00e040a0",
+      "matrix_sha256": "a597270a74625cdb999a9147b803e6419ac5ec86f585bc9ac2912dbd06910e3e",
+      "measured_phase_snr_db": [
+        3.9999999999999947,
+        4.000000000000003,
+        3.9999999999999867,
+        4.000000000000006,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0279",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0279.mat",
+      "file_sha256": "34803ad0df227cf04317763cae1c8b178f234a908d14fa31e4e27306ea2cbe61",
+      "matrix_sha256": "043ca7aa1828c5d4080d3340c9da586c37201db08347786db5a991126f31b36e",
+      "measured_phase_snr_db": [
+        -4.000000000000004,
+        -3.999999999999995,
+        -4.000000000000012,
+        -3.999999999999992,
+        -3.999999999999995
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0279",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0279.mat",
+      "file_sha256": "0ebcc9d4182f4ffba1bc8d02c8cd4c42d586d591dbd41a4e01bc2f2054783564",
+      "matrix_sha256": "7a8df8de002cd96c3cdab8a4613a66fae074e073febbfa892de8e806b7d556a4",
+      "measured_phase_snr_db": [
+        -8.000000000000005,
+        -7.999999999999998,
+        -8.000000000000014,
+        -7.9999999999999964,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0279",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0287.mat",
+      "file_sha256": "88aaf01a34b0dede6ae364ec1c3f7ba6b65825eddc1d3e0d2ccd9cf09c777632",
+      "matrix_sha256": "b00625e4ebac0709937b0f4b38c37591424c85f0826cedb78fb72219411192f0",
+      "measured_phase_snr_db": [
+        3.999999999999999,
+        3.9999999999999987,
+        3.9999999999999964,
+        3.9999999999999982,
+        3.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0287",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0287.mat",
+      "file_sha256": "8a1d339fc2f4113088121a7e5acde1d4fe53da2ea61b604ba42279ae6d1219a4",
+      "matrix_sha256": "08ade4e648474ef9266c1f0e708ec281c94df58f6e1eb9e66fdb99dd9a9c2efd",
+      "measured_phase_snr_db": [
+        -4.0,
+        -4.000000000000002,
+        -4.000000000000003,
+        -4.0,
+        -4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0287",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0287.mat",
+      "file_sha256": "6b8495bb49ae1e9994108279576b150da4d36ff6badb0ebc217067836d0d4944",
+      "matrix_sha256": "edb1f101da18545025044c91e6d821b3a87fd75192478d95e66363be3d041bbe",
+      "measured_phase_snr_db": [
+        -8.000000000000004,
+        -8.000000000000004,
+        -8.000000000000004,
+        -8.000000000000005,
+        -8.000000000000005
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0287",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0292.mat",
+      "file_sha256": "9edcfdec540f5873311afbb24625eb2145bac67b158686961909f8678463f63f",
+      "matrix_sha256": "630b38e381616067e9cbe7067b6b35532dae79a39e0b3facb27e68cd03ed5550",
+      "measured_phase_snr_db": [
+        4.0000000000000036,
+        3.9999999999999964,
+        4.000000000000002,
+        4.0,
+        3.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0292",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0292.mat",
+      "file_sha256": "509b592fea436479227518281f94b6e19edc4086a9e354028ffc019a7bbe66ec",
+      "matrix_sha256": "035e2c551dcd5521858698f5601fca6c8220ff9ace9cb53a4dab83b0ae2d0c95",
+      "measured_phase_snr_db": [
+        -3.999999999999995,
+        -4.000000000000003,
+        -3.9999999999999973,
+        -3.9999999999999982,
+        -4.000000000000002
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0292",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0292.mat",
+      "file_sha256": "ccb89e622a3ee3bf5bc7fee6e02311e8a9c0b1d402a84e64202980bdb04f9e04",
+      "matrix_sha256": "b5ba5bc0a0e5a6a936fe856711ac1ce0b0854d63588d47ca5dcfac09005057da",
+      "measured_phase_snr_db": [
+        -7.999999999999997,
+        -8.000000000000005,
+        -7.999999999999999,
+        -7.999999999999999,
+        -8.000000000000004
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0292",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0297.mat",
+      "file_sha256": "47c30e05b850dfeca912186703abd3e3a55dff0a1d20be101ece5d9238931d6d",
+      "matrix_sha256": "547c462f18823b64320e5df9c2d5d63c313103a3213a0a257b950997db542572",
+      "measured_phase_snr_db": [
+        4.000000000000001,
+        3.999999999999999,
+        4.000000000000002,
+        4.000000000000005,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0297",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0297.mat",
+      "file_sha256": "b8d76b2bb51937179c17e4a908a50c3fb4a289ca6bc65811dbb894731b802094",
+      "matrix_sha256": "8c0946a2c49282ae1a0b60cbe2095dae38608a584286b48c57fa0ff6144488b3",
+      "measured_phase_snr_db": [
+        -3.9999999999999982,
+        -4.0,
+        -3.9999999999999982,
+        -3.999999999999994,
+        -3.9999999999999956
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0297",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0297.mat",
+      "file_sha256": "cdac04426d125e37c132e730be111415cd69b8490ca728df32ae2005a7f50eb3",
+      "matrix_sha256": "8aaa1e6383f7214f34450d7f2b85f0e412bdc13a246bc10e3b9f326328c40c02",
+      "measured_phase_snr_db": [
+        -8.0,
+        -8.000000000000004,
+        -8.0,
+        -7.9999999999999964,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0297",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0305.mat",
+      "file_sha256": "f6f5f7193b9f379665b70fa19db39aa44c461bf54e6c29137b9425c491a941ce",
+      "matrix_sha256": "d6850713ecf2b6d8c1b6832874df24abcfafff1929771eccacb9b9d26ec0eb85",
+      "measured_phase_snr_db": [
+        4.000000000000016,
+        4.0000000000000115,
+        4.000000000000011,
+        4.000000000000003,
+        4.000000000000001
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0305",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0305.mat",
+      "file_sha256": "c5cab714e1584b1258bbdb6fe27f734074ab5d4bc86b4f8aac67d9a0c7383390",
+      "matrix_sha256": "a6b9123c60f800d95404e71312852eb1bf2a523b7cca3e2a09693d3af0a79ed9",
+      "measured_phase_snr_db": [
+        -3.999999999999984,
+        -3.9999999999999867,
+        -3.99999999999999,
+        -3.999999999999997,
+        -3.9999999999999973
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0305",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0305.mat",
+      "file_sha256": "dc870316df52a780e0634677e1ec36ecb2102c2097650978f4520fb56756873d",
+      "matrix_sha256": "3c56d977267aeac5aa27d25417272561c365016980366b3ae4d80d7af768e281",
+      "measured_phase_snr_db": [
+        -7.999999999999986,
+        -7.999999999999991,
+        -7.999999999999991,
+        -7.999999999999998,
+        -7.999999999999999
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0305",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0317.mat",
+      "file_sha256": "e5799c3a899020eb93cccfd8c68d84b00a6181499a3cc7e1c32c4f02320578a7",
+      "matrix_sha256": "7a44128e4f07d3450517065ff6854856446baef824eed17e12dec4574f1dcdca",
+      "measured_phase_snr_db": [
+        4.000000000000011,
+        4.0,
+        3.9999999999999964,
+        4.000000000000006,
+        4.000000000000001
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0317",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0317.mat",
+      "file_sha256": "3701ead960b92c8b823583d05339772c255219b6a916b7a4dd2da05eafa20af3",
+      "matrix_sha256": "4cc130c1a2010cb6b47c1dd2551e0132eb420e862a7ff3fe92c518e7bcc886d6",
+      "measured_phase_snr_db": [
+        -3.999999999999988,
+        -3.9999999999999987,
+        -4.000000000000003,
+        -3.999999999999992,
+        -3.9999999999999987
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0317",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0317.mat",
+      "file_sha256": "344cd0118ac479ba5235497e17bfcbd326bb4f0fa636fe5a52811f849d241cea",
+      "matrix_sha256": "2cc7343ba4891eaa8f95e43b0dc9948e3f9ef95dcc83401a52fade850f98d90f",
+      "measured_phase_snr_db": [
+        -7.999999999999991,
+        -8.0,
+        -8.000000000000005,
+        -7.999999999999995,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0317",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0319.mat",
+      "file_sha256": "b3b80f01a60ff452e9449a9630d59030960fa53a569d39b040498c4242118182",
+      "matrix_sha256": "a8f9a4985deb1c68320d348adbfc41500fdfdd29c84b54e7223c955b8102a573",
+      "measured_phase_snr_db": [
+        3.999999999999994,
+        3.999999999999999,
+        3.9999999999999947,
+        4.000000000000004,
+        3.9999999999999925
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0319",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0319.mat",
+      "file_sha256": "dbe118b9614597dd38935a085620ef8cf09a879a2ad74ebb578633ab4d601358",
+      "matrix_sha256": "95d7151996d0154f9e0a98cab99cd1462b29bd841d259c95cd8cc102c243d60f",
+      "measured_phase_snr_db": [
+        -4.000000000000004,
+        -4.0,
+        -4.000000000000005,
+        -3.9999999999999947,
+        -4.000000000000007
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0319",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0319.mat",
+      "file_sha256": "50160906af94936fd3f3f9c27000514f6aac229b60814f9043b8e5cf8b41cf9f",
+      "matrix_sha256": "09b8fd958ebd4f30936ae5786fdf00c3bf1428e2e3d990635835f3f8edb65bc3",
+      "measured_phase_snr_db": [
+        -8.000000000000007,
+        -8.000000000000004,
+        -8.000000000000007,
+        -7.999999999999998,
+        -8.000000000000009
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0319",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0321.mat",
+      "file_sha256": "d34a94c34a7b040327232d5d6d65535c3c2e2ec5609c160db3470cbb2c94c233",
+      "matrix_sha256": "5fa4c1b868d5d66f801a462836f17c49c659734ddd89b1329bddc59c1d571932",
+      "measured_phase_snr_db": [
+        4.0000000000000115,
+        4.0000000000000036,
+        4.000000000000004,
+        3.9999999999999964,
+        3.999999999999997
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0321",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0321.mat",
+      "file_sha256": "01613b98708dab23b03c7d37de2e5106cc81117d44a2591e981d7bcce63a21d7",
+      "matrix_sha256": "84241c85510bfe251b8026adf8fca8eda5808b7b99fe5050482ddea9191cb02d",
+      "measured_phase_snr_db": [
+        -3.9999999999999867,
+        -3.9999999999999956,
+        -3.999999999999994,
+        -4.000000000000003,
+        -4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0321",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0321.mat",
+      "file_sha256": "63ebba551c177a8f2b4972307b064f070fa4b622651c803d3fde6b2824a51ff8",
+      "matrix_sha256": "dea1947ad0771568375dd2c20ddf01319202002e64f5f6b8053e685118d9d6a3",
+      "measured_phase_snr_db": [
+        -7.99999999999999,
+        -7.999999999999998,
+        -7.9999999999999964,
+        -8.000000000000004,
+        -8.000000000000004
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0321",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0328.mat",
+      "file_sha256": "22fae3a33140c30f1da823cd9fe60686179979d9e90da87abc0c0c13ed100d88",
+      "matrix_sha256": "7e02901d31062740c06a7044b67ba246279aecc011585770ec253e5999ca33ce",
+      "measured_phase_snr_db": [
+        3.9999999999999982,
+        3.999999999999997,
+        4.000000000000003,
+        3.9999999999999987,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0328",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0328.mat",
+      "file_sha256": "7a757759e3cbf3c59c020f44e6700743fb661598dfb977f1b302473dfbec3e61",
+      "matrix_sha256": "4764b286c172b9884b36aba5b5e185f577b9dae48a017998344ace543600fbf9",
+      "measured_phase_snr_db": [
+        -4.000000000000002,
+        -4.000000000000002,
+        -3.9999999999999964,
+        -4.0,
+        -3.9999999999999956
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0328",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0328.mat",
+      "file_sha256": "b41be82f6cdc6b6ba0b4668234ea773cf624aefc8678765b85ab9841f6affd12",
+      "matrix_sha256": "1d098e1e05c9e65f7b8cdca8b7e0918fd989e2c8c8e76903ce56988f89d7fa75",
+      "measured_phase_snr_db": [
+        -8.000000000000005,
+        -8.000000000000004,
+        -7.999999999999998,
+        -8.000000000000004,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0328",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0330.mat",
+      "file_sha256": "8cdfadc0aa313ee732c24083acead46e8d000c5d6c673fad3a1ee30d8e6962c0",
+      "matrix_sha256": "69097cc72439e155c63ca8c8267bbcf32fea8ebff9c9ebed64cee412298dfe3c",
+      "measured_phase_snr_db": [
+        4.000000000000006,
+        4.0,
+        4.000000000000003,
+        4.0000000000000036,
+        4.000000000000002
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0330",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0330.mat",
+      "file_sha256": "c20d625aefb3f8766faf31942f0f098aec5a56b11c6afe7654693d3b6e211dd5",
+      "matrix_sha256": "7a8df8b0a00a473c1f99482eb33b978e70552585bcbe09ad86bb3078bf8b34c6",
+      "measured_phase_snr_db": [
+        -3.9999999999999925,
+        -3.999999999999999,
+        -3.9999999999999947,
+        -3.9999999999999947,
+        -3.9999999999999973
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0330",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0330.mat",
+      "file_sha256": "33a5966f2d1f18ce3d126433b4d9da4558ab861242144af9d33b9d46d41e3c8f",
+      "matrix_sha256": "8eddad934aef1ba4d20223c975b2f5c217d51792d1a60db9f8b4a1e32f936976",
+      "measured_phase_snr_db": [
+        -7.999999999999995,
+        -8.000000000000002,
+        -7.999999999999997,
+        -7.999999999999997,
+        -7.999999999999999
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0330",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/0333.mat",
+      "file_sha256": "8606e1b28b2161580a1e04536b88f389375ab9027e01192179f6f6710a1d3f83",
+      "matrix_sha256": "107cee1fda56d307628f3e2958cc6e04858ee0f24dc0dee4dedd1f1bb2939c5a",
+      "measured_phase_snr_db": [
+        4.000000000000009,
+        3.999999999999997,
+        4.000000000000003,
+        4.000000000000003,
+        4.000000000000004
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "0333",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/0333.mat",
+      "file_sha256": "c7cd93f372caf0f8c1a3d87776a9d52129f0322f2064960dff90f3eab65070a1",
+      "matrix_sha256": "638d1c7378c77b18ca7d8d7d92b188665d931df6dd48d8cf49d47183f91d8669",
+      "measured_phase_snr_db": [
+        -3.9999999999999907,
+        -4.000000000000002,
+        -3.999999999999997,
+        -3.9999999999999964,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "0333",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/0333.mat",
+      "file_sha256": "7e1bf96e78c714dda68205efb1452c33b078e8fffe817c4ed2f8f803a2f991e5",
+      "matrix_sha256": "bd74f0a61607e1ac181e0f28be9ee2af097e1eeebfe7dbe8d8d171955f1d0b89",
+      "measured_phase_snr_db": [
+        -7.999999999999994,
+        -8.000000000000004,
+        -8.0,
+        -7.999999999999998,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "0333",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-1000-10.mat",
+      "file_sha256": "93f07f87ff86a9f90d041b705bf97ec7c1d21371a18439da8a6f0269c5059377",
+      "matrix_sha256": "4ea47b6eaf9ee306bde437b7e468da64cfd553a9e61c3f329e3d7c3f8cffaed5",
+      "measured_phase_snr_db": [
+        3.9999999999999956,
+        4.000000000000003,
+        4.000000000000003,
+        3.999999999999999,
+        3.999999999999999
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-1000-10",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-1000-10.mat",
+      "file_sha256": "46c3c7e9c02f3b5dbd449a07e532d6f63d441d96064f3c1cd520c78c2b122768",
+      "matrix_sha256": "2527a2c8f3ea115715cdb8d96e4aa3d21c80035f12c7124d3cdcdf566a25cd94",
+      "measured_phase_snr_db": [
+        -4.000000000000003,
+        -3.999999999999997,
+        -3.9999999999999956,
+        -4.0,
+        -4.0
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-1000-10",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-1000-10.mat",
+      "file_sha256": "d736dc1a57ab65e623a56856012ac398106cdfda8782348121d3ba2d83b6d547",
+      "matrix_sha256": "c2c519ba8c3e237ae01c9797677c7d774ef48cbeb781d3a7649530eac8d83af0",
+      "measured_phase_snr_db": [
+        -8.000000000000005,
+        -8.0,
+        -7.999999999999998,
+        -8.000000000000004,
+        -8.000000000000004
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-1000-10",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-1000-5.mat",
+      "file_sha256": "7e746f2e7b7a22e4e9dd65ef9e9622d4b3b17bcd184ac475f24c1cb45fb43f1f",
+      "matrix_sha256": "d8bc5f6b7f0fccf044391c97a1fc42b9aca662072176668d7765fb5d16e8ad87",
+      "measured_phase_snr_db": [
+        4.0,
+        4.000000000000009,
+        4.0,
+        3.999999999999999,
+        4.000000000000011
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-1000-5",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-1000-5.mat",
+      "file_sha256": "3154f16a38ccc3106fa026df5d6b44081e6059479cfba000105334d6aa0bb3f8",
+      "matrix_sha256": "44358f46671f76494b61369fc8eafb7a37ddc81109e564b374493bf3d8160a79",
+      "measured_phase_snr_db": [
+        -3.9999999999999982,
+        -3.99999999999999,
+        -3.9999999999999987,
+        -4.0,
+        -3.9999999999999893
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-1000-5",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-1000-5.mat",
+      "file_sha256": "fd169f6f8b39f4b918e5f71d554013b967582ced25a0960a2081df28be65e6bf",
+      "matrix_sha256": "588d1a53175ef5bc228a3ac679ae82be9beb2f2a49f7e998406a153f72f7be78",
+      "measured_phase_snr_db": [
+        -8.0,
+        -7.999999999999993,
+        -8.000000000000002,
+        -8.0,
+        -7.999999999999991
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-1000-5",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-300-1.mat",
+      "file_sha256": "8d2bbbf8f2393975406fdff3ec4e6fa0879749e08e421586bb02be9fd6013305",
+      "matrix_sha256": "955dcf33d68a169d12052da584fa346057b8a2505ebb8caf9b7b3c6652407764",
+      "measured_phase_snr_db": [
+        3.999999999999997,
+        3.9999999999999956,
+        4.000000000000003,
+        3.9999999999999947,
+        4.0
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-300-1",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-300-1.mat",
+      "file_sha256": "618a2a1f1bc0c285fcaa284ee26c9ba6f78023eacf54fe8ddfa80a8c8375d402",
+      "matrix_sha256": "371edc5c2e44123ba728877db41e83106a2560f6c11f474c9ab3c939b443cf49",
+      "measured_phase_snr_db": [
+        -4.000000000000002,
+        -4.0000000000000036,
+        -3.999999999999997,
+        -4.0000000000000036,
+        -3.9999999999999982
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-300-1",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-300-1.mat",
+      "file_sha256": "010f6fb417b695e2aad851d2fdb9737e4964fbee87b6a991f7bf24732745417b",
+      "matrix_sha256": "54d9ff2e4a3b00c7793fb445970479e32afdd4256bc14013590d633bb0857bf6",
+      "measured_phase_snr_db": [
+        -8.000000000000005,
+        -8.000000000000005,
+        -7.999999999999998,
+        -8.000000000000005,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-300-1",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-300-5.mat",
+      "file_sha256": "bbacd6f5871d455482072144f99b54bebd771c4f668bcc31c4be6afb1f1cb714",
+      "matrix_sha256": "3beb675bd3cf2adc55f030af21d8fd9a17f7d9cc48b8995da8b0db6b111f4e92",
+      "measured_phase_snr_db": [
+        3.999999999999993,
+        4.000000000000001,
+        4.000000000000007,
+        3.999999999999994,
+        3.999999999999999
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-300-5",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-300-5.mat",
+      "file_sha256": "a5b1923cf8c54040c2257279226d01ca17bebe0a5392e7870326f968bdeccc22",
+      "matrix_sha256": "9504a76eb50162626ab507347724723ff7170becf17da2c29524992fc5001e16",
+      "measured_phase_snr_db": [
+        -4.000000000000005,
+        -3.9999999999999973,
+        -3.999999999999991,
+        -4.000000000000004,
+        -3.9999999999999987
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-300-5",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-300-5.mat",
+      "file_sha256": "9c6e6b23c80785bd7f044e514ec6e9807b4c73b3e96dfd86cf19fa125e77ec90",
+      "matrix_sha256": "fa324aa7fdca9831e1cc06bab473b94226ab55fa2adf06a8de81b2e06ca6c7f6",
+      "measured_phase_snr_db": [
+        -8.000000000000007,
+        -8.0,
+        -7.999999999999994,
+        -8.000000000000007,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-300-5",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-400-11.mat",
+      "file_sha256": "ed4219c6296cf1159ed203eacaffd35256413a3f633158d5237bd3d378790130",
+      "matrix_sha256": "c9c0364a943205440839ea6aa03cd5cbd042f1c5178c36ae122a314278d62a41",
+      "measured_phase_snr_db": [
+        3.999999999999999,
+        3.999999999999991,
+        4.000000000000005,
+        3.9999999999999987,
+        4.000000000000005
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-400-11",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-400-11.mat",
+      "file_sha256": "aea427d01bd455e3fdb23c4979c9b2fcff16fb45067dee23c63b8f668c786e89",
+      "matrix_sha256": "e1727bc888dc7269bbad6174514b1727eb1879004846a12383459d5fceb93a8e",
+      "measured_phase_snr_db": [
+        -4.0,
+        -4.000000000000006,
+        -3.999999999999994,
+        -4.0,
+        -3.9999999999999925
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-400-11",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-400-11.mat",
+      "file_sha256": "1e3bf95821ceb0c425847c38d9a7c06e10b9b67ce345b0b65870402190ec7e6b",
+      "matrix_sha256": "aef389b08cce5ae34be7517299fb97a930847df049f46129c5b3e7b21573eaf4",
+      "measured_phase_snr_db": [
+        -8.000000000000004,
+        -8.000000000000009,
+        -7.999999999999995,
+        -8.000000000000004,
+        -7.999999999999995
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-400-11",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-400-7.mat",
+      "file_sha256": "9f82b7d0c473158a5df3572a7719345080c02dd1f5fd25ce3ed9ca284701e153",
+      "matrix_sha256": "b8b4008f1bf5e1d7089c479bdfaa8311eadeede2b1794a51c0a0db050689e256",
+      "measured_phase_snr_db": [
+        4.000000000000011,
+        3.9999999999999964,
+        4.000000000000001,
+        3.9999999999999956,
+        4.000000000000005
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-400-7",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-400-7.mat",
+      "file_sha256": "447f38a566b6092cd9067c0ac1919e08dbf0dae54d62e34dfe0db40be72e536f",
+      "matrix_sha256": "411864dab7900050cea29e8ddab414a510e8c3be15e693c7f0678dd8e9230f36",
+      "measured_phase_snr_db": [
+        -3.999999999999988,
+        -4.000000000000002,
+        -3.999999999999997,
+        -4.0000000000000036,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-400-7",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-400-7.mat",
+      "file_sha256": "a42d422d043ac218e1e484ffd91ba64d841177ca351cba00ece46b62044da2b0",
+      "matrix_sha256": "ad9668d920361604de73b723102dbb6daece5255d11a9fc8743e49f188316724",
+      "measured_phase_snr_db": [
+        -7.999999999999991,
+        -8.000000000000005,
+        -7.999999999999999,
+        -8.000000000000005,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-400-7",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-500-3.mat",
+      "file_sha256": "a6b865041777ba0d02442076a41cebb3a0ad64bbaf67b8c03b34d2caa0a1f39f",
+      "matrix_sha256": "5fb68dea023f056c0574af8c215cae1b8f17a387d14377bfc13fa155d2a0542f",
+      "measured_phase_snr_db": [
+        3.9999999999999947,
+        3.9999999999999902,
+        4.000000000000002,
+        4.000000000000009,
+        4.000000000000016
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-500-3",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-500-3.mat",
+      "file_sha256": "8c482ed76b149831924bf73eb2c4313671872aeaa8e98e71f59d21cc3b916aea",
+      "matrix_sha256": "e675dec91fea00773248dec337edf9f992b0d397d49325c511ec9b58cea59a28",
+      "measured_phase_snr_db": [
+        -4.000000000000004,
+        -4.000000000000008,
+        -3.9999999999999973,
+        -3.99999999999999,
+        -3.999999999999982
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-500-3",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-500-3.mat",
+      "file_sha256": "27ee37585f169093aa38e3e0237a974d4177c3d48e8f6a1a67dac765248bdfa7",
+      "matrix_sha256": "4572b82a53d75d035a70bf979076cd6d902437fe10ecab2f84799a7df2a5bbba",
+      "measured_phase_snr_db": [
+        -8.000000000000007,
+        -8.00000000000001,
+        -8.0,
+        -7.999999999999991,
+        -7.999999999999985
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-500-3",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-500-4.mat",
+      "file_sha256": "35b465b3d0353d1a7e02c78b3e79d7807200164df13b1ad00a1011feb8c929d1",
+      "matrix_sha256": "7d16c2d76b352f64da20580931ea370cab0bdaa2b221cf1bb286882f9d765f22",
+      "measured_phase_snr_db": [
+        3.999999999999993,
+        3.9999999999999907,
+        4.000000000000004,
+        4.000000000000003,
+        4.000000000000006
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-500-4",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-500-4.mat",
+      "file_sha256": "0bcf121974f9b9548497a4453d0c4b61bd9fae3e36b06a0d6ec8195bfc84a5e3",
+      "matrix_sha256": "1c2fa68ad27b9d6c0c4237801a9fdfe5cb8b9a71cf24851fe4731c5aa1926242",
+      "measured_phase_snr_db": [
+        -4.000000000000006,
+        -4.00000000000001,
+        -3.9999999999999947,
+        -3.999999999999997,
+        -3.999999999999992
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-500-4",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-500-4.mat",
+      "file_sha256": "1d42501341aa9936354c704cf945cb7199530627e32b47bf552cfd142ea265de",
+      "matrix_sha256": "ed02eb4f591d211a9c140376ca880aef7138679a022f15f9c452667e538a54e8",
+      "measured_phase_snr_db": [
+        -8.000000000000007,
+        -8.00000000000001,
+        -7.999999999999997,
+        -7.999999999999999,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-500-4",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-600-3.mat",
+      "file_sha256": "995551975d8f23af6a2feec77ff6408089d0d031a6929f1d330f2ff62e324fd8",
+      "matrix_sha256": "a103d8dce4d03f8522c517cb7d8091502c25acd4730f9cea4864ad6a83e93029",
+      "measured_phase_snr_db": [
+        4.000000000000001,
+        3.9999999999999987,
+        3.9999999999999964,
+        4.0000000000000115,
+        4.000000000000013
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-600-3",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-600-3.mat",
+      "file_sha256": "5d8c55784a5f8686ce1df2e18978658eb740ab9819342a8434503b0e1c2cc81b",
+      "matrix_sha256": "4dd9414217b3a913f017dd286c17cf5c3a6f22333979ec97b77bbc501121838b",
+      "measured_phase_snr_db": [
+        -3.9999999999999973,
+        -4.0,
+        -4.000000000000003,
+        -3.9999999999999885,
+        -3.9999999999999853
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-600-3",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-600-3.mat",
+      "file_sha256": "f6aedbc75262f249d4155dd57400563d25fd8a9914919c6087ceb324b59b0a2b",
+      "matrix_sha256": "97004067833d0daeed1a7ffe4c2c4f2714654318ca29d64b4972d4aebeb8485f",
+      "measured_phase_snr_db": [
+        -8.0,
+        -8.000000000000004,
+        -8.000000000000005,
+        -7.99999999999999,
+        -7.9999999999999885
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-600-3",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-600-6.mat",
+      "file_sha256": "e34cb9bd4c0b5494c7e5d7f9437c7ce7f30e8682a8fd38130d398cbcfae20362",
+      "matrix_sha256": "c14b1c4ba93ddaad3eb7670c8b7e9297d806af5bc5b75100648a45246a11792f",
+      "measured_phase_snr_db": [
+        3.9999999999999925,
+        3.9999999999999982,
+        3.999999999999997,
+        4.0,
+        4.000000000000007
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-600-6",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-600-6.mat",
+      "file_sha256": "6d7150d3f11ba456f61c2db897bd51dfa32774928e31fb8fd1801c793c03ca6e",
+      "matrix_sha256": "6734bc215de11b6dfc474a635fb645d064f04ad75c345b0985c821878deb9de1",
+      "measured_phase_snr_db": [
+        -4.000000000000006,
+        -4.000000000000002,
+        -4.000000000000002,
+        -3.9999999999999982,
+        -3.999999999999992
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-600-6",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-600-6.mat",
+      "file_sha256": "d269abc7a9e39cfc9c9b546cabf20fb74e4864a4ab0e85bc619efae5eb6d2a62",
+      "matrix_sha256": "95ea905423c031016e6eab101d6c24ba9ffb63d7c71555fb7c1cf4c67c0848b1",
+      "measured_phase_snr_db": [
+        -8.000000000000009,
+        -8.000000000000004,
+        -8.000000000000004,
+        -8.0,
+        -7.999999999999995
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-600-6",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-700-11.mat",
+      "file_sha256": "02c85398b0e33a349fa73178476a0a1256318a3d302737149d454bfe69b83ee5",
+      "matrix_sha256": "b9f63f1e1619808071ae17d1ad43f4d6361f49666079d5820894b3e062edb4e1",
+      "measured_phase_snr_db": [
+        3.9999999999999885,
+        3.999999999999993,
+        3.9999999999999982,
+        3.999999999999999,
+        4.000000000000001
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-700-11",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-700-11.mat",
+      "file_sha256": "06b836b8f4f0dfe6cea4091d886062ea25f8941fbe48d77c7c333d402f9ce432",
+      "matrix_sha256": "153ce8f5d513212bffa7a2e81c1087e0536af378b115add463b558ac0a1414cc",
+      "measured_phase_snr_db": [
+        -4.000000000000009,
+        -4.000000000000005,
+        -4.000000000000002,
+        -4.0,
+        -3.9999999999999982
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-700-11",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-700-11.mat",
+      "file_sha256": "c82634a91075f6823791905e4798ef304a3ff5e47b87091c073e118b47eee6f0",
+      "matrix_sha256": "8361168274467a0f60c44779807718b0e0fb91030d9be353f0e042877d76b538",
+      "measured_phase_snr_db": [
+        -8.000000000000012,
+        -8.000000000000007,
+        -8.000000000000004,
+        -8.000000000000004,
+        -8.0
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-700-11",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-700-5.mat",
+      "file_sha256": "261511162984a5ec1233cc2e91e1a7fe5499d2fd6fed36399de780e00bd72066",
+      "matrix_sha256": "058f54b77e444dc8c4715ce2caf22598bf8cd0d2eeac67a2703573dccda56a8e",
+      "measured_phase_snr_db": [
+        3.999999999999999,
+        3.9999999999999964,
+        4.000000000000005,
+        4.0000000000000036,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-700-5",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-700-5.mat",
+      "file_sha256": "5254b7cbe00c9d2b4486db9afc2c33170929f8bca44fb6bc416e6ad1e2bef913",
+      "matrix_sha256": "c26ac748c0c94eb97d457a550d7b11afce6aa782e6a3e1f1e7583d29eb4f8998",
+      "measured_phase_snr_db": [
+        -4.0,
+        -4.000000000000003,
+        -3.999999999999994,
+        -3.999999999999995,
+        -3.999999999999995
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-700-5",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-700-5.mat",
+      "file_sha256": "704052f5816bf82147419e9cf1d1a6be4a1ab9e573a4b3c944ffb588906f7645",
+      "matrix_sha256": "3f6e7d8bda89fe8f3c1365ab202f12555f9ead6b0d2f30c1d7c131d53778310b",
+      "measured_phase_snr_db": [
+        -8.000000000000004,
+        -8.000000000000005,
+        -7.9999999999999964,
+        -7.999999999999998,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-700-5",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-800-10.mat",
+      "file_sha256": "47728e3d84f486bc19522ccbe5fd83d15e55764777135171f4ddee5c84f32702",
+      "matrix_sha256": "6614031309de5a6daac40f8720c56c796643083e1014ea90fbf55d46c47dc60a",
+      "measured_phase_snr_db": [
+        3.999999999999993,
+        4.000000000000002,
+        4.000000000000003,
+        4.0,
+        4.000000000000006
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-800-10",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-800-10.mat",
+      "file_sha256": "163922d7bca9d84efd30e05caaf530a82ef6da7375b5136a00f4fdf9c2d0887d",
+      "matrix_sha256": "52964f9a4279836a81308d79e70927f2d7facfe381301b6c8a96fcef5fac20fc",
+      "measured_phase_snr_db": [
+        -4.000000000000005,
+        -3.9999999999999973,
+        -3.9999999999999964,
+        -3.9999999999999987,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-800-10",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-800-10.mat",
+      "file_sha256": "bd9614e229e308b61208f840b918df296489b714aed1c9c07e8d70fd6f2f3ba9",
+      "matrix_sha256": "6c4b531ca7d4ad9bb9c294c7526493c8f036ee062e8076137b660ec2efff61ea",
+      "measured_phase_snr_db": [
+        -8.000000000000009,
+        -7.999999999999999,
+        -7.999999999999998,
+        -8.0,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-800-10",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-800-3.mat",
+      "file_sha256": "5fac72c695510d68c840c95b933065881589e3af25db79cc4d7d76bab0fcdc73",
+      "matrix_sha256": "f5ada77128b3d3c1cabdd6f1b70dc7f8ea972ca51ee04906111be4c626f61ecf",
+      "measured_phase_snr_db": [
+        3.999999999999999,
+        3.999999999999997,
+        3.9999999999999964,
+        4.000000000000005,
+        4.000000000000016
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-800-3",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-800-3.mat",
+      "file_sha256": "b66d5b742c5b9158b0b7bbe1a62e3e66c087a2df4459d49d38639099df1c3a62",
+      "matrix_sha256": "68c2f86a4c43f4f9bd5db1734a72be79b9972d538cf1bc0423fc3924b409de43",
+      "measured_phase_snr_db": [
+        -4.000000000000002,
+        -4.000000000000002,
+        -4.000000000000002,
+        -3.999999999999994,
+        -3.9999999999999836
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-800-3",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-800-3.mat",
+      "file_sha256": "4571b73bd752e1299b28fb8886f26f87d6fb177525379bb64c9a1394dedccecc",
+      "matrix_sha256": "a0bd62a5e0ef78224284699ba883783d9b9432fe73ee7bc8e56b21c03b472cd5",
+      "measured_phase_snr_db": [
+        -8.000000000000004,
+        -8.000000000000004,
+        -8.000000000000005,
+        -7.9999999999999964,
+        -7.999999999999988
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-800-3",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-900-1.mat",
+      "file_sha256": "a486d0a127086de90715bb5f2c5f68228404af6749927712f6e2a42e1e23ec4f",
+      "matrix_sha256": "1c82ef9f2456d2f114606586131b8a77016ca87db6fffd6b71a920903a545aba",
+      "measured_phase_snr_db": [
+        3.9999999999999947,
+        4.000000000000009,
+        4.0,
+        3.999999999999999,
+        4.0000000000000036
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-900-1",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-900-1.mat",
+      "file_sha256": "0bc88361409a093dff03e83ce7cec10590614e810adb47c7b32898ed0b1fc110",
+      "matrix_sha256": "5e9e6e088abafd6a2c4585ce884e57916ed4e89bbca281f0a3ccc787b5ca7d3d",
+      "measured_phase_snr_db": [
+        -4.000000000000004,
+        -3.9999999999999907,
+        -3.9999999999999987,
+        -3.999999999999999,
+        -3.999999999999995
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-900-1",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-900-1.mat",
+      "file_sha256": "60f669b4c6ea2f765ec2cb102c7aafaba8d7cbc3516721f6f2fb7e9bd7968b14",
+      "matrix_sha256": "bd1bb44e2ac0ce36887136e32b08d221758dc7f7d19e6d272bb7827b8ea04a9a",
+      "measured_phase_snr_db": [
+        -8.000000000000007,
+        -7.999999999999993,
+        -8.000000000000002,
+        -8.000000000000004,
+        -7.999999999999997
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-900-1",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-900-6.mat",
+      "file_sha256": "e7c45bb2d827bfe6f0fc251064525ca8d3b5718b696e2c9a4f2d09a791ad6d6d",
+      "matrix_sha256": "b2b6750f23e3b5dbe35ef620a47bb739a8b42e2faa352e5b5ffa5eafd682a7c2",
+      "measured_phase_snr_db": [
+        4.0,
+        4.000000000000005,
+        4.000000000000003,
+        4.000000000000003,
+        4.000000000000007
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-900-6",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-900-6.mat",
+      "file_sha256": "aedef9f18d73bfa9f89cc8b5ea28246d305e9090dbbcf11a6ec15b729c44d869",
+      "matrix_sha256": "a8bd99d97ea9a46b2dbef51eb2969726740d61effa0306e1b0ffc39ca93e28da",
+      "measured_phase_snr_db": [
+        -3.999999999999999,
+        -3.9999999999999947,
+        -3.9999999999999956,
+        -3.9999999999999956,
+        -3.999999999999992
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-900-6",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-900-6.mat",
+      "file_sha256": "a36cf4b0d2fabc3ff33549dbb94a10f7062af3d5c7bf531b55457f30409f34bf",
+      "matrix_sha256": "024a10c5cdff3bbd7ca0cb25e222b32dc5ef98bfe199cf2d7cc349f976fe12f6",
+      "measured_phase_snr_db": [
+        -8.000000000000002,
+        -7.9999999999999964,
+        -7.999999999999998,
+        -7.999999999999998,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-900-6",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/4-900-9.mat",
+      "file_sha256": "1bd59e977f6fd9def2d4fcda07d8359f5cb5694105b4a2a1272cbbc84a146f98",
+      "matrix_sha256": "b661c04fb1ab3ff352367dfa07735466cc8f318bec37aa0befa3316307c7955a",
+      "measured_phase_snr_db": [
+        3.9999999999999956,
+        3.9999999999999956,
+        3.9999999999999987,
+        3.9999999999999982,
+        4.000000000000009
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "4-900-9",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/4-900-9.mat",
+      "file_sha256": "41e3492fef6bf84334588bc44bf185b4b4b763af03fce7599425c958dd8663a7",
+      "matrix_sha256": "f4c15f473c14c207f108bd57124edaecb2169f486854e844245799e50c27f68a",
+      "measured_phase_snr_db": [
+        -4.0000000000000036,
+        -4.000000000000003,
+        -4.0,
+        -4.000000000000002,
+        -3.9999999999999902
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "4-900-9",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/4-900-9.mat",
+      "file_sha256": "923213e90e37af8a9a3e5ca58a48cb3d567e64ed927b77e5d04df32f5d810701",
+      "matrix_sha256": "f83d649e9cd883ebb7561b58d7e0136d19c4cd1effc97cf16c54bfc8bfa582a0",
+      "measured_phase_snr_db": [
+        -8.000000000000005,
+        -8.000000000000005,
+        -8.000000000000004,
+        -8.000000000000004,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "4-900-9",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-1000-7.mat",
+      "file_sha256": "bb6611bf51f041347b4d53903d042f1003760a4b721362b324db369b5a5dfbc3",
+      "matrix_sha256": "a7282cbe61d88a917fab839a054e3701b7e9de4ebdb9918d7edd8a24c45a0838",
+      "measured_phase_snr_db": [
+        4.00000000000002,
+        3.999999999999999,
+        4.000000000000002,
+        4.000000000000005,
+        4.000000000000005
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-1000-7",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-1000-7.mat",
+      "file_sha256": "6053882f3593a15d5607699e6eab42364e200f055c121b937c6cd34967bdb323",
+      "matrix_sha256": "5f9e90c7215674d932e5edbe9812dbfa9c319e9d46fd7f92cb0dc3fb4ffd82a3",
+      "measured_phase_snr_db": [
+        -3.999999999999978,
+        -4.000000000000002,
+        -3.9999999999999982,
+        -3.9999999999999925,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-1000-7",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-1000-7.mat",
+      "file_sha256": "59ecb5f7069bf90fac2a6f2f2e68df9ac70c8208ebc6e2ab976e0148d7593f28",
+      "matrix_sha256": "63e3e79b99e130aee5bf0449d3f7f8d822029114e7393a490580edf287fe3a64",
+      "measured_phase_snr_db": [
+        -7.9999999999999805,
+        -8.000000000000004,
+        -8.0,
+        -7.9999999999999964,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-1000-7",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-1000-8.mat",
+      "file_sha256": "d696fb2fba283ef05de6c2734a884860677b70e5574c9037d0d8e9b994e32052",
+      "matrix_sha256": "829f18f15498c35ed4fa3d504cdffed28cbcc6d6e7df4e716f759040077827c4",
+      "measured_phase_snr_db": [
+        4.000000000000016,
+        4.000000000000002,
+        3.9999999999999956,
+        3.999999999999999,
+        4.000000000000007
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-1000-8",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-1000-8.mat",
+      "file_sha256": "f1eab6de2234c2b17d37a8eab4c6bcfa626a50e2b7ef346a48a42ea9a75339ef",
+      "matrix_sha256": "01742105f81a3b54dadf2f945c9aeed3ad8bfa0d91997753942d76d7b048aa7e",
+      "measured_phase_snr_db": [
+        -3.999999999999984,
+        -3.9999999999999982,
+        -4.000000000000004,
+        -3.9999999999999987,
+        -3.999999999999991
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-1000-8",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-1000-8.mat",
+      "file_sha256": "724646cc93562be4d63b32d5030ce778bdb71b869d559cd197e06579497c62fc",
+      "matrix_sha256": "daaceb557aa90807dd1c82079ce3332bae80517035aae7e49832727c3af358b3",
+      "measured_phase_snr_db": [
+        -7.999999999999988,
+        -7.999999999999999,
+        -8.000000000000005,
+        -8.0,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-1000-8",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-300-10.mat",
+      "file_sha256": "b4753649fec174e56e65949d57b892eebe3e93aa5b1892d772e399d0e2d915a1",
+      "matrix_sha256": "3ce852114fbcd677b3ee05d8d9a25c0fbff916d29501b061589c038adf068032",
+      "measured_phase_snr_db": [
+        4.0000000000000115,
+        4.000000000000001,
+        3.9999999999999987,
+        4.000000000000002,
+        4.000000000000004
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-300-10",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-300-10.mat",
+      "file_sha256": "b40dfcdf185c2bfc70c16b79334e06025bbc20cfb3ab308bce99632cb3720775",
+      "matrix_sha256": "fb0af7631816f11b054464f97b1dce00c66f1ca5b9bb604353840b0e5c2d36a9",
+      "measured_phase_snr_db": [
+        -3.9999999999999867,
+        -3.9999999999999982,
+        -4.000000000000002,
+        -3.9999999999999982,
+        -3.999999999999995
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-300-10",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-300-10.mat",
+      "file_sha256": "be02f44f9c93986ea896b84e49c5b5a90bb31c875482b5d1c14de85a1d717125",
+      "matrix_sha256": "c75746d9fc227607a2b7c89f122c7383ea260786bce770121c418280e191fb4c",
+      "measured_phase_snr_db": [
+        -7.999999999999989,
+        -8.0,
+        -8.000000000000004,
+        -8.0,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-300-10",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-300-9.mat",
+      "file_sha256": "f5da1e408d71726c5bb2955a31f9bec1f18bc5924ea5a957cb28e4ee18718d6b",
+      "matrix_sha256": "9aa4aab186babc893e42125b4d950f19e95c17950fe8b41f6df4fc4db757478b",
+      "measured_phase_snr_db": [
+        4.000000000000038,
+        3.9999999999999964,
+        4.0000000000000036,
+        3.9999999999999987,
+        4.0000000000000036
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-300-9",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-300-9.mat",
+      "file_sha256": "a553eda39db78951e609d10bf634b16dfedc97d1fa00ab4da06e67ed243b37b7",
+      "matrix_sha256": "a25a4a9b2cac5e8b0e7e724730e21595e264313a610f873bd590105ea96580bf",
+      "measured_phase_snr_db": [
+        -3.9999999999999614,
+        -4.000000000000003,
+        -3.999999999999997,
+        -4.0,
+        -3.9999999999999956
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-300-9",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-300-9.mat",
+      "file_sha256": "e037ef0aee8947987a0c6f53478bbfc7419d92926de37a1fd1ff95ed84d38baf",
+      "matrix_sha256": "d63136d3b6ef1a79331db8dd76fc7f53cb25edb8081022070d05ba1029bb74b4",
+      "measured_phase_snr_db": [
+        -7.999999999999963,
+        -8.000000000000005,
+        -7.999999999999998,
+        -8.000000000000002,
+        -7.999999999999997
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-300-9",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-400-10.mat",
+      "file_sha256": "a02bf36090740de41d1aaf951c6455f7afa711f35045435c65bd0dead73bdf76",
+      "matrix_sha256": "d50ccd4d5223a3d6af6aa831b521c51b567a2aa2919bd76bfcf9c3beda8de262",
+      "measured_phase_snr_db": [
+        4.000000000000007,
+        3.9999999999999987,
+        4.000000000000005,
+        3.999999999999999,
+        4.000000000000006
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-400-10",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-400-10.mat",
+      "file_sha256": "719253f720055d9d89d99af9130de28e20c02947fc1fcb0e605f835a1123c355",
+      "matrix_sha256": "46df2a0466888e25c35b8814dd4106a3b9b728bd7f2119d08fb0792ca44b8a8e",
+      "measured_phase_snr_db": [
+        -3.999999999999992,
+        -4.0,
+        -3.9999999999999947,
+        -4.0,
+        -3.999999999999992
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-400-10",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-400-10.mat",
+      "file_sha256": "1cac29b16b011a153aa1385fefe0c8783c7400520045309fbab527a98c980e28",
+      "matrix_sha256": "23690294de8095b647e0d4484c94bc90fd1c4af51fcad471973fa26dca12d602",
+      "measured_phase_snr_db": [
+        -7.999999999999994,
+        -8.000000000000004,
+        -7.9999999999999964,
+        -8.000000000000004,
+        -7.999999999999995
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-400-10",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-400-3.mat",
+      "file_sha256": "859ff499873178c371872fbff3c85c02c5c619981e4b5f20d045388b4594d534",
+      "matrix_sha256": "237a4c50b13384c1f479a246906cbcf9e769b0f1d8fea250d7b511a1344a179b",
+      "measured_phase_snr_db": [
+        4.000000000000012,
+        3.9999999999999987,
+        4.000000000000001,
+        3.999999999999999,
+        4.000000000000011
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-400-3",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-400-3.mat",
+      "file_sha256": "1481aaa56809c2b1b39e89011465cae4f99c274c0baa81921085932a4fb01055",
+      "matrix_sha256": "d4ecca7e4bab28907cbeb0086180ba6e6d70087cfe87988cd63ec17d2d8919bd",
+      "measured_phase_snr_db": [
+        -3.999999999999986,
+        -4.0,
+        -3.9999999999999982,
+        -4.0,
+        -3.99999999999999
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-400-3",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-400-3.mat",
+      "file_sha256": "afbcd116f5ed32bd6864e12e7ddd6c820e7da945cf3347e29bdddfa877335508",
+      "matrix_sha256": "e38be087f474311954cd9d8ac2041e61a6110afbfc9962bad0fbcabacc3ba266",
+      "measured_phase_snr_db": [
+        -7.999999999999989,
+        -8.000000000000002,
+        -8.0,
+        -8.000000000000002,
+        -7.999999999999991
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-400-3",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-500-6.mat",
+      "file_sha256": "234996d639adb8b32ca75719939e681dff94d9376e508eb007ae97146eb39cbe",
+      "matrix_sha256": "d6637b4ca4cba939d8961ee6ae14d15c6455fdc30d4a50b418bec9ceab0932a8",
+      "measured_phase_snr_db": [
+        4.000000000000038,
+        4.000000000000004,
+        4.000000000000009,
+        4.000000000000009,
+        4.000000000000009
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-500-6",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-500-6.mat",
+      "file_sha256": "7c86bc47212cde2452c34ac73bbe5a2d57f9db4cb45d72fefc2527ed03f6e89b",
+      "matrix_sha256": "fb452c37685b75030f5ce4f2300f031a589e433ef34e9c1d74f4de360bd8e125",
+      "measured_phase_snr_db": [
+        -3.9999999999999627,
+        -3.999999999999995,
+        -3.9999999999999902,
+        -3.99999999999999,
+        -3.99999999999999
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-500-6",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-500-6.mat",
+      "file_sha256": "450d09f85487ffded1d9020ed6d69bc7bddb35af624aa2b124cc3d6ede4cf320",
+      "matrix_sha256": "aef2581494f001c7fcd0d5462e1276be3d850374739755494c7f1e7652d6b742",
+      "measured_phase_snr_db": [
+        -7.9999999999999645,
+        -7.999999999999997,
+        -7.999999999999993,
+        -7.999999999999994,
+        -7.999999999999991
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-500-6",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-500-7.mat",
+      "file_sha256": "8d259a06101e6ad3b99b6f050d7808b60c374fe72b94cc257abfe2b2d92cd804",
+      "matrix_sha256": "b6b055b78d23999bea746fcc25f2cbeaff40cfc6d46960a52806be580c89774f",
+      "measured_phase_snr_db": [
+        4.000000000000034,
+        4.000000000000004,
+        4.000000000000005,
+        4.000000000000007,
+        4.000000000000008
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-500-7",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-500-7.mat",
+      "file_sha256": "6567ae5c5d710e1155c1c9a8d34e6c28be2a6ab0bacd1e065d41a148e54c1ae5",
+      "matrix_sha256": "8a872fb0c393514a5885050dbd87f1ed9c68227113577b3a0cdb5056197d8f1c",
+      "measured_phase_snr_db": [
+        -3.999999999999964,
+        -3.999999999999995,
+        -3.9999999999999925,
+        -3.999999999999994,
+        -3.999999999999991
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-500-7",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-500-7.mat",
+      "file_sha256": "2450129f66257f0638bd456e81e45f9a0b0683e4a006848d40a80f2ee59a39d6",
+      "matrix_sha256": "c21f0e0cf5c0926d7ddeaf13bbfc14b8f761107b59ba98d1927af42d65574506",
+      "measured_phase_snr_db": [
+        -7.999999999999967,
+        -7.9999999999999964,
+        -7.9999999999999964,
+        -7.999999999999995,
+        -7.999999999999993
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-500-7",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-600-10.mat",
+      "file_sha256": "04f4149bd104c86e5f4d5252f277cfccef53457e89ec847f01f7eebc94194879",
+      "matrix_sha256": "1d46f8277b6df74259cb011305880f34e1f7db416411da4f3b36151b1fd4a87e",
+      "measured_phase_snr_db": [
+        4.000000000000016,
+        4.000000000000002,
+        4.000000000000004,
+        3.9999999999999964,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-600-10",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-600-10.mat",
+      "file_sha256": "829152e95e14b4386e93c262953578006661caabbb8315343a331b80f430f76a",
+      "matrix_sha256": "df37f9c129de74c1544f38e0b3154c4a0530a4d239590be1625366647881c921",
+      "measured_phase_snr_db": [
+        -3.9999999999999822,
+        -3.999999999999997,
+        -3.9999999999999947,
+        -4.000000000000003,
+        -3.999999999999995
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-600-10",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-600-10.mat",
+      "file_sha256": "adb51f51fec6f9850bb779aafe64f7d40a6e1cff4dcb0c6f6e551e25896fbb03",
+      "matrix_sha256": "6aa81be7198809945312a56a73ecd45ccdce6f45bd111e3804abd071165c5678",
+      "measured_phase_snr_db": [
+        -7.999999999999984,
+        -7.999999999999999,
+        -7.9999999999999964,
+        -8.000000000000005,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-600-10",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-600-2.mat",
+      "file_sha256": "7a7f9c700c4ce5ab2f10d2dfce2a0248530392f8196dd310ed25efda44e3e4eb",
+      "matrix_sha256": "04c78c47e78b6ed796880e9319f3c4dc91a60a41c9d29ebe891627a9f8a72577",
+      "measured_phase_snr_db": [
+        4.000000000000003,
+        4.000000000000007,
+        4.000000000000009,
+        4.000000000000003,
+        4.000000000000009
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-600-2",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-600-2.mat",
+      "file_sha256": "09890351cdd18d3bfc80f13f02ef5f4b49ec0cebfa33e981f72dc3fa4da7144a",
+      "matrix_sha256": "b93650e7f9254864b2d94fe189e9cbdfd9f1712dfa79b67e60b99f4c996f9e62",
+      "measured_phase_snr_db": [
+        -3.999999999999997,
+        -3.9999999999999925,
+        -3.99999999999999,
+        -3.9999999999999956,
+        -3.99999999999999
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-600-2",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-600-2.mat",
+      "file_sha256": "b34e02d7cc758ddcbee14479480bf264a1976e8fe9c1f4fae3ee62f1ed448bfa",
+      "matrix_sha256": "7b01cd4417a4350129e1ebf6237346a456ae2df009dcf27820abbfe6ff3efcbf",
+      "measured_phase_snr_db": [
+        -7.999999999999998,
+        -7.999999999999994,
+        -7.99999999999999,
+        -7.999999999999998,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-600-2",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-700-1.mat",
+      "file_sha256": "939671fdb958e6c288f53d3fb8813bfd1b00664d2a97dbd1e781debb187b5f8b",
+      "matrix_sha256": "841f3d0bdc00e8d0e0042aa03d8a0390e2d10f7c5897789b476007912b1422dd",
+      "measured_phase_snr_db": [
+        3.999999999999985,
+        4.000000000000003,
+        4.000000000000011,
+        4.0,
+        4.0000000000000036
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-700-1",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-700-1.mat",
+      "file_sha256": "04c988b34e5b0f986848d88754ee8c23363c77786142d289b2d98bfff04a2471",
+      "matrix_sha256": "5cfe49474440bbdf51ab5f116d4c31e8af1375d8e55af4c4bf1d4a9dcbbd83e4",
+      "measured_phase_snr_db": [
+        -4.000000000000013,
+        -3.9999999999999964,
+        -3.999999999999988,
+        -3.999999999999999,
+        -3.9999999999999947
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-700-1",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-700-1.mat",
+      "file_sha256": "0bf982f8763e7e649753d198d1c7135b21fb24558bb12fd521cf5927e75eee40",
+      "matrix_sha256": "dad7400d6b6f2d7cd12182e03da6f58928fb883b680181ff3b85e07ffc597d34",
+      "measured_phase_snr_db": [
+        -8.000000000000018,
+        -7.999999999999999,
+        -7.999999999999989,
+        -8.000000000000002,
+        -7.999999999999997
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-700-1",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-700-3.mat",
+      "file_sha256": "240e7da3023ab6863df6dd9ab506844831d6725a8e794d1f020cfd8bbd6bf655",
+      "matrix_sha256": "d63ef3f73272eefc027a29671bb959827478cd26ca1cce5686e7ae65f92bc75d",
+      "measured_phase_snr_db": [
+        4.000000000000004,
+        4.000000000000002,
+        3.9999999999999982,
+        3.9999999999999982,
+        4.000000000000004
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-700-3",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-700-3.mat",
+      "file_sha256": "e4cda586a4ba0b8566ede1b9af26a13c6947254d9a61da8a659b1bbd25c2b675",
+      "matrix_sha256": "f50eb1ea968a3c052fa1a08b5d4891913522c86115bfc24142a958b26f31575f",
+      "measured_phase_snr_db": [
+        -3.999999999999994,
+        -3.9999999999999973,
+        -4.000000000000002,
+        -4.000000000000002,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-700-3",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-700-3.mat",
+      "file_sha256": "4092757b9b21027e2f5fd0717554562ba5763c4796bc7de099fcffe2412971eb",
+      "matrix_sha256": "51c5ddf3b5179af40319be4d9a47121cb1b9c085acbdff4412830036a6c2f64a",
+      "measured_phase_snr_db": [
+        -7.9999999999999964,
+        -8.0,
+        -8.000000000000004,
+        -8.000000000000004,
+        -7.999999999999997
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-700-3",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-700-8.mat",
+      "file_sha256": "1ccfbf7cc35e7beaf3d91c9f6826454cba1a24f56af05b0d0625ea8c226820a4",
+      "matrix_sha256": "b5043e52ecc341479a9b18992fc2b3a503fd4d0517b45a0d5ac675d9795c51bb",
+      "measured_phase_snr_db": [
+        4.00000000000002,
+        4.000000000000002,
+        4.000000000000003,
+        4.000000000000005,
+        4.000000000000003
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-700-8",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-700-8.mat",
+      "file_sha256": "fa3507a39f4dc99c2fa9769e25cdaaf091805c380ccef0f959dbaa06f5fc7546",
+      "matrix_sha256": "ae66b5115aeba349e52506846eb745eeb11c3955a4acf4e2eea712f43b12a177",
+      "measured_phase_snr_db": [
+        -3.9999999999999787,
+        -3.9999999999999982,
+        -3.9999999999999947,
+        -3.999999999999994,
+        -3.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-700-8",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-700-8.mat",
+      "file_sha256": "e8ddb56210140cb0f207ecd0f973493a81d8dd9ef6c1d6a5d783ac032c5c58d6",
+      "matrix_sha256": "3d27d3a68b5fcd1581cbdf459fa2545c9cfd31d300061135d7c9dfe4f676b479",
+      "measured_phase_snr_db": [
+        -7.999999999999981,
+        -8.0,
+        -7.999999999999997,
+        -7.9999999999999964,
+        -7.999999999999998
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-700-8",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-800-10.mat",
+      "file_sha256": "b89f36d9f4c686248d57218f3e4ae3851ecd305a199b70e17c78ed10fc3075f4",
+      "matrix_sha256": "8e37a4a9f670f6d712eaf31ede2f14fd357e845fab506952320177f934205f52",
+      "measured_phase_snr_db": [
+        4.000000000000001,
+        4.000000000000003,
+        4.000000000000006,
+        4.000000000000001,
+        4.0000000000000036
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-800-10",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-800-10.mat",
+      "file_sha256": "cb63578b7625353a9a913c761950b28c52fd5c7ab1d76d66823be0a78b5677fe",
+      "matrix_sha256": "3f004d9683938b7c158c782d8ba33b21bb0322dadcef935698d273fcee2a7569",
+      "measured_phase_snr_db": [
+        -3.9999999999999973,
+        -3.9999999999999964,
+        -3.999999999999992,
+        -3.9999999999999982,
+        -3.999999999999995
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-800-10",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-800-10.mat",
+      "file_sha256": "79f6c665387a4201c8559fd91a3fae82f4c9fa670e6961e4ea14b8920a792ada",
+      "matrix_sha256": "1ead01f6d7adcdb9f3210fb3c117110b9f02beff2011136c1b3fb7dd62de2d7e",
+      "measured_phase_snr_db": [
+        -7.999999999999999,
+        -7.999999999999998,
+        -7.999999999999995,
+        -8.0,
+        -7.999999999999997
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-800-10",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-800-4.mat",
+      "file_sha256": "4f905daf2cedcf085746389067f024507183af8555171109121bf524b3e97d8a",
+      "matrix_sha256": "9b0ba83f22747f2f9c800fb85e8b9e3c62cb68121490ce81578a0d9c36e583e3",
+      "measured_phase_snr_db": [
+        4.000000000000019,
+        4.000000000000002,
+        3.9999999999999964,
+        3.999999999999999,
+        4.000000000000005
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-800-4",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-800-4.mat",
+      "file_sha256": "c33bb824823c1a68132e40511a0fe709a38c6655ea7a24dda84d3f256a6660c8",
+      "matrix_sha256": "e07407412080a984fd632cfc280a2f837a5b6a240b3103cf17b3543955303241",
+      "measured_phase_snr_db": [
+        -3.9999999999999805,
+        -3.999999999999997,
+        -4.000000000000003,
+        -3.999999999999999,
+        -3.999999999999994
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-800-4",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-800-4.mat",
+      "file_sha256": "fa1d211224a188cb4df851eece31f8fadcba06e3f52221b5228c2a02362b21d5",
+      "matrix_sha256": "8ab0d4826cee37d2817ed4c3fc27065d1cea00c54cfc111be326f98b7667b62d",
+      "measured_phase_snr_db": [
+        -7.999999999999984,
+        -8.0,
+        -8.000000000000005,
+        -8.000000000000002,
+        -7.9999999999999964
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-800-4",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-900-10.mat",
+      "file_sha256": "43837e08517dd410d8ea6f1a102c258f95154c8380d87ce70e6492a32607889a",
+      "matrix_sha256": "e349b2df070d5ee27ec4f5898f6a0e89786dc342e581cae02e64c3a5249e4f78",
+      "measured_phase_snr_db": [
+        4.000000000000008,
+        3.999999999999994,
+        4.000000000000006,
+        3.999999999999999,
+        4.000000000000008
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-900-10",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-900-10.mat",
+      "file_sha256": "431c6605a3e611e0910f0174d72ed292fc77149c481c63390957f6652bf69c79",
+      "matrix_sha256": "64683507143e67a4cc6b2d919aef695e06e42f0eca79ae8560b4ae2963f7ae10",
+      "measured_phase_snr_db": [
+        -3.999999999999991,
+        -4.000000000000005,
+        -3.999999999999994,
+        -4.0,
+        -3.999999999999991
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-900-10",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-900-10.mat",
+      "file_sha256": "b340df2243d03a0253f10146c0ebc9f31e1fcc64c26777467886d948a38ec239",
+      "matrix_sha256": "2e1eca6785b845bd00080c9f4aeee06998c416abd2d36bdeed47690c67a5601a",
+      "measured_phase_snr_db": [
+        -7.999999999999994,
+        -8.000000000000007,
+        -7.999999999999995,
+        -8.000000000000004,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-900-10",
+      "snr_db": -8
+    },
+    {
+      "file": "SNR_4/5-900-7.mat",
+      "file_sha256": "5030f996404434bb78eb83bdbfd850aadeb7cba228475fd10e006b6d9453e9dc",
+      "matrix_sha256": "2ae590188d9e31f7ab8178e5033f429abb923dd9d05c463f27afa02a85226136",
+      "measured_phase_snr_db": [
+        4.0000000000000195,
+        4.000000000000003,
+        4.000000000000003,
+        4.000000000000003,
+        4.000000000000007
+      ],
+      "noise_multiplier_from_author10": 1.9952623149688795,
+      "record_id": "5-900-7",
+      "snr_db": 4
+    },
+    {
+      "file": "SNR_-4/5-900-7.mat",
+      "file_sha256": "84b88828657385217a2b40c0ef1c6f364d53fcb34929e36486436f73898d639b",
+      "matrix_sha256": "698b27688a93d8cb684a2720ea6efb21891f6543c78a086c9706fface76626eb",
+      "measured_phase_snr_db": [
+        -3.999999999999979,
+        -3.999999999999995,
+        -3.9999999999999973,
+        -3.9999999999999982,
+        -3.9999999999999907
+      ],
+      "noise_multiplier_from_author10": 5.011872336272722,
+      "record_id": "5-900-7",
+      "snr_db": -4
+    },
+    {
+      "file": "SNR_-8/5-900-7.mat",
+      "file_sha256": "d7644aa23d2b0f1cd9e65951717e6a3c46d0f87afa2b5ba3a781b7e363ad01b9",
+      "matrix_sha256": "547a69be153e32d462801c89e5a9d67e089c829706009cccb1a71afa59b89ce0",
+      "measured_phase_snr_db": [
+        -7.999999999999981,
+        -7.999999999999998,
+        -7.999999999999998,
+        -8.0,
+        -7.999999999999994
+      ],
+      "noise_multiplier_from_author10": 7.943282347242816,
+      "record_id": "5-900-7",
+      "snr_db": -8
+    }
+  ],
+  "formula": "Clean + (author10 - Clean) * 10**((10 - target_db)/20)",
+  "generation_manifest_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/data/GENERATION_MANIFEST.json",
+  "generation_manifest_sha256": "ec23734936c057699cd2caf6b61ec4ca1c736549c9cabaa18edabf75a1fd2cfa",
+  "independent_noise_realizations": false,
+  "input_sha256": {
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0081.mat": "c88f5c4b5650d7e7a99db832e9725275f773a3f8ef1fb9b5d9a420aebc347f57",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0085.mat": "9917f86eeadd1101807138928b8b0e021ac3e52721f16b6920f203c9aa0d73a8",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0088.mat": "31c2e61c8c44bf1552d3751bba8d775d345bfa807e12cab47e50e7fa4d427eed",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0089.mat": "588c75b2ff254381cfc55331e40fd4194a8b6110dd04c694d38fda991259c7e6",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0092.mat": "17031a6939a72f970c4cd631cfe4aefd3b88ea3ada3bc17bc12e4546aaf42d50",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0096.mat": "fd805992d79cbf77d167b89bb679cf4644eddae354721e0101f542e5e6ca50df",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0104.mat": "f1514250d4ebd4e5c07ff3b0231757f1e0d3a2a2b46e3793289a8bdfefa5bbc3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0105.mat": "733cb5ab6b3b58b722845f53fe8ddb6a1b7620bebe310cc25763f14e4baaf994",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0109.mat": "d9d87d11a1863a3a0cff7b8c4c7537813fff4479ce492f55efcfe2660e8fbf2e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0110.mat": "571f4a48b8ec1e1b30fef7f70b36d26b4b96e9cce2c423ed9b61fd8af763ee40",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0127.mat": "b5353c5ad54df011530306947b8963da5b64e399b0ee4de79e24640cf8ab02eb",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0129.mat": "637ece99be02bfbd2a7fac18abf9b0f9dc8a615ab4d2ad633a2cd24cda821864",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0134.mat": "b49b4989a54e6abd75acca6aba1e300673fb5bb898ad5305eb8def3f78b0d448",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0137.mat": "7fef831abe57c154c0e8904ab4f4e831e9420d0d41444b2bd9f4c93dc05e3cb8",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0138.mat": "a770f5e3abd77e27d42accdb904da956df9ef1517771cb7c8afeb870481e9779",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0139.mat": "09dae8442ed8a02530ee9e257080b11c9b47b82c6fb8cb84e83bfb94c5144d37",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0140.mat": "412313d1e2cb7953de45465c52057e7d5d6a7c6b757de0a0d0b93c3e7be9ee0a",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0144.mat": "4437a9004f116732870d0f145094cd4a04b72c818e9f997ef60dbec85fa71be9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0150.mat": "fa8907989b061cf17cebd18698a32edff9947cfa95f653b36b21d4287ca7bc31",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0163.mat": "295262e940ac27beea2f337fad9524e89dcce9290e3c9633bce9581e2eb69c4d",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0166.mat": "30a8e0932b9b90fc2ea5a6f6522e032750de8593050170956dbaf102b907ff84",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0169.mat": "24d4192504d6b61f720c85db4aba246d5251daa1ebaf12bd5aed5a4a7de9f36c",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0187.mat": "e22ebceb2bc4d55f9864c7004edb129c5db2c05aef404165a0dea71334e81dd1",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0194.mat": "8e1046bb8ebdc5724a470b991cb6c7abaf3ac120b80c8ff45712edae413a9677",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0195.mat": "afe9ef55319219b1edc015899a7c9cc89748c4a0f0ca4252aa484d5c3cec65fb",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0198.mat": "0833ca7206858f3c59423842d59bbb77f6e6e48e7de8329de729aafe9a6f834c",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0200.mat": "b05875e1e364bbbc55ad0f5ef8fa8638e89b0b0a9282f02ff14707005cc21cd9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0203.mat": "396c4c6d1e48c2491cc4f537e12aab7e4507fd5cbf30cf5dd2563e4e9cfb35d6",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0205.mat": "6d177c00e8ad6eea31af7e5c799ff1a7265b7fd6fc0f20bd1cbd0d0ca8b2bf48",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0210.mat": "9916726fd728b66f2e7e33235bb538b3d80afbd136b1b3340cd6a7fc3db8eb26",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0219.mat": "1a5a536c0a3bd6581087a0a7a8f1463012c16729d47821efd9338b45a1b36094",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0223.mat": "09aa5801b4021a60573f35ab7c3893e1dc47140498b0aad73f66639b0402b5ca",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0227.mat": "15d10b6176523e7668730dd7b9f3ecf713accb43fcd56d4f66299c1c175df985",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0230.mat": "4e699b3f75e0f2b04c8613b90144db087923125dd645b99a98ebad15b7e20bcb",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0235.mat": "66001abdff09628fe23fc83cff892cb8232193ee89a7ea4bfc1564066122ce32",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0241.mat": "6e54826a5b4e6f2bf3266809cfa40b4873be852c5b709996cbbe27804bbfc534",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0246.mat": "a73bd3d84882674724a6b67a60209e57f9ebecdcd7bf9c966253f03f9316245b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0252.mat": "7d24b421990e6174ec514d1689f1a1c6ebdc27e4d9b7aa747acbc0a2228dc186",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0254.mat": "6ec7358ca02f4cf2db5cf2e6feb188db0c026b75b4a3695e07ae1d3f9431527e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0256.mat": "84f174231d548ac5ae8be8b33b3e65ea4dec356b3c982a282b0dec11d63d054c",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0260.mat": "ca3885a58f4a3366d802083ed88d9f778b0db69ef5a5a68c1a77c3c55a71aac7",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0272.mat": "3d1c0dd8b7e7708befceabc4007b7d906a42a64ebb06839176c5c3fa336917be",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0274.mat": "120dbfc0a8d89e015bb5b5a1dbbdb4fc9f31aa8f590b712dbf6bec7f0c6fdd88",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0279.mat": "928f4a38a0c1a747f1b865dada26e507bb5a3b4662c33b0c853d136d0b42ed48",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0287.mat": "4d87cf8d6bef0ea2b0837d1c7ac87944fabf24e85728d84855680b22c36b1146",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0292.mat": "3da075a7478bad303af9b95956811d71b772e6db057315dfcd191805a228a88b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0297.mat": "bfa34d22151206384a1d2be3565bee604d0b3aaddd3f5fcc87e257c64ebff046",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0305.mat": "923e4be78f30ba12292c1f259315e14a9c9936a8ccc90e77029c3177a008298f",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0317.mat": "31eb9dafdeb42d59a8f9b2834cad7b9b7ca4a563a7b7b105eabba9b631c5690c",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0319.mat": "c083b098fc351d80980cb8100eecb298f6791cd9acc61573812ec0d265faf218",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0321.mat": "d83791e57e6ac1fdd1948cdf06cc0e58f4552d8c4d575d5cfb339bb303897105",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0328.mat": "51711f9f74ab8812b4052900683d05e32ed619941117bcccdb7a8f09686eaa5e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0330.mat": "39ceb5bd56d421906591c285f514c669a4a9ae279fe38a594ccd51a3620359f7",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/0333.mat": "19bd17eb3d48bc1b52228b494ca93e5df169b8a396118bcc43ba89d708c097e8",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-1000-10.mat": "152ce06013f41de438e1f92809deb9e550133c53388676e3068e776ee63a4e7b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-1000-5.mat": "c0e78f6b95d24e48c2b3c2b2427172abbc771373cfbe233eb994504f877d5c86",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-300-1.mat": "8f321606adc2119a522d54924a992aa6b2cdd90a1d120e2d111498105671bc6f",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-300-5.mat": "cbd57e092d8257e5f595504f9d2a8299e97c1be00eb472b200e072707b0a844d",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-400-11.mat": "3a19700d075648f3ce39c3ab8b2fbc0c91dc25168d3de3d021350c1694e57314",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-400-7.mat": "46e000aae28cff8c592587c0ee72b3f2a7bd80f475f9e43f72e449eca1fb145b",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-500-3.mat": "20643b4c39af7e4d03123adadef3be7feb4f422a03aa62af6eaa462bad00b668",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-500-4.mat": "fd868d6b8b9a8ca32f1aa21fa9c583be58c6fb127a9afa0c036ab77767121238",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-600-3.mat": "18fa2fe1bf6592a1bd7f263c6ffa9896982b8893a736bee35309a14803c09425",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-600-6.mat": "6c42af25d9f031dec59753a6270f66cd311c1e3a294c879875f35686611ab074",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-700-11.mat": "8e2b24db99c6144a65be3a86060410bb15695bb01c57555dccecc8843549f254",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-700-5.mat": "6874601e00ee386053dfc5da69e0f905aa395bedd61ff6078c4d6a4507274d5e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-800-10.mat": "ad9ce3c1259a144deb83a15a8ddb1eca4255dcecb3c9969620dad7b823c0d2c8",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-800-3.mat": "16981a9aa026d8eb94cd4698791fa707038e8b02b09ea165ab8362423c401d75",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-900-1.mat": "30cc54c494b85588b70a8451981242dc6dbf5eff246bc55d7bc2297e83a9c5f4",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-900-6.mat": "a998c3d36141b989213f762a2464bb07d064d1723c6c8a32004ce86281c6215e",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/4-900-9.mat": "64343ef31ded80c809213648ec11b39b97671ad50567ebcdd09bed4600a22e5f",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-1000-7.mat": "29c33dfccd54ad93d8511205a6dbd3e437787582918673d4c61fa76138cd4f73",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-1000-8.mat": "3b564ccc3f3eb35fadbdf3a636557c71dfa4c3b36884e19c9c623f29bb7e31d3",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-300-10.mat": "d5e5637ef04f659bb7629c8f7fa2c8872de9821ccaf26356651d2d4bc0692ac7",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-300-9.mat": "6c729fd1c726a038e143ef15d668f0dbb52b58124e8e434d33cd74ff1b7dddc9",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-400-10.mat": "0fa07a9cc8990d42a24b42fcaa434edf346a870210e2f391d5a175f608fcc31d",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-400-3.mat": "1b757d6b09d9920618089b2083f680bef7d77196beec1f6e89edc71cec95522d",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-500-6.mat": "d1befdf66abbe3878ec803f0a7f8b46a528b20ce080f857cbd77b1f31df0058c",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-500-7.mat": "2fbd01fbbb750de2a71ed927c94822ea2c8b76b8f51c3a55cb04386204047ee8",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-600-10.mat": "11ea8a4b22c643b4fdf1f4ea8386878c148051ec7fb40a2989ec4818bbaf9086",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-600-2.mat": "efb9fae6c8e3fa4951d2e5b8129fd8915ad86cabefa631e448d232e61009ce3a",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-700-1.mat": "6917f4835fef572c92a76aa090f179fd8adbdb128578771bc7da5bc99643bcd2",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-700-3.mat": "01d05656fabe381b6189daa6b0633d3ee6585a0e19812827a44f82092e125b96",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-700-8.mat": "df30b079d34c7bba8fcd9833ed4c1802b6b9017e932d497d1ebb4e49b7692756",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-800-10.mat": "cfe541173c269985d0a2abfffe85a13a27aa021e95bb32b6c0e653bff48a9ddf",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-800-4.mat": "a7acc992c02dff47301fa0a22ffa70f7454f6b012aa77fa9175dfcdb2680a2fb",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-900-10.mat": "51df6ed4057b2004bd99531a8dd05b9c856977ccdf8c971208a43830dee8a1fb",
+    "/home/wang/projects/会议论文/hust/experiments/four_models_expanded_val/56513c7/target_snr/SNR_10/5-900-7.mat": "023a48acefcba0e46e3b6631df2ffcdd0a4eba468e0875dd2b48ec8567670ac8",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0081.mat": "49d296fc7d20a873d15caa3144eebc1b5747f8990abcbf0555167ff42f9a45aa",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0085.mat": "73cbffbeef11af8c3ccfe95430015a9943eb401fcc2cdfd5ae6055579ad39f7d",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0088.mat": "e6d841721f2582cc0ee32f39914f1eee03fda52a2905ea7bbe8536f866a703ec",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0089.mat": "9c4d6fa96521febb17827d42f20c97f42949e074140c675a383d9138da6a4b02",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0092.mat": "fcc98f111338cb24f7cef51012682ee26bd4120496230253ceb59dfac4d94341",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0096.mat": "f7cc7bb6ce75e3d8bcfb06a8f03cc4ba3713bcb7efba13529166ea6f3457b1fe",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0104.mat": "7831737ebdd816023d57026b069fa6346088784167ac6cda76064a3af798002e",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0105.mat": "22fd9a19a6e9c604707232ebbf8d83772f17b2852ba601777a9580555134d72b",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0109.mat": "3c0428c7cb300c15a4a6f436b1abce2e9b4985ace769f3fc8416b9e0a44c825b",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0110.mat": "a6f2d3ecd961595f93ffc13c099383c24bd560c12fb7f2650fd518ef523a18b0",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0127.mat": "fb60439e5116783fb241160f4566c90a96e1656f8883f84616f7a03e62722aa8",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0129.mat": "4b20a211435a12f3d069be70b80558924d1ec044ec36b6916d410c30707d838d",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0134.mat": "4c9e92d5e95ec2b41efcb11bec8ff7a7c64f90bebb6f7664bc32258f899b89ea",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0137.mat": "d67348b0e059ab5bb719bec45566bb67f777e4e8cd6caddd1f289a59c5a6a5de",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0138.mat": "06e57eb09800ee77abce03e46f7f8d134f91ef4542fef89608e44593b66d47bb",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0139.mat": "477fdc1f7ad4262d44a3ace3c56ecd9e0ee2b54baba2892bab567894f0f18e4e",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0140.mat": "d9040796ed366ce463213411494fcb5679d2292eb645619f95fdc047549680b4",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0144.mat": "a5435b5e335d1de5aae83df01bfcf34404e3feb466aa858a42fa1db3d10e938a",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0150.mat": "8b5167a47e3ca8064da622e2e70dae220f99c8d399e0c1fcd8ff4e1fe5bd81e2",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0163.mat": "17857bce88b281d378161f3c5bf185698f4b3620c49b330c8b84f02ca66fd62b",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0166.mat": "540a19bece253f56d5de3f570af1dc2e943e3a8018c8303968f9431b1bd67f04",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0169.mat": "442e3ff5efe514d3921484b42757c6b86e455c62c1922e174ebd182b1f02b02e",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0187.mat": "742f97ce8052af096c5c1598314f17b94aae948d945f5a78e5ba2e539481d65f",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0194.mat": "46d4d34962cbac3dfb40ab59cbc9d944ac412afc5614bc605787b360e98e8e17",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0195.mat": "e52addd7f8eef142df3031d55f9c41f3150b1f5c897682c2e67efe8675b1fd7a",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0198.mat": "93a9ea41459971adab6795c57f15cb96db87f05eef50a659e69b61d0eeb4ffad",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0200.mat": "c2ec585582db0cb4de129e0ff44dbe61787b5176ff7d97b0aae0b4f1000fbdcb",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0203.mat": "e54663fbe0adfdc6d4d3575ba88b0bb799c56ae2f1df91802eb82505a47c0be1",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0205.mat": "d5afbc9b3e6117ca6690f9ae727045fbc935db6372ffe987108c0c2f18e67a14",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0210.mat": "9cf36c6cfab5ef2ef682b6f3a838572f2beb5809fa0573264fce45fa7c83891a",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0219.mat": "8a837907c1b6c4e025fe8d623898274193136f1ddc015af0db56edfb0dd00d2a",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0223.mat": "ffa3c51579189bf0be3952f073e3c203b4212e630affe038dea5e91a4a6742bd",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0227.mat": "b143dd2c9d45d36cadfd5ec13d3707346bb772649551aa405f48e514d6676017",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0230.mat": "6acb5c21d3048b93a1f4c5fa810e31e459d625a836e5021f79f041547452fee3",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0235.mat": "0e74fd3b7f426801c4793ee905742a4c7d028247727f8eec3d3a7e6391197aeb",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0241.mat": "737ccfb417642fc8c779829f48ca96dc046b140a5a351a308eeb45c7d0888165",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0246.mat": "d042d03412944ae0d7fc2107fdd0fbb54555b119427ce3011fe8221a9972c10c",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0252.mat": "1ddf22ee5a16710f50073c665d0b3732ace1ec9297dfbf36d3b9321bd7a1e942",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0254.mat": "f6d1060fe577da675106098b5a5ea4d516ed7f188f71d853876c446e45549434",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0256.mat": "a3c82525c43144000db471635a4b6399d050f811a0b35064536c93cc9a1054f0",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0260.mat": "ede8b29cf60c4a2825e0167457822d8213022974d191a201858f997ee8c38c82",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0272.mat": "d99b70dd7eedcb3ba49c5711ba48c2a87c6d990ec7869e9d25dc598f25d74654",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0274.mat": "b016ce895305d16f8350693b9e29100e089abf067f532db1b2627e064872ea52",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0279.mat": "b56496b8c77853e95a0942202eb737ca572384b630ba8ecf7da09d8b35d7af39",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0287.mat": "f0f11748626b6150fa6ea8addbd89ef849c855fb95e15e9445f5058f1f6494c5",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0292.mat": "fd72ad71225e6bdc0ea0a7e04c9375ce6eb589a23d335ac07bf0cd531ca3671f",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0297.mat": "03ca84b740abb3de20723e2497ae6978b2014bb2bfbb6c3ebf2f6a81d33988e0",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0305.mat": "1c1c555e1610612bba3013aa30cc54853131a29764bc65e37556ba1540c07c9a",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0317.mat": "fd0ae229cfe38f92535df178558b2270c3ae678d2e58c69a12566b168ab870e0",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0319.mat": "612e66f3d393e07fbdbede3c983641bf23cbe6d38d940f1af85aa9d3530e998d",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0321.mat": "e4f7d461ae18c665f4bd4bda36e64abda5ba95220477df0dc39d70305a3a8bdb",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0328.mat": "f7e23ca70ef2f1d7867a3fe2c5105cd15ee6e916b943adf69f3c5e1dc7c5b142",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0330.mat": "941b70fa50ccc18737e709b0436eec4bdea2884458081ff1c4ca221263e13703",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/0333.mat": "d460e84560cc600037d3756e325d870a218f465526e0c13407653ca58f6576d2",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-1000-10.mat": "738bd40c2ed53e5e8d46819ee21c6da985a139a2f9a53264b61cf7f833231edb",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-1000-5.mat": "4c91b4dfc7908ef85373eb30da5e981144d761ccdc240a25b662aa299b354955",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-300-1.mat": "4797e03a584a80ad91c67e3c43f6d575251eaf48ca7392cd8ab467ca98a68e79",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-300-5.mat": "7e97fb6ab334c236092eeb78eb4b942a3931ca966b50e6f7d5f850bf4801eddf",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-400-11.mat": "d278f7ab2b5144d6606ea64988d87a4df637f0077cccb6261a425432b1174ca3",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-400-7.mat": "0f478e5a2819535c47bae684f61c947b0a8abb231959f67dd91e6b9c3989fece",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-500-3.mat": "c8ae9ee22e499ecc2434893024f24a268bc68624280aba995db8963159da6ffe",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-500-4.mat": "e85d057e675937a3018d409490a921b2038a132b65e33dc868ea83d8cde8528e",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-600-3.mat": "638f6336e413c5a9dfdfe5c0d7cff397aa1ae27d05839a3693749b1fad5886f3",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-600-6.mat": "e6391e659f713ed97eba2e70ead6f43aad276ef80c98cb3a4452d694c54bf6c3",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-700-11.mat": "e7345a9191c5fab8dedc719e42242dba7976a575896a48980331ff375cde779b",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-700-5.mat": "d493100807013bea1f0f0e17a07e62f08bf85e87a237f9fd55a7996843881818",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-800-10.mat": "15beb0b6b90ae669bde8c703c1b61405a215fc76d9004bf3b7a3af77bffb4220",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-800-3.mat": "c03ba8bfce9bc5398ce3291ed1238f295e40c891ab011adc0f8166a7204c1ea0",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-900-1.mat": "d80cec6484b386bce41b03eb7a7b53c7b554e9de94298968e736b208ca7640fb",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-900-6.mat": "b3e0a30fa2aad2c1d4dcd936eb50ed0407ac3377cf4960d162aa0e6a69c84c51",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/4-900-9.mat": "978357746992cd89e4cb4b4866bb63796c936eeddfb32e6957fa8cc4be9a09d0",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-1000-7.mat": "ac1777dd3dc2ff4149309f00b7375ad1343f03a9306d472d2dc8d2603ec9fc9a",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-1000-8.mat": "a8668fcd0cfe04420590f1b9a04c547807429d2e2cb5a856b9877da21e3cf0a1",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-300-10.mat": "9118e07ea57772c331318873b3174121545cf2a44a191075455481b1dea66990",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-300-9.mat": "50a2660ed94f02ed03fa0a956e1b2f88791ddbbd122a6d39312b50c90de5c615",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-400-10.mat": "60ecf5f7c655483fd265ecb516a7171d565e0e5c2d2f954bc181ad4c5f592c99",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-400-3.mat": "f6f7ae5fed070ad2138140c688ed440753c0676da05e2ec3811e7cf205810779",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-500-6.mat": "123b0213371db471be242b499ce512329004a6cdb00eeec221b1ce3cd9a249a0",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-500-7.mat": "2da732d1690a5cfeee9f7a7af287293d0e020b4a23f1cf3d3e8085ee59cb06da",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-600-10.mat": "5cb54ce0d5844bb8bd3be842c1f884a5587ae56176968699a5e2083a062ac376",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-600-2.mat": "7b856f4a9d7cd3c2d397c14b1331202dbab8a4cfca496775ac009819471f6500",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-700-1.mat": "a920084a0a47b9d1baa7c7e5ccfb31492797d1374c9986f3db4b5be1911af262",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-700-3.mat": "388a91879977a0f100d3805129e66dcc77e5b977f60a742023f877e4b45dc84f",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-700-8.mat": "f62874ad960bdbf6a1d0f418ad34261e8050bc0792c539baa8bd980677f4301e",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-800-10.mat": "241ca927c2428df254c4143748f7b42b5c4c8cd0a4d994cf8065555117def540",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-800-4.mat": "c6579a76cd200baa10f7ec72df80988279118e33e3ba357bf2605431c419727d",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-900-10.mat": "49bc254c03f6692c329dc98435179328c644f04ac6ca9f20b37723605c492138",
+    "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/code/data/target_dev/clean/5-900-7.mat": "5729f07b66bdf26ae9cb94970a323e71311142ee96a5c5b62846166f985aae66"
+  },
+  "regenerated": false,
+  "snr_scope": "whole original record, per phase; cycle SNR may differ"
+}

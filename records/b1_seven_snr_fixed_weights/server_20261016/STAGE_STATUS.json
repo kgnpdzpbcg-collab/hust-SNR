@@ -1,0 +1,94 @@
+{
+  "jobs": [
+    {
+      "stage": "preflight",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/code/scripts/b1_seven_snr_fixed_weights.py",
+        "preflight",
+        "--baseline-root",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+        "--ablation-root",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016",
+        "--additional-root",
+        "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output"
+      ],
+      "started_unix": 1792141017.6306415,
+      "seconds": 4.132063627243042,
+      "exit_code": 0
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/code/scripts/b1_seven_snr_fixed_weights.py",
+        "evaluate",
+        "--baseline-root",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+        "--ablation-root",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016",
+        "--additional-root",
+        "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output"
+      ],
+      "started_unix": 1792141027.546912,
+      "seconds": 5.388500213623047,
+      "exit_code": 0
+    },
+    {
+      "stage": "verify",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/code/scripts/b1_seven_snr_fixed_weights.py",
+        "verify",
+        "--baseline-root",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+        "--ablation-root",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016",
+        "--additional-root",
+        "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output"
+      ],
+      "started_unix": 1792141038.073086,
+      "seconds": 11.616614580154419,
+      "exit_code": 0
+    },
+    {
+      "stage": "summarize",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/code/scripts/b1_seven_snr_fixed_weights.py",
+        "summarize",
+        "--baseline-root",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+        "--ablation-root",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016",
+        "--additional-root",
+        "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output"
+      ],
+      "started_unix": 1792141059.0168927,
+      "seconds": 0.11407661437988281,
+      "exit_code": 0
+    }
+  ],
+  "current_stage": "summarize",
+  "state": "passed"
+}

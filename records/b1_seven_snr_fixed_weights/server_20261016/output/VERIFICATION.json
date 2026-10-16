@@ -1,0 +1,14 @@
+{
+  "final_holdout_evaluated": false,
+  "fixed_best_weights": 16,
+  "independent_sklearn_metric_checks": 112,
+  "model_parameters_and_bn_unchanged": true,
+  "new_evaluations": 42,
+  "protected_files_unchanged": 1126,
+  "retrained": false,
+  "reused_evaluations": 70,
+  "source_validation_replays": 96,
+  "status": "passed",
+  "target_predictions_replayed_exactly": 112,
+  "verification_scope": "fixed-weight replay; no second training"
+}

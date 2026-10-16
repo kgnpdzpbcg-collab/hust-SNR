@@ -1,0 +1,158 @@
+{
+  "config": {
+    "a2_fixed_proxy": "median across all source-train first-epoch Gaussian-augmented phase/current noise proxies; scalar stored in checkpoint buffer",
+    "ablation_scope": "source-only training, no target selection, 5 models x seeds 42/44; full B1 baseline remains in existing benchmark",
+    "b0_pretrain_epochs": 10,
+    "b0_reconstruction_weight": 0.2,
+    "b1_pretrain_epochs": 10,
+    "b1_restore_weight": 1,
+    "batch_size": 32,
+    "epochs": 50,
+    "final_holdout_evaluated": false,
+    "learning_rate": 0.001,
+    "methods": [
+      "a1_fixed_lp4_dual",
+      "a2_fixed_noise_proxy",
+      "a3_no_interphase_descriptors",
+      "a4_md_only",
+      "a5_no_strength_loss"
+    ],
+    "protocol": "hust-cycle-v2-b1-paper-ablations-42-44-v1",
+    "raw_points": 4096,
+    "seeds": [
+      42,
+      44
+    ],
+    "selection": "source clean F1 within one pp of peak; maximum five-noise source F1, then clean F1; exact ties use minimum five-noise source CE, then earliest epoch",
+    "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "source_split_protocol": "hust-source-cycle-split-v2",
+    "source_train_cycles": 962,
+    "source_val_cycles": 221,
+    "target_checkpoint_selection": false,
+    "target_conditions": [
+      5,
+      0,
+      -5,
+      -10
+    ],
+    "target_training": false,
+    "train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "weight_decay": 0,
+    "xu_dml_weight": 1,
+    "xu_reconstruction": "paper_sum",
+    "xu_reconstruction_weight": 1
+  },
+  "final_holdout_evaluated": false,
+  "first_training_noise_sha256": "c3d5094bb47e3ce8aaa2eec4531a6841f1aa8a3b69642c2257238fe81b983e86",
+  "initial_parameters_sha256": "f1f2042c03bfeae82ba9af9102d1748a4369cfdac6bbfe6a2b89f89c9fbf563a",
+  "method": "a4_md_only",
+  "parameters": 252704,
+  "pretrain_history": [
+    0.024195873208584323,
+    0.025071445461963455,
+    0.025171219130917903,
+    0.01831034265999352,
+    0.02054033230148977,
+    0.016533170135751847,
+    0.01623242977638579,
+    0.016103512277045557,
+    0.015193249162797245,
+    0.010899227938704913
+  ],
+  "protocol": "hust-cycle-v2-b1-paper-ablations-42-44-v1",
+  "seed": 42,
+  "selected": {
+    "clean_ce": 0.0002999620520556135,
+    "clean_f1": 1.0,
+    "epoch": 12,
+    "noise_mean_ce": 0.006708949079475791,
+    "noise_mean_f1": 0.9990989345509893,
+    "noisy_ce": {
+      "0": 0.027523175084213324,
+      "10": 0.0007976390657381774,
+      "20": 0.00032621220900462224,
+      "30": 0.00030284538460533005,
+      "5": 0.0045948736538175
+    },
+    "noisy_f1": {
+      "0": 0.9954946727549467,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0,
+      "5": 1.0
+    },
+    "optimizer_steps": 31,
+    "train_components": {
+      "ce": 0.010940371471787653,
+      "complex": 6.25636840859736e-05,
+      "noise": 0.040437860264172475,
+      "phase": 1.4378827555197682e-05,
+      "restore": 0.004112101295181821
+    },
+    "train_loss_mean": 0.015052472766969473,
+    "train_loss_sample_weighted": 0.007609608716751582
+  },
+  "source_only": true,
+  "source_split": {
+    "manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "protocol": "hust-source-cycle-split-v2",
+    "sets": {
+      "gap": {
+        "class_counts": [
+          15,
+          13,
+          13,
+          13,
+          12,
+          12
+        ],
+        "records": 63,
+        "samples": 78
+      },
+      "train": {
+        "class_counts": [
+          146,
+          166,
+          166,
+          166,
+          157,
+          161
+        ],
+        "records": 63,
+        "samples": 962
+      },
+      "val": {
+        "class_counts": [
+          38,
+          37,
+          37,
+          37,
+          36,
+          36
+        ],
+        "records": 63,
+        "samples": 221
+      }
+    },
+    "source_records": 63,
+    "target_split_changed": false
+  },
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "target_used_for_training_or_selection": false
+}

@@ -1,0 +1,22 @@
+{
+  "protocol": "hust-cycle-v2-eight-model-seven-snr-fixed-weights-v1",
+  "models": ["b1", "a1_fixed_lp4_dual", "a2_fixed_noise_proxy", "a3_no_interphase_descriptors", "a4_md_only", "a5_no_strength_loss", "xu_full", "b0"],
+  "seeds": [42, 44],
+  "conditions_db": [5, 4, 0, -4, -5, -8, -10],
+  "additional_conditions_db": [4, -4, -8],
+  "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+  "baseline_training_commit": "4728e9b82c4c181564f0247aa4b1028a35a8e8d2",
+  "ablation_training_commit": "d9947f0a037c2938480b15bb1423c22e8d79a273",
+  "record_families": 88,
+  "cycles_per_condition": 2474,
+  "class_counts": [1106, 307, 297, 298, 237, 229],
+  "raw_points": 4096,
+  "new_evaluations": 42,
+  "reused_evaluations": 70,
+  "total_evaluations": 112,
+  "checkpoint": "source-selected best.pt; original epoch and complete state_dict retained",
+  "noise_generation": "reuse existing Clean + (author10 - Clean) * 10**((10 - target_db)/20); no regeneration",
+  "retrained": false,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}
