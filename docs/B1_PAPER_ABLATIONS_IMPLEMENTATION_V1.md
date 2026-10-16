@@ -1,6 +1,6 @@
 # NCPHR-Net (B1) 会议论文消融实验 V1 — 代码实施与核验协议
 
-> **状态：代码已实现并提交；尚未在真实 HUST 源训练数据上完成 A1–A5 训练，所有新增消融成绩仍为 TBD。**
+> **状态：2026-10-16已在原GPU服务器完成A1–A5×种子42/44共10组训练及40组固定Dev评估；完整B1的8组既有结果完成预测回放。结果见[B1消融实验记录](B1_PAPER_ABLATIONS_RESULTS_V1.md)。**
 > 
 > 基线：当前仓库冻结的 [B1 实现](../scripts/hust_b1_phase_harmonic.py)；论文故事 [PAPER_STORY_NCPHR_METHOD_ABLATION_V1.md](PAPER_STORY_NCPHR_METHOD_ABLATION_V1.md)。研究分支 `research/b1-paper-ablations-v1`，与原 `research/a1-b1-noise-structure-v1` 实验完全隔离。
 >
@@ -89,7 +89,7 @@
 以下命令在服务器上仓库根目录执行，参数路径按实际服务器已有数据目录填写：
 
 ```bash
-# 1. 安装仓库原有环境，先运行自动化单元/集成烟雾测试
+# 1. 复用仓库既有uv/PyTorch环境，先运行自动化单元/集成烟雾测试
 python -m pytest -q tests/test_b1_paper_ablations.py
 
 # 2. 训练五个消融 x Seed 42/44（10组），结果写入全新隔离目录
@@ -137,8 +137,8 @@ python scripts/b1_paper_ablations.py summarize \
 
 - [x] 基于仓库原 B1 代码定义五个精确干预对象。
 - [x] 五变体代码、共享训练评估 CLI、独立 config、自动化测试文件提交。
-- [ ] 在服务器配置原数据和完整 Python 环境，运行 `pytest` 并记录真实测试日志。
-- [ ] 在 Source-Cycle V2 下执行10组新源域训练、固定权重四档实测 Dev 评估。
-- [ ] 导出 A1–A5 结果并与已归档 B1 seed42/44 结果合表、检查论文主张。
+- [x] 复用服务器既有环境，227项测试及五项真实源样本CUDA梯度检查通过，日志已归档。
+- [x] 在Source-Cycle V2下完成10组新训练和40组固定权重Dev评估。
+- [x] 导出A1–A5与既有Full B1的逐种子、逐类和配对差值表；60组源验证及48组Dev预测回放核验通过。
 
-**本文件不是实验结果报告；A1–A5 无结果之前不得填造论文消融数字。**
+**本文件记录模型及运行协议；实际数值、日志和核验状态见[B1消融实验结果](B1_PAPER_ABLATIONS_RESULTS_V1.md)。**

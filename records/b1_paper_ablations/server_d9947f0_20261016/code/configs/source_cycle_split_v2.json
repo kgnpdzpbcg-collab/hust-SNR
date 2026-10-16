@@ -1,0 +1,16 @@
+{
+  "protocol": "hust-source-cycle-split-v2",
+  "source_files": 63,
+  "source_fs_hz": 10000,
+  "raw_points": 4096,
+  "validation_fraction": 0.2,
+  "gap_cycles": 1,
+  "assignment": "each unique healthy segment and each fault segment: early cycles train, one full cycle gap, late cycles validation",
+  "healthy_deduplication": "exact float64 five-phase current bytes from 0.1 through 0.45 seconds; lexicographically first record retained",
+  "labels": "validate all 59 XLSX entries against filenames; infer remaining four labels from the verified filename convention with user authorization",
+  "source_train_noise_db": [10, 15, 20, 25, 30, 35, 40],
+  "source_val_noise_db": [0, 5, 10, 20, 30],
+  "separate_source_test": false,
+  "target_split_changed": false,
+  "models_trained_during_preparation": false
+}

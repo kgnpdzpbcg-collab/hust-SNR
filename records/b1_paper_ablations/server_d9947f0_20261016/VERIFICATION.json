@@ -1,0 +1,20 @@
+{
+  "exact_historical_b1_target_replays": 8,
+  "exact_new_target_replays": 40,
+  "exact_target_prediction_replays": 48,
+  "final_holdout_evaluated": false,
+  "historical_weights_unchanged": 84,
+  "independent_target_metrics_checked_including_full_b1": 48,
+  "model_parameters_and_bn_unchanged_by_inference": true,
+  "new_trainings": 10,
+  "new_weights_unchanged_during_replay": 20,
+  "paired_rows": 40,
+  "pretrain_history_rows": 80,
+  "protected_input_files_unchanged": 512,
+  "seconds": 6.039665460586548,
+  "source_checkpoint_replays": 60,
+  "status": "passed",
+  "summary_rows_including_full_b1": 24,
+  "training_history_rows": 500,
+  "verification_scope": "saved-checkpoint source/target replay and independent metric recomputation; not a second complete training"
+}

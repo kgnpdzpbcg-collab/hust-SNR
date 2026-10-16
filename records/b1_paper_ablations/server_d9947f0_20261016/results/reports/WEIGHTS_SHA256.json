@@ -1,0 +1,22 @@
+{
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a1_fixed_lp4_dual/seed42/best.pt": "eee06470766ab275b7ec88c7407f7483d3c9bfb9636aae6f3efd26fa82054caa",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a1_fixed_lp4_dual/seed42/last.pt": "eb02e5a0e62c7ff2a0a4b0654064e7b3ec72c270aa3e778422248336e4478a21",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a1_fixed_lp4_dual/seed44/best.pt": "455a4143f05ba47ddefa9f0bee61096b2e21a290d6242fabddf3a76f6950fc5b",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a1_fixed_lp4_dual/seed44/last.pt": "18479dc528d61c8f945164413998f737a354c7eb38f2787c4255819c6ef0472d",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a2_fixed_noise_proxy/seed42/best.pt": "10e80c37a94f760c8206cccd1dacca48a5448153c94d96349c8b8402e44d3692",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a2_fixed_noise_proxy/seed42/last.pt": "3db4c21eca69f4fab1023e06107a6ec1598f155caedbae425356f610f09c92e0",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a2_fixed_noise_proxy/seed44/best.pt": "84624dec20f43b3de01f14a636b023dc67bf7c9fde81bbd58c5031f56ca45f47",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a2_fixed_noise_proxy/seed44/last.pt": "d2fa71b2b7f1ac7df22442bc74b727bc9941f8a3b68acfabf78548bd721be30e",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a3_no_interphase_descriptors/seed42/best.pt": "a04769a2058aa19d70c9b6425b503ad9cd88af449582c827ce284028c8396c4a",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a3_no_interphase_descriptors/seed42/last.pt": "4f2ad81f449e31b6d35a2f0bbdb2ac86beadb0633b157aea8bd0f9ebc9b8485b",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a3_no_interphase_descriptors/seed44/best.pt": "e5da9a58e20e7dfe498c1b899e1707594e174a173eac0aff4f2f0db05224ba8b",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a3_no_interphase_descriptors/seed44/last.pt": "7e4b5980d89c582ccc15b330ff0424ee5d800dadc39efc34ff726a6588a82a03",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a4_md_only/seed42/best.pt": "918e580bb6431df5c951367976624e1c8e5975433c21710f475b6c4c898ef45f",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a4_md_only/seed42/last.pt": "5df9fbbb2f2a718ce9b59e3fc3502e552f5ea4fe9205a9cf67cb0f15c4a08f6e",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a4_md_only/seed44/best.pt": "d1edf94a10508f79dadfb0e36594b330467caf6eb97dd6044b8ec88b52a284d7",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a4_md_only/seed44/last.pt": "2f6b8351565c8a0b472710d3f1081125d9df7305f10d1c1f796a4d724833d457",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a5_no_strength_loss/seed42/best.pt": "266382e4e0a512c0b982d0355fff3d90393d906488b289a044a682a14a12904c",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a5_no_strength_loss/seed42/last.pt": "5e76ddc8231c18f98cd340a6a13a42cf093176d7752fc59cafd8712d8b5da56d",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a5_no_strength_loss/seed44/best.pt": "7c91087fc7af1be222ce30941f355e9efaac2e72a1849e93773ac7480f9dd193",
+  "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results/models/a5_no_strength_loss/seed44/last.pt": "d49476d07965845ef3137c0416f2c7b18dd0232b30b73d3f446a8c7c7609999c"
+}

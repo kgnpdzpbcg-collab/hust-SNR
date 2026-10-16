@@ -1,0 +1,273 @@
+{
+  "state": "completed",
+  "started_unix": 1792137782.1707432,
+  "jobs": [
+    {
+      "method": "a1_fixed_lp4_dual",
+      "seed": 42,
+      "pid": 77638,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a1_fixed_lp4_dual",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137782.171173,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 77.5332453250885
+    },
+    {
+      "method": "a1_fixed_lp4_dual",
+      "seed": 44,
+      "pid": 77639,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a1_fixed_lp4_dual",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137782.1714847,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 77.53332209587097
+    },
+    {
+      "method": "a2_fixed_noise_proxy",
+      "seed": 42,
+      "pid": 77640,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a2_fixed_noise_proxy",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137782.1741736,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 98.05061841011047
+    },
+    {
+      "method": "a2_fixed_noise_proxy",
+      "seed": 44,
+      "pid": 77641,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a2_fixed_noise_proxy",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137782.1744242,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 98.55332946777344
+    },
+    {
+      "method": "a3_no_interphase_descriptors",
+      "seed": 42,
+      "pid": 77642,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a3_no_interphase_descriptors",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137782.1747358,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 97.04382538795471
+    },
+    {
+      "method": "a3_no_interphase_descriptors",
+      "seed": 44,
+      "pid": 77643,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a3_no_interphase_descriptors",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137782.1750734,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 97.54535174369812
+    },
+    {
+      "method": "a4_md_only",
+      "seed": 42,
+      "pid": 77917,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a4_md_only",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137860.208415,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 71.03868079185486
+    },
+    {
+      "method": "a4_md_only",
+      "seed": 44,
+      "pid": 77918,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a4_md_only",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137860.2091336,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 71.0383710861206
+    },
+    {
+      "method": "a5_no_strength_loss",
+      "seed": 42,
+      "pid": 77937,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a5_no_strength_loss",
+        "--seeds",
+        "42",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137879.7201147,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 61.53402590751648
+    },
+    {
+      "method": "a5_no_strength_loss",
+      "seed": 44,
+      "pid": 77940,
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "scripts/b1_paper_ablations.py",
+        "train",
+        "--methods",
+        "a5_no_strength_loss",
+        "--seeds",
+        "44",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--out",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results"
+      ],
+      "started_unix": 1792137880.2242692,
+      "state": "completed",
+      "exit_code": 0,
+      "seconds": 61.53081822395325
+    }
+  ],
+  "workers": 6,
+  "timeout_seconds": 1800,
+  "code_commit": "d9947f0a037c2938480b15bb1423c22e8d79a273",
+  "elapsed_seconds": 166.39593148231506,
+  "training_seconds": 160.08592987060547,
+  "evaluate": {
+    "command": [
+      "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+      "-u",
+      "scripts/b1_paper_ablations.py",
+      "evaluate",
+      "--out",
+      "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results",
+      "--source-root",
+      "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+      "--strong-root",
+      "/home/wang/projects/会议论文/hust/datasets/strong_snr_v1_20261012/generated/target",
+      "--extreme-root",
+      "/home/wang/projects/会议论文/hust/experiments/prototypes_a1_b1/dc8cb36/extreme_dev"
+    ],
+    "exit_code": 0,
+    "seconds": 5.490077018737793
+  },
+  "summarize": {
+    "command": [
+      "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+      "-u",
+      "scripts/b1_paper_ablations.py",
+      "summarize",
+      "--out",
+      "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/results",
+      "--source-root",
+      "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2"
+    ],
+    "exit_code": 0,
+    "seconds": 0.8179483413696289
+  }
+}

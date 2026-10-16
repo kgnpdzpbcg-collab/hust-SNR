@@ -1,0 +1,75 @@
+{
+  "stage": "hust_simple_gate0_v1",
+  "date": "2026-10-12",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "source_fs_hz": 10000,
+  "sampling_rate_explicitly_published": false,
+  "sampling_rate_crosscheck": "59 rising-zero-crossing estimates within 2.17e-6 relative of 10kHz",
+  "target_duplicate_timestamp_rule": "mean all measurement columns at identical stored times; use same aggregation for Clean/noisy",
+  "window_rule": "nonoverlapping 2*pi integrated electrical angle; Clean-defined identical bounds for target Clean/10dB",
+  "healthy_interval_s": [
+    0.1,
+    0.45
+  ],
+  "fault_interval_start": "0.5s plus two electrical cycles",
+  "fault_interval_end_s": 0.98,
+  "preprocessing": "extrema center then meanabs>=0.2 divide maxabs else /100; linearly resample full period to 128",
+  "cnn_channels": [
+    5,
+    16,
+    32,
+    32
+  ],
+  "cnn_kernels": [
+    16,
+    4,
+    4
+  ],
+  "fc": [
+    352,
+    50,
+    6
+  ],
+  "epochs": 50,
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0,
+  "scheduler": null,
+  "loss": "unweighted CE; augmentation averages clean/noisy CE",
+  "selection": "source clean Val Macro-F1 maximum, earliest exact tie",
+  "target_eval": [
+    "clean",
+    "snr10"
+  ],
+  "augmentation_snr_db": [
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "augmentation": "full source Train record, per-phase whole-record RMS-calibrated Gaussian noise then identical window/preprocess; fresh noise each epoch",
+  "augmentation_gate": "all three paired Clean-10dB differences >0 and mean >=5 percentage points; basic training validity must pass",
+  "stage1": false,
+  "consistency_loss": false,
+  "holdout_evaluated": false,
+  "precision": "deterministic FP32; TF32 off",
+  "workers": 3,
+  "cpu_threads_per_worker": 4,
+  "target_parameters_or_bn_adaptation": false,
+  "independence": "unique raw current waveform family; windows/7 SNR files not independent units",
+  "limitations": [
+    "publisher exact sampling-rate/field dictionary missing, crosscheck supports assumed units",
+    "steady-state guard fixed at two cycles, no complete offline reproduction claim",
+    "target Dev supports exploratory Gate0 only, no final blind accuracy",
+    "3 seeds not formal significance proof",
+    "Gaussian enhancement distribution not proven to match publisher"
+  ]
+}

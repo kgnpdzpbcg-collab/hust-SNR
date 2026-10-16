@@ -1,0 +1,8 @@
+a4_md_only seed44 recovery pretrain 1: 0.029265
+a4_md_only seed44 recovery pretrain 10: 0.013350
+a4_md_only seed44 epoch1/50 source F1=0.767159 CE=0.567298
+a4_md_only seed44 epoch10/50 source F1=0.990952 CE=0.027855
+a4_md_only seed44 epoch20/50 source F1=0.783035 CE=0.645820
+a4_md_only seed44 epoch30/50 source F1=0.988244 CE=0.030428
+a4_md_only seed44 epoch40/50 source F1=0.990321 CE=0.041374
+a4_md_only seed44 epoch50/50 source F1=0.995465 CE=0.018662

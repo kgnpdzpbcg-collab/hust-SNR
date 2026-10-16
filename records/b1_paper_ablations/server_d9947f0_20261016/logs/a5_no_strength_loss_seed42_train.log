@@ -1,0 +1,8 @@
+a5_no_strength_loss seed42 recovery pretrain 1: 0.024190
+a5_no_strength_loss seed42 recovery pretrain 10: 0.010894
+a5_no_strength_loss seed42 epoch1/50 source F1=0.983215 CE=0.127044
+a5_no_strength_loss seed42 epoch10/50 source F1=1.000000 CE=0.004389
+a5_no_strength_loss seed42 epoch20/50 source F1=1.000000 CE=0.000356
+a5_no_strength_loss seed42 epoch30/50 source F1=0.999099 CE=0.003041
+a5_no_strength_loss seed42 epoch40/50 source F1=0.988955 CE=0.023514
+a5_no_strength_loss seed42 epoch50/50 source F1=0.994579 CE=0.016764

@@ -1,0 +1,6 @@
+a1_fixed_lp4_dual seed44 epoch1/50 source F1=0.982942 CE=0.139829
+a1_fixed_lp4_dual seed44 epoch10/50 source F1=0.999099 CE=0.005719
+a1_fixed_lp4_dual seed44 epoch20/50 source F1=0.999099 CE=0.003195
+a1_fixed_lp4_dual seed44 epoch30/50 source F1=0.999098 CE=0.010307
+a1_fixed_lp4_dual seed44 epoch40/50 source F1=0.999086 CE=0.004653
+a1_fixed_lp4_dual seed44 epoch50/50 source F1=0.994502 CE=0.011956

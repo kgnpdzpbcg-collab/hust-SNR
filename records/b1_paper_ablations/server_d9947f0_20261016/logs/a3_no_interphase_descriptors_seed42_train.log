@@ -1,0 +1,8 @@
+a3_no_interphase_descriptors seed42 recovery pretrain 1: 0.024197
+a3_no_interphase_descriptors seed42 recovery pretrain 10: 0.010900
+a3_no_interphase_descriptors seed42 epoch1/50 source F1=0.988063 CE=0.117656
+a3_no_interphase_descriptors seed42 epoch10/50 source F1=0.999099 CE=0.011144
+a3_no_interphase_descriptors seed42 epoch20/50 source F1=0.999099 CE=0.002368
+a3_no_interphase_descriptors seed42 epoch30/50 source F1=0.999099 CE=0.003669
+a3_no_interphase_descriptors seed42 epoch40/50 source F1=0.989988 CE=0.027798
+a3_no_interphase_descriptors seed42 epoch50/50 source F1=0.998197 CE=0.011000

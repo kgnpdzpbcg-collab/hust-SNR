@@ -1,0 +1,8 @@
+a2_fixed_noise_proxy seed42 recovery pretrain 1: 0.171971
+a2_fixed_noise_proxy seed42 recovery pretrain 10: 0.148294
+a2_fixed_noise_proxy seed42 epoch1/50 source F1=0.976894 CE=0.153778
+a2_fixed_noise_proxy seed42 epoch10/50 source F1=1.000000 CE=0.001418
+a2_fixed_noise_proxy seed42 epoch20/50 source F1=1.000000 CE=0.002787
+a2_fixed_noise_proxy seed42 epoch30/50 source F1=0.980725 CE=0.056277
+a2_fixed_noise_proxy seed42 epoch40/50 source F1=0.988831 CE=0.032449
+a2_fixed_noise_proxy seed42 epoch50/50 source F1=0.999099 CE=0.004707

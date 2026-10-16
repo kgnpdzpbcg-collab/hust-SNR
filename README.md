@@ -2,6 +2,8 @@
 
 HUST五相IM-AA数据的实验配置、指标记录、数据解析及波形图。
 
+- [B1五项消融完整结果：42、44分开展示](docs/B1_PAPER_ABLATIONS_RESULTS_V1.md)
+
 - [实验配置与完整结果](docs/EXPERIMENT_RECORD.md)
 - [数据字段及解析](docs/DATA_PARSING.md)
 - [六类波形图](docs/WAVEFORMS.md)
@@ -506,3 +508,13 @@ Macro-F1（六种子均值±样本标准差，%）：
 
 - [完整服务器记录、12条件和逐种子结果](records/source_cycle_benchmark/server_4728e9b/SERVER_RESULTS.md) · [504行指标](records/source_cycle_benchmark/server_4728e9b/results/reports/PER_SEED_RESULTS.csv) · [独立核验](records/source_cycle_benchmark/server_4728e9b/results/reports/VERIFICATION.json)
 - [新实验协议](docs/SOURCE_CYCLE_BENCHMARK_V1.md) · [冻结配置](configs/source_cycle_benchmark_v1.json)
+
+## B1五项消融：种子42/44（已完成）
+
+运行提交`d9947f0`。在Source-Cycle V2的962/221周期划分上，五个消融各运行42、44两个种子，50轮联合训练；A2–A5额外10轮恢复预训练。训练噪声10–40 dB，源验证Clean及0/5/10/20/30 dB；固定88个实测Dev编号，测试5/0/−5/−10 dB。Full B1引用原基准对应最佳权重。
+
+完成10组新训练、40组新评价及8组Full B1预测回放。227项测试、60组源验证回放和48组Dev预测回放核验通过。两个种子的实际结果分别展示，同时保留均值、样本标准差、逐类指标和配对差值。
+
+- [按种子分开的实验结果](docs/B1_PAPER_ABLATIONS_RESULTS_V1.md)
+- [完整服务器记录](records/b1_paper_ablations/server_d9947f0_20261016/SERVER_RESULTS.md)
+- [逐种子指标CSV](records/b1_paper_ablations/server_d9947f0_20261016/results/reports/WITH_FULL_B1_PER_SEED.csv) · [核验记录](records/b1_paper_ablations/server_d9947f0_20261016/VERIFICATION.json)

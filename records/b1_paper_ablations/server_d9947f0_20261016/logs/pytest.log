@@ -1,0 +1,43 @@
+........................................................................ [ 31%]
+........................................................................ [ 63%]
+.............................................................F.......... [ 95%]
+...........                                                              [100%]
+=================================== FAILURES ===================================
+______ test_actual_published_stress_results_are_read_without_modification ______
+
+    def test_actual_published_stress_results_are_read_without_modification():
+        """回读真实历史文件，避免只用合成condition格式测试而漏掉snr_db接口。"""
+        root = Path(__file__).resolve().parents[1] / v5.V4_STRESS
+        for method in ('lowpass3', 'lowpass4'):
+            for seed in (42, 43, 44):
+                for level in (0, 5):
+                    path = root / method / f'seed{seed}' / f'target_dev_snr{level}.json'
+>                   before = path.read_bytes()
+                             ^^^^^^^^^^^^^^^^^
+
+tests/test_v5_experiment.py:114: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.12/pathlib.py:1021: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/code/records/v4_strong_snr/server_84f6757/results/evaluations/lowpass3/seed42/target_dev_snr0.json')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016/code/records/v4_strong_snr/server_84f6757/results/evaluations/lowpass3/seed42/target_dev_snr0.json'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+=========================== short test summary info ============================
+FAILED tests/test_v5_experiment.py::test_actual_published_stress_results_are_read_without_modification
+1 failed, 226 passed in 3.41s

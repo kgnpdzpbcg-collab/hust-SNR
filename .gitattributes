@@ -9,3 +9,8 @@ figures/** -text
 records/xu2025_full/server_bb2f219/logs/*_train.log whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 # A0/B0并发控制台原日志两行含行尾空格，保留服务器原字节及导出SHA。
 records/prototypes_a0_b0/server_c0b30c9/controller.log whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# B1消融归档保留服务器/本地原字节，识别CRLF；旧文档和错误日志原有空格保持不变。
+records/b1_paper_ablations/server_d9947f0_20261016/** whitespace=cr-at-eol
+records/b1_paper_ablations/server_d9947f0_20261016/code/docs/B1_PAPER_ABLATIONS_IMPLEMENTATION_V1.md whitespace=-blank-at-eol,cr-at-eol
+records/b1_paper_ablations/server_d9947f0_20261016/logs/pytest.log whitespace=-blank-at-eol,cr-at-eol
