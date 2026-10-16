@@ -12,8 +12,6 @@ a previously selected B1 checkpoint.
 """
 from __future__ import annotations
 
-import math
-
 import torch
 from torch import nn
 from torch.nn import functional as F
@@ -25,7 +23,7 @@ from hust_b1_phase_harmonic import (
     b1_recovery_objective,
     shared_harmonic_scale,
 )
-from v2_paifilter import CNN_POINTS, PHASES, RAW_POINTS, deterministic_linear_resample
+from v2_paifilter import PHASES, RAW_POINTS
 
 # IDs are part of the frozen config and the saved checkpoint provenance.
 A1 = "a1_fixed_lp4_dual"
