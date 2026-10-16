@@ -1,0 +1,102 @@
+{
+  "jobs": [
+    {
+      "stage": "preflight",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/code/scripts/complete_baseline_snr.py",
+        "preflight",
+        "--baseline-root",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+        "--ablation-root",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016",
+        "--additional-root",
+        "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--previous-output",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output"
+      ],
+      "started_unix": 1792142573.536128,
+      "seconds": 2.072784185409546,
+      "exit_code": 0
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/code/scripts/complete_baseline_snr.py",
+        "evaluate",
+        "--baseline-root",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+        "--ablation-root",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016",
+        "--additional-root",
+        "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--previous-output",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output"
+      ],
+      "started_unix": 1792142580.1269765,
+      "seconds": 3.7770869731903076,
+      "exit_code": 0
+    },
+    {
+      "stage": "verify",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/code/scripts/complete_baseline_snr.py",
+        "verify",
+        "--baseline-root",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+        "--ablation-root",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016",
+        "--additional-root",
+        "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--previous-output",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output"
+      ],
+      "started_unix": 1792142588.2994537,
+      "seconds": 15.026885509490967,
+      "exit_code": 0
+    },
+    {
+      "stage": "summarize",
+      "command": [
+        "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+        "-u",
+        "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/code/scripts/complete_baseline_snr.py",
+        "summarize",
+        "--baseline-root",
+        "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+        "--ablation-root",
+        "/home/wang/projects/会议论文/hust/experiments/b1_paper_ablations/d9947f0_20261016",
+        "--additional-root",
+        "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
+        "--source-root",
+        "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+        "--previous-output",
+        "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output",
+        "--output",
+        "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output"
+      ],
+      "started_unix": 1792142616.6511414,
+      "seconds": 0.11413288116455078,
+      "exit_code": 0
+    }
+  ],
+  "current_stage": "summarize",
+  "state": "passed"
+}

@@ -1,0 +1,17 @@
+{
+  "protocol": "hust-cycle-v2-twelve-model-seven-snr-fixed-weights-v1",
+  "additional_models": ["resnet1d", "cnn1d_plain", "resnet_lp3", "resnet_lp4"],
+  "seeds": [42, 44],
+  "conditions_db": [5, 4, 0, -4, -5, -8, -10],
+  "additional_conditions_db": [4, -4, -8],
+  "new_evaluations": 6,
+  "reused_evaluations": 162,
+  "total_evaluations": 168,
+  "fixed_best_weights": 24,
+  "record_families": 88,
+  "cycles_per_condition": 2474,
+  "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+  "retrained": false,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}

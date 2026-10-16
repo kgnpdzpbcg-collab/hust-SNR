@@ -1,0 +1,12 @@
+{
+  "code_sha256": {
+    "code/scripts/complete_baseline_snr.py": "13ac575257ec3c66db0902767eb677678c413d30fe75e0f745b072c5abcc8674",
+    "code/scripts/b1_seven_snr_fixed_weights.py": "e8d3b3848ebfc0b5706642869c866a1858ac72cae40f6e9373f8caecf11193c4",
+    "code/configs/b1_seven_snr_fixed_weights_v1.json": "025cd39c10c6136b15f7e3bc185151dd2e5bb138a96b3052703b29dd31d846a7",
+    "code/configs/twelve_model_seven_snr_v1.json": "462ff295b8ab59fb2cf4c0c29055cce40b88f48f6e9a1cc54d1df5405ee48ee4",
+    "RUN_STAGE.py": "ce2fecce174aba004c1a5111029e80981029137883810c1d13d562a7aa4d5699"
+  },
+  "interpreter": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "run": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016",
+  "retrained": false
+}

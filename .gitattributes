@@ -17,3 +17,7 @@ records/b1_paper_ablations/server_d9947f0_20261016/logs/pytest.log whitespace=-b
 
 # 八模型七档归档保留原服务器字节，识别CRLF换行。
 records/b1_seven_snr_fixed_weights/server_20261016/** whitespace=cr-at-eol
+
+# 三档旧归档及十二模型完整结果保持原字节并识别CRLF。
+records/additional_snr/server_20261015_snr4_m4_m8/** whitespace=cr-at-eol
+records/baseline_four_snr_completion/server_20261016/** whitespace=cr-at-eol

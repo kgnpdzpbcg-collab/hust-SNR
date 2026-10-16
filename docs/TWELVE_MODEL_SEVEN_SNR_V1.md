@@ -1,0 +1,68 @@
+# 十二模型七档SNR完整结果（42、44分开展示）
+
+## Material Passport
+
+- 日期：2026-10-16（Asia/Shanghai）；执行内容：LP3补测、旧记录原字节引用、预测重放、汇总。
+- 新增6组LP3评价，复用162份旧预测，合计168组；没有重新训练或改选最佳epoch。
+
+## 数据、权重与补齐范围
+
+- Source-Cycle V2：原63个仿真文件的962 Train、221 Val、78 Gap；每相4096点，沿用原训练及源验证协议。
+- 固定42、44两个指定种子，原24份源验证best。训练提交4728e9b（七个基准模型）与d9947f0（五个消融）。
+- 固定88个实测Dev编号，每档2474周期；七档5/4/0/−4/−5/−8/−10 dB。
+- ResNet1D、Plain CNN1D、ResNet＋LP4的4/−4/−8 dB共18份旧预测直接引用；ResNet＋LP3这三档新增6份预测。
+- 新增噪声仍读取既有264份派生MAT，不重新生成；噪声为作者10 dB残差按整记录逐相缩放。
+- 旧八模型112份预测全部保留，四基线的原四档32份预测引用原统一基准；162份引用均逐字节一致。
+- 本轮A1为固定LP4＋双视图消融，与单视图ResNet＋LP4独立。
+- 42/44是查看此前六种子结果后由用户指定的展示子集；Final-Holdout未评估。
+
+## 种子42：Macro-F1（%）
+
+| 模型 | 5 dB | 4 dB | 0 dB | −4 dB | −5 dB | −8 dB | −10 dB |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 完整B1 | 97.93 | 97.72 | 97.08 | 94.34 | 92.18 | 81.39 | 72.32 |
+| A1 固定LP4＋双视图 | 87.04 | 87.24 | 86.16 | 80.03 | 78.23 | 67.10 | 59.46 |
+| A2 固定噪声估计 | 93.69 | 93.87 | 92.15 | 85.01 | 82.30 | 73.25 | 65.53 |
+| A3 屏蔽两组跨相描述 | 96.40 | 96.52 | 95.62 | 93.88 | 92.28 | 85.67 | 75.80 |
+| A4 仅MD视图 | 99.79 | 99.54 | 97.37 | 89.30 | 85.82 | 71.53 | 59.96 |
+| A5 去掉强度损失 | 99.11 | 98.97 | 95.93 | 87.87 | 85.19 | 72.11 | 61.97 |
+| Xu-Full | 60.37 | 54.92 | 31.39 | 14.60 | 12.62 | 9.28 | 9.11 |
+| B0 | 91.50 | 90.45 | 81.47 | 63.68 | 58.52 | 42.43 | 31.81 |
+| ResNet1D | 86.11 | 83.42 | 65.34 | 29.94 | 23.01 | 13.85 | 9.85 |
+| Plain CNN1D | 93.00 | 90.44 | 71.11 | 38.84 | 32.14 | 20.48 | 15.15 |
+| ResNet＋LP3 | 94.19 | 93.98 | 91.45 | 84.83 | 82.45 | 72.12 | 62.79 |
+| ResNet＋LP4 | 98.42 | 97.99 | 93.57 | 84.47 | 81.22 | 67.83 | 57.34 |
+
+## 种子44：Macro-F1（%）
+
+| 模型 | 5 dB | 4 dB | 0 dB | −4 dB | −5 dB | −8 dB | −10 dB |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 完整B1 | 99.70 | 99.45 | 97.84 | 93.18 | 91.42 | 82.00 | 71.45 |
+| A1 固定LP4＋双视图 | 94.54 | 93.77 | 88.26 | 80.96 | 78.71 | 68.33 | 60.52 |
+| A2 固定噪声估计 | 95.99 | 95.48 | 92.04 | 85.98 | 84.00 | 74.65 | 67.81 |
+| A3 屏蔽两组跨相描述 | 87.66 | 87.71 | 85.66 | 81.90 | 80.88 | 75.98 | 69.58 |
+| A4 仅MD视图 | 89.62 | 89.78 | 87.51 | 81.48 | 77.59 | 65.48 | 54.22 |
+| A5 去掉强度损失 | 94.79 | 94.28 | 91.80 | 89.48 | 88.48 | 82.17 | 73.94 |
+| Xu-Full | 77.78 | 75.13 | 54.80 | 34.19 | 30.20 | 22.05 | 19.06 |
+| B0 | 99.27 | 99.02 | 95.36 | 83.38 | 78.90 | 57.95 | 43.77 |
+| ResNet1D | 86.94 | 83.34 | 58.73 | 26.38 | 21.74 | 13.80 | 10.61 |
+| Plain CNN1D | 87.25 | 84.94 | 67.32 | 39.28 | 31.70 | 16.88 | 13.16 |
+| ResNet＋LP3 | 90.13 | 89.79 | 88.38 | 84.29 | 81.43 | 72.50 | 62.35 |
+| ResNet＋LP4 | 95.75 | 94.78 | 89.77 | 79.20 | 76.02 | 65.20 | 54.43 |
+
+## 核验与文件
+
+- 168组完整逐周期预测重新加载原权重后回放一致；144组最佳源验证F1/CE重放一致。
+- 168组六类F1、Recall、Accuracy、混淆矩阵、健康误报和故障漏报独立复算。
+- 推理未改变参数或BN缓冲区，旧权重、原输入及历史预测指纹未变。
+- [168行逐种子指标](../records/baseline_four_snr_completion/server_20261016/output/results/reports/PER_SEED_RESULTS.csv)；[84行均值/样本SD](../records/baseline_four_snr_completion/server_20261016/output/results/reports/SUMMARY.csv)。
+- [1008行逐类F1/Recall](../records/baseline_four_snr_completion/server_20261016/output/results/reports/PER_CLASS_PER_SEED.csv)；[154行同种子Full B1配对差值](../records/baseline_four_snr_completion/server_20261016/output/results/reports/PAIRED_FULL_B1_MINUS_MODELS.csv)。
+- [全部168份预测](../records/baseline_four_snr_completion/server_20261016/output/results/evaluations/)；[原始来源及SHA](../records/baseline_four_snr_completion/server_20261016/output/RESULT_PROVENANCE.json)。
+- [144组源验证回放](../records/baseline_four_snr_completion/server_20261016/output/results/reports/SOURCE_VALIDATION_REPLAY.csv)；[核验记录](../records/baseline_four_snr_completion/server_20261016/output/VERIFICATION.json)。
+- [运行日志](../records/baseline_four_snr_completion/server_20261016/logs/)；[实际代码及配置](../records/baseline_four_snr_completion/server_20261016/code/)；原MAT和模型权重保留服务器。
+
+## 此前遗漏的三档实验归档
+
+- [原ResNet、Plain CNN、LP4与B1的三档完整记录](../records/additional_snr/server_20261015_snr4_m4_m8/SERVER_RESULTS.md)，包含18组本次补传的基线预测，以及原已生成的三张t-SNE PNG/PDF。
+- [本次补测脚本](../scripts/complete_baseline_snr.py)；[本次冻结配置](../configs/twelve_model_seven_snr_v1.json)。
+- [服务器完整归档](../records/baseline_four_snr_completion/server_20261016/SERVER_RESULTS.md)；[逐文件发布SHA256](../records/baseline_four_snr_completion/server_20261016/PUBLICATION_MANIFEST.json)。

@@ -2,6 +2,8 @@
 
 HUST五相IM-AA数据的实验配置、指标记录、数据解析及波形图。
 
+- [十二模型七档完整对照：含ResNet、Plain CNN、LP3、LP4，42/44分开](docs/TWELVE_MODEL_SEVEN_SNR_V1.md)
+
 - [八模型七档SNR结果：42、44分别展示，含Xu-Full与B0](docs/B1_SEVEN_SNR_FIXED_WEIGHTS_V1.md)
 
 - [B1五项消融完整结果：42、44分开展示](docs/B1_PAPER_ABLATIONS_RESULTS_V1.md)
@@ -528,3 +530,11 @@ Macro-F1（六种子均值±样本标准差，%）：
 - [七档完整结果：42和44分开](docs/B1_SEVEN_SNR_FIXED_WEIGHTS_V1.md)
 - [112行逐种子指标](records/b1_seven_snr_fixed_weights/server_20261016/output/results/reports/PER_SEED_RESULTS.csv) · [672行六类指标](records/b1_seven_snr_fixed_weights/server_20261016/output/results/reports/PER_CLASS_PER_SEED.csv)
 - [完整服务器归档](records/b1_seven_snr_fixed_weights/server_20261016/SERVER_RESULTS.md) · [核验记录](records/b1_seven_snr_fixed_weights/server_20261016/output/VERIFICATION.json)
+
+## 十二模型七档补齐：四基线与既有八模型
+
+补传ResNet1D、Plain CNN1D、ResNet＋LP4的4/−4/−8 dB共18组既有结果，固定原best新增ResNet＋LP3六组测试。汇总原八模型后共12模型×42/44×七档＝168组；168组目标预测、144组源验证回放通过，没有重新训练。
+
+- [42/44分别展示的十二模型七档总表](docs/TWELVE_MODEL_SEVEN_SNR_V1.md)
+- [168行逐种子指标](records/baseline_four_snr_completion/server_20261016/output/results/reports/PER_SEED_RESULTS.csv) · [核验记录](records/baseline_four_snr_completion/server_20261016/output/VERIFICATION.json)
+- [此前三档实验及原特征图](records/additional_snr/server_20261015_snr4_m4_m8/SERVER_RESULTS.md)

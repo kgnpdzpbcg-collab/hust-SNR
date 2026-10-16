@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "prediction_sets_replayed": 24,
+  "metrics_independently_recomputed": 24,
+  "protected_weight_and_history_files_unchanged": 32,
+  "retrained": false,
+  "final_holdout_evaluated": false
+}

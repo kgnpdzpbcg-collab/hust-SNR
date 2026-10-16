@@ -1,0 +1,87 @@
+{
+  "config": {
+    "additional_conditions_db": [
+      4,
+      -4,
+      -8
+    ],
+    "additional_models": [
+      "resnet1d",
+      "cnn1d_plain",
+      "resnet_lp3",
+      "resnet_lp4"
+    ],
+    "conditions_db": [
+      5,
+      4,
+      0,
+      -4,
+      -5,
+      -8,
+      -10
+    ],
+    "cycles_per_condition": 2474,
+    "final_holdout_evaluated": false,
+    "fixed_best_weights": 24,
+    "new_evaluations": 6,
+    "protocol": "hust-cycle-v2-twelve-model-seven-snr-fixed-weights-v1",
+    "record_families": 88,
+    "retrained": false,
+    "reused_evaluations": 162,
+    "seeds": [
+      42,
+      44
+    ],
+    "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "target_used_for_training_or_selection": false,
+    "total_evaluations": 168
+  },
+  "models_loaded_strictly": 24,
+  "protected_files": 1304,
+  "reused_prediction_files": 162,
+  "source_split": {
+    "manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "protocol": "hust-source-cycle-split-v2",
+    "sets": {
+      "gap": {
+        "class_counts": [
+          15,
+          13,
+          13,
+          13,
+          12,
+          12
+        ],
+        "records": 63,
+        "samples": 78
+      },
+      "train": {
+        "class_counts": [
+          146,
+          166,
+          166,
+          166,
+          157,
+          161
+        ],
+        "records": 63,
+        "samples": 962
+      },
+      "val": {
+        "class_counts": [
+          38,
+          37,
+          37,
+          37,
+          36,
+          36
+        ],
+        "records": 63,
+        "samples": 221
+      }
+    },
+    "source_records": 63,
+    "target_split_changed": false
+  },
+  "status": "passed"
+}

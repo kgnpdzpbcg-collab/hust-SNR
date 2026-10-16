@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "files_checked": 264,
+  "input_sha256_checked": 176,
+  "max_whole_record_per_phase_snr_error_db": 3.863576125695545e-14,
+  "max_residual_scaling_absolute_error": 1.4210854715202004e-14,
+  "time_speed_columns_unchanged": true,
+  "new_gaussian_noise_added": false,
+  "final_holdout_accessed": false
+}

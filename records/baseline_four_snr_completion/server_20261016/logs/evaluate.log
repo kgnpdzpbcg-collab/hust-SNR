@@ -1,0 +1,7 @@
+NEW LP3 seed42 4dB Macro-F1=93.9827
+NEW LP3 seed44 4dB Macro-F1=89.7924
+NEW LP3 seed42 -4dB Macro-F1=84.8281
+NEW LP3 seed44 -4dB Macro-F1=84.2901
+NEW LP3 seed42 -8dB Macro-F1=72.1232
+NEW LP3 seed44 -8dB Macro-F1=72.5031
+evaluate: 3.359s

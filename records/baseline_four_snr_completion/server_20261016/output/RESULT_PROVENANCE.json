@@ -1,0 +1,1346 @@
+[
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed42/target_dev_snr5.json",
+    "source_sha256": "b2630fcfd3f710d46d786f01fd73cd8adabe883a734f28c176cde7f7ccb9ba6c"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed42/target_dev_snr4.json",
+    "source_sha256": "f5adbed4ef3e10549a279c4459af1d403158ca8080bda61633bd65625c45e24b"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed42/target_dev_snr0.json",
+    "source_sha256": "84dd7b2593357b2f9bfbfd6f7211f5a5eaf220dd7125a20ff3377535cb68feee"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed42/target_dev_snr-4.json",
+    "source_sha256": "7d7eefe41917f726ae12c205d6ff8aa02049a8e17cebffd8ff23e1a9e655c126"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed42/target_dev_snr-5.json",
+    "source_sha256": "712c2bda241be482c3faa23b024f35afe34748fd91797c16a75bcf54863ee6f9"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed42/target_dev_snr-8.json",
+    "source_sha256": "fde6343525c8fd53beb701b4bb064880b4e63176a1f85a18ef75a6141fbb6ddf"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed42/target_dev_snr-10.json",
+    "source_sha256": "bcb098c8d9636d5a0ed366768c7b7285708822100ecb0c014a353e8117407431"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed44/target_dev_snr5.json",
+    "source_sha256": "e3961a41384b68d29c0ce2ce23ce1a2b391afab8d096e58ffa9091a98a7c82c0"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed44/target_dev_snr4.json",
+    "source_sha256": "90df5b63ffc21534140a255aa799ba363956dac6558fac64916ba2d0c1be1f2e"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed44/target_dev_snr0.json",
+    "source_sha256": "43e808871827a5e58973df1420d292a2b89b74cb8b2291d6ed1ea2cd6869fd36"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed44/target_dev_snr-4.json",
+    "source_sha256": "fc723b150d918898f2a98464195307034b86f93fb8dce566cc86aaef88d49b85"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed44/target_dev_snr-5.json",
+    "source_sha256": "fc1ba082e75d1067a7f9d210ec50e7e168c2b30d5c1a213dc324b8feec88beb5"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed44/target_dev_snr-8.json",
+    "source_sha256": "535511f23b3026c3e57467f268f977b4c7879470603e8d77a548f5b0ab089c82"
+  },
+  {
+    "kind": "reused",
+    "method": "b1",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b1/seed44/target_dev_snr-10.json",
+    "source_sha256": "ad0bd396eb67bc770ab880ac122bbf636d946aafdd56fa78a0bf4e9f2cb208a8"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed42/target_dev_snr5.json",
+    "source_sha256": "d270e5c5bd3a51f760c5b9830e09683d90ca3a69b7b7c2108f4d95790be7794c"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed42/target_dev_snr4.json",
+    "source_sha256": "709be69509e7a9ebc0467da76bb3be8c8560276a4e123c4187d2e5ca2049ab7e"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed42/target_dev_snr0.json",
+    "source_sha256": "aad30c690c4fca0741877eb007f4f0b5dc2a1517ec24f4fac35240a3620f4d9f"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed42/target_dev_snr-4.json",
+    "source_sha256": "86392a550fa763cf90e6ea21b2ad78e9df11f3b9852c982d1f66896a126d5173"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed42/target_dev_snr-5.json",
+    "source_sha256": "2d099a412a96bdc813756f278e9505bb1906a29b48a156ebe22aa7c286e26966"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed42/target_dev_snr-8.json",
+    "source_sha256": "38da3bfd3e2441345600b112027cba6a1308948eaf1891dd0dbccc24a7b1ad3e"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed42/target_dev_snr-10.json",
+    "source_sha256": "edc61f1f194d2241c5ba67dabfe94dc08fcb1fec1ca2926a493c029a0472780e"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed44/target_dev_snr5.json",
+    "source_sha256": "d1a9dbd5faac3eace7f2cbb969861b2fcc1c7704983ee688a93c71e5db6c94cf"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed44/target_dev_snr4.json",
+    "source_sha256": "f710b2e0d887e65f5f80934a99fb261b392c9f6b55f4f1bacffe52ccaa2640d3"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed44/target_dev_snr0.json",
+    "source_sha256": "6e563c9506bf990f13118bd195d95031c2617628ed9a42e1253341a7fc87fe80"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed44/target_dev_snr-4.json",
+    "source_sha256": "692608a7705b668671a34c82943ea69c00184acfd1ea3fd42d21f7604ddab105"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed44/target_dev_snr-5.json",
+    "source_sha256": "1ceae211025acb54cf571448c991df63e39e62f5a06f10617020bc357c814fe5"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed44/target_dev_snr-8.json",
+    "source_sha256": "a6ffeeb962e3477c008f7e4fb95a7b7bbabebad108b7211017979a0eb058eea0"
+  },
+  {
+    "kind": "reused",
+    "method": "a1_fixed_lp4_dual",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a1_fixed_lp4_dual/seed44/target_dev_snr-10.json",
+    "source_sha256": "6184c079f7e0312f37c77bb46c1e8979f8ec53fa536225471ca8d50c7a3c774f"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed42/target_dev_snr5.json",
+    "source_sha256": "00f46c9b41b094aaac2e597f6be76a9e99096cd6598a59993dd5e7d3f32e38df"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed42/target_dev_snr4.json",
+    "source_sha256": "db643a8440c56e4e5921323ccd8a317ab5fbeaae30cc098f542402beb5bd88af"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed42/target_dev_snr0.json",
+    "source_sha256": "d43f943058df6e56fb922519ea15d69b10da49197236272704ee83a18c8cf73e"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed42/target_dev_snr-4.json",
+    "source_sha256": "8050c0fe40906bf39276c75039b87dbc475e2d1f21187cf80d42d23dbbe61c65"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed42/target_dev_snr-5.json",
+    "source_sha256": "eab1d41eb1f0e7ae46b9acff1cd8147b6250da9876876c7873794b51393790a8"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed42/target_dev_snr-8.json",
+    "source_sha256": "ecdf03148be8e478218caca6dd861d22df558689b4676200b483b4f6e4776f5e"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed42/target_dev_snr-10.json",
+    "source_sha256": "82b8a1ba66698f62baa5a82bae3f84572374b85d8c0286d5cdee9f482b15ae34"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed44/target_dev_snr5.json",
+    "source_sha256": "a714754e1a0afcb1261edc6d8b45aae19b9424fbb25f53a4bd3e4efba2f8d136"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed44/target_dev_snr4.json",
+    "source_sha256": "57f7276c7785d4d98f82d7a2148a90de5be4d4719c3597ff1b5ec5c17453f66d"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed44/target_dev_snr0.json",
+    "source_sha256": "9b720792cc06850370079a567fc84eadf9fe92f11bcbaa403165d57e2987c08d"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed44/target_dev_snr-4.json",
+    "source_sha256": "888f274234b518c47be340e4887deb59f18ca639ec181d50799a0ca2e8a84d5d"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed44/target_dev_snr-5.json",
+    "source_sha256": "d4edf53c7fc0965a5b5c961d5bc2778d9256783b6a0b66cafd149a2f3f71a186"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed44/target_dev_snr-8.json",
+    "source_sha256": "a9631a873436dbd816b3ca3c0bf3ce08a9a25d342bb13cc23e442b6d21c340d9"
+  },
+  {
+    "kind": "reused",
+    "method": "a2_fixed_noise_proxy",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a2_fixed_noise_proxy/seed44/target_dev_snr-10.json",
+    "source_sha256": "e63e49e812255ac103d9921e95a558fabd7836ca00da0c6631c20f7e9349c84a"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed42/target_dev_snr5.json",
+    "source_sha256": "aa7e12d5d03186bb4a98075ab848aae73655ba2bfb5353b363f1f995bd0d0aea"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed42/target_dev_snr4.json",
+    "source_sha256": "d39fb0111652e38ecae2f4207dc7e09d9dbe116033f1291f1d5cecf88b099221"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed42/target_dev_snr0.json",
+    "source_sha256": "91605ece04322a69019e8006fe81719662002ffd7223a4b4e963fd449c4bfd42"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed42/target_dev_snr-4.json",
+    "source_sha256": "f02c7ed28ce04cfd174322fe3c0d0c80e66a6e9a905e4e296a10b47564ff874d"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed42/target_dev_snr-5.json",
+    "source_sha256": "944ddac6249018671750c4f3749125ca7b7be299f2c59bf785c1e7a933fa3586"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed42/target_dev_snr-8.json",
+    "source_sha256": "eea991c02d0f782c634a0412e9eef20d8c5fc24c5d23ea8d60708151e10219e2"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed42/target_dev_snr-10.json",
+    "source_sha256": "cd9845b01c16b55b8f3a3a17fcebbdf262d15c64260a0649b2d33a3ca718f390"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed44/target_dev_snr5.json",
+    "source_sha256": "90945f45a99717528163195ae3943ca2e78b65bb941e853c6ab9b12e35dcc3bc"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed44/target_dev_snr4.json",
+    "source_sha256": "2e665e8ab7ef98ee8c0f1acda478ad4c3a91fffc3bdb63acbc7ba4d1378c7ad4"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed44/target_dev_snr0.json",
+    "source_sha256": "f08caa2934ea74550d41562d2f2ef11f3082f0a322d208f8a578247bf593364f"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed44/target_dev_snr-4.json",
+    "source_sha256": "bb372b43d63096fc0d2a526b1e98cecb0321cf758be7020aa58f35f0c5ae77b9"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed44/target_dev_snr-5.json",
+    "source_sha256": "0d2ee360ec007d9f004a1df4eb174baa9471b74568a3aba4dd1501da98709c4a"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed44/target_dev_snr-8.json",
+    "source_sha256": "13287f1b719064adad34dac7de6e8cdbe99957ba5b160016e6f0372607b4778d"
+  },
+  {
+    "kind": "reused",
+    "method": "a3_no_interphase_descriptors",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a3_no_interphase_descriptors/seed44/target_dev_snr-10.json",
+    "source_sha256": "8495d5bdaefe12e32f91c8207e9ca7eb6729916450d303421632a5fb0d5e2a1d"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed42/target_dev_snr5.json",
+    "source_sha256": "168d29fc5f2bcf8d2a8c9071836b5c35ab3780056c3d0a33f6e470f42f85d659"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed42/target_dev_snr4.json",
+    "source_sha256": "c11b40585126c0663cdfb4ed975d31ad52be6f391a1f0b9bddda6b65d2d15097"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed42/target_dev_snr0.json",
+    "source_sha256": "3b98224691b33358da5db6e1897d7d1e8e8eac2c62abf45faf179180ab0c9352"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed42/target_dev_snr-4.json",
+    "source_sha256": "42b7bb99c665a8971dfb3c9003b0e993e6e9c143f54654cc689af4baf91c2acf"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed42/target_dev_snr-5.json",
+    "source_sha256": "9320864fecfdb91fa942b5e0904928036087b1b893a9e11f41537c266af2a8d8"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed42/target_dev_snr-8.json",
+    "source_sha256": "bbedf67a4b4b35c2dbad6b081263fb758762a17db624173cbdf011d64b99cc8a"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed42/target_dev_snr-10.json",
+    "source_sha256": "6421ac77d73a3cabdf9ea2b5af60c3abade005d25a67c5cdea6fbc69a5772abe"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed44/target_dev_snr5.json",
+    "source_sha256": "b31ee4fa7bfc3f68dcac9d520d03cd93b7ae88bda947b21bf180b0ecd1ea55e5"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed44/target_dev_snr4.json",
+    "source_sha256": "d2609deb2b3739c87dc142bb0acfd972813111b821640343ecde84bb91e6d15c"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed44/target_dev_snr0.json",
+    "source_sha256": "b4bb4ea5d7b9dba1fc5aedc69712cfc97d82c0403db238282c92c9e384773def"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed44/target_dev_snr-4.json",
+    "source_sha256": "f8d2fdbfc60aea364f4335eb7451f4cde029f4cd148eae710c934162143efc99"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed44/target_dev_snr-5.json",
+    "source_sha256": "06708ee9e952da5134c2129b2d71ea4ad7e2cc69d7c58fefee4fd8a78297bab7"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed44/target_dev_snr-8.json",
+    "source_sha256": "f4a5ec97450f6ba6501432c34f6d82caf27524cc74bd86bb9c34a42514e4ec56"
+  },
+  {
+    "kind": "reused",
+    "method": "a4_md_only",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a4_md_only/seed44/target_dev_snr-10.json",
+    "source_sha256": "650e71d65b7a617dd6abbe82eb8d59f63c2c308f3e2138d52b71e3384397e9c9"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed42/target_dev_snr5.json",
+    "source_sha256": "2fd62cde5c2b375d7fef4afd33ab4601fe56234a7dc085990ed5ab97c93dbd39"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed42/target_dev_snr4.json",
+    "source_sha256": "fcbedb190f44f8be4c1a3a160e66905cb19ae55df1bbf01769e62b10c6539cfa"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed42/target_dev_snr0.json",
+    "source_sha256": "6b0bd5a791a8682ec62143d9e1d6de050730315dd40dcf74580efc6413991038"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed42/target_dev_snr-4.json",
+    "source_sha256": "09b1842f7ab117663da7b52b8ee3643a8ccfdecda9d98a21a01c1c2148d37188"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed42/target_dev_snr-5.json",
+    "source_sha256": "7202cc6f7cce1676dd90a943c761058a7d0fe4085fd7a2bb2b8fba399881b34a"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed42/target_dev_snr-8.json",
+    "source_sha256": "df971fbb3955f51510f818eb7d8fa4fd733020f038ce84c4dad3121e524519a8"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed42/target_dev_snr-10.json",
+    "source_sha256": "11329b83ebd8d9a46c2c3a6c62867f308468d9a21c7e7e0d7bb86e15739c106c"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed44/target_dev_snr5.json",
+    "source_sha256": "a97aa44598042ce6d8ddcd8365870496a7719d814a57e8042d137b899e703f34"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed44/target_dev_snr4.json",
+    "source_sha256": "cc72e99e8190f5255d31cfa73afa67a2bbf82c37ca9fb3bb3d36686a3f7e01c6"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed44/target_dev_snr0.json",
+    "source_sha256": "e21452cb5a1a358243292f46d32ea5e945073c7491fb4f059c56617b505b3d4a"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed44/target_dev_snr-4.json",
+    "source_sha256": "d94e56b49161d9d604d4cfef30e603733840bfade1c130ea773e4cedb2fbad90"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed44/target_dev_snr-5.json",
+    "source_sha256": "86656cc1ca1c064189b6385ffca299e8fc58af9efad389eb2ab988f2f72ba89f"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed44/target_dev_snr-8.json",
+    "source_sha256": "0edd848169930ffda4e46cb9015d35bc62971b9501c955dd2fcf400fb46abdee"
+  },
+  {
+    "kind": "reused",
+    "method": "a5_no_strength_loss",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/a5_no_strength_loss/seed44/target_dev_snr-10.json",
+    "source_sha256": "b5a423e5386f8c82c474e1ca879c57709d768cc418eed3786acb7e6d30c4871c"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed42/target_dev_snr5.json",
+    "source_sha256": "47e8c016c161e4ae970dd7f74248582ce8ac5c8c3afc4cc3100e07790975eff1"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed42/target_dev_snr4.json",
+    "source_sha256": "15a055f589c5097961788f59c1ce538013a09b3f294d8cd271a6ca309ff5d70d"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed42/target_dev_snr0.json",
+    "source_sha256": "1a3e56f47daf9860e60e1bf537b893a82291a5686f56cc24044e6357b07efda5"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed42/target_dev_snr-4.json",
+    "source_sha256": "885e9686eacb903ddee48147d2568faa1d49d941f14cf9147361f9ab6f982e77"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed42/target_dev_snr-5.json",
+    "source_sha256": "c5de6e7686a059e4705af34ecc959e16d0985763523472401815d0604d3beacc"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed42/target_dev_snr-8.json",
+    "source_sha256": "760e4db4006982c6a6d630796948914719bc78ba81e3b7ab1ec1cc02cbc8c63f"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed42/target_dev_snr-10.json",
+    "source_sha256": "d587cd683f5590bfef5940706d82ec62250f63d0f314577f93e5ac70370d4aa1"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed44/target_dev_snr5.json",
+    "source_sha256": "1d548aa581ed451b908538e16c4d4c642d67d0ed0f5aeb15f5d9c2dc5ce46527"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed44/target_dev_snr4.json",
+    "source_sha256": "c6edde6055dabc4084361e1ce76e19d740a213eba1437f2d45f8510eabd079bd"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed44/target_dev_snr0.json",
+    "source_sha256": "0070254e2597772bd52c64e97828350f8dbdf05b9530d89a7c66c96cfe49dbb8"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed44/target_dev_snr-4.json",
+    "source_sha256": "123266d0c67c13d071d5e7f0abefbf89ffdd2dd724b4059fe7f8a14acd8584b0"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed44/target_dev_snr-5.json",
+    "source_sha256": "2db4a4fda44ff029598889aac396932def0f6cfd125008a3672fc8b733e52639"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed44/target_dev_snr-8.json",
+    "source_sha256": "b59f615a9e98b8e6121b1f880f90557b79035426211cd301d40ffe30937d956d"
+  },
+  {
+    "kind": "reused",
+    "method": "xu_full",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/xu_full/seed44/target_dev_snr-10.json",
+    "source_sha256": "ef5be257897ad56f423b6c2d412ffd68435e6606745268262120854db4eab798"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed42/target_dev_snr5.json",
+    "source_sha256": "a9978a4a88d129fc1a4a2bbc78c5b9760ba8dcbcc954e49099a412ab9ebe557d"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed42/target_dev_snr4.json",
+    "source_sha256": "7eecc1c1c509bdac3136ad13a31889371a3750759366f77833b6174ec0fcfd83"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed42/target_dev_snr0.json",
+    "source_sha256": "9612802fa929e5b47f55d41a56a492cb304ff2af6b9eb9aaef55109624d7ecb4"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed42/target_dev_snr-4.json",
+    "source_sha256": "f60d223cb0394054bc15b0e41038d684cdf7f7d22cda94c96776039fc1640ee5"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed42/target_dev_snr-5.json",
+    "source_sha256": "56d6807d3ed95dee1cd8c3e241e988f516a6c54c42218549e202dc55f59e60b8"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed42/target_dev_snr-8.json",
+    "source_sha256": "0655988be42c23895591448d0234c8147b331b10e6cf0dacd73a39211048bd34"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed42/target_dev_snr-10.json",
+    "source_sha256": "df2e34866e1c3cfe3251913b32aa7c436472507520f68a9de639256f6e05cd98"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed44/target_dev_snr5.json",
+    "source_sha256": "e236a3f260fa5ffb2b88ed2ad4840eed359151820dd390d78026f3af9052fb3a"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed44/target_dev_snr4.json",
+    "source_sha256": "465a8da90ec2474c143e09577c8308950c18d09d6750d88f95a6ccbabf8f3342"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed44/target_dev_snr0.json",
+    "source_sha256": "7ee9359759bdf696d6e841c37450e0e8d3ba378aa68999dc340fe134285b4ce6"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed44/target_dev_snr-4.json",
+    "source_sha256": "0a0e2da1ddeff6595bbc91a877c4106609a90e4ef8c1d8a5c9ac9ccc85fbfd1f"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed44/target_dev_snr-5.json",
+    "source_sha256": "870cbea6b020f87f44df1e43d8ce6f14d7e74f21cdbb68f681665cc149499ded"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed44/target_dev_snr-8.json",
+    "source_sha256": "561d184a7782fb7dada3248501b446c28c9382f5572a2479cfc35d8c9f070311"
+  },
+  {
+    "kind": "reused",
+    "method": "b0",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/b1_seven_snr_fixed_weights/20261016/output/results/evaluations/b0/seed44/target_dev_snr-10.json",
+    "source_sha256": "9213af9be98283db564359940ff78306a9dfa14f9d1b20dfbfb86cf91d32d3bb"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet1d/seed42/target_dev_snr5.json",
+    "source_sha256": "7bbef5f8071da42356e52824c8059c138ea92b00b8e72b75e76f40e402b5c7e2"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet1d/seed42/target_dev_snr4.json",
+    "source_sha256": "91dfb90389e1e2bd007d925a3798040c5810b223c7ebb65109ffcc82102d74c2"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet1d/seed42/target_dev_snr0.json",
+    "source_sha256": "67bbeae85ff430d5dd1ab8ac8949b81ea4af65eced24a87cdd678321700125c4"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet1d/seed42/target_dev_snr-4.json",
+    "source_sha256": "89238dd60a4a19d89d60246fb058a43f60984d78d12997ae130000fc5bfd0797"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet1d/seed42/target_dev_snr-5.json",
+    "source_sha256": "fc389a659e3ef15632a924d46cee66b1a3ce8c16a722dafd0373d6ee6df0d781"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet1d/seed42/target_dev_snr-8.json",
+    "source_sha256": "f20cd4e5e5afa5d56fca760d4c9969221b1d052ddab9c4b4db164cb9f3fbc1e6"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet1d/seed42/target_dev_snr-10.json",
+    "source_sha256": "dac9f3c67dae90f6836ab71bbde82ce1620638b520566a6edd7f4db1c60f3944"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet1d/seed44/target_dev_snr5.json",
+    "source_sha256": "0d84ae66e77f65ff7889fee20211f3ba01a2ec5327a60de0d71f342e7dc2c309"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet1d/seed44/target_dev_snr4.json",
+    "source_sha256": "c080737186442c5315612e5da3853fcd4a05155fd2f4781e8ebd67282e8f00b1"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet1d/seed44/target_dev_snr0.json",
+    "source_sha256": "d3e9afa8ff971aa2b578b1202c0f0030f10bced6ea484f6a9cc61077c1a2e60d"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet1d/seed44/target_dev_snr-4.json",
+    "source_sha256": "bd3267a9cae839ac0ed553a426e8dcddde4060f71fe20edd38f0c82a032f42b2"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet1d/seed44/target_dev_snr-5.json",
+    "source_sha256": "8621133eeb47c4f8f0a6c4bd9fba0268bfbb3b711d37a5b155f96b9eeae9ca9f"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet1d/seed44/target_dev_snr-8.json",
+    "source_sha256": "32c4d3a61cd5403fb2523d8b2f2bfb1edc5916cc1b93888ec3d4a841b08f2e19"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet1d",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet1d/seed44/target_dev_snr-10.json",
+    "source_sha256": "56905e75f16ccb22e04abfc4721fa9fc7e62a7d815f7128d19f91374661ebb39"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/cnn1d_plain/seed42/target_dev_snr5.json",
+    "source_sha256": "bc9af7f5455e688f1f46afe0bc9df4d7a5f35311b2e493892686d0d8445673bf"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/cnn1d_plain/seed42/target_dev_snr4.json",
+    "source_sha256": "fcd8896d7b687e8b2b9dabed1f3877bc77c9e8824a04597de187af3864d485c8"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/cnn1d_plain/seed42/target_dev_snr0.json",
+    "source_sha256": "af3535881a0a6fc857e67257acabd3f7bbaa4b6926d88c991b6d9837db286151"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/cnn1d_plain/seed42/target_dev_snr-4.json",
+    "source_sha256": "b2282dba77eac487609f3ac3301836095ab61bb9af574406a4af919feffbc8b6"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/cnn1d_plain/seed42/target_dev_snr-5.json",
+    "source_sha256": "601af5ad764b6dcf5b57c83e08f7668c29f3875d30c5f48422f9f36a38c48629"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/cnn1d_plain/seed42/target_dev_snr-8.json",
+    "source_sha256": "478456113506d7b9b784e07f12ab56a3db5518cf8370fbbf12f09f643ff6d325"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/cnn1d_plain/seed42/target_dev_snr-10.json",
+    "source_sha256": "7c7c8f8316186172676d0958867915008e89ed48dbabb96ba1efee9fbe456175"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/cnn1d_plain/seed44/target_dev_snr5.json",
+    "source_sha256": "ac4b1b18fc906d017612f2b8aa691fdb481163f7b847c7ddc3c4e24e9978974b"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/cnn1d_plain/seed44/target_dev_snr4.json",
+    "source_sha256": "35f7b6f2a68d45ccbb356951620827b3950c3a6764f2693c78921c1e92e5b985"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/cnn1d_plain/seed44/target_dev_snr0.json",
+    "source_sha256": "42cc9303ffab9503875f0d7bc6844bfe7d3efd127ebdcf0469563da8d595957d"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/cnn1d_plain/seed44/target_dev_snr-4.json",
+    "source_sha256": "f1098a0bf96fd2e5afd1fbdc46cd53d7931e919c75a4df41c6f41c9924b07cc6"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/cnn1d_plain/seed44/target_dev_snr-5.json",
+    "source_sha256": "fb7262bf0ec016894ce9d1f4e25ecdac89b08c9a6f62a92650e3533b5f205f56"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/cnn1d_plain/seed44/target_dev_snr-8.json",
+    "source_sha256": "1facf1c8fa2c8508614d8754b1aff0751245a11018cacc65356a9a38277af569"
+  },
+  {
+    "kind": "reused",
+    "method": "cnn1d_plain",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/cnn1d_plain/seed44/target_dev_snr-10.json",
+    "source_sha256": "845aac4c3681bd890bf3c69691791073001e0c3c3ac9d5e6fbc988fe2cc7be58"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp3",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp3/seed42/target_dev_snr5.json",
+    "source_sha256": "161453b0ef8960e85a4df74c4c29e69ef9e550ae7d28b21dfb6a9e0a71db8367"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp3",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp3/seed42/target_dev_snr0.json",
+    "source_sha256": "5878243ab1d50a57928b82247aebff988b6240fd8f650a0557159620c87f72e5"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp3",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp3/seed42/target_dev_snr-5.json",
+    "source_sha256": "6c4fe2604c6a048a8bdea0d3796d43e021b619b51a35dc06db12af96fa14d7db"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp3",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp3/seed42/target_dev_snr-10.json",
+    "source_sha256": "c05e040cc0d09fefdb2ed8d870c9cd985de560ef0ef58dcb8a765cf19fc4df49"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp3",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp3/seed44/target_dev_snr5.json",
+    "source_sha256": "28586a9a0736628f5d5a17b4015511f6100a81960d2b06684e72dea2e8fc9c38"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp3",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp3/seed44/target_dev_snr0.json",
+    "source_sha256": "df024712bbfcba98cf9ad70a8d99b9d1f728bdc951c55a8b3d5967fb4f3385d0"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp3",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp3/seed44/target_dev_snr-5.json",
+    "source_sha256": "b4e1e972e2b1f391656c36a013df72149c36b08f013a080538930da735438bc9"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp3",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp3/seed44/target_dev_snr-10.json",
+    "source_sha256": "0ea3f3f8122b7e0bc33b36ca28e8106287271de7046111c89b9e99749a1eee64"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 42,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp4/seed42/target_dev_snr5.json",
+    "source_sha256": "86757e8f432e2d39cdadd0a2c861fbe82e4bb9f806a8bc189ae840dad1e76ad7"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet_lp4/seed42/target_dev_snr4.json",
+    "source_sha256": "0f06b736f95080582b27d3107e36ba4ea63deca8a41b7acebd1d0f08fb69cc82"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 42,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp4/seed42/target_dev_snr0.json",
+    "source_sha256": "fd2d12d9d5256e635e8068d1f99d305e385a9498e13fbdf45785002040870927"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet_lp4/seed42/target_dev_snr-4.json",
+    "source_sha256": "1aca9baf6cbca16241c52a2843b1024c3e28e2c432d24956d66adaa69d9c40b0"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 42,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp4/seed42/target_dev_snr-5.json",
+    "source_sha256": "923773f362722628a3dae2854aa56701dcd86fd7e7d858621c3b440a102d02c8"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet_lp4/seed42/target_dev_snr-8.json",
+    "source_sha256": "86c7b65edaa4b7227e04203eae18d5f82b8de2c08a33692f2a5c5230c4267da2"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 42,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp4/seed42/target_dev_snr-10.json",
+    "source_sha256": "9c9c18a89e944f3b2dd66b0c78e5e39d448edd128e34a7ce12aae7680acf6d17"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 44,
+    "snr_db": 5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp4/seed44/target_dev_snr5.json",
+    "source_sha256": "092086269e58a391efeff318a6761091f2f0d2a45a8b3776b7ba749add31c098"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet_lp4/seed44/target_dev_snr4.json",
+    "source_sha256": "0fe8a6193cdcd0562c1373569d20a9597fe4aa334f7cc439ff78b1e93fc70d1d"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 44,
+    "snr_db": 0,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp4/seed44/target_dev_snr0.json",
+    "source_sha256": "4944ac8b7c81bfdaaae23e86a0a5dbd90a54139784a92fe862a36087f29cfce7"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet_lp4/seed44/target_dev_snr-4.json",
+    "source_sha256": "cf1d27a806429d62d82026d05121df07a9bd02357ecd72af7acfb010632cf491"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 44,
+    "snr_db": -5,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp4/seed44/target_dev_snr-5.json",
+    "source_sha256": "8cc4527715fd03ed149f04cf8474e72116d74009a274673fb7c91a0f2e5c79d4"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/evaluation/evaluations/resnet_lp4/seed44/target_dev_snr-8.json",
+    "source_sha256": "b323e1f66af9c6c0308cb7f9e164dc3249796f25a7564882240b6feb8c59429d"
+  },
+  {
+    "kind": "reused",
+    "method": "resnet_lp4",
+    "seed": 44,
+    "snr_db": -10,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b/results/evaluations/resnet_lp4/seed44/target_dev_snr-10.json",
+    "source_sha256": "33d8887fbbb73ec2e850d7e454e5754ccddd3a12025f413f310c86e5739c17e4"
+  },
+  {
+    "kind": "new",
+    "method": "resnet_lp3",
+    "seed": 42,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output/results/evaluations/resnet_lp3/seed42/target_dev_snr4.json",
+    "source_sha256": "2b466e9d70d604c47321307077f040520da0e183ea6ada2bceaf58c0c30c9c3f"
+  },
+  {
+    "kind": "new",
+    "method": "resnet_lp3",
+    "seed": 44,
+    "snr_db": 4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output/results/evaluations/resnet_lp3/seed44/target_dev_snr4.json",
+    "source_sha256": "d4356c0af78e8669d3c8e5bc7d975ef4444183757b75e38419f69a0a17bf5f3d"
+  },
+  {
+    "kind": "new",
+    "method": "resnet_lp3",
+    "seed": 42,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output/results/evaluations/resnet_lp3/seed42/target_dev_snr-4.json",
+    "source_sha256": "5744b23d34303f072c78376d2cf3140b80d852368fdfd528734873147cc53408"
+  },
+  {
+    "kind": "new",
+    "method": "resnet_lp3",
+    "seed": 44,
+    "snr_db": -4,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output/results/evaluations/resnet_lp3/seed44/target_dev_snr-4.json",
+    "source_sha256": "1d71e8abfbd203c2403cd2e65e50a7a03f1355787433b55766f12f89836f351d"
+  },
+  {
+    "kind": "new",
+    "method": "resnet_lp3",
+    "seed": 42,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output/results/evaluations/resnet_lp3/seed42/target_dev_snr-8.json",
+    "source_sha256": "6588422b56d127539f2d3838c967d7278e9ed36a438bfca42a2c16d8111f5f4e"
+  },
+  {
+    "kind": "new",
+    "method": "resnet_lp3",
+    "seed": 44,
+    "snr_db": -8,
+    "source_path": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output/results/evaluations/resnet_lp3/seed44/target_dev_snr-8.json",
+    "source_sha256": "5d6fa703f75c4bc47723c77db7ad44a540cb29de8b7ded2235915c7a53d9a3ad"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "exact_target_prediction_replays": 168,
+  "final_holdout_evaluated": false,
+  "independent_sklearn_metric_checks": 168,
+  "model_parameters_and_bn_unchanged": true,
+  "new_evaluations": 6,
+  "protected_files_unchanged": 1304,
+  "retrained": false,
+  "reused_prediction_files_byte_identical": 162,
+  "source_validation_replays": 144,
+  "status": "passed"
+}

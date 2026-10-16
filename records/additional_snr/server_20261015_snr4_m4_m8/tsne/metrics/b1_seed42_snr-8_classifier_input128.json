@@ -1,0 +1,38 @@
+{
+  "model": "b1",
+  "seed": 42,
+  "condition": "snr-8",
+  "layer": "classifier_input128",
+  "feature_dim": 128,
+  "cycles": 2474,
+  "record_families": 88,
+  "global_rms_scale": 1.4880760168078564,
+  "pca50_explained_variance_ratio_sum": 0.9998958909681445,
+  "silhouette_weighted": 0.3895216658526389,
+  "silhouette_macro": 0.37204307546120247,
+  "cross_record_5nn_purity_macro": 0.9435685356621789,
+  "class_silhouette": [
+    0.42977714155092606,
+    0.2556992513125832,
+    0.2309829398622309,
+    0.5380152437847282,
+    0.3500536451768805,
+    0.4277302310798654
+  ],
+  "class_5nn_purity": [
+    0.9790235081374321,
+    0.8736156351791531,
+    0.8922558922558923,
+    0.9697986577181208,
+    0.9502109704641349,
+    0.9965065502183406
+  ],
+  "tsne_trustworthiness_k15": 0.9924992807009848,
+  "tsne_kl_divergence": 0.8548747897148132,
+  "tsne_n_iter": 1499,
+  "classifier_macro_f1_percent": 81.38716623010205,
+  "coordinate_file": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8/tsne/coordinates/b1_seed42_snr-8_classifier_input128.csv",
+  "coordinate_file_sha256": "c20d1fbd4d05f94938ec2782dc3c118ef2c4e7ebc4888e5ef05d6002dcb00ecc",
+  "elapsed_seconds": 4.316083573998185,
+  "labels_used_for_tsne_fit": false
+}

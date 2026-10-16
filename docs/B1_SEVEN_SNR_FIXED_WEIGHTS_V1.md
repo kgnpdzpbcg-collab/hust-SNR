@@ -1,5 +1,7 @@
 # 八模型七档SNR结果：完整B1、A1–A5、Xu-Full、B0
 
+> ResNet1D、Plain CNN1D、ResNet＋LP3、ResNet＋LP4已补齐并归档，见[十二模型七档完整结果](TWELVE_MODEL_SEVEN_SNR_V1.md)。下文保留原八模型记录。
+
 ## Material Passport
 
 - 执行日期：2026-10-16（Asia/Shanghai）；模式：固定权重推理、预测回放、汇总。

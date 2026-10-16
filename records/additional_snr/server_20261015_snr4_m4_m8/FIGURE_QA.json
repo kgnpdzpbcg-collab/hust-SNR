@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "figures": [
+    {
+      "figure": "tsne_snr-4_seeds42_44",
+      "all_2474_points_per_panel": true,
+      "eight_metric_labels": true,
+      "pixels": [
+        4251,
+        2645
+      ],
+      "dpi": 600,
+      "embedded_fonts": true,
+      "manual_png_visual_check": "passed"
+    },
+    {
+      "figure": "tsne_snr-8_seeds42_44",
+      "all_2474_points_per_panel": true,
+      "eight_metric_labels": true,
+      "pixels": [
+        4251,
+        2645
+      ],
+      "dpi": 600,
+      "embedded_fonts": true,
+      "manual_png_visual_check": "passed"
+    },
+    {
+      "figure": "tsne_snr4_seeds42_44",
+      "all_2474_points_per_panel": true,
+      "eight_metric_labels": true,
+      "pixels": [
+        4251,
+        2645
+      ],
+      "dpi": 600,
+      "embedded_fonts": true,
+      "manual_png_visual_check": "passed"
+    }
+  ],
+  "old_five_condition_publication_unchanged": true
+}

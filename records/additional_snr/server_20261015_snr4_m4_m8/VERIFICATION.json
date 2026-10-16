@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "generation_files": 264,
+  "original_input_sha256_unchanged": 176,
+  "fixed_weight_prediction_sets": 24,
+  "prediction_replays_exact": 24,
+  "feature_sets": 24,
+  "feature_dimension": 128,
+  "cycles_per_condition": 2474,
+  "tsne_coordinates_verified": 24,
+  "same_tsne_parameters_as_previous": true,
+  "protected_feature_inputs_weights_predictions_unchanged": 59,
+  "all_84_prior_best_last_weight_sha256_unchanged": true,
+  "new_mat_sha256_unchanged_after_evaluation": 264,
+  "pca50_retained_variance_min": 0.9967347119455686,
+  "pca50_retained_variance_max": 0.9999811544553819,
+  "server_stage_seconds": 48.59763254399877,
+  "retrained": false,
+  "final_holdout_accessed": false
+}

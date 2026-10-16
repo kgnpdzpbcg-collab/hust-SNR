@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "additional_snr_fixed_weights.py": "dc366cdf1bf6dbc26041eea6c5d31e4ee5f09a76b496374d9f1922c8e8091486",
+    "source_cycle_tsne.py": "78fdc747d9b2437dcb28fcee3aa20934b485a69fbbb7d17bbf0d77aee9f85539",
+    "config.json": "7ee30934de44996f80bb699e0ef466eb0f7804a07d2c725df9b5c8e6ddc20460",
+    "PROTOCOL.md": "d331676b90b51d8af768e799f2e6fda781c06c3e9f2c2054a2aad6d109791b1a",
+    "RUN_STAGE.py": "265d93fa65dd2b320bb34d711344e167d96b977509f043b632ab454c3a2ffab4"
+  },
+  "python": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "training_root": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+  "new_dependencies_installed": false,
+  "positive_snr_cases": 3,
+  "wrong_reference_rejected": true,
+  "stage": "deployed_not_generated"
+}

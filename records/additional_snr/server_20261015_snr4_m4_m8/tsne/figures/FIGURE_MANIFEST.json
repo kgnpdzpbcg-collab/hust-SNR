@@ -1,0 +1,84 @@
+{
+  "figures": 3,
+  "panels": 24,
+  "png_dpi": 600,
+  "width_mm": 180,
+  "height_mm": 112,
+  "files": [
+    {
+      "file": "tsne_snr4_seeds42_44.png",
+      "bytes": 1213763,
+      "sha256": "5882c8cd976e58c6b7039cac578c009ed34a6487e767757e7fbf0454268be4eb"
+    },
+    {
+      "file": "tsne_snr4_seeds42_44.pdf",
+      "bytes": 360303,
+      "sha256": "f581f555afb897d5671e69a8a0efd58e0928fe0b802e6f19e06ee88ef5567cb7"
+    },
+    {
+      "file": "tsne_snr-4_seeds42_44.png",
+      "bytes": 2122288,
+      "sha256": "0d6d2d58b76765fda047afe6d35e843fc428722f019a0e536fd2221cbf78aaf9"
+    },
+    {
+      "file": "tsne_snr-4_seeds42_44.pdf",
+      "bytes": 360716,
+      "sha256": "4474fb1b99b36b3c5fd9f284f88da5cce693e58ef87a213ac51bd6e929350023"
+    },
+    {
+      "file": "tsne_snr-8_seeds42_44.png",
+      "bytes": 2395032,
+      "sha256": "033509304f7c33547ef7368afd4a4111b6b8bba1ef17da00b968226f35a60f42"
+    },
+    {
+      "file": "tsne_snr-8_seeds42_44.pdf",
+      "bytes": 360941,
+      "sha256": "6a30b3c6d55ed853e525e33c0572b5a01e378797d39c8e9473c62e4d77199595"
+    }
+  ],
+  "layout_checks": [
+    {
+      "condition": "snr4",
+      "panels": 8,
+      "all_cycles_drawn": true,
+      "square_aligned_panels": true,
+      "legend_note_overlap": false
+    },
+    {
+      "condition": "snr-4",
+      "panels": 8,
+      "all_cycles_drawn": true,
+      "square_aligned_panels": true,
+      "legend_note_overlap": false
+    },
+    {
+      "condition": "snr-8",
+      "panels": 8,
+      "all_cycles_drawn": true,
+      "square_aligned_panels": true,
+      "legend_note_overlap": false
+    }
+  ],
+  "font": "DejaVu Sans",
+  "colors": [
+    "#767676",
+    "#0F4D92",
+    "#B64342",
+    "#8BCF8B",
+    "#42949E",
+    "#9A4D8E"
+  ],
+  "markers": "all circles",
+  "class_labels": [
+    "Healthy",
+    "OUS(A)",
+    "OLS(A)",
+    "OP(A)",
+    "OUS(A) & OUS(B)",
+    "OLS(A) & OP(C)"
+  ],
+  "plot_script_sha256": "78fdc747d9b2437dcb28fcee3aa20934b485a69fbbb7d17bbf0d77aee9f85539",
+  "matplotlib_version": "3.11.2",
+  "numpy_version": "2.3.5",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}
