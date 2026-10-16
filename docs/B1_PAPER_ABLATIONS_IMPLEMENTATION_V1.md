@@ -108,7 +108,6 @@ python scripts/b1_paper_ablations.py evaluate \
   --source-root /ABS/PATH/source_cycle_split_v2 \
   --strong-root /ABS/PATH/strong_noise_target \
   --extreme-root /ABS/PATH/extreme_noise_target \
-  --snr-root /ABS/PATH/original_author_target \
   --out /ABS/PATH/b1_paper_ablations_v1
 
 # 4. 汇总。输出 CSV：逐种子、逐类以及两种子均值/样本标准差
@@ -116,7 +115,7 @@ python scripts/b1_paper_ablations.py summarize \
   --out /ABS/PATH/b1_paper_ablations_v1
 ```
 
-命令中的三个目标域目录沿用原 `source_cycle_benchmark.py` 的读取器；实际在 5/0 dB 取强噪声目录，-5/-10 dB 取极强噪声目录。源域目录必须与原基准的 manifest 指纹一致。代码中的防覆盖逻辑对已经存在的 `models/{method}/seed{seed}` 目录报错，不会静默覆盖权重；对已有实测评估文件同样拒绝覆盖。
+命令中的两个目标域目录沿用原 `source_cycle_benchmark.py` 的读取器：5/0 dB 取强噪声目录，-5/-10 dB 取极强噪声目录；这四档无需 `--snr-root`。源域目录必须与原基准的 manifest 指纹一致。代码中的防覆盖逻辑对已经存在的 `models/{method}/seed{seed}` 目录报错，不会静默覆盖权重；对已有实测评估文件同样拒绝覆盖。
 
 **各方法独立训练可以分多次运行；只有 5 方法×2 种子×4 条件齐全后才能执行 summarize。**
 
