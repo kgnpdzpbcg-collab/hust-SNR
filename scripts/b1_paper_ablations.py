@@ -18,14 +18,6 @@ import numpy as np
 import torch
 from torch.nn import functional as F
 
-from classical_baseline_models import FivePhaseResNet1D
-from plain_cnn1d_baseline import FivePhasePlainCNN1D
-from xu2025_full_model import XuFullRaw
-from xu2025_full_experiment import paired_source_loss as xu_paired_loss
-from hust_arch_suite_models import HUSTArchitectureCandidate, paired_ce
-from hust_b0_harmonic_recovery import B0HarmonicRecoveryNet, b0_paired_loss
-from hust_b1_phase_harmonic import B1PhaseAwareRecoveryNet, b1_paired_loss
-from hust_prototypes_experiment import source_pretrain_b0
 from hust_a1_b1_experiment import select_source_checkpoint
 from b1_paper_ablation_models import (METHODS as ABLATION_METHODS, build_model as build_ablation_model,
     paired_loss as ablation_paired_loss, pretrain_restorer, calibrate_a2_from_source)
@@ -303,8 +295,8 @@ def main():
             for seed in args.seeds:
                 train(method, seed, args.out, args.source_root)
     elif args.stage == "evaluate":
-        if not all((args.snr_root, args.strong_root, args.extreme_root)):
-            parser.error("评价需要指定源残差、强噪声、极强噪声三个目录")
+        if not all((args.strong_root, args.extreme_root)):
+            parser.error("四档评价需要 --strong-root 和 --extreme-root")
         evaluate(args.out, args.methods, args.seeds, CONDITIONS, args.source_root,
                  args.snr_root, args.strong_root, args.extreme_root)
     else:
