@@ -1,0 +1,58 @@
+{
+  "protocol": "hust-cycle-v2-b1-paper-ablations-42-44-v1",
+  "methods": [
+    "a1_fixed_lp4_dual",
+    "a2_fixed_noise_proxy",
+    "a3_no_interphase_descriptors",
+    "a4_md_only",
+    "a5_no_strength_loss"
+  ],
+  "seeds": [
+    42,
+    44
+  ],
+  "source_split_protocol": "hust-source-cycle-split-v2",
+  "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "raw_points": 4096,
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0,
+  "train_noise_db": [
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "val_noise_db": [
+    0,
+    5,
+    10,
+    20,
+    30
+  ],
+  "target_conditions": [
+    5,
+    0,
+    -5,
+    -10
+  ],
+  "selection": "source clean F1 within one pp of peak; maximum five-noise source F1, then clean F1; exact ties use minimum five-noise source CE, then earliest epoch",
+  "b0_pretrain_epochs": 10,
+  "b0_reconstruction_weight": 0.2,
+  "b1_pretrain_epochs": 10,
+  "b1_restore_weight": 1,
+  "xu_reconstruction": "paper_sum",
+  "xu_reconstruction_weight": 1,
+  "xu_dml_weight": 1,
+  "target_training": false,
+  "target_checkpoint_selection": false,
+  "final_holdout_evaluated": false,
+  "ablation_scope": "source-only training, no target selection, 5 models x seeds 42/44; full B1 baseline remains in existing benchmark",
+  "a2_fixed_proxy": "median across all source-train first-epoch Gaussian-augmented phase/current noise proxies; scalar stored in checkpoint buffer"
+}
