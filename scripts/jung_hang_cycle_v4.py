@@ -32,7 +32,8 @@ def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 def setup(args):
     """先导入原数据工具，再导入新模型；公共预处理文件须逐字节相同。"""
     c=read(args.config)
-    if c["models"]!=["jung","hang"] or c["seeds"]!=[42,44]:raise ValueError("冻结模型或种子改变")
+    if not c["models"] or not set(c["models"]).issubset({"jung","hang"}) or len(set(c["models"]))!=len(c["models"]) or c["seeds"]!=[42,44]:
+        raise ValueError("Models must be a nonempty Jung/Hang subset and seeds must be 42/44")
     local=Path(__file__).resolve().parent
     reference=args.reference_root/"code/scripts"
     if sha(local/"prepare.py")!=sha(reference/"prepare.py"):raise ValueError("新旧原始输入预处理不同，需先审查")
@@ -101,6 +102,8 @@ def train(args):
     from torch.nn import functional as F
     c,ref,paper,provenance,raw,tm,y,clean,vy,val=source_data(args,args.method)
     method,seed=args.method,args.seed
+    if method not in c["models"] or seed not in c["seeds"]:
+        raise ValueError("Method/seed does not match experiment config")
     folder=args.output/f"models/{method}/seed{seed}"
     if folder.exists():raise FileExistsError(folder)
     ref.fix_randomness(seed)
@@ -230,20 +233,21 @@ def evaluate(args,replay=False):
                     np.testing.assert_allclose(ce,expected_ce,rtol=0,atol=1e-9)
                     source_rows.append({"method":method,"seed":seed,"condition":name,"macro_f1":expected_f1,"ce":ce})
         for seed in c["seeds"]:
-            a=read(args.output/f"models/jung/seed{seed}/history.json");b=read(args.output/f"models/hang/seed{seed}/history.json")
-            if len(a)!=c["epochs"] or len(b)!=c["epochs"]:raise ValueError("训练轮数不符")
-            if any(row["raw_training_noise_sha256"] is None for row in a):
-                raise ValueError("Jung V3 training-noise provenance is missing")
-            if c["hang_training_view"]=="clean" and any(row["raw_training_noise_sha256"] is not None for row in b):
-                raise ValueError("Hang clean-only training unexpectedly used injected noise")
-            if c["hang_training_view"]=="paired" and any(row["raw_training_noise_sha256"] is None for row in b):
-                raise ValueError("Hang paired training is missing injected noise")
-            for x,y in zip(a,b):
-                if any(x[k]!=y[k] for k in ("epoch","optimizer_steps","sampling_order_sha256")):
-                    raise ValueError("模型训练轮次、更新次数或采样顺序不一致")
+            histories={method:read(args.output/f"models/{method}/seed{seed}/history.json")
+                       for method in c["models"]}
+            for method, history in histories.items():
+                if len(history)!=c["epochs"]:
+                    raise ValueError("Training epochs do not match config")
+                should_have_noise=method=="jung" or c["hang_training_view"]=="paired"
+                if any((row["raw_training_noise_sha256"] is not None)!=should_have_noise for row in history):
+                    raise ValueError(f"{method} training-noise provenance mismatch")
+            if "jung" in histories and "hang" in histories:
+                for x,y in zip(histories["jung"], histories["hang"]):
+                    if any(x[k]!=y[k] for k in ("epoch","optimizer_steps","sampling_order_sha256")):
+                        raise ValueError("Jung/Hang sampling order differs")
         ref.write_csv(args.output/"reports/SOURCE_VALIDATION_REPLAY.csv",source_rows)
         write(args.output/"VERIFICATION.json",{"status":"passed","target_prediction_replays":count,"source_validation_replays":len(source_rows),
-            "same_sampling_order_across_models_all_100_seed_epochs":True,"training_noise":c["training_noise"],"hang_training_view":c["hang_training_view"],"model_parameters_and_bn_unchanged":True,"final_holdout_evaluated":False})
+            "paired_sampling_order_checked":len(c["models"])==2,"training_noise":c["training_noise"],"hang_training_view":c["hang_training_view"],"model_parameters_and_bn_unchanged":True,"final_holdout_evaluated":False})
 
 
 def summarize(args):
@@ -279,7 +283,7 @@ def summarize(args):
     for name,data in (("PER_SEED_RESULTS.csv",rows),("PER_CLASS_PER_SEED.csv",classes),("TRAINING_HISTORY.csv",history_rows),
                       ("SELECTED_CHECKPOINTS.csv",selected),("ALL_14_MODELS_PER_SEED.csv",combined),("ALL_14_MODELS_SUMMARY.csv",aggregate)):
         ref.write_csv(args.output/"reports"/name,data)
-    print("SUMMARY: 28 new tests, 196 combined tests, 200 training epochs",flush=True)
+    print(f"SUMMARY: {len(rows)} new tests, {len(combined)} combined tests, models={c[\u0027models\u0027]}",flush=True)
 
 
 def main():
@@ -292,7 +296,8 @@ def main():
         parser.add_argument("--"+name,type=Path,required=True)
     args=parser.parse_args();start=time.time()
     if args.stage=="preflight":
-        for method in ("jung","hang"):
+        conf=read(args.config)
+        for method in conf["models"]:
             conf,ref,paper,prov,raw,metadata,y,clean,vy,val=source_data(args,method)
             print(f"READY {method} source_train={len(y)} input_shape={list(clean.shape)} "
                   f"source_val={len(vy)} val_shape={list(val['clean'].shape)}",flush=True)
