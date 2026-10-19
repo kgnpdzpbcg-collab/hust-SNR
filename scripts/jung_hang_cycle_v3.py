@@ -214,7 +214,7 @@ def evaluate(args,replay=False):
     for key,(model,_) in models.items():
         if not all(torch.equal(v.detach().cpu(),states[key][k]) for k,v in model.state_dict().items()):raise ValueError("推理改变模型状态")
     if replay:
-        # 重放最佳源验证，确认源选模、权重序列化、两模型随机流与采样顺序。
+        # 重放源验证与选模，并核对方法特定训练视图和共同的采样顺序。
         source_rows=[]
         for method in c["models"]:
             _,_,_,_,_,_,_,_,vy,val=source_data(args,method)
