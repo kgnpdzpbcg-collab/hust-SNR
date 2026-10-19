@@ -156,22 +156,6 @@ def five_phase_vsd(
     return np.stack((alpha1, beta1, alpha3, beta3), axis=0)
 
 
-def _draw_polyline(x: np.ndarray, y: np.ndarray, size: int) -> np.ndarray:
-    """Rasterise a fixed-scale 2-D trajectory without axes, labels, or plotting deps."""
-    image = np.zeros((size, size), dtype=np.float32)
-    px = np.rint((np.clip(x, -1.0, 1.0) + 1.0) * 0.5 * (size - 1)).astype(int)
-    py = np.rint((1.0 - (np.clip(y, -1.0, 1.0) + 1.0) * 0.5) * (size - 1)).astype(int)
-    if len(px) == 1:
-        image[py[0], px[0]] = 1.0
-        return image
-    for x0, y0, x1, y1 in zip(px[:-1], py[:-1], px[1:], py[1:]):
-        steps = max(abs(int(x1 - x0)), abs(int(y1 - y0)), 1) * 2
-        xs = np.rint(np.linspace(x0, x1, steps + 1)).astype(int)
-        ys = np.rint(np.linspace(y0, y1, steps + 1)).astype(int)
-        image[ys, xs] = 1.0
-    return image
-
-
 def current_window_to_vsd_images(
     time: np.ndarray,
     currents: np.ndarray,
