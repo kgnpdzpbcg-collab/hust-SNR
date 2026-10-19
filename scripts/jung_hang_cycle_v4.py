@@ -283,7 +283,7 @@ def summarize(args):
     for name,data in (("PER_SEED_RESULTS.csv",rows),("PER_CLASS_PER_SEED.csv",classes),("TRAINING_HISTORY.csv",history_rows),
                       ("SELECTED_CHECKPOINTS.csv",selected),("ALL_14_MODELS_PER_SEED.csv",combined),("ALL_14_MODELS_SUMMARY.csv",aggregate)):
         ref.write_csv(args.output/"reports"/name,data)
-    print(f"SUMMARY: {len(rows)} new tests, {len(combined)} combined tests, models={c[\u0027models\u0027]}",flush=True)
+    print(f"SUMMARY: {len(rows)} new tests, {len(combined)} combined tests, models={','.join(c['models'])}",flush=True)
 
 
 def main():
