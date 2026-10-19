@@ -322,7 +322,7 @@ def current_window_to_normalized_vsd_image(
     directions. A shared fixed coordinate range is then rasterized.
     """
     _, segment = _interpolate_current_window(time, currents, start, end, points)
-    centered = segment.T - segment.T.mean(axis=1, keepdims=True)
+    centered = segment - segment.mean(axis=1, keepdims=True)
     components = five_phase_vsd(centered.T, phase_angles_deg)
     alpha, beta = components[0], components[1]
     magnitude = np.hypot(alpha, beta)
