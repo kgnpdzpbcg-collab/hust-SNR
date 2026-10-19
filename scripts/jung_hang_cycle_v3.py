@@ -50,6 +50,7 @@ def setup(args):
 def noise_records(ref,raw,seed,epoch,snr=None):
     """Generate deterministic quiet-current-gated AWGN for the V3 source protocol."""
     import numpy as np
+    import compare_jung_hang_v3 as paper  # 显式加载噪声适配器，避免引用setup()的局部变量。
     if snr is None:
         schedule=ref.data.training_noise_schedule(raw,seed,epoch)
         result={}

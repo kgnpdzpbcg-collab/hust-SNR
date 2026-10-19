@@ -1,0 +1,16 @@
+[
+  {
+    "archive_name": "REFERENCE_12_MODELS_PER_SEED.csv",
+    "path": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output/results/reports/PER_SEED_RESULTS.csv",
+    "record_commit": "4a6f4b9590fd6e88e46bb3dc579c7f966d74b2fe",
+    "rows": 168,
+    "sha256": "da15482340418272ebae6a3e140777bd8ba2216d8a587ba5c2b5a1df34f79d4e"
+  },
+  {
+    "archive_name": "REFERENCE_V2_PER_SEED_RESULTS.csv",
+    "path": "/home/wang/projects/会议论文/hust/experiments/jung_hang_cycle_v2/2b0ab5a_20261019/results/reports/PER_SEED_RESULTS.csv",
+    "record_commit": "7671926fc65066af50b198b4207e2bb4d2f23697",
+    "rows": 28,
+    "sha256": "b07a0d5599c4c15e38b2ce9881e8fd698bc5b3016ce8ee8d71545f4b3ca6c7df"
+  }
+]

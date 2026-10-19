@@ -1,0 +1,146 @@
+{
+  "config": {
+    "batch_size": 32,
+    "changes_from_cycle_v2": [
+      "Jung input uses phase-shared normalization instead of independent per-phase normalization",
+      "Jung training noise suppresses perturbations in sustained low-current intervals while preserving the requested record-level SNR",
+      "Hang trajectory uses instantaneous vector normalization rather than a window-global scale",
+      "Hang input changes from two 64x64 VSD planes to one 40x40 fundamental-plane trajectory",
+      "Hang training follows the paper's clean-image training rather than paired clean/noisy cross-entropy"
+    ],
+    "epochs": 50,
+    "faithfulness": "paper-informed task adaptation, not author code; Hang uses a five-phase fundamental-VSD analogue of the paper's normalized Clarke trajectory; Jung uses a generic quiet-current gate because NPC switch-specific topology is unavailable",
+    "final_holdout_evaluated": false,
+    "hang_input": "fundamental five-phase VSD alpha-beta trajectory, per-time vector-magnitude normalization, one 40x40 image channel",
+    "hang_network": "five 3x3 Conv2D stages with 4/8/16/32/64 channels; fixed Haar LL pooling after stages 1 and 2; 40x40 -> 20x20 -> 10x10 before final convolution and classifier",
+    "jung_input": "five-phase current, 128 points, per-phase midpoint centering and one shared window scale; preserves inter-phase amplitude ratios",
+    "jung_noise_augmentation": "record-level SNR-AWGN with short-time-RMS quiet-current gate; noise power recalibrated to requested global phase-wise SNR",
+    "learning_rate": 0.001,
+    "models": [
+      "jung",
+      "hang"
+    ],
+    "protocol": "hust-cycle-v3-paper-aligned-jung-hang-adaptation",
+    "reference_training_commit": "2b0ab5a1b0d4ea16ab68d3ce56b5c69a4f30218d",
+    "seeds": [
+      42,
+      44
+    ],
+    "selection": "source clean F1 within one percentage point of peak; maximize mean source validation F1 at 0/5/10/20/30 dB; ties by clean F1, then minimum mean CE, then earliest epoch",
+    "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "source_train_cycles": 962,
+    "source_val_cycles": 221,
+    "target_conditions_db": [
+      5,
+      4,
+      0,
+      -4,
+      -5,
+      -8,
+      -10
+    ],
+    "target_used_for_training_or_selection": false,
+    "train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "training_views": {
+      "hang": "CE(clean); no injected-noise training view",
+      "jung": "0.5*CE(clean) + 0.5*CE(noisy)"
+    },
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "weight_decay": 0.0
+  },
+  "final_holdout_evaluated": false,
+  "first_training_noise_sha256": null,
+  "initial_parameters_sha256": "54414ac216f9fea60bab434ed8dee21b3c3dcae8823c6ab2f13035452e2463e5",
+  "method": "hang",
+  "parameters": 63294,
+  "protocol": "hust-cycle-v3-paper-aligned-jung-hang-adaptation",
+  "seed": 44,
+  "selected": {
+    "clean_ce": 1.7821424665494203,
+    "clean_f1": 0.5086337953330892,
+    "epoch": 46,
+    "noise_mean_ce": 5.73642318518453,
+    "noise_mean_f1": 0.13598527896795704,
+    "noisy_ce": {
+      "0": 10.31226856352517,
+      "10": 4.107141693253323,
+      "20": 4.360550410067873,
+      "30": 4.784994548262514,
+      "5": 5.117160710813772
+    },
+    "noisy_f1": {
+      "0": 0.11595683063403368,
+      "10": 0.1587580108958543,
+      "20": 0.10791483915720534,
+      "30": 0.1659828055454228,
+      "5": 0.1313139086072691
+    },
+    "optimizer_steps": 31,
+    "raw_training_noise_sha256": null,
+    "sampling_order_sha256": "7f846cec3c3c08a2d89d2909a636fd4ef1fabca4b9952516b661e95a966939f1",
+    "train_loss_mean": 0.5787343623176697,
+    "train_loss_sample_weighted": 0.5594953945421627
+  },
+  "source_split": {
+    "manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "protocol": "hust-source-cycle-split-v2",
+    "sets": {
+      "gap": {
+        "class_counts": [
+          15,
+          13,
+          13,
+          13,
+          12,
+          12
+        ],
+        "records": 63,
+        "samples": 78
+      },
+      "train": {
+        "class_counts": [
+          146,
+          166,
+          166,
+          166,
+          157,
+          161
+        ],
+        "records": 63,
+        "samples": 962
+      },
+      "val": {
+        "class_counts": [
+          38,
+          37,
+          37,
+          37,
+          36,
+          36
+        ],
+        "records": 63,
+        "samples": 221
+      }
+    },
+    "source_records": 63,
+    "target_split_changed": false
+  },
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "target_used_for_training_or_selection": false,
+  "training_view": "clean_only"
+}

@@ -2,6 +2,8 @@
 
 HUST五相IM-AA数据的实验配置、指标记录、数据解析及波形图。
 
+- [Jung/Hang V3：42/44种子、七档Dev及V2/V3比较](docs/JUNG_HANG_CYCLE_V3_RESULTS.md)
+
 - [Jung Modified CNN与Hang WCNN：当前统一划分、42/44种子及七档结果](docs/JUNG_HANG_CYCLE_V2_RESULTS.md)
 
 - [实验配置与完整结果](docs/EXPERIMENT_RECORD.md)
@@ -77,3 +79,10 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [完整协议、逐种子七档结果](docs/JUNG_HANG_CYCLE_V2_RESULTS.md)
 - [十四模型196行合表](records/jung_hang_cycle_v2/server_2b0ab5a_20261019/results/reports/ALL_14_MODELS_PER_SEED.csv) · [28行新模型指标](records/jung_hang_cycle_v2/server_2b0ab5a_20261019/results/reports/PER_SEED_RESULTS.csv)
 - [核验记录](records/jung_hang_cycle_v2/server_2b0ab5a_20261019/results/VERIFICATION.json) · [训练及选模历史](records/jung_hang_cycle_v2/server_2b0ab5a_20261019/results/models/)
+
+## Jung/Hang V3实验（2026-10-19）
+
+沿用962/221源周期、42/44种子、50轮及五档带噪源验证。Jung采用共享尺度和静默区门控的10–40 dB配对训练；Hang采用单通道40×40归一化VSD轨迹与Clean-only训练。四组训练、28组七档实测Dev评价、24组源验证回放完成。V3输出独立保存。
+
+- [协议、修复、逐种子结果与V2比较](docs/JUNG_HANG_CYCLE_V3_RESULTS.md)
+- [V3完整归档](records/jung_hang_cycle_v3/server_853b1f6_20261019/SERVER_RESULTS.md) · [核验记录](records/jung_hang_cycle_v3/server_853b1f6_20261019/results/VERIFICATION.json)
