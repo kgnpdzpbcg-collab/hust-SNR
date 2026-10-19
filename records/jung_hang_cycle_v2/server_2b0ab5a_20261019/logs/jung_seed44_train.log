@@ -1,0 +1,7 @@
+jung seed44 epoch1/50 loss=1.225899 sourceF1=0.677736
+jung seed44 epoch10/50 loss=0.053394 sourceF1=0.949394
+jung seed44 epoch20/50 loss=0.027911 sourceF1=0.959231
+jung seed44 epoch30/50 loss=0.031573 sourceF1=0.935407
+jung seed44 epoch40/50 loss=0.047365 sourceF1=0.910994
+jung seed44 epoch50/50 loss=0.051883 sourceF1=0.929211
+train finished in 20.759s

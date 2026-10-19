@@ -2,6 +2,8 @@
 
 HUST五相IM-AA数据的实验配置、指标记录、数据解析及波形图。
 
+- [Jung Modified CNN与Hang WCNN：当前统一划分、42/44种子及七档结果](docs/JUNG_HANG_CYCLE_V2_RESULTS.md)
+
 - [实验配置与完整结果](docs/EXPERIMENT_RECORD.md)
 - [数据字段及解析](docs/DATA_PARSING.md)
 - [六类波形图](docs/WAVEFORMS.md)
@@ -67,3 +69,11 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [CPU 单元测试](tests/test_jung_hang_models.py)
 
 该实现是按论文核心机制进行的近似复现及五相任务适配，不是作者原始代码。模型训练只使用冻结的 Source-Train/Source-Val；目标评估仅限 88 条 Dev 记录，不读取 Final-Holdout。运行结果和权重保存在 gitignored 的 `outputs/jung_hang_comparison/`。
+
+## Jung/Hang统一周期划分实验（2026-10-19已完成）
+
+两模型采用Source-Cycle V2的962/221周期，42/44种子各50轮，10–40 dB配对噪声训练，Clean及0/5/10/20/30 dB源验证，沿用F1后CE平局判据。保留原模型结构及各自128点/轨迹图适配器。四组训练、28组七档实测Dev评价、24组源验证及28组目标预测回放完成。两模型为论文机制的近似复现与任务适配。
+
+- [完整协议、逐种子七档结果](docs/JUNG_HANG_CYCLE_V2_RESULTS.md)
+- [十四模型196行合表](records/jung_hang_cycle_v2/server_2b0ab5a_20261019/results/reports/ALL_14_MODELS_PER_SEED.csv) · [28行新模型指标](records/jung_hang_cycle_v2/server_2b0ab5a_20261019/results/reports/PER_SEED_RESULTS.csv)
+- [核验记录](records/jung_hang_cycle_v2/server_2b0ab5a_20261019/results/VERIFICATION.json) · [训练及选模历史](records/jung_hang_cycle_v2/server_2b0ab5a_20261019/results/models/)

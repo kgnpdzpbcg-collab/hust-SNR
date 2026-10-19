@@ -1,5 +1,7 @@
 # Jung Modified CNN 与 Hang WCNN 复现说明
 
+> 2026-10-19已完成当前Source-Cycle V2统一协议的四组训练与28组七档评价，见[统一协议实验结果](JUNG_HANG_CYCLE_V2_RESULTS.md)。下文描述原训练器及其默认协议；本轮改动、源划分和选模规则以新结果文档为准。
+
 ## 1. 目标与复现边界
 
 本目录实现两个论文启发式对比模型，适配当前 HUST 五相 IM-AA 六分类、仿真域训练到实验域开发集评估的流程：
@@ -14,7 +16,7 @@
 - `scripts/jung_hang_models.py`：两个模型、固定 DWT 池化、五相 VSD 与轨迹图栅格化。
 - `scripts/compare_jung_hang.py`：训练、目标 Dev 评估、结果汇总和 synthetic smoke test。
 - `tests/test_jung_hang_models.py`：CPU 单元测试。
-- 运行输出位于 `outputs/jung_hang_comparison/`，不提交模型权重或预测文件。
+- 运行输出位于 `outputs/jung_hang_comparison/`，不提交原始数据或模型权重；统一实验发布逐窗口标签、预测与客观指标。
 
 ## 3. 实现细节与明确的适配选择
 

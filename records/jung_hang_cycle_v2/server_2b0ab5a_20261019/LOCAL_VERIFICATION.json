@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "server_export_files_verified": 93,
+  "excluded_generated_pytest_cache_files": 4,
+  "combined_per_seed_rows": 196,
+  "summary_rows": 98,
+  "reference_12_model_csv_byte_identical": true,
+  "original_models_and_adapters_byte_identical": true,
+  "numerical_results_and_training_logs_unchanged_by_repackaging": true
+}

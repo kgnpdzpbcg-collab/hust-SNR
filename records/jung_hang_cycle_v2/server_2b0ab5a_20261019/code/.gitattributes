@@ -1,0 +1,7 @@
+* text=auto eol=lf
+configs/** -text
+records/** -text
+scripts/** -text
+figures/** -text
+*.png -text
+*.pdf -text

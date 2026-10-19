@@ -1,0 +1,149 @@
+{
+  "config": {
+    "batch_size": 32,
+    "changes_from_upstream_runner": [
+      "cycle split V2",
+      "42/44 seeds",
+      "five validation SNRs and CE tie rule",
+      "Hang paired noise training",
+      "existing baseline random noise stream",
+      "seven pressure-test conditions"
+    ],
+    "epochs": 50,
+    "faithfulness": "approximate mechanism reproduction and task adaptation, not author code",
+    "final_holdout_evaluated": false,
+    "hang_input": "unchanged paper adapter: 128 points then two 64x64 VSD trajectory images",
+    "jung_input": "unchanged paper adapter: phase-wise MD then 128 points",
+    "learning_rate": 0.001,
+    "model_commit": "2b0ab5a1b0d4ea16ab68d3ce56b5c69a4f30218d",
+    "models": [
+      "jung",
+      "hang"
+    ],
+    "phase_angles_deg": [
+      0,
+      72,
+      144,
+      216,
+      288
+    ],
+    "protocol": "hust-cycle-v2-jung-hang-matched-v1",
+    "reference_training_commit": "4728e9b82c4c181564f0247aa4b1028a35a8e8d2",
+    "seeds": [
+      42,
+      44
+    ],
+    "selection": "source clean F1 within one pp of peak; maximum five-noise F1 then clean F1; minimum mean CE then earliest epoch",
+    "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "source_train_cycles": 962,
+    "source_val_cycles": 221,
+    "target_conditions_db": [
+      5,
+      4,
+      0,
+      -4,
+      -5,
+      -8,
+      -10
+    ],
+    "target_used_for_training_or_selection": false,
+    "train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "training_views": "both models: 0.5 CE(clean) + 0.5 CE(noisy)",
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "weight_decay": 0.0
+  },
+  "final_holdout_evaluated": false,
+  "first_training_noise_sha256": "492b725ae20956448207a6ff53a284dc7019a54de80c548f1259cbe8584ae7d1",
+  "initial_parameters_sha256": "97f07c3388cdd5d584b7d07b8bcd810b803303cc974d7497505b9eab269dc70d",
+  "method": "jung",
+  "parameters": 7110,
+  "protocol": "hust-cycle-v2-jung-hang-matched-v1",
+  "seed": 44,
+  "selected": {
+    "clean_ce": 0.002383161319327031,
+    "clean_f1": 1.0,
+    "epoch": 32,
+    "noise_mean_ce": 0.17080859471769894,
+    "noise_mean_f1": 0.9675644439916526,
+    "noisy_ce": {
+      "0": 0.6469252918640412,
+      "10": 0.02972121368166548,
+      "20": 0.004366335825682765,
+      "30": 0.002780995892183813,
+      "5": 0.17024913632492134
+    },
+    "noisy_f1": {
+      "0": 0.851103335979105,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0,
+      "5": 0.986718883979158
+    },
+    "optimizer_steps": 31,
+    "raw_training_noise_sha256": "e0246542526194909bc6938dc3aa147985086e14b2fc66b41701cc20bfa3c014",
+    "sampling_order_sha256": "1b04ae83adbd97dacbb4a9d32269b4712e52446065f7a4dc56971edd0f506aee",
+    "train_loss_mean": 0.030257297980208552,
+    "train_loss_sample_weighted": 0.009980636550086451
+  },
+  "source_split": {
+    "manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "protocol": "hust-source-cycle-split-v2",
+    "sets": {
+      "gap": {
+        "class_counts": [
+          15,
+          13,
+          13,
+          13,
+          12,
+          12
+        ],
+        "records": 63,
+        "samples": 78
+      },
+      "train": {
+        "class_counts": [
+          146,
+          166,
+          166,
+          166,
+          157,
+          161
+        ],
+        "records": 63,
+        "samples": 962
+      },
+      "val": {
+        "class_counts": [
+          38,
+          37,
+          37,
+          37,
+          36,
+          36
+        ],
+        "records": 63,
+        "samples": 221
+      }
+    },
+    "source_records": 63,
+    "target_split_changed": false
+  },
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "target_used_for_training_or_selection": false
+}

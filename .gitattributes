@@ -5,3 +5,6 @@ scripts/** -text
 figures/** -text
 *.png -text
 *.pdf -text
+
+# Jung/Hang归档保留服务器原字节并识别CRLF换行。
+records/jung_hang_cycle_v2/server_2b0ab5a_20261019/** whitespace=cr-at-eol
