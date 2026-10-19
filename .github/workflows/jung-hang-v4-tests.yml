@@ -1,0 +1,33 @@
+name: Jung-Hang V4 paper fidelity tests
+
+on:
+  push:
+    branches:
+      - research/jung-hang-paper-fidelity-v4
+    paths:
+      - "scripts/jung_hang_models_v4.py"
+      - "scripts/compare_jung_hang_v4.py"
+      - "scripts/jung_hang_cycle_v4.py"
+      - "configs/jung_hang_cycle_v4_v1.json"
+      - "tests/test_jung_hang_models_v4.py"
+      - ".github/workflows/jung-hang-v4-tests.yml"
+  workflow_dispatch:
+
+jobs:
+  cpu-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install numpy pytest
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Compile V3 and V4 Python modules
+        run: |
+          python -m py_compile scripts/jung_hang_models_v3.py scripts/jung_hang_models_v4.py scripts/compare_jung_hang_v4.py scripts/jung_hang_cycle_v4.py
+      - name: Run V4 CPU unit tests
+        run: pytest -q tests/test_jung_hang_models_v4.py
