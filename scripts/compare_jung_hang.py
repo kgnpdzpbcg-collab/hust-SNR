@@ -227,7 +227,6 @@ def train_one(
     destination = output_dir / "models" / method / f"seed{seed}"
     if destination.exists():
         raise FileExistsError(f"Refuse to overwrite existing run: {destination}")
-    destination.mkdir(parents=True)
 
     set_seed(seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -251,6 +250,7 @@ def train_one(
         snr: fixed_source_val_noise(method, val_meta, raw_val, snr)
         for snr in VAL_SNR_LEVELS
     }
+    destination.mkdir(parents=True)
     model = get_model(method).to(device)
     parameter_count = sum(p.numel() for p in model.parameters())
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3, weight_decay=0.0)
@@ -405,9 +405,27 @@ def evaluate_one(
     saved = torch.load(checkpoint, map_location="cpu", weights_only=True)
     model.load_state_dict(saved["state"], strict=True)
     truth = np.asarray([row["label"] for row in meta], dtype=np.int64)
+
+    # Preflight every official paired SNR file before writing any condition result.
+    base = Path(snr_root) if snr_root else ROOT / "data" / "target_dev"
+    for snr in SNR_LEVELS:
+        missing = []
+        for rid in record_ids:
+            candidates = (
+                base / f"snr{snr}" / f"{rid}.mat",
+                base / f"SNR_{snr}" / f"{rid}.mat",
+                base / str(snr) / f"{rid}.mat",
+            )
+            if not any(path.is_file() for path in candidates):
+                missing.append(rid)
+        if missing:
+            raise FileNotFoundError(
+                f"Missing paired target Dev SNR-{snr} files for {len(missing)} records; "
+                f"first missing IDs: {missing[:5]}. Pass --snr-root to the SNR parent directory."
+            )
+
     eval_dir = output_dir / "evaluations" / method / f"seed{seed}"
     eval_dir.mkdir(parents=True, exist_ok=True)
-
     conditions: list[int | None] = [None, *SNR_LEVELS]
     for snr in conditions:
         name = "clean" if snr is None else f"snr{snr}"
