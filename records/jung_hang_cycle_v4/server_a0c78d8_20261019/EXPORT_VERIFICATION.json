@@ -1,0 +1,10 @@
+{
+  "code_snapshot_hashes_verified": 47,
+  "default_configuration_only": true,
+  "preset_configurations_trained": 0,
+  "protected_files_unchanged": 1473,
+  "same_training_noise_and_sampling_all_100_seed_epochs": true,
+  "status": "passed",
+  "version_comparison_rows": 28,
+  "weights_hashed": 8
+}

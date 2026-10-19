@@ -2,6 +2,8 @@
 
 HUST五相IM-AA数据的实验配置、指标记录、数据解析及波形图。
 
+- [Jung/Hang V4：默认双模型42/44种子、七档Dev及V2/V3/V4对照](docs/JUNG_HANG_CYCLE_V4_RESULTS.md)
+
 - [Jung/Hang V3：42/44种子、七档Dev及V2/V3比较](docs/JUNG_HANG_CYCLE_V3_RESULTS.md)
 
 - [Jung Modified CNN与Hang WCNN：当前统一划分、42/44种子及七档结果](docs/JUNG_HANG_CYCLE_V2_RESULTS.md)
@@ -86,3 +88,10 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 
 - [协议、修复、逐种子结果与V2比较](docs/JUNG_HANG_CYCLE_V3_RESULTS.md)
 - [V3完整归档](records/jung_hang_cycle_v3/server_853b1f6_20261019/SERVER_RESULTS.md) · [核验记录](records/jung_hang_cycle_v3/server_853b1f6_20261019/results/VERIFICATION.json)
+
+## Jung/Hang V4默认双模型实验（2026-10-19）
+
+保持仓库V4代码与默认配置，962/221源周期、42/44种子、50轮、10–40 dB普通AWGN配对训练。Jung使用单周期5×128共享尺度输入；Hang使用双通道40×40 VSD、保留均值和共享径向尺度。四组训练、28组七档Dev测试、24组源验证回放完成。九份消融预设未运行，历史V2/V3保留。
+
+- [完整协议、逐种子指标及版本对照](docs/JUNG_HANG_CYCLE_V4_RESULTS.md)
+- [完整归档](records/jung_hang_cycle_v4/server_a0c78d8_20261019/SERVER_RESULTS.md) · [核验状态](records/jung_hang_cycle_v4/server_a0c78d8_20261019/results/VERIFICATION.json)

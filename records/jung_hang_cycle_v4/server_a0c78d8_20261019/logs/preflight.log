@@ -1,0 +1,4 @@
+READY jung source_train=962 input_shape=[962, 5, 128] source_val=221 val_shape=[221, 5, 128]
+READY hang source_train=962 input_shape=[962, 2, 40, 40] source_val=221 val_shape=[221, 2, 40, 40]
+SMOKE {'jung_output': (3, 6), 'hang_output': (3, 6), 'jung_parameters': 7110, 'hang_parameters': 63330}
+preflight finished in 5.716s

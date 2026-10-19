@@ -11,3 +11,9 @@ records/jung_hang_cycle_v2/server_2b0ab5a_20261019/** whitespace=cr-at-eol
 
 # V3归档保留服务器原字节，CSV原换行不规范化。
 records/jung_hang_cycle_v3/server_853b1f6_20261019/** whitespace=cr-at-eol
+
+# V4服务器归档保留原始换行与二进制字节。
+records/jung_hang_cycle_v4/server_a0c78d8_20261019/** whitespace=cr-at-eol
+# 上游代码的既有行尾空格仅在以下两个归档快照中保留。
+records/jung_hang_cycle_v4/server_a0c78d8_20261019/code/scripts/compare_jung_hang_v4.py whitespace=cr-at-eol,-blank-at-eol
+records/jung_hang_cycle_v4/server_a0c78d8_20261019/code/scripts/jung_hang_models_v4.py whitespace=cr-at-eol,-blank-at-eol

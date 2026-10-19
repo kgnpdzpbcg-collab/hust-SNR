@@ -1,0 +1,257 @@
+{
+  "additional_root": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
+  "code_sha256": {
+    ".gitattributes": "a7a84e4ee992610026914ac0963fa01e815e0d690206794d39c65bf7ad4eb382",
+    "AGENTS.md": "6081701cec4a7cce898da64dd36f5f0be512f885215e783aa682684cd31d3e69",
+    "configs/TRANSFER_MANIFEST_gate0_v1.json": "14c43e4038d0eafde7ef9f4cb9102ef8134116fcf3c7b62b2ac77a3fa5a34e1a",
+    "configs/jung_hang_cycle_v2_v1.json": "8117a58c473b4f4a616132d70ac6f466486e708f681fe79004600b7317ec4264",
+    "configs/jung_hang_cycle_v3_v1.json": "67cfd0cbfd7dfbba9a1429403b40defe7338a5f9f4de7650948a4809fa719bbb",
+    "configs/jung_hang_cycle_v4_v1.json": "efbe89cbe1c1f00cbe40230b607c8e96ad8b46d0b84cc791a605eb94c3fed88e",
+    "configs/protocol_gate0_v1.json": "48c72bfa39363803e7ede7db08e99e99cbfabd1aa77db13a2e33df010597b68d",
+    "configs/splits_gate0_v1.json": "5fccf11264d097aaa704030c16e9007323baaa57e613b1fa13f652a1a7b43707",
+    "docs/DATA_PARSING.md": "78cff752c5ece6212fc00654d8181f6fc918bc2284eede21572586e5389fb720",
+    "docs/EXPERIMENT_RECORD.md": "d7c1723429672b71f5b4c78b714ab05914b4fcd77d1c8efcb99ac8e948e4b8bc",
+    "docs/JUNG_HANG_CYCLE_V2_RESULTS.md": "efd1e619c06f24349a357467412752e45d49e6d2ba5431cf66031192e1b90e22",
+    "docs/JUNG_HANG_CYCLE_V3_RESULTS.md": "f18379144582cf961414c7d4d6d713fd7e1f10a6cb031aeb4ee14fe994ed02fb",
+    "docs/JUNG_HANG_REPRODUCTION.md": "32d94770823f2539f6facfb36862608fcb2f076ea38097d105a6cec3e02f9a3f",
+    "docs/JUNG_HANG_REVISION_V3.md": "ff87728af4a54e1275c0bc6847f5e1cd4b12d14bc8dd9cdb7f87a62179d72037",
+    "docs/JUNG_HANG_V4_FIDELITY_PLAN.md": "30c3ce2e9879f583b9606a4a129f89ee3dff22cd20081d33df69c546366e2c85",
+    "docs/M1_SNR10_DIAGNOSTIC_RECORD.md": "20c827af5716f8dcbe6930fbe1b3b87b99d170cb828845bad38b8d153fabd067",
+    "docs/SNR_DATA_EXPORT.md": "6e19ffabec4e4edd145af77e8d70359221a5be970d606b60f6b3759342fc56e5",
+    "docs/V1_NOISE_CONSISTENCY_PROTOCOL.md": "49572bfa6885ce60e9ef151a8e87b72ec046184a42395c8845e757e54259956b",
+    "docs/WAVEFORMS.md": "6be5e11680250e5f4dabac117bd4f4cd192bf5a6ab9b2bae43110595e9c3c251",
+    "scripts/audit_dataset.py": "d9bb845b5e9acca4f3c59a77dc2f005e41a2cbab260bd5a4e05fe680ecb15de8",
+    "scripts/check_duplicate_groups.py": "18c5ea4574f1f77a62156c115ec468f5eff8439fa9e550a9f2ea638e62641c76",
+    "scripts/compare_jung_hang.py": "a0d8d021be05737ebaad5d0e941da5d0eec413fc3467cf777626a19b048da02a",
+    "scripts/compare_jung_hang_v3.py": "b84aafe5eb98885037d7579f1976b08f7b8b02ff3b668837de03edf00769bbee",
+    "scripts/compare_jung_hang_v4.py": "4f061ca88c4e9da924346f91481773371e4741b3d095db9a327d43e3648c5352",
+    "scripts/diagnose_m1_snr10.py": "b42b779d203196e146c2c746e9dd3bb1d7caaa41420cac77b40ab8410a1b3360",
+    "scripts/export_snr_data.py": "8df94d81a3b36bc34d66ed8f5a65d52a3419c8f73640bf249f8956a7ba454128",
+    "scripts/jung_hang_cycle_v2.py": "beb86b5221e2b4e1fecfed1dcb4e75dd639f742c38f33b914d88c7168d30ecbe",
+    "scripts/jung_hang_cycle_v3.py": "5a51cc53c045cb015bc90b9490feb4dbe0ab2d978e27ec280ddfea6e45514a2e",
+    "scripts/jung_hang_cycle_v4.py": "e8cce9987a9fd181a5f85d78d823a0aeffb5df05b94cbe417eb9f8771fc05e5f",
+    "scripts/jung_hang_models.py": "4996648ffba1a66c47c1c34ec1b4527efe8bfaa8d3ba553f65ad57784a1394f3",
+    "scripts/jung_hang_models_v3.py": "236406c38a88ec83dda2a79ca77a0b95f2dca0e99cbc81f2758d0deb2f33f9ad",
+    "scripts/jung_hang_models_v4.py": "5b9cfe061bd0e18c431314a12685822f65342f0d5969e194d5ae007b61534b2d",
+    "scripts/jung_hang_v4_presets.py": "e91f5a84dc12f77df89a317259fb57e8ef6c52fc6ab79a129a2b15afdc7dbabe",
+    "scripts/plot_m1_diagnosis.py": "c338768d1fb1831f516991891c80c798490eebeeaa3a8237838e701dbf8466c8",
+    "scripts/plot_waveforms.py": "0a1a494148232ce6c5d8e83fd9c9d64e6d24a84fe10b392ef7addd7074ca8b50",
+    "scripts/prepare.py": "857b6758413f1ba23c78cce9b8ebf46043f53d6e850b5836321a3301f5f2c077",
+    "scripts/probe_m1_noise_preprocessing.py": "1491aca0f21adc63972d1e639ce997875b6e7005841eaa3b2ade71aa2968ec75",
+    "scripts/summarize_m1_diagnosis.py": "1bd7c278e79d7dc9a5c0b4951db545d6a413b6094495b814654c5a8e17b15b01",
+    "scripts/train.py": "abeedd7f7922340bda248eda1f77732536d735c3a9a0990116e32543539fe4f2",
+    "scripts/v1_noise_consistency.py": "3eab3d4bf8b2b569f423fbff8b59e85be3419de6ad09f0c4f57e4475b067da9e",
+    "scripts/verify.py": "8d3041fb82e75eca096dc2f7333f1a5841903ce7941acfe1a8481610d6c300eb",
+    "tests/test_export_snr_data.py": "3c8a7c53e995c5caa2d5273479af3ad46b8fb01a10949d69a882ee5f3360f07d",
+    "tests/test_jung_hang_cycle_v3_noise.py": "35161491fc6390ddc83940564908c169634ffee329d494e4e30b892fbdd8aef6",
+    "tests/test_jung_hang_models.py": "2c880fcda23ae932621b984c2cf01a7a442e322e3f0524f9e853e34c5a4ab6c9",
+    "tests/test_jung_hang_models_v3.py": "cbf42adc732641667df0411a625d072abc253825f2945c20d0cf0f4dd3036671",
+    "tests/test_jung_hang_models_v4.py": "87bbe14f4b0a193c7d1bffa10c067467b58b0d7083439548d23fbebaca933c19",
+    "tests/test_v1_consistency.py": "458f226eb973fdabe6797a57436aa1902ffee0aade1c789a1502a4193d2a0504"
+  },
+  "config": {
+    "batch_size": 32,
+    "epochs": 50,
+    "faithful_adaptation": true,
+    "final_holdout_evaluated": false,
+    "hang_center": "none",
+    "hang_normalization": "shared",
+    "hang_planes": "dual",
+    "hang_training_view": "paired",
+    "jung_cycles": 1,
+    "jung_scale": "shared",
+    "learning_rate": 0.001,
+    "models": [
+      "jung",
+      "hang"
+    ],
+    "protocol": "hust-cycle-v4-jung-hang-fidelity-controls",
+    "seeds": [
+      42,
+      44
+    ],
+    "selection": "source-only; clean F1 within 1 percentage point of peak; optimize mean noisy validation F1",
+    "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "source_train_cycles": 962,
+    "source_val_cycles": 221,
+    "target_conditions_db": [
+      5,
+      4,
+      0,
+      -4,
+      -5,
+      -8,
+      -10
+    ],
+    "target_used_for_training_or_selection": false,
+    "train_noise_db": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "training_noise": "awgn",
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "weight_decay": 0
+  },
+  "config_sha256": "efbe89cbe1c1f00cbe40230b607c8e96ad8b46d0b84cc791a605eb94c3fed88e",
+  "cpu_threads_per_worker": 2,
+  "cuda_gradient_checks": [
+    {
+      "finite_cuda_gradients": true,
+      "method": "jung",
+      "parameters": 7110,
+      "train_shape": [
+        962,
+        5,
+        128
+      ],
+      "validation_shape": [
+        221,
+        5,
+        128
+      ]
+    },
+    {
+      "finite_cuda_gradients": true,
+      "method": "hang",
+      "parameters": 63330,
+      "train_shape": [
+        962,
+        2,
+        40,
+        40
+      ],
+      "validation_shape": [
+        221,
+        2,
+        40,
+        40
+      ]
+    }
+  ],
+  "experiment_scope": "default two-model config; presets not trained",
+  "final_holdout_evaluated": false,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "interpreter": "/home/wang/projects/会议论文/analog-circuit-crossdomain/.venv/bin/python",
+  "max_training_full_record_phase_snr_error_db": 3.552713678800501e-14,
+  "model_branch": "research/jung-hang-paper-fidelity-v4",
+  "model_commit": "a0c78d8bf253082efd39b7b93428322dde5ccb67",
+  "preset_configs_generated": 9,
+  "previous_output": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output",
+  "previous_v3_root": "/home/wang/projects/会议论文/hust/experiments/jung_hang_cycle_v3/853b1f6_20261019",
+  "protected_files": 1473,
+  "real_source_phase_snr_checks": [
+    {
+      "actual_phase_db": [
+        2.7965496530045238e-14,
+        -8.678947198979592e-15,
+        2.7001169063491955e-14,
+        2.7965496530045238e-14,
+        3.857309866213147e-15
+      ],
+      "requested_db": 0
+    },
+    {
+      "actual_phase_db": [
+        5.000000000000012,
+        4.999999999999985,
+        4.99999999999999,
+        5.000000000000031,
+        4.999999999999993
+      ],
+      "requested_db": 5
+    },
+    {
+      "actual_phase_db": [
+        10.00000000000002,
+        9.999999999999991,
+        10.00000000000001,
+        10.000000000000007,
+        9.999999999999996
+      ],
+      "requested_db": 10
+    },
+    {
+      "actual_phase_db": [
+        20.000000000000007,
+        19.999999999999993,
+        20.000000000000036,
+        20.00000000000002,
+        19.999999999999986
+      ],
+      "requested_db": 20
+    },
+    {
+      "actual_phase_db": [
+        39.99999999999999,
+        39.99999999999997,
+        40.00000000000001,
+        40.0,
+        40.000000000000014
+      ],
+      "requested_db": 40
+    }
+  ],
+  "reference_reader_commit": "4728e9b82c4c181564f0247aa4b1028a35a8e8d2",
+  "reference_root": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
+  "source_root": "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2",
+  "source_split": {
+    "manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "protocol": "hust-source-cycle-split-v2",
+    "sets": {
+      "gap": {
+        "class_counts": [
+          15,
+          13,
+          13,
+          13,
+          12,
+          12
+        ],
+        "records": 63,
+        "samples": 78
+      },
+      "train": {
+        "class_counts": [
+          146,
+          166,
+          166,
+          166,
+          157,
+          161
+        ],
+        "records": 63,
+        "samples": 962
+      },
+      "val": {
+        "class_counts": [
+          38,
+          37,
+          37,
+          37,
+          36,
+          36
+        ],
+        "records": 63,
+        "samples": 221
+      }
+    },
+    "source_records": 63,
+    "target_split_changed": false
+  },
+  "tests_passed": 26,
+  "torch": "2.14.1+cu130",
+  "upstream_code_modified": false,
+  "v2_root": "/home/wang/projects/会议论文/hust/experiments/jung_hang_cycle_v2/2b0ab5a_20261019",
+  "workers": 4
+}

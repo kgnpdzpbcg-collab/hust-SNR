@@ -1,0 +1,53 @@
+{
+  "protocol": "hust-cycle-v4-jung-hang-fidelity-controls:hang_h0_centered",
+  "models": [
+    "hang"
+  ],
+  "seeds": [
+    42,
+    44
+  ],
+  "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0,
+  "train_noise_db": [
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "val_noise_db": [
+    0,
+    5,
+    10,
+    20,
+    30
+  ],
+  "target_conditions_db": [
+    5,
+    4,
+    0,
+    -4,
+    -5,
+    -8,
+    -10
+  ],
+  "jung_cycles": 1,
+  "jung_scale": "shared",
+  "training_noise": "awgn",
+  "hang_planes": "dual",
+  "hang_center": "phase_mean",
+  "hang_normalization": "shared",
+  "hang_training_view": "paired",
+  "selection": "source-only; clean F1 within 1 percentage point of peak; optimize mean noisy validation F1",
+  "faithful_adaptation": true,
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false
+}
