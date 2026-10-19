@@ -109,7 +109,8 @@ def test_quiet_current_gate_preserves_zero_intervals_and_calibrates_snr():
         time, currents, omega, 20.0, np.random.default_rng(17)
     )
     noise = noisy - currents
-    assert np.all(noise[quiet[200:-200] if False else quiet, 0] == 0.0)
+    interior_quiet = (time >= 0.36) & (time <= 0.64)
+    assert np.all(noise[interior_quiet, 0] == 0.0)
     for phase in range(5):
         signal_power = np.mean(currents[:, phase] ** 2)
         noise_power = np.mean(noise[:, phase] ** 2)
