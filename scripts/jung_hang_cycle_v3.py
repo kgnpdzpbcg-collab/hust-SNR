@@ -73,7 +73,7 @@ def noise_records(ref,raw,seed,epoch,snr=None):
     return result
 
 def source_data(args,method):
-    """使用原周期边界，将相同原始电流送入各模型原有的128点输入适配器。"""
+    """Build V3 model-specific inputs on the frozen source-cycle boundaries."""
     import numpy as np
     c,ref,paper,split,provenance=setup(args)
     (raw,tm,y,clean4096),(_,vm,vy,vc4096,_legacy_vnoise4096)=split.source_views(args.source_root)
@@ -241,7 +241,7 @@ def evaluate(args,replay=False):
                     raise ValueError("模型训练轮次、更新次数或采样顺序不一致")
         ref.write_csv(args.output/"reports/SOURCE_VALIDATION_REPLAY.csv",source_rows)
         write(args.output/"VERIFICATION.json",{"status":"passed","target_prediction_replays":count,"source_validation_replays":len(source_rows),
-            "same_noise_and_sampling_across_models_all_100_seed_epochs":True,"model_parameters_and_bn_unchanged":True,"final_holdout_evaluated":False})
+            "same_sampling_order_across_models_all_100_seed_epochs":True,"jung_quiet_current_noise_gate":True,"hang_clean_only_training":True,"model_parameters_and_bn_unchanged":True,"final_holdout_evaluated":False})
 
 
 def summarize(args):
