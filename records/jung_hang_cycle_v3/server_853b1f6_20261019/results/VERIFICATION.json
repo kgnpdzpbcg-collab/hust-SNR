@@ -1,0 +1,10 @@
+{
+  "final_holdout_evaluated": false,
+  "hang_clean_only_training": true,
+  "jung_quiet_current_noise_gate": true,
+  "model_parameters_and_bn_unchanged": true,
+  "same_sampling_order_across_models_all_100_seed_epochs": true,
+  "source_validation_replays": 24,
+  "status": "passed",
+  "target_prediction_replays": 28
+}

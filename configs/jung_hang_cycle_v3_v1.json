@@ -1,0 +1,35 @@
+{
+  "protocol": "hust-cycle-v3-paper-aligned-jung-hang-adaptation",
+  "models": ["jung", "hang"],
+  "seeds": [42, 44],
+  "reference_training_commit": "2b0ab5a1b0d4ea16ab68d3ce56b5c69a4f30218d",
+  "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "train_noise_db": [10, 15, 20, 25, 30, 35, 40],
+  "val_noise_db": [0, 5, 10, 20, 30],
+  "target_conditions_db": [5, 4, 0, -4, -5, -8, -10],
+  "training_views": {
+    "jung": "0.5*CE(clean) + 0.5*CE(noisy)",
+    "hang": "CE(clean); no injected-noise training view"
+  },
+  "jung_input": "five-phase current, 128 points, per-phase midpoint centering and one shared window scale; preserves inter-phase amplitude ratios",
+  "jung_noise_augmentation": "record-level SNR-AWGN with short-time-RMS quiet-current gate; noise power recalibrated to requested global phase-wise SNR",
+  "hang_input": "fundamental five-phase VSD alpha-beta trajectory, per-time vector-magnitude normalization, one 40x40 image channel",
+  "hang_network": "five 3x3 Conv2D stages with 4/8/16/32/64 channels; fixed Haar LL pooling after stages 1 and 2; 40x40 -> 20x20 -> 10x10 before final convolution and classifier",
+  "selection": "source clean F1 within one percentage point of peak; maximize mean source validation F1 at 0/5/10/20/30 dB; ties by clean F1, then minimum mean CE, then earliest epoch",
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false,
+  "faithfulness": "paper-informed task adaptation, not author code; Hang uses a five-phase fundamental-VSD analogue of the paper's normalized Clarke trajectory; Jung uses a generic quiet-current gate because NPC switch-specific topology is unavailable",
+  "changes_from_cycle_v2": [
+    "Jung input uses phase-shared normalization instead of independent per-phase normalization",
+    "Jung training noise suppresses perturbations in sustained low-current intervals while preserving the requested record-level SNR",
+    "Hang trajectory uses instantaneous vector normalization rather than a window-global scale",
+    "Hang input changes from two 64x64 VSD planes to one 40x40 fundamental-plane trajectory",
+    "Hang training follows the paper's clean-image training rather than paired clean/noisy cross-entropy"
+  ]
+}
