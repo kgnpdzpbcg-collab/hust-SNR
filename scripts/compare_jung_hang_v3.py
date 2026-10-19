@@ -75,3 +75,8 @@ def smoke() -> dict:
         "jung_output_shape": list(yj.shape),
         "hang_output_shape": list(yh.shape),
     }
+
+
+if __name__ == "__main__":
+    import json
+    print(json.dumps(smoke(), ensure_ascii=False, indent=2))
