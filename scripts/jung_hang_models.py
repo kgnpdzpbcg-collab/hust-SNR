@@ -83,8 +83,9 @@ class HaarDWTLLPool(nn.Module):
 class HangWCNN(nn.Module):
     """Hang-inspired 2-D WCNN for two VSD trajectory-image channels.
 
-    Conv channels are 4, 8, 16, 32, 64; fixed Haar LL pooling follows conv1
-    and conv2. A flattened linear classifier follows the final convolution.
+    This reconstruction chooses Conv channels 4, 8, 16, 32, 64 because the paper
+    does not provide a complete layer-by-layer parameter table. Fixed Haar LL
+    pooling follows conv1 and conv2; a flattened linear classifier follows conv5.
     Input is [B,2,64,64] by default. The 5-phase image adapter is in this module.
     """
     def __init__(
