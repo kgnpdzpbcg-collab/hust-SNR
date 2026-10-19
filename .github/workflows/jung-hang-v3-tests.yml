@@ -7,6 +7,8 @@ on:
     paths:
       - "scripts/jung_hang_models_v3.py"
       - "scripts/compare_jung_hang_v3.py"
+      - "scripts/jung_hang_cycle_v3.py"
+      - "configs/jung_hang_cycle_v3_v1.json"
       - "tests/test_jung_hang_models_v3.py"
       - ".github/workflows/jung-hang-v3-tests.yml"
 
@@ -23,6 +25,8 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install numpy pytest
           python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Compile V3 scripts
+        run: python -m py_compile scripts/jung_hang_models_v3.py scripts/compare_jung_hang_v3.py scripts/jung_hang_cycle_v3.py
       - name: Run synthetic smoke test
         run: python scripts/compare_jung_hang_v3.py
       - name: Run unit tests
