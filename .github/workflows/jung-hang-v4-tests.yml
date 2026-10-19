@@ -8,6 +8,7 @@ on:
       - "scripts/jung_hang_models_v4.py"
       - "scripts/compare_jung_hang_v4.py"
       - "scripts/jung_hang_cycle_v4.py"
+      - "scripts/jung_hang_v4_presets.py"
       - "configs/jung_hang_cycle_v4_v1.json"
       - "tests/test_jung_hang_models_v4.py"
       - ".github/workflows/jung-hang-v4-tests.yml"
@@ -28,6 +29,10 @@ jobs:
           python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
       - name: Compile V3 and V4 Python modules
         run: |
-          python -m py_compile scripts/jung_hang_models_v3.py scripts/jung_hang_models_v4.py scripts/compare_jung_hang_v4.py scripts/jung_hang_cycle_v4.py
+          python -m py_compile scripts/jung_hang_models_v3.py scripts/jung_hang_models_v4.py scripts/compare_jung_hang_v4.py scripts/jung_hang_cycle_v4.py scripts/jung_hang_v4_presets.py
+      - name: Verify generated single-factor presets
+        run: |
+          python scripts/jung_hang_v4_presets.py --output /tmp/jung_hang_v4_presets
+          python -c "import json,pathlib; p=list(pathlib.Path('/tmp/jung_hang_v4_presets').glob('*.json')); assert len(p)==9; assert all(len(json.loads(x.read_text())['models'])==1 for x in p)"
       - name: Run V4 CPU unit tests
         run: pytest -q tests/test_jung_hang_models_v4.py
