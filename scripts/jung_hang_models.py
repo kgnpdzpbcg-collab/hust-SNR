@@ -181,9 +181,9 @@ def current_window_to_vsd_images(
 ) -> np.ndarray:
     """Convert one raw five-phase current window to [2,H,W] trajectory images.
 
-    Channel 0 is the alpha1-beta1 plane; channel 1 is alpha3-beta3. Per-phase
-    per-phase DC offsets are removed by mean-centering, but the four VSD components share one amplitude
-    scale so the weak harmonic-plane magnitude is not independently amplified.
+    Channel 0 is the alpha1-beta1 plane; channel 1 is alpha3-beta3. DC offsets
+    are removed by per-phase mean-centering, while all four VSD components share
+    one amplitude scale so the weak harmonic-plane magnitude is not amplified alone.
     Axes and plot decorations are omitted. A near-zero window returns blank maps.
     """
     t = np.asarray(time, dtype=np.float64)
