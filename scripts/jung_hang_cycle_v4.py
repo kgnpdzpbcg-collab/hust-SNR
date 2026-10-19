@@ -150,7 +150,7 @@ def train(args):
             "sampling_order_sha256":hashlib.sha256(order.tobytes()).hexdigest()}
         history.append(row);states[epoch]=ref.snapshot(model)
         if epoch==1 or epoch%10==0:
-            print(f"{method} seed{seed} epoch{epoch}/{c[\u0022epochs\u0022]} loss={row['train_loss_mean']:.6f} sourceF1={row['noise_mean_f1']:.6f}",flush=True)
+            print(f"{method} seed{seed} epoch{epoch}/{c['epochs']} loss={row['train_loss_mean']:.6f} sourceF1={row['noise_mean_f1']:.6f}",flush=True)
     chosen=ref.select_source_checkpoint(history)
     folder.mkdir(parents=True)
     common={"method":method,"seed":seed,"protocol":c["protocol"],"config":c,
