@@ -58,3 +58,12 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 - [导出脚本的MAT配对与格式测试](tests/test_export_snr_data.py)
 
 在含有原始 SNR MAT 数据的服务器上运行 `python scripts/export_snr_data.py --snr-root /path/to/SNR_parent`。输出位于 gitignored 的 `outputs/dev_snr_export/`，仅包含冻结的88条目标开发记录及可选Clean版本，不接触347条Final-Holdout，也不向GitHub公开原始电流。
+
+## 论文对比基线：Jung Modified CNN / Hang WCNN
+
+- [复现方案与运行说明](docs/JUNG_HANG_REPRODUCTION.md)
+- [模型结构与五相 VSD/轨迹图](scripts/jung_hang_models.py)
+- [训练、Dev 评估与结果汇总入口](scripts/compare_jung_hang.py)
+- [CPU 单元测试](tests/test_jung_hang_models.py)
+
+该实现是按论文核心机制进行的近似复现及五相任务适配，不是作者原始代码。模型训练只使用冻结的 Source-Train/Source-Val；目标评估仅限 88 条 Dev 记录，不读取 Final-Holdout。运行结果和权重保存在 gitignored 的 `outputs/jung_hang_comparison/`。
