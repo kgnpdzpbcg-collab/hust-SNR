@@ -284,14 +284,20 @@ def summarize(args):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("stage",choices=("train","evaluate","verify","summarize"))
+    parser.add_argument("stage",choices=("preflight","train","evaluate","verify","summarize"))
     parser.add_argument("--method",choices=("jung","hang"))
     parser.add_argument("--config",type=Path,default=CONFIG)
     parser.add_argument("--seed",type=int,choices=(42,44))
     for name in ("reference-root","source-root","additional-root","previous-output","output"):
         parser.add_argument("--"+name,type=Path,required=True)
     args=parser.parse_args();start=time.time()
-    if args.stage=="train":
+    if args.stage=="preflight":
+        for method in ("jung","hang"):
+            conf,ref,paper,prov,raw,metadata,y,clean,vy,val=source_data(args,method)
+            print(f"READY {method} source_train={len(y)} input_shape={list(clean.shape)} "
+                  f"source_val={len(vy)} val_shape={list(val['clean'].shape)}",flush=True)
+        print("SMOKE",paper.smoke(conf),flush=True)
+    elif args.stage=="train":
         if args.method is None or args.seed is None:parser.error("训练必须指定模型和种子")
         train(args)
     elif args.stage=="evaluate":evaluate(args)
