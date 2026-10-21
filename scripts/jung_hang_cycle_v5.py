@@ -122,7 +122,7 @@ def train(args):
     optimizer=torch.optim.Adam(model.parameters(),lr=c["learning_rate"],weight_decay=c["weight_decay"])
     initial=ref.digest_parameters(model)
     states,history={},[]
-    for epoch in range(1,c["epochs"]+1):
+    for epoch in range(1,c["epochs_by_method"][method]+1):
         input_hash=None
         noisy=None
         if method=="jung" or (method=="hang" and c["hang_training_view"]=="paired"):
@@ -165,14 +165,14 @@ def train(args):
             "sampling_order_sha256":hashlib.sha256(order.tobytes()).hexdigest()}
         history.append(row);states[epoch]=ref.snapshot(model)
         if epoch==1 or epoch%10==0:
-            print(f"{method} seed{seed} epoch{epoch}/{c['epochs']} loss={row['train_loss_mean']:.6f} sourceF1={row['noise_mean_f1']:.6f}",flush=True)
+            print(f"{method} seed{seed} epoch{epoch}/{c['epochs_by_method'][method]} loss={row['train_loss_mean']:.6f} sourceF1={row['noise_mean_f1']:.6f}",flush=True)
     chosen=ref.select_source_checkpoint(history)
     folder.mkdir(parents=True)
     common={"method":method,"seed":seed,"protocol":c["protocol"],"config":c,
         "source_split":provenance,"selected":chosen,"target_used_for_training_or_selection":False,
         "final_holdout_evaluated":False}
     torch.save({**common,"state":states[chosen["epoch"]]},folder/"best.pt")
-    torch.save({**common,"state":states[c["epochs"]],"epoch":c["epochs"]},folder/"last.pt")
+    torch.save({**common,"state":states[c["epochs_by_method"][method]],"epoch":c["epochs_by_method"][method]},folder/"last.pt")
     write(folder/"history.json",history)
     write(folder/"run.json",{**common,"parameters":sum(p.numel() for p in model.parameters()),
         "initial_parameters_sha256":initial,"source_train_cycles":len(y),"source_val_cycles":len(vy),
@@ -249,7 +249,7 @@ def evaluate(args,replay=False):
             histories={method:read(args.output/f"models/{method}/seed{seed}/history.json")
                        for method in c["models"]}
             for method, history in histories.items():
-                if len(history)!=c["epochs"]:
+                if len(history)!=c["epochs_by_method"][method]:
                     raise ValueError("Training epochs do not match config")
                 should_have_noise=method=="jung" or c["hang_training_view"]=="paired"
                 if any((row["raw_training_noise_sha256"] is not None)!=should_have_noise for row in history):
