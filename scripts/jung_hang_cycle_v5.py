@@ -255,13 +255,12 @@ def evaluate(args,replay=False):
                 should_have_noise=method=="jung" or c["hang_training_view"]=="paired"
                 if any((row["raw_training_noise_sha256"] is not None)!=should_have_noise for row in history):
                     raise ValueError(f"{method} training-noise provenance mismatch")
-            if "jung" in histories and "hang" in histories:
-                for x,y in zip(histories["jung"], histories["hang"]):
-                    if any(x[k]!=y[k] for k in ("epoch","optimizer_steps","sampling_order_sha256")):
-                        raise ValueError("Jung/Hang sampling order differs")
+            # Jung uses two-cycle anchors (fewer samples) and 30 AdaMod epochs;
+            # Hang uses one-cycle anchors and 50 Adam epochs. Equal orders/steps
+            # across methods are not an applicable validation invariant.
         ref.write_csv(args.output/"reports/SOURCE_VALIDATION_REPLAY.csv",source_rows)
         write(args.output/"VERIFICATION.json",{"status":"passed","target_prediction_replays":count,"source_validation_replays":len(source_rows),
-            "paired_sampling_order_checked":len(c["models"])==2,"training_noise_by_method":{"jung":"thdn","hang":"awgn"},"hang_training_view":c["hang_training_view"],"model_parameters_and_bn_unchanged":True,"final_holdout_evaluated":False})
+            "paired_sampling_order_checked":False,"training_noise_by_method":{"jung":"thdn","hang":"awgn"},"hang_training_view":c["hang_training_view"],"model_parameters_and_bn_unchanged":True,"final_holdout_evaluated":False})
 
 
 def summarize(args):
