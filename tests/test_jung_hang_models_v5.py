@@ -141,3 +141,52 @@ def test_source_only_preflight_audit():
     assert result["healthy_vsd_records"]==1
     assert result["native_thd_median"] < 0.025
     assert result["healthy_vsd_third_to_fundamental_rms_median"] < 0.1
+
+def test_hang_pointwise_norm_loses_radial_fault_information():
+    from jung_hang_models_v5 import hang_trajectory_reference_scaled
+    t = np.linspace(0, 1, 2001)
+    phase = np.deg2rad(np.arange(5) * 72)
+    base = np.stack([np.cos(2*np.pi*t-a) for a in phase],axis=1)
+    # Vary common current-vector radius without altering instantaneous angle.
+    damaged = base * (0.6+0.4*np.cos(2*np.pi*t)**2)[:,None]
+    point_a=hang_trajectory(t,base,0,1,points=128,size=40)
+    point_b=hang_trajectory(t,damaged,0,1,points=128,size=40)
+    fig_a=hang_trajectory_reference_scaled(t,base,0,1,points=128,size=40)
+    fig_b=hang_trajectory_reference_scaled(t,damaged,0,1,points=128,size=40)
+    np.testing.assert_array_equal(point_a,point_b)
+    assert not np.array_equal(fig_a,fig_b)
+
+
+def test_hang_literal_and_figures_are_explicit_protocols():
+    from compare_jung_hang_v5 import build_inputs
+    t,c,w=five_phase_record()
+    raw={"A":(t,c,w)}
+    meta=[dict(record_id="A",label=1,start=0.,end=.05)]
+    cfg=config()
+    cfg["hang_normalization_mode"]="pointwise_eq6"
+    x, a=build_inputs("hang",meta,raw,cfg)
+    assert x.shape==(1,1,40,40) and a.tolist()==[0]
+    cfg["hang_normalization_mode"]="reference_radius_figures"
+    x, a=build_inputs("hang",meta,raw,cfg)
+    assert x.shape==(1,1,40,40) and a.tolist()==[0]
+    cfg["hang_normalization_mode"]="invented"
+    with pytest.raises(ValueError,match="Unsupported Hang"):
+        build_inputs("hang",meta,raw,cfg)
+
+
+def test_hang_haar_LL_matches_paper_equation_11():
+    from jung_hang_models_v3 import HaarDWTLLPool
+    x=torch.arange(1,17,dtype=torch.float32).reshape(1,1,4,4)
+    y=HaarDWTLLPool()(x)
+    expected=torch.tensor([[[[14.,22.],[46.,54.]]]])
+    torch.testing.assert_close(y,expected)
+
+
+def test_hang_cross_label_identical_images_detected():
+    from hang_v6_source_audit import image_collision_audit
+    images=np.zeros((4,1,40,40),dtype=np.float32)
+    images[2,0,0,0]=1
+    report=image_collision_audit(images,np.array([1,2,1,2]))
+    assert report["cross_label_identical_images"]==1
+    assert report["affected_samples"]==3
+    assert report["affected_fraction"]==0.75
