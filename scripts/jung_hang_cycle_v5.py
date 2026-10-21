@@ -119,7 +119,8 @@ def train(args):
     if folder.exists():raise FileExistsError(folder)
     ref.fix_randomness(seed)
     model=paper.get_model(method,c).cuda()
-    optimizer=torch.optim.Adam(model.parameters(),lr=c["learning_rate"],weight_decay=c["weight_decay"])
+    from jung_hang_optim_v5 import AdaMod
+    optimizer=(AdaMod(model.parameters(),lr=c["learning_rate"],weight_decay=c["weight_decay"]) if method=="jung" else torch.optim.Adam(model.parameters(),lr=c["learning_rate"],weight_decay=c["weight_decay"]))
     initial=ref.digest_parameters(model)
     states,history={},[]
     for epoch in range(1,c["epochs_by_method"][method]+1):
