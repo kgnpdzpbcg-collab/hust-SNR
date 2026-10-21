@@ -207,8 +207,16 @@ def evaluate(args,replay=False):
         raw,metadata=ref.data.target_dev_from_mat(snr,target_root(args,snr))
         if len(raw)!=88 or len(metadata)!=2474:raise ValueError("Dev队列改变")
         truth=np.asarray([r["label"] for r in metadata],dtype=np.int64)
+        common=None
+        if c.get("target_common_anchors",False):
+            from jung_hang_models_v5 import forward_two_cycle_indices
+            common=np.asarray([row[0] for row in forward_two_cycle_indices(metadata)],dtype=np.int64)
         for method in c["models"]:
             values,anchors=paper.build_inputs(method,metadata,raw,c)
+            if common is not None:
+                keep=np.isin(anchors,common)
+                values,anchors=values[keep],anchors[keep]
+                np.testing.assert_array_equal(anchors,common)
             method_truth=truth[anchors]
             for seed in c["seeds"]:
                 model,saved=models[method,seed];pred,_=predict(ref,model,values)
