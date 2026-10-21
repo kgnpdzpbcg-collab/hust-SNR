@@ -1,0 +1,7 @@
+{
+  "final_holdout_evaluated": false,
+  "model_parameters_and_bn_unchanged": true,
+  "source_validation_replays": 24,
+  "status": "passed",
+  "target_prediction_replays": 28
+}

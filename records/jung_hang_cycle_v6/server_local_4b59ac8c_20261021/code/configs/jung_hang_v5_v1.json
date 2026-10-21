@@ -1,0 +1,67 @@
+{
+  "protocol": "hust-cycle-v5-paper-guided-jung-hang",
+  "models": [
+    "jung",
+    "hang"
+  ],
+  "seeds": [
+    42,
+    44
+  ],
+  "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "epochs_by_method": {
+    "jung": 30,
+    "hang": 50
+  },
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0,
+  "jung_cycles": 2,
+  "jung_scale": "shared",
+  "jung_train_thdn_percent": [
+    3,
+    5,
+    7,
+    10
+  ],
+  "jung_limiter": "fault_quiet",
+  "jung_quiet_ratio": 0.03,
+  "hang_points": 128,
+  "hang_image_size": 40,
+  "hang_phase_angles_deg": [
+    0,
+    72,
+    144,
+    216,
+    288
+  ],
+  "hang_quiet_ratio": 0,
+  "hang_train_snr_db": [
+    15,
+    20
+  ],
+  "hang_training_view": "paired",
+  "val_noise_db": [
+    0,
+    5,
+    10,
+    20,
+    30
+  ],
+  "target_conditions_db": [
+    5,
+    4,
+    0,
+    -4,
+    -5,
+    -8,
+    -10
+  ],
+  "selection": "source-only; clean F1 within 1pp of max; maximize five-noise F1 then clean F1 then CE",
+  "fidelity_notes": "paper-informed adaptation; Jung real 3L-NPC switch limiter and fault-transient dataset unavailable; Hang uses 5-phase fundamental VSD as Clarke surrogate and must validate phase order",
+  "target_used_for_training_or_selection": false,
+  "final_holdout_evaluated": false,
+  "target_common_anchors": true
+}

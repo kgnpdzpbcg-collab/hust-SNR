@@ -1,0 +1,13 @@
+--- local_original/scripts/jung_hang_cycle_v6.py
++++ code/scripts/jung_hang_cycle_v6.py
+@@ -132,7 +132,9 @@
+             rng = np.random.default_rng(int.from_bytes(digest[:8], "little"))
+             level = snr
+ 
+-        if method == "jung":
++        # Jung只有训练视图使用THD+N；两模型的固定验证视图均按snr_db加AWGN。
++        # 否则0 dB会被误当成0% THD+N，得到未加噪数据并改变源域选模。
++        if method == "jung" and snr is None:
+             dc, _, _ = record_reference(time, currents, tuple(config["reference_window_s"]))
+             noisy = jung_thdn_augment(
+                 time, currents, omega, level, rng, dc=dc,

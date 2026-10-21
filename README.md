@@ -2,6 +2,8 @@
 
 HUST五相IM-AA数据的实验配置、指标记录、数据解析及波形图。
 
+- [本地Jung/Hang V6：42/44种子七档实测结果](docs/JUNG_HANG_CYCLE_V6_RESULTS.md)
+
 - [Jung/Hang V5：42/44种子及共同2298锚点七档实测结果](docs/JUNG_HANG_CYCLE_V5_RESULTS.md)
 
 - [Jung/Hang V4：默认双模型42/44种子、七档Dev及V2/V3/V4对照](docs/JUNG_HANG_CYCLE_V4_RESULTS.md)
@@ -104,3 +106,9 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 
 - [完整协议和逐种子结果](docs/JUNG_HANG_CYCLE_V5_RESULTS.md)
 - [完整归档](records/jung_hang_cycle_v5/server_164f1c7_20261021/SERVER_RESULTS.md) · [共同队列说明](records/jung_hang_cycle_v5/server_164f1c7_20261021/results/reports/COHORT_NOTICE.json) · [核验状态](records/jung_hang_cycle_v5/server_164f1c7_20261021/results/VERIFICATION.json)
+
+## 本地Jung/Hang V6（2026-10-21）
+
+用户本地V6快照单独归档，修复一处Jung固定验证噪声入口，保留网络及训练配置。两模型单周期输入，962/221源训练/验证窗口，42/44四组训练，七档实测各2474窗口。两模型使用记录级健康参考校准，覆盖38个源验证健康窗口；协议边界与逐种子结果在报告中列明。
+
+- [完整结果](docs/JUNG_HANG_CYCLE_V6_RESULTS.md) · [代码及原始快照](records/jung_hang_cycle_v6/server_local_4b59ac8c_20261021/SERVER_RESULTS.md) · [核验状态](records/jung_hang_cycle_v6/server_local_4b59ac8c_20261021/results/VERIFICATION.json)

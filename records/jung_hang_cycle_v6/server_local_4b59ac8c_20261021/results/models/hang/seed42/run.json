@@ -1,0 +1,154 @@
+{
+  "config": {
+    "batch_size": 32,
+    "epochs_by_method": {
+      "hang": 50,
+      "jung": 30
+    },
+    "fidelity_notes": "Jung: one-cycle 200-point window, THD over harmonics 2/3/4, THD+N=3%, blocked-phase limiter only for OLS/OP classes; each batch pairs clean and augmented views. Hang: scalar healthy-modulus normalization per record, dual VSD planes (fundamental + third harmonic) as the five-phase analogue of the three-phase Clarke plane, 40x40 raster, WCNN-5 with two Haar-LL pools, 15/20 dB paired augmentation. Neither is author-released code; the 3L-NPC switch topology and fault-transient dataset of Jung, and the three-phase Clarke plane of Hang, are not reproducible from the available data.",
+    "final_holdout_evaluated": false,
+    "hang_cycles": 1,
+    "hang_image_size": 40,
+    "hang_phase_angles_deg": [
+      0,
+      72,
+      144,
+      216,
+      288
+    ],
+    "hang_planes": "dual",
+    "hang_points": 128,
+    "hang_train_snr_db": [
+      15,
+      20
+    ],
+    "jung_cycles": 1,
+    "jung_harmonics": [
+      2,
+      3,
+      4
+    ],
+    "jung_limiter": "blocked_phase",
+    "jung_points_per_cycle": 200,
+    "jung_quiet_ratio": 0.03,
+    "jung_thdn_percent": 3,
+    "learning_rate": 0.001,
+    "models": [
+      "jung",
+      "hang"
+    ],
+    "protocol": "hust-cycle-v6-paper-faithful-jung-hang",
+    "reference_window_s": [
+      0.1,
+      0.45
+    ],
+    "seeds": [
+      42,
+      44
+    ],
+    "selection": "source-only; Clean F1 within 1pp of max; maximize five-noise mean F1 then Clean F1 then lowest noise mean CE then earliest epoch",
+    "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "source_train_cycles": 962,
+    "source_val_cycles": 221,
+    "target_conditions_db": [
+      5,
+      4,
+      0,
+      -4,
+      -5,
+      -8,
+      -10
+    ],
+    "target_records_expected": 88,
+    "target_used_for_training_or_selection": false,
+    "target_windows_expected": 2474,
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "weight_decay": 0
+  },
+  "final_holdout_evaluated": false,
+  "first_training_noise_sha256": "59ad8dac384bb040b0079163efca36137182c2a3dd019c93f4ac2252818555df",
+  "initial_parameters_sha256": "c2e9e4b5a3a5b90c76a9139efa230f3f9c7528a27de66de052cabf0522c8242d",
+  "method": "hang",
+  "parameters": 63330,
+  "protocol": "hust-cycle-v6-paper-faithful-jung-hang",
+  "seed": 42,
+  "selected": {
+    "clean_ce": 9.121305342949084e-06,
+    "clean_f1": 1.0,
+    "epoch": 37,
+    "noise_mean_ce": 0.4614215969424631,
+    "noise_mean_f1": 0.8689198187601004,
+    "noisy_ce": {
+      "0": 1.9588078977835124,
+      "10": 0.004506389479831333,
+      "20": 2.840512518547644e-06,
+      "30": 5.005686586023186e-06,
+      "5": 0.34378585124986744
+    },
+    "noisy_f1": {
+      "0": 0.5143234177351406,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0,
+      "5": 0.8302756760653618
+    },
+    "optimizer_steps": 31,
+    "sampling_order_sha256": "7898f1651d01450637200147244ba037b8f59ec3114b9c1abdf3395622038c9a",
+    "train_loss_mean": 6.199533858776821e-06,
+    "train_loss_sample_weighted": 5.877992999310346e-06,
+    "training_noise_sha256": "97ee31c94b5c0eb5b0f47ede6cc28640d70195b1b4a31e3b34d82a7c17825869"
+  },
+  "source_split": {
+    "manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "protocol": "hust-source-cycle-split-v2",
+    "sets": {
+      "gap": {
+        "class_counts": [
+          15,
+          13,
+          13,
+          13,
+          12,
+          12
+        ],
+        "records": 63,
+        "samples": 78
+      },
+      "train": {
+        "class_counts": [
+          146,
+          166,
+          166,
+          166,
+          157,
+          161
+        ],
+        "records": 63,
+        "samples": 962
+      },
+      "val": {
+        "class_counts": [
+          38,
+          37,
+          37,
+          37,
+          36,
+          36
+        ],
+        "records": 63,
+        "samples": 221
+      }
+    },
+    "source_records": 63,
+    "target_split_changed": false
+  },
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "target_used_for_training_or_selection": false
+}

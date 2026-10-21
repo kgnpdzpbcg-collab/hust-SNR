@@ -1,0 +1,14 @@
+{
+  "clean_target_counterpart_used": false,
+  "note": "record-level reference calibration is part of V6; reference can overlap held-out source-Val times and can include later samples relative to healthy test windows; this is not a strictly window-only preprocessing protocol.",
+  "reference_is_not_restricted_to_current_window": true,
+  "reference_window_s": [
+    0.1,
+    0.45
+  ],
+  "source_training_reference_estimates_use_full_record_healthy_segment": true,
+  "source_val_healthy_windows_overlapping_reference": 38,
+  "source_val_total_windows": 221,
+  "source_val_windows_overlapping_reference": 38,
+  "target_reference_estimates_use_same_condition_noisy_record": true
+}

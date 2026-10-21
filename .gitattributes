@@ -22,3 +22,9 @@ records/jung_hang_cycle_v4/server_a0c78d8_20261019/code/scripts/jung_hang_models
 records/jung_hang_cycle_v5/server_164f1c7_20261021/** whitespace=cr-at-eol
 records/jung_hang_cycle_v5/server_164f1c7_20261021/code/scripts/compare_jung_hang_v4.py whitespace=cr-at-eol,-blank-at-eol
 records/jung_hang_cycle_v5/server_164f1c7_20261021/code/scripts/jung_hang_models_v4.py whitespace=cr-at-eol,-blank-at-eol
+
+# V6服务器原始记录保留字节及CSV换行。
+records/jung_hang_cycle_v6/server_local_4b59ac8c_20261021/** whitespace=cr-at-eol
+records/jung_hang_cycle_v6/server_local_4b59ac8c_20261021/code/scripts/compare_jung_hang_v4.py whitespace=cr-at-eol,-blank-at-eol
+records/jung_hang_cycle_v6/server_local_4b59ac8c_20261021/code/scripts/jung_hang_models_v4.py whitespace=cr-at-eol,-blank-at-eol
+records/jung_hang_cycle_v6/server_local_4b59ac8c_20261021/VALIDATION_SNR_FIX.patch whitespace=cr-at-eol,-blank-at-eol

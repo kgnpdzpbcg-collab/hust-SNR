@@ -1,0 +1,25 @@
+{
+  "ALL_14_tables_status": "original concatenation; cohort IDs match 2474-window historical results, but V6 uses additional per-record healthy reference and overlapping source-Val reference data; not a matched-information protocol comparison",
+  "additional_observation_beyond_current_cycle": true,
+  "clean_measured_counterpart_used": false,
+  "historical_models_retrained": false,
+  "reference_window_s": [
+    0.1,
+    0.45
+  ],
+  "source_train_cycles": 962,
+  "source_val_cycles": 221,
+  "source_val_healthy_windows_in_reference": 38,
+  "strictly_train_only_fitted_preprocessing": false,
+  "target_class_counts": [
+    1106,
+    307,
+    297,
+    298,
+    237,
+    229
+  ],
+  "target_records": 88,
+  "target_reference_from_same_noisy_condition": true,
+  "target_windows": 2474
+}
