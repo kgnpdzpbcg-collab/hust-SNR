@@ -106,8 +106,19 @@ def predict(ref,model,x,y=None):
     return ref.predict(model,x,torch.device("cuda"),y)
 
 
+def select_jung_source_checkpoint(history):
+    """Use only clean source validation for paper-oriented Jung selection.
+
+    Maximize source clean F1, minimize clean CE on ties, then choose the
+    earliest epoch. THD+N level itself is fixed before training.
+    """
+    return max(history, key=lambda row: (
+        row["clean_f1"], -row["clean_ce"], -row["epoch"]
+    ))
+
+
 def train(args):
-    """Train V5 paper-oriented adaptations on simulation source only."""
+    """Train paper-oriented adaptations on simulation source only."""
     import numpy as np
     import torch
     from torch.nn import functional as F
@@ -119,6 +130,17 @@ def train(args):
     if folder.exists():raise FileExistsError(folder)
     ref.fix_randomness(seed)
     model=paper.get_model(method,c).cuda()
+    # Jung paper reports separately trained fixed-THD+N augmented datasets.
+    # Cache its one augmented copy: no silent per-epoch re-drawing.
+    cached_noisy = cached_hash = None
+    if method == "jung":
+        if len(c["jung_train_thdn_percent"]) != 1:
+            raise ValueError("Jung paper-like training requires ONE THD+N target per run")
+        augmented = noise_records(ref,raw,seed,0,method=method,meta=tm,config=c)
+        cached_hash = hashlib.sha256(ref.data.raw_cycles(augmented,tm).tobytes()).hexdigest()
+        cached_noisy,cached_anchors=paper.build_inputs(method,tm,augmented,c)
+        if len(cached_noisy)!=len(y):
+            raise ValueError("Jung augmented input count differs from source labels")
     from jung_hang_optim_v5 import AdaMod
     optimizer=(AdaMod(model.parameters(),lr=c["learning_rate"],weight_decay=c["weight_decay"]) if method=="jung" else torch.optim.Adam(model.parameters(),lr=c["learning_rate"],weight_decay=c["weight_decay"]))
     initial=ref.digest_parameters(model)
@@ -126,10 +148,12 @@ def train(args):
     for epoch in range(1,c["epochs_by_method"][method]+1):
         input_hash=None
         noisy=None
-        if method=="jung" or (method=="hang" and c["hang_training_view"]=="paired"):
+        if method=="jung":
+            noisy,input_hash=cached_noisy,cached_hash
+        elif method=="hang" and c["hang_training_view"]=="paired":
             modified=noise_records(ref,raw,seed,epoch,method=method,meta=tm,config=c)
             input_hash=hashlib.sha256(ref.data.raw_cycles(modified,tm).tobytes()).hexdigest()
-            noisy, noisy_anchor=paper.build_inputs(method,tm,modified,c)
+            noisy,noisy_anchor=paper.build_inputs(method,tm,modified,c)
             if len(noisy)!=len(y):raise ValueError("input and label counts differ")
         order=np.random.default_rng(seed+901+epoch).permutation(len(y))
         model.train();losses=[];weighted=0.0
@@ -167,7 +191,7 @@ def train(args):
         history.append(row);states[epoch]=ref.snapshot(model)
         if epoch==1 or epoch%10==0:
             print(f"{method} seed{seed} epoch{epoch}/{c['epochs_by_method'][method]} loss={row['train_loss_mean']:.6f} sourceF1={row['noise_mean_f1']:.6f}",flush=True)
-    chosen=ref.select_source_checkpoint(history)
+    chosen=select_jung_source_checkpoint(history) if method=="jung" else ref.select_source_checkpoint(history)
     folder.mkdir(parents=True)
     common={"method":method,"seed":seed,"protocol":c["protocol"],"config":c,
         "source_split":provenance,"selected":chosen,"target_used_for_training_or_selection":False,
@@ -245,7 +269,7 @@ def evaluate(args,replay=False):
             _,_,_,_,_,_,_,_,vy,val=source_data(args,method)
             for seed in c["seeds"]:
                 model,saved=models[method,seed];history=read(args.output/f"models/{method}/seed{seed}/history.json")
-                chosen=ref.select_source_checkpoint(history)
+                chosen=select_jung_source_checkpoint(history) if method=="jung" else ref.select_source_checkpoint(history)
                 if chosen!=saved["selected"]:raise ValueError("原best轮次不符")
                 for name,x in val.items():
                     pred,ce=predict(ref,model,x,vy)
