@@ -1,0 +1,150 @@
+{
+  "config": {
+    "batch_size": 32,
+    "epochs_by_method": {
+      "hang": 50,
+      "jung": 30
+    },
+    "fidelity_notes": "paper-informed adaptation; Jung real 3L-NPC switch limiter and fault-transient dataset unavailable; Hang uses 5-phase fundamental VSD as Clarke surrogate and must validate phase order",
+    "final_holdout_evaluated": false,
+    "hang_image_size": 40,
+    "hang_phase_angles_deg": [
+      0,
+      72,
+      144,
+      216,
+      288
+    ],
+    "hang_points": 128,
+    "hang_quiet_ratio": 0,
+    "hang_train_snr_db": [
+      15,
+      20
+    ],
+    "hang_training_view": "paired",
+    "jung_cycles": 2,
+    "jung_limiter": "fault_quiet",
+    "jung_quiet_ratio": 0.03,
+    "jung_scale": "shared",
+    "jung_train_thdn_percent": [
+      3,
+      5,
+      7,
+      10
+    ],
+    "learning_rate": 0.001,
+    "models": [
+      "jung",
+      "hang"
+    ],
+    "protocol": "hust-cycle-v5-paper-guided-jung-hang",
+    "seeds": [
+      42,
+      44
+    ],
+    "selection": "source-only; clean F1 within 1pp of max; maximize five-noise F1 then clean F1 then CE",
+    "source_split_manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "source_train_cycles": 962,
+    "source_val_cycles": 221,
+    "target_common_anchors": true,
+    "target_conditions_db": [
+      5,
+      4,
+      0,
+      -4,
+      -5,
+      -8,
+      -10
+    ],
+    "target_used_for_training_or_selection": false,
+    "val_noise_db": [
+      0,
+      5,
+      10,
+      20,
+      30
+    ],
+    "weight_decay": 0
+  },
+  "final_holdout_evaluated": false,
+  "first_training_noise_sha256": "118eea701a237a9c53ff17c2d217253dfc547da26bf4c2d5c1a4a41a2053e2e4",
+  "initial_parameters_sha256": "09d39c9f0e09b2436405d366978041e53a072f978703ea9ed84988e0d26bc60b",
+  "method": "jung",
+  "parameters": 7110,
+  "protocol": "hust-cycle-v5-paper-guided-jung-hang",
+  "seed": 42,
+  "selected": {
+    "clean_ce": 0.38761324315637974,
+    "clean_f1": 1.0,
+    "epoch": 10,
+    "noise_mean_ce": 0.854485935264534,
+    "noise_mean_f1": 0.9087542119679096,
+    "noisy_ce": {
+      "0": 1.4489884009728065,
+      "10": 0.7937960858111615,
+      "20": 0.48577097579315826,
+      "30": 0.411505299014645,
+      "5": 1.132368914730899
+    },
+    "noisy_f1": {
+      "0": 0.6554675587700892,
+      "10": 1.0,
+      "20": 1.0,
+      "30": 1.0,
+      "5": 0.8883035010694584
+    },
+    "optimizer_steps": 28,
+    "raw_training_noise_sha256": "bb4ef4c2818149f9d32af1dd60afc7e03dd881e4f75ec8b9627b7f15d9c0f385",
+    "sampling_order_sha256": "d4d75cdab379f814c522fb494f55e4da138bb3abeee32767d4147240988f970c",
+    "train_loss_mean": 0.4854748972824642,
+    "train_loss_sample_weighted": 0.48568793038976676
+  },
+  "source_split": {
+    "manifest_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+    "protocol": "hust-source-cycle-split-v2",
+    "sets": {
+      "gap": {
+        "class_counts": [
+          15,
+          13,
+          13,
+          13,
+          12,
+          12
+        ],
+        "records": 63,
+        "samples": 78
+      },
+      "train": {
+        "class_counts": [
+          146,
+          166,
+          166,
+          166,
+          157,
+          161
+        ],
+        "records": 63,
+        "samples": 962
+      },
+      "val": {
+        "class_counts": [
+          38,
+          37,
+          37,
+          37,
+          36,
+          36
+        ],
+        "records": 63,
+        "samples": 221
+      }
+    },
+    "source_records": 63,
+    "target_split_changed": false
+  },
+  "source_train_cycles": 884,
+  "source_val_cycles": 143,
+  "target_used_for_training_or_selection": false,
+  "training_view": "paired_thdn"
+}

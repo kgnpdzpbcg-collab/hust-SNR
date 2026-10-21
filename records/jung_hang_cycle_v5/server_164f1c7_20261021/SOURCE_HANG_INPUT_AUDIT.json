@@ -1,0 +1,649 @@
+{
+  "source_train_samples": 962,
+  "all_unique_input_hashes": 533,
+  "cross_label_identical_input_hashes": 41,
+  "samples_in_cross_label_identical_input_groups": 135,
+  "affected_sample_counts_by_class": {
+    "0": 22,
+    "2": 31,
+    "1": 36,
+    "3": 45,
+    "5": 1
+  },
+  "cross_label_groups": [
+    {
+      "sha256": "22b6ea66a4de45eee238775b01a48f19c5d70dd882199a373ff53a85bd3ce88a",
+      "sample_indices": [
+        0,
+        1,
+        98,
+        99,
+        339,
+        340,
+        341,
+        342,
+        396,
+        397
+      ],
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "sha256": "f73fd9cfd6c9a6df740a9c8d46f522bda49dd20274ab77cd631db2ffab220c55",
+      "sample_indices": [
+        3,
+        4,
+        5,
+        6,
+        101,
+        102,
+        103,
+        104,
+        326
+      ],
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "sha256": "208636bc43993b388b272b333fe0f1e4183bb9cdf3842719a4976ba1623068fa",
+      "sample_indices": [
+        7,
+        30
+      ],
+      "labels": [
+        0,
+        2
+      ]
+    },
+    {
+      "sha256": "254c258cff6aa8112cae67d8a3cb8a57851ac2befedd98ec652e852e3261bcdb",
+      "sample_indices": [
+        8,
+        9,
+        10,
+        11,
+        31,
+        32,
+        33,
+        34
+      ],
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "sha256": "aaf427634ec1fcf916ddfef9e70baa168b6147c1cc1db7ec0aed2e59a5ff45c6",
+      "sample_indices": [
+        46,
+        160
+      ],
+      "labels": [
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "240780f8b8b1611526217d7507442c1cd2221a08373253d1bee88ce9e1e6593b",
+      "sample_indices": [
+        211,
+        212,
+        213,
+        214,
+        724,
+        725,
+        726
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "sha256": "bd26887efc1d15b0c8e9efc3d03504f6f2a4652f5c33d2dedc4d90b2e6604f73",
+      "sample_indices": [
+        255,
+        256,
+        257,
+        258,
+        259,
+        736,
+        737,
+        738,
+        835,
+        836,
+        837
+      ],
+      "labels": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "sha256": "5ad83d65db675587e022b1f88d13f0fb0b64cf5e5b1b37f97ff7bff002f1ed76",
+      "sample_indices": [
+        321,
+        322,
+        323,
+        324,
+        357,
+        358,
+        359,
+        360,
+        921,
+        922,
+        923
+      ],
+      "labels": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "sha256": "5eae35fc1fca540a796735343224fdc7475b8316481d3e9d7be22ae2f428b415",
+      "sample_indices": [
+        325,
+        343
+      ],
+      "labels": [
+        1,
+        2
+      ]
+    },
+    {
+      "sha256": "2ebc51606494280773445e64e322b410a3abf72fca2e4864db9be6d8003f5968",
+      "sample_indices": [
+        344,
+        925,
+        926,
+        927
+      ],
+      "labels": [
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "sha256": "1fd0e9210b2e979fcc9c7f0d2b8853e0531509b20ab1b33664e2c7aac990e18f",
+      "sample_indices": [
+        400,
+        405,
+        410
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "d9505359bcb4caf21a5f0c01b8025bbcc1fb3e4926e427727d8d1281385035b8",
+      "sample_indices": [
+        401,
+        406,
+        411
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "fb596a1a9b89f2c4e7f2a713ac57558b2666708e4815f3662029ddf0a67c4076",
+      "sample_indices": [
+        403,
+        413
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "d6ef70ebbcbc379f6656e7f4c3102b9067be883f98ffd6884a3c5fa8bcbb6f68",
+      "sample_indices": [
+        404,
+        409
+      ],
+      "labels": [
+        1,
+        2
+      ]
+    },
+    {
+      "sha256": "f551e9e593147f2c8c10cdf936b7cfddfd3826d68f27f5313a646b9060f6654c",
+      "sample_indices": [
+        407,
+        412
+      ],
+      "labels": [
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "d514eb2fb8885e0fe4e705c399a0ca434dddf320c55e447bef3c8910f2872fa7",
+      "sample_indices": [
+        423,
+        441
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "e754fa65eae59f0762124ea11358d5c9d3c08871e18fb4b893c4afa25d330e1e",
+      "sample_indices": [
+        424,
+        442
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "420019a28687350b13f5fd65aced78d07ffe6787a67cbcb3a365aacf68ec2901",
+      "sample_indices": [
+        426,
+        435,
+        444
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "15ac5e39570d2edbd9b55822827f4a747bdda80f40729661267dceebc260e071",
+      "sample_indices": [
+        427,
+        436,
+        445
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "9f1e14e116d9d4920d096f3cc73d26a8453a297705cadfcd2e8f2053a7627a59",
+      "sample_indices": [
+        429,
+        438,
+        447
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "3d2b2c76f798663b8c6f42df3c0a3e11e73a2c2adbd1e7f98cecf35fea0df35d",
+      "sample_indices": [
+        430,
+        439,
+        448
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "fa45b2610d66f7a6f855f87df9559ec678d61c470c8b1281f4778d5ea50965b8",
+      "sample_indices": [
+        490,
+        499
+      ],
+      "labels": [
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "57c39831227af9cf802d9eb923959be325d24b148e9e0bafe52f2881e62dd3ed",
+      "sample_indices": [
+        491,
+        500
+      ],
+      "labels": [
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "fbeca5c6cc533df0ce4e60c1b1b1e8064cefa907a11af9ae32571cad1ac8717f",
+      "sample_indices": [
+        536,
+        556
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "5a24a88789d0d9c03379282ef8a4c3b3b8d14b8aa2867dd564368458c9dde56e",
+      "sample_indices": [
+        537,
+        557
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "82d52f488d705a6253e9b9f5e53b746754b643135240197a681488cfa87cf5ec",
+      "sample_indices": [
+        539,
+        559
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "26af98e66cf09e2a4beffb303529dcb685be0e13de49ca64ec195f6507d99612",
+      "sample_indices": [
+        542,
+        562
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "76aedf3e7de5460f941f14f385169f6b3957a507e03439b5ab59cea1dea52b15",
+      "sample_indices": [
+        548,
+        558
+      ],
+      "labels": [
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "62a9c4df232862654a0baaa03b01d888160573ebead5c5be86d3607a86709695",
+      "sample_indices": [
+        595,
+        605
+      ],
+      "labels": [
+        1,
+        2
+      ]
+    },
+    {
+      "sha256": "bcfa70405c658b359b2df2b5b8eef294efd43e8338757ca7d9e489cb31424a90",
+      "sample_indices": [
+        598,
+        618
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "88806216e74f3701bafa1421e3da203dc96d2c634ab276992d3130543c041449",
+      "sample_indices": [
+        603,
+        613
+      ],
+      "labels": [
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "787a4d8c46b7a3920a70d6cdfbad6fa1caed50ad3c4ea08a018dc4440a86db06",
+      "sample_indices": [
+        604,
+        614
+      ],
+      "labels": [
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "2fed31599af78cf033f4a435ab069b2973d7f68a4d81231d787f55532c633fa8",
+      "sample_indices": [
+        607,
+        617
+      ],
+      "labels": [
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "a80ccc110fcf6234bd4233cad06476dd9e22577f7f560706f1551afef5faeccd",
+      "sample_indices": [
+        652,
+        665,
+        678
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "sha256": "1bf8095f3d37871f3fca267dc25464a1d500334d38898a78460a322d8d7a0ec3",
+      "sample_indices": [
+        654,
+        667
+      ],
+      "labels": [
+        1,
+        2
+      ]
+    },
+    {
+      "sha256": "f7e58f79f02b5e0f9cd6710af5dce0f2398008447684843032ddfe43e806b29a",
+      "sample_indices": [
+        659,
+        672
+      ],
+      "labels": [
+        1,
+        2
+      ]
+    },
+    {
+      "sha256": "68d9f1ad8a88856d9fe7e4b1c516af4bc8a4b9e012a481413af2410bfe10b03a",
+      "sample_indices": [
+        661,
+        687
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "d77a2de5452a407a0b584daa6402a1960a71efaf909867303626fd60dd02ac95",
+      "sample_indices": [
+        663,
+        676
+      ],
+      "labels": [
+        1,
+        2
+      ]
+    },
+    {
+      "sha256": "d00b38c73e939664717a1b8c19a70072f7652833d79378709c9039540dd55c10",
+      "sample_indices": [
+        664,
+        690
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "sha256": "cbac36d7e34d34ed22ba1be7638c6fd19bdf7f0adb6a1fd9abeb7c67c4e1472d",
+      "sample_indices": [
+        680,
+        706
+      ],
+      "labels": [
+        3,
+        5
+      ]
+    },
+    {
+      "sha256": "11ad4364c30aae94ebb18d2f6632eca89b0b99f4c9ea69834c91854f7a8deee8",
+      "sample_indices": [
+        892,
+        920
+      ],
+      "labels": [
+        1,
+        3
+      ]
+    }
+  ],
+  "plot_layout": "columns0..5 are labels0..5; first row first training sample per class; second row class mean image",
+  "fixed_examples": [
+    {
+      "label": 0,
+      "index": 0,
+      "metadata": {
+        "cycle_index": 0,
+        "end": 0.1199983718127769,
+        "label": 0,
+        "record_id": "S-1000-0-1-O",
+        "start": 0.1,
+        "state": 0
+      }
+    },
+    {
+      "label": 1,
+      "index": 13,
+      "metadata": {
+        "cycle_index": 0,
+        "end": 0.5599951455594235,
+        "label": 1,
+        "record_id": "S-1000-0-1-O",
+        "start": 0.5399967683667602,
+        "state": 1
+      }
+    },
+    {
+      "label": 2,
+      "index": 30,
+      "metadata": {
+        "cycle_index": 0,
+        "end": 0.5599951053199793,
+        "label": 2,
+        "record_id": "S-1000-0-2-O",
+        "start": 0.5399967341487456,
+        "state": 1
+      }
+    },
+    {
+      "label": 3,
+      "index": 47,
+      "metadata": {
+        "cycle_index": 0,
+        "end": 0.5599949646267841,
+        "label": 3,
+        "record_id": "S-1000-0-3-O",
+        "start": 0.5399966235849265,
+        "state": 1
+      }
+    },
+    {
+      "label": 4,
+      "index": 64,
+      "metadata": {
+        "cycle_index": 0,
+        "end": 0.5599951138148007,
+        "label": 4,
+        "record_id": "S-1000-0-4-O",
+        "start": 0.5399967757085888,
+        "state": 1
+      }
+    },
+    {
+      "label": 5,
+      "index": 81,
+      "metadata": {
+        "cycle_index": 0,
+        "end": 0.5599949260686414,
+        "label": 5,
+        "record_id": "S-1000-0-5-O",
+        "start": 0.5399965929587923,
+        "state": 1
+      }
+    }
+  ],
+  "no_target_waveforms_read": true,
+  "algorithm_or_configuration_modified": false
+}

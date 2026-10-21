@@ -1,0 +1,17 @@
+{
+  "common_v5_anchors_verified_for_all_prediction_sets": true,
+  "hang_support": "anchor current cycle only; restricted to Jung-compatible anchor IDs",
+  "historical_models_retrained_or_reevaluated": false,
+  "historical_windows_per_condition": 2474,
+  "jung_support": "anchor current cycle + next contiguous same-record same-label cycle",
+  "upstream_ALL_14_tables_status": "unchanged raw concatenation of historical twelve-model results and V5; different cohorts; not a matched-cohort comparison",
+  "v5_class_counts": [
+    1018,
+    289,
+    279,
+    280,
+    220,
+    212
+  ],
+  "v5_windows_per_condition": 2298
+}

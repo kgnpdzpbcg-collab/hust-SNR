@@ -1,0 +1,13 @@
+{
+  "code_files_verified": 56,
+  "historical_cohort_notice_written": true,
+  "new_weights_hashed": 8,
+  "optimizer_steps": 4780,
+  "original_target_cycles": 2474,
+  "prediction_sets_with_common_anchors_verified": 28,
+  "protected_files_unchanged": 1608,
+  "status": "passed",
+  "training_epochs": 160,
+  "upstream_code_or_config_changed": false,
+  "v5_target_windows": 2298
+}

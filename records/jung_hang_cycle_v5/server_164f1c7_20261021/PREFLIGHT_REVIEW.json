@@ -1,0 +1,17 @@
+{
+  "status": "accepted_for_frozen_configuration_run",
+  "source_signal_phase_order_supported": true,
+  "source_fit_max_angle_error_deg": 0.01106620518589807,
+  "physical_hardware_wiring_independently_verified": false,
+  "original_paper_audit_flag_left_unchanged": false,
+  "thdn_nonzero_injection_fraction_by_target_percent": {
+    "10": 1.0,
+    "3": 0.6349206349206349,
+    "5": 0.9047619047619048,
+    "7": 0.9365079365079365
+  },
+  "partial_zero_injection_disclosed": true,
+  "algorithm_or_config_changed": false,
+  "target_waveforms_used_for_this_review": false,
+  "note": "THD+N is based on the implemented healthy-reference FFT estimate, not an independently certified physical THD measurement."
+}

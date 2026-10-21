@@ -1,0 +1,7 @@
+hang seed42 epoch1/50 loss=2.246035 sourceF1=0.056591
+hang seed42 epoch10/50 loss=1.753800 sourceF1=0.084990
+hang seed42 epoch20/50 loss=1.612898 sourceF1=0.072120
+hang seed42 epoch30/50 loss=1.493355 sourceF1=0.083550
+hang seed42 epoch40/50 loss=1.374398 sourceF1=0.097659
+hang seed42 epoch50/50 loss=1.349695 sourceF1=0.103670
+train finished in 76.678s

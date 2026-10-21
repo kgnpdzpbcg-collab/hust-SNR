@@ -1,0 +1,24 @@
+{
+  "hang_phase_angles_deg": [
+    0,
+    72,
+    144,
+    216,
+    288
+  ],
+  "healthy_vsd_records": 15,
+  "healthy_vsd_third_to_fundamental_rms_median": 0.00010163447797234924,
+  "native_thd_max": 0.0811198472614395,
+  "native_thd_median": 0.021049702312001733,
+  "native_thd_min": 0.00023603618701710012,
+  "native_thd_reference": "source recording 0.10..0.45 s healthy interval",
+  "native_thd_samples": 315,
+  "phase_order_physically_verified": false,
+  "thdn_failed_records": [],
+  "thdn_nonzero_injection_fraction_by_target_percent": {
+    "10": 1.0,
+    "3": 0.6349206349206349,
+    "5": 0.9047619047619048,
+    "7": 0.9365079365079365
+  }
+}

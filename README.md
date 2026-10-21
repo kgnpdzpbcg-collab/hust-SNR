@@ -2,6 +2,8 @@
 
 HUST五相IM-AA数据的实验配置、指标记录、数据解析及波形图。
 
+- [Jung/Hang V5：42/44种子及共同2298锚点七档实测结果](docs/JUNG_HANG_CYCLE_V5_RESULTS.md)
+
 - [Jung/Hang V4：默认双模型42/44种子、七档Dev及V2/V3/V4对照](docs/JUNG_HANG_CYCLE_V4_RESULTS.md)
 
 - [Jung/Hang V3：42/44种子、七档Dev及V2/V3比较](docs/JUNG_HANG_CYCLE_V3_RESULTS.md)
@@ -95,3 +97,10 @@ Macro-F1（%，种子42/43/44的均值 ± 样本标准差）。
 
 - [完整协议、逐种子指标及版本对照](docs/JUNG_HANG_CYCLE_V4_RESULTS.md)
 - [完整归档](records/jung_hang_cycle_v4/server_a0c78d8_20261019/SERVER_RESULTS.md) · [核验状态](records/jung_hang_cycle_v4/server_a0c78d8_20261019/results/VERIFICATION.json)
+
+## Jung/Hang V5复现实验（2026-10-21）
+
+保持V5代码与冻结配置。Jung连续两周期5×256输入、THD+N增强、AdaMod训练30轮；Hang单平面1×40×40轨迹、逐时刻归一化、15/20 dB配对训练50轮。种子42/44，仿真训练及源域选模。两模型实测七档使用共同2298周期锚点，保留全部预测、训练历史和源输入检查。
+
+- [完整协议和逐种子结果](docs/JUNG_HANG_CYCLE_V5_RESULTS.md)
+- [完整归档](records/jung_hang_cycle_v5/server_164f1c7_20261021/SERVER_RESULTS.md) · [共同队列说明](records/jung_hang_cycle_v5/server_164f1c7_20261021/results/reports/COHORT_NOTICE.json) · [核验状态](records/jung_hang_cycle_v5/server_164f1c7_20261021/results/VERIFICATION.json)

@@ -1,0 +1,5 @@
+READY jung source_train=884 input_shape=[884, 5, 256] source_val=143 val_shape=[143, 5, 256]
+READY hang source_train=962 input_shape=[962, 1, 40, 40] source_val=221 val_shape=[221, 1, 40, 40]
+SOURCE PAPER-ASSUMPTION AUDIT {'native_thd_reference': 'source recording 0.10..0.45 s healthy interval', 'native_thd_samples': 315, 'native_thd_min': 0.00023603618701710012, 'native_thd_median': 0.021049702312001733, 'native_thd_max': 0.0811198472614395, 'thdn_nonzero_injection_fraction_by_target_percent': {'3': 0.6349206349206349, '5': 0.9047619047619048, '7': 0.9365079365079365, '10': 1.0}, 'thdn_failed_records': [], 'healthy_vsd_records': 15, 'healthy_vsd_third_to_fundamental_rms_median': 0.00010163447797234924, 'hang_phase_angles_deg': [0, 72, 144, 216, 288], 'phase_order_physically_verified': False}
+SMOKE {'jung': (2, 6), 'hang': (2, 6)}
+preflight finished in 4.311s

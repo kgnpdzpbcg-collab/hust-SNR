@@ -1,6 +1,6 @@
 # Jung / Hang 高保真复现 V5：论文依据、实现差异与运行条件
 
-> 代码已提交到独立分支 `research/jung-hang-paper-fidelity-v5`。本文件是**五相任务的论文机制导向复现**，不是作者官方源码，也不是已完成的真实数据训练报告。V2/V3/V4 权重与历史预测保持不变。
+> 2026-10-21已完成默认V5服务器源预检、四组训练、28组七档Dev评价及回放，见[V5客观结果](JUNG_HANG_CYCLE_V5_RESULTS.md)。本文件仍为论文机制及五相适配说明，不是作者官方源码。历史V2/V3/V4权重与预测保持不变。
 
 ## 1. 一手材料及文中位置
 
@@ -39,7 +39,7 @@
 - Jung / Hang 采用各自原论文重点机制及训练策略；不同架构不强制相同 epoch、优化器或噪声方式。
 - 统一比较仅在相同 **Target-Dev 原始周期锚点**上计算指标。Jung 是锚点当前周期 + 下一完整周期，Hang 是锚点当前周期的图像。输出保存 `original_cycle_anchors` 和真实评价 `windows` 数量，**不再默认所有模型都是 2474 个周期**。
 - Dev 用于复现检查，不用于 checkpoint 选择或按目标分数调参数；未读取 347 条 Final-Holdout。
-- **尚未在 GPU 服务器跑 V5 的 source preflight、训练或 target evaluation。** Github Actions 的 CPU 测试只证明合成数据执行与基本不变量，并不证明真实输入正确或诊断性能已经改善。
+- **已完成V5 source preflight、源域训练和共同2298锚点的Target-Dev测试，结果见独立记录。** Github Actions 的 CPU 测试只证明合成数据执行与基本不变量，并不证明真实输入正确或诊断性能已经改善。
 
 ## 5. 代码与推荐执行顺序
 
