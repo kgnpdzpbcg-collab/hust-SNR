@@ -322,6 +322,10 @@ def main():
             conf,ref,paper,prov,raw,metadata,y,clean,vy,val=source_data(args,method)
             print(f"READY {method} source_train={len(y)} input_shape={list(clean.shape)} "
                   f"source_val={len(vy)} val_shape={list(val['clean'].shape)}",flush=True)
+        from jung_hang_v5_audit import audit_source
+        audit = audit_source(raw, metadata, conf)
+        write(args.output/"PREFLIGHT_PAPER_AUDIT.json",audit)
+        print("SOURCE PAPER-ASSUMPTION AUDIT",audit,flush=True)
         print("SMOKE",paper.smoke(conf),flush=True)
     elif args.stage=="train":
         if args.method is None or args.seed is None:parser.error("训练必须指定模型和种子")
