@@ -40,13 +40,13 @@ def forward_two_cycle_indices(meta: list[dict], tolerance: float = 0.05):
     windows = []
     for group in groups.values():
         group.sort(key=lambda pair: pair[1]["start"])
-        for (_, a), (_, b) in zip(group[:-1], group[1:]):
+        for (anchor_index, a), (_, b) in zip(group[:-1], group[1:]):
             width_a = float(a["end"] - a["start"])
             width_b = float(b["end"] - b["start"])
             if min(width_a, width_b) <= 0:
                 raise ValueError("nonpositive electrical period")
             if abs(a["end"] - b["start"]) <= tolerance * max(width_a, width_b):
-                windows.append((int(_), float(a["start"]), float(b["end"])))
+                windows.append((int(anchor_index), float(a["start"]), float(b["end"])))
     windows.sort(key=lambda q: q[0])
     if not windows:
         raise ValueError("no valid contiguous two-cycle windows in this split")
