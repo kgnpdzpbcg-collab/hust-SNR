@@ -62,5 +62,6 @@
   "selection": "source-only; clean F1 within 1pp of max; maximize five-noise F1 then clean F1 then CE",
   "fidelity_notes": "paper-informed adaptation; Jung real 3L-NPC switch limiter and fault-transient dataset unavailable; Hang uses 5-phase fundamental VSD as Clarke surrogate and must validate phase order",
   "target_used_for_training_or_selection": false,
-  "final_holdout_evaluated": false
+  "final_holdout_evaluated": false,
+  "target_common_anchors": true
 }
