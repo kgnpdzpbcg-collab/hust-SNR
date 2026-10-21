@@ -5,7 +5,7 @@ import torch
 from torch import nn
 from jung_hang_models_v5 import (
     JungModifiedCNN, HangWCNN, forward_two_cycle_indices,
-    jung_window, hang_trajectory,
+    jung_window, hang_trajectory, hang_trajectory_reference_scaled,
 )
 
 NUM_CLASSES = 6
@@ -30,12 +30,22 @@ def build_inputs(method: str, meta: list[dict], raw: dict, config: dict):
         if method == "jung":
             value = jung_window(time, currents, start, end, points=256)
         else:
-            value = hang_trajectory(
-                time, currents, start, end, points=config["hang_points"],
-                size=config["hang_image_size"],
-                phase_angles_deg=tuple(config["hang_phase_angles_deg"]),
-                quiet_ratio=config["hang_quiet_ratio"],
-            )
+            mode = config.get("hang_normalization_mode", "pointwise_eq6")
+            if mode not in ("pointwise_eq6", "reference_radius_figures"):
+                raise ValueError("Unsupported Hang normalization: " + str(mode))
+            if mode == "pointwise_eq6":
+                value = hang_trajectory(
+                    time, currents, start, end, points=config["hang_points"],
+                    size=config["hang_image_size"],
+                    phase_angles_deg=tuple(config["hang_phase_angles_deg"]),
+                    quiet_ratio=config["hang_quiet_ratio"],
+                )
+            else:
+                value = hang_trajectory_reference_scaled(
+                    time, currents, start, end, points=config["hang_points"],
+                    size=config["hang_image_size"],
+                    phase_angles_deg=tuple(config["hang_phase_angles_deg"]),
+                )
         values.append(value)
     array = np.stack(values).astype(np.float32)
     indices = np.asarray([w[0] for w in windows], dtype=np.int64)
