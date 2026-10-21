@@ -1,7 +1,0 @@
-hang seed42 epoch1/50 loss=0.187654 noiseF1=0.764285
-hang seed42 epoch10/50 loss=0.000042 noiseF1=0.859415
-hang seed42 epoch20/50 loss=0.000017 noiseF1=0.857917
-hang seed42 epoch30/50 loss=0.000009 noiseF1=0.859965
-hang seed42 epoch40/50 loss=0.000006 noiseF1=0.860626
-hang seed42 epoch50/50 loss=0.000007 noiseF1=0.858761
-train finished in 110.077s

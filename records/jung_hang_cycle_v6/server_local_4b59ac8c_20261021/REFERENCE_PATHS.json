@@ -1,7 +1,0 @@
-{
-  "additional_root": "/home/wang/projects/会议论文/hust/experiments/additional_snr_seed42_44/20261015_snr4_m4_m8",
-  "previous_output": "/home/wang/projects/会议论文/hust/experiments/baseline_four_snr_completion/20261016/output",
-  "reference_reader_commit": "4728e9b82c4c181564f0247aa4b1028a35a8e8d2",
-  "reference_root": "/home/wang/projects/会议论文/hust/experiments/source_cycle_benchmark/4728e9b",
-  "source_root": "/home/wang/projects/会议论文/hust/datasets/source_cycle_split_v2"
-}

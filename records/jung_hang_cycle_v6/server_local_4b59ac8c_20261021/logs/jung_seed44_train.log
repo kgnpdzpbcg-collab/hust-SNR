@@ -1,5 +1,0 @@
-jung seed44 epoch1/30 loss=1.794311 noiseF1=0.101637
-jung seed44 epoch10/30 loss=0.467614 noiseF1=0.874262
-jung seed44 epoch20/30 loss=0.132341 noiseF1=0.873355
-jung seed44 epoch30/30 loss=0.055261 noiseF1=0.869957
-train finished in 18.099s
