@@ -26,7 +26,7 @@ def five_phase_record(f0=20.0, duration=1.0, fs=10000):
 
 def config():
     return {"hang_points":128,"hang_image_size":40,
-            "hang_phase_angles_deg":[0,72,144,216,288],"hang_quiet_ratio":0.03}
+            "hang_phase_angles_deg":[0,72,144,216,288],"hang_quiet_ratio":0.0}
 
 
 def test_forward_pair_strict_one_cycle_stride():
@@ -129,3 +129,15 @@ def test_model_cpu_backprop(method):
     y.square().mean().backward()
     assert any(p.grad is not None and torch.isfinite(p.grad).all()
                for p in model.parameters())
+
+def test_source_only_preflight_audit():
+    from jung_hang_v5_audit import audit_source
+    t,c,w = five_phase_record()
+    meta = [dict(record_id="A",label=0,start=0.2,end=0.25)]
+    settings = dict(jung_train_thdn_percent=[3,5,7,10],
+                    hang_phase_angles_deg=[0,72,144,216,288])
+    result=audit_source({"A":(t,c,w)},meta,settings)
+    assert result["native_thd_samples"]==5
+    assert result["healthy_vsd_records"]==1
+    assert result["native_thd_median"] < 0.025
+    assert result["healthy_vsd_third_to_fundamental_rms_median"] < 0.1
