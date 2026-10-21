@@ -20,9 +20,9 @@ from jung_hang_models_v3 import (
 )
 
 # Labels are the HUST five-phase classes, not the 3L-NPC switch numbers.
-FAULT_PHASES = {
-    0: (), 1: (0,), 2: (0,), 3: (0,), 4: (0, 1), 5: (0, 2),
-}
+# Only full open-phase faults have a clear near-zero-current analogue here.
+# OUS/OLS are NOT the inner-switch faults of Jung's three-level NPC circuit.
+FAULT_PHASES = {0: (), 1: (), 2: (), 3: (0,), 4: (), 5: (2,)}
 
 
 def forward_two_cycle_indices(meta: list[dict], tolerance: float = 0.05):
@@ -57,12 +57,16 @@ def forward_two_cycle_indices(meta: list[dict], tolerance: float = 0.05):
 
 
 def jung_window(time, currents, start, end, points=256):
-    """Normalize per-phase midrange, then apply a common scale (five-phase adaptation)."""
+    """Scale current by one positive common peak; preserve physical zero and sign.
+
+    Jung Sec. III-A requires [-1, 1] amplitude normalization while retaining
+    current polarity. Per-phase midrange subtraction in V5 shifted zero-current
+    plateaus away from zero. The exact author's scaler is not published; using
+    one positive scale is an explicit five-phase adaptation.
+    """
     _, x = _interpolate_current_window(time, currents, start, end, points)
-    midpoint = 0.5 * (x.max(axis=1, keepdims=True) + x.min(axis=1, keepdims=True))
-    x = x - midpoint
-    scale = np.abs(x).max()
-    return (x / max(float(scale), 1e-12)).astype(np.float32)
+    scale = float(np.max(np.abs(x)))
+    return (x / max(scale, 1e-12)).astype(np.float32)
 
 
 def hang_trajectory(time, currents, start, end, *,
@@ -90,45 +94,45 @@ def hang_trajectory(time, currents, start, end, *,
 
 
 def _fundamental_thd_rms(time, signal, omega, max_harmonic=30):
-    """Record-wise FFT bin estimate of I1_rms and native harmonic distortion.
+    """Estimate per-phase harmonic RMS from whole *electrical* cycles.
 
-    This is a five-phase engineering implementation of the THD+N concept;
-    it is not the author's unpublished estimation routine.
+    The original V5 used one raw FFT bin of a noninteger-cycle 0.10--0.45s
+    reference, so a pure sinusoid could falsely report several percent THD.
+    This version uses the same electrical phase integral as the dataset's
+    cycle-boundary detector and resamples an integer number of complete
+    reference cycles before FFT. The estimator is an implementation choice:
+    Jung defines THD/THD+N but does not publish this numerical routine.
     """
     t = np.asarray(time, dtype=np.float64)
     x = np.asarray(signal, dtype=np.float64)
     w = np.asarray(omega, dtype=np.float64)
-    if x.ndim != 2 or x.shape[1] != 5 or len(t) != len(x):
-        raise ValueError("expected aligned [T,5] currents")
-    # HUST source recordings contain a prefault healthy reference segment.
-    # Estimate the nominal fundamental/THD from that reference, avoiding the
-    # intrinsic open-switch waveform distortion being counted as sensor noise.
+    if x.ndim != 2 or x.shape[1] != 5 or len(t) != len(x) or len(w) != len(t):
+        raise ValueError("expected aligned time, angular speed and [T,5] currents")
+    if not np.all(np.diff(t) > 0) or not np.isfinite(x).all() or not np.isfinite(w).all():
+        raise ValueError("invalid time/current/speed")
+    # Source simulator has an unfaulted baseline before 0.45 seconds.
     reference = (t >= 0.10) & (t <= 0.45)
-    if reference.sum() >= 128:
-        x, w, t = x[reference], w[reference], t[reference]
-    dt = float(np.median(np.diff(t)))
-    if not np.isfinite(dt) or dt <= 0 or np.any(np.diff(t) <= 0):
-        raise ValueError("time must increase")
-    # Cycling angular speed is supplied by the existing HUST windowing code.
-    f0 = float(np.median(np.abs(w))) / (2 * np.pi)
-    if not 0 < f0 < 0.5 / dt:
-        raise ValueError("invalid fundamental frequency")
-    frequency = np.fft.rfftfreq(len(t), dt)
-    spectrum = np.fft.rfft(x - x.mean(axis=0, keepdims=True), axis=0)
-    # Choose strongest measured bin near nominal f0 to reduce frequency mismatch.
-    near = np.flatnonzero((frequency >= 0.8 * f0) & (frequency <= 1.2 * f0))
-    if not len(near):
-        raise ValueError("no measured fundamental bin")
-    ix = near[np.argmax(np.abs(spectrum[near]).sum(axis=1))]
-    f1 = float(frequency[ix])
-    fundamental = np.sqrt(2.0) * np.abs(spectrum[ix]) / len(t)
-    harmonics_sq = np.zeros(5, dtype=np.float64)
-    for k in range(2, max_harmonic + 1):
-        if k * f1 >= frequency[-1]:
-            break
-        i = int(np.argmin(np.abs(frequency - k * f1)))
-        harmonics_sq += (np.sqrt(2.0) * np.abs(spectrum[i]) / len(t)) ** 2
-    thd = np.sqrt(harmonics_sq) / np.maximum(fundamental, 1e-12)
+    if np.count_nonzero(reference) >= 128:
+        t, x, w = t[reference], x[reference], w[reference]
+    if np.any(w <= 0):
+        raise ValueError("electrical angular speed must be positive")
+    phase = np.r_[0., np.cumsum(0.5 * (w[1:] + w[:-1]) * np.diff(t))]
+    count = int(np.floor((phase[-1] + 1e-9) / (2 * np.pi)))
+    if count < 2:
+        raise ValueError("insufficient complete electrical cycles for THD estimate")
+    samples_per_cycle = 256
+    total = count * samples_per_cycle
+    target_phase = np.arange(total, dtype=np.float64) * (2 * np.pi / samples_per_cycle)
+    coherent = np.stack(
+        [np.interp(target_phase, phase, x[:,j]) for j in range(5)], axis=1
+    )
+    spectrum = np.fft.rfft(coherent - coherent.mean(axis=0,keepdims=True), axis=0)
+    order = np.arange(1, min(max_harmonic, samples_per_cycle // 2 - 1) + 1)
+    rms = (np.sqrt(2.) / total) * np.abs(spectrum[order * count, :])
+    fundamental = rms[0]
+    higher = np.sqrt(np.sum(rms[1:] ** 2, axis=0))
+    thd = np.divide(higher, fundamental, out=np.zeros_like(higher),
+                    where=fundamental > 1e-12)
     return fundamental, thd
 
 
