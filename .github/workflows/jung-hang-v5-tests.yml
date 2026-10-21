@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - research/jung-hang-paper-fidelity-v5
+      - research/jung-paper-fidelity-audit-v6
     paths:
       - "scripts/jung_hang_models_v5.py"
       - "scripts/jung_hang_optim_v5.py"
