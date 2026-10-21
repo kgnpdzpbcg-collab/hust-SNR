@@ -141,3 +141,42 @@ def test_source_only_preflight_audit():
     assert result["healthy_vsd_records"]==1
     assert result["native_thd_median"] < 0.025
     assert result["healthy_vsd_third_to_fundamental_rms_median"] < 0.1
+
+@pytest.mark.parametrize("frequency",[20.0,21.0,22.0,25.0,30.0])
+def test_noninteger_cycle_reference_not_false_thd(frequency):
+    # A fixed 0.1-0.45s FFT leaked at 21/22/25/30Hz.
+    t,c,w=five_phase_record(f0=frequency)
+    amp,thd=_fundamental_thd_rms(t,c,w)
+    np.testing.assert_allclose(amp,1/np.sqrt(2),rtol=0.015)
+    assert float(thd.max()) < 0.01
+
+
+def test_jung_preserves_physical_current_zero_and_sign():
+    t,c,w=five_phase_record(f0=20.0)
+    # Asymmetric nonnegative waveform models blocked negative half-wave:
+    # physical zeros must remain zero after normalization.
+    signal=np.maximum(c,0.0)
+    window=jung_window(t,signal,0.2,0.3,points=256)
+    assert window.min() >= -1e-8
+    assert window.max() <= 1+1e-8
+    zero=np.zeros_like(c)
+    result=jung_window(t,zero,0.2,0.3,points=256)
+    assert np.array_equal(result,np.zeros_like(result))
+
+
+def test_jung_no_fault_phase_gate_for_upper_lower_open():
+    t,c,w=five_phase_record(f0=20.0)
+    rows=[dict(record_id="A",label=1,start=0.5,end=0.9),
+          dict(record_id="A",label=2,start=0.5,end=0.9)]
+    mask=_fault_quiet_mask(t,c,w,rows)
+    assert bool(mask.all())
+
+
+def test_jung_source_checkpoint_uses_clean_validation():
+    from jung_hang_cycle_v5 import select_jung_source_checkpoint
+    history=[
+        {"epoch":1,"clean_f1":0.98,"clean_ce":0.10,"noise_mean_f1":0.93},
+        {"epoch":2,"clean_f1":0.98,"clean_ce":0.08,"noise_mean_f1":0.20},
+        {"epoch":3,"clean_f1":0.97,"clean_ce":0.01,"noise_mean_f1":0.99},
+    ]
+    assert select_jung_source_checkpoint(history)["epoch"] == 2
