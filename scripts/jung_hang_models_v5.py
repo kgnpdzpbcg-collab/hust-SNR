@@ -67,7 +67,7 @@ def jung_window(time, currents, start, end, points=256):
 
 def hang_trajectory(time, currents, start, end, *,
                     points=128, size=40, phase_angles_deg=(0, 72, 144, 216, 288),
-                    quiet_ratio=0.03):
+                    quiet_ratio=0.0):
     """Eq. (6) style per-time |I_alpha_beta| normalization; single image.
 
     Five-phase fundamental VSD stands in for original three-phase Clarke plane.
