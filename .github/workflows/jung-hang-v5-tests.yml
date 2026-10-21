@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - research/jung-hang-paper-fidelity-v5
+      - research/hang-paper-fidelity-audit-v6
     paths:
       - "scripts/jung_hang_models_v5.py"
       - "scripts/jung_hang_optim_v5.py"
       - "scripts/jung_hang_v5_audit.py"
+      - "scripts/hang_v6_source_audit.py"
       - "scripts/compare_jung_hang_v5.py"
       - "scripts/jung_hang_cycle_v5.py"
       - "configs/jung_hang_v5_v1.json"
@@ -30,6 +32,6 @@ jobs:
           python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
       - name: Compile old and V5 modules
         run: |
-          python -m py_compile scripts/jung_hang_models_v3.py scripts/jung_hang_models_v4.py scripts/jung_hang_models_v5.py scripts/compare_jung_hang_v5.py scripts/jung_hang_optim_v5.py scripts/jung_hang_v5_audit.py scripts/jung_hang_cycle_v5.py
+          python -m py_compile scripts/jung_hang_models_v3.py scripts/jung_hang_models_v4.py scripts/jung_hang_models_v5.py scripts/compare_jung_hang_v5.py scripts/jung_hang_optim_v5.py scripts/jung_hang_v5_audit.py scripts/hang_v6_source_audit.py scripts/jung_hang_cycle_v5.py
       - name: Run paper-critical CPU tests
         run: pytest -q tests/test_jung_hang_models_v5.py
