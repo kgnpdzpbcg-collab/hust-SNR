@@ -155,7 +155,9 @@ def _fault_quiet_mask(time, currents, omega, metadata, quiet_ratio=0.03):
                 continue
             rms = np.sqrt(np.maximum(np.convolve(x[sel, p] ** 2, kernel, mode="same"), 0.0))
             reference = float(np.percentile(rms, 95))
-            if reference > 1e-10:
+            if reference <= 1e-10:
+                mask[sel, p] = False
+            else:
                 mask[sel, p] = rms > quiet_ratio * reference
     return mask
 
