@@ -37,7 +37,7 @@
     216,
     288
   ],
-  "hang_quiet_ratio": 0.03,
+  "hang_quiet_ratio": 0,
   "hang_train_snr_db": [
     15,
     20
