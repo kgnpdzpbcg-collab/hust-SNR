@@ -322,6 +322,11 @@ def main():
             conf,ref,paper,prov,raw,metadata,y,clean,vy,val=source_data(args,method)
             print(f"READY {method} source_train={len(y)} input_shape={list(clean.shape)} "
                   f"source_val={len(vy)} val_shape={list(val['clean'].shape)}",flush=True)
+            if method == "hang":
+                from hang_v6_source_audit import compare_hang_normalizers
+                contrast = compare_hang_normalizers(metadata, raw, y, conf)
+                write(args.output/"PREFLIGHT_HANG_SOURCE_COLLISIONS.json",contrast)
+                print("HANG SOURCE-ONLY IMAGE COLLISIONS",contrast,flush=True)
         from jung_hang_v5_audit import audit_source
         audit = audit_source(raw, metadata, conf)
         write(args.output/"PREFLIGHT_PAPER_AUDIT.json",audit)
