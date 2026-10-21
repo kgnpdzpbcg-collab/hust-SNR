@@ -100,6 +100,12 @@ def _fundamental_thd_rms(time, signal, omega, max_harmonic=30):
     w = np.asarray(omega, dtype=np.float64)
     if x.ndim != 2 or x.shape[1] != 5 or len(t) != len(x):
         raise ValueError("expected aligned [T,5] currents")
+    # HUST source recordings contain a prefault healthy reference segment.
+    # Estimate the nominal fundamental/THD from that reference, avoiding the
+    # intrinsic open-switch waveform distortion being counted as sensor noise.
+    reference = (t >= 0.10) & (t <= 0.45)
+    if reference.sum() >= 128:
+        x, w, t = x[reference], w[reference], t[reference]
     dt = float(np.median(np.diff(t)))
     if not np.isfinite(dt) or dt <= 0 or np.any(np.diff(t) <= 0):
         raise ValueError("time must increase")
