@@ -89,6 +89,34 @@ def hang_trajectory(time, currents, start, end, *,
     return _draw_polyline(nx, ny, size, valid=valid)[None].astype(np.float32)
 
 
+
+def hang_trajectory_reference_scaled(time, currents, start, end, *,
+                                     points=128, size=40,
+                                     phase_angles_deg=(0,72,144,216,288)):
+    """Paper-FIGURE-consistent (not Eq.6 literal) normalization for Hang.
+
+    Normalize an ENTIRE alpha/beta trajectory by one positive reference
+    magnitude. Under fault conditions this preserves radial segments, as
+    drawn in the original paper's Figs. 3-4. Dividing each time point by
+    its own magnitude collapses every nonzero vector to a unit circle,
+    which cannot generate those radial segments.
+
+    The paper does not explicitly state how the fault-state reference
+    amplitude is calculated; the maximum trajectory radius here is an
+    identified implementation assumption. Do not call it author code.
+    """
+    _, segment = _interpolate_current_window(time, currents, start, end, points)
+    comp = five_phase_vsd(segment.T, tuple(phase_angles_deg))
+    alpha, beta = comp[0], comp[1]
+    norm = np.hypot(alpha, beta)
+    scale = float(norm.max())
+    if scale <= 1e-12:
+        return np.zeros((1, size, size), dtype=np.float32)
+    nx, ny = alpha / scale, beta / scale
+    valid = np.isfinite(nx) & np.isfinite(ny)
+    return _draw_polyline(nx, ny, size, valid=valid)[None].astype(np.float32)
+
+
 def _fundamental_thd_rms(time, signal, omega, max_harmonic=30):
     """Record-wise FFT bin estimate of I1_rms and native harmonic distortion.
 
