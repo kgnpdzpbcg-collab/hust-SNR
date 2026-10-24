@@ -1,0 +1,92 @@
+{
+  "paper_path": "D:\\project\\大小模型协同项目\\会议论文\\论文稿\\AHR_Net_中文会议论文_V3.13.docx",
+  "paper_sha256": "65ddd8cfd531a5d81410cfbe9033c4ebc280f66d1f2a0bd323b964f09ab8effb",
+  "models": [
+    {
+      "method": "cnn1d_plain",
+      "display": "Plain CNN1D",
+      "family": "reference",
+      "group": "main"
+    },
+    {
+      "method": "resnet1d",
+      "display": "ResNet1D",
+      "family": "reference",
+      "group": "main"
+    },
+    {
+      "method": "xu_full",
+      "display": "Xu-Full",
+      "family": "reference",
+      "group": "main"
+    },
+    {
+      "method": "resnet_lp4",
+      "display": "ResNet+LP4",
+      "family": "reference",
+      "group": "main"
+    },
+    {
+      "method": "b0",
+      "display": "HR-Net (B0)",
+      "family": "reference",
+      "group": "main"
+    },
+    {
+      "method": "jung",
+      "display": "Jung V4",
+      "family": "jung",
+      "group": "main"
+    },
+    {
+      "method": "b1",
+      "display": "AHR-Net (B1)",
+      "family": "reference",
+      "group": "main"
+    },
+    {
+      "method": "a1_fixed_lp4_dual",
+      "display": "A1: Fixed LP4 + dual views",
+      "family": "ablation",
+      "group": "ablation"
+    },
+    {
+      "method": "a2_fixed_noise_proxy",
+      "display": "A2: Fixed high-band power statistic",
+      "family": "ablation",
+      "group": "ablation"
+    },
+    {
+      "method": "a3_no_interphase_descriptors",
+      "display": "A3: No interphase descriptors",
+      "family": "ablation",
+      "group": "ablation"
+    },
+    {
+      "method": "a4_md_only",
+      "display": "A4: Shape view only",
+      "family": "ablation",
+      "group": "ablation"
+    },
+    {
+      "method": "a5_no_strength_loss",
+      "display": "A5: No relative-strength loss",
+      "family": "ablation",
+      "group": "ablation"
+    }
+  ],
+  "seeds": [
+    42,
+    44
+  ],
+  "conditions_db": [
+    5,
+    0,
+    -5,
+    -10
+  ],
+  "evaluations": 96,
+  "Jung_version_binding": "Jung V4 a0c78d8; paper values match historic Dev seed42; evaluate BOTH 42 and 44 in this run",
+  "primary_table_other_models_seed": 44,
+  "holdout_not_used_to_select_scope": true
+}

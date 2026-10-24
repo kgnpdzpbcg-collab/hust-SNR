@@ -1,0 +1,90 @@
+[
+  {
+    "accuracy": 0.914193143812709,
+    "display": "Jung V4",
+    "family": "jung",
+    "group": "main",
+    "macro_f1": 0.8784061207474245,
+    "method": "jung",
+    "prediction_replay_exact": true,
+    "seed": 42,
+    "snr_db": 5
+  },
+  {
+    "accuracy": 0.8691471571906354,
+    "display": "Jung V4",
+    "family": "jung",
+    "group": "main",
+    "macro_f1": 0.7985501883606871,
+    "method": "jung",
+    "prediction_replay_exact": true,
+    "seed": 44,
+    "snr_db": 5
+  },
+  {
+    "accuracy": 0.7559573578595318,
+    "display": "Jung V4",
+    "family": "jung",
+    "group": "main",
+    "macro_f1": 0.6693410629704788,
+    "method": "jung",
+    "prediction_replay_exact": true,
+    "seed": 42,
+    "snr_db": 0
+  },
+  {
+    "accuracy": 0.750940635451505,
+    "display": "Jung V4",
+    "family": "jung",
+    "group": "main",
+    "macro_f1": 0.6707344559117442,
+    "method": "jung",
+    "prediction_replay_exact": true,
+    "seed": 44,
+    "snr_db": 0
+  },
+  {
+    "accuracy": 0.4887123745819398,
+    "display": "Jung V4",
+    "family": "jung",
+    "group": "main",
+    "macro_f1": 0.39465393907009,
+    "method": "jung",
+    "prediction_replay_exact": true,
+    "seed": 42,
+    "snr_db": -5
+  },
+  {
+    "accuracy": 0.543373745819398,
+    "display": "Jung V4",
+    "family": "jung",
+    "group": "main",
+    "macro_f1": 0.4258185422773961,
+    "method": "jung",
+    "prediction_replay_exact": true,
+    "seed": 44,
+    "snr_db": -5
+  },
+  {
+    "accuracy": 0.32953595317725753,
+    "display": "Jung V4",
+    "family": "jung",
+    "group": "main",
+    "macro_f1": 0.2612124822110677,
+    "method": "jung",
+    "prediction_replay_exact": true,
+    "seed": 42,
+    "snr_db": -10
+  },
+  {
+    "accuracy": 0.43070652173913043,
+    "display": "Jung V4",
+    "family": "jung",
+    "group": "main",
+    "macro_f1": 0.29521693481037586,
+    "method": "jung",
+    "prediction_replay_exact": true,
+    "seed": 44,
+    "snr_db": -10
+  }
+]

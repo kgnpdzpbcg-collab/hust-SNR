@@ -1,0 +1,10 @@
+{
+  "elapsed_seconds": 44.05864367005415,
+  "evaluations": 96,
+  "fixed_weights": 24,
+  "pid": 3365566,
+  "protocol": "hust-v313-final-holdout-fixed-best-42-44-20261024",
+  "retrained": false,
+  "stage": "verified",
+  "status": "completed"
+}

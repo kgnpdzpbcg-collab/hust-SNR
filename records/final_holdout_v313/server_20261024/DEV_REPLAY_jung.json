@@ -1,0 +1,20 @@
+[
+  {
+    "epoch": 47,
+    "macro_f1": 0.8770366323347906,
+    "method": "jung",
+    "prediction_exact": true,
+    "seed": 42,
+    "weights_sha256": "4bf9ad10bdfb490304101d43e9c5da42f9aab9bccb576909794732db28c1f683",
+    "windows": 2474
+  },
+  {
+    "epoch": 46,
+    "macro_f1": 0.8005254244619228,
+    "method": "jung",
+    "prediction_exact": true,
+    "seed": 44,
+    "weights_sha256": "5d88a2a8d7964145dcc7151fc42614dbf1a518791ccfb46bc31bd3eb234d0c4d",
+    "windows": 2474
+  }
+]

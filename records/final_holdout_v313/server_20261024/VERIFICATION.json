@@ -1,0 +1,28 @@
+{
+  "a2_target_recalibration": false,
+  "all_models_same_record_ids_windows_labels": true,
+  "checkpoint_reselected": false,
+  "class_counts": [
+    4294,
+    1149,
+    1159,
+    1166,
+    892,
+    908
+  ],
+  "cycles_per_condition": 9568,
+  "dev_replay_models_before_holdout": 24,
+  "evaluations": 96,
+  "final_holdout_evaluated": true,
+  "fixed_best_weights": 24,
+  "holdout_records": 347,
+  "independent_numpy_metrics_verified": 96,
+  "input_file_sha256_unchanged": true,
+  "max_whole_record_per_phase_snr_error_db": 3.9968028886505635e-14,
+  "model_parameters_and_bn_unchanged": true,
+  "prediction_replays_exact": 96,
+  "retrained": false,
+  "status": "passed",
+  "target_used_for_training_or_selection": false,
+  "weight_and_archived_code_sha256_unchanged": true
+}

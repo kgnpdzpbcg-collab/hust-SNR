@@ -2,12 +2,24 @@
 
 HUST五相IM-AA数据的实验配置、指标记录、数据解析及波形图。
 
+- [论文V3.13：347条Final-Holdout固定权重评价](docs/FINAL_HOLDOUT_V313_FIXED_WEIGHTS_20261024.md)
 - [实验配置与完整结果](docs/EXPERIMENT_RECORD.md)
 - [数据字段及解析](docs/DATA_PARSING.md)
 - [六类波形图](docs/WAVEFORMS.md)
 - [逐种子结果CSV](records/gate0_v1/PER_SEED_RESULTS.csv)
 - [冻结配置](configs/protocol_gate0_v1.json)
 - [数据划分清单](configs/splits_gate0_v1.json)
+
+## 论文V3.13 Final-Holdout（2026-10-24）
+
+已在原服务器完成7个主对比模型及5项消融、种子42/44、5/0/−5/−10 dB共96组固定权重评价。347条记录每档形成9568个周期；复用24份既有最佳权重，没有训练、重新选模或目标域统计量重标定。
+
+- [两种子分开展示的完整结果](records/final_holdout_v313/server_20261024/SERVER_RESULTS.md)
+- [96行逐种子指标](records/final_holdout_v313/server_20261024/results/reports/PER_SEED_RESULTS.csv) · [576行类别指标](records/final_holdout_v313/server_20261024/results/reports/PER_CLASS_RESULTS.csv)
+- [完整预测及混淆矩阵](records/final_holdout_v313/server_20261024/results/evaluations/) · [服务器核验](records/final_holdout_v313/server_20261024/VERIFICATION.json) · [本地核验](records/final_holdout_v313/server_20261024/LOCAL_VERIFICATION.json)
+- [固定配置](configs/final_holdout_v313_fixed_weights_20261024.json) · [评价代码](scripts/evaluate_final_holdout_v313.py)
+
+本轮347条Final-Holdout已完成评价。下文及旧实验文档中的“未评估”保留各次历史实验当时的状态；本次记录不覆盖旧Dev结果。上传内容为配置、代码、指标、预测及核验元数据，不包含原始电流、模型权重或输入缓存。
 
 ## 本轮指标
 

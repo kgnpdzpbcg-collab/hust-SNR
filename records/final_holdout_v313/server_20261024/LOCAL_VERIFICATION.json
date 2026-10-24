@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "archive_sha256": "75542fd3f99962145de640e81ba7926f82c8fd5a1e2697166dcc4e50a135665a",
+  "prediction_files_verified": 96,
+  "all_windows_and_labels_exact": true,
+  "holdout_records": 347,
+  "cycles_per_condition": 9568,
+  "dev_disjoint": true,
+  "metrics_independently_recomputed_using_python_counter": true,
+  "script_matches_server": true,
+  "raw_waveforms_downloaded": false,
+  "weights_downloaded": false
+}

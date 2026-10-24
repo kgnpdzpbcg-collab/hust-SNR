@@ -1,0 +1,38 @@
+{
+  "protocol": "hust-v313-final-holdout-fixed-best-42-44-20261024",
+  "date": "2026-10-24",
+  "paper_path": "D:/project/大小模型协同项目/会议论文/论文稿/AHR_Net_中文会议论文_V3.13.docx",
+  "paper_sha256": "65ddd8cfd531a5d81410cfbe9033c4ebc280f66d1f2a0bd323b964f09ab8effb",
+  "seeds": [42, 44],
+  "conditions_db": [5, 0, -5, -10],
+  "batch_size": 128,
+  "holdout_record_count": 347,
+  "split_sha256": "5fccf11264d097aaa704030c16e9007323baaa57e613b1fa13f652a1a7b43707",
+  "source_split_sha256": "4a0c76fd8a9c9ff6dbf40c7413a8ec50cbf71694b6dcf1f324e06a97337eed3d",
+  "window_rule": "unchanged prepare.windows: healthy 0.1..0.45 s; fault after two electrical cycles following 0.5 s, until 0.98 s",
+  "noise_rule": "reuse existing all-440 generated files; whole-record per-phase author-10dB residual scaling; no new noise",
+  "checkpoint_rule": "existing source-validation-selected best.pt; strict state load; eval and inference_mode only",
+  "dev_replay_before_holdout": true,
+  "model_training": false,
+  "checkpoint_selection": false,
+  "a2_recalibration": false,
+  "families": {
+    "reference": "source_cycle_benchmark/4728e9b",
+    "ablation": "b1_paper_ablations/d9947f0_20261016",
+    "jung": "jung_hang_cycle_v4/a0c78d8_20261019"
+  },
+  "models": [
+    {"method": "cnn1d_plain", "display": "Plain CNN1D", "family": "reference", "group": "main"},
+    {"method": "resnet1d", "display": "ResNet1D", "family": "reference", "group": "main"},
+    {"method": "xu_full", "display": "Xu-Full", "family": "reference", "group": "main"},
+    {"method": "resnet_lp4", "display": "ResNet+LP4", "family": "reference", "group": "main"},
+    {"method": "b0", "display": "HR-Net (B0)", "family": "reference", "group": "main"},
+    {"method": "jung", "display": "Jung V4", "family": "jung", "group": "main"},
+    {"method": "b1", "display": "AHR-Net (B1)", "family": "reference", "group": "main"},
+    {"method": "a1_fixed_lp4_dual", "display": "A1: Fixed LP4 + dual views", "family": "ablation", "group": "ablation"},
+    {"method": "a2_fixed_noise_proxy", "display": "A2: Fixed high-band power statistic", "family": "ablation", "group": "ablation"},
+    {"method": "a3_no_interphase_descriptors", "display": "A3: No interphase descriptors", "family": "ablation", "group": "ablation"},
+    {"method": "a4_md_only", "display": "A4: Shape view only", "family": "ablation", "group": "ablation"},
+    {"method": "a5_no_strength_loss", "display": "A5: No relative-strength loss", "family": "ablation", "group": "ablation"}
+  ]
+}
